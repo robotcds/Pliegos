@@ -139,14 +139,14 @@ class PresalesCoverageTests(unittest.TestCase):
             self.assertEqual(saved['respuesta_api'], raw)
             self.assertEqual(saved['intento'], 1)
 
-    def test_login_credentials_use_code_constants_and_keep_url_and_tenant_configuration(self):
+    def test_login_credentials_use_environment_and_keep_url_and_tenant_configuration(self):
         with patch.dict(app.os.environ, {'DRUID_USERNAME':'otro_usuario', 'DRUID_PASSWORD':'otra_clave',
                                         'DRUID_AUTH_URL':'https://druid.invalid/login', 'DRUID_TENANT':'tenant-prueba'}), \
                 patch.object(app, 'DRUID_USERNAME_FALLBACK', 'usuario_codigo'), \
                 patch.object(app, 'DRUID_PASSWORD_FALLBACK', 'clave_codigo'):
             config = app.get_druid_config()
-        self.assertEqual(config['username'], 'usuario_codigo')
-        self.assertEqual(config['password'], 'clave_codigo')
+        self.assertEqual(config['username'], 'otro_usuario')
+        self.assertEqual(config['password'], 'otra_clave')
         self.assertEqual(config['auth_url'], 'https://druid.invalid/login')
         self.assertEqual(config['tenant'], 'tenant-prueba')
 

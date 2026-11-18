@@ -74,7 +74,7 @@ class RegistryNormalizationTests(unittest.TestCase):
                     else:
                         result = app.run_agent_layers(tender, documents, [], {}, 'token', '1')
                         self.assertEqual(result[0][1], good)
-                archived = list((root/'extraccion').glob('*.json'))
+                archived = list(root.rglob('formato_rechazado_*.json'))
                 self.assertEqual(len(archived), 3 if should_fail else 1)
                 self.assertEqual(json.loads(archived[0].read_text(encoding='utf8'))['respuesta_original'], bad)
                 self.assertIn('_registry_recovery_error', calls[1])

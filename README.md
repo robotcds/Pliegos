@@ -1,5 +1,40 @@
 # Pliegos
 
+## Entregas guardadas y reanudación
+
+Los 12 especialistas procesan entradas grandes por entregas de hasta 50.000 caracteres
+por documento, con solapamiento y referencias de origen. Cada respuesta completa se
+guarda antes de pasar a la siguiente. Un HTTP 504 o timeout divide solo la entrega
+pendiente, hasta un mínimo de 6.000 caracteres. No se recupera texto de una llamada
+fallida ni se cancela automáticamente el trabajo que pueda seguir activo en Druid.
+
+```powershell
+python oportunidades.py --capa 1
+# Si se interrumpe, usa la carpeta que imprimió ESA ejecución:
+python oportunidades.py --capa 1 --reanudar "resumenes/CARPETA_DE_LA_EJECUCION"
+```
+
+Para capa 2 usa `--capa todas` también al reanudar. Los checkpoints están en
+`entregas/`; se comprueba que documentos, instrucciones y destino de Druid coincidan.
+Una ejecución anterior a esta función no tiene checkpoints de entregas reutilizables.
+Los JSON y el informe final se vuelven a componer a partir de respuestas guardadas.
+
+Los extractores conservan las entregas completas; las ausencias en un bloque no son
+exenciones del expediente. A1 y los analistas de capa 2 añaden síntesis acotadas.
+Para informes grandes, el redactor redacta y revisa por bloques; integra además los
+registros originales mediante comprobaciones locales de cobertura. Las síntesis no
+certifican exhaustividad semántica ni eliminan los registros completos.
+
+Esta modalidad aumenta el número de llamadas y puede aumentar el coste total.
+Si incluso el bloque mínimo agota el tiempo, se detiene conservando lo terminado.
+No garantiza una duración inferior a 100 segundos. El timeout puede dejar trabajo
+activo en el servidor; no existe una operación de cancelación confirmada.
+
+Configuración opcional: `DRUID_DELIVERY_CHARS=50000` y
+`DRUID_DELIVERY_MIN_CHARS=6000`. Para cambiar esos tamaños después de empezar,
+inicia una ejecución nueva. Los textos pequeños conservan una sola entrega.
+
+
 ## Precisión y cobertura documental de capa 1
 
 Los extractores y el redactor comparten reglas ampliadas de fases/documentación,
@@ -373,7 +408,7 @@ especialidades, sin índices de salida contradictorios. Los prompts separan fase
 obligaciones, criterios, unidades, bases de penalización y discrepancias pendientes.
 Las páginas numéricas se refuerzan dentro de la misma solicitud completa; las
 tablas PDF incorporan además las filas que pueden alinearse por sus coordenadas,
-conservando también el texto original. No se fragmenta el trabajo de un agente.
+conservando también el texto original. El trabajo grande se divide en entregas guardadas, conservando el texto y las fuentes.
 
 El control de cobertura conserva los registros y también los hechos que un agente
 haya dejado en otras tablas o párrafos. Se aplica a los JSON individuales, al
@@ -383,10 +418,9 @@ Estos controles evitan pérdidas entre formatos; no prueban por sí solos que el
 modelo haya extraído todo el pliego o interpretado correctamente cada cláusula.
 
 El índice auxiliar de cifras no repite páginas completas: señala su ubicación y
-conserva líneas numéricas, mientras los documentos originales siguen íntegros en
-la misma solicitud. Ante un HTTP 504, los reintentos aumentan el tiempo interno
-de Druid y el tiempo de espera HTTP (hasta 900 segundos, o el valor configurado si
-es mayor). Esto no modifica los posibles límites del gateway del servicio.
+conserva líneas numéricas, mientras el texto original se reparte entre entregas trazables. Ante un HTTP 504,
+una entrega pendiente se divide; no se repite tres veces la misma petición grande.
+Esto no modifica los límites del gateway del servicio.
 Los prompts se envían una sola vez mediante `Payload.Messages`. Se comprobó con
 la operación configurada que también acepta la petición sin `MessagesJSON`;
 enviar ambos duplicaba el tamaño del cuerpo HTTP. Los diagnósticos de error

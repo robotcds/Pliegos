@@ -13,6 +13,11 @@ from pypdf import PdfReader
 
 class LayerTests(unittest.TestCase):
     def setUp(self):
+        self.workspace = tempfile.TemporaryDirectory()
+        self.addCleanup(self.workspace.cleanup)
+        root_mock = patch.object(app, 'ROOT', Path(self.workspace.name))
+        root_mock.start()
+        self.addCleanup(root_mock.stop)
         review_mock = patch('documentary_audit.review_extraction', side_effect=lambda aid, raw, *args: (raw, None))
         review_mock.start()
         self.addCleanup(review_mock.stop)
@@ -69,8 +74,8 @@ class LayerTests(unittest.TestCase):
         self.assertEqual(order[:8], [row[0] for row in LAYER_ONE])
         self.assertEqual(len(order), 12)
         self.assertEqual(len(result), 12)
-        for docs in inputs:
-            self.assertEqual(len(docs), 7)
+        for index, docs in enumerate(inputs):
+            self.assertEqual(len(docs), [7, 7, 9, 10][index])
             combined = "\n".join(d.text for d in docs)
             self.assertNotIn("MARCADOR_DOCUMENTO_ORIGINAL", combined)
             self.assertNotIn("EXTRACCION_A1 |", combined)
@@ -160,7 +165,7 @@ class LayerTests(unittest.TestCase):
             recs.assert_not_called()
             self.assertFalse(sections.documentary_reviews)
             for record in sections.processing_records.values():
-                self.assertEqual(record['modo'], 'prompt_unico_documentos_completos')
+                self.assertEqual(record['modo'], 'entregas_guardadas')
                 self.assertFalse(record['documentos'][0]['texto_compactado'])
 
     def test_exact_capa1_command_saves_all_agents_and_generates_legible_pdf(self):

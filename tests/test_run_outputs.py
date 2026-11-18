@@ -2,9 +2,21 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
-from run_outputs import begin_run, output_directory, output_session, execution_id
+from run_outputs import begin_run, resume_run, output_directory, output_session, execution_id
 
 class RunOutputsTests(unittest.TestCase):
+    def test_resume_keeps_id_and_rejects_other_tender(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            with output_session():
+                directory = begin_run(Path(tmp), 'TEST', '1')
+                identifier = execution_id()
+            with output_session():
+                resume_run(directory, 'TEST', '1')
+                self.assertEqual(execution_id(), identifier)
+                self.assertEqual(output_directory(Path(tmp)), directory.resolve())
+            with self.assertRaises(ValueError):
+                resume_run(directory, 'OTHER', '1')
+
     def test_same_tender_runs_are_isolated_and_inventory_is_saved(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

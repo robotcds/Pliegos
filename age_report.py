@@ -455,6 +455,12 @@ def compose_extraction_report(payload):
 
 def generate_age_report(payload, path, config, token, call):
     """Archiva el JSON íntegro y redacta con toda la extracción, sin copias derivadas."""
+    if (any(a.get('registro_procesamiento', {}).get('modo') == 'entregas_guardadas'
+            for a in payload.get('agentes', []))
+            and len(json.dumps(payload, ensure_ascii=False)) > 50000
+            and not payload.get('revision_preventa')):
+        from editorial_deliveries import generate_editorial_deliveries
+        return generate_editorial_deliveries(payload, path, config, token, call)
     prompt = PROMPT_PATH.read_text(encoding='utf-8') + editorial_requirements()
     full_source = json.dumps(payload, ensure_ascii=False, indent=2)
     payload = editorial_source_payload(payload)

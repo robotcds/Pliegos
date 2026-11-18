@@ -21,6 +21,10 @@ def execution_id():
     run = _current.get()
     return run[1]["id"] if run else uuid4().hex
 
+
+def has_active_run():
+    return _current.get() is not None
+
 def begin_run(root, expediente, mode):
     identifier = uuid4().hex
     name = re.sub(r"[^\w.-]+", "_", str(expediente)).strip("._")[:100] or "sin_expediente"
@@ -31,6 +35,21 @@ def begin_run(root, expediente, mode):
     _current.set((directory, record))
     _save(directory, record)
     print(f"Carpeta de esta ejecución: {directory}")
+    return directory
+
+
+def resume_run(directory, expediente, mode):
+    directory = Path(directory).expanduser().resolve()
+    record = json.loads((directory / 'ejecucion.json').read_text(encoding='utf-8'))
+    if record['expediente'] != expediente or record['modo'] != mode:
+        raise ValueError('La ejecución a reanudar pertenece a otro expediente o capa')
+    record['estado'] = 'en_curso'
+    record.pop('fin', None)
+    record.pop('error_tipo', None)
+    record['reanudaciones'] = record.get('reanudaciones', 0) + 1
+    _current.set((directory, record))
+    _save(directory, record)
+    print(f'Reanudando ejecución: {directory}')
     return directory
 
 def _save(directory, record):
