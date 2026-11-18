@@ -1,0 +1,188 @@
+{
+  "respuesta_original": "{\"expediente\":\"REAL-Licitacion1\",\"agentes_revisados\":[\"A1\",\"A2\",\"A3\",\"A4\",\"A6\",\"A8\",\"A9\",\"A10\"],\"introduccion\":[\"El expediente administrativo 300/2026/00009, promovido por el Ayuntamiento de Madrid, regula la contratación del servicio de Asistente Virtual de Participación Ciudadana para Decide Madrid. El objeto es la implantación, operación y evolución tecnológica de un asistente conversacional, con integración en el portal, atención humana y soporte cloud, bajo el identificador interno REAL-Licitacion1. El alcance abarca tanto la puesta en marcha como el mantenimiento, la formación y la transferencia final, con requisitos técnicos, económicos y de seguridad detallados en los pliegos.\",\"La duración inicial del contrato es de 24 meses, con un presupuesto base de 181.595,44 € sin IVA y 219.730,48 € con IVA, y un valor estimado de 408.918,11 €. Se prevén prórrogas de 24 y 12 meses, hasta un máximo de 60 meses, condicionadas a acuerdo expreso y subsistencia de la necesidad. La oferta debe respetar límites independientes para el fijo, el variable y la tarifa de evolución tecnológica, y la facturación se ajusta a hitos y consumo real, sin ingreso garantizado por la bolsa de horas.\",\"El modelo de prestación exige integración cloud, cumplimiento de requisitos de seguridad ENS básico, cobertura de atención humana, formación, soporte y transferencia de conocimiento. Se establecen obligaciones esenciales y condiciones especiales de ejecución, así como penalizaciones por indisponibilidad y retrasos. Existen discrepancias documentales pendientes de aclaración en la totalización de la bolsa de horas, la aplicación de IaC y el régimen de borrado de datos, que requieren atención en la preparación de la oferta. [ID_188_1.PDF, ID_188_2.PDF, ID_188_3.PDF]\"],\"secciones\":[{\"titulo\":\"Datos principales de la licitación\",\"bloques\":[{\"tipo\":\"tabla\",\"columnas\":[\"Concepto\",\"Información\"],\"filas\":[[\"Expediente administrativo\",\"300/2026/00009\"],[\"Órgano de contratación\",\"Ayuntamiento de Madrid\"],[\"Objeto\",\"Asistente Virtual de Participación Ciudadana de Decide Madrid\"],[\"Presupuesto base (sin IVA)\",\"181.595,44 €\"],[\"Presupuesto base (con IVA)\",\"219.730,48 €\"],[\"Valor estimado\",\"408.918,11 €\"],[\"Duración inicial\",\"24 meses\"],[\"Prórrogas\",\"24 y 12 meses (máximo 60 meses)\"],[\"Fecha de inicio prevista\",\"01/09/2026 o formalización\"],[\"Lotes\",\"No consta\"],[\"CPV\",\"No localizado\"],[\"Procedimiento\",\"No localizado\"],[\"Fecha límite presentación\",\"16/06/2026 23:59 (documental)\"],[\"Presentación\",\"Electrónica (PLACSP)\"]]}]},{\"titulo\":\"Presentación y documentación por fase\",\"bloques\":[{\"tipo\":\"parrafo\",\"texto\":\"La presentación de ofertas se realiza electrónicamente a través de la Plataforma de Contratación del Sector Público (PLACSP). La documentación se estructura en tres sobres electrónicos: Sobre A (documentación administrativa), Sobre B (memoria técnica de juicio de valor) y Sobre C (oferta económica y mejoras automáticas).\"},{\"tipo\":\"lista\",\"elementos\":[\"Sobre A: DEUC firmado, declaraciones aplicables, Anexo VI (empresas vinculadas), Anexo X (compromiso), compromisos UTE, declaraciones de entidades externas, declaraciones laborales/sociales/igualdad. No se exigen nombres ni cualificación del equipo en esta fase.\",\"Sobre B: Memoria técnica de juicio de valor, máximo 40 páginas (incluidos índice y anexos), márgenes mínimos de 2 cm, interlineado sencillo, letra mínima 11 puntos. Las páginas excedentes no se valoran, pero no implican exclusión automática. No debe incluir información de valoración automática.\",\"Sobre C: Oferta económica (Anexo II), desglose de fijo, variable, tarifa e IVA, y mejoras automáticas (ampliación de horario, horas gratuitas).\"],\"referencia\":\"[ID_188_2.PDF, páginas PDF 18-21, 24, 65-69, 73; ID_188_3.PDF, página PDF 28]\"},{\"tipo\":\"parrafo\",\"texto\":\"La prueba efectiva de medios, solvencia y equipo se exige solo al propuesto adjudicatario antes de adjudicar, en un plazo de diez días hábiles desde el requerimiento. La documentación debe presentarse en castellano. Se distinguen defectos subsanables (tres días para corregir, cinco para aclaraciones) de la falta de requisitos, que implica inadmisión. No se admiten variantes. [ID_188_2.PDF, páginas PDF 24, 67-69, 73, 79]\"}]},{\"titulo\":\"Alcance técnico, actividades y entregables\",\"bloques\":[{\"tipo\":\"parrafo\",\"texto\":\"El servicio abarca la implantación, operación y evolución de un asistente virtual integrado en Decide Madrid, con atención 24/7/365 y soporte cloud. Se exige capacidad mínima de 50 conversaciones simultáneas y 15.000 mensajes mensuales, con picos asociados a procesos participativos. [ID_188_3.PDF, páginas PDF 6, 13]\"},{\"tipo\":\"tabla\",\"columnas\":[\"Año\",\"Personas\",\"Mensajes\"],\"filas\":[[\"2023\",\"6.246\",\"27.083\"],[\"2024\",\"4.490\",\"46.723\"],[\"2025 (hasta 30/11)\",\"2.552\",\"26.784\"]],\"referencia\":\"[ID_188_3.PDF, páginas PDF 6, 13]\"},{\"tipo\":\"parrafo\",\"texto\":\"El asistente se integra mediante script en todas las secciones del portal, sustituyendo el buscador tradicional y funcionando en navegadores estándar, tanto en dispositivos fijos como móviles. Se exige compatibilidad IAM y mecanismos de mejora de respuestas del LLM (RAG, prompts, fine-tuning como ejemplos). Se mantiene documentación actualizada de flujos, agentes y configuraciones, con revisión diaria en laborables. [ID_188_3.PDF, páginas PDF 12-15, 18]\"},{\"tipo\":\"parrafo\",\"texto\":\"La solución debe permitir supervisión, corrección de errores y mejora continua, con almacenamiento anonimizado de conversaciones y aviso de privacidad al usuario. Se habilita panel cloud para estadísticas, trazabilidad, informes, intervención humana y encuestas anónimas, accesible a al menos cinco usuarios DGPC. [ID_188_3.PDF, páginas PDF 14, 15, 19]\"},{\"tipo\":\"parrafo\",\"texto\":\"Se exige formación inicial de al menos 20 horas para hasta 20 asistentes DGPC, presencial o telemática, y formación de actualización durante el contrato. La accesibilidad debe cumplir UNE 139803:2012 (AA WCAG 2.0) y RD 1494/2007 y 1112/2018, con declaración responsable en siete días desde inicio. [ID_188_3.PDF, páginas PDF 16, 17, 19, 20]\"},{\"tipo\":\"parrafo\",\"texto\":\"La arquitectura debe ser contenerizable, con entornos de producción y preproducción obligatorios, y despliegue inicial/redespliegue por IaC y Git IAM. La preferencia por IaC con excepción justificada requiere aclaración. [ID_188_3.PDF, páginas PDF 30, 33]\"},{\"tipo\":\"parrafo\",\"texto\":\"El uso de la Plataforma del Dato es obligatorio para proyectos con información municipal, priorizando datasets existentes. Los cuadros de mando se desarrollan en Power BI Premium (licenciado por IAM), aportando el adjudicatario las licencias Power BI Pro necesarias. [ID_188_3.PDF, páginas PDF 43-45]\"},{\"tipo\":\"parrafo\",\"texto\":\"El mantenimiento incluye preventivo, correctivo y evolutivo, y la bolsa de consultoría avanzada financia proyectos de evolución tecnológica. La facturación de la bolsa se realiza por trabajos finalizados y horas justificadas, sin obligación de agotar la bolsa ni de exceder los límites anuales. [ID_188_3.PDF, páginas PDF 17, 18; ID_188_2.PDF, páginas PDF 56, 60, 61]\"},{\"tipo\":\"parrafo\",\"texto\":\"En los dos últimos meses se realiza la transferencia de conocimiento, entrega de desarrollos, modelos, datos y registros, y se propone borrado seguro con certificado de destrucción para sistemas con información municipal. [ID_188_3.PDF, páginas PDF 9, 40, 43]\"}]}],\"conclusion\":[\"**DOCUMENTALMENTE ESTABLECIDO:** El contrato regula la implantación, operación y evolución de un asistente virtual para Decide Madrid, con integración cloud, atención humana, formación y transferencia final, bajo condiciones técnicas, económicas y de seguridad detalladas en los pliegos.\",\"**PUNTO CRÍTICO DE ADJUDICACIÓN:** La oferta debe respetar los límites independientes de fijo, variable y tarifa de evolución tecnológica, y la facturación se ajusta a hitos y consumo real, sin ingreso garantizado por la bolsa de horas. La valoración técnica y las mejoras ofertables (ampliación de horario, horas gratuitas) son determinantes para la adjudicación.\",\"**PUNTO RELEVANTE:** La solvencia técnica exige trabajos similares por importe igual o superior al presupuesto base en los tres últimos años, y la solvencia económica requiere volumen anual mínimo de negocios igual al presupuesto base en el mejor ejercicio de los tres últimos años. ROLECE puede eximir documentalmente en los ámbitos inscritos y actualizados.\",\"**PUNTO RELEVANTE:** El equipo mínimo incluye nueve personas en siete perfiles, con requisitos específicos de titulación y experiencia, y la cobertura de ausencias es obligatoria durante toda la atención. La constitución y acreditación del equipo se exige solo al propuesto adjudicatario antes de adjudicar.\",\"**PUNTO RELEVANTE:** Se establecen penalizaciones por indisponibilidad y retrasos, y la garantía definitiva es del 5 % del precio final ofertado sin IVA, con una complementaria del 1 % para ofertas incursas en presunción de anormalidad. La garantía del servicio es de 12 meses desde la recepción.\",\"**CONTRADICCIÓN / AMBIGÜEDAD:** Existen discrepancias documentales pendientes de aclaración en la totalización de la bolsa de horas (descuadre de 1,53 €), la aplicación de IaC (obligatorio o preferente) y el régimen de borrado de datos (ámbitos y soportes).\",\"**NO LOCALIZADO:** No consta exigencia expresa de clasificación, CPV, procedimiento ni lotes. La información sobre productos, partnerships y certificaciones ISO/ENS se limita a lo documentado en los pliegos.\",\"**DECISIÓN INTERNA REQUERIDA:** Se recomienda revisar las condiciones de presentación, acreditación y mejoras ofertables, así como las discrepancias señaladas, antes de preparar la oferta definitiva.\"]}",
+  "json": {
+    "expediente": "REAL-Licitacion1",
+    "agentes_revisados": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "introduccion": [
+      "El expediente administrativo 300/2026/00009, promovido por el Ayuntamiento de Madrid, regula la contratación del servicio de Asistente Virtual de Participación Ciudadana para Decide Madrid. El objeto es la implantación, operación y evolución tecnológica de un asistente conversacional, con integración en el portal, atención humana y soporte cloud, bajo el identificador interno REAL-Licitacion1. El alcance abarca tanto la puesta en marcha como el mantenimiento, la formación y la transferencia final, con requisitos técnicos, económicos y de seguridad detallados en los pliegos.",
+      "La duración inicial del contrato es de 24 meses, con un presupuesto base de 181.595,44 € sin IVA y 219.730,48 € con IVA, y un valor estimado de 408.918,11 €. Se prevén prórrogas de 24 y 12 meses, hasta un máximo de 60 meses, condicionadas a acuerdo expreso y subsistencia de la necesidad. La oferta debe respetar límites independientes para el fijo, el variable y la tarifa de evolución tecnológica, y la facturación se ajusta a hitos y consumo real, sin ingreso garantizado por la bolsa de horas.",
+      "El modelo de prestación exige integración cloud, cumplimiento de requisitos de seguridad ENS básico, cobertura de atención humana, formación, soporte y transferencia de conocimiento. Se establecen obligaciones esenciales y condiciones especiales de ejecución, así como penalizaciones por indisponibilidad y retrasos. Existen discrepancias documentales pendientes de aclaración en la totalización de la bolsa de horas, la aplicación de IaC y el régimen de borrado de datos, que requieren atención en la preparación de la oferta. [ID_188_1.PDF, ID_188_2.PDF, ID_188_3.PDF]"
+    ],
+    "secciones": [
+      {
+        "titulo": "Datos principales de la licitación",
+        "bloques": [
+          {
+            "tipo": "tabla",
+            "columnas": [
+              "Concepto",
+              "Información"
+            ],
+            "filas": [
+              [
+                "Expediente administrativo",
+                "300/2026/00009"
+              ],
+              [
+                "Órgano de contratación",
+                "Ayuntamiento de Madrid"
+              ],
+              [
+                "Objeto",
+                "Asistente Virtual de Participación Ciudadana de Decide Madrid"
+              ],
+              [
+                "Presupuesto base (sin IVA)",
+                "181.595,44 €"
+              ],
+              [
+                "Presupuesto base (con IVA)",
+                "219.730,48 €"
+              ],
+              [
+                "Valor estimado",
+                "408.918,11 €"
+              ],
+              [
+                "Duración inicial",
+                "24 meses"
+              ],
+              [
+                "Prórrogas",
+                "24 y 12 meses (máximo 60 meses)"
+              ],
+              [
+                "Fecha de inicio prevista",
+                "01/09/2026 o formalización"
+              ],
+              [
+                "Lotes",
+                "No consta"
+              ],
+              [
+                "CPV",
+                "No localizado"
+              ],
+              [
+                "Procedimiento",
+                "No localizado"
+              ],
+              [
+                "Fecha límite presentación",
+                "16/06/2026 23:59 (documental)"
+              ],
+              [
+                "Presentación",
+                "Electrónica (PLACSP)"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Presentación y documentación por fase",
+        "bloques": [
+          {
+            "tipo": "parrafo",
+            "texto": "La presentación de ofertas se realiza electrónicamente a través de la Plataforma de Contratación del Sector Público (PLACSP). La documentación se estructura en tres sobres electrónicos: Sobre A (documentación administrativa), Sobre B (memoria técnica de juicio de valor) y Sobre C (oferta económica y mejoras automáticas)."
+          },
+          {
+            "tipo": "lista",
+            "elementos": [
+              "Sobre A: DEUC firmado, declaraciones aplicables, Anexo VI (empresas vinculadas), Anexo X (compromiso), compromisos UTE, declaraciones de entidades externas, declaraciones laborales/sociales/igualdad. No se exigen nombres ni cualificación del equipo en esta fase.",
+              "Sobre B: Memoria técnica de juicio de valor, máximo 40 páginas (incluidos índice y anexos), márgenes mínimos de 2 cm, interlineado sencillo, letra mínima 11 puntos. Las páginas excedentes no se valoran, pero no implican exclusión automática. No debe incluir información de valoración automática.",
+              "Sobre C: Oferta económica (Anexo II), desglose de fijo, variable, tarifa e IVA, y mejoras automáticas (ampliación de horario, horas gratuitas)."
+            ],
+            "referencia": "[ID_188_2.PDF, páginas PDF 18-21, 24, 65-69, 73; ID_188_3.PDF, página PDF 28]"
+          },
+          {
+            "tipo": "parrafo",
+            "texto": "La prueba efectiva de medios, solvencia y equipo se exige solo al propuesto adjudicatario antes de adjudicar, en un plazo de diez días hábiles desde el requerimiento. La documentación debe presentarse en castellano. Se distinguen defectos subsanables (tres días para corregir, cinco para aclaraciones) de la falta de requisitos, que implica inadmisión. No se admiten variantes. [ID_188_2.PDF, páginas PDF 24, 67-69, 73, 79]"
+          }
+        ]
+      },
+      {
+        "titulo": "Alcance técnico, actividades y entregables",
+        "bloques": [
+          {
+            "tipo": "parrafo",
+            "texto": "El servicio abarca la implantación, operación y evolución de un asistente virtual integrado en Decide Madrid, con atención 24/7/365 y soporte cloud. Se exige capacidad mínima de 50 conversaciones simultáneas y 15.000 mensajes mensuales, con picos asociados a procesos participativos. [ID_188_3.PDF, páginas PDF 6, 13]"
+          },
+          {
+            "tipo": "tabla",
+            "columnas": [
+              "Año",
+              "Personas",
+              "Mensajes"
+            ],
+            "filas": [
+              [
+                "2023",
+                "6.246",
+                "27.083"
+              ],
+              [
+                "2024",
+                "4.490",
+                "46.723"
+              ],
+              [
+                "2025 (hasta 30/11)",
+                "2.552",
+                "26.784"
+              ]
+            ],
+            "referencia": "[ID_188_3.PDF, páginas PDF 6, 13]"
+          },
+          {
+            "tipo": "parrafo",
+            "texto": "El asistente se integra mediante script en todas las secciones del portal, sustituyendo el buscador tradicional y funcionando en navegadores estándar, tanto en dispositivos fijos como móviles. Se exige compatibilidad IAM y mecanismos de mejora de respuestas del LLM (RAG, prompts, fine-tuning como ejemplos). Se mantiene documentación actualizada de flujos, agentes y configuraciones, con revisión diaria en laborables. [ID_188_3.PDF, páginas PDF 12-15, 18]"
+          },
+          {
+            "tipo": "parrafo",
+            "texto": "La solución debe permitir supervisión, corrección de errores y mejora continua, con almacenamiento anonimizado de conversaciones y aviso de privacidad al usuario. Se habilita panel cloud para estadísticas, trazabilidad, informes, intervención humana y encuestas anónimas, accesible a al menos cinco usuarios DGPC. [ID_188_3.PDF, páginas PDF 14, 15, 19]"
+          },
+          {
+            "tipo": "parrafo",
+            "texto": "Se exige formación inicial de al menos 20 horas para hasta 20 asistentes DGPC, presencial o telemática, y formación de actualización durante el contrato. La accesibilidad debe cumplir UNE 139803:2012 (AA WCAG 2.0) y RD 1494/2007 y 1112/2018, con declaración responsable en siete días desde inicio. [ID_188_3.PDF, páginas PDF 16, 17, 19, 20]"
+          },
+          {
+            "tipo": "parrafo",
+            "texto": "La arquitectura debe ser contenerizable, con entornos de producción y preproducción obligatorios, y despliegue inicial/redespliegue por IaC y Git IAM. La preferencia por IaC con excepción justificada requiere aclaración. [ID_188_3.PDF, páginas PDF 30, 33]"
+          },
+          {
+            "tipo": "parrafo",
+            "texto": "El uso de la Plataforma del Dato es obligatorio para proyectos con información municipal, priorizando datasets existentes. Los cuadros de mando se desarrollan en Power BI Premium (licenciado por IAM), aportando el adjudicatario las licencias Power BI Pro necesarias. [ID_188_3.PDF, páginas PDF 43-45]"
+          },
+          {
+            "tipo": "parrafo",
+            "texto": "El mantenimiento incluye preventivo, correctivo y evolutivo, y la bolsa de consultoría avanzada financia proyectos de evolución tecnológica. La facturación de la bolsa se realiza por trabajos finalizados y horas justificadas, sin obligación de agotar la bolsa ni de exceder los límites anuales. [ID_188_3.PDF, páginas PDF 17, 18; ID_188_2.PDF, páginas PDF 56, 60, 61]"
+          },
+          {
+            "tipo": "parrafo",
+            "texto": "En los dos últimos meses se realiza la transferencia de conocimiento, entrega de desarrollos, modelos, datos y registros, y se propone borrado seguro con certificado de destrucción para sistemas con información municipal. [ID_188_3.PDF, páginas PDF 9, 40, 43]"
+          }
+        ]
+      }
+    ],
+    "conclusion": [
+      "**DOCUMENTALMENTE ESTABLECIDO:** El contrato regula la implantación, operación y evolución de un asistente virtual para Decide Madrid, con integración cloud, atención humana, formación y transferencia final, bajo condiciones técnicas, económicas y de seguridad detalladas en los pliegos.",
+      "**PUNTO CRÍTICO DE ADJUDICACIÓN:** La oferta debe respetar los límites independientes de fijo, variable y tarifa de evolución tecnológica, y la facturación se ajusta a hitos y consumo real, sin ingreso garantizado por la bolsa de horas. La valoración técnica y las mejoras ofertables (ampliación de horario, horas gratuitas) son determinantes para la adjudicación.",
+      "**PUNTO RELEVANTE:** La solvencia técnica exige trabajos similares por importe igual o superior al presupuesto base en los tres últimos años, y la solvencia económica requiere volumen anual mínimo de negocios igual al presupuesto base en el mejor ejercicio de los tres últimos años. ROLECE puede eximir documentalmente en los ámbitos inscritos y actualizados.",
+      "**PUNTO RELEVANTE:** El equipo mínimo incluye nueve personas en siete perfiles, con requisitos específicos de titulación y experiencia, y la cobertura de ausencias es obligatoria durante toda la atención. La constitución y acreditación del equipo se exige solo al propuesto adjudicatario antes de adjudicar.",
+      "**PUNTO RELEVANTE:** Se establecen penalizaciones por indisponibilidad y retrasos, y la garantía definitiva es del 5 % del precio final ofertado sin IVA, con una complementaria del 1 % para ofertas incursas en presunción de anormalidad. La garantía del servicio es de 12 meses desde la recepción.",
+      "**CONTRADICCIÓN / AMBIGÜEDAD:** Existen discrepancias documentales pendientes de aclaración en la totalización de la bolsa de horas (descuadre de 1,53 €), la aplicación de IaC (obligatorio o preferente) y el régimen de borrado de datos (ámbitos y soportes).",
+      "**NO LOCALIZADO:** No consta exigencia expresa de clasificación, CPV, procedimiento ni lotes. La información sobre productos, partnerships y certificaciones ISO/ENS se limita a lo documentado en los pliegos.",
+      "**DECISIÓN INTERNA REQUERIDA:** Se recomienda revisar las condiciones de presentación, acreditación y mejoras ofertables, así como las discrepancias señaladas, antes de preparar la oferta definitiva."
+    ]
+  }
+}

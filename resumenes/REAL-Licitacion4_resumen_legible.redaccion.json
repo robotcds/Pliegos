@@ -1,0 +1,564 @@
+{
+  "expediente": "REAL-Licitacion4",
+  "agentes_revisados": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A6",
+    "A8",
+    "A9",
+    "A10"
+  ],
+  "introduccion": [
+    "He revisado de forma conjunta la información extraída en el JSON del expediente REAL-Licitacion4, incluyendo datos principales, presentación de la oferta, alcance y volumetría, actividades, equipo y perfiles, solvencia, criterios de adjudicación, condiciones económicas, seguridad y protección de datos, y cadena de suministro.",
+    "El objeto es la contratación de servicios de soporte de puesto de usuario, sistemas, comunicaciones y seguridad para la Abogacía General del Estado, con un presupuesto base de 1.622.793,48 € (sin IVA), valor estimado de 3.245.586,96 €, duración inicial de 24 meses y posible prórroga de hasta 24 meses adicionales. El modelo de prestación exige un equipo mínimo de 17 personas, cobertura nacional, atención presencial y remota, y cumplimiento de estrictos niveles de servicio y protección de datos. La adjudicación se basa en criterios automáticos, sin juicio de valor, ponderando precio, experiencia, formación y cobertura horaria. No se han localizado requisitos de patrimonio neto, ISO/ENS obligatoria, ni suministro de hardware/software a la AGE por parte del adjudicatario.",
+    "El modelo de prestación se articula en torno a un Centro de Atención a Usuarios (CAU) con niveles N1 y N2, soporte presencial y remoto, herramientas ITSM y monitorización, y un sistema de reporting y gobierno exigente. Se permite subcontratación y UTE bajo condiciones, y se establecen obligaciones de confidencialidad, protección de datos y continuidad del servicio. Referencias: PCAP.pdf, PPT.pdf, Anuncio.pdf, enlaces poc."
+  ],
+  "secciones": [
+    {
+      "titulo": "Datos principales de la licitación",
+      "bloques": [
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Concepto",
+            "Información"
+          ],
+          "filas": [
+            [
+              "Expediente",
+              "AGE/2024/0025"
+            ],
+            [
+              "Órgano de contratación",
+              "Junta de Contratación del Ministerio de la Presidencia, Justicia y Relaciones con las Cortes"
+            ],
+            [
+              "Objeto",
+              "Servicios de soporte de puesto de usuario, sistemas, comunicaciones y seguridad de la Abogacía General del Estado"
+            ],
+            [
+              "Presupuesto base (sin IVA)",
+              "1.622.793,48 €"
+            ],
+            [
+              "Presupuesto base (con IVA)",
+              "1.963.580,11 €"
+            ],
+            [
+              "Valor estimado",
+              "3.245.586,96 €"
+            ],
+            [
+              "Duración inicial",
+              "24 meses"
+            ],
+            [
+              "Prórroga máxima",
+              "24 meses adicionales"
+            ],
+            [
+              "Duración total máxima",
+              "48 meses"
+            ],
+            [
+              "Plazo de presentación",
+              "Hasta 08/03/2025 a las 23:59"
+            ],
+            [
+              "Lotes",
+              "No hay"
+            ],
+            [
+              "Procedimiento",
+              "Abierto, regulación armonizada"
+            ],
+            [
+              "Presentación",
+              "Electrónica, Plataforma de Contratación del Sector Público"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Presentación de la oferta",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "La presentación de ofertas es exclusivamente electrónica a través de la Plataforma de Contratación del Sector Público. Se exige la firma electrónica de todos los documentos y la redacción en castellano o traducción jurada. La oferta se estructura en dos archivos electrónicos diferenciados."
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Archivo 1: Documentación administrativa (DEUC, Anexo 2, poderes, escrituras, certificados, compromiso UTE si aplica)",
+            "Archivo 2: Oferta económica y criterios evaluables por fórmula, titulaciones, CVs anonimizados, certificaciones si aplica"
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La presentación incorrecta, como incluir datos económicos en el archivo 1, es causa de exclusión. El plazo de presentación finaliza el 08/03/2025 a las 23:59. Referencia: PCAP.pdf p.13, p.41."
+        }
+      ]
+    },
+    {
+      "titulo": "Alcance y volumetría del servicio",
+      "bloques": [
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Concepto",
+            "Volumen/Condición"
+          ],
+          "filas": [
+            [
+              "Usuarios",
+              "Aproximadamente 900"
+            ],
+            [
+              "Sedes",
+              "Central en Madrid y periféricas en todas las CCAA (10 zonas principales)"
+            ],
+            [
+              "Incidencias/peticiones",
+              "Aproximadamente 12.000/año"
+            ],
+            [
+              "Horario de servicio",
+              "L-J 9:00-18:00, V 8:00-15:00; bolsa de horas fuera de horario"
+            ],
+            [
+              "Duración del contrato",
+              "24 meses (+prórroga hasta 24 meses)"
+            ],
+            [
+              "Modelo de soporte",
+              "CAU N1 y N2, presencial y remoto, roles definidos, herramientas ITSM, monitorización"
+            ]
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Modalidad de prestación"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El servicio se presta mediante un Centro de Atención a Usuarios (CAU) con atención presencial y remota, técnicos centralizados y distribuidos, soporte a inventario hardware, sistemas, comunicaciones y seguridad, y administración DBA. Se valorará la incorporación de un Nivel 0 (atención desatendida fuera de horario habitual). Referencia: PPT.pdf p.4, p.9, p.18-20."
+        }
+      ]
+    },
+    {
+      "titulo": "Actividades y procesos principales",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Gestión de incidencias y peticiones"
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Registro, categorización, diagnóstico, resolución y cierre de incidencias (ITIL como marco de referencia)",
+            "Gestión de peticiones simples y complejas, tipificación, resolución y cierre",
+            "Documentación y reporting de toda la actividad"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Gestión de cambios y activos"
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Procedimiento y comité de cambios, catálogo y aprobación",
+            "Apoyo en inventario hardware y uso de GLPI para gestión de activos"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Gestión del conocimiento y continuidad"
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Documentación de casos y base documental",
+            "Apoyo en planes de contingencia y continuidad, protocolos de actuación",
+            "Gestión de la transferencia tecnológica y reversibilidad"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Monitorización y seguridad"
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Uso de Zabbix, Checkmk, Nagios (a extinguir) para monitorización",
+            "Apoyo en incidentes de seguridad, uso de microClaudia y ADA, aplicación de ENS nivel Bajo"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Gobierno y reporting"
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Director Técnico (AGE) y Jefe de Proyecto (adjudicatario) como interlocutores",
+            "Reuniones de seguimiento, informes mensuales/trimestrales, comité de cambios"
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Equipo y perfiles mínimos",
+      "bloques": [
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Perfil",
+            "Cantidad",
+            "Titulación",
+            "Experiencia"
+          ],
+          "filas": [
+            [
+              "Técnico de sistemas: administración",
+              "2",
+              "Ciclo formativo superior IT/Comunicaciones",
+              "4 años en administración de sistemas"
+            ],
+            [
+              "Técnico de sistemas: DBA",
+              "1",
+              "Ciclo formativo superior IT/Comunicaciones",
+              "4 años en administración SQL Server"
+            ],
+            [
+              "Coordinador técnico soporte",
+              "1",
+              "Ciclo formativo superior IT/Comunicaciones",
+              "4 años en puesto similar"
+            ],
+            [
+              "Técnico soporte a usuarios (Madrid)",
+              "4",
+              "Ciclo formativo medio IT/Comunicaciones",
+              "1 año en puesto similar"
+            ],
+            [
+              "Técnico soporte a usuarios (Periferia)",
+              "9",
+              "Ciclo formativo medio IT/Comunicaciones",
+              "2 años en puesto similar"
+            ]
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La dedicación es a jornada completa, presencialidad obligatoria en las sedes asignadas, con posibilidad de trabajo remoto según funciones. Se exige compromiso de adscripción de medios durante toda la vigencia, plan de cobertura de suplencias y transición mínima de 20 días para perfiles críticos. No se exige colegiación ni idiomas específicos. Certificaciones oficiales son puntuables, no obligatorias. Referencia: PPT.pdf p.25-29, PCAP.pdf p.15, 43, 77-78."
+        }
+      ]
+    },
+    {
+      "titulo": "Solvencia económica y técnica",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Solvencia económica"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Volumen anual de negocios igual o superior a 1.217.095,11 € en el mejor ejercicio de los tres últimos años. Acreditación: DEUC/ROLECE en licitación; cuentas anuales aprobadas y depositadas si adjudicatario. No se exige patrimonio neto ni ratios financieros. Referencia: PCAP.pdf p.13-14."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Solvencia técnica"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Relación de servicios similares de igual o similar naturaleza (CPV 726), importe anual acumulado igual o superior a 567.977,72 € en el año de mayor ejecución o valor anual medio, en los tres últimos años. Acreditación: DEUC/ROLECE en licitación; certificados órgano competente o destinatario, o declaración. No se exige certificado de buena ejecución independiente. Referencia: PCAP.pdf p.13-14."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Otros requisitos y alternativas"
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Clasificación empresarial alternativa: Grupo V, Subgrupo 3, Categoría 5 (vigente en momento de acreditación)",
+            "Seguro de responsabilidad civil: 600.000 € por víctima, 3.000 € por daños materiales, cubre RC explotación, profesional, patronal y medioambiental",
+            "Seguro de accidentes: 300.000 € por víctima",
+            "Acumulación de solvencia en UTE y medios externos admitida, con responsabilidad solidaria y documentación correspondiente",
+            "No se exige ISO/ENS, fabricantes, partnerships ni patrimonio neto/ratios"
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Criterios de adjudicación y puntuación",
+      "bloques": [
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Criterio",
+            "Puntos máximos",
+            "Peso",
+            "Tipo"
+          ],
+          "filas": [
+            [
+              "Oferta económica",
+              "48",
+              "48%",
+              "Automático"
+            ],
+            [
+              "Mejora experiencia equipo",
+              "20",
+              "20%",
+              "Automático"
+            ],
+            [
+              "Mejora formación (certificados)",
+              "12",
+              "12%",
+              "Automático"
+            ],
+            [
+              "Mejora cobertura horaria",
+              "20",
+              "20%",
+              "Automático"
+            ]
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Todos los criterios son automáticos y evaluables por fórmula, sin juicio de valor. No existen umbrales mínimos de puntuación ni subcriterios de exclusión. Referencia: PCAP.pdf p.18-21, Anexo 6."
+        }
+      ]
+    },
+    {
+      "titulo": "Oferta económica y fórmulas",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "La puntuación de la oferta económica se calcula mediante la fórmula: Ci = 48 × [1 - (Oi - Omin)/(Omax - Omin)], donde Ci es la puntuación de la oferta i, Oi el precio ofertado por el licitador i (sin IVA), Omin el precio más bajo y Omax el más alto. Máxima puntuación a la oferta más baja, el resto proporcionalmente. No se establecen tramos adicionales ni reglas de redondeo específicas. Referencia: PCAP.pdf p.19, Anexo 6."
+        }
+      ]
+    },
+    {
+      "titulo": "Mejoras puntuables: experiencia, formación y cobertura",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Experiencia adicional del equipo"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Hasta 20 puntos por experiencia adicional de los perfiles respecto al mínimo exigido, con fórmula proporcional por meses ofertados en cada subperfil (técnico sistemas administrador, DBA, coordinador, soporte Madrid y periferia)."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Certificaciones oficiales del equipo"
+        },
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Certificación",
+            "Puntos por unidad"
+          ],
+          "filas": [
+            [
+              "MCSA Windows Server 2019 o superior",
+              "0,5"
+            ],
+            [
+              "Microsoft Certified: Security, Compliance, and Identity Fundamentals",
+              "0,25"
+            ],
+            [
+              "ITIL Intermediate Certificate in IT Service Operation",
+              "0,25"
+            ],
+            [
+              "Citrix Virtual Apps and Desktops 7 Administration",
+              "0,25"
+            ],
+            [
+              "Vmware vSphere 6.7",
+              "0,25"
+            ],
+            [
+              "Linux LPIC-2",
+              "0,25"
+            ],
+            [
+              "CISSP o CISM",
+              "0,25"
+            ],
+            [
+              "MCSA SQL Server o MCSE Data Management",
+              "0,5"
+            ],
+            [
+              "Certificado Microsoft Power BI",
+              "0,25"
+            ],
+            [
+              "MCSA Windows 10 o similar",
+              "0,25"
+            ],
+            [
+              "Microsoft 365 Certified: Fundamentals",
+              "0,25"
+            ]
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Cobertura horaria de primera atención"
+        },
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Cobertura ofertada",
+            "Puntos"
+          ],
+          "filas": [
+            [
+              "24x5",
+              "8"
+            ],
+            [
+              "24x7",
+              "20"
+            ]
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El máximo de puntos por mejoras es 52 (20 experiencia, 12 certificaciones, 20 cobertura horaria). Referencia: PCAP.pdf p.19-21, Anexo 6, PPT.pdf p.31-32."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La experiencia adicional del equipo se valora de forma proporcional por cada subperfil: técnico de sistemas administrador, DBA, coordinador técnico, técnico soporte Madrid y técnico soporte periferia. Cada subperfil puede obtener hasta 4 puntos, sumando un máximo de 20 puntos. La fórmula es: 4 × (nº meses mejora ofertado por subperfil / mayor nº meses ofertado por subperfil entre todas las ofertas). Referencia: PCAP.pdf p.19-20, Anexo 6."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Las certificaciones oficiales del equipo se valoran según el siguiente baremo: MCSA Windows Server 2019 o superior (0,5 puntos), Microsoft Certified: Security, Compliance, and Identity Fundamentals (0,25), ITIL Intermediate Certificate in IT Service Operation (0,25), Citrix Virtual Apps and Desktops 7 Administration (0,25), Vmware vSphere 6.7 (0,25), Linux LPIC-2 (0,25), CISSP o CISM (0,25), MCSA SQL Server o MCSE Data Management (0,5), Certificado Microsoft Power BI (0,25), MCSA Windows 10 o similar (0,25), Microsoft 365 Certified: Fundamentals (0,25). El máximo de puntos por certificaciones es 12. Referencia: PCAP.pdf p.20, Anexo 6, PPT.pdf p.31-32."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La cobertura horaria de primera atención a usuarios se valora con 8 puntos para 24x5 y 20 puntos para 24x7, siendo el máximo de 20 puntos en este apartado. Referencia: PCAP.pdf p.21, Anexo 6."
+        }
+      ]
+    },
+    {
+      "titulo": "Garantías y condiciones económicas",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Garantías"
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Garantía definitiva: 5% del precio de adjudicación (sin IVA)",
+            "No se exige garantía provisional ni seguro de caución",
+            "Seguro de responsabilidad civil y de accidentes obligatorios durante toda la ejecución y garantía"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Facturación y pago"
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Facturación electrónica obligatoria",
+            "Pagos trimestrales",
+            "No se prevén abonos a cuenta ni revisión de precios",
+            "Gastos de publicidad: máximo 2.000 € a cargo del adjudicatario"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Penalizaciones"
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Por incumplimiento de condiciones especiales, defectuoso, criterios de adjudicación, demora, subcontratación: hasta 10% del precio, reiteración hasta 50%",
+            "Por incumplimiento de protección de datos/confidencialidad: hasta 10% del precio, posible resolución anticipada"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "UTE, subcontratación y cesión"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se permite la UTE (requiere compromiso y escritura) y la subcontratación (declaración previa, comunicación modelo Anexo 7, justificación de aptitud y cumplimiento de pagos). La cesión del contrato está permitida conforme al art. 214 LCSP. No se limita el porcentaje de subcontratación salvo lo dispuesto en la LCSP. Referencia: PCAP.pdf p.30-34, 60, Anexo 7."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se establece una garantía de 6 meses sobre defectos o vicios ocultos en la ejecución del servicio, aplicable a la prestación realizada por el adjudicatario. Esta garantía es adicional a la garantía definitiva y debe mantenerse durante el periodo de garantía, según lo dispuesto en el PCAP. Referencia: PCAP.pdf p.17."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Las penalizaciones por incumplimiento de criterios de adjudicación pueden alcanzar hasta el 5% del precio del contrato si el incumplimiento es relevante, además de las penalizaciones generales de hasta el 10% y, en caso de reiteración, hasta el 50%. Referencia: PCAP.pdf p.56-57."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se exige garantía provisional ni seguro de caución, según lo indicado en el PCAP. Referencia: PCAP.pdf p.13, p.41."
+        }
+      ]
+    },
+    {
+      "titulo": "Condiciones especiales de ejecución",
+      "bloques": [
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Cumplimiento de condiciones medioambientales, sociales, laborales, igualdad, adscripción de medios, protección de datos y confidencialidad",
+            "Obligación de mantener seguros y garantías durante la ejecución y periodo de garantía",
+            "Obligación de informar y justificar subcontratación",
+            "Cesión de derechos de propiedad intelectual a la Administración",
+            "Cumplimiento de normativa de protección de datos y ENS"
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Seguridad y protección de datos",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario actúa como encargado del tratamiento, aplicando medidas técnicas y organizativas conforme al RGPD y el ENS nivel Bajo. Se exige confidencialidad, notificación de incidentes en 72 horas, devolución o destrucción de datos al finalizar el contrato, y autorización previa para subencargados y transferencias internacionales. No se exige certificación ENS ni ISO 27001, pero sí la aplicación de medidas ENS. Referencia: PPT.pdf p.39-47, PCAP.pdf Anexo 5."
+        }
+      ]
+    },
+    {
+      "titulo": "Productos, suministros y cadena de proveedores",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe aportar personal técnico y recursos materiales mínimos (portátil, móvil, impresora, material de oficina, herramientas), pero no se exige el suministro de hardware, software, licencias comerciales ni se imponen fabricantes o canal específicos. La AGE aporta las herramientas de ticketing, GLPI, monitorización y software de base. No se describen cadenas de suministro ni se exigen cartas de fabricante, partnerships o autorizaciones de canal. Referencia: PPT.pdf p.20-21, 33-38, PCAP.pdf p.15."
+        }
+      ]
+    }
+  ],
+  "conclusion": [
+    "**DOCUMENTALMENTE ESTABLECIDO:** El objeto es la prestación de servicios de soporte informático integral a la Abogacía General del Estado, con cobertura nacional, equipo mínimo de 17 personas y exigencia de niveles de servicio y protección de datos.",
+    "**PUNTO CRÍTICO DE ADJUDICACIÓN:** La puntuación se basa exclusivamente en criterios automáticos: precio (48%), experiencia adicional del equipo (20%), certificaciones (12%) y cobertura horaria (20%). No hay juicio de valor ni umbrales mínimos.",
+    "**PUNTO RELEVANTE:** Se exige solvencia económica (≥1.217.095,11 €) y técnica (servicios similares ≥567.977,72 €), seguros obligatorios y clasificación empresarial alternativa.",
+    "**PUNTO RELEVANTE:** El equipo debe cumplir requisitos mínimos de titulación y experiencia, con reglas estrictas de adscripción, sustitución y cobertura de ausencias.",
+    "**PUNTO RELEVANTE:** El adjudicatario debe aportar recursos materiales mínimos, pero no se exige suministro de hardware/software a la AGE ni se imponen fabricantes, canal o partnerships.",
+    "**PUNTO RELEVANTE:** Se permite UTE y subcontratación bajo condiciones, con responsabilidad solidaria en medios externos.",
+    "**PUNTO RELEVANTE:** La protección de datos y la aplicación de medidas ENS nivel Bajo son obligatorias, con penalizaciones severas por incumplimiento.",
+    "**NO EXIGIDO EXPRESAMENTE:** No se exige patrimonio neto, ratios financieros, ISO/ENS certificada, ni cartas de fabricante.",
+    "**NO LOCALIZADO:** No se describen cadenas de suministro ni dependencias contractuales externas, ni se exige soporte de fabricante ni stock mínimo de hardware/software."
+  ]
+}

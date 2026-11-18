@@ -1,0 +1,15 @@
+Registro documental de preventa
+
+| Materia | Requisito completo | Fuente |
+|---------|--------------------|--------|
+| Compras y suministros | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito relativo a productos físicos, tecnológicos, hardware, equipos, materiales o herramientas que deba aportar el adjudicatario. | DOC20240806095753Pliegodefinitivofirmado.pdf, Pliegodefinitivofirmado.pdf, Detalle_Licitacion |
+| Software, SaaS y licencias | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito relativo a software, SaaS, licencias, fabricante/producto, edición, cantidad, métrica, usuarios/dispositivos/cores, entornos, modalidad o duración. | DOC20240806095753Pliegodefinitivofirmado.pdf, Pliegodefinitivofirmado.pdf, Detalle_Licitacion |
+| Fabricantes obligatorios y equivalencias | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito relativo a fabricantes obligatorios, referencias, equivalencias permitidas ni requisitos mínimos de equivalencia. | DOC20240806095753Pliegodefinitivofirmado.pdf, Pliegodefinitivofirmado.pdf, Detalle_Licitacion |
+| Certificaciones, partner, canal y cartas | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito relativo a certificaciones de fabricante, niveles de partner, autorizaciones de canal ni cartas/compromisos exigidos. | DOC20240806095753Pliegodefinitivofirmado.pdf, Pliegodefinitivofirmado.pdf, Detalle_Licitacion |
+| Subcontratación, UTE y medios externos | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito relativo a subcontratación, UTE, medios externos ni actividades permitidas, limitadas, prohibidas o exigidas declarar. | DOC20240806095753Pliegodefinitivofirmado.pdf, Pliegodefinitivofirmado.pdf, Detalle_Licitacion |
+| Cadena de suministro | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna descripción o condición contractual relativa a cadena de suministro. | DOC20240806095753Pliegodefinitivofirmado.pdf, Pliegodefinitivofirmado.pdf, Detalle_Licitacion |
+| Plazos de suministro, stock, garantías, soporte, logística, retirada | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito relativo a plazos de suministro, stock, garantías, soporte fabricante, NBD/4h/onsite, lead time, EOL/EOS, homologaciones, sostenibilidad, logística, staging, retirada o destrucción. | DOC20240806095753Pliegodefinitivofirmado.pdf, Pliegodefinitivofirmado.pdf, Detalle_Licitacion |
+| SLA de terceros y back-to-back | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito relativo a SLA de terceros o exigencias back-to-back. | DOC20240806095753Pliegodefinitivofirmado.pdf, Pliegodefinitivofirmado.pdf, Detalle_Licitacion |
+
+Discrepancias y pendientes de aclaración:
+No se han identificado discrepancias en la documentación revisada. No se localizan remisiones a anexos, CDC, modelos o documentos técnicos no disponibles que contengan requisitos de compras, fabricantes, canal, subcontratación, suministros, dependencias externas, garantías, soporte, logística, stock, retirada, cadena de suministro o SLA de terceros.

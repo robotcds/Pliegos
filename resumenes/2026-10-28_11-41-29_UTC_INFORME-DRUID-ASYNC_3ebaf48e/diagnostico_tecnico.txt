@@ -1,0 +1,160 @@
+DIAGNÓSTICO AVANZADO DE DRUID ASÍNCRONO
+Fecha de elaboración UTC: 2026-10-28T11:47:19.392+00:00
+Tenant: sermicro-dev. Agente: API COIIM.
+Bot: 8805a55b-9947-47b5-d511-08de9ea71a4f.
+Clon GPT: AskGPT-agent-V4-Webhook-Test / 7a7e7161-2347-47d9-8134-b869a15c5210.
+
+CONCLUSIÓN
+No se ha localizado todavía la causa interna del HTTP 404. No se afirma que
+el trabajo esté ejecutándose ni que exista un fallo de ResponseBody demostrado.
+La evidencia confirma recepción de acuses y fallo de recuperación en los intentos
+archivados. El siguiente aislamiento útil es una acción Custom Code sin GPT.
+La acción TEST_ASYNC_SIMPLE debe crearse y publicarse: NO se ha creado desde aquí.
+No se han repetido las llamadas de GPT ni se han enviado nuevos requests a los
+endpoints del bot. Se han hecho lectura documental, auditoría offline y pruebas
+unitarias con HTTP simulado. La herramienta de Computer Use detuvo el acceso
+porque no pudo verificar la URL de Edge; no se controló la consola de DRUID.
+
+A. ANÁLISIS DEL CÓDIGO Y CONFIGURACIÓN
+Las rutas, método POST de inicio, GET de recuperación y parámetros asyncResponse,
+invocationId y responseContentType tienen la grafía documentada. La configuración
+local usa el mismo host global y Bot ID en ambas operaciones. requests construye
+los parámetros mediante params, sin concatenar el ID como query sin codificar.
+La entidad es GPT y el ID es el del clon. La asociación real al bot/publicación
+no puede inspeccionarse solo desde las cadenas de URL; el éxito síncrono previo
+sí demuestra que aquella ruta atendió correctamente esa prueba.
+
+El probe antiguo tiene límites que son distintos de una causa del 404:
+1. Exige Messages y DataSource con resultado GPT: rechazaría la acción simple.
+2. Etiqueta pending al recibir ID sin evidencia de ejecución.
+3. El margen específico de 404 es 60 s aunque --espera sea mayor.
+4. Acepta provisionalmente ciertos status y 202; esos sobres no están confirmados
+   por el protocolo publicado. Un 202 con cuerpo vacío puede fallar antes en el
+   parseo JSON, aunque la prueba unitaria antigua usa {} y no cuerpo vacío.
+5. En dict invocationId solo verifica string no vacío, y no un formato de GUID.
+   Los IDs reales examinados sí son GUID y coinciden con los consultados.
+6. Los logs antiguos no incluyen UTC de petición, URL efectiva, método ni headers
+   de respuesta; los errores de transporte no quedan archivados por request_logged.
+   No se pueden reconstruir retrospectivamente las correlaciones HTTP ausentes.
+7. El cliente ya preserva la invocación y NO hace POST dentro del bucle de GET.
+   No se ha encontrado un relanzamiento automático en ese bucle.
+
+La documentación admite tokens permanentes o temporales del mecanismo Webhooks.
+No significa que cualquier login de usuario equivalga a esa autenticación, pero
+tampoco que todo token de ExternalAuthenticate sea inválido: la documentación
+incluye ese endpoint para cuentas de servicio. Se conserva el token configurado;
+no se modifica .env, no se cambian credenciales ni se añade login.
+
+B. CLIENTE NUEVO Y PRUEBAS LOCALES
+Archivo: druid_async_diagnostics.py. Es independiente de oportunidades.py y no
+reemplaza el transporte principal. audit y prepare nunca envían solicitudes.
+compare requiere el ID real de la acción simple y rechaza los IDs conocidos GPT.
+Hace un POST síncrono y comprueba la respuesta fija. Solo entonces hace un único
+POST asíncrono con el mismo cuerpo; persiste el ID y continúa exclusivamente GET.
+resume también hace solo GET. Una pérdida del acuse queda como resultado de
+envío desconocido, sin reintento del POST. El límite de polling es configurable,
+120 s por defecto y un máximo de 60 consultas por observación.
+Se registran UTC, URL efectiva, método, parámetros, tiempos, status HTTP, headers
+y texto/JSON íntegros salvo secretos redactados. Authorization de petición no se
+guarda; cookies y valores sensibles de respuesta se redactan. No se siguen redirects.
+404 no se llama pending. Por defecto detiene; --observe-404 permite observarlo
+hasta el límite, sin afirmar que exista un trabajo activo. Los status textuales
+pendientes solo se aceptan si se configuran tras confirmación de soporte.
+Resultados locales: 25 tests Python OK, 4 comprobaciones de Custom Code en Node OK.
+Son comprobaciones locales; no validan el runtime ni el backend de DRUID.
+
+C. CONFIGURACIÓN MANUAL DE DRUID
+Consultar docs/druid_async_simple_setup.md y pegar
+docs/druid_async_simple_custom_code.js en una acción nueva TEST_ASYNC_SIMPLE.
+Mismo agente, request/response GPT, no colección, activa, una tarea Custom Code
+entre START y END. Sin REST ni GPT. Publicar y copiar el ID de acción real.
+Campos: RequestParams String; RequestHeaders String; RequestBody JObject;
+ResponseBody JObject. ResponseBody recibe un objeto literal, no un String JSON.
+El patrón GetRequestEntity/SetResponseEntity es el ejemplo oficial del webhook.
+Si hace falta una variación posterior, hay un código independiente con objeto
+anidado bajo result; sigue siendo JObject, no es prueba del tipo String.
+
+D. EVIDENCIAS
+Se han reutilizado 6 acuses archivados y
+26 registros de consultas históricas.
+Los primeros/últimos cuerpos y todas las consultas disponibles se copian de forma
+saneada en evidencias_previas. No se inventan UTC ni cabeceras no capturadas.
+La respuesta síncrona de 2.543 s y la consulta text/plain 404 se conservan.
+No hay evidencia local que certifique la ausencia de actividad en la consola:
+esa observación procede del usuario. Se documentan las opciones de reducción
+de auditoría y los filtros que deben verificarse.
+
+E. HIPÓTESIS
+
+H01 [CONFIRMADA] El clon GPT funcionó por GenericIntegration síncrono.
+diagnostico_sincrono.json: HTTP 200 en 2.543 s, DataSource con PRUEBA_ASYNC_OK. Es evidencia histórica, no comprobación de disponibilidad actual.
+
+H02 [CONFIRMADA] Hay acuses HTTP 200 con GUID y posteriores recuperaciones HTTP 404.
+6 acuses y 26 consultas archivadas. El ID no prueba encolado o ejecución.
+
+H03 [CONFIRMADA] El probe antiguo no es compatible con la respuesta fija de TEST_ASYNC_SIMPLE.
+Exige payload Messages y resultado DataSource/GPT. El nuevo cliente aislado acepta la respuesta fija esperada y no importa extract_druid_response_text.
+
+H04 [CONFIRMADA] El límite de observación 404 del probe antiguo es independiente de --espera.
+missing_response_grace=60 no se expone en CLI. Subir --espera no cambia ese margen. El nuevo cliente usa un presupuesto explícito de polling, sin llamar pending al 404.
+
+H05 [DESCARTADA] El ID se está enviando a otro Bot ID en las URLs locales actuales.
+Ambas rutas configuradas contienen 8805a55b-9947-47b5-d511-08de9ea71a4f y el mismo host. No descarta un fallo de routing interno del servidor.
+
+H06 [DESCARTADA] El cliente no sabe leer los GUID planos de los últimos intentos.
+Los seis acuses observados son GUID completos; el parser actual los acepta y los estados guardados coinciden con los cuerpos de consulta. El fallo inicial del parser no explica los 404 posteriores.
+
+H07 [DESCARTADA] Cambiar solo application/json por text/plain ya resuelve los intentos archivados.
+La consulta text/plain archivada también devolvió 404 para 8282ecab-8e90-4e63-b8ce-d22ef5f401d1. No implica que todo problema posible de serialización esté descartado.
+
+H08 [PENDIENTE DE VERIFICACIÓN] HTTP 404 significa trabajo pendiente en este tenant.
+La documentación menciona un estado incompleto pero no asigna ese significado al 404 ni publica el JSON exacto. No se asume equivalencia.
+
+H09 [PENDIENTE DE VERIFICACIÓN] GPT o el paso REST causan el fallo asíncrono.
+La acción independiente sin GPT aún no está creada/publicada desde este entorno. Su comparación síncrona/asíncrona es la siguiente prueba necesaria.
+
+H10 [PENDIENTE DE VERIFICACIÓN] ResponseBody se construye, serializa o almacena incorrectamente en modo asíncrono.
+El síncrono histórico prueba que puede devolverse un objeto en esa acción. No prueba persistencia del resultado asíncrono. La prueba simple distingue al menos devolución síncrona y recorrido asíncrono.
+
+H11 [PENDIENTE DE VERIFICACIÓN] Fallo en encolado, worker, publicación asíncrona o almacén de resultados.
+Solo el invocationId no localiza la etapa. Requiere trazas internas DRUID; ausencia de Connector Audit Log fue informada por el usuario, no observada independientemente.
+
+H12 [PENDIENTE DE VERIFICACIÓN] El endpoint global tiene comportamiento diferente al host de tenant.
+La URL global fue copiada de la plataforma y la síncrona funcionó. La documentación usa el patrón de tenant. No se ha inventado ni probado otro host. Solicitar URLs exactas a plataforma/soporte.
+
+H13 [PENDIENTE DE VERIFICACIÓN] Versión, permisos o configuración de autenticación específica del modo asíncrono.
+Versión real y configuración no inspeccionadas. Un token aceptado en síncrono no demuestra todos los permisos o servicios asíncronos ni su vigencia actual.
+
+H14 [PENDIENTE DE VERIFICACIÓN] No hay ejecución porque no aparece en audit log.
+No se ha inspeccionado la consola; comprobar filtros y opciones de reducción de logs antes de concluir ausencia de ejecución.
+
+H15 [PENDIENTE DE VERIFICACIÓN] El modo asíncrono elimina el corte del conector GPT de 100 s.
+El timeout de un paso REST/LLM es distinto de la espera del webhook. Confirmar límites efectivos de la versión y recurso con soporte.
+
+F. PRÓXIMO PASO E INTERPRETACIÓN DE LA PRUEBA
+1. Crear/publicar TEST_ASYNC_SIMPLE con el código adjunto y obtener su ID real.
+2. Ejecutar:
+   python druid_async_diagnostics.py compare --integration-id ID_REAL_PUBLICADO --timeout 120 --interval 10 --observe-404
+3. Si falla síncrona: resolver configuración/publicación/entidad/autorización antes
+   de atribuir el problema al modo asíncrono. La parte asíncrona no se enviará.
+4. Si ambas devuelven el objeto fijo: recorrido simple comprobado. Volver entonces
+   al clon GPT con una variable nueva para localizar límites o serialización propios.
+5. Si síncrona pasa y asíncrona no tiene ejecución observada: soporte debe comprobar
+   encolado, worker y routing, tras revisar los filtros de audit log.
+6. Si hay tarea y ResponseBody construido pero GET sigue 404: pedir trazas de
+   almacenamiento, claves, partición/bot/tenant, caducidad y lectura del resultado.
+7. Si aparece un sobre de estado desconocido, conservarlo y confirmar el contrato
+   antes de añadir un parser. No interpretar cualquier HTTP 200 como resultado.
+No hay un ID de prueba simple que pueda utilizarse todavía. Ampliar la observación
+a 120 s es una medición acotada, no una solución al fallo.
+
+REFERENCIAS OFICIALES CONSULTADAS
+https://docs.druidai.com/1385954/Content/Webhooks/Exchanging%20Data%20with%20External%20Systems.htm#ExecuteAsynchronousIntegrationsLongRunningRequests
+https://docs.druidai.com/1385954/Content/Webhooks.htm
+https://docs.druidai.com/docs/Content/7_Integrations/Defining%20the%20Integration%20Actions.htm
+La primera página no fija el código/JSON exacto del estado incompleto ni atribuye
+al 404 el significado pending. El patrón de tenant de la documentación no basta
+para sustituir automáticamente la URL global copiada de la plataforma.
+La documentación general de acciones menciona 250 s agregados de timeouts; la de
+webhooks habla de trabajos de más de cinco minutos. Es necesario confirmar por
+versión y servicio cómo aplican esos límites. No se ha comprobado la versión real.

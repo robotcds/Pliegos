@@ -1,0 +1,40 @@
+Subject: Async integration executes and builds ResponseBody, but retrieval still returns 404 - TEST_ASYNC_SIMPLE
+
+Hi Radu,
+
+We now have new evidence from an isolated integration with ONE Custom Code task, no GPT, no REST call and no tender documents. Unlike the earlier test, both executions are visible in Connector Audit Log.
+
+Tenant: sermicro-dev
+Agent: API COIIM
+Bot ID: 8805a55b-9947-47b5-d511-08de9ea71a4f
+Action: TEST_ASYNC_SIMPLE
+Action ID: a01aac92-01d1-40b9-8959-1937189f4d4c
+Host: https://druidendpoints.druidplatform.com
+Invocation ID returned by async POST: bc9e5288-b855-4d44-92c6-b39dfbdcb15a
+Client diagnosticCorrelationId: 0cff316e-5eb3-4965-b512-d3496d00dae4
+
+Synchronous POST: 2026-10-28T12:08:26.486+00:00, HTTP 200 in 0.751074 s, correct fixed JSON.
+Asynchronous POST: 2026-10-28T12:08:27.243+00:00, HTTP 200 in 0.193762 s, returned invocationId.
+Same request body, action, entity, bot, host and authentication. Only asyncResponse differs.
+There was ONE async POST and no resubmission.
+
+We made 12 GET requests during a 120-second observation; all returned HTTP 404. After the developer provided the completed audit-log output, we performed ONE additional GET at 2026-10-28T12:14:35.551+00:00; it also returned 404. This was a targeted check after new evidence of task execution, not another polling cycle or POST.
+
+Body: No response found for invocationId bc9e5288-b855-4d44-92c6-b39dfbdcb15a
+
+The developer supplied request/response entities from the audit log for both modes. The asynchronous record explicitly has RequestParams asyncResponse=true,responseContentType=application/json. It has the same diagnosticCorrelationId as our request, and the output entity contains:
+
+{"ResponseBody":{"status":"success","message":"PRUEBA_ASYNC_OK","test":"TEST_ASYNC_SIMPLE"}}
+
+This rules out absence of Custom Code execution or an empty ResponseBody in this isolated test. It also reproduces the symptom independently of GPT latency, tokens or document size. It does NOT yet distinguish failed persistence from incorrect invocation association, tenant/bot partition, retrieval routing or result retention.
+
+Please trace this invocation after the Custom Code response is produced:
+1. Was ResponseBody captured and persisted? At which UTC timestamp?
+2. Under which invocationId, bot/tenant partition and storage key was it written?
+3. Why does the GET on the platform-provided global endpoint not find it?
+4. Is a different exact endpoint required for this tenant, or is there a service/configuration issue?
+5. What is the retention policy and the supported HTTP/body contract for a not-yet-available result?
+
+The attached bundle contains exact UTC HTTP records, URLs, parameters, response headers and bodies, plus the user-supplied audit excerpts. Authentication headers, tokens and the forwarded client IP are omitted/redacted. The response headers did not expose a server correlation ID, so please use invocationId, UTC and the client correlation above.
+
+No main application code or credentials were changed. We will not repeat the POST without a meaningful changed variable or your guidance.

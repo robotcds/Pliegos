@@ -1,0 +1,112 @@
+{
+  "orden": 5,
+  "id": "A6",
+  "nombre": "Requisitos del servicio",
+  "tipo": "extraccion",
+  "ejecucion": "1716ceaf2d8c4318a26831aac59e3df2",
+  "estado": "completado",
+  "contenido": {
+    "salida_original": "# 1. Resumen factual del servicio requerido\n\nEl contrato tiene por objeto la prestación del servicio de Administración Workplace para la Sociedad Estatal de Correos y Telégrafos S.A. S.M.E. y su filial Correos Express (CEX), durante al menos 24 meses, incluyendo la definición, diseño, construcción, mantenimiento, estandarización, auditoría, innovación y evolución de la administración del puesto de trabajo físico, virtual y de movilidad. El servicio abarca la gestión integral de plataformas, dispositivos, aplicaciones y servicios asociados, con recursos técnicos compartidos o diferenciados según el módulo y la compañía. Incluye servicios de virtualización, puesto de trabajo, movilidad, proyectos especiales, gestión y modelo de gobierno, con exigencias de cumplimiento de ANS, reporting, continuidad, reversibilidad, automatización y uso de herramientas ITSM/CMDB.\n\n# 2. Alcance y volumetrías\n\n| Dato | Valor/Unidad | Periodo | Fuente |\n|------|--------------|---------|--------|\n| Duración inicial | 24 meses | Contrato | DOC20240806095753Pliegodefinitivofirmado.pdf, p.5, Anexo I p.32 |\n| Prórrogas | 2 (12 meses y 3 meses) | Opcional | DOC20240806095753Pliegodefinitivofirmado.pdf, p.5 |\n| Virtualización: ThinClient HP | >12.000 | Vigencia | DOC20240806095753Pliegodefinitivofirmado.pdf, p.34 |\n| Virtualización: VDIs Citrix | 15.000 sesiones/máquinas virtuales | Vigencia | DOC20240806095753Pliegodefinitivofirmado.pdf, p.35 |\n| Virtualización: VDIs Azure WVD | 1.000 | Vigencia | DOC20240806095753Pliegodefinitivofirmado.pdf, p.35 |\n| Virtualización: Servidores virtuales | 100 infraestructuras, 600-700 escritorios | Vigencia | DOC20240806095753Pliegodefinitivofirmado.pdf, p.35 |\n| Virtualización: Servidores físicos | 8 chasis, 32 UCS B200 M5, 48 UCS B200 M4 | Vigencia | DOC20240806095753Pliegodefinitivofirmado.pdf, p.35 |\n| Virtualización: Almacenamiento | 4 cabinas NetApp | Vigencia | DOC20240806095753Pliegodefinitivofirmado.pdf, p.35 |\n| Puesto físico | >16.000 equipos (68% sobremesa/thinclient, 25% portátiles, 5% dispensadores, 2% autoservicio) | Vigencia | DOC20240806095753Pliegodefinitivofirmado.pdf, p.41 |\n| Movilidad: PDA Honeywell EDA52 | 34.000 | Vigencia | DOC20240806095753Pliegodefinitivofirmado.pdf, p.45 |\n| Movilidad: Smartphones | 3.100 Samsung/Xiaomi/Huawei, 130 iPhone | Vigencia | DOC20240806095753Pliegodefinitivofirmado.pdf, p.45 |\n| Movilidad: Tablets | 100 Samsung TAB A8 LTE | Vigencia | DOC20240806095753Pliegodefinitivofirmado.pdf, p.45 |\n| Movilidad: Plataformas MDM | 3 entornos Workspace One UEM | Vigencia | DOC20240806095753Pliegodefinitivofirmado.pdf, p.45 |\n| Horario presencial/remoto | L-V 07:00-18:30 (festivos no nacionales incluidos), mínimo 1 recurso presencial por sede | Vigencia | DOC20240806095753Pliegodefinitivofirmado.pdf, p.40, 44, 50 |\n| Horario guardia | 24x7 fuera de horario laboral | Vigencia | DOC20240806095753Pliegodefinitivofirmado.pdf, p.40, 44, 50 |\n\n# 3. Modelo de servicio exigido\n\n- Servicio integral, recursos técnicos compartidos o diferenciados según módulo y compañía.\n- Módulos: Virtualización, Puesto de Trabajo, Movilidad, Proyectos Especiales Correos, Proyectos Especiales CEX.\n- Capa de gestión común y modelo de gobierno para seguimiento, comunicación y control.\n- Recursos mínimos dedicados diferenciados por servicio y compañía (ver organización y roles).\n- Soporte presencial/remoto y guardias 24x7 para incidencias relevantes y actividades fuera de horario.\n- Uso obligatorio de herramientas corporativas (PoST/Remedy) para gestión de servicios.\n\nFuente: DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, p.32-44, 63-73\n\n# 4. Procesos y actividades\n\n| Proceso/actividad | Expreso en pliego | Exigencia descrita | Fuente |\n|-------------------|------------------|-------------------|--------|\n| Gestión de incidencias | Sí | Uso de PoST/Remedy Help Desk, registro, diagnóstico, RCA, reporting | DOC20240806095753Pliegodefinitivofirmado.pdf, p.56 |\n| Gestión de peticiones | Sí | Uso de PoST/Remedy Help Desk, registro, automatización, autoservicio | DOC20240806095753Pliegodefinitivofirmado.pdf, p.56, 38, 43, 49 |\n| Gestión de cambios | Sí | Uso de PoST/Remedy Change Management, documentación, reporting | DOC20240806095753Pliegodefinitivofirmado.pdf, p.56, 54 |\n| Gestión de activos | Sí | Uso de PoST/Remedy Asset Management, ciclo de vida, inventario | DOC20240806095753Pliegodefinitivofirmado.pdf, p.56, 55 |\n| Gestión de ANS | Sí | Uso de PoST/Remedy SLM, reporting, penalizaciones | DOC20240806095753Pliegodefinitivofirmado.pdf, p.56, Anexo XVII |\n| Gestión del conocimiento | Sí | Base de datos de conocimiento, registro, catalogación, tipificación, mantenimiento | DOC20240806095753Pliegodefinitivofirmado.pdf, p.55 |\n| Gestión de la capacidad | Sí | Informes periódicos, detección de riesgos, plan de capacidad | DOC20240806095753Pliegodefinitivofirmado.pdf, p.37, 54 |\n| Gestión de la calidad | Sí | Plan de calidad, informes, seguimiento | DOC20240806095753Pliegodefinitivofirmado.pdf, p.54 |\n| Gestión de riesgos | Sí | Plan de gestión de riesgos, mitigación | DOC20240806095753Pliegodefinitivofirmado.pdf, p.54 |\n| Gestión de cambios (ITIL) | Sí, expresamente | Uso de Remedy Change Management | DOC20240806095753Pliegodefinitivofirmado.pdf, p.56 |\n| Gestión de incidencias (ITIL) | Sí, expresamente | Uso de Remedy Help Desk | DOC20240806095753Pliegodefinitivofirmado.pdf, p.56 |\n| Gestión de peticiones (ITIL) | Sí, expresamente | Uso de Remedy Help Desk | DOC20240806095753Pliegodefinitivofirmado.pdf, p.56 |\n| Gestión de activos (ITIL) | Sí, expresamente | Uso de Remedy Asset Management | DOC20240806095753Pliegodefinitivofirmado.pdf, p.56 |\n| Gestión de niveles de servicio (ITIL) | Sí, expresamente | Uso de Remedy SLM | DOC20240806095753Pliegodefinitivofirmado.pdf, p.56 |\n| Gestión del conocimiento (ITIL) | Sí, expresamente | Base de datos de conocimiento | DOC20240806095753Pliegodefinitivofirmado.pdf, p.55 |\n| Gestión de la continuidad | ITIL NO CITADO EXPRESAMENTE | Elaboración/mantenimiento de procedimientos técnicos de contingencia y guías de recuperación | DOC20240806095753Pliegodefinitivofirmado.pdf, p.55 |\n| Gestión de la seguridad | ITIL NO CITADO EXPRESAMENTE | Administración de servicios de seguridad, políticas, reporting, cumplimiento ENS | DOC20240806095753Pliegodefinitivofirmado.pdf, p.38, 42, 48, 54 |\n| Automatización de operaciones | ITIL NO CITADO EXPRESAMENTE | Scripts, automatización, autoservicio | DOC20240806095753Pliegodefinitivofirmado.pdf, p.38, 43, 48 |\n\n# 5. SLA/KPI/penalizaciones\n\nVer tabla detallada en Anexo XVII – Evaluación de Proveedores (DOC20240806095753Pliegodefinitivofirmado.pdf, p.111-118). Resumen de principales indicadores:\n\n| Servicio | Prioridad | Respuesta | Resolución | Horario | Objetivo | Penalización | Fuente |\n|---------|----------|-----------|------------|---------|----------|-------------|--------|\n| Incidencias Alta | Alta | NO CONSTA | <4h | L-V 8-21h | 100% | 25% facturación mensual servicio | Anexo XVII, p.115-116 |\n| Incidencias Media | Media | NO CONSTA | <12h (L-V 8-18:30) | L-V 8-21h | 100% | 5% facturación mensual servicio | Anexo XVII, p.115-116 |\n| Incidencias Baja | Baja | NO CONSTA | <72h (L-V 8-18:30) | L-V 8-21h | 100% | 1% facturación mensual servicio | Anexo XVII, p.115-116 |\n| Peticiones Alta | Alta | NO CONSTA | <4h | L-V 8-21h | 100% | 25% facturación mensual servicio | Anexo XVII, p.117 |\n| Peticiones Media | Media | NO CONSTA | <12h (L-V 8-18:30) | L-V 8-21h | 100% | 5% facturación mensual servicio | Anexo XVII, p.117 |\n| Peticiones Baja | Baja | NO CONSTA | <72h (L-V 8-18:30) | L-V 8-21h | 100% | 1% facturación mensual servicio | Anexo XVII, p.117 |\n| Perfil no cumple requisitos | N/A | N/A | N/A | N/A | 100% | 15% facturación mensual servicio | Anexo XVII, p.112 |\n| Perfil no cubierto en plazo | N/A | N/A | 15 días naturales (5 días traspaso) | N/A | 100% | 25% facturación mensual servicio, 100% si >30 días | Anexo XVII, p.112 |\n| Disponibilidad recursos | N/A | N/A | 3 días laborables | N/A | 100% | 20% facturación mensual servicio por perfil | Anexo XVII, p.113 |\n| Tasa de renovación equipos | N/A | N/A | 1/año/servicio | N/A | 100% | 20% facturación mensual total servicios | Anexo XVII, p.113 |\n| Proyectos especiales: respuesta | N/A | <15 días naturales | N/A | N/A | 100% | 15% facturación mensual servicios empresa | Anexo XVII, p.114 |\n| Parcheo virtualización | N/A | N/A | 2 veces/año | N/A | 100% | 100% facturación mensual virtualización | Anexo XVII, p.118 |\n\n# 6. Organización y roles exigidos\n\n- Responsable de Gestión y Seguimiento del Servicio: mínimo 5 años experiencia, interlocución táctica y operativa, informes, seguimiento, calidad, reuniones periódicas.\n- Administrador de Sistemas Virtualizados: 3 años experiencia, conocimientos detallados en Hyper-V, ESXI, Citrix, SCVMM, scripting, AD/GPOs, inglés técnico.\n- Administrador de NetApp: 3 años experiencia, conocimientos en ONTAP, SAN/NAS, scripting, inglés técnico.\n- Administrador de SQL: 3 años experiencia, DBA SQL Server, migraciones, HA, scripting, inglés técnico.\n- Administrador de Comunicaciones Cisco: 5 años experiencia, CCNA/CCNP deseable, routing/switching, inglés técnico.\n- Administrador de Sistemas (Puesto de Trabajo): 3 años experiencia, SCCM, MDT, MDM, INTUNE, HPDM, scripting, AD/GPOs, inglés técnico.\n- Administrador de Sistemas de Movilidad: 3 años experiencia, Android/iOS, EMM, MDM, Workspace One, scripting, inglés técnico.\n- Bolsa de expertos: consultores con 5 años experiencia en tecnologías demandadas, subcontratación con fabricante si no hay perfil interno.\n- Recursos mínimos dedicados diferenciados por servicio y compañía (ver tabla de horas y dedicaciones, p.73).\n- Disponibilidad mixta presencial/remoto, intercambiables, con medios técnicos propios.\n\nFuente: DOC20240806095753Pliegodefinitivofirmado.pdf, p.63-73\n\n# 7. Gobierno y reporting exigidos\n\n- Modelo de gobierno colaborativo, control y coordinación, mejora continua, innovación.\n- Comités de gestión: estratégico (decisiones medio-largo plazo), táctico (seguimiento calidad, plan actuaciones), operativo (seguimiento corto plazo, incidencias, proyectos).\n- Informes de estado del servicio, indicadores, cuadro de mando mensual, informes de cumplimiento de ANS, actas de reunión, plan de calidad, plan de capacidad, plan de riesgos, informe de cierre.\n- Documentación de gestión y técnica: plan de servicio, plan de gobierno, modelo de relación, documentación de cambios, inventario, procedimientos, protocolos, base de datos de conocimiento.\n\nFuente: DOC20240806095753Pliegodefinitivofirmado.pdf, p.52-55\n\n# 8. Herramientas ITSM, CMDB, monitorización e integraciones exigidas\n\n- PoST (Portal de Servicios de Tecnología): herramienta de ticketing para gestión de incidencias, peticiones, cambios, conocimiento, activos, ANS.\n- Basado en Remedy ITSM: módulos Help Desk, Change Management, Asset Management, SLM.\n- Integración con Directorio Activo de Correos.\n- Monitorización continua, métricas y alertas definidas por el adjudicatario, acceso para responsables Correos/CEX, preferible plataforma única.\n- Documentación en Sharepoint corporativo o herramienta equivalente, migración a otros sistemas si se requiere.\n- Base de datos de conocimiento.\n\nFuente: DOC20240806095753Pliegodefinitivofirmado.pdf, p.56, 38, 43, 48, 55\n\n# 9. Transición, continuidad y reversibilidad exigidas\n\n- Fase de transición: 1 mes desde firma, periodo de solapamiento con equipo saliente, transferencia de conocimiento, documentación, procedimientos, modelos de gobierno y operativo definidos en 15 días, plan de transición obligatorio en oferta.\n- Fase de prestación: inicio tras transición, control de esfuerzo, informes, cumplimiento de ANS, automatización, transparencia, seguridad.\n- Fase de reversión: periodo de traspaso mínimo 15 días (recomendado 1 mes), equipo mixto, entrega de documentación completa y actualizada, acceso a servicios, recursos clave para transición, plan de reversión obligatorio en oferta, soporte a nuevo adjudicatario, penalización por no colaboración (reducción 50% fianza), no facturación último mes hasta aceptación.\n- Continuidad: procedimientos técnicos de contingencia y guías de recuperación, plan de continuidad TI, pruebas de recuperación mensuales.\n\nFuente: DOC20240806095753Pliegodefinitivofirmado.pdf, p.56-62\n\n# 10. Automatización, self-service y gestión del conocimiento\n\n- Automatización: administración y operación lo más automatizada posible, scripts en powershell, Basic, Bash, Visual Basic, automatización de peticiones y autoservicio, propiedad intelectual de Correos/CEX, repositorios propios.\n- Self-service: evaluación y puesta a disposición de peticiones automatizables para autoservicio.\n- Gestión del conocimiento: base de datos de conocimiento, registro, catalogación, tipificación, mantenimiento de soluciones y workarounds, documentación en Sharepoint o equivalente.\n\nFuente: DOC20240806095753Pliegodefinitivofirmado.pdf, p.38, 43, 48, 55, 60\n\n# 11. Datos no localizados o ambiguos en la documentación\n\n- No consta definición de N1/N2/N3 como niveles de soporte explícitos, aunque se describen actividades de soporte de tercer nivel y colaboración con CAU, Microinformática y otros equipos.\n- No consta detalle de volumetría de tickets/incidencias/peticiones anual/mensual.\n- No consta detalle de idiomas requeridos para la atención a usuarios finales, salvo inglés técnico para perfiles.\n- No consta detalle de integración con herramientas externas a las citadas (PoST/Remedy, Sharepoint, Directorio Activo).\n- No consta detalle de RTO/RPO para continuidad/recuperación.\n- No consta detalle de reporting específico de monitorización (solo se exige acceso y métricas definidas por el adjudicatario).\n- No consta detalle de Service Desk como entidad organizativa diferenciada.\n- No consta detalle de CMDB más allá de la gestión de activos en Remedy.\n\n# 12. Documentos revisados\n\n1. ANEXO I.pdf\n2. Anuncio.pdf\n3. DOC20240806095753Pliegodefinitivofirmado.pdf\n4. DOC_CD2024-000901195.pdf\n5. poc (detalle licitación)\n6. poc (perfil contratante)\n7. CORREOS-Codigo-General-de-Conducta.pdf (NO DISPONIBLE, 404)\n8. perfil-contratante\n9. PoliticaProteccionDatosCanalEticoClientesyProveedores--ES.pdf\n\n# Tabla de trazabilidad\n\n| Requisito/dato | Tipo | Valor/condición | Documento | Página/apartado | Estado de lectura |\n|---------------|------|-----------------|-----------|-----------------|-------------------|\n| Alcance servicio | Obligación | Administración Workplace integral, físico, virtual, movilidad | DOC20240806095753Pliegodefinitivofirmado.pdf | Anexo I, p.32 | Leído |\n| Volumetría ThinClient | Información | >12.000 HP | DOC20240806095753Pliegodefinitivofirmado.pdf | p.34 | Leído |\n| Volumetría VDIs Citrix | Información | 15.000 sesiones/máquinas virtuales | DOC20240806095753Pliegodefinitivofirmado.pdf | p.35 | Leído |\n| Horario presencial/remoto | Obligación | L-V 07:00-18:30, festivos no nacionales, mínimo 1 recurso presencial | DOC20240806095753Pliegodefinitivofirmado.pdf | p.40, 44, 50 | Leído |\n| Horario guardia | Obligación | 24x7 fuera de horario laboral | DOC20240806095753Pliegodefinitivofirmado.pdf | p.40, 44, 50 | Leído |\n| SLA incidencias alta | Obligación | Resolución <4h, penalización 25% | DOC20240806095753Pliegodefinitivofirmado.pdf | Anexo XVII, p.115-116 | Leído |\n| SLA peticiones alta | Obligación | Resolución <4h, penalización 25% | DOC20240806095753Pliegodefinitivofirmado.pdf | Anexo XVII, p.117 | Leído |\n| Gestión de incidencias (ITIL) | Obligación | Uso Remedy Help Desk | DOC20240806095753Pliegodefinitivofirmado.pdf | p.56 | Leído |\n| Gestión de cambios (ITIL) | Obligación | Uso Remedy Change Management | DOC20240806095753Pliegodefinitivofirmado.pdf | p.56 | Leído |\n| Gestión de activos (ITIL) | Obligación | Uso Remedy Asset Management | DOC20240806095753Pliegodefinitivofirmado.pdf | p.56 | Leído |\n| Gestión de niveles de servicio (ITIL) | Obligación | Uso Remedy SLM | DOC20240806095753Pliegodefinitivofirmado.pdf | p.56 | Leído |\n| Automatización | Obligación | Scripts, automatización, autoservicio | DOC20240806095753Pliegodefinitivofirmado.pdf | p.38, 43, 48, 60 | Leído |\n| Gestión del conocimiento | Obligación | Base de datos de conocimiento | DOC20240806095753Pliegodefinitivofirmado.pdf | p.55 | Leído |\n| Transición | Obligación | 1 mes, plan obligatorio, solapamiento, transferencia conocimiento | DOC20240806095753Pliegodefinitivofirmado.pdf | p.56-59 | Leído |\n| Reversibilidad | Obligación | Plan obligatorio, mínimo 15 días, entrega documentación, soporte | DOC20240806095753Pliegodefinitivofirmado.pdf | p.61-62 | Leído |\n| Gobierno | Obligación | Comités estratégico, táctico, operativo, informes, reporting | DOC20240806095753Pliegodefinitivofirmado.pdf | p.52-55 | Leído |\n| Herramientas ITSM | Obligación | PoST/Remedy, Sharepoint, Directorio Activo | DOC20240806095753Pliegodefinitivofirmado.pdf | p.56, 55 | Leído |\n| Monitorización | Obligación | Métricas, alertas, acceso responsables, plataforma única preferible | DOC20240806095753Pliegodefinitivofirmado.pdf | p.37, 38 | Leído |\n| Continuidad | Obligación | Procedimientos técnicos de contingencia, pruebas recuperación | DOC20240806095753Pliegodefinitivofirmado.pdf | p.55, 39 | Leído |\n| NO CONSTA definición N1/N2/N3 | Dato no localizado | - | - | - | - |\n| NO CONSTA volumetría tickets | Dato no localizado | - | - | - | - |\n| NO CONSTA detalle idiomas usuarios | Dato no localizado | - | - | - | - |\n| NO CONSTA detalle Service Desk | Dato no localizado | - | - | - | - |\n| NO CONSTA detalle RTO/RPO | Dato no localizado | - | - | - | - |\n\n# Discrepancias y pendientes de aclaración\n\n- No se han identificado discrepancias en la documentación revisada.\n- CORREOS-Codigo-General-de-Conducta.pdf: documento no disponible, pendiente de verificar si contiene obligaciones adicionales.\n- No consta definición explícita de N1/N2/N3, Service Desk, ni detalle de volumetría de tickets/incidencias.\n- No consta detalle de RTO/RPO ni de reporting específico de monitorización.\n- No consta detalle de integración con herramientas externas a las citadas.\n\n---\n\n**Fin del análisis objetivo de requisitos del servicio según documentación revisada.**"
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "ANEXO I.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 108608,
+        "caracteres_enviados_al_agente": 108608,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Anuncio.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 8853,
+        "caracteres_enviados_al_agente": 8853,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 300656,
+        "caracteres_enviados_al_agente": 300656,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 4,
+        "nombre": "DOC_CD2024-000901195.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 8376,
+        "caracteres_enviados_al_agente": 8376,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 5,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "Anuncio.pdf",
+        "caracteres_extraidos": 5053,
+        "caracteres_enviados_al_agente": 5053,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 6,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "Anuncio.pdf",
+        "caracteres_extraidos": 3234,
+        "caracteres_enviados_al_agente": 3234,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 7,
+        "nombre": "CORREOS-Codigo-General-de-Conducta.pdf",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 0,
+        "caracteres_enviados_al_agente": 0,
+        "texto_compactado": false,
+        "error": "404 Client Error: The specified blob does not exist. for url: https://cswetwebcorsta01.blob.core.windows.net/uploads/2022/01/CORREOS-Codigo-General-de-Conducta.pdf"
+      },
+      {
+        "numero": 8,
+        "nombre": "perfil-contratante",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 84908,
+        "caracteres_enviados_al_agente": 84908,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 9,
+        "nombre": "PoliticaProteccionDatosCanalEticoClientesyProveedores--ES.pdf",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 13833,
+        "caracteres_enviados_al_agente": 13833,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Documento no leido: CORREOS-Codigo-General-de-Conducta.pdf: 404 Client Error: The specified blob does not exist. for url: https://cswetwebcorsta01.blob.core.windows.net/uploads/2022/01/CORREOS-Codigo-General-de-Conducta.pdf",
+      "Se omitieron 22 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+PLIEGO TECNICO FICTICIO OPP-SW-001
+Proyecto: Portal ciudadano de tramitacion electronica.
+
+Objeto:
+Desarrollo de un portal web responsive para la tramitacion electronica de solicitudes municipales, consulta de expedientes, notificaciones y pago de tasas. El alcance incluye frontend React, backend API REST, integracion con registro electronico, autenticacion corporativa, gestor documental y sede electronica.
+
+Solvencia tecnica y equipo minimo:
+- Jefe de proyecto con al menos 6 anos de experiencia en proyectos de software para administracion publica y certificacion PMP o equivalente.
+- Desarrollador backend senior con al menos 5 anos en Java o Python, APIs REST y bases de datos relacionales.
+- Desarrollador frontend con al menos 4 anos en React o TypeScript y experiencia demostrable en accesibilidad WCAG 2.1 AA.
+- Analista QA con al menos 3 anos en pruebas funcionales y automatizacion de regresion.
+- Especialista de ciberseguridad con experiencia en ENS, OWASP y securizacion de aplicaciones web.
+
+Entregables:
+Documento de arquitectura, backlog funcional, portal web, APIs, pruebas automatizadas, manuales de usuario, plan de despliegue y transferencia al equipo interno.
+
+Service Design / ITIL:
+El adjudicatario debera prestar soporte postarranque durante 6 meses en horario 8x5 remoto, con canal de tickets y correo. Alcance: portal ciudadano, APIs, integraciones con registro, pasarela de pagos y gestor documental. Usuarios estimados: 450 empleados publicos y 25.000 ciudadanos potenciales.
+Modelo exigido: soporte N2/N3 aplicacional, gestion de incidencias, peticiones, cambios menores y problemas recurrentes. Se aceptan practicas compatibles con ITIL, sin exigir certificacion formal.
+SLA: incidencias criticas P1 respuesta <= 30 minutos y resolucion <= 4 horas en horario 8x5; P2 respuesta <= 2 horas y resolucion <= 2 dias; peticiones estandar <= 5 dias. Objetivo de cumplimiento 95 %. Penalizacion: 1 % de facturacion mensual si el cumplimiento baja del 95 %.
+Gobierno: comite operativo semanal durante los dos primeros meses y mensual posteriormente. Informe mensual de SLA, backlog, incidencias recurrentes, cambios y acciones de mejora.
+Transicion: 4 semanas, incluida en precio, con formacion, runbooks, alta de usuarios soporte, configuracion de SLA y base de conocimiento inicial.
+Reversibilidad: 2 semanas, entrega de documentacion, tickets abiertos, repositorios, configuracion y base de conocimiento.
+
+Delivery / Operacion:
+Go-live previsto 6 semanas despues de la formalizacion. El adjudicatario debera tener operativos los accesos, canal de soporte, calendario de guardias de despliegue, base de conocimiento inicial y cuadro de mando antes del paso a produccion.
+Dimensionamiento estimado: 120 tickets/mes durante los dos primeros meses y 60 tickets/mes estabilizados. No se requiere presencia fisica continua, pero si disponibilidad para 4 jornadas presenciales de arranque en la sede municipal.
+Dependencias del cliente: alta de cuentas VPN, validacion de integracion con registro, entorno PRE, datos de prueba y aprobacion de ventanas de despliegue. Si el cliente no entrega accesos en semana 1, el go-live se desplazara.
+Herramientas: se acepta Jira Service Management del adjudicatario o herramienta del cliente. Reporting mensual obligatorio con backlog, P1/P2, tiempos medios y acciones de mejora.
+Readiness esperado: operacion viable con equipo interno si se confirma ENS MEDIA y accesos en plazo.
+
+Seguridad / DPO / ENS:
+El portal tratara datos identificativos de ciudadanos, empleados publicos, correos electronicos, direcciones IP, logs de acceso y datos economicos asociados al pago de tasas. El adjudicatario actuara como encargado del tratamiento y debera firmar anexo de encargado con instrucciones del responsable, medidas de seguridad, confidencialidad, subencargados y devolucion/borrado.
+ENS: se exige conformidad ENS categoria MEDIA para el servicio de desarrollo, soporte y alojamiento cloud del portal antes de la puesta en produccion. El alcance de la certificacion debera cubrir aplicaciones web, APIs, soporte y cloud usado en la prestacion.
+Medidas obligatorias: TLS 1.2 o superior, cifrado en reposo, MFA para administradores, RBAC, cuentas nominativas, registro de accesos, WAF, gestion de vulnerabilidades, copias diarias cifradas y retencion de logs 12 meses.
+Cloud y datos: datos y backups dentro de la UE. Se admiten servicios cloud con regiones UE y subencargados comunicados previamente. No se permiten transferencias internacionales sin autorizacion.
+Incidentes y brechas: incidente de seguridad critico se comunicara al cliente en <= 2 horas; brecha de datos personales se comunicara al DPO del cliente en <= 2 horas con informe inicial en 24 horas.
+Desarrollo seguro: OWASP, SAST, SCA, gestion de secretos y separacion DEV/PRE/PRO. Vulnerabilidades criticas corregidas en <= 48 horas.
+
+Criterios de adjudicacion:
+Calidad tecnica 45 puntos, oferta economica 35 puntos y plan de soporte 20 puntos.

@@ -1,0 +1,41 @@
+PLIEGO TECNICO FICTICIO OPP-SW-006
+Proyecto: Aplicacion movil nativa para incidencias ciudadanas.
+
+Objeto:
+Desarrollo de aplicaciones nativas iOS y Android para comunicar incidencias en via publica, adjuntar fotografia, geolocalizar avisos, consultar estado y recibir notificaciones. Incluye backend, panel gestor web y analitica de uso.
+
+Solvencia tecnica y equipo minimo:
+- Desarrollador iOS con al menos 4 anos de experiencia en Swift, publicacion App Store y notificaciones push.
+- Desarrollador Android con al menos 4 anos de experiencia en Kotlin, Play Store y geolocalizacion.
+- QA mobile con al menos 3 anos en pruebas sobre dispositivos reales y automatizacion mobile.
+- Desarrollador backend con al menos 4 anos en APIs REST.
+- Diseno UX mobile con al menos 3 anos de experiencia especifica en aplicaciones ciudadanas.
+
+Condiciones:
+Las aplicaciones deberan superar pruebas en dispositivos de gama baja, cumplir criterios de accesibilidad y disponer de modo offline parcial.
+
+Service Design / ITIL:
+El adjudicatario debera prestar soporte postarranque durante 3 meses dentro de un contrato total de 9 meses. Alcance: apps iOS y Android, backend, panel gestor, notificaciones push y publicacion en stores. Usuarios potenciales: 60.000 ciudadanos y 120 gestores.
+Modelo exigido: soporte N1 ciudadano proporcionado por el cliente, adjudicatario N2/N3 mobile y backend. Horario 12x5 con guardia para incidencias criticas de publicacion o caida de backend.
+SLA: P1 caida total backend respuesta <= 15 minutos y resolucion <= 2 horas; P1 incidencia store que impida publicar version critica resolucion <= 1 dia; P2 errores funcionales respuesta <= 2 horas y resolucion <= 3 dias. Objetivo 96 %. Penalizacion 3 % mensual si P1 incumple.
+Herramientas: Jira Service Management y panel de crash reporting. Se requiere integracion con portal de usuario del cliente. CMDB ligera con apps, versiones, APIs, certificados push y dependencias.
+Transicion: configuracion de cuentas store, runbooks de despliegue, plan de rollback y formacion a gestores. Reversibilidad: transferencia de cuentas, codigo, pipelines, certificados y documentacion.
+Dependencias: aprobacion de Apple/Google puede afectar plazos; debe reflejarse como riesgo operativo.
+
+Delivery / Operacion:
+Go-live condicionado a aprobacion de Apple/Google y a disponibilidad de cuentas corporativas del cliente antes de la semana 3. El adjudicatario debe tener equipo mobile N2/N3 activo desde T-30 y guardia de publicacion durante las 2 primeras semanas.
+Volumetria operativa prevista: 350 tickets/mes durante el primer trimestre, de los que 15 % seran incidencias mobile, 20 % dudas funcionales escaladas desde N1 y 65 % peticiones/correcciones menores. Picos previstos tras campanas municipales.
+Cobertura: servicio remoto 12x5, sin presencia continua. Se requiere capacidad de pruebas en al menos 8 dispositivos fisicos distintos y plan de sustitucion si un desarrollador mobile clave no esta disponible.
+Dependencias de partners: desarrollo y soporte mobile nativo pueden cubrirse con Mobile Studio Ficticio S.L.; pentest mobile con Pentest Lab Ficticio S.L. Si no hay compromisos firmados antes de oferta, el go-live queda en riesgo alto.
+Herramientas criticas: repositorio Git, CI/CD mobile, crash reporting en region UE o alternativa equivalente, portal de soporte, base de conocimiento y dashboard de incidencias.
+
+Seguridad / DPO / ENS:
+Las apps trataran datos identificativos de ciudadanos, fotografias de incidencias, geolocalizacion, direcciones IP, identificadores de dispositivo y notificaciones push. El adjudicatario sera encargado del tratamiento y debera firmar acuerdo con instrucciones, categorias de datos, subencargados, conservacion y borrado.
+ENS: se exige ENS MEDIA para backend, APIs y panel gestor. Las apps mobile deberan aplicar medidas equivalentes de desarrollo seguro y proteccion de credenciales.
+Medidas obligatorias: TLS, pinning certificado valorable, cifrado local de datos offline, minimizacion de geolocalizacion, MFA para gestores, RBAC, logs de administracion 12 meses, gestion segura de certificados push y almacenamiento de fotografias en UE.
+Subencargados: Apple, Google, servicio push, crash reporting y cloud deberan identificarse. Quedan prohibidas transferencias internacionales de datos de incidencia salvo garantias y autorizacion.
+Vulnerabilidades: pentest mobile y backend antes de publicacion, SAST/SCA, OWASP MASVS recomendado. Criticas corregidas <= 48 horas.
+Brechas: comunicacion al cliente <= 2 horas; si afecta fotografias o geolocalizacion se considerara alto impacto. Borrado seguro de datos al finalizar y revocacion de cuentas store.
+
+Criterios:
+Experiencia mobile nativa 45 puntos, oferta economica 35 puntos y usabilidad 20 puntos.

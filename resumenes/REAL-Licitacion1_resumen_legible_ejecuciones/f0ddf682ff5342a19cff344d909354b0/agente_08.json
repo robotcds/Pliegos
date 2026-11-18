@@ -1,0 +1,140 @@
+{
+  "orden": 8,
+  "id": "A10",
+  "nombre": "Compras, proveedores y colaboradores",
+  "tipo": "extraccion",
+  "estado": "completado",
+  "contenido": {
+    "resumen": [
+      "No se identifican productos hardware concretos ni stock mínimo.",
+      "No se exige fabricante, canal, partnership ni cartas.",
+      "No se describen cadenas de suministro específicas.",
+      "No se establecen requisitos de retirada o destrucción de hardware.",
+      "No se exige SLA de fabricante ni soporte externo.",
+      "No se identifican referencias de software ni fabricantes concretos.",
+      "No se exige staging ni logística específica.",
+      "ID_188_1.PDF",
+      "ID_188_2.PDF",
+      "ID_188_3.PDF",
+      "poc (detalle licitación)",
+      "poc (perfil contratante)"
+    ],
+    "secciones": [
+      {
+        "titulo": "Contenido inicial",
+        "parrafos": [
+          "Resumen factual",
+          "El contrato tiene por objeto el diseño, desarrollo, puesta en servicio, mantenimiento y evolución tecnológica de un Asistente Virtual para el portal Decide Madrid, en modalidad SaaS, siendo el adjudicatario responsable de la gestión y operación de todos los elementos de la solución ofertada, salvo la infraestructura MultiCloud corporativa (Google Cloud Platform, Microsoft Azure y Amazon AWS) que aporta el Ayuntamiento. El adjudicatario debe aportar todo el software, licencias, servicios y medios materiales y personales necesarios para la ejecución del contrato, con posibilidad de subcontratación limitada y sin exigencia de fabricantes, canal o cartas de partnership. No se describen cadenas de suministro específicas ni se exigen garantías o soporte de fabricante más allá de la obligación de mantenimiento y soporte por parte del adjudicatario. No se identifican productos hardware concretos ni stock, ni se establecen requisitos de retirada o destrucción de hardware.",
+          "Mapa de suministros y terceros",
+          "Elemento/necesidad | Tipo | Cantidad/volumen | Especificación | Quien debe aportarlo | Fuente",
+          "Asistente virtual BOT | SaaS/software | 1 solución | IA generativa y tradicional, integración portal Decide Madrid | Adjudicatario | ID_188_3.PDF, pág. 1, 13",
+          "Panel de control | SaaS/software | 1 solución | Acceso web, métricas, gestión, mínimo 5 usuarios | Adjudicatario | ID_188_3.PDF, pág. 14-15",
+          "Licencias software y SaaS | Licencias | Todas necesarias | Para funcionamiento y acceso a elementos técnicos y servicios | Adjudicatario | ID_188_3.PDF, pág. 23, 43",
+          "Infraestructura MultiCloud | Infraestructura cloud | No aplica (ya existente) | Google Cloud Platform, Microsoft Azure, Amazon AWS | Ayuntamiento | ID_188_3.PDF, pág. 29",
+          "Personal técnico y agentes | Recursos humanos | Según perfiles mínimos | Ver sección perfiles | Adjudicatario | ID_188_3.PDF, pág. 24-27",
+          "Productos, hardware y materiales",
+          "Producto | Cantidad | Características | Fabricante/referencia | Equivalente permitido | Garantía/soporte | Stock/plazo | Fuente",
+          "NO CONSTA EN LA DOCUMENTACION REVISADA ningún producto hardware concreto a aportar por el adjudicatario. Se indica que el adjudicatario debe dotar a su personal de los medios técnicos y materiales necesarios, pero no se detallan productos, referencias ni requisitos de stock. | | | | | | | ID_188_3.PDF, pág. 23-24",
+          "Software, SaaS y licencias",
+          "Producto | Fabricante | Métrica/cantidad | Entornos | Duración | Quien lo aporta | Fuente",
+          "Asistente virtual BOT | NO CONSTA EN LA DOCUMENTACION REVISADA | 1 solución SaaS | Producción y preproducción (mínimo) | Duración del contrato (24 meses + prórrogas) | Adjudicatario | ID_188_3.PDF, pág. 1, 13, 29",
+          "Panel de control | NO CONSTA EN LA DOCUMENTACION REVISADA | 1 solución SaaS | Web | Duración del contrato | Adjudicatario | ID_188_3.PDF, pág. 14-15",
+          "Licencias software/SaaS | NO CONSTA EN LA DOCUMENTACION REVISADA | Todas necesarias | Según arquitectura ofertada | Duración del contrato | Adjudicatario | ID_188_3.PDF, pág. 23, 43",
+          "Licencias para trabajadores | NO CONSTA EN LA DOCUMENTACION REVISADA | Todas necesarias | Según necesidades | Duración del contrato | Adjudicatario | ID_188_3.PDF, pág. 43",
+          "Licencias para puestos municipales (si aplica) | NO CONSTA EN LA DOCUMENTACION REVISADA | Si necesario, previa autorización IAM | Según necesidades | Duración del contrato | Adjudicatario | ID_188_3.PDF, pág. 43",
+          "Fabricantes, canal y cartas",
+          "Fabricante | Requisito | Nivel/certificación/carta exigida | Momento | Fuente",
+          "NO SE EXIGE fabricante, canal, partnership ni carta de fabricante en ningún punto del pliego. | | | | ID_188_2.PDF, pág. 51-68; ID_188_3.PDF, pág. 1-56",
+          "Subcontratación, UTE y medios externos",
+          "Regla | Límite/condición | Declaración/autorización | Fuente",
+          "Subcontratación permitida | No pueden subcontratarse tareas críticas: fase de implantación y tareas del Jefe/a de Proyecto | Debe indicarse en la oferta la parte a subcontratar, importe y nombre/perfil del subcontratista | ID_188_2.PDF, pág. 74-75; ID_188_3.PDF, pág. 29",
+          "UTE permitida | No se establecen límites adicionales a los legales | Compromiso de constitución y reparto de participación | ID_188_2.PDF, pág. 19",
+          "Medios externos para solvencia | Permitido según art. 75 LCSP | Compromiso de disponibilidad durante la ejecución | ID_188_2.PDF, pág. 11, 92-93",
+          "Cadena de suministro y dependencias contractuales descritas",
+          "No se describe una cadena de suministro específica ni se establecen dependencias contractuales con terceros, fabricantes o proveedores fuera de las obligaciones generales del adjudicatario de aportar todos los elementos necesarios para la ejecución del contrato. | ID_188_3.PDF, pág. 23, 43",
+          "SLA de proveedor/fabricante, garantías y soporte exigidos",
+          "No se exige SLA de fabricante ni soporte back-to-back. El adjudicatario es responsable del mantenimiento, soporte y resolución de incidencias, con penalidades por incumplimiento de plazos y calidad del servicio. No se exige garantía de fabricante ni soporte NBD/4h/onsite. | ID_188_2.PDF, pág. 76-77; ID_188_3.PDF, pág. 17",
+          "Logística, staging, stock, entrega, retirada y destrucción",
+          "No se establecen requisitos de logística, staging, stock ni entrega de hardware. Se exige la eliminación segura de toda la información del servicio a la finalización del contrato, con certificado de destrucción de datos, pero no se menciona retirada o destrucción de hardware. | ID_188_3.PDF, pág. 9",
+          "Ambigüedades y datos no localizados",
+          "Documentos revisados",
+          "Tabla de trazabilidad",
+          "Requisito/dato | Tipo | Valor/condición | Documento | Página/apartado | Estado de lectura",
+          "Asistente virtual BOT | SaaS/software | Adjudicatario debe aportar solución completa | ID_188_3.PDF | pág. 1, 13 | Leído",
+          "Panel de control | SaaS/software | Adjudicatario debe aportar solución completa | ID_188_3.PDF | pág. 14-15 | Leído",
+          "Licencias software/SaaS | Licencias | Todas necesarias a cargo del adjudicatario | ID_188_3.PDF | pág. 23, 43 | Leído",
+          "Infraestructura MultiCloud | Infraestructura cloud | Aporta Ayuntamiento | ID_188_3.PDF | pág. 29 | Leído",
+          "Hardware concreto | Hardware | NO CONSTA EN LA DOCUMENTACION REVISADA | ID_188_3.PDF | pág. 23-24 | Leído",
+          "Fabricante/canal/carta | Requisito | NO EXIGIDO | ID_188_2.PDF | pág. 51-68 | Leído",
+          "Subcontratación | Regla | Permitida con límites y declaración | ID_188_2.PDF | pág. 74-75 | Leído",
+          "Cadena de suministro | Dependencia | NO CONSTA EN LA DOCUMENTACION REVISADA | ID_188_3.PDF | pág. 23, 43 | Leído",
+          "SLA fabricante | SLA | NO EXIGIDO | ID_188_2.PDF | pág. 76-77 | Leído",
+          "Eliminación de datos | Destrucción | Certificado de destrucción de datos | ID_188_3.PDF | pág. 9 | Leído",
+          "REQUISITOS OBLIGATORIOS DEL DOCUMENTO IA - FUENTES PARA PROYECTO VIABILIDAD"
+        ],
+        "elementos": [
+          "No se identifican productos hardware concretos ni stock mínimo.",
+          "No se exige fabricante, canal, partnership ni cartas.",
+          "No se describen cadenas de suministro específicas.",
+          "No se establecen requisitos de retirada o destrucción de hardware.",
+          "No se exige SLA de fabricante ni soporte externo.",
+          "No se identifican referencias de software ni fabricantes concretos.",
+          "No se exige staging ni logística específica.",
+          "ID_188_1.PDF",
+          "ID_188_2.PDF",
+          "ID_188_3.PDF",
+          "poc (detalle licitación)",
+          "poc (perfil contratante)",
+          "poc (perfil contratante)",
+          "147409-2026 (Sin texto extraíble; pendiente de lectura/OCR)",
+          "perfilContratante",
+          "VOLUMEN ANUAL DE NEGOCIOS: Umbral: 181.595,44 €; Ámbito: objeto del contrato; Mejor ejercicio: 2023, 2024, 2025; Moneda: euros; Medio de acreditación: declaración responsable firmada por representante legal. Documento: ID_188_2.PDF, pág. 63. Estado: ENCONTRADO EN EL PLIEGO.",
+          "PATRIMONIO NETO/RATIOS: NO EXIGIDO/NO CONSTA EN EL PLIEGO. Documento: ID_188_2.PDF, pág. 63. Estado: ENCONTRADO EN EL PLIEGO.",
+          "SEGURO RC/RIESGOS PROFESIONALES: NO EXIGIDO/NO CONSTA EN EL PLIEGO. Documento: ID_188_2.PDF, pág. 67. Estado: ENCONTRADO EN EL PLIEGO.",
+          "CERTIFICADOS DE BUENA EJECUCIÓN: Objeto: servicios de igual o similar naturaleza (CPV 720); Importe: igual o superior al presupuesto sin IVA; Fechas: tres últimos años; Destinatario: público o privado; Prueba: relación y acreditación según art. 90.1.a) LCSP. Documento: ID_188_2.PDF, pág. 64. Estado: ENCONTRADO EN EL PLIEGO.",
+          "ISO/ENS: NO EXIGIDO/NO CONSTA EN EL PLIEGO. Documento: ID_188_2.PDF, pág. 65. Estado: ENCONTRADO EN EL PLIEGO.",
+          "FABRICANTES/PARTNERSHIPS: NO EXIGIDO/NO CONSTA EN EL PLIEGO. Documento: ID_188_2.PDF, pág. 51-68. Estado: ENCONTRADO EN EL PLIEGO.",
+          "PERFILES: Puestos y cantidad: detallados (ver tabla de perfiles); Titulación: universitaria o secundaria según perfil; Experiencia: 2-5 años según perfil; Certificaciones: NO CONSTA EN EL PLIEGO; Dedicación: NO CONSTA EN EL PLIEGO; Jornada: NO CONSTA EN EL PLIEGO; Presencialidad: NO CONSTA EN EL PLIEGO; Ubicación: NO CONSTA EN EL PLIEGO; Idiomas: castellano para agentes; Funciones: detalladas; Sustitución: procedimiento descrito. Documento: ID_188_3.PDF, pág. 24-28. Estado: ENCONTRADO EN EL PLIEGO.",
+          "ROLECE/CLASIFICACIÓN: No exigida; alternativa: acreditación de solvencia. Documento: ID_188_2.PDF, pág. 63. Estado: ENCONTRADO EN EL PLIEGO."
+        ],
+        "tablas": []
+      }
+    ],
+    "pendientes_y_no_localizados": [
+      {
+        "seccion": "Contenido inicial",
+        "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA ningún producto hardware concreto a aportar por el adjudicatario. Se indica que el adjudicatario debe dotar a su personal de los medios técnicos y materiales necesarios, pero no se detallan productos, referencias ni requisitos de stock. | | | | | | | ID_188_3.PDF, pág. 23-24"
+      },
+      {
+        "seccion": "Contenido inicial",
+        "texto": "Asistente virtual BOT | NO CONSTA EN LA DOCUMENTACION REVISADA | 1 solución SaaS | Producción y preproducción (mínimo) | Duración del contrato (24 meses + prórrogas) | Adjudicatario | ID_188_3.PDF, pág. 1, 13, 29"
+      },
+      {
+        "seccion": "Contenido inicial",
+        "texto": "Panel de control | NO CONSTA EN LA DOCUMENTACION REVISADA | 1 solución SaaS | Web | Duración del contrato | Adjudicatario | ID_188_3.PDF, pág. 14-15"
+      },
+      {
+        "seccion": "Contenido inicial",
+        "texto": "Licencias software/SaaS | NO CONSTA EN LA DOCUMENTACION REVISADA | Todas necesarias | Según arquitectura ofertada | Duración del contrato | Adjudicatario | ID_188_3.PDF, pág. 23, 43"
+      },
+      {
+        "seccion": "Contenido inicial",
+        "texto": "Licencias para trabajadores | NO CONSTA EN LA DOCUMENTACION REVISADA | Todas necesarias | Según necesidades | Duración del contrato | Adjudicatario | ID_188_3.PDF, pág. 43"
+      },
+      {
+        "seccion": "Contenido inicial",
+        "texto": "Licencias para puestos municipales (si aplica) | NO CONSTA EN LA DOCUMENTACION REVISADA | Si necesario, previa autorización IAM | Según necesidades | Duración del contrato | Adjudicatario | ID_188_3.PDF, pág. 43"
+      },
+      {
+        "seccion": "Contenido inicial",
+        "texto": "Hardware concreto | Hardware | NO CONSTA EN LA DOCUMENTACION REVISADA | ID_188_3.PDF | pág. 23-24 | Leído"
+      },
+      {
+        "seccion": "Contenido inicial",
+        "texto": "Cadena de suministro | Dependencia | NO CONSTA EN LA DOCUMENTACION REVISADA | ID_188_3.PDF | pág. 23, 43 | Leído"
+      }
+    ],
+    "trazabilidad": [],
+    "salida_original": "Resumen factual\nEl contrato tiene por objeto el diseño, desarrollo, puesta en servicio, mantenimiento y evolución tecnológica de un Asistente Virtual para el portal Decide Madrid, en modalidad SaaS, siendo el adjudicatario responsable de la gestión y operación de todos los elementos de la solución ofertada, salvo la infraestructura MultiCloud corporativa (Google Cloud Platform, Microsoft Azure y Amazon AWS) que aporta el Ayuntamiento. El adjudicatario debe aportar todo el software, licencias, servicios y medios materiales y personales necesarios para la ejecución del contrato, con posibilidad de subcontratación limitada y sin exigencia de fabricantes, canal o cartas de partnership. No se describen cadenas de suministro específicas ni se exigen garantías o soporte de fabricante más allá de la obligación de mantenimiento y soporte por parte del adjudicatario. No se identifican productos hardware concretos ni stock, ni se establecen requisitos de retirada o destrucción de hardware.\n\nMapa de suministros y terceros\nElemento/necesidad | Tipo | Cantidad/volumen | Especificación | Quien debe aportarlo | Fuente\nAsistente virtual BOT | SaaS/software | 1 solución | IA generativa y tradicional, integración portal Decide Madrid | Adjudicatario | ID_188_3.PDF, pág. 1, 13\nPanel de control | SaaS/software | 1 solución | Acceso web, métricas, gestión, mínimo 5 usuarios | Adjudicatario | ID_188_3.PDF, pág. 14-15\nLicencias software y SaaS | Licencias | Todas necesarias | Para funcionamiento y acceso a elementos técnicos y servicios | Adjudicatario | ID_188_3.PDF, pág. 23, 43\nInfraestructura MultiCloud | Infraestructura cloud | No aplica (ya existente) | Google Cloud Platform, Microsoft Azure, Amazon AWS | Ayuntamiento | ID_188_3.PDF, pág. 29\nPersonal técnico y agentes | Recursos humanos | Según perfiles mínimos | Ver sección perfiles | Adjudicatario | ID_188_3.PDF, pág. 24-27\n\nProductos, hardware y materiales\nProducto | Cantidad | Características | Fabricante/referencia | Equivalente permitido | Garantía/soporte | Stock/plazo | Fuente\nNO CONSTA EN LA DOCUMENTACION REVISADA ningún producto hardware concreto a aportar por el adjudicatario. Se indica que el adjudicatario debe dotar a su personal de los medios técnicos y materiales necesarios, pero no se detallan productos, referencias ni requisitos de stock. | | | | | | | ID_188_3.PDF, pág. 23-24\n\nSoftware, SaaS y licencias\nProducto | Fabricante | Métrica/cantidad | Entornos | Duración | Quien lo aporta | Fuente\nAsistente virtual BOT | NO CONSTA EN LA DOCUMENTACION REVISADA | 1 solución SaaS | Producción y preproducción (mínimo) | Duración del contrato (24 meses + prórrogas) | Adjudicatario | ID_188_3.PDF, pág. 1, 13, 29\nPanel de control | NO CONSTA EN LA DOCUMENTACION REVISADA | 1 solución SaaS | Web | Duración del contrato | Adjudicatario | ID_188_3.PDF, pág. 14-15\nLicencias software/SaaS | NO CONSTA EN LA DOCUMENTACION REVISADA | Todas necesarias | Según arquitectura ofertada | Duración del contrato | Adjudicatario | ID_188_3.PDF, pág. 23, 43\nLicencias para trabajadores | NO CONSTA EN LA DOCUMENTACION REVISADA | Todas necesarias | Según necesidades | Duración del contrato | Adjudicatario | ID_188_3.PDF, pág. 43\nLicencias para puestos municipales (si aplica) | NO CONSTA EN LA DOCUMENTACION REVISADA | Si necesario, previa autorización IAM | Según necesidades | Duración del contrato | Adjudicatario | ID_188_3.PDF, pág. 43\n\nFabricantes, canal y cartas\nFabricante | Requisito | Nivel/certificación/carta exigida | Momento | Fuente\nNO SE EXIGE fabricante, canal, partnership ni carta de fabricante en ningún punto del pliego. | | | | ID_188_2.PDF, pág. 51-68; ID_188_3.PDF, pág. 1-56\n\nSubcontratación, UTE y medios externos\nRegla | Límite/condición | Declaración/autorización | Fuente\nSubcontratación permitida | No pueden subcontratarse tareas críticas: fase de implantación y tareas del Jefe/a de Proyecto | Debe indicarse en la oferta la parte a subcontratar, importe y nombre/perfil del subcontratista | ID_188_2.PDF, pág. 74-75; ID_188_3.PDF, pág. 29\nUTE permitida | No se establecen límites adicionales a los legales | Compromiso de constitución y reparto de participación | ID_188_2.PDF, pág. 19\nMedios externos para solvencia | Permitido según art. 75 LCSP | Compromiso de disponibilidad durante la ejecución | ID_188_2.PDF, pág. 11, 92-93\n\nCadena de suministro y dependencias contractuales descritas\nNo se describe una cadena de suministro específica ni se establecen dependencias contractuales con terceros, fabricantes o proveedores fuera de las obligaciones generales del adjudicatario de aportar todos los elementos necesarios para la ejecución del contrato. | ID_188_3.PDF, pág. 23, 43\n\nSLA de proveedor/fabricante, garantías y soporte exigidos\nNo se exige SLA de fabricante ni soporte back-to-back. El adjudicatario es responsable del mantenimiento, soporte y resolución de incidencias, con penalidades por incumplimiento de plazos y calidad del servicio. No se exige garantía de fabricante ni soporte NBD/4h/onsite. | ID_188_2.PDF, pág. 76-77; ID_188_3.PDF, pág. 17\n\nLogística, staging, stock, entrega, retirada y destrucción\nNo se establecen requisitos de logística, staging, stock ni entrega de hardware. Se exige la eliminación segura de toda la información del servicio a la finalización del contrato, con certificado de destrucción de datos, pero no se menciona retirada o destrucción de hardware. | ID_188_3.PDF, pág. 9\n\nAmbigüedades y datos no localizados\n- No se identifican productos hardware concretos ni stock mínimo.\n- No se exige fabricante, canal, partnership ni cartas.\n- No se describen cadenas de suministro específicas.\n- No se establecen requisitos de retirada o destrucción de hardware.\n- No se exige SLA de fabricante ni soporte externo.\n- No se identifican referencias de software ni fabricantes concretos.\n- No se exige staging ni logística específica.\n\nDocumentos revisados\n1. ID_188_1.PDF\n2. ID_188_2.PDF\n3. ID_188_3.PDF\n4. poc (detalle licitación)\n5. poc (perfil contratante)\n6. poc (perfil contratante)\n7. 147409-2026 (Sin texto extraíble; pendiente de lectura/OCR)\n8. perfilContratante\n\nTabla de trazabilidad\nRequisito/dato | Tipo | Valor/condición | Documento | Página/apartado | Estado de lectura\nAsistente virtual BOT | SaaS/software | Adjudicatario debe aportar solución completa | ID_188_3.PDF | pág. 1, 13 | Leído\nPanel de control | SaaS/software | Adjudicatario debe aportar solución completa | ID_188_3.PDF | pág. 14-15 | Leído\nLicencias software/SaaS | Licencias | Todas necesarias a cargo del adjudicatario | ID_188_3.PDF | pág. 23, 43 | Leído\nInfraestructura MultiCloud | Infraestructura cloud | Aporta Ayuntamiento | ID_188_3.PDF | pág. 29 | Leído\nHardware concreto | Hardware | NO CONSTA EN LA DOCUMENTACION REVISADA | ID_188_3.PDF | pág. 23-24 | Leído\nFabricante/canal/carta | Requisito | NO EXIGIDO | ID_188_2.PDF | pág. 51-68 | Leído\nSubcontratación | Regla | Permitida con límites y declaración | ID_188_2.PDF | pág. 74-75 | Leído\nCadena de suministro | Dependencia | NO CONSTA EN LA DOCUMENTACION REVISADA | ID_188_3.PDF | pág. 23, 43 | Leído\nSLA fabricante | SLA | NO EXIGIDO | ID_188_2.PDF | pág. 76-77 | Leído\nEliminación de datos | Destrucción | Certificado de destrucción de datos | ID_188_3.PDF | pág. 9 | Leído\n\nREQUISITOS OBLIGATORIOS DEL DOCUMENTO IA - FUENTES PARA PROYECTO VIABILIDAD\n1. VOLUMEN ANUAL DE NEGOCIOS: Umbral: 181.595,44 €; Ámbito: objeto del contrato; Mejor ejercicio: 2023, 2024, 2025; Moneda: euros; Medio de acreditación: declaración responsable firmada por representante legal. Documento: ID_188_2.PDF, pág. 63. Estado: ENCONTRADO EN EL PLIEGO.\n2. PATRIMONIO NETO/RATIOS: NO EXIGIDO/NO CONSTA EN EL PLIEGO. Documento: ID_188_2.PDF, pág. 63. Estado: ENCONTRADO EN EL PLIEGO.\n3. SEGURO RC/RIESGOS PROFESIONALES: NO EXIGIDO/NO CONSTA EN EL PLIEGO. Documento: ID_188_2.PDF, pág. 67. Estado: ENCONTRADO EN EL PLIEGO.\n4. CERTIFICADOS DE BUENA EJECUCIÓN: Objeto: servicios de igual o similar naturaleza (CPV 720); Importe: igual o superior al presupuesto sin IVA; Fechas: tres últimos años; Destinatario: público o privado; Prueba: relación y acreditación según art. 90.1.a) LCSP. Documento: ID_188_2.PDF, pág. 64. Estado: ENCONTRADO EN EL PLIEGO.\n5. ISO/ENS: NO EXIGIDO/NO CONSTA EN EL PLIEGO. Documento: ID_188_2.PDF, pág. 65. Estado: ENCONTRADO EN EL PLIEGO.\n6. FABRICANTES/PARTNERSHIPS: NO EXIGIDO/NO CONSTA EN EL PLIEGO. Documento: ID_188_2.PDF, pág. 51-68. Estado: ENCONTRADO EN EL PLIEGO.\n7. PERFILES: Puestos y cantidad: detallados (ver tabla de perfiles); Titulación: universitaria o secundaria según perfil; Experiencia: 2-5 años según perfil; Certificaciones: NO CONSTA EN EL PLIEGO; Dedicación: NO CONSTA EN EL PLIEGO; Jornada: NO CONSTA EN EL PLIEGO; Presencialidad: NO CONSTA EN EL PLIEGO; Ubicación: NO CONSTA EN EL PLIEGO; Idiomas: castellano para agentes; Funciones: detalladas; Sustitución: procedimiento descrito. Documento: ID_188_3.PDF, pág. 24-28. Estado: ENCONTRADO EN EL PLIEGO.\n8. ROLECE/CLASIFICACIÓN: No exigida; alternativa: acreditación de solvencia. Documento: ID_188_2.PDF, pág. 63. Estado: ENCONTRADO EN EL PLIEGO."
+  }
+}

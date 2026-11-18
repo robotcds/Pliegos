@@ -1,0 +1,101 @@
+{
+  "orden": 1,
+  "id": "A1",
+  "nombre": "Resumen breve",
+  "tipo": "referencia",
+  "ejecucion": "63903aa706e34fb382bb345652fdd407",
+  "estado": "completado",
+  "contenido": {
+    "salida_original": "• Expediente 2026-03993, órgano: Dirección General Económico-Financiera de RENFE-Operadora (fuente: XML, PCP 2026 03993.pdf).\n• Objeto: Contratación de una solución SaaS de inteligencia meteorológica y gestión de riesgos naturales para la operación ferroviaria (PCP, Anexo I).\n• Presupuesto: 130.000 € sin IVA, 157.300 € con IVA (PCP, XML).\n• Duración: 24 meses desde la formalización (PCP, Anexo I).\n• Plazo de presentación: hasta 13/10/2026, 13:00h (XML). Documentación técnica y administrativa extraída; no consta lectura de todos los anexos enlazados."
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "PCP 2026 03993.pdf",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 96360,
+        "caracteres_enviados_al_agente": 96360,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "ANEXO I 2026 03393 .pdf",
+        "tipo": "Pliego tecnico",
+        "fuente": "XML",
+        "caracteres_extraidos": 97875,
+        "caracteres_enviados_al_agente": 97875,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "ANEXO III 2026 03993.pdf",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 1431,
+        "caracteres_enviados_al_agente": 1431,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 4,
+        "nombre": "ANEXO II 2026 03993.pdf",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 7189,
+        "caracteres_enviados_al_agente": 7189,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 5,
+        "nombre": "ANEXO IV 2026 03993.pdf",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 4657,
+        "caracteres_enviados_al_agente": 4657,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 6,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "PCP 2026 03993.pdf",
+        "caracteres_extraidos": 2659,
+        "caracteres_enviados_al_agente": 2659,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 7,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "PCP 2026 03993.pdf",
+        "caracteres_extraidos": 3160,
+        "caracteres_enviados_al_agente": 3160,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 8,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "poc",
+        "caracteres_extraidos": 3160,
+        "caracteres_enviados_al_agente": 3160,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Se omitieron 6 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  }
+}

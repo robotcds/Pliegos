@@ -1,0 +1,82 @@
+
+--- Respuesta de la IA ---
+
+Extracción de viabilidad
+
+Tabla de requisitos de experiencia previa de empresa
+
+| Parámetro                        | Literal y apartado del pliego         | Umbral y fecha exigidos                                   | Estado           | Brecha, acción y responsable                                  |
+|----------------------------------|---------------------------------------|----------------------------------------------------------|------------------|----------------------------------------------------------------|
+| Nº de referencias (CBE)          | PCAP A3                               | 2 CBE de portales/sedes electrónicas o servicios IT       | NO CUMPLE        | Solo 1 CBE acreditado; falta 1 CBE certificado. Oficina Proy.  |
+| Importe mínimo por referencia    | PCAP A3                               | ≥ 350.000 EUR neto ejecutado cada uno                    | NO CUMPLE        | Solo 1 CBE con importe neto certificado ≥ 350.000 EUR.         |
+| Ventana temporal                 | PCAP A3                               | Finalizados entre 30/10/2023 y 30/10/2026                | CUMPLE PARCIAL   | REF-001 cumple; REF-002 cumple ventana pero no CBE.            |
+| Similitud técnica/CPV            | PCAP A3                               | CPV 72262000 o descripción funcional equivalente          | CUMPLE PARCIAL   | REF-001 cumple; REF-002 cumple comercial, no CBE.              |
+| Certificado de buena ejecución   | PCAP A3                               | CBE firmado por emisor público/privado                    | NO CUMPLE        | Solo 1 CBE aportado; falta CBE para REF-002.                   |
+
+Fichas de evidencia de CBE y referencias
+
+Campo                                 | Valor exacto aportado / NO CONSTA                  | Documento interno e identificador
+--------------------------------------|---------------------------------------------------|--------------------------------------
+Certificado objeto                    | Portal ciudadano multicanal                        | CBE-REF-001, firmado 15/05/2025      
+Palabras clave tecnológicas           | React, Java, Spring Boot, PostgreSQL, registro     | CBE-REF-001                          
+Importe neto efectivamente ejecutado  | 465000 EUR                                        | CBE-REF-001                          
+Fecha inicio                          | 01/02/2024                                        | CBE-REF-001                          
+Fecha fin                             | 30/04/2025                                        | CBE-REF-001                          
+Entidad adjudicadora/cliente          | Ayuntamiento Ficticio de Sierra Capital            | CBE-REF-001                          
+CPV                                   | 72262000                                          | CBE-REF-001                          
+Emisor público/privado                | Público                                           | CBE-REF-001                          
+Evidencia de buena ejecución          | Certificado firmado, sin reservas                  | CBE-REF-001                          
+
+Certificado objeto                    | Sede electrónica accesible                         | NO CONSTA (solo ficha comercial)     
+Palabras clave tecnológicas           | React, Python, Django, formularios, notificaciones | Ficha CRM REF-002                    
+Importe neto efectivamente ejecutado  | NO CONSTA (390000 EUR comercial, no certificado)   | Ficha CRM REF-002                    
+Fecha inicio                          | 01/09/2023                                        | Ficha CRM REF-002                    
+Fecha fin                             | 30/09/2024                                        | Ficha CRM REF-002                    
+Entidad adjudicadora/cliente          | Diputación Ficticia del Río                        | Ficha CRM REF-002                    
+CPV                                   | 72262000                                          | Ficha CRM REF-002                    
+Emisor público/privado                | Público                                           | Ficha CRM REF-002                    
+Evidencia de buena ejecución          | NO CONSTA                                         | Ficha CRM REF-002                    
+
+Proyectos comerciales sin CBE         | Todos los demás proyectos de la lista              | NO CONSTA                            
+
+1. Veredicto ejecutivo de solvencia de proyectos: NO CUMPLE
+
+2. Requisitos de experiencia previa de empresa detectados:
+- Dos certificados de buena ejecución (CBE) de portales/sedes electrónicas o servicios IT similares, cada uno de importe neto ejecutado mínimo 350.000 EUR y finalizado entre 30/10/2023 y 30/10/2026. (PCAP OPP-SW-011, A3)
+- Similitud por CPV 72262000 o descripción funcional equivalente. (PCAP OPP-SW-011, A3)
+- Cada CBE debe indicar objeto, tecnologías, importe neto ejecutado, inicio/fin, entidad adjudicadora/cliente, CPV si consta y emisor público/privado que acredite buena ejecución. (PCAP OPP-SW-011, A3)
+
+3. Comparación requisitos vs proyectos ejecutados:
+- Proyectos que cumplen:
+  - REF-001: Portal ciudadano multicanal para ayuntamiento capital (CBE completo, importe neto ejecutado 465.000 EUR, ventana temporal y similitud técnica/CPV, certificado de buena ejecución)
+- Proyectos que no cumplen:
+  - REF-002: Sede electrónica accesible para diputación provincial (no se aporta CBE ni importe neto ejecutado certificado; solo ficha comercial)
+  - REF-003 a REF-020: No se aporta CBE ni certificado de buena ejecución, aunque algunos cumplen importe, ventana y similitud técnica/comercial.
+
+Brechas:
+- Solo se acredita 1 CBE completo; falta al menos 1 CBE con todos los campos exigidos.
+- No se acredita importe neto ejecutado certificado para REF-002 ni para otros proyectos.
+- No se aportan certificados de buena ejecución para el resto de referencias.
+
+4. Proyectos de referencia recomendados para acreditar solvencia de proyectos:
+- REF-001: Portal ciudadano multicanal para ayuntamiento capital (cumple todos los requisitos formales y técnicos del pliego)
+- REF-002: Sede electrónica accesible para diputación provincial (cumple ventana, importe comercial y similitud, pero falta CBE y certificado de buena ejecución; recomendable obtenerlo)
+
+5. Carencias o riesgos de solvencia de proyectos:
+- Falta al menos un CBE completo y certificado de buena ejecución para REF-002 u otro proyecto similar.
+- No se acredita importe neto ejecutado certificado para REF-002 ni para otros proyectos.
+- Riesgo de exclusión por no cumplir el mínimo de dos CBE certificados.
+- Acción: Oficina de Proyectos debe obtener y aportar CBE firmados y certificados de buena ejecución para REF-002 u otro proyecto elegible antes de ofertar.
+
+6. Requisitos que no corresponden a solvencia de proyectos:
+- Requisitos de perfiles personales (jefatura, backend, desarrolladores, QA, soporte, experiencia y certificaciones individuales) detectados en PPT T1. Remitir a informe de perfiles.
+
+7. Documentos revisados:
+- PCAP OPP-SW-011
+- PPT OPP-SW-011
+
+8. Conclusión operativa de solvencia de proyectos:
+NO CUMPLE. No se acredita el mínimo de dos CBE certificados exigidos por el pliego. Antes de ofertar, es imprescindible obtener y aportar al menos un CBE adicional (con certificado de buena ejecución, importe neto ejecutado, fechas, tecnologías y cliente) para un proyecto similar finalizado en la ventana temporal y con importe neto ejecutado ≥ 350.000 EUR. Responsable: Oficina de Proyectos.
+
+--- Fin de la respuesta de la IA ---
+

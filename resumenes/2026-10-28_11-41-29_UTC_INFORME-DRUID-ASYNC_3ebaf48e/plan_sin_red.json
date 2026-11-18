@@ -1,0 +1,13 @@
+{
+  "prepared_at_utc": "2026-10-28T11:41:28.504+00:00",
+  "network_calls_performed": 0,
+  "urls": null,
+  "expected": {
+    "status": "success",
+    "message": "PRUEBA_ASYNC_OK",
+    "test": "TEST_ASYNC_SIMPLE"
+  },
+  "maximum_polling_seconds": 120,
+  "required_manual_step": "Crear y publicar TEST_ASYNC_SIMPLE; proporcionar su ID real.",
+  "druid_configuration": "docs/druid_async_simple_setup.md"
+}

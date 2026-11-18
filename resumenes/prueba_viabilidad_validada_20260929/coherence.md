@@ -1,0 +1,156 @@
+1. Veredicto ejecutivo de coherencia: INCOHERENCIAS CRITICAS
+
+---
+
+Extracción de viabilidad
+
+Tabla de requisitos: parámetro | literal y apartado del pliego | umbral y fecha exigidos | estado | brecha, acción y responsable
+
+| Parámetro                                 | Literal y apartado del pliego         | Umbral y fecha exigidos                                  | Estado                | Brecha, acción y responsable                                                                                  |
+|-------------------------------------------|--------------------------------------|----------------------------------------------------------|-----------------------|-------------------------------------------------------------------------------------------------------------|
+| Ventas línea IT                           | PCAP A2                             | ≥1.200.000 EUR mejor año 2023-2025, cierre 30/10/2026    | NO CUMPLE             | Mejor año: 1.180.000 EUR (2025). Falta 20.000 EUR. Acción: No hay margen de subsanación. Resp: Dir. Financiera |
+| Patrimonio neto                           | PCAP A2                             | ≥350.000 EUR a 31/12/2025                                | CUMPLE                | 410.000 EUR. Sin brecha. Resp: Dir. Financiera                                                                |
+| Ratio liquidez                            | PCAP A2                             | ≥1,20 a 31/12/2025                                       | CUMPLE                | 1,50. Sin brecha. Resp: Dir. Financiera                                                                       |
+| Seguro RC profesional                     | PCAP A2                             | ≥1.000.000 EUR por siniestro, vigente cierre y ejecución  | CUMPLE                | 1.000.000 EUR, 01/01/2026-31/12/2026. Sin compromiso renovación 2027. Resp: Dir. Financiera                  |
+| CBE 1 (portal/sede IT)                    | PCAP A3                             | ≥350.000 EUR, finalizado 30/10/2023-30/10/2026           | CUMPLE                | 465.000 EUR, certificado. Sin brecha. Resp: Oficina de Proyectos                                             |
+| CBE 2 (portal/sede IT)                    | PCAP A3                             | ≥350.000 EUR, finalizado 30/10/2023-30/10/2026           | NO ACREDITADO         | Solo ficha comercial, sin CBE ni importe neto ejecutado certificado. Resp: Oficina de Proyectos              |
+| ISO 9001                                  | PCAP A4                             | Vigente al cierre, desarrollo/operación IT               | CUMPLE                | 01/01/2025-31/12/2027. Sin brecha. Resp: Calidad                                                            |
+| ISO 14001                                 | PCAP A4                             | Vigente al cierre, instalaciones servicio                | PENDIENTE VALIDACIÓN  | 01/07/2023-30/06/2026. Caduca antes del cierre. Acción: Renovar. Resp: Calidad                              |
+| ISO 20000-1                               | PCAP A4, PPT T2                     | Vigente al cierre, gestión del servicio                  | NO ACREDITADO         | No disponible. Acción: Buscar partner o evidencia alternativa. Resp: Calidad/Alianzas                       |
+| ISO 27001                                 | PCAP A4, PPT T3                     | Vigente al cierre, desarrollo/operación/hosting          | NO CUMPLE             | Solo oficina Madrid, excluye producción. Acción: Buscar partner con alcance adecuado. Resp: CISO/Alianzas   |
+| ENS Media                                 | PCAP A4, PPT T3                     | Certificado para entorno de producción                   | NO CUMPLE             | Solo entorno desarrollo Madrid. Acción: Buscar partner con ENS Media en producción. Resp: CISO/Alianzas     |
+| Microsoft Solutions Partner (Azure)        | PCAP A4                             | Vigente al cierre, Infraestructura (Azure)               | NO ACREDITADO         | Partner: vigente hasta 31/03/2027, especialización Azure VMware Solution caducada. Sin compromiso firmado. Resp: Alianzas |
+| ROLECE                                    | PCAP A5                             | Certificado actualizado, sin variaciones                 | PENDIENTE VALIDACIÓN  | Certificado 15/09/2026. Falta declaración de ausencia de variaciones a 30/10/2026. Resp: Administración     |
+| Clasificación alternativa                  | PCAP A5                             | Grupo V, Subgrupo 2, Categoría 3                         | NO ACREDITADO         | No consta. Acción: No aplicable.                                                                            |
+| Jefatura de proyecto: titulación informática| PPT T1                              | Titulación universitaria informática. 30/10/2026         | CUMPLE                | Ninguna. Resp: RRHH                                                                                         |
+| Jefatura de proyecto: experiencia sectorial | PPT T1                              | 8 años en IT, 5 dirigiendo proyectos similares. 30/10/26 | CUMPLE                | Ninguna. Resp: RRHH                                                                                         |
+| Jefatura de proyecto: PMP vigente           | PPT T1                              | PMP vigente a 30/10/2026                                 | NO CUMPLE             | PMP caduca 30/09/2026. Renovar antes del cierre. Resp: RRHH/Ana Torres                                      |
+| Jefatura de proyecto: dedicación            | PPT T1                              | 50%                                                      | NO ACREDITADO         | No consta disponibilidad interna ni compromiso de dedicación. Resp: RRHH                                    |
+| Backend: titulación informática             | PPT T1                              | Titulación universitaria informática. 30/10/2026         | CUMPLE                | Ninguna. Resp: RRHH                                                                                         |
+| Backend: experiencia sectorial              | PPT T1                              | 5 años en IT. 30/10/2026                                 | CUMPLE                | Ninguna. Resp: RRHH                                                                                         |
+| Backend: AWS Developer Associate vigente    | PPT T1                              | AWS Developer Associate vigente a 30/10/2026             | NO ACREDITADO         | No consta fecha de expiración ni certificado verificable. Resp: RRHH/Sofia Martin                           |
+| Backend: dedicación                        | PPT T1                              | 100%                                                     | NO ACREDITADO         | No consta disponibilidad interna ni compromiso de dedicación. Resp: RRHH                                    |
+| QA: dedicación                             | PPT T2                              | 50%                                                      | NO ACREDITADO         | No consta disponibilidad interna ni compromiso de dedicación. Resp: RRHH                                    |
+| Soporte N2: dedicación                     | PPT T2                              | 8x5                                                      | NO ACREDITADO         | No consta disponibilidad interna ni compromiso de dedicación. Resp: RRHH                                    |
+| Declaración experiencia y títulos por persona| PPT T1                              | Declaración individualizada, títulos/certificados         | NO ACREDITADO         | No consta declaración formal ni anexos de títulos/certificados. Resp: RRHH                                  |
+
+Fichas de evidencia por cada persona, CBE, certificado o ejercicio:
+
+Ana Torres (Jefa de proyecto)
+| Campo                        | Valor exacto aportado                  | Documento interno e identificador         |
+|------------------------------|----------------------------------------|------------------------------------------|
+| Titulación académica         | Ingeniera informática                  | RRHH Meta4 RH-2026-09, CV firmado        |
+| Años en empresa              | 6                                      | RRHH Meta4 RH-2026-09                    |
+| Experiencia sectorial        | 10                                     | RRHH Meta4 RH-2026-09                    |
+| Experiencia relevante        | 8 años dirigiendo proyectos públicos   | RRHH Meta4 RH-2026-09                    |
+| Dedicación exigida           | 50%                                    | PPT T1                                   |
+| Dedicación acreditada        | NO CONSTA                              | NO CONSTA                                |
+| Certificación PMP            | PMP-AT-0921, PMI, caduca 30/09/2026    | RRHH Meta4 RH-2026-09, certificado       |
+| Certificación Scrum Master   | Consta en CV, sin fecha de vigencia    | RRHH Meta4 RH-2026-09, CV                |
+
+Sofia Martin (Backend)
+| Campo                        | Valor exacto aportado                  | Documento interno e identificador         |
+|------------------------------|----------------------------------------|------------------------------------------|
+| Titulación académica         | Ingeniera informática                  | RRHH Meta4 RH-2026-09, CV firmado        |
+| Años en empresa              | 4                                      | RRHH Meta4 RH-2026-09                    |
+| Experiencia sectorial        | 7                                      | RRHH Meta4 RH-2026-09                    |
+| Experiencia relevante        | 6 años backend/APIs                    | RRHH Meta4 RH-2026-09                    |
+| Dedicación exigida           | 100%                                   | PPT T1                                   |
+| Dedicación acreditada        | NO CONSTA                              | NO CONSTA                                |
+| Certificación AWS Developer  | AWS-SM-0422, emisor AWS, sin fecha exp | RRHH Meta4 RH-2026-09, NO CERTIFICADO    |
+
+CBE-REF-001
+| Campo                                 | Valor exacto aportado / NO CONSTA                | Documento interno e identificador |
+|----------------------------------------|--------------------------------------------------|-----------------------------------|
+| Código de referencia                  | REF-001                                          | CBE-REF-001                      |
+| Nombre                                | Portal ciudadano multicanal para ayuntamiento capital | CBE-REF-001                  |
+| Objeto                                | Portal web ciudadano, área privada, tramitación electrónica, integración registro y pagos | CBE-REF-001 |
+| Palabras clave tecnológicas           | React, Java, Spring Boot, PostgreSQL, WCAG 2.1 AA | CBE-REF-001                      |
+| Importe neto efectivamente ejecutado  | 465000 EUR                                       | CBE-REF-001                      |
+| Fecha de inicio                       | 01/02/2024                                       | CBE-REF-001                      |
+| Fecha de fin                          | 30/04/2025                                       | CBE-REF-001                      |
+| Entidad adjudicadora/cliente          | Ayuntamiento Ficticio de Sierra Capital           | CBE-REF-001                      |
+| CPV                                   | 72262000                                         | CBE-REF-001                      |
+| Emisor público/privado                | Público                                          | CBE-REF-001                      |
+| Evidencia de buena ejecución          | Certifica buena ejecución y recepción sin reservas| CBE-REF-001                      |
+
+CBE-REF-002
+| Campo                                 | Valor exacto aportado / NO CONSTA                | Documento interno e identificador |
+|----------------------------------------|--------------------------------------------------|-----------------------------------|
+| Código de referencia                  | REF-002                                          | Ficha CRM REF-002                 |
+| Nombre                                | Sede electrónica accesible para diputación provincial | Ficha CRM REF-002             |
+| Objeto                                | Renovación de sede electrónica, formularios, notificaciones, gestor documental | Ficha CRM REF-002 |
+| Palabras clave tecnológicas           | React, Python, Django, formularios y notificaciones| Ficha CRM REF-002                |
+| Importe neto efectivamente ejecutado  | NO CONSTA                                        | Ficha CRM REF-002                 |
+| Fecha de inicio                       | 01/09/2023                                       | Ficha CRM REF-002                 |
+| Fecha de fin                          | 30/09/2024                                       | Ficha CRM REF-002                 |
+| Entidad adjudicadora/cliente          | Diputación Ficticia del Río                       | Ficha CRM REF-002                 |
+| CPV                                   | 72262000                                         | Ficha CRM REF-002                 |
+| Emisor público/privado                | NO CONSTA                                        | Ficha CRM REF-002                 |
+| Evidencia de buena ejecución          | NO CONSTA                                        | Ficha CRM REF-002                 |
+
+ISO 9001
+| Campo                        | Valor exacto aportado                  | Documento interno e identificador         |
+|------------------------------|----------------------------------------|------------------------------------------|
+| Titular                      | Sermicro Software Ficticio S.L.        | Q-901-114                                |
+| Alcance                      | Desarrollo/operación IT, sede Madrid y nube UE | Q-901-114                        |
+| Emisor                       | Certificadora Ficticia Iberia          | Q-901-114                                |
+| Identificador                | Q-901-114                              | Q-901-114                                |
+| Caducidad                    | 31/12/2027                             | Q-901-114                                |
+
+ISO 14001
+| Campo                        | Valor exacto aportado                  | Documento interno e identificador         |
+|------------------------------|----------------------------------------|------------------------------------------|
+| Titular                      | Sermicro Software Ficticio S.L.        | M-140-208                                |
+| Alcance                      | Instalaciones Madrid                   | M-140-208                                |
+| Emisor                       | Certificadora Ficticia Ambiental       | M-140-208                                |
+| Identificador                | M-140-208                              | M-140-208                                |
+| Caducidad                    | 30/06/2026                             | M-140-208                                |
+
+ISO 20000-1
+| Campo                        | Valor exacto aportado                  | Documento interno e identificador         |
+|------------------------------|----------------------------------------|------------------------------------------|
+| Titular                      | NO CONSTA                              | NO CONSTA                                |
+| Alcance                      | NO CONSTA                              | NO CONSTA                                |
+| Emisor                       | NO CONSTA                              | NO CONSTA                                |
+| Identificador                | NO CONSTA                              | NO CONSTA                                |
+| Caducidad                    | NO CONSTA                              | NO CONSTA                                |
+
+ISO 27001
+| Campo                        | Valor exacto aportado                  | Documento interno e identificador         |
+|------------------------------|----------------------------------------|------------------------------------------|
+| Titular                      | Sermicro Software Ficticio S.L.        | S-270-317                                |
+| Alcance                      | Oficina de desarrollo Madrid. EXCLUYE producción | S-270-317                      |
+| Emisor                       | Certificadora Ficticia Seguridad       | S-270-317                                |
+| Identificador                | S-270-317                              | S-270-317                                |
+| Caducidad                    | 31/12/2027                             | S-270-317                                |
+
+ENS Media
+| Campo                        | Valor exacto aportado                  | Documento interno e identificador         |
+|------------------------------|----------------------------------------|------------------------------------------|
+| Titular                      | Sermicro Software Ficticio S.L.        | ENS-M-044                                |
+| Alcance                      | Entorno desarrollo Madrid. NO incluye producción | ENS-M-044                        |
+| Emisor                       | Auditora Ficticia ENS                  | ENS-M-044                                |
+| Identificador                | ENS-M-044                              | ENS-M-044                                |
+| Caducidad                    | 31/12/2026                             | ENS-M-044                                |
+
+Microsoft Solutions Partner (Azure)
+| Campo                        | Valor exacto aportado                  | Documento interno e identificador         |
+|------------------------------|----------------------------------------|------------------------------------------|
+| Titular                      | Cloud Partner Ficticio S.A.            | ALI-027                                  |
+| Nivel actual                 | Solutions Partner for Infra (Azure)    | ALI-027                                  |
+| Especialización técnica      | Azure VMware Solution caducada 31/08/2026 | FAB-2026-09                          |
+| Compromiso adscripción       | NO CONSTA                              | ALI-027                                  |
+| Caducidad                    | 31/03/2027                             | ALI-027                                  |
+
+ROLECE
+| Campo                        | Valor exacto aportado                  | Documento interno e identificador         |
+|------------------------------|----------------------------------------|------------------------------------------|
+| Titular                      | Sermicro Software Ficticio S.L.        | ROL-2026-0915                            |
+| Fecha inscripción            | 15/09/2026                             | ROL-2026-0915                            |
+| Grupos/subgrupos/categorías  | NO CONSTA                              | ROL-2026-0915                            |
+| Declaración de variaciones   | NO CONSTA                              | ROL-2026-0915                            |
+
+---
+
+Sigo con el resto del informe según el formato solicitado...

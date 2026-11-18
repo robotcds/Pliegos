@@ -1,0 +1,33 @@
+PLIEGO TECNICO FICTICIO OPP-SW-007
+Proyecto: Auditoria ENS, pentesting y securizacion de aplicaciones.
+
+Objeto:
+Servicio de auditoria de seguridad, analisis de cumplimiento ENS categoria media, pentesting web, revision de configuraciones, recomendaciones de remediacion y acompaniamiento al equipo tecnico.
+
+Solvencia tecnica y equipo minimo:
+- Dos pentesters senior con al menos 5 anos de experiencia en OWASP, explotacion controlada, herramientas de analisis y redaccion de informes ejecutivos.
+- Auditor ISO 27001 Lead Auditor o equivalente.
+- Experiencia demostrable en proyectos ENS para sector publico.
+- Capacidad de realizar retest y priorizacion de vulnerabilidades por criticidad.
+
+Entregables:
+Plan de pruebas, informe tecnico, informe ejecutivo, matriz de riesgos, evidencias, plan de remediacion y sesion de transferencia.
+
+Service Design / ITIL:
+El servicio se organiza como proyecto recurrente de auditoria y soporte de remediacion durante 6 meses. Alcance: 20 aplicaciones web, 6 APIs y revision de configuraciones criticas.
+Modelo operativo: responsable de seguridad, coordinador de auditoria, equipo pentesting y canal de gestion de hallazgos. No hay Service Desk general, pero se exige gestion de incidencias de seguridad, cambios de remediacion y Knowledge Management para lecciones aprendidas.
+SLA: vulnerabilidad critica confirmada comunicacion <= 2 horas y propuesta de contencion <= 8 horas; vulnerabilidad alta informe <= 2 dias; retest critico <= 5 dias desde aviso de correccion. Penalizacion 2 % por retraso en entrega de evidencias criticas.
+Gobierno: comite operativo quincenal, comite de riesgos mensual y canal urgente para hallazgos criticos. Reporting: matriz de riesgos, estado de remediacion, excepciones aceptadas y tendencias.
+Herramientas: repositorio cifrado de evidencias, gestor de vulnerabilidades y tablero de seguimiento. Se exige segregacion de funciones y control de accesos MFA.
+Reversibilidad: entrega de evidencias, informes, matriz de riesgos, historico de remediacion y recomendaciones de mejora continua.
+
+Seguridad / DPO / ENS:
+El servicio exige tratamiento de informacion altamente sensible: vulnerabilidades, evidencias tecnicas, credenciales temporales, direcciones IP, configuraciones, logs y posibles datos personales localizados durante pruebas.
+ENS: el adjudicatario debera disponer de ENS MEDIA e ISO 27001 en vigor antes de presentar oferta. ENS ALTA no se exige, pero se valorara como mejora. Las evidencias deberan almacenarse en repositorio cifrado en UE.
+Medidas: MFA, segregacion de funciones, cifrado extremo a extremo de evidencias, control de accesos por necesidad de conocer, borrado seguro de credenciales temporales, registro de actividad y retencion de evidencias 24 meses salvo instruccion contraria.
+Incidentes: hallazgo critico explotable comunicacion <= 1 hora por canal seguro. Informe inicial <= 8 horas. Brecha de datos personales detectada durante pruebas comunicacion inmediata al DPO del cliente.
+Subcontratacion: no se permite subcontratar pentesting. Cualquier herramienta SaaS de analisis debera estar aprobada y no podra extraer evidencias fuera de UE.
+Auditorias: el cliente podra auditar metodologia, controles de custodia de evidencias, CV de pentesters, certificaciones y trazabilidad de acceso a informes.
+
+Criterios:
+Los criterios detallados aplicables son los definidos en el pliego administrativo: metodologia de auditoria y pentesting 42 puntos, precio 35 puntos, plazo de entrega 8 puntos, certificaciones adicionales 7 puntos, sesiones de transferencia 5 puntos y sostenibilidad/confidencialidad operativa 3 puntos.

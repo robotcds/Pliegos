@@ -1,0 +1,489 @@
+{
+  "orden": 7,
+  "id": "A9",
+  "nombre": "Seguridad y protección de datos",
+  "tipo": "extraccion",
+  "estado": "completado",
+  "contenido": {
+    "resumen": [
+      "RESUMEN FACTUAL SEGURIDAD / DPO / ENS",
+      "ENS MEDIA certificado exigido para el entorno de producción en la nube.",
+      "ISO 27001 exigido para desarrollo, operación y alojamiento del portal.",
+      "Contrato de encargado de tratamiento; datos y documentación en UE.",
+      "Datos ordinarios de identificación, MFA administrativo, cifrado TLS, copias diarias, restauración mensual, registros 12 meses.",
+      "Subcontratación permitida si está identificada.",
+      "Operador de nube debe ser Microsoft Solutions Partner for Infrastructure (Azure) y tener especialización Azure VMware Solution.",
+      "ENS",
+      "Requisito: Certificación ENS MEDIA para el entorno de producción.",
+      "Categoria/nivel: MEDIA.",
+      "Alcance: Entorno de producción en la nube.",
+      "Acreditación: Certificado vigente, titular, alcance, emisor y fecha de caducidad."
+    ],
+    "secciones": [
+      {
+        "titulo": "Contenido inicial",
+        "parrafos": [
+          "TABLA DE TRAZABILIDAD"
+        ],
+        "elementos": [
+          "RESUMEN FACTUAL SEGURIDAD / DPO / ENS",
+          "ENS MEDIA certificado exigido para el entorno de producción en la nube.",
+          "ISO 27001 exigido para desarrollo, operación y alojamiento del portal.",
+          "Contrato de encargado de tratamiento; datos y documentación en UE.",
+          "Datos ordinarios de identificación, MFA administrativo, cifrado TLS, copias diarias, restauración mensual, registros 12 meses.",
+          "Subcontratación permitida si está identificada.",
+          "Operador de nube debe ser Microsoft Solutions Partner for Infrastructure (Azure) y tener especialización Azure VMware Solution.",
+          "ENS",
+          "Requisito: Certificación ENS MEDIA para el entorno de producción.",
+          "Categoria/nivel: MEDIA.",
+          "Alcance: Entorno de producción en la nube.",
+          "Acreditación: Certificado vigente, titular, alcance, emisor y fecha de caducidad.",
+          "Momento: Vigente al cierre y durante la ejecución.",
+          "Fuente: PCAP OPP-SW-011, A4; PPT OPP-SW-011, T3.",
+          "RGPD/DPO",
+          "Datos/rol/obligación: Contrato de encargado de tratamiento; documentación y datos en UE.",
+          "Condición: Obligatorio.",
+          "Plazo/retención: NO CONSTA EN LA DOCUMENTACION REVISADA.",
+          "Fuente: PCAP OPP-SW-011, A6.",
+          "Subencargados, cloud, localización y transferencias",
+          "Requisito: Subcontratación permitida si está identificada; operador de nube debe cumplir certificaciones y partnership.",
+          "Condición: Identificación de subcontratista; acreditación de partnership/certificados.",
+          "Localización: Documentación y datos en UE.",
+          "Transferencias internacionales: NO CONSTA EN LA DOCUMENTACION REVISADA.",
+          "Fuente: PCAP OPP-SW-011, A6; PPT OPP-SW-011, T3.",
+          "Medidas técnicas",
+          "Medida: MFA administrativo, cifrado TLS, copias diarias, restauración mensual, registros 12 meses.",
+          "Obligatoria/valorable/condicionada: Obligatoria.",
+          "Parámetro/plazo: MFA para administración, cifrado TLS, backup diario, restauración mensual, logs 12 meses.",
+          "Fuente: PPT OPP-SW-011, T3.",
+          "Identidad, accesos y privilegios",
+          "MFA administrativo obligatorio.",
+          "NO CONSTA EN LA DOCUMENTACION REVISADA sobre RBAC, PAM, altas/bajas, acceso remoto, segmentación, bastionado.",
+          "Fuente: PPT OPP-SW-011, T3.",
+          "Vulnerabilidades, parcheado y desarrollo seguro",
+          "NO CONSTA EN LA DOCUMENTACION REVISADA.",
+          "Incidentes, brechas y plazos de notificación",
+          "NO CONSTA EN LA DOCUMENTACION REVISADA.",
+          "Logging, SOC/SIEM, continuidad, backup, RTO/RPO y retención",
+          "Logging: Registros durante 12 meses obligatorio.",
+          "Backup: Copias diarias y restauración mensual obligatoria.",
+          "SOC/SIEM, continuidad, RTO/RPO: NO CONSTA EN LA DOCUMENTACION REVISADA.",
+          "Fuente: PPT OPP-SW-011, T3.",
+          "Auditorías, evidencias, certificaciones, seguridad del personal, borrado y confidencialidad",
+          "Certificaciones: ISO 27001, ENS MEDIA, ISO 20000-1, ISO 9001, ISO 14001 exigidas según alcance.",
+          "Seguridad del personal, auditorías, borrado, confidencialidad: NO CONSTA EN LA DOCUMENTACION REVISADA.",
+          "Fuente: PCAP OPP-SW-011, A4; PPT OPP-SW-011, T2, T3.",
+          "Consecuencias contractuales expresamente asociadas al incumplimiento",
+          "NO CONSTA EN LA DOCUMENTACION REVISADA.",
+          "Datos no localizados o ambiguos",
+          "NO CONSTA EN LA DOCUMENTACION REVISADA para: categorías de datos personales, interesados, finalidad, conservación, plazos de notificación de incidentes, desarrollo seguro, EIPD, borrado, devolución, confidencialidad, SOC/SIEM, RTO/RPO, seguridad del personal, auditorías, consecuencias contractuales.",
+          "Documentos revisados",
+          "PCAP OPP-SW-011 (Pliego administrativo)",
+          "PPT OPP-SW-011 (Pliego técnico)"
+        ],
+        "tablas": [
+          {
+            "columnas": [
+              "Requisito/dato",
+              "Tipo",
+              "Valor/condición",
+              "Documento",
+              "Apartado/página",
+              "Estado de lectura"
+            ],
+            "filas": [
+              {
+                "Requisito/dato": "ENS",
+                "Tipo": "Obligatorio",
+                "Valor/condición": "Certificación MEDIA entorno producción",
+                "Documento": "PCAP OPP-SW-011",
+                "Apartado/página": "A4",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "ENS",
+                "Tipo": "Obligatorio",
+                "Valor/condición": "Certificación MEDIA entorno producción",
+                "Documento": "PPT OPP-SW-011",
+                "Apartado/página": "T3",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "ISO 27001",
+                "Tipo": "Obligatorio",
+                "Valor/condición": "Desarrollo, operación y alojamiento portal",
+                "Documento": "PCAP OPP-SW-011",
+                "Apartado/página": "A4",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "ISO 27001",
+                "Tipo": "Obligatorio",
+                "Valor/condición": "Desarrollo, operación y alojamiento portal",
+                "Documento": "PPT OPP-SW-011",
+                "Apartado/página": "T3",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Contrato encargado",
+                "Tipo": "Obligatorio",
+                "Valor/condición": "Documentación y datos en UE",
+                "Documento": "PCAP OPP-SW-011",
+                "Apartado/página": "A6",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Subcontratación",
+                "Tipo": "Permitida",
+                "Valor/condición": "Identificación obligatoria",
+                "Documento": "PCAP OPP-SW-011",
+                "Apartado/página": "A6",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Partnership Azure",
+                "Tipo": "Obligatorio",
+                "Valor/condición": "Microsoft Solutions Partner Infraestructura (Azure), especialización Azure VMware Solution",
+                "Documento": "PCAP OPP-SW-011",
+                "Apartado/página": "A4",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "MFA administrativo",
+                "Tipo": "Obligatorio",
+                "Valor/condición": "Administración portal",
+                "Documento": "PPT OPP-SW-011",
+                "Apartado/página": "T3",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Cifrado TLS",
+                "Tipo": "Obligatorio",
+                "Valor/condición": "Tráfico portal",
+                "Documento": "PPT OPP-SW-011",
+                "Apartado/página": "T3",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Copias diarias",
+                "Tipo": "Obligatorio",
+                "Valor/condición": "Backup diario",
+                "Documento": "PPT OPP-SW-011",
+                "Apartado/página": "T3",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Restauración mensual",
+                "Tipo": "Obligatorio",
+                "Valor/condición": "Restauración backup mensual",
+                "Documento": "PPT OPP-SW-011",
+                "Apartado/página": "T3",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Registros 12 meses",
+                "Tipo": "Obligatorio",
+                "Valor/condición": "Logging 12 meses",
+                "Documento": "PPT OPP-SW-011",
+                "Apartado/página": "T3",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "ISO 20000-1",
+                "Tipo": "Obligatorio",
+                "Valor/condición": "Gestión del servicio",
+                "Documento": "PCAP OPP-SW-011",
+                "Apartado/página": "A4",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "ISO 9001",
+                "Tipo": "Obligatorio",
+                "Valor/condición": "Desarrollo y operación IT",
+                "Documento": "PCAP OPP-SW-011",
+                "Apartado/página": "A4",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "ISO 14001",
+                "Tipo": "Obligatorio",
+                "Valor/condición": "Instalaciones prestación servicio",
+                "Documento": "PCAP OPP-SW-011",
+                "Apartado/página": "A4",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Datos personales",
+                "Tipo": "Descriptivo",
+                "Valor/condición": "Ordinarios de identificación",
+                "Documento": "PPT OPP-SW-011",
+                "Apartado/página": "T3",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Localización datos",
+                "Tipo": "Obligatorio",
+                "Valor/condición": "UE",
+                "Documento": "PCAP OPP-SW-011",
+                "Apartado/página": "A6",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Transferencias internacionales",
+                "Tipo": "NO CONSTA",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "NO CONSTA",
+                "Apartado/página": "NO CONSTA",
+                "Estado de lectura": "NO CONSTA"
+              },
+              {
+                "Requisito/dato": "Categorías/interesados/finalidad",
+                "Tipo": "NO CONSTA",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "NO CONSTA",
+                "Apartado/página": "NO CONSTA",
+                "Estado de lectura": "NO CONSTA"
+              },
+              {
+                "Requisito/dato": "Accesos, privilegios, RBAC, PAM, altas/bajas, acceso remoto",
+                "Tipo": "NO CONSTA",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "NO CONSTA",
+                "Apartado/página": "NO CONSTA",
+                "Estado de lectura": "NO CONSTA"
+              },
+              {
+                "Requisito/dato": "Vulnerabilidades, parcheado, desarrollo seguro",
+                "Tipo": "NO CONSTA",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "NO CONSTA",
+                "Apartado/página": "NO CONSTA",
+                "Estado de lectura": "NO CONSTA"
+              },
+              {
+                "Requisito/dato": "Incidentes, brechas, plazos notificación",
+                "Tipo": "NO CONSTA",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "NO CONSTA",
+                "Apartado/página": "NO CONSTA",
+                "Estado de lectura": "NO CONSTA"
+              },
+              {
+                "Requisito/dato": "SOC/SIEM, continuidad, RTO/RPO",
+                "Tipo": "NO CONSTA",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "NO CONSTA",
+                "Apartado/página": "NO CONSTA",
+                "Estado de lectura": "NO CONSTA"
+              },
+              {
+                "Requisito/dato": "Auditorías, evidencias, seguridad personal, borrado, confidencialidad",
+                "Tipo": "NO CONSTA",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "NO CONSTA",
+                "Apartado/página": "NO CONSTA",
+                "Estado de lectura": "NO CONSTA"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pendientes_y_no_localizados": [],
+    "trazabilidad": [
+      {
+        "Requisito/dato": "ENS",
+        "Tipo": "Obligatorio",
+        "Valor/condición": "Certificación MEDIA entorno producción",
+        "Documento": "PCAP OPP-SW-011",
+        "Apartado/página": "A4",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "ENS",
+        "Tipo": "Obligatorio",
+        "Valor/condición": "Certificación MEDIA entorno producción",
+        "Documento": "PPT OPP-SW-011",
+        "Apartado/página": "T3",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "ISO 27001",
+        "Tipo": "Obligatorio",
+        "Valor/condición": "Desarrollo, operación y alojamiento portal",
+        "Documento": "PCAP OPP-SW-011",
+        "Apartado/página": "A4",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "ISO 27001",
+        "Tipo": "Obligatorio",
+        "Valor/condición": "Desarrollo, operación y alojamiento portal",
+        "Documento": "PPT OPP-SW-011",
+        "Apartado/página": "T3",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Contrato encargado",
+        "Tipo": "Obligatorio",
+        "Valor/condición": "Documentación y datos en UE",
+        "Documento": "PCAP OPP-SW-011",
+        "Apartado/página": "A6",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Subcontratación",
+        "Tipo": "Permitida",
+        "Valor/condición": "Identificación obligatoria",
+        "Documento": "PCAP OPP-SW-011",
+        "Apartado/página": "A6",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Partnership Azure",
+        "Tipo": "Obligatorio",
+        "Valor/condición": "Microsoft Solutions Partner Infraestructura (Azure), especialización Azure VMware Solution",
+        "Documento": "PCAP OPP-SW-011",
+        "Apartado/página": "A4",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "MFA administrativo",
+        "Tipo": "Obligatorio",
+        "Valor/condición": "Administración portal",
+        "Documento": "PPT OPP-SW-011",
+        "Apartado/página": "T3",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Cifrado TLS",
+        "Tipo": "Obligatorio",
+        "Valor/condición": "Tráfico portal",
+        "Documento": "PPT OPP-SW-011",
+        "Apartado/página": "T3",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Copias diarias",
+        "Tipo": "Obligatorio",
+        "Valor/condición": "Backup diario",
+        "Documento": "PPT OPP-SW-011",
+        "Apartado/página": "T3",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Restauración mensual",
+        "Tipo": "Obligatorio",
+        "Valor/condición": "Restauración backup mensual",
+        "Documento": "PPT OPP-SW-011",
+        "Apartado/página": "T3",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Registros 12 meses",
+        "Tipo": "Obligatorio",
+        "Valor/condición": "Logging 12 meses",
+        "Documento": "PPT OPP-SW-011",
+        "Apartado/página": "T3",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "ISO 20000-1",
+        "Tipo": "Obligatorio",
+        "Valor/condición": "Gestión del servicio",
+        "Documento": "PCAP OPP-SW-011",
+        "Apartado/página": "A4",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "ISO 9001",
+        "Tipo": "Obligatorio",
+        "Valor/condición": "Desarrollo y operación IT",
+        "Documento": "PCAP OPP-SW-011",
+        "Apartado/página": "A4",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "ISO 14001",
+        "Tipo": "Obligatorio",
+        "Valor/condición": "Instalaciones prestación servicio",
+        "Documento": "PCAP OPP-SW-011",
+        "Apartado/página": "A4",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Datos personales",
+        "Tipo": "Descriptivo",
+        "Valor/condición": "Ordinarios de identificación",
+        "Documento": "PPT OPP-SW-011",
+        "Apartado/página": "T3",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Localización datos",
+        "Tipo": "Obligatorio",
+        "Valor/condición": "UE",
+        "Documento": "PCAP OPP-SW-011",
+        "Apartado/página": "A6",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Transferencias internacionales",
+        "Tipo": "NO CONSTA",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "NO CONSTA",
+        "Apartado/página": "NO CONSTA",
+        "Estado de lectura": "NO CONSTA"
+      },
+      {
+        "Requisito/dato": "Categorías/interesados/finalidad",
+        "Tipo": "NO CONSTA",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "NO CONSTA",
+        "Apartado/página": "NO CONSTA",
+        "Estado de lectura": "NO CONSTA"
+      },
+      {
+        "Requisito/dato": "Accesos, privilegios, RBAC, PAM, altas/bajas, acceso remoto",
+        "Tipo": "NO CONSTA",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "NO CONSTA",
+        "Apartado/página": "NO CONSTA",
+        "Estado de lectura": "NO CONSTA"
+      },
+      {
+        "Requisito/dato": "Vulnerabilidades, parcheado, desarrollo seguro",
+        "Tipo": "NO CONSTA",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "NO CONSTA",
+        "Apartado/página": "NO CONSTA",
+        "Estado de lectura": "NO CONSTA"
+      },
+      {
+        "Requisito/dato": "Incidentes, brechas, plazos notificación",
+        "Tipo": "NO CONSTA",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "NO CONSTA",
+        "Apartado/página": "NO CONSTA",
+        "Estado de lectura": "NO CONSTA"
+      },
+      {
+        "Requisito/dato": "SOC/SIEM, continuidad, RTO/RPO",
+        "Tipo": "NO CONSTA",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "NO CONSTA",
+        "Apartado/página": "NO CONSTA",
+        "Estado de lectura": "NO CONSTA"
+      },
+      {
+        "Requisito/dato": "Auditorías, evidencias, seguridad personal, borrado, confidencialidad",
+        "Tipo": "NO CONSTA",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "NO CONSTA",
+        "Apartado/página": "NO CONSTA",
+        "Estado de lectura": "NO CONSTA"
+      }
+    ],
+    "salida_original": "1. RESUMEN FACTUAL SEGURIDAD / DPO / ENS\n- ENS MEDIA certificado exigido para el entorno de producción en la nube.\n- ISO 27001 exigido para desarrollo, operación y alojamiento del portal.\n- Contrato de encargado de tratamiento; datos y documentación en UE.\n- Datos ordinarios de identificación, MFA administrativo, cifrado TLS, copias diarias, restauración mensual, registros 12 meses.\n- Subcontratación permitida si está identificada.\n- Operador de nube debe ser Microsoft Solutions Partner for Infrastructure (Azure) y tener especialización Azure VMware Solution.\n\n2. ENS\n- Requisito: Certificación ENS MEDIA para el entorno de producción.\n- Categoria/nivel: MEDIA.\n- Alcance: Entorno de producción en la nube.\n- Acreditación: Certificado vigente, titular, alcance, emisor y fecha de caducidad.\n- Momento: Vigente al cierre y durante la ejecución.\n- Fuente: PCAP OPP-SW-011, A4; PPT OPP-SW-011, T3.\n\n3. RGPD/DPO\n- Datos/rol/obligación: Contrato de encargado de tratamiento; documentación y datos en UE.\n- Condición: Obligatorio.\n- Plazo/retención: NO CONSTA EN LA DOCUMENTACION REVISADA.\n- Fuente: PCAP OPP-SW-011, A6.\n\n4. Subencargados, cloud, localización y transferencias\n- Requisito: Subcontratación permitida si está identificada; operador de nube debe cumplir certificaciones y partnership.\n- Condición: Identificación de subcontratista; acreditación de partnership/certificados.\n- Localización: Documentación y datos en UE.\n- Transferencias internacionales: NO CONSTA EN LA DOCUMENTACION REVISADA.\n- Fuente: PCAP OPP-SW-011, A6; PPT OPP-SW-011, T3.\n\n5. Medidas técnicas\n- Medida: MFA administrativo, cifrado TLS, copias diarias, restauración mensual, registros 12 meses.\n- Obligatoria/valorable/condicionada: Obligatoria.\n- Parámetro/plazo: MFA para administración, cifrado TLS, backup diario, restauración mensual, logs 12 meses.\n- Fuente: PPT OPP-SW-011, T3.\n\n6. Identidad, accesos y privilegios\n- MFA administrativo obligatorio.\n- NO CONSTA EN LA DOCUMENTACION REVISADA sobre RBAC, PAM, altas/bajas, acceso remoto, segmentación, bastionado.\n- Fuente: PPT OPP-SW-011, T3.\n\n7. Vulnerabilidades, parcheado y desarrollo seguro\n- NO CONSTA EN LA DOCUMENTACION REVISADA.\n\n8. Incidentes, brechas y plazos de notificación\n- NO CONSTA EN LA DOCUMENTACION REVISADA.\n\n9. Logging, SOC/SIEM, continuidad, backup, RTO/RPO y retención\n- Logging: Registros durante 12 meses obligatorio.\n- Backup: Copias diarias y restauración mensual obligatoria.\n- SOC/SIEM, continuidad, RTO/RPO: NO CONSTA EN LA DOCUMENTACION REVISADA.\n- Fuente: PPT OPP-SW-011, T3.\n\n10. Auditorías, evidencias, certificaciones, seguridad del personal, borrado y confidencialidad\n- Certificaciones: ISO 27001, ENS MEDIA, ISO 20000-1, ISO 9001, ISO 14001 exigidas según alcance.\n- Seguridad del personal, auditorías, borrado, confidencialidad: NO CONSTA EN LA DOCUMENTACION REVISADA.\n- Fuente: PCAP OPP-SW-011, A4; PPT OPP-SW-011, T2, T3.\n\n11. Consecuencias contractuales expresamente asociadas al incumplimiento\n- NO CONSTA EN LA DOCUMENTACION REVISADA.\n\n12. Datos no localizados o ambiguos\n- NO CONSTA EN LA DOCUMENTACION REVISADA para: categorías de datos personales, interesados, finalidad, conservación, plazos de notificación de incidentes, desarrollo seguro, EIPD, borrado, devolución, confidencialidad, SOC/SIEM, RTO/RPO, seguridad del personal, auditorías, consecuencias contractuales.\n\n13. Documentos revisados\n- PCAP OPP-SW-011 (Pliego administrativo)\n- PPT OPP-SW-011 (Pliego técnico)\n\nTABLA DE TRAZABILIDAD\n| Requisito/dato | Tipo | Valor/condición | Documento | Apartado/página | Estado de lectura |\n|----------------|------|-----------------|-----------|-----------------|------------------|\n| ENS | Obligatorio | Certificación MEDIA entorno producción | PCAP OPP-SW-011 | A4 | TEXTO EXTRAIDO |\n| ENS | Obligatorio | Certificación MEDIA entorno producción | PPT OPP-SW-011 | T3 | TEXTO EXTRAIDO |\n| ISO 27001 | Obligatorio | Desarrollo, operación y alojamiento portal | PCAP OPP-SW-011 | A4 | TEXTO EXTRAIDO |\n| ISO 27001 | Obligatorio | Desarrollo, operación y alojamiento portal | PPT OPP-SW-011 | T3 | TEXTO EXTRAIDO |\n| Contrato encargado | Obligatorio | Documentación y datos en UE | PCAP OPP-SW-011 | A6 | TEXTO EXTRAIDO |\n| Subcontratación | Permitida | Identificación obligatoria | PCAP OPP-SW-011 | A6 | TEXTO EXTRAIDO |\n| Partnership Azure | Obligatorio | Microsoft Solutions Partner Infraestructura (Azure), especialización Azure VMware Solution | PCAP OPP-SW-011 | A4 | TEXTO EXTRAIDO |\n| MFA administrativo | Obligatorio | Administración portal | PPT OPP-SW-011 | T3 | TEXTO EXTRAIDO |\n| Cifrado TLS | Obligatorio | Tráfico portal | PPT OPP-SW-011 | T3 | TEXTO EXTRAIDO |\n| Copias diarias | Obligatorio | Backup diario | PPT OPP-SW-011 | T3 | TEXTO EXTRAIDO |\n| Restauración mensual | Obligatorio | Restauración backup mensual | PPT OPP-SW-011 | T3 | TEXTO EXTRAIDO |\n| Registros 12 meses | Obligatorio | Logging 12 meses | PPT OPP-SW-011 | T3 | TEXTO EXTRAIDO |\n| ISO 20000-1 | Obligatorio | Gestión del servicio | PCAP OPP-SW-011 | A4 | TEXTO EXTRAIDO |\n| ISO 9001 | Obligatorio | Desarrollo y operación IT | PCAP OPP-SW-011 | A4 | TEXTO EXTRAIDO |\n| ISO 14001 | Obligatorio | Instalaciones prestación servicio | PCAP OPP-SW-011 | A4 | TEXTO EXTRAIDO |\n| Datos personales | Descriptivo | Ordinarios de identificación | PPT OPP-SW-011 | T3 | TEXTO EXTRAIDO |\n| Localización datos | Obligatorio | UE | PCAP OPP-SW-011 | A6 | TEXTO EXTRAIDO |\n| Transferencias internacionales | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n| Categorías/interesados/finalidad | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n| Accesos, privilegios, RBAC, PAM, altas/bajas, acceso remoto | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n| Vulnerabilidades, parcheado, desarrollo seguro | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n| Incidentes, brechas, plazos notificación | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n| SOC/SIEM, continuidad, RTO/RPO | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n| Auditorías, evidencias, seguridad personal, borrado, confidencialidad | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |"
+  }
+}

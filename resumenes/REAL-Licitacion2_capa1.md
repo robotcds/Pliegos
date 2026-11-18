@@ -1,0 +1,5 @@
+• Expediente AI240006. Órgano: Consejo de Administración-Comité de Inversiones de la Sociedad Estatal Correos y Telégrafos S.A. (fuente: Anuncio.pdf, DOC20240806095753Pliegodefinitivofirmado.pdf).
+• Objeto: Contratación del servicio de Administración Workplace para Correos y Correos Express, incluyendo virtualización, puesto de trabajo, movilidad y proyectos especiales (fuente: Pliego, Anexo I).
+• Presupuesto: 1.718.200 € (IVA incluido), 1.420.000 € (sin IVA). Valor estimado: 2.591.500 € (fuente: Anuncio.pdf, Pliego).
+• Duración: 24 meses, con posibilidad de 2 prórrogas (12 y 3 meses). Plazo presentación: hasta 26/08/2024, 10:00 (fuente: Anuncio.pdf).
+• Faltan datos de un documento no leído (Código de Conducta). Se omitieron enlaces no oficiales. Resumen orientativo, requisitos completos en pliegos.

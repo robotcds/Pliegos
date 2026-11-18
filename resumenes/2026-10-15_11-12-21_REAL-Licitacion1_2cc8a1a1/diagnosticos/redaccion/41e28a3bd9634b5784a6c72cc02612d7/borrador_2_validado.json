@@ -1,0 +1,490 @@
+{
+  "expediente": "REAL-Licitacion1",
+  "agentes_revisados": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A6",
+    "A8",
+    "A9",
+    "A10"
+  ],
+  "introduccion": [
+    "He revisado de forma conjunta la información extraída en el JSON del expediente REAL-Licitacion1, incluyendo datos principales, presentación y documentación, alcance técnico, actividades, equipo, solvencia, criterios de adjudicación, oferta económica, garantías, plazos, obligaciones contractuales, seguridad, medios y cierre, según los documentos y agentes especializados aportados.",
+    "El objeto del contrato es la prestación de servicios para el diseño, desarrollo, implantación, mantenimiento y evolución tecnológica de un asistente virtual SaaS para Decide Madrid, con IA generativa y tradicional, bajo un modelo de servicio gestionado, con un presupuesto base de 181.595,44 € sin IVA y una duración inicial de 24 meses, prorrogable hasta 60 meses. El expediente regula detalladamente los perfiles mínimos, la solvencia, la estructura de la oferta, los criterios de adjudicación y las condiciones de ejecución, así como las obligaciones de seguridad, confidencialidad y reversibilidad. Se identifican limitaciones documentales por la falta de lectura del documento 147409-2026 y la ausencia de requisitos de patrimonio neto, ratios, ISO/ENS, partnerships y otros certificados más allá de los expresamente recogidos.",
+    "El modelo de prestación es SaaS, con el adjudicatario responsable de la gestión y operación de la solución, salvo la infraestructura MultiCloud corporativa proporcionada por el Ayuntamiento. El servicio incluye soporte, formación, bolsa de horas de evolución tecnológica, panel de control, integración con sistemas municipales y cumplimiento de normativa de seguridad y accesibilidad. Referencias principales: ID_188_1.PDF, ID_188_2.PDF, ID_188_3.PDF, poc (Plataforma Contratación Estado)."
+  ],
+  "secciones": [
+    {
+      "titulo": "Datos principales de la licitación",
+      "bloques": [
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Concepto",
+            "Información"
+          ],
+          "filas": [
+            [
+              "Expediente",
+              "300/2026/00009"
+            ],
+            [
+              "Órgano de contratación",
+              "Área de Gobierno de Vicealcaldía, Portavoz, Seguridad y Emergencias del Ayuntamiento de Madrid"
+            ],
+            [
+              "Objeto",
+              "Servicios para diseño, desarrollo, implantación, mantenimiento y evolución tecnológica de un asistente virtual SaaS para Decide Madrid, con IA generativa y tradicional"
+            ],
+            [
+              "Presupuesto base (sin IVA)",
+              "181.595,44 €"
+            ],
+            [
+              "Presupuesto base (con IVA 21%)",
+              "219.730,48 €"
+            ],
+            [
+              "Valor estimado",
+              "408.918,11 € (sin IVA)"
+            ],
+            [
+              "Duración inicial",
+              "24 meses desde 01/09/2026 o formalización"
+            ],
+            [
+              "Prórrogas",
+              "Hasta 60 meses (5 años) en total"
+            ],
+            [
+              "CPV",
+              "72000000 (Servicios de informática)"
+            ],
+            [
+              "Lotes",
+              "No hay lotes"
+            ],
+            [
+              "Procedimiento",
+              "Abierto, tramitación ordinaria, sujeto a regulación armonizada"
+            ],
+            [
+              "Presentación",
+              "Electrónica, a través de PLACSP"
+            ],
+            [
+              "Fecha límite presentación",
+              "16/06/2026 a las 23:59"
+            ],
+            [
+              "Plazo de validez de la oferta",
+              "2 meses desde presentación"
+            ]
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se admiten variantes ni división en lotes. El valor estimado incluye posibles prórrogas. Referencias: ID_188_1.PDF, ID_188_2.PDF, poc."
+        }
+      ]
+    },
+    {
+      "titulo": "Presentación de la oferta y estructura documental",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "La oferta debe presentarse electrónicamente a través de la Plataforma de Contratación del Sector Público (PLACSP), en tres sobres electrónicos diferenciados, con firma electrónica y en idioma español. La presentación incorrecta, la falta de documentación obligatoria o la superación de los límites de extensión pueden ser causa de exclusión."
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Sobre A: Documentación administrativa (DEUC firmado, declaración de cumplimiento de obligaciones sociales/laborales/igualdad, compromiso de adscripción de medios, compromiso UTE si aplica, declaraciones responsables)",
+            "Sobre B: Oferta técnica (máx. 40 páginas, sin datos económicos, requisitos formales)",
+            "Sobre C: Oferta económica (modelo Anexo II, desglose de costes fijos/variables, IVA, mejoras si aplica)"
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El plazo de presentación finaliza el 16/06/2026 a las 23:59. La validez de la oferta es de 2 meses desde la presentación. Referencias: ID_188_2.PDF, Anexo I, 18, 22, 27."
+        }
+      ]
+    },
+    {
+      "titulo": "Alcance técnico, actividades y entregables",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "El contrato abarca el diseño, desarrollo, implantación, mantenimiento y evolución tecnológica de un asistente virtual conversacional (BOT) con IA generativa y tradicional, integrado en Decide Madrid, bajo modalidad SaaS. El adjudicatario gestiona todos los elementos de la solución salvo la infraestructura MultiCloud corporativa (Google Cloud Platform, Microsoft Azure, Amazon AWS), que aporta el Ayuntamiento. Incluye panel de control, soporte, formación, bolsa de horas de evolución tecnológica, integración con sistemas municipales, cumplimiento de normativa de seguridad, accesibilidad y transparencia, y reversibilidad al cierre."
+        },
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Dato",
+            "Valor/Unidad"
+          ],
+          "filas": [
+            [
+              "Usuarios registrados Decide Madrid",
+              "555.318 (a 30/11/2025)"
+            ],
+            [
+              "Debates",
+              "8.220 (a 30/11/2025)"
+            ],
+            [
+              "Propuestas",
+              "36.124 (a 30/11/2025)"
+            ],
+            [
+              "Consultas públicas",
+              "150 (a 30/11/2025)"
+            ],
+            [
+              "Personas atendidas por asistente virtual",
+              "6.246 (2023), 4.490 (2024), 2.552 (2025 hasta 30/11)"
+            ],
+            [
+              "Mensajes intercambiados",
+              "27.083 (2023), 46.723 (2024), 26.784 (2025 hasta 30/11)"
+            ],
+            [
+              "Conversaciones simultáneas mínimas",
+              "50"
+            ],
+            [
+              "Tráfico mínimo de mensajes",
+              "15.000 mensajes/mes"
+            ],
+            [
+              "Horario de atención primer nivel",
+              "Laborables 11:00-14:00 (ampliable por mejora)"
+            ],
+            [
+              "Horario de operación asistente",
+              "24x7x365"
+            ],
+            [
+              "Bolsa de horas evolución tecnológica",
+              "600 horas (ampliable a 700/800 por mejora)"
+            ],
+            [
+              "Formación",
+              "20 horas, hasta 20 asistentes"
+            ]
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El servicio se estructura en dos fases: implantación (máx. 2 meses) y operación (resto de vigencia). Incluye soporte de primer nivel, monitorización diaria, mantenimiento preventivo/correctivo/evolutivo, panel de control, formación inicial y continua, transferencia de conocimiento y reversibilidad. Referencias: ID_188_3.PDF, p.1-17."
+        }
+      ]
+    },
+    {
+      "titulo": "Actividades y procesos funcionales",
+      "bloques": [
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Gestión de incidencias: mecanismo ágil de reporte y resolución, notificación inmediata a DGPC, seguimiento hasta resolución.",
+            "Monitorización y supervisión diaria de conversaciones, detección y corrección de errores, acciones de mejora.",
+            "Mantenimiento preventivo, correctivo y evolutivo, soporte técnico, resolución de incidencias, adaptación a requerimientos.",
+            "Gestión de cambios: modificaciones de arquitectura sujetas a aprobación previa de DGPC/IAM.",
+            "Transferencia de conocimiento y entrega de información al cierre.",
+            "Gestión de la configuración: documentación de arquitectura, código, modelos, almacenada en repositorio IAM.",
+            "Gestión de la seguridad: cumplimiento ENS nivel básico, análisis de riesgos, configuración segura, gestión de incidentes, auditorías.",
+            "Gestión de la accesibilidad: cumplimiento UNE 139803:2012, nivel AA WCAG 2.0.",
+            "Gestión de la transparencia y datos: entrega de datos, informes, bases de datos, formatos abiertos, API, cumplimiento normativa.",
+            "Gestión de la formación: formación inicial y continua, materiales actualizables.",
+            "Gestión de la reversibilidad: entrega de información, borrado seguro, certificado de destrucción.",
+            "Gestión de la continuidad: cobertura de ausencias, vacaciones, bajas, sin eximir cumplimiento.",
+            "Gestión de la subcontratación: comunicación y límites, documentación, penalizaciones.",
+            "Gestión de la calidad: auditoría de entregables, revisión de estándares, planes de acción.",
+            "Gestión de la documentación: generación y mantenimiento de documentación técnica, manuales, informes."
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se exige referencia a herramientas ITSM específicas ni se definen niveles N2/N3. Referencias: ID_188_3.PDF, p.9-49."
+        }
+      ]
+    },
+    {
+      "titulo": "Equipo y continuidad del servicio",
+      "bloques": [
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Perfil",
+            "Cantidad",
+            "Titulación",
+            "Experiencia"
+          ],
+          "filas": [
+            [
+              "Jefe/a de Proyecto",
+              "2",
+              "Universitaria de grado o equivalente",
+              "5 años en proyectos de administración electrónica, 3 años en asistentes virtuales"
+            ],
+            [
+              "Técnico/a experto/a nube",
+              "1",
+              "Universitaria de grado o equivalente",
+              "3 años en funciones perfil, 2 años en asistentes virtuales"
+            ],
+            [
+              "Analista programador",
+              "1",
+              "Universitaria de grado o equivalente",
+              "3 años en funciones perfil, 2 años en asistentes virtuales"
+            ],
+            [
+              "Experto en IA y análisis de datos",
+              "1",
+              "Universitaria de grado o equivalente",
+              "3 años en funciones perfil, 2 años en asistentes virtuales"
+            ],
+            [
+              "Lingüista computacional",
+              "1",
+              "Universitaria de grado o equivalente",
+              "3 años en funciones perfil, 2 años en asistentes virtuales"
+            ],
+            [
+              "Agente primer nivel atención",
+              "2",
+              "Educación Secundaria oficial",
+              "3 años en atención a la ciudadanía en castellano"
+            ],
+            [
+              "Consultor evolución tecnológica",
+              "1",
+              "Universitaria de grado o equivalente",
+              "5 años en funciones perfil, 3 años en análisis de proyectos administración electrónica, 3 años en asistentes virtuales"
+            ]
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La adscripción de medios personales es una obligación contractual esencial. La acreditación documental de experiencia y titulación se exige solo al adjudicatario propuesto, mediante relación de personal, declaración responsable, CVs anonimizados, certificados de vida laboral y títulos oficiales. La sustitución del personal debe ser justificada, comunicada y aprobada, con plazo de 7 días para presentar sustituto. La cobertura de ausencias, vacaciones y bajas es obligatoria, sin cuantificación de suplentes. El servicio se presta en dependencias de la adjudicataria, salvo necesidad y conformidad expresa para uso de instalaciones municipales. Referencias: ID_188_3.PDF, p.25-28; ID_188_2.PDF, Anexo X, p.97."
+        }
+      ]
+    },
+    {
+      "titulo": "Solvencia y acreditación",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Solvencia económica"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige volumen anual de negocios igual o superior a 181.595,44 € (sin IVA) en el mejor ejercicio de los tres últimos disponibles (2023-2025), acreditable mediante declaración responsable firmada o inscripción en el ROLECE. Se admiten medios alternativos si no es posible presentar las referencias solicitadas, a valorar por la Mesa de contratación. Referencias: ID_188_2.PDF, Anexo I, 11, pág. 63."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Solvencia técnica o profesional"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige haber realizado trabajos de igual o similar naturaleza al objeto del contrato (coincidencia en los tres primeros dígitos del CPV), por importe igual o superior a 181.595,44 € (sin IVA) en los tres últimos años. Acreditación: relación de servicios/trabajos realizados, indicando importe, fecha y destinatario, público o privado. Para empresas de nueva creación (antigüedad inferior a cinco años), solvencia técnica por descripción de instalaciones técnicas y títulos académicos/profesionales del jefe/a de proyecto. Referencias: ID_188_2.PDF, Anexo I, 11, pág. 64."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Otros requisitos y alternativas"
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "No se exige clasificación obligatoria, pero puede acreditarse solvencia mediante clasificación o inscripción en el ROLECE.",
+            "Se permite integración de solvencia con medios externos (compromiso de disponibilidad durante la ejecución).",
+            "Acumulación de solvencia en UTE permitida.",
+            "No se exige seguro de responsabilidad civil ni certificados de buena ejecución más allá de la relación de trabajos similares.",
+            "No se exige ISO/ENS, partnerships ni cartas de fabricante."
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La acreditación documental de la solvencia se exige en la fase de presentación de la oferta, salvo para los perfiles del equipo, que se acreditan solo al adjudicatario propuesto. Referencias: ID_188_2.PDF, Anexo I, 11, 14, 15, 17."
+        }
+      ]
+    },
+    {
+      "titulo": "Criterios de adjudicación y valoración técnica",
+      "bloques": [
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Criterio",
+            "Puntos máximos",
+            "Peso",
+            "Tipo"
+          ],
+          "filas": [
+            [
+              "A.1 Proyecto técnico (subcriterios: detalle, adecuación, planificación)",
+              "45",
+              "45%",
+              "Juicio de valor"
+            ],
+            [
+              "B.1 Oferta económica",
+              "35",
+              "35%",
+              "Automático (fórmula)"
+            ],
+            [
+              "B.2 Mejoras técnicas (ampliación horario, bolsa de horas)",
+              "20",
+              "20%",
+              "Automático (baremo)"
+            ]
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El proyecto técnico se valora mediante baremo de calidad (excelente, alta, media, baja, muy baja, insuficiente), con un umbral mínimo de 22,5 puntos sobre 45 para no ser excluido. La oferta económica se valora con la fórmula Y = 35 × (importe oferta más económica / importe oferta a valorar). Las mejoras técnicas puntúan hasta 20 puntos: 10 por ampliación de horario de primer nivel (de 3h a 4h/día) y 10 por ampliación de la bolsa de horas de evolución tecnológica (5 puntos por 100h adicionales, 10 por 200h adicionales, sin coste). Referencias: ID_188_2.PDF, pág. 68-72, Anexo I, 19."
+        }
+      ]
+    },
+    {
+      "titulo": "Oferta económica y régimen de anormalidad",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "La oferta económica se valora con la fórmula Y = 35 × (importe oferta más económica / importe oferta a valorar), donde Y es la puntuación obtenida. No se documentan reglas de redondeo. El régimen de ofertas anormalmente bajas establece parámetros según el número de licitadores: un solo licitador, oferta inferior al presupuesto base en más de 20 puntos porcentuales; dos licitadores, inferior en más de 15 puntos a la otra oferta; tres o más, inferior en más de 10 puntos a la media aritmética. El plazo para justificar la anormalidad es de 3 días. Referencias: ID_188_2.PDF, pág. 71-72, Anexo I, 19-20."
+        }
+      ]
+    },
+    {
+      "titulo": "Facturación, cobro y garantías",
+      "bloques": [
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Garantía provisional: no exigida.",
+            "Garantía definitiva: 5% del precio final ofertado sin IVA, a constituir en 10 días hábiles tras requerimiento.",
+            "Garantía complementaria: 1% del precio final ofertado sin IVA para ofertas anormalmente bajas.",
+            "Seguro de responsabilidad civil: no exigido."
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La facturación se realiza en dos fases: implantación (20% de costes fijos) y operación (80% de costes fijos prorrateados mensualmente más variables según consumo). Es obligatoria la presentación de memoria justificativa mensual y desglose de IVA. El plazo de pago es de 30 días desde la aprobación de la conformidad. No procede revisión de precios ni modificaciones previstas. Referencias: ID_188_2.PDF, Anexo I, 6, 14-17, 27, 30."
+        }
+      ]
+    },
+    {
+      "titulo": "Horarios, plazos, ANS y penalizaciones",
+      "bloques": [
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Actuación",
+            "Plazo/objetivo"
+          ],
+          "filas": [
+            [
+              "Fase de implantación",
+              "Máximo 2 meses desde inicio del contrato"
+            ],
+            [
+              "Operación asistente virtual",
+              "24x7x365, disponibilidad continua"
+            ],
+            [
+              "Atención primer nivel",
+              "Laborables 11:00-14:00 (ampliable por mejora)"
+            ],
+            [
+              "Entrega de informes de seguimiento",
+              "Mensual o a requerimiento"
+            ],
+            [
+              "Transferencia de conocimiento",
+              "Últimos 2 meses del contrato"
+            ],
+            [
+              "Garantía técnica",
+              "12 meses desde recepción"
+            ],
+            [
+              "Justificación de oferta anormalmente baja",
+              "3 días desde requerimiento"
+            ]
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Las penalizaciones por incumplimientos graves o muy graves oscilan entre el 5% y el 10% del precio del contrato, según la gravedad y la actuación afectada (indisponibilidad, retrasos, incumplimiento de condiciones especiales, subcontratación indebida, etc.). Referencias: ID_188_2.PDF, Anexo I, 30, p.75-78; ID_188_3.PDF, p.8-9."
+        }
+      ]
+    },
+    {
+      "titulo": "Obligaciones contractuales, UTE y subcontratación",
+      "bloques": [
+        {
+          "tipo": "lista",
+          "elementos": [
+            "UTE permitida, con compromiso de constitución y reparto de participación, escritura pública tras adjudicación.",
+            "Subcontratación permitida salvo tareas críticas (implantación y jefe/a de proyecto), debe indicarse parte, importe y subcontratista en la oferta, comunicación y justificación durante ejecución.",
+            "Cesión del contrato no permitida, prohibición expresa.",
+            "Integración de solvencia con medios externos permitida, con compromiso de disponibilidad durante la ejecución."
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La subcontratación indebida, la cesión del contrato o el incumplimiento de las condiciones especiales de ejecución pueden ser causa de penalización o resolución. Referencias: ID_188_2.PDF, Anexo I, 25-27, 30; ID_188_3.PDF, p.29."
+        }
+      ]
+    },
+    {
+      "titulo": "Seguridad y protección de datos",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "El contrato exige cumplimiento del Esquema Nacional de Seguridad (ENS) nivel básico para todos los servicios y sistemas desarrollados/desplegados/mantenidos, con análisis de riesgos, configuración segura, cifrado de información no pública en tránsito, autenticación conforme a normativa municipal, control de acceso por mínimo privilegio, logging, gestión de vulnerabilidades, desarrollo seguro, gestión de incidentes y auditorías. El despliegue debe realizarse exclusivamente en cloud pública (Azure, AWS, GCP) del Ayuntamiento, en regiones del Espacio Económico Europeo, prohibiéndose otros proveedores y localizaciones fuera del EEE. No se exige certificación ISO/ENS ni DPO/DPD al adjudicatario. No se requiere tratamiento de datos personales por cuenta del responsable, por lo que no se exige acuerdo de encargo de tratamiento ni cláusulas de protección de datos en los términos de la LOPDGDD/RGPD. El Ayuntamiento puede auditar la seguridad de los sistemas y exigir borrado seguro de datos al finalizar el contrato, con certificado de destrucción. Referencias: ID_188_3.PDF, p.45-50; ID_188_2.PDF, Anexo IX."
+        }
+      ]
+    },
+    {
+      "titulo": "Medios, licencias y terceros",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe aportar todas las licencias, software, servicios y medios materiales y personales necesarios para la ejecución del contrato, incluyendo soporte y mantenimiento, sin que puedan generar costes adicionales para el Ayuntamiento. La infraestructura MultiCloud corporativa (Google Cloud Platform, Microsoft Azure, Amazon AWS) es proporcionada por el Ayuntamiento. No se exigen fabricantes nominales, partnerships, cartas de canal ni certificaciones de fabricante. Se permite la subcontratación con límites y condiciones, y se exige la declaración de la parte subcontratada y los subcontratistas. No se describen cadenas de suministro específicas ni se establecen SLA back-to-back con terceros. Referencias: ID_188_3.PDF, p.1, 13-14, 23, 29, 42; ID_188_2.PDF, p.41, 75."
+        }
+      ]
+    },
+    {
+      "titulo": "Cierre, reversibilidad y transferencia",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Al finalizar el contrato, el adjudicatario debe entregar toda la información generada (productos de desarrollo, modelos, código, datos, conversaciones anonimizadas, logs, manuales, informes), realizar el borrado seguro de datos y aportar certificado de destrucción. Se exige transferencia de conocimiento durante los últimos 2 meses del contrato y colaboración en la reversibilidad, garantizando la continuidad y la entrega en formatos abiertos y accesibles. Referencias: ID_188_3.PDF, p.9, 20-23, 54-56."
+        }
+      ]
+    },
+    {
+      "titulo": "Discrepancias, lagunas y datos pendientes",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "El documento 147409-2026 está pendiente de lectura/OCR, por lo que no se puede descartar que contenga información adicional relevante. No se localizan requisitos de patrimonio neto, ratios, ISO/ENS, partnerships, cartas de canal, stock, logística, SLA de terceros, garantías de hardware, homologaciones, sostenibilidad, EOL/EOS ni cadena de suministro. No se han identificado discrepancias internas en la documentación revisada. Referencias: ID_188_2.PDF, ID_188_3.PDF, poc."
+        }
+      ]
+    }
+  ],
+  "conclusion": [
+    "**DOCUMENTALMENTE ESTABLECIDO:** El contrato regula la prestación de servicios para el diseño, desarrollo, implantación, mantenimiento y evolución tecnológica de un asistente virtual SaaS para Decide Madrid, con IA generativa y tradicional, bajo un modelo de servicio gestionado, con un presupuesto base de 181.595,44 € sin IVA y una duración inicial de 24 meses, prorrogable hasta 60 meses.",
+    "**PUNTO CRÍTICO DE ADJUDICACIÓN:** La valoración técnica (proyecto técnico, 45 puntos) y las mejoras automáticas (ampliación de horario y bolsa de horas, hasta 20 puntos) son determinantes para la adjudicación, junto con la oferta económica (35 puntos). El umbral mínimo de 22,5 puntos en criterios de juicio de valor es causa de exclusión si no se alcanza.",
+    "**OBLIGACIONES ESENCIALES:** Adscripción de medios personales, cobertura de ausencias, cumplimiento de condiciones especiales de ejecución (igualdad, conciliación, formación, impacto de género), confidencialidad, seguridad ENS nivel básico, reversibilidad y entrega de información al cierre.",
+    "**LIMITACIONES Y LAGUNAS:** No se localizan requisitos de patrimonio neto, ratios, ISO/ENS, partnerships, cartas de canal, stock, logística, SLA de terceros, garantías de hardware, homologaciones, sostenibilidad, EOL/EOS ni cadena de suministro. El documento 147409-2026 está pendiente de lectura/OCR.",
+    "**NO EXIGIDO EXPRESAMENTE:** No se exige seguro de responsabilidad civil, certificaciones ISO/ENS, DPO/DPD, ni fabricantes nominales o partnerships. No se exige clasificación obligatoria, aunque puede acreditarse solvencia mediante clasificación o ROLECE.",
+    "**DECISIÓN INTERNA REQUERIDA:** La cobertura de ausencias, vacaciones y bajas es obligatoria, pero no se cuantifican suplentes ni se exige dimensionamiento adicional. La acreditación de experiencia y titulación del equipo se exige solo al adjudicatario propuesto.",
+    "**PUNTO RELEVANTE:** La subcontratación está permitida salvo para tareas críticas, y la cesión del contrato está prohibida. La integración de solvencia con medios externos y la acumulación en UTE están permitidas.",
+    "**AVISO DE PROCESAMIENTO:** Documento 147409-2026 pendiente de lectura/OCR; se omitieron 22 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitación."
+  ]
+}

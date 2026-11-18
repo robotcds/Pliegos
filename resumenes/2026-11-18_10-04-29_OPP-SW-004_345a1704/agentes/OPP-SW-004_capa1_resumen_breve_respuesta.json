@@ -1,0 +1,104 @@
+{
+  "orden": 1,
+  "id": "A1",
+  "nombre": "Resumen breve",
+  "tipo": "referencia",
+  "ejecucion": "345a1704198e4ea8813735b477273d93",
+  "estado": "completado",
+  "contenido": {
+    "resumen": [
+      "Expediente: OPP-SW-004. Órgano: Diputación Ficticia del Norte. Fuente: metadatos XML, pliegos y anexo.",
+      "Objeto: Mantenimiento evolutivo de aplicaciones Java legacy, soporte L2/L3, pequeñas evoluciones y gestión de tickets. Fuente: pliego técnico.",
+      "Presupuesto: 435.600 EUR (IVA incluido), valor estimado 360.000 EUR (sin IVA). Fuente: pliego administrativo.",
+      "Duración: 24 meses. Fuente: pliego administrativo y técnico.",
+      "Plazo de presentación de ofertas: 05/10/2026 a las 12:00 (fase: presentación de ofertas). Fuente: metadatos y pliego administrativo.",
+      "No constan documentos no leídos ni avisos técnicos registrados."
+    ],
+    "secciones": [
+      {
+        "titulo": "Contenido inicial",
+        "parrafos": [
+          "No constan documentos no leídos ni avisos técnicos registrados."
+        ],
+        "elementos": [
+          "Expediente: OPP-SW-004. Órgano: Diputación Ficticia del Norte. Fuente: metadatos XML, pliegos y anexo.",
+          "Objeto: Mantenimiento evolutivo de aplicaciones Java legacy, soporte L2/L3, pequeñas evoluciones y gestión de tickets. Fuente: pliego técnico.",
+          "Presupuesto: 435.600 EUR (IVA incluido), valor estimado 360.000 EUR (sin IVA). Fuente: pliego administrativo.",
+          "Duración: 24 meses. Fuente: pliego administrativo y técnico.",
+          "Plazo de presentación de ofertas: 05/10/2026 a las 12:00 (fase: presentación de ofertas). Fuente: metadatos y pliego administrativo."
+        ],
+        "tablas": []
+      }
+    ],
+    "pendientes_y_no_localizados": [
+      {
+        "seccion": "Contenido inicial",
+        "texto": "No constan documentos no leídos ni avisos técnicos registrados."
+      }
+    ],
+    "trazabilidad": [],
+    "salida_original": "• Expediente: OPP-SW-004. Órgano: Diputación Ficticia del Norte. Fuente: metadatos XML, pliegos y anexo.\n• Objeto: Mantenimiento evolutivo de aplicaciones Java legacy, soporte L2/L3, pequeñas evoluciones y gestión de tickets. Fuente: pliego técnico.\n• Presupuesto: 435.600 EUR (IVA incluido), valor estimado 360.000 EUR (sin IVA). Fuente: pliego administrativo.\n• Duración: 24 meses. Fuente: pliego administrativo y técnico.\n• Plazo de presentación de ofertas: 05/10/2026 a las 12:00 (fase: presentación de ofertas). Fuente: metadatos y pliego administrativo.\nNo constan documentos no leídos ni avisos técnicos registrados."
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "Pliego administrativo OPP-SW-004 mantenimiento Java",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 4922,
+        "caracteres_enviados_al_agente": 4922,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Pliego tecnico OPP-SW-004 mantenimiento Java",
+        "tipo": "Pliego tecnico",
+        "fuente": "XML",
+        "caracteres_extraidos": 4709,
+        "caracteres_enviados_al_agente": 4709,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "Anexo solvencia OPP-SW-004 mantenimiento Java",
+        "tipo": "Documento general",
+        "fuente": "XML",
+        "caracteres_extraidos": 779,
+        "caracteres_enviados_al_agente": 779,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": []
+  },
+  "puntos_revision": [
+    {
+      "id": "REV-001",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Documentación y otras condiciones pendientes",
+      "prioridad": "media",
+      "detalle": "Revisar documentación y otras condiciones pendientes: 1 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-001.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "No constan documentos no leídos ni avisos técnicos registrados.",
+          "evidencia": "No constan documentos no leídos ni avisos técnicos registrados.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    }
+  ],
+  "recomendaciones": [],
+  "estado_recomendaciones": "no_generadas"
+}

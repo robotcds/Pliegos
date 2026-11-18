@@ -1,0 +1,17 @@
+Registro documental de preventa
+
+| Materia | Requisito completo | Fuente |
+|---|---|---|
+| Solvencia económica y técnica | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito específico de solvencia económica (volumen de negocio global o sectorial, ejercicios, mejor ejercicio, umbrales) para la empresa licitadora. | Pliegodefinitivofirmado.pdf (Pliego administrativo y técnico) |
+| Solvencia económica y técnica | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito específico de patrimonio neto, ratios, componentes, fórmulas ni ejercicio de referencia. | Pliegodefinitivofirmado.pdf (Pliego administrativo y técnico) |
+| Solvencia económica y técnica | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito de seguro de responsabilidad civil o de riesgos profesionales (coberturas, límites, moneda, vigencia, renovación). | Pliegodefinitivofirmado.pdf (Pliego administrativo y técnico) |
+| Solvencia técnica: experiencia previa | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito de número mínimo de trabajos, proyectos o referencias exigidas, ni objeto/similitud, CPV, sector, tecnologías o alcance requerido, ni importes mínimos, ni reglas de cómputo anual/acumulado, ni periodo o ventana temporal aplicable, ni reglas para empresas de nueva creación. | Pliegodefinitivofirmado.pdf (Pliego administrativo y técnico) |
+| Solvencia técnica: experiencia previa | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito de duración mínima, fechas, condiciones de finalización o ejecución, ni reglas temporales asociadas a la experiencia previa. | Pliegodefinitivofirmado.pdf (Pliego administrativo y técnico) |
+| Solvencia técnica: acreditación | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna forma de acreditación específica (certificados de buena ejecución, relación de trabajos, destinatario público/privado u otros medios expresamente admitidos) para la experiencia previa de la empresa. | Pliegodefinitivofirmado.pdf (Pliego administrativo y técnico) |
+| Solvencia técnica: ISO/ENS/certificados | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito de certificaciones ISO, ENS, u otros certificados de empresa, ni alternativas, exenciones o reglas de equivalencia. | Pliegodefinitivofirmado.pdf (Pliego administrativo y técnico) |
+| Solvencia técnica: partnerships/fabricantes | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito de partnerships, cartas de fabricante, compromisos de soporte, licencias o especializaciones. | Pliegodefinitivofirmado.pdf (Pliego administrativo y técnico) |
+| Solvencia técnica: clasificación/ROLECE | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito de clasificación empresarial, inscripción en ROLECE, ni alternativas, exenciones o reglas de acumulación en UTE. | Pliegodefinitivofirmado.pdf (Pliego administrativo y técnico) |
+| Solvencia técnica: medios externos/UTE | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna regla sobre utilización de medios externos, acumulación de solvencia en UTE, ni condiciones específicas para empresas de nueva creación. | Pliegodefinitivofirmado.pdf (Pliego administrativo y técnico) |
+
+Discrepancias y pendientes de aclaración:
+No se han identificado discrepancias en la documentación revisada. La ausencia de requisitos específicos de solvencia económica y técnica se debe a que los documentos extraídos no contienen información relevante sobre estos aspectos, o bien el acceso a los mismos ha sido rechazado, por lo que no es posible verificar si existen tales requisitos en otras secciones no accesibles.

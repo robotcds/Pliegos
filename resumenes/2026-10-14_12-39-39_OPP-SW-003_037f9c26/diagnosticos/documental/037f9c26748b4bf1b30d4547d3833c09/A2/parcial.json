@@ -1,0 +1,542 @@
+{
+  "registros": [
+    {
+      "id": "A2-1",
+      "tema": "economia",
+      "estado": "CONSTA",
+      "detalle": "Presupuesto base de licitacion: 653.400 EUR IVA incluido. Presupuesto base sin IVA: 540.000 EUR. Tipo de IVA: 21%. Valor estimado: 540.000 EUR. Duracion inicial: 10 meses. No hay prorroga. No consta modificacion prevista.",
+      "evidencias": [
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "PLIEGO ADMINISTRATIVO FICTICIO OPP-SW-003\nContrato de migracion cloud y contenerizacion.\n\nProcedimiento: abierto simplificado ficticio.\nPresupuesto base de licitacion: 653.400 EUR IVA incluido.\nValor estimado: 540.000 EUR.\nDuracion: 10 meses.\nPlazo de presentacion: 30/09/2026 a las 13:00.\n\nDocumentacion:\n- Memoria de migracion.\n- Plan de continuidad y reversibilidad.\n- Plan de seguridad y gestion de cambios.\n- CV del equipo minimo.\n- Oferta economica.\n\nCondiciones de ejecucion:\nLas migraciones productivas se ejecutaran en ventanas autorizadas y con plan de vuelta atras aprobado.\n\nCondiciones de participacion:\nSe exige capacidad de obrar, no prohibicion para contratar y certificados positivos de Hacienda y Seguridad Social. No se admiten variantes. Se permite subcontratacion maxima del 25 por ciento, excepto direccion de proyecto y arquitectura cloud.\n\nSolvencia economica:\nVolumen anual minimo de 900.000 EUR y seguro de responsabilidad civil profesional de 1.500.000 EUR.\n\nClasificacion y certificaciones:\nSe exige clasificacion empresarial equivalente a servicios de consultoria y desarrollo informatico Grupo V, Subgrupo 2, Categoria 3, o acreditacion alternativa solo para empresas no espanolas. Se exige ISO 27001.\n\nFormato de oferta y exclusiones:\nDos sobres electronicos: sobre 1 documentacion administrativa y tecnica; sobre 2 oferta economica. La propuesta de migracion no podra superar 50 paginas. La falta de plan de reversibilidad o la superacion del presupuesto maximo provocara exclusion.\n\nCriterios de adjudicacion:\nTotal 100 puntos.\n- Precio: 50 puntos. Formula proporcional directa a la baja economica. Las ofertas con baja superior al 18 por ciento deberan justificar viabilidad.\n- Plan de migracion: 22 puntos. Subcriterios: inventario y oleadas 6, automatizacion CI/CD 5, seguridad 4, gestion de riesgos 4, validacion postmigracion 3.\n- Plan de reversibilidad y continuidad: 10 puntos.\n- Observabilidad y SLA operativo: 8 puntos. Tope de puntuacion si se ofrecen dashboards, alertas y respuesta critica inferior a 2 horas.\n- Certificaciones y equipo cloud: 5 puntos. CKA 2, Azure Administrator 2, ISO 27001 1.\n",
+          "fragmento": "D1-F1"
+        },
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "- Reduccion de plazo: 5 puntos. Tope por reduccion del 10 por ciento.\nUmbral minimo: 24 puntos sobre los 40 puntos tecnicos de migracion, reversibilidad y observabilidad.\n\nANEXO ECONOMICO-FINANCIERO:\nPresupuesto de oferta: 540.000 EUR sin IVA. PBL con IVA 653.400 EUR. Duracion 10 meses, sin prorroga.\nFormula economica: 50 puntos. La mejor oferta obtiene 50 puntos. Resto: P = 50 x oferta_minima / oferta_licitador.\nBaja superior al 18 por ciento exige memoria de viabilidad. Baja superior al 22 por ciento se considerara de alto riesgo por carga de migracion.\nFacturacion por hitos: 10 por ciento inventario, 25 por ciento oleada 1, 25 por ciento oleada 2, 25 por ciento oleada final, 15 por ciento cierre y reversibilidad.\nCostes obligatorios:\n- Dos DevOps cloud senior al 100 por ciento durante 8 meses y jefe de proyecto 35 por ciento durante 10 meses.\n- Herramientas: repositorio IaC, escaneo de contenedores, monitorizacion Grafana/Prometheus y licencias SAST/SCA para 5 usuarios.\n- Cloud temporal de migracion: 4.200 EUR/mes durante 6 meses para entornos paralelos, pruebas y observabilidad. No esta presupuestado de forma separada en el pliego.\n- Transicion/migracion: inventario, oleadas, migracion de datos, pruebas, documentacion y plan de reversibilidad incluidos.\n- Ventanas fuera de horario: 8 fines de semana de migracion con guardias DevOps incluidas.\nCostes financieros: no hay anticipo; compras y licencias se financian con recursos propios hasta cobro de hitos.\nPenalizaciones: 0,5 por ciento del precio por semana de retraso en una oleada; maximo 7 por ciento del contrato.\n\nANEXO COMPRAS / PARTNERS:\nEl adjudicatario debe aportar herramientas de escaneo de contenedores, SAST/SCA para 5 usuarios, Grafana/Prometheus gestionado si no usa herramientas del cliente, cloud temporal de migracion Azure y soporte de fabricante/partner durante ventanas de migracion. Jira Service Management sera aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias.\n",
+          "fragmento": "D1-F2"
+        }
+      ]
+    },
+    {
+      "id": "A2-2",
+      "tema": "economia",
+      "estado": "CONSTA",
+      "detalle": "Facturacion por hitos: 10% inventario, 25% oleada 1, 25% oleada 2, 25% oleada final, 15% cierre y reversibilidad. No hay anticipo. Compras y licencias se financian con recursos propios hasta cobro de hitos.",
+      "evidencias": [
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "- Reduccion de plazo: 5 puntos. Tope por reduccion del 10 por ciento.\nUmbral minimo: 24 puntos sobre los 40 puntos tecnicos de migracion, reversibilidad y observabilidad.\n\nANEXO ECONOMICO-FINANCIERO:\nPresupuesto de oferta: 540.000 EUR sin IVA. PBL con IVA 653.400 EUR. Duracion 10 meses, sin prorroga.\nFormula economica: 50 puntos. La mejor oferta obtiene 50 puntos. Resto: P = 50 x oferta_minima / oferta_licitador.\nBaja superior al 18 por ciento exige memoria de viabilidad. Baja superior al 22 por ciento se considerara de alto riesgo por carga de migracion.\nFacturacion por hitos: 10 por ciento inventario, 25 por ciento oleada 1, 25 por ciento oleada 2, 25 por ciento oleada final, 15 por ciento cierre y reversibilidad.\nCostes obligatorios:\n- Dos DevOps cloud senior al 100 por ciento durante 8 meses y jefe de proyecto 35 por ciento durante 10 meses.\n- Herramientas: repositorio IaC, escaneo de contenedores, monitorizacion Grafana/Prometheus y licencias SAST/SCA para 5 usuarios.\n- Cloud temporal de migracion: 4.200 EUR/mes durante 6 meses para entornos paralelos, pruebas y observabilidad. No esta presupuestado de forma separada en el pliego.\n- Transicion/migracion: inventario, oleadas, migracion de datos, pruebas, documentacion y plan de reversibilidad incluidos.\n- Ventanas fuera de horario: 8 fines de semana de migracion con guardias DevOps incluidas.\nCostes financieros: no hay anticipo; compras y licencias se financian con recursos propios hasta cobro de hitos.\nPenalizaciones: 0,5 por ciento del precio por semana de retraso en una oleada; maximo 7 por ciento del contrato.\n\nANEXO COMPRAS / PARTNERS:\nEl adjudicatario debe aportar herramientas de escaneo de contenedores, SAST/SCA para 5 usuarios, Grafana/Prometheus gestionado si no usa herramientas del cliente, cloud temporal de migracion Azure y soporte de fabricante/partner durante ventanas de migracion. Jira Service Management sera aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias.\n",
+          "fragmento": "D1-F2"
+        }
+      ]
+    },
+    {
+      "id": "A2-3",
+      "tema": "economia",
+      "estado": "CONSTA",
+      "detalle": "Penalizacion por retraso: 0,5% del precio por semana de retraso en una oleada, con maximo acumulado del 7% del contrato.",
+      "evidencias": [
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "- Reduccion de plazo: 5 puntos. Tope por reduccion del 10 por ciento.\nUmbral minimo: 24 puntos sobre los 40 puntos tecnicos de migracion, reversibilidad y observabilidad.\n\nANEXO ECONOMICO-FINANCIERO:\nPresupuesto de oferta: 540.000 EUR sin IVA. PBL con IVA 653.400 EUR. Duracion 10 meses, sin prorroga.\nFormula economica: 50 puntos. La mejor oferta obtiene 50 puntos. Resto: P = 50 x oferta_minima / oferta_licitador.\nBaja superior al 18 por ciento exige memoria de viabilidad. Baja superior al 22 por ciento se considerara de alto riesgo por carga de migracion.\nFacturacion por hitos: 10 por ciento inventario, 25 por ciento oleada 1, 25 por ciento oleada 2, 25 por ciento oleada final, 15 por ciento cierre y reversibilidad.\nCostes obligatorios:\n- Dos DevOps cloud senior al 100 por ciento durante 8 meses y jefe de proyecto 35 por ciento durante 10 meses.\n- Herramientas: repositorio IaC, escaneo de contenedores, monitorizacion Grafana/Prometheus y licencias SAST/SCA para 5 usuarios.\n- Cloud temporal de migracion: 4.200 EUR/mes durante 6 meses para entornos paralelos, pruebas y observabilidad. No esta presupuestado de forma separada en el pliego.\n- Transicion/migracion: inventario, oleadas, migracion de datos, pruebas, documentacion y plan de reversibilidad incluidos.\n- Ventanas fuera de horario: 8 fines de semana de migracion con guardias DevOps incluidas.\nCostes financieros: no hay anticipo; compras y licencias se financian con recursos propios hasta cobro de hitos.\nPenalizaciones: 0,5 por ciento del precio por semana de retraso en una oleada; maximo 7 por ciento del contrato.\n\nANEXO COMPRAS / PARTNERS:\nEl adjudicatario debe aportar herramientas de escaneo de contenedores, SAST/SCA para 5 usuarios, Grafana/Prometheus gestionado si no usa herramientas del cliente, cloud temporal de migracion Azure y soporte de fabricante/partner durante ventanas de migracion. Jira Service Management sera aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias.\n",
+          "fragmento": "D1-F2"
+        }
+      ]
+    },
+    {
+      "id": "A2-4",
+      "tema": "economia",
+      "estado": "CONSTA",
+      "detalle": "Penalizacion por disponibilidad: 2% mensual si la disponibilidad baja de 99,5%. Penalizacion por cambio fallido sin rollback documentado: 1%.",
+      "evidencias": [
+        {
+          "documento": 2,
+          "ubicacion": "Texto extraído",
+          "literal": "PLIEGO TECNICO FICTICIO OPP-SW-003\nProyecto: Migracion cloud y contenerizacion de aplicaciones municipales.\n\nObjeto:\nMigracion de seis aplicaciones internas a una plataforma Azure Kubernetes Service, incluyendo contenerizacion Docker, pipelines CI/CD, monitorizacion, backup, hardening y procedimientos de reversibilidad.\n\nSolvencia tecnica y equipo minimo:\n- Dos perfiles DevOps/cloud senior, cada uno con al menos 5 anos de experiencia en Azure, Kubernetes, Docker, CI/CD y observabilidad.\n- Un desarrollador backend senior con al menos 5 anos en Java o Python para adaptacion de servicios y APIs.\n- Jefe de proyecto con al menos 6 anos de experiencia en migraciones tecnicas.\n- Experiencia previa demostrable en al menos tres migraciones cloud de administraciones publicas.\n\nCondiciones:\nEl adjudicatario debera ejecutar migraciones sin perdida de servicio, con ventana maxima de indisponibilidad de 4 horas por aplicacion.\n\nService Design / ITIL:\nEl servicio cubre transicion, migracion, operacion estabilizada durante 9 meses y reversibilidad. Alcance: 6 aplicaciones, 18 microservicios, 4 bases de datos y 3 entornos por aplicacion. Horario de soporte 12x5 con guardia localizada para ventanas de migracion.\nProcesos requeridos: Change Management formal con CAB semanal, Release/Deployment Management, Event Management, Configuration Management y Availability Management. Se exige registro de cambios, plan de vuelta atras, matriz de riesgos y aprobacion previa por aplicacion.\nSLA: durante estabilizacion, P1 respuesta <= 30 minutos y resolucion <= 4 horas; P2 respuesta <= 2 horas y resolucion <= 1 dia. Disponibilidad minima 99,5 %. Penalizacion: 2 % mensual si la disponibilidad baja de 99,5 % y 1 % por cambio fallido sin rollback documentado.\nHerramientas: Azure Monitor, Grafana y Jira Service Management aceptadas. CMDB obligatoria con aplicaciones, servicios, contenedores, pipelines, bases de datos, dependencias y propietarios. Reconciliacion mensual.\nTransicion: 8 semanas con inventario, discovery, diseno de CMDB, runbooks, pruebas de backup, simulacro de rollback y reverse shadowing.\n",
+          "fragmento": "D2-F4"
+        }
+      ]
+    },
+    {
+      "id": "A2-5",
+      "tema": "economia",
+      "estado": "CONSTA",
+      "detalle": "Criterios de adjudicacion: Precio 50 puntos (formula proporcional directa a la baja economica: P = 50 x oferta_minima / oferta_licitador). Plan de migracion 22 puntos (subcriterios: inventario y oleadas 6, automatizacion CI/CD 5, seguridad 4, gestion de riesgos 4, validacion postmigracion 3). Plan de reversibilidad y continuidad 10 puntos. Observabilidad y SLA operativo 8 puntos. Certificaciones y equipo cloud 5 puntos (CKA 2, Azure Administrator 2, ISO 27001 1). Reduccion de plazo 5 puntos (tope por reduccion del 10%). Umbral minimo: 24 puntos sobre los 40 tecnicos de migracion, reversibilidad y observabilidad.",
+      "evidencias": [
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "PLIEGO ADMINISTRATIVO FICTICIO OPP-SW-003\nContrato de migracion cloud y contenerizacion.\n\nProcedimiento: abierto simplificado ficticio.\nPresupuesto base de licitacion: 653.400 EUR IVA incluido.\nValor estimado: 540.000 EUR.\nDuracion: 10 meses.\nPlazo de presentacion: 30/09/2026 a las 13:00.\n\nDocumentacion:\n- Memoria de migracion.\n- Plan de continuidad y reversibilidad.\n- Plan de seguridad y gestion de cambios.\n- CV del equipo minimo.\n- Oferta economica.\n\nCondiciones de ejecucion:\nLas migraciones productivas se ejecutaran en ventanas autorizadas y con plan de vuelta atras aprobado.\n\nCondiciones de participacion:\nSe exige capacidad de obrar, no prohibicion para contratar y certificados positivos de Hacienda y Seguridad Social. No se admiten variantes. Se permite subcontratacion maxima del 25 por ciento, excepto direccion de proyecto y arquitectura cloud.\n\nSolvencia economica:\nVolumen anual minimo de 900.000 EUR y seguro de responsabilidad civil profesional de 1.500.000 EUR.\n\nClasificacion y certificaciones:\nSe exige clasificacion empresarial equivalente a servicios de consultoria y desarrollo informatico Grupo V, Subgrupo 2, Categoria 3, o acreditacion alternativa solo para empresas no espanolas. Se exige ISO 27001.\n\nFormato de oferta y exclusiones:\nDos sobres electronicos: sobre 1 documentacion administrativa y tecnica; sobre 2 oferta economica. La propuesta de migracion no podra superar 50 paginas. La falta de plan de reversibilidad o la superacion del presupuesto maximo provocara exclusion.\n\nCriterios de adjudicacion:\nTotal 100 puntos.\n- Precio: 50 puntos. Formula proporcional directa a la baja economica. Las ofertas con baja superior al 18 por ciento deberan justificar viabilidad.\n- Plan de migracion: 22 puntos. Subcriterios: inventario y oleadas 6, automatizacion CI/CD 5, seguridad 4, gestion de riesgos 4, validacion postmigracion 3.\n- Plan de reversibilidad y continuidad: 10 puntos.\n- Observabilidad y SLA operativo: 8 puntos. Tope de puntuacion si se ofrecen dashboards, alertas y respuesta critica inferior a 2 horas.\n- Certificaciones y equipo cloud: 5 puntos. CKA 2, Azure Administrator 2, ISO 27001 1.\n",
+          "fragmento": "D1-F1"
+        },
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "- Reduccion de plazo: 5 puntos. Tope por reduccion del 10 por ciento.\nUmbral minimo: 24 puntos sobre los 40 puntos tecnicos de migracion, reversibilidad y observabilidad.\n\nANEXO ECONOMICO-FINANCIERO:\nPresupuesto de oferta: 540.000 EUR sin IVA. PBL con IVA 653.400 EUR. Duracion 10 meses, sin prorroga.\nFormula economica: 50 puntos. La mejor oferta obtiene 50 puntos. Resto: P = 50 x oferta_minima / oferta_licitador.\nBaja superior al 18 por ciento exige memoria de viabilidad. Baja superior al 22 por ciento se considerara de alto riesgo por carga de migracion.\nFacturacion por hitos: 10 por ciento inventario, 25 por ciento oleada 1, 25 por ciento oleada 2, 25 por ciento oleada final, 15 por ciento cierre y reversibilidad.\nCostes obligatorios:\n- Dos DevOps cloud senior al 100 por ciento durante 8 meses y jefe de proyecto 35 por ciento durante 10 meses.\n- Herramientas: repositorio IaC, escaneo de contenedores, monitorizacion Grafana/Prometheus y licencias SAST/SCA para 5 usuarios.\n- Cloud temporal de migracion: 4.200 EUR/mes durante 6 meses para entornos paralelos, pruebas y observabilidad. No esta presupuestado de forma separada en el pliego.\n- Transicion/migracion: inventario, oleadas, migracion de datos, pruebas, documentacion y plan de reversibilidad incluidos.\n- Ventanas fuera de horario: 8 fines de semana de migracion con guardias DevOps incluidas.\nCostes financieros: no hay anticipo; compras y licencias se financian con recursos propios hasta cobro de hitos.\nPenalizaciones: 0,5 por ciento del precio por semana de retraso en una oleada; maximo 7 por ciento del contrato.\n\nANEXO COMPRAS / PARTNERS:\nEl adjudicatario debe aportar herramientas de escaneo de contenedores, SAST/SCA para 5 usuarios, Grafana/Prometheus gestionado si no usa herramientas del cliente, cloud temporal de migracion Azure y soporte de fabricante/partner durante ventanas de migracion. Jira Service Management sera aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias.\n",
+          "fragmento": "D1-F2"
+        },
+        {
+          "documento": 2,
+          "ubicacion": "Texto extraído",
+          "literal": "Reversibilidad: 4 semanas, exportacion de configuracion, pipelines, IaC, CMDB, tickets e informes de capacidad.\n\nSeguridad / DPO / ENS:\nENS: se exige que la plataforma cloud destino cumpla ENS categoria MEDIA y que el adjudicatario disponga de ISO 27001. No se exige ENS ALTA. El alcance debera incluir administracion cloud, pipelines CI/CD, monitorizacion y soporte.\nDatos y cloud: aplicaciones y backups en regiones UE. Se requiere inventario de subencargados cloud, soporte remoto y herramientas SaaS. Prohibidas transferencias internacionales salvo autorizacion expresa.\nMedidas: MFA obligatorio, PAM para cuentas privilegiadas, bastionado de contenedores, escaneo de imagenes, gestion de secretos, cifrado de discos, network policies, WAF para aplicaciones expuestas, logs centralizados 18 meses y sincronizacion NTP.\nVulnerabilidades: CVE critica en imagen base corregida <= 24 horas; CVE alta <= 7 dias. SAST/SCA en pipelines y aprobacion de excepciones.\nIncidentes: incidente cloud critico comunicacion <= 1 hora, RCA en 5 dias, evidencias forenses preservadas. No se exige SOC 24x7, pero si alertas y guardia en ventanas de migracion.\nReversibilidad segura: borrado de credenciales, rotacion de secretos, exportacion IaC y certificado de eliminacion de datos temporales.\n\nCriterios:\nLos criterios de adjudicacion aplicables son los definidos en el pliego administrativo y en el anexo economico-financiero: precio 50 puntos, plan de migracion 22 puntos, plan de reversibilidad y continuidad 10 puntos, observabilidad y SLA operativo 8 puntos, certificaciones y equipo cloud 5 puntos y reduccion de plazo 5 puntos.",
+          "fragmento": "D2-F5"
+        }
+      ]
+    },
+    {
+      "id": "A2-6",
+      "tema": "economia",
+      "estado": "CONSTA",
+      "detalle": "Ofertas con baja superior al 18% deben justificar viabilidad mediante memoria. Baja superior al 22% se considera de alto riesgo por carga de migracion.",
+      "evidencias": [
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "- Reduccion de plazo: 5 puntos. Tope por reduccion del 10 por ciento.\nUmbral minimo: 24 puntos sobre los 40 puntos tecnicos de migracion, reversibilidad y observabilidad.\n\nANEXO ECONOMICO-FINANCIERO:\nPresupuesto de oferta: 540.000 EUR sin IVA. PBL con IVA 653.400 EUR. Duracion 10 meses, sin prorroga.\nFormula economica: 50 puntos. La mejor oferta obtiene 50 puntos. Resto: P = 50 x oferta_minima / oferta_licitador.\nBaja superior al 18 por ciento exige memoria de viabilidad. Baja superior al 22 por ciento se considerara de alto riesgo por carga de migracion.\nFacturacion por hitos: 10 por ciento inventario, 25 por ciento oleada 1, 25 por ciento oleada 2, 25 por ciento oleada final, 15 por ciento cierre y reversibilidad.\nCostes obligatorios:\n- Dos DevOps cloud senior al 100 por ciento durante 8 meses y jefe de proyecto 35 por ciento durante 10 meses.\n- Herramientas: repositorio IaC, escaneo de contenedores, monitorizacion Grafana/Prometheus y licencias SAST/SCA para 5 usuarios.\n- Cloud temporal de migracion: 4.200 EUR/mes durante 6 meses para entornos paralelos, pruebas y observabilidad. No esta presupuestado de forma separada en el pliego.\n- Transicion/migracion: inventario, oleadas, migracion de datos, pruebas, documentacion y plan de reversibilidad incluidos.\n- Ventanas fuera de horario: 8 fines de semana de migracion con guardias DevOps incluidas.\nCostes financieros: no hay anticipo; compras y licencias se financian con recursos propios hasta cobro de hitos.\nPenalizaciones: 0,5 por ciento del precio por semana de retraso en una oleada; maximo 7 por ciento del contrato.\n\nANEXO COMPRAS / PARTNERS:\nEl adjudicatario debe aportar herramientas de escaneo de contenedores, SAST/SCA para 5 usuarios, Grafana/Prometheus gestionado si no usa herramientas del cliente, cloud temporal de migracion Azure y soporte de fabricante/partner durante ventanas de migracion. Jira Service Management sera aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias.\n",
+          "fragmento": "D1-F2"
+        }
+      ]
+    },
+    {
+      "id": "A2-7",
+      "tema": "economia",
+      "estado": "CONSTA",
+      "detalle": "Costes obligatorios incluidos: dos DevOps cloud senior al 100% durante 8 meses, jefe de proyecto 35% durante 10 meses, herramientas (repositorio IaC, escaneo de contenedores, monitorizacion Grafana/Prometheus, licencias SAST/SCA para 5 usuarios), cloud temporal de migracion (4.200 EUR/mes durante 6 meses), transicion/migracion (inventario, oleadas, migracion de datos, pruebas, documentacion, plan de reversibilidad), ventanas fuera de horario (8 fines de semana de migracion con guardias DevOps).",
+      "evidencias": [
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "- Reduccion de plazo: 5 puntos. Tope por reduccion del 10 por ciento.\nUmbral minimo: 24 puntos sobre los 40 puntos tecnicos de migracion, reversibilidad y observabilidad.\n\nANEXO ECONOMICO-FINANCIERO:\nPresupuesto de oferta: 540.000 EUR sin IVA. PBL con IVA 653.400 EUR. Duracion 10 meses, sin prorroga.\nFormula economica: 50 puntos. La mejor oferta obtiene 50 puntos. Resto: P = 50 x oferta_minima / oferta_licitador.\nBaja superior al 18 por ciento exige memoria de viabilidad. Baja superior al 22 por ciento se considerara de alto riesgo por carga de migracion.\nFacturacion por hitos: 10 por ciento inventario, 25 por ciento oleada 1, 25 por ciento oleada 2, 25 por ciento oleada final, 15 por ciento cierre y reversibilidad.\nCostes obligatorios:\n- Dos DevOps cloud senior al 100 por ciento durante 8 meses y jefe de proyecto 35 por ciento durante 10 meses.\n- Herramientas: repositorio IaC, escaneo de contenedores, monitorizacion Grafana/Prometheus y licencias SAST/SCA para 5 usuarios.\n- Cloud temporal de migracion: 4.200 EUR/mes durante 6 meses para entornos paralelos, pruebas y observabilidad. No esta presupuestado de forma separada en el pliego.\n- Transicion/migracion: inventario, oleadas, migracion de datos, pruebas, documentacion y plan de reversibilidad incluidos.\n- Ventanas fuera de horario: 8 fines de semana de migracion con guardias DevOps incluidas.\nCostes financieros: no hay anticipo; compras y licencias se financian con recursos propios hasta cobro de hitos.\nPenalizaciones: 0,5 por ciento del precio por semana de retraso en una oleada; maximo 7 por ciento del contrato.\n\nANEXO COMPRAS / PARTNERS:\nEl adjudicatario debe aportar herramientas de escaneo de contenedores, SAST/SCA para 5 usuarios, Grafana/Prometheus gestionado si no usa herramientas del cliente, cloud temporal de migracion Azure y soporte de fabricante/partner durante ventanas de migracion. Jira Service Management sera aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias.\n",
+          "fragmento": "D1-F2"
+        }
+      ]
+    },
+    {
+      "id": "A2-8",
+      "tema": "economia",
+      "estado": "CONSTA",
+      "detalle": "El adjudicatario debe aportar herramientas de escaneo de contenedores, SAST/SCA para 5 usuarios, Grafana/Prometheus gestionado si no usa herramientas del cliente, cloud temporal de migracion Azure y soporte de fabricante/partner durante ventanas de migracion. Jira Service Management aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias.",
+      "evidencias": [
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "- Reduccion de plazo: 5 puntos. Tope por reduccion del 10 por ciento.\nUmbral minimo: 24 puntos sobre los 40 puntos tecnicos de migracion, reversibilidad y observabilidad.\n\nANEXO ECONOMICO-FINANCIERO:\nPresupuesto de oferta: 540.000 EUR sin IVA. PBL con IVA 653.400 EUR. Duracion 10 meses, sin prorroga.\nFormula economica: 50 puntos. La mejor oferta obtiene 50 puntos. Resto: P = 50 x oferta_minima / oferta_licitador.\nBaja superior al 18 por ciento exige memoria de viabilidad. Baja superior al 22 por ciento se considerara de alto riesgo por carga de migracion.\nFacturacion por hitos: 10 por ciento inventario, 25 por ciento oleada 1, 25 por ciento oleada 2, 25 por ciento oleada final, 15 por ciento cierre y reversibilidad.\nCostes obligatorios:\n- Dos DevOps cloud senior al 100 por ciento durante 8 meses y jefe de proyecto 35 por ciento durante 10 meses.\n- Herramientas: repositorio IaC, escaneo de contenedores, monitorizacion Grafana/Prometheus y licencias SAST/SCA para 5 usuarios.\n- Cloud temporal de migracion: 4.200 EUR/mes durante 6 meses para entornos paralelos, pruebas y observabilidad. No esta presupuestado de forma separada en el pliego.\n- Transicion/migracion: inventario, oleadas, migracion de datos, pruebas, documentacion y plan de reversibilidad incluidos.\n- Ventanas fuera de horario: 8 fines de semana de migracion con guardias DevOps incluidas.\nCostes financieros: no hay anticipo; compras y licencias se financian con recursos propios hasta cobro de hitos.\nPenalizaciones: 0,5 por ciento del precio por semana de retraso en una oleada; maximo 7 por ciento del contrato.\n\nANEXO COMPRAS / PARTNERS:\nEl adjudicatario debe aportar herramientas de escaneo de contenedores, SAST/SCA para 5 usuarios, Grafana/Prometheus gestionado si no usa herramientas del cliente, cloud temporal de migracion Azure y soporte de fabricante/partner durante ventanas de migracion. Jira Service Management sera aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias.\n",
+          "fragmento": "D1-F2"
+        }
+      ]
+    },
+    {
+      "id": "A2-9",
+      "tema": "economia",
+      "estado": "CONSTA",
+      "detalle": "No se admiten variantes. Se permite subcontratacion maxima del 25%, excepto direccion de proyecto y arquitectura cloud.",
+      "evidencias": [
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "PLIEGO ADMINISTRATIVO FICTICIO OPP-SW-003\nContrato de migracion cloud y contenerizacion.\n\nProcedimiento: abierto simplificado ficticio.\nPresupuesto base de licitacion: 653.400 EUR IVA incluido.\nValor estimado: 540.000 EUR.\nDuracion: 10 meses.\nPlazo de presentacion: 30/09/2026 a las 13:00.\n\nDocumentacion:\n- Memoria de migracion.\n- Plan de continuidad y reversibilidad.\n- Plan de seguridad y gestion de cambios.\n- CV del equipo minimo.\n- Oferta economica.\n\nCondiciones de ejecucion:\nLas migraciones productivas se ejecutaran en ventanas autorizadas y con plan de vuelta atras aprobado.\n\nCondiciones de participacion:\nSe exige capacidad de obrar, no prohibicion para contratar y certificados positivos de Hacienda y Seguridad Social. No se admiten variantes. Se permite subcontratacion maxima del 25 por ciento, excepto direccion de proyecto y arquitectura cloud.\n\nSolvencia economica:\nVolumen anual minimo de 900.000 EUR y seguro de responsabilidad civil profesional de 1.500.000 EUR.\n\nClasificacion y certificaciones:\nSe exige clasificacion empresarial equivalente a servicios de consultoria y desarrollo informatico Grupo V, Subgrupo 2, Categoria 3, o acreditacion alternativa solo para empresas no espanolas. Se exige ISO 27001.\n\nFormato de oferta y exclusiones:\nDos sobres electronicos: sobre 1 documentacion administrativa y tecnica; sobre 2 oferta economica. La propuesta de migracion no podra superar 50 paginas. La falta de plan de reversibilidad o la superacion del presupuesto maximo provocara exclusion.\n\nCriterios de adjudicacion:\nTotal 100 puntos.\n- Precio: 50 puntos. Formula proporcional directa a la baja economica. Las ofertas con baja superior al 18 por ciento deberan justificar viabilidad.\n- Plan de migracion: 22 puntos. Subcriterios: inventario y oleadas 6, automatizacion CI/CD 5, seguridad 4, gestion de riesgos 4, validacion postmigracion 3.\n- Plan de reversibilidad y continuidad: 10 puntos.\n- Observabilidad y SLA operativo: 8 puntos. Tope de puntuacion si se ofrecen dashboards, alertas y respuesta critica inferior a 2 horas.\n- Certificaciones y equipo cloud: 5 puntos. CKA 2, Azure Administrator 2, ISO 27001 1.\n",
+          "fragmento": "D1-F1"
+        }
+      ]
+    },
+    {
+      "id": "A2-10",
+      "tema": "economia",
+      "estado": "CONSTA",
+      "detalle": "No hay anticipo. Compras y licencias se financian con recursos propios hasta cobro de hitos.",
+      "evidencias": [
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "- Reduccion de plazo: 5 puntos. Tope por reduccion del 10 por ciento.\nUmbral minimo: 24 puntos sobre los 40 puntos tecnicos de migracion, reversibilidad y observabilidad.\n\nANEXO ECONOMICO-FINANCIERO:\nPresupuesto de oferta: 540.000 EUR sin IVA. PBL con IVA 653.400 EUR. Duracion 10 meses, sin prorroga.\nFormula economica: 50 puntos. La mejor oferta obtiene 50 puntos. Resto: P = 50 x oferta_minima / oferta_licitador.\nBaja superior al 18 por ciento exige memoria de viabilidad. Baja superior al 22 por ciento se considerara de alto riesgo por carga de migracion.\nFacturacion por hitos: 10 por ciento inventario, 25 por ciento oleada 1, 25 por ciento oleada 2, 25 por ciento oleada final, 15 por ciento cierre y reversibilidad.\nCostes obligatorios:\n- Dos DevOps cloud senior al 100 por ciento durante 8 meses y jefe de proyecto 35 por ciento durante 10 meses.\n- Herramientas: repositorio IaC, escaneo de contenedores, monitorizacion Grafana/Prometheus y licencias SAST/SCA para 5 usuarios.\n- Cloud temporal de migracion: 4.200 EUR/mes durante 6 meses para entornos paralelos, pruebas y observabilidad. No esta presupuestado de forma separada en el pliego.\n- Transicion/migracion: inventario, oleadas, migracion de datos, pruebas, documentacion y plan de reversibilidad incluidos.\n- Ventanas fuera de horario: 8 fines de semana de migracion con guardias DevOps incluidas.\nCostes financieros: no hay anticipo; compras y licencias se financian con recursos propios hasta cobro de hitos.\nPenalizaciones: 0,5 por ciento del precio por semana de retraso en una oleada; maximo 7 por ciento del contrato.\n\nANEXO COMPRAS / PARTNERS:\nEl adjudicatario debe aportar herramientas de escaneo de contenedores, SAST/SCA para 5 usuarios, Grafana/Prometheus gestionado si no usa herramientas del cliente, cloud temporal de migracion Azure y soporte de fabricante/partner durante ventanas de migracion. Jira Service Management sera aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias.\n",
+          "fragmento": "D1-F2"
+        }
+      ]
+    },
+    {
+      "id": "A2-11",
+      "tema": "economia",
+      "estado": "NO_LOCALIZADO",
+      "detalle": "No consta garantia provisional ni definitiva en los fragmentos revisados.",
+      "evidencias": []
+    },
+    {
+      "id": "A2-12",
+      "tema": "economia",
+      "estado": "NO_LOCALIZADO",
+      "detalle": "No consta revision de precios ni actualizacion de tarifas en los fragmentos revisados.",
+      "evidencias": []
+    },
+    {
+      "id": "A2-13",
+      "tema": "economia",
+      "estado": "NO_LOCALIZADO",
+      "detalle": "No consta bolsa de horas ni limite de consumo/gasto adicional fuera del presupuesto base.",
+      "evidencias": []
+    },
+    {
+      "id": "A2-14",
+      "tema": "economia",
+      "estado": "NO_LOCALIZADO",
+      "detalle": "No consta retencion, deduccion ni pago anticipado en los fragmentos revisados.",
+      "evidencias": []
+    },
+    {
+      "id": "A2-15",
+      "tema": "economia",
+      "estado": "NO_LOCALIZADO",
+      "detalle": "No consta exencion expresa de ninguna obligacion economica en los fragmentos revisados.",
+      "evidencias": []
+    },
+    {
+      "id": "A2-16",
+      "tema": "facturacion_cobro",
+      "estado": "CONSTA",
+      "detalle": "La facturación se realiza por hitos, con los siguientes porcentajes sobre el importe total: 10% por inventario, 25% por oleada 1, 25% por oleada 2, 25% por oleada final, y 15% por cierre y reversibilidad. Cada hito es facturable tras su consecución, sin periodicidad fija, y el pago está condicionado a la aceptación del hito correspondiente.",
+      "evidencias": [
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "- Reduccion de plazo: 5 puntos. Tope por reduccion del 10 por ciento.\nUmbral minimo: 24 puntos sobre los 40 puntos tecnicos de migracion, reversibilidad y observabilidad.\n\nANEXO ECONOMICO-FINANCIERO:\nPresupuesto de oferta: 540.000 EUR sin IVA. PBL con IVA 653.400 EUR. Duracion 10 meses, sin prorroga.\nFormula economica: 50 puntos. La mejor oferta obtiene 50 puntos. Resto: P = 50 x oferta_minima / oferta_licitador.\nBaja superior al 18 por ciento exige memoria de viabilidad. Baja superior al 22 por ciento se considerara de alto riesgo por carga de migracion.\nFacturacion por hitos: 10 por ciento inventario, 25 por ciento oleada 1, 25 por ciento oleada 2, 25 por ciento oleada final, 15 por ciento cierre y reversibilidad.\nCostes obligatorios:\n- Dos DevOps cloud senior al 100 por ciento durante 8 meses y jefe de proyecto 35 por ciento durante 10 meses.\n- Herramientas: repositorio IaC, escaneo de contenedores, monitorizacion Grafana/Prometheus y licencias SAST/SCA para 5 usuarios.\n- Cloud temporal de migracion: 4.200 EUR/mes durante 6 meses para entornos paralelos, pruebas y observabilidad. No esta presupuestado de forma separada en el pliego.\n- Transicion/migracion: inventario, oleadas, migracion de datos, pruebas, documentacion y plan de reversibilidad incluidos.\n- Ventanas fuera de horario: 8 fines de semana de migracion con guardias DevOps incluidas.\nCostes financieros: no hay anticipo; compras y licencias se financian con recursos propios hasta cobro de hitos.\nPenalizaciones: 0,5 por ciento del precio por semana de retraso en una oleada; maximo 7 por ciento del contrato.\n\nANEXO COMPRAS / PARTNERS:\nEl adjudicatario debe aportar herramientas de escaneo de contenedores, SAST/SCA para 5 usuarios, Grafana/Prometheus gestionado si no usa herramientas del cliente, cloud temporal de migracion Azure y soporte de fabricante/partner durante ventanas de migracion. Jira Service Management sera aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias.\n",
+          "fragmento": "D1-F2"
+        }
+      ]
+    },
+    {
+      "id": "A2-17",
+      "tema": "facturacion_cobro",
+      "estado": "CONSTA",
+      "detalle": "No se prevén anticipos: los costes de compras y licencias deben ser financiados por el adjudicatario hasta el cobro de los hitos facturables.",
+      "evidencias": [
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "- Reduccion de plazo: 5 puntos. Tope por reduccion del 10 por ciento.\nUmbral minimo: 24 puntos sobre los 40 puntos tecnicos de migracion, reversibilidad y observabilidad.\n\nANEXO ECONOMICO-FINANCIERO:\nPresupuesto de oferta: 540.000 EUR sin IVA. PBL con IVA 653.400 EUR. Duracion 10 meses, sin prorroga.\nFormula economica: 50 puntos. La mejor oferta obtiene 50 puntos. Resto: P = 50 x oferta_minima / oferta_licitador.\nBaja superior al 18 por ciento exige memoria de viabilidad. Baja superior al 22 por ciento se considerara de alto riesgo por carga de migracion.\nFacturacion por hitos: 10 por ciento inventario, 25 por ciento oleada 1, 25 por ciento oleada 2, 25 por ciento oleada final, 15 por ciento cierre y reversibilidad.\nCostes obligatorios:\n- Dos DevOps cloud senior al 100 por ciento durante 8 meses y jefe de proyecto 35 por ciento durante 10 meses.\n- Herramientas: repositorio IaC, escaneo de contenedores, monitorizacion Grafana/Prometheus y licencias SAST/SCA para 5 usuarios.\n- Cloud temporal de migracion: 4.200 EUR/mes durante 6 meses para entornos paralelos, pruebas y observabilidad. No esta presupuestado de forma separada en el pliego.\n- Transicion/migracion: inventario, oleadas, migracion de datos, pruebas, documentacion y plan de reversibilidad incluidos.\n- Ventanas fuera de horario: 8 fines de semana de migracion con guardias DevOps incluidas.\nCostes financieros: no hay anticipo; compras y licencias se financian con recursos propios hasta cobro de hitos.\nPenalizaciones: 0,5 por ciento del precio por semana de retraso en una oleada; maximo 7 por ciento del contrato.\n\nANEXO COMPRAS / PARTNERS:\nEl adjudicatario debe aportar herramientas de escaneo de contenedores, SAST/SCA para 5 usuarios, Grafana/Prometheus gestionado si no usa herramientas del cliente, cloud temporal de migracion Azure y soporte de fabricante/partner durante ventanas de migracion. Jira Service Management sera aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias.\n",
+          "fragmento": "D1-F2"
+        }
+      ]
+    },
+    {
+      "id": "A2-18",
+      "tema": "facturacion_cobro",
+      "estado": "CONSTA",
+      "detalle": "No consta periodicidad de facturación regular, ya que la facturación depende de la consecución y aceptación de cada hito definido en el anexo económico-financiero.",
+      "evidencias": [
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "- Reduccion de plazo: 5 puntos. Tope por reduccion del 10 por ciento.\nUmbral minimo: 24 puntos sobre los 40 puntos tecnicos de migracion, reversibilidad y observabilidad.\n\nANEXO ECONOMICO-FINANCIERO:\nPresupuesto de oferta: 540.000 EUR sin IVA. PBL con IVA 653.400 EUR. Duracion 10 meses, sin prorroga.\nFormula economica: 50 puntos. La mejor oferta obtiene 50 puntos. Resto: P = 50 x oferta_minima / oferta_licitador.\nBaja superior al 18 por ciento exige memoria de viabilidad. Baja superior al 22 por ciento se considerara de alto riesgo por carga de migracion.\nFacturacion por hitos: 10 por ciento inventario, 25 por ciento oleada 1, 25 por ciento oleada 2, 25 por ciento oleada final, 15 por ciento cierre y reversibilidad.\nCostes obligatorios:\n- Dos DevOps cloud senior al 100 por ciento durante 8 meses y jefe de proyecto 35 por ciento durante 10 meses.\n- Herramientas: repositorio IaC, escaneo de contenedores, monitorizacion Grafana/Prometheus y licencias SAST/SCA para 5 usuarios.\n- Cloud temporal de migracion: 4.200 EUR/mes durante 6 meses para entornos paralelos, pruebas y observabilidad. No esta presupuestado de forma separada en el pliego.\n- Transicion/migracion: inventario, oleadas, migracion de datos, pruebas, documentacion y plan de reversibilidad incluidos.\n- Ventanas fuera de horario: 8 fines de semana de migracion con guardias DevOps incluidas.\nCostes financieros: no hay anticipo; compras y licencias se financian con recursos propios hasta cobro de hitos.\nPenalizaciones: 0,5 por ciento del precio por semana de retraso en una oleada; maximo 7 por ciento del contrato.\n\nANEXO COMPRAS / PARTNERS:\nEl adjudicatario debe aportar herramientas de escaneo de contenedores, SAST/SCA para 5 usuarios, Grafana/Prometheus gestionado si no usa herramientas del cliente, cloud temporal de migracion Azure y soporte de fabricante/partner durante ventanas de migracion. Jira Service Management sera aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias.\n",
+          "fragmento": "D1-F2"
+        }
+      ]
+    },
+    {
+      "id": "A2-19",
+      "tema": "facturacion_cobro",
+      "estado": "NO_LOCALIZADO",
+      "detalle": "No se localizan reglas expresas sobre el procedimiento de emisión, destinatario, formato o plazo de pago de las facturas tras la aceptación de los hitos.",
+      "evidencias": []
+    },
+    {
+      "id": "A2-20",
+      "tema": "garantias",
+      "estado": "NO_LOCALIZADO",
+      "detalle": "No se han localizado fragmentos fuente ni datos documentales relativos a garantías económicas (provisional, definitiva, complementaria), ni sobre el plazo de garantía del servicio, ni sobre obligaciones durante el mismo. No se puede afirmar exención ni ausencia global de la obligación, solo que no consta información localizada en las fuentes aportadas.",
+      "evidencias": []
+    },
+    {
+      "id": "A2-21",
+      "tema": "documentacion_fases",
+      "estado": "CONSTA",
+      "detalle": "Memoria de migracion: debe presentarse por el licitador en la fase de presentacion de ofertas, incluida en el sobre 1 de documentacion administrativa y tecnica. Destinatario: mesa de contratacion. Plazo: hasta el cierre de presentacion de ofertas (30/09/2026 a las 13:00). Consecuencia de no aportarla: no especificada expresamente, pero su ausencia impediria la valoracion tecnica.",
+      "evidencias": [
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "PLIEGO ADMINISTRATIVO FICTICIO OPP-SW-003\nContrato de migracion cloud y contenerizacion.\n\nProcedimiento: abierto simplificado ficticio.\nPresupuesto base de licitacion: 653.400 EUR IVA incluido.\nValor estimado: 540.000 EUR.\nDuracion: 10 meses.\nPlazo de presentacion: 30/09/2026 a las 13:00.\n\nDocumentacion:\n- Memoria de migracion.\n- Plan de continuidad y reversibilidad.\n- Plan de seguridad y gestion de cambios.\n- CV del equipo minimo.\n- Oferta economica.\n\nCondiciones de ejecucion:\nLas migraciones productivas se ejecutaran en ventanas autorizadas y con plan de vuelta atras aprobado.\n\nCondiciones de participacion:\nSe exige capacidad de obrar, no prohibicion para contratar y certificados positivos de Hacienda y Seguridad Social. No se admiten variantes. Se permite subcontratacion maxima del 25 por ciento, excepto direccion de proyecto y arquitectura cloud.\n\nSolvencia economica:\nVolumen anual minimo de 900.000 EUR y seguro de responsabilidad civil profesional de 1.500.000 EUR.\n\nClasificacion y certificaciones:\nSe exige clasificacion empresarial equivalente a servicios de consultoria y desarrollo informatico Grupo V, Subgrupo 2, Categoria 3, o acreditacion alternativa solo para empresas no espanolas. Se exige ISO 27001.\n\nFormato de oferta y exclusiones:\nDos sobres electronicos: sobre 1 documentacion administrativa y tecnica; sobre 2 oferta economica. La propuesta de migracion no podra superar 50 paginas. La falta de plan de reversibilidad o la superacion del presupuesto maximo provocara exclusion.\n\nCriterios de adjudicacion:\nTotal 100 puntos.\n- Precio: 50 puntos. Formula proporcional directa a la baja economica. Las ofertas con baja superior al 18 por ciento deberan justificar viabilidad.\n- Plan de migracion: 22 puntos. Subcriterios: inventario y oleadas 6, automatizacion CI/CD 5, seguridad 4, gestion de riesgos 4, validacion postmigracion 3.\n- Plan de reversibilidad y continuidad: 10 puntos.\n- Observabilidad y SLA operativo: 8 puntos. Tope de puntuacion si se ofrecen dashboards, alertas y respuesta critica inferior a 2 horas.\n- Certificaciones y equipo cloud: 5 puntos. CKA 2, Azure Administrator 2, ISO 27001 1.\n",
+          "fragmento": "D1-F1"
+        }
+      ]
+    },
+    {
+      "id": "A2-22",
+      "tema": "documentacion_fases",
+      "estado": "CONSTA",
+      "detalle": "Plan de continuidad y reversibilidad: debe presentarse por el licitador en la fase de presentacion de ofertas, incluido en el sobre 1 de documentacion administrativa y tecnica. Destinatario: mesa de contratacion. Plazo: hasta el cierre de presentacion de ofertas. Consecuencia de no aportarlo: exclusion expresa de la licitacion.",
+      "evidencias": [
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "PLIEGO ADMINISTRATIVO FICTICIO OPP-SW-003\nContrato de migracion cloud y contenerizacion.\n\nProcedimiento: abierto simplificado ficticio.\nPresupuesto base de licitacion: 653.400 EUR IVA incluido.\nValor estimado: 540.000 EUR.\nDuracion: 10 meses.\nPlazo de presentacion: 30/09/2026 a las 13:00.\n\nDocumentacion:\n- Memoria de migracion.\n- Plan de continuidad y reversibilidad.\n- Plan de seguridad y gestion de cambios.\n- CV del equipo minimo.\n- Oferta economica.\n\nCondiciones de ejecucion:\nLas migraciones productivas se ejecutaran en ventanas autorizadas y con plan de vuelta atras aprobado.\n\nCondiciones de participacion:\nSe exige capacidad de obrar, no prohibicion para contratar y certificados positivos de Hacienda y Seguridad Social. No se admiten variantes. Se permite subcontratacion maxima del 25 por ciento, excepto direccion de proyecto y arquitectura cloud.\n\nSolvencia economica:\nVolumen anual minimo de 900.000 EUR y seguro de responsabilidad civil profesional de 1.500.000 EUR.\n\nClasificacion y certificaciones:\nSe exige clasificacion empresarial equivalente a servicios de consultoria y desarrollo informatico Grupo V, Subgrupo 2, Categoria 3, o acreditacion alternativa solo para empresas no espanolas. Se exige ISO 27001.\n\nFormato de oferta y exclusiones:\nDos sobres electronicos: sobre 1 documentacion administrativa y tecnica; sobre 2 oferta economica. La propuesta de migracion no podra superar 50 paginas. La falta de plan de reversibilidad o la superacion del presupuesto maximo provocara exclusion.\n\nCriterios de adjudicacion:\nTotal 100 puntos.\n- Precio: 50 puntos. Formula proporcional directa a la baja economica. Las ofertas con baja superior al 18 por ciento deberan justificar viabilidad.\n- Plan de migracion: 22 puntos. Subcriterios: inventario y oleadas 6, automatizacion CI/CD 5, seguridad 4, gestion de riesgos 4, validacion postmigracion 3.\n- Plan de reversibilidad y continuidad: 10 puntos.\n- Observabilidad y SLA operativo: 8 puntos. Tope de puntuacion si se ofrecen dashboards, alertas y respuesta critica inferior a 2 horas.\n- Certificaciones y equipo cloud: 5 puntos. CKA 2, Azure Administrator 2, ISO 27001 1.\n",
+          "fragmento": "D1-F1"
+        }
+      ]
+    },
+    {
+      "id": "A2-23",
+      "tema": "documentacion_fases",
+      "estado": "CONSTA",
+      "detalle": "Plan de seguridad y gestion de cambios: debe presentarse por el licitador en la fase de presentacion de ofertas, incluido en el sobre 1 de documentacion administrativa y tecnica. Destinatario: mesa de contratacion. Plazo: hasta el cierre de presentacion de ofertas. Consecuencia de no aportarlo: no especificada expresamente, pero su ausencia impediria la valoracion tecnica.",
+      "evidencias": [
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "PLIEGO ADMINISTRATIVO FICTICIO OPP-SW-003\nContrato de migracion cloud y contenerizacion.\n\nProcedimiento: abierto simplificado ficticio.\nPresupuesto base de licitacion: 653.400 EUR IVA incluido.\nValor estimado: 540.000 EUR.\nDuracion: 10 meses.\nPlazo de presentacion: 30/09/2026 a las 13:00.\n\nDocumentacion:\n- Memoria de migracion.\n- Plan de continuidad y reversibilidad.\n- Plan de seguridad y gestion de cambios.\n- CV del equipo minimo.\n- Oferta economica.\n\nCondiciones de ejecucion:\nLas migraciones productivas se ejecutaran en ventanas autorizadas y con plan de vuelta atras aprobado.\n\nCondiciones de participacion:\nSe exige capacidad de obrar, no prohibicion para contratar y certificados positivos de Hacienda y Seguridad Social. No se admiten variantes. Se permite subcontratacion maxima del 25 por ciento, excepto direccion de proyecto y arquitectura cloud.\n\nSolvencia economica:\nVolumen anual minimo de 900.000 EUR y seguro de responsabilidad civil profesional de 1.500.000 EUR.\n\nClasificacion y certificaciones:\nSe exige clasificacion empresarial equivalente a servicios de consultoria y desarrollo informatico Grupo V, Subgrupo 2, Categoria 3, o acreditacion alternativa solo para empresas no espanolas. Se exige ISO 27001.\n\nFormato de oferta y exclusiones:\nDos sobres electronicos: sobre 1 documentacion administrativa y tecnica; sobre 2 oferta economica. La propuesta de migracion no podra superar 50 paginas. La falta de plan de reversibilidad o la superacion del presupuesto maximo provocara exclusion.\n\nCriterios de adjudicacion:\nTotal 100 puntos.\n- Precio: 50 puntos. Formula proporcional directa a la baja economica. Las ofertas con baja superior al 18 por ciento deberan justificar viabilidad.\n- Plan de migracion: 22 puntos. Subcriterios: inventario y oleadas 6, automatizacion CI/CD 5, seguridad 4, gestion de riesgos 4, validacion postmigracion 3.\n- Plan de reversibilidad y continuidad: 10 puntos.\n- Observabilidad y SLA operativo: 8 puntos. Tope de puntuacion si se ofrecen dashboards, alertas y respuesta critica inferior a 2 horas.\n- Certificaciones y equipo cloud: 5 puntos. CKA 2, Azure Administrator 2, ISO 27001 1.\n",
+          "fragmento": "D1-F1"
+        }
+      ]
+    },
+    {
+      "id": "A2-24",
+      "tema": "documentacion_fases",
+      "estado": "CONSTA",
+      "detalle": "CV del equipo minimo: debe presentarse por el licitador en la fase de presentacion de ofertas, incluido en el sobre 1 de documentacion administrativa y tecnica. Destinatario: mesa de contratacion. Plazo: hasta el cierre de presentacion de ofertas. Consecuencia de no aportarlo: no especificada expresamente, pero su ausencia impediria la valoracion tecnica y la acreditacion de los perfiles requeridos.",
+      "evidencias": [
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "PLIEGO ADMINISTRATIVO FICTICIO OPP-SW-003\nContrato de migracion cloud y contenerizacion.\n\nProcedimiento: abierto simplificado ficticio.\nPresupuesto base de licitacion: 653.400 EUR IVA incluido.\nValor estimado: 540.000 EUR.\nDuracion: 10 meses.\nPlazo de presentacion: 30/09/2026 a las 13:00.\n\nDocumentacion:\n- Memoria de migracion.\n- Plan de continuidad y reversibilidad.\n- Plan de seguridad y gestion de cambios.\n- CV del equipo minimo.\n- Oferta economica.\n\nCondiciones de ejecucion:\nLas migraciones productivas se ejecutaran en ventanas autorizadas y con plan de vuelta atras aprobado.\n\nCondiciones de participacion:\nSe exige capacidad de obrar, no prohibicion para contratar y certificados positivos de Hacienda y Seguridad Social. No se admiten variantes. Se permite subcontratacion maxima del 25 por ciento, excepto direccion de proyecto y arquitectura cloud.\n\nSolvencia economica:\nVolumen anual minimo de 900.000 EUR y seguro de responsabilidad civil profesional de 1.500.000 EUR.\n\nClasificacion y certificaciones:\nSe exige clasificacion empresarial equivalente a servicios de consultoria y desarrollo informatico Grupo V, Subgrupo 2, Categoria 3, o acreditacion alternativa solo para empresas no espanolas. Se exige ISO 27001.\n\nFormato de oferta y exclusiones:\nDos sobres electronicos: sobre 1 documentacion administrativa y tecnica; sobre 2 oferta economica. La propuesta de migracion no podra superar 50 paginas. La falta de plan de reversibilidad o la superacion del presupuesto maximo provocara exclusion.\n\nCriterios de adjudicacion:\nTotal 100 puntos.\n- Precio: 50 puntos. Formula proporcional directa a la baja economica. Las ofertas con baja superior al 18 por ciento deberan justificar viabilidad.\n- Plan de migracion: 22 puntos. Subcriterios: inventario y oleadas 6, automatizacion CI/CD 5, seguridad 4, gestion de riesgos 4, validacion postmigracion 3.\n- Plan de reversibilidad y continuidad: 10 puntos.\n- Observabilidad y SLA operativo: 8 puntos. Tope de puntuacion si se ofrecen dashboards, alertas y respuesta critica inferior a 2 horas.\n- Certificaciones y equipo cloud: 5 puntos. CKA 2, Azure Administrator 2, ISO 27001 1.\n",
+          "fragmento": "D1-F1"
+        }
+      ]
+    },
+    {
+      "id": "A2-25",
+      "tema": "documentacion_fases",
+      "estado": "CONSTA",
+      "detalle": "Oferta economica: debe presentarse por el licitador en la fase de presentacion de ofertas, incluida en el sobre 2. Destinatario: mesa de contratacion. Plazo: hasta el cierre de presentacion de ofertas. Consecuencia de no aportarla: exclusion de la licitacion.",
+      "evidencias": [
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "PLIEGO ADMINISTRATIVO FICTICIO OPP-SW-003\nContrato de migracion cloud y contenerizacion.\n\nProcedimiento: abierto simplificado ficticio.\nPresupuesto base de licitacion: 653.400 EUR IVA incluido.\nValor estimado: 540.000 EUR.\nDuracion: 10 meses.\nPlazo de presentacion: 30/09/2026 a las 13:00.\n\nDocumentacion:\n- Memoria de migracion.\n- Plan de continuidad y reversibilidad.\n- Plan de seguridad y gestion de cambios.\n- CV del equipo minimo.\n- Oferta economica.\n\nCondiciones de ejecucion:\nLas migraciones productivas se ejecutaran en ventanas autorizadas y con plan de vuelta atras aprobado.\n\nCondiciones de participacion:\nSe exige capacidad de obrar, no prohibicion para contratar y certificados positivos de Hacienda y Seguridad Social. No se admiten variantes. Se permite subcontratacion maxima del 25 por ciento, excepto direccion de proyecto y arquitectura cloud.\n\nSolvencia economica:\nVolumen anual minimo de 900.000 EUR y seguro de responsabilidad civil profesional de 1.500.000 EUR.\n\nClasificacion y certificaciones:\nSe exige clasificacion empresarial equivalente a servicios de consultoria y desarrollo informatico Grupo V, Subgrupo 2, Categoria 3, o acreditacion alternativa solo para empresas no espanolas. Se exige ISO 27001.\n\nFormato de oferta y exclusiones:\nDos sobres electronicos: sobre 1 documentacion administrativa y tecnica; sobre 2 oferta economica. La propuesta de migracion no podra superar 50 paginas. La falta de plan de reversibilidad o la superacion del presupuesto maximo provocara exclusion.\n\nCriterios de adjudicacion:\nTotal 100 puntos.\n- Precio: 50 puntos. Formula proporcional directa a la baja economica. Las ofertas con baja superior al 18 por ciento deberan justificar viabilidad.\n- Plan de migracion: 22 puntos. Subcriterios: inventario y oleadas 6, automatizacion CI/CD 5, seguridad 4, gestion de riesgos 4, validacion postmigracion 3.\n- Plan de reversibilidad y continuidad: 10 puntos.\n- Observabilidad y SLA operativo: 8 puntos. Tope de puntuacion si se ofrecen dashboards, alertas y respuesta critica inferior a 2 horas.\n- Certificaciones y equipo cloud: 5 puntos. CKA 2, Azure Administrator 2, ISO 27001 1.\n",
+          "fragmento": "D1-F1"
+        }
+      ]
+    },
+    {
+      "id": "A2-26",
+      "tema": "documentacion_fases",
+      "estado": "CONSTA",
+      "detalle": "Carta de compromiso del partner cloud para soporte AKS y confirmacion de regiones UE: debe presentarse por el licitador en la fase de presentacion de ofertas. Destinatario: mesa de contratacion. Plazo: hasta el cierre de presentacion de ofertas. Consecuencia de no aportarla: no especificada expresamente, pero su ausencia impediria la acreditacion del soporte requerido.",
+      "evidencias": [
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "Se exige carta de compromiso del partner cloud para soporte AKS y confirmacion de regiones UE. Las guardias de migracion pueden cubrirse internamente o con Cloud Partner Ficticio S.A.; no se permite subcontratar direccion del proyecto ni arquitectura cloud principal. Accion: deal registration Microsoft, RFQ de cloud temporal y compromiso back-to-back de guardias.",
+          "fragmento": "D1-F3"
+        }
+      ]
+    },
+    {
+      "id": "A2-27",
+      "tema": "documentacion_fases",
+      "estado": "CONSTA",
+      "detalle": "Certificados positivos de Hacienda y Seguridad Social: deben presentarse por el propuesto adjudicatario a requerimiento, en la fase posterior a la propuesta de adjudicacion. Destinatario: organo de contratacion. Plazo: el que se fije en el requerimiento. Consecuencia de no aportarlos: exclusion de la adjudicacion.",
+      "evidencias": [
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "PLIEGO ADMINISTRATIVO FICTICIO OPP-SW-003\nContrato de migracion cloud y contenerizacion.\n\nProcedimiento: abierto simplificado ficticio.\nPresupuesto base de licitacion: 653.400 EUR IVA incluido.\nValor estimado: 540.000 EUR.\nDuracion: 10 meses.\nPlazo de presentacion: 30/09/2026 a las 13:00.\n\nDocumentacion:\n- Memoria de migracion.\n- Plan de continuidad y reversibilidad.\n- Plan de seguridad y gestion de cambios.\n- CV del equipo minimo.\n- Oferta economica.\n\nCondiciones de ejecucion:\nLas migraciones productivas se ejecutaran en ventanas autorizadas y con plan de vuelta atras aprobado.\n\nCondiciones de participacion:\nSe exige capacidad de obrar, no prohibicion para contratar y certificados positivos de Hacienda y Seguridad Social. No se admiten variantes. Se permite subcontratacion maxima del 25 por ciento, excepto direccion de proyecto y arquitectura cloud.\n\nSolvencia economica:\nVolumen anual minimo de 900.000 EUR y seguro de responsabilidad civil profesional de 1.500.000 EUR.\n\nClasificacion y certificaciones:\nSe exige clasificacion empresarial equivalente a servicios de consultoria y desarrollo informatico Grupo V, Subgrupo 2, Categoria 3, o acreditacion alternativa solo para empresas no espanolas. Se exige ISO 27001.\n\nFormato de oferta y exclusiones:\nDos sobres electronicos: sobre 1 documentacion administrativa y tecnica; sobre 2 oferta economica. La propuesta de migracion no podra superar 50 paginas. La falta de plan de reversibilidad o la superacion del presupuesto maximo provocara exclusion.\n\nCriterios de adjudicacion:\nTotal 100 puntos.\n- Precio: 50 puntos. Formula proporcional directa a la baja economica. Las ofertas con baja superior al 18 por ciento deberan justificar viabilidad.\n- Plan de migracion: 22 puntos. Subcriterios: inventario y oleadas 6, automatizacion CI/CD 5, seguridad 4, gestion de riesgos 4, validacion postmigracion 3.\n- Plan de reversibilidad y continuidad: 10 puntos.\n- Observabilidad y SLA operativo: 8 puntos. Tope de puntuacion si se ofrecen dashboards, alertas y respuesta critica inferior a 2 horas.\n- Certificaciones y equipo cloud: 5 puntos. CKA 2, Azure Administrator 2, ISO 27001 1.\n",
+          "fragmento": "D1-F1"
+        }
+      ]
+    },
+    {
+      "id": "A2-28",
+      "tema": "documentacion_fases",
+      "estado": "CONSTA",
+      "detalle": "Acreditacion de solvencia economica (volumen anual minimo y seguro de responsabilidad civil): debe presentarse por el propuesto adjudicatario a requerimiento, en la fase posterior a la propuesta de adjudicacion. Destinatario: organo de contratacion. Plazo: el que se fije en el requerimiento. Consecuencia de no aportarla: exclusion de la adjudicacion.",
+      "evidencias": [
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "PLIEGO ADMINISTRATIVO FICTICIO OPP-SW-003\nContrato de migracion cloud y contenerizacion.\n\nProcedimiento: abierto simplificado ficticio.\nPresupuesto base de licitacion: 653.400 EUR IVA incluido.\nValor estimado: 540.000 EUR.\nDuracion: 10 meses.\nPlazo de presentacion: 30/09/2026 a las 13:00.\n\nDocumentacion:\n- Memoria de migracion.\n- Plan de continuidad y reversibilidad.\n- Plan de seguridad y gestion de cambios.\n- CV del equipo minimo.\n- Oferta economica.\n\nCondiciones de ejecucion:\nLas migraciones productivas se ejecutaran en ventanas autorizadas y con plan de vuelta atras aprobado.\n\nCondiciones de participacion:\nSe exige capacidad de obrar, no prohibicion para contratar y certificados positivos de Hacienda y Seguridad Social. No se admiten variantes. Se permite subcontratacion maxima del 25 por ciento, excepto direccion de proyecto y arquitectura cloud.\n\nSolvencia economica:\nVolumen anual minimo de 900.000 EUR y seguro de responsabilidad civil profesional de 1.500.000 EUR.\n\nClasificacion y certificaciones:\nSe exige clasificacion empresarial equivalente a servicios de consultoria y desarrollo informatico Grupo V, Subgrupo 2, Categoria 3, o acreditacion alternativa solo para empresas no espanolas. Se exige ISO 27001.\n\nFormato de oferta y exclusiones:\nDos sobres electronicos: sobre 1 documentacion administrativa y tecnica; sobre 2 oferta economica. La propuesta de migracion no podra superar 50 paginas. La falta de plan de reversibilidad o la superacion del presupuesto maximo provocara exclusion.\n\nCriterios de adjudicacion:\nTotal 100 puntos.\n- Precio: 50 puntos. Formula proporcional directa a la baja economica. Las ofertas con baja superior al 18 por ciento deberan justificar viabilidad.\n- Plan de migracion: 22 puntos. Subcriterios: inventario y oleadas 6, automatizacion CI/CD 5, seguridad 4, gestion de riesgos 4, validacion postmigracion 3.\n- Plan de reversibilidad y continuidad: 10 puntos.\n- Observabilidad y SLA operativo: 8 puntos. Tope de puntuacion si se ofrecen dashboards, alertas y respuesta critica inferior a 2 horas.\n- Certificaciones y equipo cloud: 5 puntos. CKA 2, Azure Administrator 2, ISO 27001 1.\n",
+          "fragmento": "D1-F1"
+        }
+      ]
+    },
+    {
+      "id": "A2-29",
+      "tema": "documentacion_fases",
+      "estado": "CONSTA",
+      "detalle": "Clasificacion empresarial Grupo V, Subgrupo 2, Categoria 3, o acreditacion alternativa para empresas no espanolas: debe presentarse por el propuesto adjudicatario a requerimiento, en la fase posterior a la propuesta de adjudicacion. Destinatario: organo de contratacion. Plazo: el que se fije en el requerimiento. Consecuencia de no aportarla: exclusion de la adjudicacion.",
+      "evidencias": [
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "PLIEGO ADMINISTRATIVO FICTICIO OPP-SW-003\nContrato de migracion cloud y contenerizacion.\n\nProcedimiento: abierto simplificado ficticio.\nPresupuesto base de licitacion: 653.400 EUR IVA incluido.\nValor estimado: 540.000 EUR.\nDuracion: 10 meses.\nPlazo de presentacion: 30/09/2026 a las 13:00.\n\nDocumentacion:\n- Memoria de migracion.\n- Plan de continuidad y reversibilidad.\n- Plan de seguridad y gestion de cambios.\n- CV del equipo minimo.\n- Oferta economica.\n\nCondiciones de ejecucion:\nLas migraciones productivas se ejecutaran en ventanas autorizadas y con plan de vuelta atras aprobado.\n\nCondiciones de participacion:\nSe exige capacidad de obrar, no prohibicion para contratar y certificados positivos de Hacienda y Seguridad Social. No se admiten variantes. Se permite subcontratacion maxima del 25 por ciento, excepto direccion de proyecto y arquitectura cloud.\n\nSolvencia economica:\nVolumen anual minimo de 900.000 EUR y seguro de responsabilidad civil profesional de 1.500.000 EUR.\n\nClasificacion y certificaciones:\nSe exige clasificacion empresarial equivalente a servicios de consultoria y desarrollo informatico Grupo V, Subgrupo 2, Categoria 3, o acreditacion alternativa solo para empresas no espanolas. Se exige ISO 27001.\n\nFormato de oferta y exclusiones:\nDos sobres electronicos: sobre 1 documentacion administrativa y tecnica; sobre 2 oferta economica. La propuesta de migracion no podra superar 50 paginas. La falta de plan de reversibilidad o la superacion del presupuesto maximo provocara exclusion.\n\nCriterios de adjudicacion:\nTotal 100 puntos.\n- Precio: 50 puntos. Formula proporcional directa a la baja economica. Las ofertas con baja superior al 18 por ciento deberan justificar viabilidad.\n- Plan de migracion: 22 puntos. Subcriterios: inventario y oleadas 6, automatizacion CI/CD 5, seguridad 4, gestion de riesgos 4, validacion postmigracion 3.\n- Plan de reversibilidad y continuidad: 10 puntos.\n- Observabilidad y SLA operativo: 8 puntos. Tope de puntuacion si se ofrecen dashboards, alertas y respuesta critica inferior a 2 horas.\n- Certificaciones y equipo cloud: 5 puntos. CKA 2, Azure Administrator 2, ISO 27001 1.\n",
+          "fragmento": "D1-F1"
+        }
+      ]
+    },
+    {
+      "id": "A2-30",
+      "tema": "documentacion_fases",
+      "estado": "CONSTA",
+      "detalle": "Certificado ISO 27001: debe presentarse por el propuesto adjudicatario a requerimiento, en la fase posterior a la propuesta de adjudicacion. Destinatario: organo de contratacion. Plazo: el que se fije en el requerimiento. Consecuencia de no aportarlo: exclusion de la adjudicacion.",
+      "evidencias": [
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "PLIEGO ADMINISTRATIVO FICTICIO OPP-SW-003\nContrato de migracion cloud y contenerizacion.\n\nProcedimiento: abierto simplificado ficticio.\nPresupuesto base de licitacion: 653.400 EUR IVA incluido.\nValor estimado: 540.000 EUR.\nDuracion: 10 meses.\nPlazo de presentacion: 30/09/2026 a las 13:00.\n\nDocumentacion:\n- Memoria de migracion.\n- Plan de continuidad y reversibilidad.\n- Plan de seguridad y gestion de cambios.\n- CV del equipo minimo.\n- Oferta economica.\n\nCondiciones de ejecucion:\nLas migraciones productivas se ejecutaran en ventanas autorizadas y con plan de vuelta atras aprobado.\n\nCondiciones de participacion:\nSe exige capacidad de obrar, no prohibicion para contratar y certificados positivos de Hacienda y Seguridad Social. No se admiten variantes. Se permite subcontratacion maxima del 25 por ciento, excepto direccion de proyecto y arquitectura cloud.\n\nSolvencia economica:\nVolumen anual minimo de 900.000 EUR y seguro de responsabilidad civil profesional de 1.500.000 EUR.\n\nClasificacion y certificaciones:\nSe exige clasificacion empresarial equivalente a servicios de consultoria y desarrollo informatico Grupo V, Subgrupo 2, Categoria 3, o acreditacion alternativa solo para empresas no espanolas. Se exige ISO 27001.\n\nFormato de oferta y exclusiones:\nDos sobres electronicos: sobre 1 documentacion administrativa y tecnica; sobre 2 oferta economica. La propuesta de migracion no podra superar 50 paginas. La falta de plan de reversibilidad o la superacion del presupuesto maximo provocara exclusion.\n\nCriterios de adjudicacion:\nTotal 100 puntos.\n- Precio: 50 puntos. Formula proporcional directa a la baja economica. Las ofertas con baja superior al 18 por ciento deberan justificar viabilidad.\n- Plan de migracion: 22 puntos. Subcriterios: inventario y oleadas 6, automatizacion CI/CD 5, seguridad 4, gestion de riesgos 4, validacion postmigracion 3.\n- Plan de reversibilidad y continuidad: 10 puntos.\n- Observabilidad y SLA operativo: 8 puntos. Tope de puntuacion si se ofrecen dashboards, alertas y respuesta critica inferior a 2 horas.\n- Certificaciones y equipo cloud: 5 puntos. CKA 2, Azure Administrator 2, ISO 27001 1.\n",
+          "fragmento": "D1-F1"
+        }
+      ]
+    },
+    {
+      "id": "A2-31",
+      "tema": "documentacion_fases",
+      "estado": "CONSTA",
+      "detalle": "Deal registration Microsoft, RFQ de cloud temporal y compromiso back-to-back de guardias: deben presentarse por el propuesto adjudicatario a requerimiento, en la fase posterior a la propuesta de adjudicacion. Destinatario: organo de contratacion. Plazo: el que se fije en el requerimiento. Consecuencia de no aportarlos: no especificada expresamente, pero su ausencia impediria la formalizacion del contrato.",
+      "evidencias": [
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "Se exige carta de compromiso del partner cloud para soporte AKS y confirmacion de regiones UE. Las guardias de migracion pueden cubrirse internamente o con Cloud Partner Ficticio S.A.; no se permite subcontratar direccion del proyecto ni arquitectura cloud principal. Accion: deal registration Microsoft, RFQ de cloud temporal y compromiso back-to-back de guardias.",
+          "fragmento": "D1-F3"
+        }
+      ]
+    },
+    {
+      "id": "A2-32",
+      "tema": "anormalidad_tramite",
+      "estado": "CONSTA",
+      "detalle": "Las ofertas con baja superior al 18 por ciento respecto al presupuesto base deben justificar su viabilidad mediante una memoria específica. Esta justificación solo se exige a los licitadores que presenten ofertas con baja superior al 18 por ciento, no a todos los participantes. La exigencia se presenta en la fase de presentación de ofertas, en el sobre correspondiente, y la consecuencia expresa de no aportarla es la exclusión de la oferta por no justificar la viabilidad de la baja.",
+      "evidencias": [
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "PLIEGO ADMINISTRATIVO FICTICIO OPP-SW-003\nContrato de migracion cloud y contenerizacion.\n\nProcedimiento: abierto simplificado ficticio.\nPresupuesto base de licitacion: 653.400 EUR IVA incluido.\nValor estimado: 540.000 EUR.\nDuracion: 10 meses.\nPlazo de presentacion: 30/09/2026 a las 13:00.\n\nDocumentacion:\n- Memoria de migracion.\n- Plan de continuidad y reversibilidad.\n- Plan de seguridad y gestion de cambios.\n- CV del equipo minimo.\n- Oferta economica.\n\nCondiciones de ejecucion:\nLas migraciones productivas se ejecutaran en ventanas autorizadas y con plan de vuelta atras aprobado.\n\nCondiciones de participacion:\nSe exige capacidad de obrar, no prohibicion para contratar y certificados positivos de Hacienda y Seguridad Social. No se admiten variantes. Se permite subcontratacion maxima del 25 por ciento, excepto direccion de proyecto y arquitectura cloud.\n\nSolvencia economica:\nVolumen anual minimo de 900.000 EUR y seguro de responsabilidad civil profesional de 1.500.000 EUR.\n\nClasificacion y certificaciones:\nSe exige clasificacion empresarial equivalente a servicios de consultoria y desarrollo informatico Grupo V, Subgrupo 2, Categoria 3, o acreditacion alternativa solo para empresas no espanolas. Se exige ISO 27001.\n\nFormato de oferta y exclusiones:\nDos sobres electronicos: sobre 1 documentacion administrativa y tecnica; sobre 2 oferta economica. La propuesta de migracion no podra superar 50 paginas. La falta de plan de reversibilidad o la superacion del presupuesto maximo provocara exclusion.\n\nCriterios de adjudicacion:\nTotal 100 puntos.\n- Precio: 50 puntos. Formula proporcional directa a la baja economica. Las ofertas con baja superior al 18 por ciento deberan justificar viabilidad.\n- Plan de migracion: 22 puntos. Subcriterios: inventario y oleadas 6, automatizacion CI/CD 5, seguridad 4, gestion de riesgos 4, validacion postmigracion 3.\n- Plan de reversibilidad y continuidad: 10 puntos.\n- Observabilidad y SLA operativo: 8 puntos. Tope de puntuacion si se ofrecen dashboards, alertas y respuesta critica inferior a 2 horas.\n- Certificaciones y equipo cloud: 5 puntos. CKA 2, Azure Administrator 2, ISO 27001 1.\n",
+          "fragmento": "D1-F1"
+        },
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "- Reduccion de plazo: 5 puntos. Tope por reduccion del 10 por ciento.\nUmbral minimo: 24 puntos sobre los 40 puntos tecnicos de migracion, reversibilidad y observabilidad.\n\nANEXO ECONOMICO-FINANCIERO:\nPresupuesto de oferta: 540.000 EUR sin IVA. PBL con IVA 653.400 EUR. Duracion 10 meses, sin prorroga.\nFormula economica: 50 puntos. La mejor oferta obtiene 50 puntos. Resto: P = 50 x oferta_minima / oferta_licitador.\nBaja superior al 18 por ciento exige memoria de viabilidad. Baja superior al 22 por ciento se considerara de alto riesgo por carga de migracion.\nFacturacion por hitos: 10 por ciento inventario, 25 por ciento oleada 1, 25 por ciento oleada 2, 25 por ciento oleada final, 15 por ciento cierre y reversibilidad.\nCostes obligatorios:\n- Dos DevOps cloud senior al 100 por ciento durante 8 meses y jefe de proyecto 35 por ciento durante 10 meses.\n- Herramientas: repositorio IaC, escaneo de contenedores, monitorizacion Grafana/Prometheus y licencias SAST/SCA para 5 usuarios.\n- Cloud temporal de migracion: 4.200 EUR/mes durante 6 meses para entornos paralelos, pruebas y observabilidad. No esta presupuestado de forma separada en el pliego.\n- Transicion/migracion: inventario, oleadas, migracion de datos, pruebas, documentacion y plan de reversibilidad incluidos.\n- Ventanas fuera de horario: 8 fines de semana de migracion con guardias DevOps incluidas.\nCostes financieros: no hay anticipo; compras y licencias se financian con recursos propios hasta cobro de hitos.\nPenalizaciones: 0,5 por ciento del precio por semana de retraso en una oleada; maximo 7 por ciento del contrato.\n\nANEXO COMPRAS / PARTNERS:\nEl adjudicatario debe aportar herramientas de escaneo de contenedores, SAST/SCA para 5 usuarios, Grafana/Prometheus gestionado si no usa herramientas del cliente, cloud temporal de migracion Azure y soporte de fabricante/partner durante ventanas de migracion. Jira Service Management sera aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias.\n",
+          "fragmento": "D1-F2"
+        }
+      ]
+    },
+    {
+      "id": "A2-33",
+      "tema": "penalizaciones_resolucion",
+      "estado": "CONSTA",
+      "detalle": "Penalización por retraso en una oleada: 0,5% del precio del contrato por cada semana de retraso en la ejecución de una oleada de migración, con un máximo acumulado del 7% del importe total del contrato.",
+      "evidencias": [
+        {
+          "documento": 1,
+          "ubicacion": "Texto extraído",
+          "literal": "- Reduccion de plazo: 5 puntos. Tope por reduccion del 10 por ciento.\nUmbral minimo: 24 puntos sobre los 40 puntos tecnicos de migracion, reversibilidad y observabilidad.\n\nANEXO ECONOMICO-FINANCIERO:\nPresupuesto de oferta: 540.000 EUR sin IVA. PBL con IVA 653.400 EUR. Duracion 10 meses, sin prorroga.\nFormula economica: 50 puntos. La mejor oferta obtiene 50 puntos. Resto: P = 50 x oferta_minima / oferta_licitador.\nBaja superior al 18 por ciento exige memoria de viabilidad. Baja superior al 22 por ciento se considerara de alto riesgo por carga de migracion.\nFacturacion por hitos: 10 por ciento inventario, 25 por ciento oleada 1, 25 por ciento oleada 2, 25 por ciento oleada final, 15 por ciento cierre y reversibilidad.\nCostes obligatorios:\n- Dos DevOps cloud senior al 100 por ciento durante 8 meses y jefe de proyecto 35 por ciento durante 10 meses.\n- Herramientas: repositorio IaC, escaneo de contenedores, monitorizacion Grafana/Prometheus y licencias SAST/SCA para 5 usuarios.\n- Cloud temporal de migracion: 4.200 EUR/mes durante 6 meses para entornos paralelos, pruebas y observabilidad. No esta presupuestado de forma separada en el pliego.\n- Transicion/migracion: inventario, oleadas, migracion de datos, pruebas, documentacion y plan de reversibilidad incluidos.\n- Ventanas fuera de horario: 8 fines de semana de migracion con guardias DevOps incluidas.\nCostes financieros: no hay anticipo; compras y licencias se financian con recursos propios hasta cobro de hitos.\nPenalizaciones: 0,5 por ciento del precio por semana de retraso en una oleada; maximo 7 por ciento del contrato.\n\nANEXO COMPRAS / PARTNERS:\nEl adjudicatario debe aportar herramientas de escaneo de contenedores, SAST/SCA para 5 usuarios, Grafana/Prometheus gestionado si no usa herramientas del cliente, cloud temporal de migracion Azure y soporte de fabricante/partner durante ventanas de migracion. Jira Service Management sera aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias.\n",
+          "fragmento": "D1-F2"
+        }
+      ]
+    },
+    {
+      "id": "A2-34",
+      "tema": "penalizaciones_resolucion",
+      "estado": "CONSTA",
+      "detalle": "Penalización por incumplimiento de disponibilidad mínima: si la disponibilidad mensual baja del 99,5%, se aplicará una penalización del 2% mensual sobre el importe correspondiente.",
+      "evidencias": [
+        {
+          "documento": 2,
+          "ubicacion": "Texto extraído",
+          "literal": "PLIEGO TECNICO FICTICIO OPP-SW-003\nProyecto: Migracion cloud y contenerizacion de aplicaciones municipales.\n\nObjeto:\nMigracion de seis aplicaciones internas a una plataforma Azure Kubernetes Service, incluyendo contenerizacion Docker, pipelines CI/CD, monitorizacion, backup, hardening y procedimientos de reversibilidad.\n\nSolvencia tecnica y equipo minimo:\n- Dos perfiles DevOps/cloud senior, cada uno con al menos 5 anos de experiencia en Azure, Kubernetes, Docker, CI/CD y observabilidad.\n- Un desarrollador backend senior con al menos 5 anos en Java o Python para adaptacion de servicios y APIs.\n- Jefe de proyecto con al menos 6 anos de experiencia en migraciones tecnicas.\n- Experiencia previa demostrable en al menos tres migraciones cloud de administraciones publicas.\n\nCondiciones:\nEl adjudicatario debera ejecutar migraciones sin perdida de servicio, con ventana maxima de indisponibilidad de 4 horas por aplicacion.\n\nService Design / ITIL:\nEl servicio cubre transicion, migracion, operacion estabilizada durante 9 meses y reversibilidad. Alcance: 6 aplicaciones, 18 microservicios, 4 bases de datos y 3 entornos por aplicacion. Horario de soporte 12x5 con guardia localizada para ventanas de migracion.\nProcesos requeridos: Change Management formal con CAB semanal, Release/Deployment Management, Event Management, Configuration Management y Availability Management. Se exige registro de cambios, plan de vuelta atras, matriz de riesgos y aprobacion previa por aplicacion.\nSLA: durante estabilizacion, P1 respuesta <= 30 minutos y resolucion <= 4 horas; P2 respuesta <= 2 horas y resolucion <= 1 dia. Disponibilidad minima 99,5 %. Penalizacion: 2 % mensual si la disponibilidad baja de 99,5 % y 1 % por cambio fallido sin rollback documentado.\nHerramientas: Azure Monitor, Grafana y Jira Service Management aceptadas. CMDB obligatoria con aplicaciones, servicios, contenedores, pipelines, bases de datos, dependencias y propietarios. Reconciliacion mensual.\nTransicion: 8 semanas con inventario, discovery, diseno de CMDB, runbooks, pruebas de backup, simulacro de rollback y reverse shadowing.\n",
+          "fragmento": "D2-F4"
+        }
+      ]
+    },
+    {
+      "id": "A2-35",
+      "tema": "penalizaciones_resolucion",
+      "estado": "CONSTA",
+      "detalle": "Penalización por cambio fallido sin rollback documentado: se aplicará una penalización del 1% por cada cambio fallido que no cuente con rollback documentado.",
+      "evidencias": [
+        {
+          "documento": 2,
+          "ubicacion": "Texto extraído",
+          "literal": "PLIEGO TECNICO FICTICIO OPP-SW-003\nProyecto: Migracion cloud y contenerizacion de aplicaciones municipales.\n\nObjeto:\nMigracion de seis aplicaciones internas a una plataforma Azure Kubernetes Service, incluyendo contenerizacion Docker, pipelines CI/CD, monitorizacion, backup, hardening y procedimientos de reversibilidad.\n\nSolvencia tecnica y equipo minimo:\n- Dos perfiles DevOps/cloud senior, cada uno con al menos 5 anos de experiencia en Azure, Kubernetes, Docker, CI/CD y observabilidad.\n- Un desarrollador backend senior con al menos 5 anos en Java o Python para adaptacion de servicios y APIs.\n- Jefe de proyecto con al menos 6 anos de experiencia en migraciones tecnicas.\n- Experiencia previa demostrable en al menos tres migraciones cloud de administraciones publicas.\n\nCondiciones:\nEl adjudicatario debera ejecutar migraciones sin perdida de servicio, con ventana maxima de indisponibilidad de 4 horas por aplicacion.\n\nService Design / ITIL:\nEl servicio cubre transicion, migracion, operacion estabilizada durante 9 meses y reversibilidad. Alcance: 6 aplicaciones, 18 microservicios, 4 bases de datos y 3 entornos por aplicacion. Horario de soporte 12x5 con guardia localizada para ventanas de migracion.\nProcesos requeridos: Change Management formal con CAB semanal, Release/Deployment Management, Event Management, Configuration Management y Availability Management. Se exige registro de cambios, plan de vuelta atras, matriz de riesgos y aprobacion previa por aplicacion.\nSLA: durante estabilizacion, P1 respuesta <= 30 minutos y resolucion <= 4 horas; P2 respuesta <= 2 horas y resolucion <= 1 dia. Disponibilidad minima 99,5 %. Penalizacion: 2 % mensual si la disponibilidad baja de 99,5 % y 1 % por cambio fallido sin rollback documentado.\nHerramientas: Azure Monitor, Grafana y Jira Service Management aceptadas. CMDB obligatoria con aplicaciones, servicios, contenedores, pipelines, bases de datos, dependencias y propietarios. Reconciliacion mensual.\nTransicion: 8 semanas con inventario, discovery, diseno de CMDB, runbooks, pruebas de backup, simulacro de rollback y reverse shadowing.\n",
+          "fragmento": "D2-F4"
+        }
+      ]
+    }
+  ],
+  "busquedas": [
+    {
+      "tema": "economia",
+      "fragmentos_enviados": [
+        "D1-F1",
+        "D1-F2",
+        "D1-F3",
+        "D2-F4",
+        "D2-F5",
+        "D3-F6",
+        "D4-F7"
+      ],
+      "total_fragmentos": 7,
+      "metodo": "busqueda_lexica_con_vecinos"
+    },
+    {
+      "tema": "facturacion_cobro",
+      "fragmentos_enviados": [
+        "D1-F1",
+        "D1-F2",
+        "D1-F3"
+      ],
+      "total_fragmentos": 7,
+      "metodo": "busqueda_lexica_con_vecinos"
+    },
+    {
+      "tema": "garantias",
+      "fragmentos_enviados": [],
+      "total_fragmentos": 7,
+      "metodo": "busqueda_lexica_con_vecinos"
+    },
+    {
+      "tema": "documentacion_fases",
+      "fragmentos_enviados": [
+        "D1-F1",
+        "D1-F2",
+        "D1-F3"
+      ],
+      "total_fragmentos": 7,
+      "metodo": "busqueda_lexica_con_vecinos"
+    },
+    {
+      "tema": "anormalidad_tramite",
+      "fragmentos_enviados": [
+        "D1-F1",
+        "D1-F2"
+      ],
+      "total_fragmentos": 7,
+      "metodo": "busqueda_lexica_con_vecinos"
+    },
+    {
+      "tema": "penalizaciones_resolucion",
+      "fragmentos_enviados": [
+        "D1-F1",
+        "D1-F2",
+        "D1-F3",
+        "D2-F4",
+        "D2-F5"
+      ],
+      "total_fragmentos": 7,
+      "metodo": "busqueda_lexica_con_vecinos"
+    }
+  ],
+  "temas_revisados": [
+    "economia",
+    "facturacion_cobro",
+    "garantias",
+    "documentacion_fases",
+    "anormalidad_tramite",
+    "penalizaciones_resolucion",
+    "clasificacion_obligaciones",
+    "discrepancias"
+  ]
+}

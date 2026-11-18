@@ -1,0 +1,49 @@
+{
+  "orden": 1,
+  "id": "A1",
+  "nombre": "Resumen breve",
+  "tipo": "referencia",
+  "ejecucion": "148643ec3cf64b459ff90194acd8bf8e",
+  "estado": "completado",
+  "contenido": {
+    "salida_original": "• Expediente: OPP-SW-003. Órgano: Consorcio Ficticio de Servicios Digitales. Fuente: pliego administrativo, técnico y anexo solvencia.\n• Objeto: Migración cloud y contenerización de aplicaciones municipales a Azure Kubernetes Service, con CI/CD, observabilidad y reversibilidad.\n• Presupuesto: 653.400 EUR IVA incluido; valor estimado: 540.000 EUR sin IVA. Fuente: pliego administrativo.\n• Duración: 10 meses. Fuente: pliego administrativo.\n• Plazo de presentación de ofertas: 30/09/2026 a las 13:00 (fase: presentación de ofertas). Fuente: pliego administrativo.\n• No constan documentos de adjudicación, formalización ni ejecución en la documentación revisada."
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "Pliego administrativo OPP-SW-003 migracion cloud",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 4508,
+        "caracteres_enviados_al_agente": 4508,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Pliego tecnico OPP-SW-003 migracion cloud",
+        "tipo": "Pliego tecnico",
+        "fuente": "XML",
+        "caracteres_extraidos": 3727,
+        "caracteres_enviados_al_agente": 3727,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "Anexo solvencia OPP-SW-003 migracion cloud",
+        "tipo": "Documento general",
+        "fuente": "XML",
+        "caracteres_extraidos": 825,
+        "caracteres_enviados_al_agente": 825,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": []
+  }
+}

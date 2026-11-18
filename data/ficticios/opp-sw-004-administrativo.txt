@@ -1,0 +1,57 @@
+PLIEGO ADMINISTRATIVO FICTICIO OPP-SW-004
+Servicio de mantenimiento evolutivo de aplicaciones Java legacy.
+
+Procedimiento: abierto.
+Presupuesto base de licitacion: 435.600 EUR IVA incluido.
+Valor estimado: 360.000 EUR.
+Duracion: 24 meses.
+Plazo de presentacion: 05/10/2026 a las 12:00.
+
+Documentacion:
+- Modelo de servicio.
+- Plan de transicion.
+- Matriz de SLAs.
+- Equipo adscrito y dedicacion.
+- Oferta economica.
+
+Penalidades:
+Penalizacion por incumplimiento de SLA critico, perdida de documentacion y falta de trazabilidad en tickets.
+
+Condiciones de participacion:
+Pueden licitar empresas de servicios informaticos con capacidad de obrar, no incursas en prohibiciones para contratar y al corriente de obligaciones tributarias y con Seguridad Social. Se permite subcontratacion de tareas especializadas hasta el 30 por ciento.
+
+Solvencia economica:
+Facturacion minima de 500.000 EUR en servicios de mantenimiento aplicacional y seguro de responsabilidad civil de 300.000 EUR.
+
+Documentacion administrativa:
+DEUC, declaracion responsable, poderes de representacion, certificados de Hacienda y Seguridad Social, compromiso de adscripcion del equipo, declaracion de cumplimiento laboral y PRL.
+
+Formato y exclusiones:
+Tres sobres. La oferta tecnica no podra incluir descuentos, precios unitarios ni informacion economica. Se excluira a quien altere el modelo de oferta economica o no acepte los SLA minimos.
+
+Criterios de adjudicacion:
+Total 100 puntos.
+- Precio: 55 puntos. La puntuacion economica se obtiene mediante proporcionalidad variable en funcion del rango de descuento. Sea DtoN = (PL - POn) / PL x 100, donde PL es el presupuesto de licitacion y POn es el presupuesto de la oferta n. Para este expediente se establecen los rangos Dto1=8%, Dto2=15%, Dto3=22%, PE1=35, PE2=55, PE3=0. Formulas: si 0 <= DtoN <= 8, PEn = DtoN x 35 / 8; si 8 < DtoN <= 15, PEn = (DtoN - 8) x 20 / 7 + 35; si 15 < DtoN <= 22, PEn = (DtoN - 15) x -55 / 7 + 55; si DtoN > 22, PEn = 0.
+- Mejoras SLA automaticas: 18 puntos. Respuesta critica en 2 horas 6 puntos, resolucion critica en 24 horas 6 puntos, seguimiento semanal de incidencias 3 puntos, cuadro de mando mensual 3 puntos. Dentro del subapartado ANS mejorados se obtendra 0,5 puntos por cada indicador mejorado hasta un maximo de 3 puntos.
+- Modelo de servicio: 15 puntos. Organizacion, escalado, gobierno del servicio, gestion documental y calidad.
+- Plan de transicion: 7 puntos. Toma de control, transferencia, riesgos y continuidad.
+- Bolsa de horas adicional: 5 puntos. 1 punto por cada 20 horas adicionales, maximo 100 horas.
+No existe umbral tecnico minimo, pero las ofertas que no alcancen 8 puntos en modelo de servicio podran recibir valoracion tecnica muy baja.
+
+ANEXO ECONOMICO-FINANCIERO:
+Presupuesto de oferta: 360.000 EUR sin IVA para 24 meses. PBL con IVA 435.600 EUR. Sin prorroga obligatoria, posible continuidad por nuevo contrato.
+Formula economica por rangos de descuento: DtoN = (PL - POn) / PL x 100. Dto1=8%, Dto2=15%, Dto3=22%, PE1=35, PE2=55, PE3=0. La oferta con 15 por ciento de baja alcanza la maxima puntuacion economica de 55 puntos; a partir de ese punto la puntuacion decrece y con descuentos superiores al 22 por ciento se obtiene 0 en el criterio economico.
+Oferta anormal: oferta inferior al 85 por ciento del presupuesto de licitacion o desviacion relevante respecto a la media requerira justificacion.
+Facturacion mensual fija tras certificacion del servicio. No hay pago inicial.
+Costes obligatorios:
+- Equipo recurrente 24 meses: jefe de servicio 25 por ciento, tres desarrolladores Java 70 por ciento, soporte L2 100 por ciento, QA 20 por ciento.
+- Guardias puntuales para despliegues: 2 noches al mes incluidas.
+- Herramientas ITSM: 5 agentes Jira Service Management o equivalente, cuadro de mando mensual y repositorio documental.
+- Bolsa minima correctiva y evolutiva incluida: 900 horas anuales. Bolsa adicional ofertable maximo 100 horas.
+- Transicion 6 semanas sin facturacion adicional y reversibilidad 4 semanas al final del contrato.
+Revision de precios: no prevista durante 24 meses. Riesgo por subida salarial y dependencia de perfiles Java.
+Penalizaciones: incumplimiento de SLA critico hasta 4 por ciento de factura mensual; acumulado maximo 12 por ciento mensual.
+
+ANEXO COMPRAS / PARTNERS:
+El servicio de mantenimiento usa herramientas ITSM del cliente, por lo que no se compran licencias ITSM salvo conectores o usuarios adicionales. El adjudicatario debe aportar entorno de pruebas, herramientas de calidad de codigo, monitorizacion aplicacional y soporte de DBA experto para incidencias Oracle puntuales.
+Se admite subcontratacion hasta 20 por ciento para DBA especializado y pruebas de rendimiento, declarando proveedor si supera el 10 por ciento. Necesidad recomendada: preacordar bolsa con Hector Campos para Oracle/PostgreSQL y validar que los SLA del colaborador cubren incidencias criticas en horario extendido.

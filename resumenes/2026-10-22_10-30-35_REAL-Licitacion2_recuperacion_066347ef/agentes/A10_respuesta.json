@@ -1,0 +1,1323 @@
+{
+  "orden": 8,
+  "id": "A10",
+  "nombre": "Compras, proveedores y colaboradores",
+  "tipo": "extraccion",
+  "ejecucion": "129392e7d6874c648fbe8a5da0df29d2",
+  "estado": "completado",
+  "contenido": {
+    "requisitos_documentales": [
+      {
+        "id": "R0001",
+        "seccion": "Hardware y productos",
+        "detalle": "El adjudicatario debe administrar y mantener la infraestructura de virtualización y puesto de trabajo, incluyendo ThinClient HP (>12.000), servidores Cisco UCS, cabinas NetApp, dispositivos de movilidad (PDA Honeywell, Zebra, Samsung, Apple, Zelenza), servidores virtuales Citrix y Azure, y otros periféricos, siendo el cliente el titular de los equipos y el adjudicatario responsable de su administración y soporte.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.34-45",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0002",
+        "seccion": "Software y licencias",
+        "detalle": "El adjudicatario debe administrar herramientas de gestión (SCCM, HPDM, MDT, DA, INTUNE, MDM), plataformas MDM Workspace One UEM (OnPremise y migración a SaaS), PoST (Remedy ITSM), Microsoft Teams y Office 365, siendo el cliente el titular de las plataformas y el adjudicatario responsable de su administración y de aportar licencias para sus propios medios.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.42,45,56,72",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0003",
+        "seccion": "Fabricantes, canal y cartas",
+        "detalle": "No se exige carta de fabricante, partnership ni canal autorizado, pero el adjudicatario debe disponer de soporte experto de fabricantes (Microsoft, NetApp, Cisco, Citrix, etc.) bajo demanda si no dispone de perfil interno adecuado.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.63,71",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0004",
+        "seccion": "Subcontratación y UTE",
+        "detalle": "Se permite la subcontratación parcial, salvo para tareas críticas (gestión y coordinación del servicio), debiendo declararse en la oferta la parte subcontratada, importe y subcontratista, y requerir autorización previa para subcontratación posterior. UTE permitida con declaración de compromiso y reparto en oferta.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.11,25",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0005",
+        "seccion": "Cadena de suministro",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna descripción o condicionamiento contractual específico sobre la cadena de suministro, logística de aprovisionamiento, lead time, reposición, EOL/EOS, homologaciones, sostenibilidad, staging, retirada o destrucción de equipos.",
+        "fuente": "NO CONSTA",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0006",
+        "seccion": "SLA, garantías y soporte",
+        "detalle": "El adjudicatario debe liderar el diagnóstico de incidencias y tener capacidad de involucrar a soportes de fabricantes cuando se requiera. No se exige SLA back-to-back ni garantía de fabricante específica. Garantía general del servicio: 3 meses desde la recepción de conformidad.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.28,63,Anexo XVII",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0007",
+        "seccion": "Logística y retirada",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna obligación específica sobre stock mínimo, logística de entrega, staging, retirada o destrucción de equipos, salvo la obligación de preparar, empaquetar y enviar material de movilidad a centros de Correos/CEX según necesidades.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.49",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0008",
+        "seccion": "Ambigüedades y datos no localizados",
+        "detalle": "No se localizan requisitos de carta de fabricante, partnership, canal autorizado ni equivalencias técnicas mínimas. No se describen condiciones de stock, lead time, EOL/EOS, homologaciones, sostenibilidad, ni cadena de suministro. No se exige explícitamente la compra de hardware/software/SaaS por el adjudicatario para el cliente, salvo los medios propios para su personal. No se establecen SLA de fabricante ni back-to-back contractuales. No se exige staging, retirada ni destrucción de equipos, salvo la reversión documental y de conocimiento.",
+        "fuente": "NO CONSTA",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0009",
+        "seccion": "Documentos revisados",
+        "detalle": "1. ANEXO I.pdf; 2. Anuncio.pdf; 3. DOC20240806095753Pliegodefinitivofirmado.pdf; 4. DOC_CD2024-000901195.pdf; 5. poc (detalle licitación); 6. poc (perfil contratante); 7. CORREOS-Codigo-General-de-Conducta.pdf (NO LEÍDO, ERROR 404); 8. perfil-contratante; 9. PoliticaProteccionDatosCanalEticoClientesyProveedores--ES.pdf",
+        "fuente": "Índice obligatorio",
+        "origen": "extraccion_agente"
+      }
+    ],
+    "resumen": [
+      "La licitación para el servicio de Administración Workplace de Correos y CEX exige al adjudicatario la prestación de servicios de administración, gestión, mantenimiento, evolución y soporte de infraestructuras y plataformas tecnológicas de puesto de trabajo (físico, virtual y movilidad), incluyendo la administración de hardware, software, herramientas de gestión, plataformas de virtualización, dispositivos de movilidad y periféricos, así como la colaboración con fabricantes y soporte de tercer nivel. El adjudicatario debe aportar los recursos humanos y técnicos necesarios, así como los medios materiales y licencias de software requeridas para la ejecución del servicio, con soporte y mantenimiento conforme a los acuerdos de nivel de servicio (ANS) definidos. Se permite la subcontratación parcial, salvo para tareas críticas, y se establecen penalizaciones y condiciones de reversión del servicio. No se exige carta de fabricante ni partnership específico, pero sí soporte de fabricantes en caso de requerirse conocimiento experto. No se describen cadenas de suministro ni se establecen requisitos de stock, logística, retirada o destrucción de equipos más allá de la gestión documental y la reversión del servicio.",
+      "| Producto | Cantidad | Características | Fabricante/referencia | Equivalente permitido | Garantía/soporte | Stock/plazo | Fuente |",
+      "| ThinClient HP | >12.000 | Windows7/Windows IOT 10/Otros | HP | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.34 |",
+      "| Servidores UCS B200 M5/M4 | 32/48 | Cisco UCS | Cisco | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.35 |",
+      "| Cabinas NetApp FAS8020/AFF8040 | 4 | 2 FAS8020, 2 AFF8040 | NetApp | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.35 |",
+      "| Dispositivos movilidad (PDA, smartphones, tablets) | 34.000+ | Modelos Honeywell, Zebra, Samsung, Xiaomi, Apple, Zelenza | Ver detalle | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.45 |",
+      "| Ordenador personal técnicos | 1 por técnico | Portátil, Intel i5 9ª gen, SSD, 8/16GB RAM | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.72 |",
+      "| Producto | Fabricante | Metrica/cantidad | Entornos | Duracion | Quien lo aporta | Fuente |",
+      "| SCCM, HPDM, MDT, DA, INTUNE, MDM | Microsoft, HP, otros | NO CONSTA | Virtual, físico, movilidad | NO CONSTA | Cliente (administración a cargo adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.42 |",
+      "| Workspace One UEM | VmWare | 3 entornos | OnPremise, migración a SaaS | NO CONSTA | Cliente (administración a cargo adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.45 |",
+      "| PoST (Remedy ITSM) | BMC | NO CONSTA | Ticketing, activos, ANS | NO CONSTA | Cliente (uso obligatorio por adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.56 |",
+      "| Microsoft Teams, Office 365 | Microsoft | NO CONSTA | Comunicación | NO CONSTA | Adjudicatario | DOC20240806095753Pliegodefinitivofirmado.pdf, p.72 |"
+    ],
+    "secciones": [
+      {
+        "titulo": "Resumen factual",
+        "parrafos": [
+          "La licitación para el servicio de Administración Workplace de Correos y CEX exige al adjudicatario la prestación de servicios de administración, gestión, mantenimiento, evolución y soporte de infraestructuras y plataformas tecnológicas de puesto de trabajo (físico, virtual y movilidad), incluyendo la administración de hardware, software, herramientas de gestión, plataformas de virtualización, dispositivos de movilidad y periféricos, así como la colaboración con fabricantes y soporte de tercer nivel. El adjudicatario debe aportar los recursos humanos y técnicos necesarios, así como los medios materiales y licencias de software requeridas para la ejecución del servicio, con soporte y mantenimiento conforme a los acuerdos de nivel de servicio (ANS) definidos. Se permite la subcontratación parcial, salvo para tareas críticas, y se establecen penalizaciones y condiciones de reversión del servicio. No se exige carta de fabricante ni partnership específico, pero sí soporte de fabricantes en caso de requerirse conocimiento experto. No se describen cadenas de suministro ni se establecen requisitos de stock, logística, retirada o destrucción de equipos más allá de la gestión documental y la reversión del servicio."
+        ],
+        "elementos": [],
+        "tablas": []
+      },
+      {
+        "titulo": "Mapa de suministros y terceros",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Elemento/necesidad",
+              "Tipo",
+              "Cantidad/volumen",
+              "Especificacion",
+              "Quien debe aportarlo",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Elemento/necesidad": "ThinClient HP",
+                "Tipo": "Hardware",
+                "Cantidad/volumen": ">12.000",
+                "Especificacion": "HP, Windows7/Windows IOT 10/Otros",
+                "Quien debe aportarlo": "Cliente (administración a cargo adjudicatario)",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.34"
+              },
+              {
+                "Elemento/necesidad": "Servidores virtuales Citrix",
+                "Tipo": "Hardware",
+                "Cantidad/volumen": "100 infra, 600/700 servicio",
+                "Especificacion": "DDCs, StoreFront, Licenserver, SystemCenter, SSOO W2008-2019",
+                "Quien debe aportarlo": "Cliente (administración a cargo adjudicatario)",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.35"
+              },
+              {
+                "Elemento/necesidad": "VDIs Citrix",
+                "Tipo": "Hardware",
+                "Cantidad/volumen": "500",
+                "Especificacion": "SSOO W10",
+                "Quien debe aportarlo": "Cliente (administración a cargo adjudicatario)",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.35"
+              },
+              {
+                "Elemento/necesidad": "VDIs Azure WVD",
+                "Tipo": "Hardware/Cloud",
+                "Cantidad/volumen": "1.000",
+                "Especificacion": "SSOO W10",
+                "Quien debe aportarlo": "Cliente (administración a cargo adjudicatario)",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.35"
+              },
+              {
+                "Elemento/necesidad": "Chasis Cisco UCS 5108",
+                "Tipo": "Hardware",
+                "Cantidad/volumen": "8",
+                "Especificacion": "Blade Svr AC Chasis",
+                "Quien debe aportarlo": "Cliente (administración a cargo adjudicatario)",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.35"
+              },
+              {
+                "Elemento/necesidad": "Servidores UCS B200 M5/M4",
+                "Tipo": "Hardware",
+                "Cantidad/volumen": "32/48",
+                "Especificacion": "Cisco",
+                "Quien debe aportarlo": "Cliente (administración a cargo adjudicatario)",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.35"
+              },
+              {
+                "Elemento/necesidad": "Cabinas NetApp FAS8020/AFF8040",
+                "Tipo": "Hardware",
+                "Cantidad/volumen": "4",
+                "Especificacion": "2 FAS8020, 2 AFF8040, 10 DS2246, 8 DS4246",
+                "Quien debe aportarlo": "Cliente (administración a cargo adjudicatario)",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.35"
+              },
+              {
+                "Elemento/necesidad": "Dispositivos de movilidad (PDA, smartphones, tablets)",
+                "Tipo": "Hardware",
+                "Cantidad/volumen": "34.000 PDA Honeywell EDA52, 2.000/400 Zebra TC56/TC57, 3.100 smartphones, 130 iPhone, 100 tablets",
+                "Especificacion": "Modelos y SO especificados",
+                "Quien debe aportarlo": "Cliente (administración a cargo adjudicatario)",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.45"
+              },
+              {
+                "Elemento/necesidad": "Plataformas MDM Workspace One UEM",
+                "Tipo": "Software/OnPremise/SaaS",
+                "Cantidad/volumen": "3 entornos",
+                "Especificacion": "VmWare, versiones 2209 y 2302, migración a SaaS",
+                "Quien debe aportarlo": "Cliente (administración a cargo adjudicatario)",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.45"
+              },
+              {
+                "Elemento/necesidad": "Herramientas de gestión (SCCM, HPDM, MDT, DA, INTUNE, MDM)",
+                "Tipo": "Software",
+                "Cantidad/volumen": "No especificado",
+                "Especificacion": "Administración centralizada",
+                "Quien debe aportarlo": "Cliente (administración a cargo adjudicatario)",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.42"
+              },
+              {
+                "Elemento/necesidad": "PoST (Remedy ITSM)",
+                "Tipo": "Software",
+                "Cantidad/volumen": "No especificado",
+                "Especificacion": "Ticketing, gestión activos, ANS",
+                "Quien debe aportarlo": "Cliente (uso obligatorio por adjudicatario)",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.56"
+              },
+              {
+                "Elemento/necesidad": "Microsoft Teams, Office 365",
+                "Tipo": "Software",
+                "Cantidad/volumen": "No especificado",
+                "Especificacion": "Comunicación y colaboración",
+                "Quien debe aportarlo": "Adjudicatario (licencias a su cargo)",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.72"
+              },
+              {
+                "Elemento/necesidad": "Ordenador personal para técnicos",
+                "Tipo": "Hardware",
+                "Cantidad/volumen": "1 por técnico",
+                "Especificacion": "Portátil, Intel i5 9ª gen o superior, SSD, 8/16GB RAM",
+                "Quien debe aportarlo": "Adjudicatario",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.72"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Productos, hardware y materiales",
+        "parrafos": [
+          "| Producto | Cantidad | Características | Fabricante/referencia | Equivalente permitido | Garantía/soporte | Stock/plazo | Fuente |",
+          "| ThinClient HP | >12.000 | Windows7/Windows IOT 10/Otros | HP | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.34 |",
+          "| Servidores UCS B200 M5/M4 | 32/48 | Cisco UCS | Cisco | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.35 |",
+          "| Cabinas NetApp FAS8020/AFF8040 | 4 | 2 FAS8020, 2 AFF8040 | NetApp | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.35 |",
+          "| Dispositivos movilidad (PDA, smartphones, tablets) | 34.000+ | Modelos Honeywell, Zebra, Samsung, Xiaomi, Apple, Zelenza | Ver detalle | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.45 |",
+          "| Ordenador personal técnicos | 1 por técnico | Portátil, Intel i5 9ª gen, SSD, 8/16GB RAM | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.72 |"
+        ],
+        "elementos": [],
+        "tablas": []
+      },
+      {
+        "titulo": "Software, SaaS y licencias",
+        "parrafos": [
+          "| Producto | Fabricante | Metrica/cantidad | Entornos | Duracion | Quien lo aporta | Fuente |",
+          "| SCCM, HPDM, MDT, DA, INTUNE, MDM | Microsoft, HP, otros | NO CONSTA | Virtual, físico, movilidad | NO CONSTA | Cliente (administración a cargo adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.42 |",
+          "| Workspace One UEM | VmWare | 3 entornos | OnPremise, migración a SaaS | NO CONSTA | Cliente (administración a cargo adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.45 |",
+          "| PoST (Remedy ITSM) | BMC | NO CONSTA | Ticketing, activos, ANS | NO CONSTA | Cliente (uso obligatorio por adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.56 |",
+          "| Microsoft Teams, Office 365 | Microsoft | NO CONSTA | Comunicación | NO CONSTA | Adjudicatario | DOC20240806095753Pliegodefinitivofirmado.pdf, p.72 |"
+        ],
+        "elementos": [],
+        "tablas": []
+      },
+      {
+        "titulo": "Fabricantes, canal y cartas",
+        "parrafos": [
+          "| Fabricante | Requisito | Nivel/certificación/carta exigida | Momento | Fuente |",
+          "| Microsoft, NetApp, Cisco, Citrix | Soporte experto bajo demanda | NO CONSTA carta/partner obligatoria | Durante ejecución, si se requiere conocimiento experto | DOC20240806095753Pliegodefinitivofirmado.pdf, p.63 |",
+          "| NO CONSTA | Carta de fabricante, partner, canal | NO CONSTA | NO CONSTA | NO CONSTA EN LA DOCUMENTACION REVISADA |"
+        ],
+        "elementos": [],
+        "tablas": []
+      },
+      {
+        "titulo": "Subcontratación, UTE y medios externos",
+        "parrafos": [
+          "| Regla | Límite/condición | Declaración/autorización | Fuente |",
+          "| Subcontratación permitida | No tareas críticas (gestión y coordinación del servicio) | Declarar parte subcontratada, importe y subcontratista en oferta; autorización previa para subcontratación posterior | DOC20240806095753Pliegodefinitivofirmado.pdf, p.25 |",
+          "| UTE permitida | Declaración de compromiso y reparto en oferta | Declaración en Sobre 1 | DOC20240806095753Pliegodefinitivofirmado.pdf, p.11 |",
+          "| Subcontratación de soporte experto fabricante | Permitida si no hay perfil interno, bajo demanda | Declarar en oferta si se prevé, autorización previa si afecta a datos personales | DOC20240806095753Pliegodefinitivofirmado.pdf, p.71 |"
+        ],
+        "elementos": [],
+        "tablas": []
+      },
+      {
+        "titulo": "Cadena de suministro y dependencias contractuales descritas",
+        "parrafos": [
+          "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna descripción o condicionamiento contractual específico sobre la cadena de suministro, logística de aprovisionamiento, lead time, reposición, EOL/EOS, homologaciones, sostenibilidad, staging, retirada o destrucción de equipos."
+        ],
+        "elementos": [],
+        "tablas": []
+      },
+      {
+        "titulo": "SLA de proveedor/fabricante, garantías y soporte exigidos",
+        "parrafos": [],
+        "elementos": [
+          "El adjudicatario debe liderar el diagnóstico de incidencias y tener capacidad de involucrar a soportes de fabricantes (Microsoft, NetApp, Cisco, Citrix, etc.) cuando se requiera (DOC20240806095753Pliegodefinitivofirmado.pdf, p.63).",
+          "No se exige SLA back-to-back ni garantía de fabricante específica. Los ANS y penalizaciones están definidos para el adjudicatario, no para terceros (DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XVII).",
+          "Garantía general del servicio: 3 meses desde la recepción de conformidad (DOC20240806095753Pliegodefinitivofirmado.pdf, p.28)."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "Logística, staging, stock, entrega, retirada y destrucción",
+        "parrafos": [
+          "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna obligación específica sobre stock mínimo, logística de entrega, staging, retirada o destrucción de equipos, salvo la obligación de preparar, empaquetar y enviar material de movilidad a centros de Correos/CEX según necesidades (DOC20240806095753Pliegodefinitivofirmado.pdf, p.49)."
+        ],
+        "elementos": [],
+        "tablas": []
+      },
+      {
+        "titulo": "Ambigüedades y datos no localizados",
+        "parrafos": [],
+        "elementos": [
+          "No se localizan requisitos de carta de fabricante, partnership, canal autorizado ni equivalencias técnicas mínimas.",
+          "No se describen condiciones de stock, lead time, EOL/EOS, homologaciones, sostenibilidad, ni cadena de suministro.",
+          "No se exige explícitamente la compra de hardware/software/SaaS por el adjudicatario para el cliente, salvo los medios propios para su personal.",
+          "No se establecen SLA de fabricante ni back-to-back contractuales.",
+          "No se exige staging, retirada ni destrucción de equipos, salvo la reversión documental y de conocimiento."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "Documentos revisados",
+        "parrafos": [],
+        "elementos": [
+          "ANEXO I.pdf",
+          "Anuncio.pdf",
+          "DOC20240806095753Pliegodefinitivofirmado.pdf",
+          "DOC_CD2024-000901195.pdf",
+          "poc (detalle licitación)",
+          "poc (perfil contratante)",
+          "CORREOS-Codigo-General-de-Conducta.pdf (NO LEÍDO, ERROR 404)",
+          "perfil-contratante",
+          "PoliticaProteccionDatosCanalEticoClientesyProveedores--ES.pdf"
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "Trazabilidad",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Requisito/dato",
+              "Tipo",
+              "Valor/condición",
+              "Documento",
+              "Página/apartado",
+              "Estado de lectura"
+            ],
+            "filas": [
+              {
+                "Requisito/dato": "ThinClient HP",
+                "Tipo": "Hardware",
+                "Valor/condición": ">12.000, administración a cargo adjudicatario",
+                "Documento": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+                "Página/apartado": "p.34",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Servidores UCS B200",
+                "Tipo": "Hardware",
+                "Valor/condición": "32/48, administración a cargo adjudicatario",
+                "Documento": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+                "Página/apartado": "p.35",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Cabinas NetApp",
+                "Tipo": "Hardware",
+                "Valor/condición": "4, administración a cargo adjudicatario",
+                "Documento": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+                "Página/apartado": "p.35",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Dispositivos movilidad",
+                "Tipo": "Hardware",
+                "Valor/condición": "34.000+",
+                "Documento": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+                "Página/apartado": "p.45",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Workspace One UEM",
+                "Tipo": "Software",
+                "Valor/condición": "3 entornos, administración a cargo adjudicatario",
+                "Documento": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+                "Página/apartado": "p.45",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Microsoft Teams, Office 365",
+                "Tipo": "Software",
+                "Valor/condición": "Licencias a cargo adjudicatario",
+                "Documento": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+                "Página/apartado": "p.72",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Subcontratación permitida",
+                "Tipo": "Regla",
+                "Valor/condición": "No tareas críticas, declaración y autorización",
+                "Documento": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+                "Página/apartado": "p.25",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "UTE permitida",
+                "Tipo": "Regla",
+                "Valor/condición": "Declaración en oferta",
+                "Documento": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+                "Página/apartado": "p.11",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Soporte experto fabricante",
+                "Tipo": "Regla",
+                "Valor/condición": "Permitido subcontratar si no hay perfil interno",
+                "Documento": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+                "Página/apartado": "p.71",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Garantía general servicio",
+                "Tipo": "Garantía",
+                "Valor/condición": "3 meses desde recepción",
+                "Documento": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+                "Página/apartado": "p.28",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "SLA fabricante/back-to-back",
+                "Tipo": "SLA",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "NO CONSTA",
+                "Página/apartado": "NO CONSTA",
+                "Estado de lectura": "NO CONSTA"
+              },
+              {
+                "Requisito/dato": "Stock/logística/retirada",
+                "Tipo": "Logística",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "NO CONSTA",
+                "Página/apartado": "NO CONSTA",
+                "Estado de lectura": "NO CONSTA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Requisitos IA - Fuentes para proyecto viabilidad",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Parámetro",
+              "Subcampos pedidos",
+              "Estado del pliego",
+              "Dato/literal localizado",
+              "Documento y apartado/página"
+            ],
+            "filas": [
+              {
+                "Parámetro": "Volumen anual de negocios",
+                "Subcampos pedidos": "Umbral, ámbito, mejor ejercicio, ventana, moneda, acreditación",
+                "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+                "Dato/literal localizado": "1.190.000 €, ámbito del contrato, mejor ejercicio de los 3 últimos, euros, cuentas anuales aprobadas y depositadas",
+                "Documento y apartado/página": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.7, Anexo V"
+              },
+              {
+                "Parámetro": "Patrimonio neto/ratios",
+                "Subcampos pedidos": "Ejercicio, activos, pasivos, fórmula, resultado, umbral, acreditación",
+                "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Dato/literal localizado": "NO CONSTA",
+                "Documento y apartado/página": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo V"
+              },
+              {
+                "Parámetro": "Seguro RC/riesgos profesionales",
+                "Subcampos pedidos": "Importe, actividad, asegurador, inicio, fin, vigencia, cobertura, renovación",
+                "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Dato/literal localizado": "NO CONSTA",
+                "Documento y apartado/página": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo V"
+              },
+              {
+                "Parámetro": "Certificados de buena ejecución",
+                "Subcampos pedidos": "Objeto, similitud, importe, fechas, duración, destinatario, prueba",
+                "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+                "Dato/literal localizado": "3 servicios igual/similar, 3 últimos años, importe anual acumulado ≥1.190.000 €, certificado de correcta ejecución",
+                "Documento y apartado/página": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.7, Anexo V"
+              },
+              {
+                "Parámetro": "ISO/ENS",
+                "Subcampos pedidos": "Norma, versión, alcance, certificadora, caducidad, acreditación",
+                "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+                "Dato/literal localizado": "ISO 27001 e ISO 20000 o equivalentes, durante ejecución, certificado",
+                "Documento y apartado/página": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.7, Anexo V"
+              },
+              {
+                "Parámetro": "Fabricantes/partnerships",
+                "Subcampos pedidos": "Fabricante, nivel, especialización, carta, expiración, acreditación",
+                "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Dato/literal localizado": "NO CONSTA",
+                "Documento y apartado/página": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I"
+              },
+              {
+                "Parámetro": "Perfiles",
+                "Subcampos pedidos": "Puesto, cantidad, titulación, experiencia, certificaciones, dedicación, jornada, presencialidad, funciones, sustitución",
+                "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+                "Dato/literal localizado": "Detallados por perfil, experiencia mínima, certificaciones deseables, dedicación, presencialidad/remoto, funciones, sustitución, inglés",
+                "Documento y apartado/página": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.63-72"
+              },
+              {
+                "Parámetro": "ROLECE/clasificación",
+                "Subcampos pedidos": "Exigencia, grupo, subgrupo, categoría, vigencia, inscripción, acreditación",
+                "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Dato/literal localizado": "NO CONSTA",
+                "Documento y apartado/página": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo V"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Registro documental de preventa",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Materia",
+              "Requisito completo",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Materia": "Hardware y productos",
+                "Requisito completo": "El adjudicatario debe administrar y mantener la infraestructura de virtualización y puesto de trabajo, incluyendo ThinClient HP (>12.000), servidores Cisco UCS, cabinas NetApp, dispositivos de movilidad (PDA Honeywell, Zebra, Samsung, Apple, Zelenza), servidores virtuales Citrix y Azure, y otros periféricos, siendo el cliente el titular de los equipos y el adjudicatario responsable de su administración y soporte.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.34-45"
+              },
+              {
+                "Materia": "Software y licencias",
+                "Requisito completo": "El adjudicatario debe administrar herramientas de gestión (SCCM, HPDM, MDT, DA, INTUNE, MDM), plataformas MDM Workspace One UEM (OnPremise y migración a SaaS), PoST (Remedy ITSM), Microsoft Teams y Office 365, siendo el cliente el titular de las plataformas y el adjudicatario responsable de su administración y de aportar licencias para sus propios medios.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.42,45,56,72"
+              },
+              {
+                "Materia": "Fabricantes, canal y cartas",
+                "Requisito completo": "No se exige carta de fabricante, partnership ni canal autorizado, pero el adjudicatario debe disponer de soporte experto de fabricantes (Microsoft, NetApp, Cisco, Citrix, etc.) bajo demanda si no dispone de perfil interno adecuado.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.63,71"
+              },
+              {
+                "Materia": "Subcontratación y UTE",
+                "Requisito completo": "Se permite la subcontratación parcial, salvo para tareas críticas (gestión y coordinación del servicio), debiendo declararse en la oferta la parte subcontratada, importe y subcontratista, y requerir autorización previa para subcontratación posterior. UTE permitida con declaración de compromiso y reparto en oferta.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.11,25"
+              },
+              {
+                "Materia": "Cadena de suministro",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna descripción o condicionamiento contractual específico sobre la cadena de suministro, logística de aprovisionamiento, lead time, reposición, EOL/EOS, homologaciones, sostenibilidad, staging, retirada o destrucción de equipos.",
+                "Fuente": "NO CONSTA"
+              },
+              {
+                "Materia": "SLA, garantías y soporte",
+                "Requisito completo": "El adjudicatario debe liderar el diagnóstico de incidencias y tener capacidad de involucrar a soportes de fabricantes cuando se requiera. No se exige SLA back-to-back ni garantía de fabricante específica. Garantía general del servicio: 3 meses desde la recepción de conformidad.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.28,63,Anexo XVII"
+              },
+              {
+                "Materia": "Logística y retirada",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna obligación específica sobre stock mínimo, logística de entrega, staging, retirada o destrucción de equipos, salvo la obligación de preparar, empaquetar y enviar material de movilidad a centros de Correos/CEX según necesidades.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.49"
+              },
+              {
+                "Materia": "Ambigüedades y datos no localizados",
+                "Requisito completo": "No se localizan requisitos de carta de fabricante, partnership, canal autorizado ni equivalencias técnicas mínimas. No se describen condiciones de stock, lead time, EOL/EOS, homologaciones, sostenibilidad, ni cadena de suministro. No se exige explícitamente la compra de hardware/software/SaaS por el adjudicatario para el cliente, salvo los medios propios para su personal. No se establecen SLA de fabricante ni back-to-back contractuales. No se exige staging, retirada ni destrucción de equipos, salvo la reversión documental y de conocimiento.",
+                "Fuente": "NO CONSTA"
+              },
+              {
+                "Materia": "Documentos revisados",
+                "Requisito completo": "1. ANEXO I.pdf; 2. Anuncio.pdf; 3. DOC20240806095753Pliegodefinitivofirmado.pdf; 4. DOC_CD2024-000901195.pdf; 5. poc (detalle licitación); 6. poc (perfil contratante); 7. CORREOS-Codigo-General-de-Conducta.pdf (NO LEÍDO, ERROR 404); 8. perfil-contratante; 9. PoliticaProteccionDatosCanalEticoClientesyProveedores--ES.pdf",
+                "Fuente": "Índice obligatorio"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "parrafos": [],
+        "elementos": [
+          "No se han identificado discrepancias en la documentación revisada.",
+          "El documento CORREOS-Codigo-General-de-Conducta.pdf no ha podido ser leído (error 404), por lo que cualquier obligación específica contenida en él queda pendiente de verificación documental."
+        ],
+        "tablas": []
+      }
+    ],
+    "pendientes_y_no_localizados": [
+      {
+        "seccion": "Productos, hardware y materiales",
+        "texto": "| ThinClient HP | >12.000 | Windows7/Windows IOT 10/Otros | HP | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.34 |"
+      },
+      {
+        "seccion": "Productos, hardware y materiales",
+        "texto": "| Servidores UCS B200 M5/M4 | 32/48 | Cisco UCS | Cisco | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.35 |"
+      },
+      {
+        "seccion": "Productos, hardware y materiales",
+        "texto": "| Cabinas NetApp FAS8020/AFF8040 | 4 | 2 FAS8020, 2 AFF8040 | NetApp | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.35 |"
+      },
+      {
+        "seccion": "Productos, hardware y materiales",
+        "texto": "| Dispositivos movilidad (PDA, smartphones, tablets) | 34.000+ | Modelos Honeywell, Zebra, Samsung, Xiaomi, Apple, Zelenza | Ver detalle | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.45 |"
+      },
+      {
+        "seccion": "Productos, hardware y materiales",
+        "texto": "| Ordenador personal técnicos | 1 por técnico | Portátil, Intel i5 9ª gen, SSD, 8/16GB RAM | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.72 |"
+      },
+      {
+        "seccion": "Software, SaaS y licencias",
+        "texto": "| SCCM, HPDM, MDT, DA, INTUNE, MDM | Microsoft, HP, otros | NO CONSTA | Virtual, físico, movilidad | NO CONSTA | Cliente (administración a cargo adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.42 |"
+      },
+      {
+        "seccion": "Software, SaaS y licencias",
+        "texto": "| Workspace One UEM | VmWare | 3 entornos | OnPremise, migración a SaaS | NO CONSTA | Cliente (administración a cargo adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.45 |"
+      },
+      {
+        "seccion": "Software, SaaS y licencias",
+        "texto": "| PoST (Remedy ITSM) | BMC | NO CONSTA | Ticketing, activos, ANS | NO CONSTA | Cliente (uso obligatorio por adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.56 |"
+      },
+      {
+        "seccion": "Software, SaaS y licencias",
+        "texto": "| Microsoft Teams, Office 365 | Microsoft | NO CONSTA | Comunicación | NO CONSTA | Adjudicatario | DOC20240806095753Pliegodefinitivofirmado.pdf, p.72 |"
+      },
+      {
+        "seccion": "Fabricantes, canal y cartas",
+        "texto": "| Microsoft, NetApp, Cisco, Citrix | Soporte experto bajo demanda | NO CONSTA carta/partner obligatoria | Durante ejecución, si se requiere conocimiento experto | DOC20240806095753Pliegodefinitivofirmado.pdf, p.63 |"
+      },
+      {
+        "seccion": "Fabricantes, canal y cartas",
+        "texto": "| NO CONSTA | Carta de fabricante, partner, canal | NO CONSTA | NO CONSTA | NO CONSTA EN LA DOCUMENTACION REVISADA |"
+      },
+      {
+        "seccion": "Cadena de suministro y dependencias contractuales descritas",
+        "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna descripción o condicionamiento contractual específico sobre la cadena de suministro, logística de aprovisionamiento, lead time, reposición, EOL/EOS, homologaciones, sostenibilidad, staging, retirada o destrucción de equipos."
+      },
+      {
+        "seccion": "Logística, staging, stock, entrega, retirada y destrucción",
+        "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna obligación específica sobre stock mínimo, logística de entrega, staging, retirada o destrucción de equipos, salvo la obligación de preparar, empaquetar y enviar material de movilidad a centros de Correos/CEX según necesidades (DOC20240806095753Pliegodefinitivofirmado.pdf, p.49)."
+      },
+      {
+        "titulo": "Ambigüedades y datos no localizados",
+        "parrafos": [],
+        "elementos": [
+          "No se localizan requisitos de carta de fabricante, partnership, canal autorizado ni equivalencias técnicas mínimas.",
+          "No se describen condiciones de stock, lead time, EOL/EOS, homologaciones, sostenibilidad, ni cadena de suministro.",
+          "No se exige explícitamente la compra de hardware/software/SaaS por el adjudicatario para el cliente, salvo los medios propios para su personal.",
+          "No se establecen SLA de fabricante ni back-to-back contractuales.",
+          "No se exige staging, retirada ni destrucción de equipos, salvo la reversión documental y de conocimiento."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "parrafos": [],
+        "elementos": [
+          "No se han identificado discrepancias en la documentación revisada.",
+          "El documento CORREOS-Codigo-General-de-Conducta.pdf no ha podido ser leído (error 404), por lo que cualquier obligación específica contenida en él queda pendiente de verificación documental."
+        ],
+        "tablas": []
+      }
+    ],
+    "trazabilidad": [
+      {
+        "Elemento/necesidad": "ThinClient HP",
+        "Tipo": "Hardware",
+        "Cantidad/volumen": ">12.000",
+        "Especificacion": "HP, Windows7/Windows IOT 10/Otros",
+        "Quien debe aportarlo": "Cliente (administración a cargo adjudicatario)",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.34"
+      },
+      {
+        "Elemento/necesidad": "Servidores virtuales Citrix",
+        "Tipo": "Hardware",
+        "Cantidad/volumen": "100 infra, 600/700 servicio",
+        "Especificacion": "DDCs, StoreFront, Licenserver, SystemCenter, SSOO W2008-2019",
+        "Quien debe aportarlo": "Cliente (administración a cargo adjudicatario)",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.35"
+      },
+      {
+        "Elemento/necesidad": "VDIs Citrix",
+        "Tipo": "Hardware",
+        "Cantidad/volumen": "500",
+        "Especificacion": "SSOO W10",
+        "Quien debe aportarlo": "Cliente (administración a cargo adjudicatario)",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.35"
+      },
+      {
+        "Elemento/necesidad": "VDIs Azure WVD",
+        "Tipo": "Hardware/Cloud",
+        "Cantidad/volumen": "1.000",
+        "Especificacion": "SSOO W10",
+        "Quien debe aportarlo": "Cliente (administración a cargo adjudicatario)",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.35"
+      },
+      {
+        "Elemento/necesidad": "Chasis Cisco UCS 5108",
+        "Tipo": "Hardware",
+        "Cantidad/volumen": "8",
+        "Especificacion": "Blade Svr AC Chasis",
+        "Quien debe aportarlo": "Cliente (administración a cargo adjudicatario)",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.35"
+      },
+      {
+        "Elemento/necesidad": "Servidores UCS B200 M5/M4",
+        "Tipo": "Hardware",
+        "Cantidad/volumen": "32/48",
+        "Especificacion": "Cisco",
+        "Quien debe aportarlo": "Cliente (administración a cargo adjudicatario)",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.35"
+      },
+      {
+        "Elemento/necesidad": "Cabinas NetApp FAS8020/AFF8040",
+        "Tipo": "Hardware",
+        "Cantidad/volumen": "4",
+        "Especificacion": "2 FAS8020, 2 AFF8040, 10 DS2246, 8 DS4246",
+        "Quien debe aportarlo": "Cliente (administración a cargo adjudicatario)",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.35"
+      },
+      {
+        "Elemento/necesidad": "Dispositivos de movilidad (PDA, smartphones, tablets)",
+        "Tipo": "Hardware",
+        "Cantidad/volumen": "34.000 PDA Honeywell EDA52, 2.000/400 Zebra TC56/TC57, 3.100 smartphones, 130 iPhone, 100 tablets",
+        "Especificacion": "Modelos y SO especificados",
+        "Quien debe aportarlo": "Cliente (administración a cargo adjudicatario)",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.45"
+      },
+      {
+        "Elemento/necesidad": "Plataformas MDM Workspace One UEM",
+        "Tipo": "Software/OnPremise/SaaS",
+        "Cantidad/volumen": "3 entornos",
+        "Especificacion": "VmWare, versiones 2209 y 2302, migración a SaaS",
+        "Quien debe aportarlo": "Cliente (administración a cargo adjudicatario)",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.45"
+      },
+      {
+        "Elemento/necesidad": "Herramientas de gestión (SCCM, HPDM, MDT, DA, INTUNE, MDM)",
+        "Tipo": "Software",
+        "Cantidad/volumen": "No especificado",
+        "Especificacion": "Administración centralizada",
+        "Quien debe aportarlo": "Cliente (administración a cargo adjudicatario)",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.42"
+      },
+      {
+        "Elemento/necesidad": "PoST (Remedy ITSM)",
+        "Tipo": "Software",
+        "Cantidad/volumen": "No especificado",
+        "Especificacion": "Ticketing, gestión activos, ANS",
+        "Quien debe aportarlo": "Cliente (uso obligatorio por adjudicatario)",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.56"
+      },
+      {
+        "Elemento/necesidad": "Microsoft Teams, Office 365",
+        "Tipo": "Software",
+        "Cantidad/volumen": "No especificado",
+        "Especificacion": "Comunicación y colaboración",
+        "Quien debe aportarlo": "Adjudicatario (licencias a su cargo)",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.72"
+      },
+      {
+        "Elemento/necesidad": "Ordenador personal para técnicos",
+        "Tipo": "Hardware",
+        "Cantidad/volumen": "1 por técnico",
+        "Especificacion": "Portátil, Intel i5 9ª gen o superior, SSD, 8/16GB RAM",
+        "Quien debe aportarlo": "Adjudicatario",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.72"
+      },
+      {
+        "Requisito/dato": "ThinClient HP",
+        "Tipo": "Hardware",
+        "Valor/condición": ">12.000, administración a cargo adjudicatario",
+        "Documento": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "Página/apartado": "p.34",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Servidores UCS B200",
+        "Tipo": "Hardware",
+        "Valor/condición": "32/48, administración a cargo adjudicatario",
+        "Documento": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "Página/apartado": "p.35",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Cabinas NetApp",
+        "Tipo": "Hardware",
+        "Valor/condición": "4, administración a cargo adjudicatario",
+        "Documento": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "Página/apartado": "p.35",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Dispositivos movilidad",
+        "Tipo": "Hardware",
+        "Valor/condición": "34.000+",
+        "Documento": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "Página/apartado": "p.45",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Workspace One UEM",
+        "Tipo": "Software",
+        "Valor/condición": "3 entornos, administración a cargo adjudicatario",
+        "Documento": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "Página/apartado": "p.45",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Microsoft Teams, Office 365",
+        "Tipo": "Software",
+        "Valor/condición": "Licencias a cargo adjudicatario",
+        "Documento": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "Página/apartado": "p.72",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Subcontratación permitida",
+        "Tipo": "Regla",
+        "Valor/condición": "No tareas críticas, declaración y autorización",
+        "Documento": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "Página/apartado": "p.25",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "UTE permitida",
+        "Tipo": "Regla",
+        "Valor/condición": "Declaración en oferta",
+        "Documento": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "Página/apartado": "p.11",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Soporte experto fabricante",
+        "Tipo": "Regla",
+        "Valor/condición": "Permitido subcontratar si no hay perfil interno",
+        "Documento": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "Página/apartado": "p.71",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Garantía general servicio",
+        "Tipo": "Garantía",
+        "Valor/condición": "3 meses desde recepción",
+        "Documento": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "Página/apartado": "p.28",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "SLA fabricante/back-to-back",
+        "Tipo": "SLA",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "NO CONSTA",
+        "Página/apartado": "NO CONSTA",
+        "Estado de lectura": "NO CONSTA"
+      },
+      {
+        "Requisito/dato": "Stock/logística/retirada",
+        "Tipo": "Logística",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "NO CONSTA",
+        "Página/apartado": "NO CONSTA",
+        "Estado de lectura": "NO CONSTA"
+      },
+      {
+        "Parámetro": "Volumen anual de negocios",
+        "Subcampos pedidos": "Umbral, ámbito, mejor ejercicio, ventana, moneda, acreditación",
+        "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+        "Dato/literal localizado": "1.190.000 €, ámbito del contrato, mejor ejercicio de los 3 últimos, euros, cuentas anuales aprobadas y depositadas",
+        "Documento y apartado/página": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.7, Anexo V"
+      },
+      {
+        "Parámetro": "Patrimonio neto/ratios",
+        "Subcampos pedidos": "Ejercicio, activos, pasivos, fórmula, resultado, umbral, acreditación",
+        "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Dato/literal localizado": "NO CONSTA",
+        "Documento y apartado/página": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo V"
+      },
+      {
+        "Parámetro": "Seguro RC/riesgos profesionales",
+        "Subcampos pedidos": "Importe, actividad, asegurador, inicio, fin, vigencia, cobertura, renovación",
+        "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Dato/literal localizado": "NO CONSTA",
+        "Documento y apartado/página": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo V"
+      },
+      {
+        "Parámetro": "Certificados de buena ejecución",
+        "Subcampos pedidos": "Objeto, similitud, importe, fechas, duración, destinatario, prueba",
+        "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+        "Dato/literal localizado": "3 servicios igual/similar, 3 últimos años, importe anual acumulado ≥1.190.000 €, certificado de correcta ejecución",
+        "Documento y apartado/página": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.7, Anexo V"
+      },
+      {
+        "Parámetro": "ISO/ENS",
+        "Subcampos pedidos": "Norma, versión, alcance, certificadora, caducidad, acreditación",
+        "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+        "Dato/literal localizado": "ISO 27001 e ISO 20000 o equivalentes, durante ejecución, certificado",
+        "Documento y apartado/página": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.7, Anexo V"
+      },
+      {
+        "Parámetro": "Fabricantes/partnerships",
+        "Subcampos pedidos": "Fabricante, nivel, especialización, carta, expiración, acreditación",
+        "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Dato/literal localizado": "NO CONSTA",
+        "Documento y apartado/página": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I"
+      },
+      {
+        "Parámetro": "Perfiles",
+        "Subcampos pedidos": "Puesto, cantidad, titulación, experiencia, certificaciones, dedicación, jornada, presencialidad, funciones, sustitución",
+        "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+        "Dato/literal localizado": "Detallados por perfil, experiencia mínima, certificaciones deseables, dedicación, presencialidad/remoto, funciones, sustitución, inglés",
+        "Documento y apartado/página": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.63-72"
+      },
+      {
+        "Parámetro": "ROLECE/clasificación",
+        "Subcampos pedidos": "Exigencia, grupo, subgrupo, categoría, vigencia, inscripción, acreditación",
+        "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Dato/literal localizado": "NO CONSTA",
+        "Documento y apartado/página": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo V"
+      },
+      {
+        "Materia": "Hardware y productos",
+        "Requisito completo": "El adjudicatario debe administrar y mantener la infraestructura de virtualización y puesto de trabajo, incluyendo ThinClient HP (>12.000), servidores Cisco UCS, cabinas NetApp, dispositivos de movilidad (PDA Honeywell, Zebra, Samsung, Apple, Zelenza), servidores virtuales Citrix y Azure, y otros periféricos, siendo el cliente el titular de los equipos y el adjudicatario responsable de su administración y soporte.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.34-45"
+      },
+      {
+        "Materia": "Software y licencias",
+        "Requisito completo": "El adjudicatario debe administrar herramientas de gestión (SCCM, HPDM, MDT, DA, INTUNE, MDM), plataformas MDM Workspace One UEM (OnPremise y migración a SaaS), PoST (Remedy ITSM), Microsoft Teams y Office 365, siendo el cliente el titular de las plataformas y el adjudicatario responsable de su administración y de aportar licencias para sus propios medios.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.42,45,56,72"
+      },
+      {
+        "Materia": "Fabricantes, canal y cartas",
+        "Requisito completo": "No se exige carta de fabricante, partnership ni canal autorizado, pero el adjudicatario debe disponer de soporte experto de fabricantes (Microsoft, NetApp, Cisco, Citrix, etc.) bajo demanda si no dispone de perfil interno adecuado.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.63,71"
+      },
+      {
+        "Materia": "Subcontratación y UTE",
+        "Requisito completo": "Se permite la subcontratación parcial, salvo para tareas críticas (gestión y coordinación del servicio), debiendo declararse en la oferta la parte subcontratada, importe y subcontratista, y requerir autorización previa para subcontratación posterior. UTE permitida con declaración de compromiso y reparto en oferta.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.11,25"
+      },
+      {
+        "Materia": "Cadena de suministro",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna descripción o condicionamiento contractual específico sobre la cadena de suministro, logística de aprovisionamiento, lead time, reposición, EOL/EOS, homologaciones, sostenibilidad, staging, retirada o destrucción de equipos.",
+        "Fuente": "NO CONSTA"
+      },
+      {
+        "Materia": "SLA, garantías y soporte",
+        "Requisito completo": "El adjudicatario debe liderar el diagnóstico de incidencias y tener capacidad de involucrar a soportes de fabricantes cuando se requiera. No se exige SLA back-to-back ni garantía de fabricante específica. Garantía general del servicio: 3 meses desde la recepción de conformidad.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.28,63,Anexo XVII"
+      },
+      {
+        "Materia": "Logística y retirada",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna obligación específica sobre stock mínimo, logística de entrega, staging, retirada o destrucción de equipos, salvo la obligación de preparar, empaquetar y enviar material de movilidad a centros de Correos/CEX según necesidades.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.49"
+      },
+      {
+        "Materia": "Ambigüedades y datos no localizados",
+        "Requisito completo": "No se localizan requisitos de carta de fabricante, partnership, canal autorizado ni equivalencias técnicas mínimas. No se describen condiciones de stock, lead time, EOL/EOS, homologaciones, sostenibilidad, ni cadena de suministro. No se exige explícitamente la compra de hardware/software/SaaS por el adjudicatario para el cliente, salvo los medios propios para su personal. No se establecen SLA de fabricante ni back-to-back contractuales. No se exige staging, retirada ni destrucción de equipos, salvo la reversión documental y de conocimiento.",
+        "Fuente": "NO CONSTA"
+      },
+      {
+        "Materia": "Documentos revisados",
+        "Requisito completo": "1. ANEXO I.pdf; 2. Anuncio.pdf; 3. DOC20240806095753Pliegodefinitivofirmado.pdf; 4. DOC_CD2024-000901195.pdf; 5. poc (detalle licitación); 6. poc (perfil contratante); 7. CORREOS-Codigo-General-de-Conducta.pdf (NO LEÍDO, ERROR 404); 8. perfil-contratante; 9. PoliticaProteccionDatosCanalEticoClientesyProveedores--ES.pdf",
+        "Fuente": "Índice obligatorio"
+      }
+    ],
+    "salida_original": "# Resumen factual\nLa licitación para el servicio de Administración Workplace de Correos y CEX exige al adjudicatario la prestación de servicios de administración, gestión, mantenimiento, evolución y soporte de infraestructuras y plataformas tecnológicas de puesto de trabajo (físico, virtual y movilidad), incluyendo la administración de hardware, software, herramientas de gestión, plataformas de virtualización, dispositivos de movilidad y periféricos, así como la colaboración con fabricantes y soporte de tercer nivel. El adjudicatario debe aportar los recursos humanos y técnicos necesarios, así como los medios materiales y licencias de software requeridas para la ejecución del servicio, con soporte y mantenimiento conforme a los acuerdos de nivel de servicio (ANS) definidos. Se permite la subcontratación parcial, salvo para tareas críticas, y se establecen penalizaciones y condiciones de reversión del servicio. No se exige carta de fabricante ni partnership específico, pero sí soporte de fabricantes en caso de requerirse conocimiento experto. No se describen cadenas de suministro ni se establecen requisitos de stock, logística, retirada o destrucción de equipos más allá de la gestión documental y la reversión del servicio.\n\n# Mapa de suministros y terceros\n| Elemento/necesidad | Tipo | Cantidad/volumen | Especificacion | Quien debe aportarlo | Fuente |\n|--------------------|------|------------------|---------------|---------------------|--------|\n| ThinClient HP | Hardware | >12.000 | HP, Windows7/Windows IOT 10/Otros | Cliente (administración a cargo adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.34 |\n| Servidores virtuales Citrix | Hardware | 100 infra, 600/700 servicio | DDCs, StoreFront, Licenserver, SystemCenter, SSOO W2008-2019 | Cliente (administración a cargo adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.35 |\n| VDIs Citrix | Hardware | 500 | SSOO W10 | Cliente (administración a cargo adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.35 |\n| VDIs Azure WVD | Hardware/Cloud | 1.000 | SSOO W10 | Cliente (administración a cargo adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.35 |\n| Chasis Cisco UCS 5108 | Hardware | 8 | Blade Svr AC Chasis | Cliente (administración a cargo adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.35 |\n| Servidores UCS B200 M5/M4 | Hardware | 32/48 | Cisco | Cliente (administración a cargo adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.35 |\n| Cabinas NetApp FAS8020/AFF8040 | Hardware | 4 | 2 FAS8020, 2 AFF8040, 10 DS2246, 8 DS4246 | Cliente (administración a cargo adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.35 |\n| Dispositivos de movilidad (PDA, smartphones, tablets) | Hardware | 34.000 PDA Honeywell EDA52, 2.000/400 Zebra TC56/TC57, 3.100 smartphones, 130 iPhone, 100 tablets | Modelos y SO especificados | Cliente (administración a cargo adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.45 |\n| Plataformas MDM Workspace One UEM | Software/OnPremise/SaaS | 3 entornos | VmWare, versiones 2209 y 2302, migración a SaaS | Cliente (administración a cargo adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.45 |\n| Herramientas de gestión (SCCM, HPDM, MDT, DA, INTUNE, MDM) | Software | No especificado | Administración centralizada | Cliente (administración a cargo adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.42 |\n| PoST (Remedy ITSM) | Software | No especificado | Ticketing, gestión activos, ANS | Cliente (uso obligatorio por adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.56 |\n| Microsoft Teams, Office 365 | Software | No especificado | Comunicación y colaboración | Adjudicatario (licencias a su cargo) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.72 |\n| Ordenador personal para técnicos | Hardware | 1 por técnico | Portátil, Intel i5 9ª gen o superior, SSD, 8/16GB RAM | Adjudicatario | DOC20240806095753Pliegodefinitivofirmado.pdf, p.72 |\n\n# Productos, hardware y materiales\n| Producto | Cantidad | Características | Fabricante/referencia | Equivalente permitido | Garantía/soporte | Stock/plazo | Fuente |\n| ThinClient HP | >12.000 | Windows7/Windows IOT 10/Otros | HP | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.34 |\n| Servidores UCS B200 M5/M4 | 32/48 | Cisco UCS | Cisco | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.35 |\n| Cabinas NetApp FAS8020/AFF8040 | 4 | 2 FAS8020, 2 AFF8040 | NetApp | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.35 |\n| Dispositivos movilidad (PDA, smartphones, tablets) | 34.000+ | Modelos Honeywell, Zebra, Samsung, Xiaomi, Apple, Zelenza | Ver detalle | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.45 |\n| Ordenador personal técnicos | 1 por técnico | Portátil, Intel i5 9ª gen, SSD, 8/16GB RAM | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.72 |\n\n# Software, SaaS y licencias\n| Producto | Fabricante | Metrica/cantidad | Entornos | Duracion | Quien lo aporta | Fuente |\n| SCCM, HPDM, MDT, DA, INTUNE, MDM | Microsoft, HP, otros | NO CONSTA | Virtual, físico, movilidad | NO CONSTA | Cliente (administración a cargo adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.42 |\n| Workspace One UEM | VmWare | 3 entornos | OnPremise, migración a SaaS | NO CONSTA | Cliente (administración a cargo adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.45 |\n| PoST (Remedy ITSM) | BMC | NO CONSTA | Ticketing, activos, ANS | NO CONSTA | Cliente (uso obligatorio por adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.56 |\n| Microsoft Teams, Office 365 | Microsoft | NO CONSTA | Comunicación | NO CONSTA | Adjudicatario | DOC20240806095753Pliegodefinitivofirmado.pdf, p.72 |\n\n# Fabricantes, canal y cartas\n| Fabricante | Requisito | Nivel/certificación/carta exigida | Momento | Fuente |\n| Microsoft, NetApp, Cisco, Citrix | Soporte experto bajo demanda | NO CONSTA carta/partner obligatoria | Durante ejecución, si se requiere conocimiento experto | DOC20240806095753Pliegodefinitivofirmado.pdf, p.63 |\n| NO CONSTA | Carta de fabricante, partner, canal | NO CONSTA | NO CONSTA | NO CONSTA EN LA DOCUMENTACION REVISADA |\n\n# Subcontratación, UTE y medios externos\n| Regla | Límite/condición | Declaración/autorización | Fuente |\n| Subcontratación permitida | No tareas críticas (gestión y coordinación del servicio) | Declarar parte subcontratada, importe y subcontratista en oferta; autorización previa para subcontratación posterior | DOC20240806095753Pliegodefinitivofirmado.pdf, p.25 |\n| UTE permitida | Declaración de compromiso y reparto en oferta | Declaración en Sobre 1 | DOC20240806095753Pliegodefinitivofirmado.pdf, p.11 |\n| Subcontratación de soporte experto fabricante | Permitida si no hay perfil interno, bajo demanda | Declarar en oferta si se prevé, autorización previa si afecta a datos personales | DOC20240806095753Pliegodefinitivofirmado.pdf, p.71 |\n\n# Cadena de suministro y dependencias contractuales descritas\nNO CONSTA EN LA DOCUMENTACION REVISADA ninguna descripción o condicionamiento contractual específico sobre la cadena de suministro, logística de aprovisionamiento, lead time, reposición, EOL/EOS, homologaciones, sostenibilidad, staging, retirada o destrucción de equipos.\n\n# SLA de proveedor/fabricante, garantías y soporte exigidos\n- El adjudicatario debe liderar el diagnóstico de incidencias y tener capacidad de involucrar a soportes de fabricantes (Microsoft, NetApp, Cisco, Citrix, etc.) cuando se requiera (DOC20240806095753Pliegodefinitivofirmado.pdf, p.63).\n- No se exige SLA back-to-back ni garantía de fabricante específica. Los ANS y penalizaciones están definidos para el adjudicatario, no para terceros (DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XVII).\n- Garantía general del servicio: 3 meses desde la recepción de conformidad (DOC20240806095753Pliegodefinitivofirmado.pdf, p.28).\n\n# Logística, staging, stock, entrega, retirada y destrucción\nNO CONSTA EN LA DOCUMENTACION REVISADA ninguna obligación específica sobre stock mínimo, logística de entrega, staging, retirada o destrucción de equipos, salvo la obligación de preparar, empaquetar y enviar material de movilidad a centros de Correos/CEX según necesidades (DOC20240806095753Pliegodefinitivofirmado.pdf, p.49).\n\n# Ambigüedades y datos no localizados\n- No se localizan requisitos de carta de fabricante, partnership, canal autorizado ni equivalencias técnicas mínimas.\n- No se describen condiciones de stock, lead time, EOL/EOS, homologaciones, sostenibilidad, ni cadena de suministro.\n- No se exige explícitamente la compra de hardware/software/SaaS por el adjudicatario para el cliente, salvo los medios propios para su personal.\n- No se establecen SLA de fabricante ni back-to-back contractuales.\n- No se exige staging, retirada ni destrucción de equipos, salvo la reversión documental y de conocimiento.\n\n# Documentos revisados\n1. ANEXO I.pdf\n2. Anuncio.pdf\n3. DOC20240806095753Pliegodefinitivofirmado.pdf\n4. DOC_CD2024-000901195.pdf\n5. poc (detalle licitación)\n6. poc (perfil contratante)\n7. CORREOS-Codigo-General-de-Conducta.pdf (NO LEÍDO, ERROR 404)\n8. perfil-contratante\n9. PoliticaProteccionDatosCanalEticoClientesyProveedores--ES.pdf\n\n# Trazabilidad\n| Requisito/dato | Tipo | Valor/condición | Documento | Página/apartado | Estado de lectura |\n|----------------|------|----------------|-----------|-----------------|-------------------|\n| ThinClient HP | Hardware | >12.000, administración a cargo adjudicatario | DOC20240806095753Pliegodefinitivofirmado.pdf | p.34 | Leído |\n| Servidores UCS B200 | Hardware | 32/48, administración a cargo adjudicatario | DOC20240806095753Pliegodefinitivofirmado.pdf | p.35 | Leído |\n| Cabinas NetApp | Hardware | 4, administración a cargo adjudicatario | DOC20240806095753Pliegodefinitivofirmado.pdf | p.35 | Leído |\n| Dispositivos movilidad | Hardware | 34.000+ | DOC20240806095753Pliegodefinitivofirmado.pdf | p.45 | Leído |\n| Workspace One UEM | Software | 3 entornos, administración a cargo adjudicatario | DOC20240806095753Pliegodefinitivofirmado.pdf | p.45 | Leído |\n| Microsoft Teams, Office 365 | Software | Licencias a cargo adjudicatario | DOC20240806095753Pliegodefinitivofirmado.pdf | p.72 | Leído |\n| Subcontratación permitida | Regla | No tareas críticas, declaración y autorización | DOC20240806095753Pliegodefinitivofirmado.pdf | p.25 | Leído |\n| UTE permitida | Regla | Declaración en oferta | DOC20240806095753Pliegodefinitivofirmado.pdf | p.11 | Leído |\n| Soporte experto fabricante | Regla | Permitido subcontratar si no hay perfil interno | DOC20240806095753Pliegodefinitivofirmado.pdf | p.71 | Leído |\n| Garantía general servicio | Garantía | 3 meses desde recepción | DOC20240806095753Pliegodefinitivofirmado.pdf | p.28 | Leído |\n| SLA fabricante/back-to-back | SLA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n| Stock/logística/retirada | Logística | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n\n# Requisitos IA - Fuentes para proyecto viabilidad\n| Parámetro | Subcampos pedidos | Estado del pliego | Dato/literal localizado | Documento y apartado/página |\n|-----------|-------------------|------------------|----------------------|-----------------------------|\n| Volumen anual de negocios | Umbral, ámbito, mejor ejercicio, ventana, moneda, acreditación | ENCONTRADO EN EL PLIEGO | 1.190.000 €, ámbito del contrato, mejor ejercicio de los 3 últimos, euros, cuentas anuales aprobadas y depositadas | DOC20240806095753Pliegodefinitivofirmado.pdf, p.7, Anexo V |\n| Patrimonio neto/ratios | Ejercicio, activos, pasivos, fórmula, resultado, umbral, acreditación | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo V |\n| Seguro RC/riesgos profesionales | Importe, actividad, asegurador, inicio, fin, vigencia, cobertura, renovación | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo V |\n| Certificados de buena ejecución | Objeto, similitud, importe, fechas, duración, destinatario, prueba | ENCONTRADO EN EL PLIEGO | 3 servicios igual/similar, 3 últimos años, importe anual acumulado ≥1.190.000 €, certificado de correcta ejecución | DOC20240806095753Pliegodefinitivofirmado.pdf, p.7, Anexo V |\n| ISO/ENS | Norma, versión, alcance, certificadora, caducidad, acreditación | ENCONTRADO EN EL PLIEGO | ISO 27001 e ISO 20000 o equivalentes, durante ejecución, certificado | DOC20240806095753Pliegodefinitivofirmado.pdf, p.7, Anexo V |\n| Fabricantes/partnerships | Fabricante, nivel, especialización, carta, expiración, acreditación | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I |\n| Perfiles | Puesto, cantidad, titulación, experiencia, certificaciones, dedicación, jornada, presencialidad, funciones, sustitución | ENCONTRADO EN EL PLIEGO | Detallados por perfil, experiencia mínima, certificaciones deseables, dedicación, presencialidad/remoto, funciones, sustitución, inglés | DOC20240806095753Pliegodefinitivofirmado.pdf, p.63-72 |\n| ROLECE/clasificación | Exigencia, grupo, subgrupo, categoría, vigencia, inscripción, acreditación | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo V |\n\n# Registro documental de preventa\n| Materia | Requisito completo | Fuente |\n|--------|-------------------|--------|\n| Hardware y productos | El adjudicatario debe administrar y mantener la infraestructura de virtualización y puesto de trabajo, incluyendo ThinClient HP (>12.000), servidores Cisco UCS, cabinas NetApp, dispositivos de movilidad (PDA Honeywell, Zebra, Samsung, Apple, Zelenza), servidores virtuales Citrix y Azure, y otros periféricos, siendo el cliente el titular de los equipos y el adjudicatario responsable de su administración y soporte. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.34-45 |\n| Software y licencias | El adjudicatario debe administrar herramientas de gestión (SCCM, HPDM, MDT, DA, INTUNE, MDM), plataformas MDM Workspace One UEM (OnPremise y migración a SaaS), PoST (Remedy ITSM), Microsoft Teams y Office 365, siendo el cliente el titular de las plataformas y el adjudicatario responsable de su administración y de aportar licencias para sus propios medios. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.42,45,56,72 |\n| Fabricantes, canal y cartas | No se exige carta de fabricante, partnership ni canal autorizado, pero el adjudicatario debe disponer de soporte experto de fabricantes (Microsoft, NetApp, Cisco, Citrix, etc.) bajo demanda si no dispone de perfil interno adecuado. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.63,71 |\n| Subcontratación y UTE | Se permite la subcontratación parcial, salvo para tareas críticas (gestión y coordinación del servicio), debiendo declararse en la oferta la parte subcontratada, importe y subcontratista, y requerir autorización previa para subcontratación posterior. UTE permitida con declaración de compromiso y reparto en oferta. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.11,25 |\n| Cadena de suministro | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna descripción o condicionamiento contractual específico sobre la cadena de suministro, logística de aprovisionamiento, lead time, reposición, EOL/EOS, homologaciones, sostenibilidad, staging, retirada o destrucción de equipos. | NO CONSTA |\n| SLA, garantías y soporte | El adjudicatario debe liderar el diagnóstico de incidencias y tener capacidad de involucrar a soportes de fabricantes cuando se requiera. No se exige SLA back-to-back ni garantía de fabricante específica. Garantía general del servicio: 3 meses desde la recepción de conformidad. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.28,63,Anexo XVII |\n| Logística y retirada | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna obligación específica sobre stock mínimo, logística de entrega, staging, retirada o destrucción de equipos, salvo la obligación de preparar, empaquetar y enviar material de movilidad a centros de Correos/CEX según necesidades. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.49 |\n| Ambigüedades y datos no localizados | No se localizan requisitos de carta de fabricante, partnership, canal autorizado ni equivalencias técnicas mínimas. No se describen condiciones de stock, lead time, EOL/EOS, homologaciones, sostenibilidad, ni cadena de suministro. No se exige explícitamente la compra de hardware/software/SaaS por el adjudicatario para el cliente, salvo los medios propios para su personal. No se establecen SLA de fabricante ni back-to-back contractuales. No se exige staging, retirada ni destrucción de equipos, salvo la reversión documental y de conocimiento. | NO CONSTA |\n| Documentos revisados | 1. ANEXO I.pdf; 2. Anuncio.pdf; 3. DOC20240806095753Pliegodefinitivofirmado.pdf; 4. DOC_CD2024-000901195.pdf; 5. poc (detalle licitación); 6. poc (perfil contratante); 7. CORREOS-Codigo-General-de-Conducta.pdf (NO LEÍDO, ERROR 404); 8. perfil-contratante; 9. PoliticaProteccionDatosCanalEticoClientesyProveedores--ES.pdf | Índice obligatorio |\n\n# Discrepancias y pendientes de aclaración\n- No se han identificado discrepancias en la documentación revisada.\n- El documento CORREOS-Codigo-General-de-Conducta.pdf no ha podido ser leído (error 404), por lo que cualquier obligación específica contenida en él queda pendiente de verificación documental."
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "ANEXO I.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 108608,
+        "caracteres_enviados_al_agente": 108608,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Anuncio.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 8853,
+        "caracteres_enviados_al_agente": 8853,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 300656,
+        "caracteres_enviados_al_agente": 300656,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 4,
+        "nombre": "DOC_CD2024-000901195.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 8376,
+        "caracteres_enviados_al_agente": 8376,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 5,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "Anuncio.pdf",
+        "caracteres_extraidos": 5053,
+        "caracteres_enviados_al_agente": 5053,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 6,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "Anuncio.pdf",
+        "caracteres_extraidos": 3234,
+        "caracteres_enviados_al_agente": 3234,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 7,
+        "nombre": "CORREOS-Codigo-General-de-Conducta.pdf",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 0,
+        "caracteres_enviados_al_agente": 0,
+        "texto_compactado": false,
+        "error": "404 Client Error: The specified blob does not exist. for url: https://cswetwebcorsta01.blob.core.windows.net/uploads/2022/01/CORREOS-Codigo-General-de-Conducta.pdf"
+      },
+      {
+        "numero": 8,
+        "nombre": "perfil-contratante",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 84908,
+        "caracteres_enviados_al_agente": 84908,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 9,
+        "nombre": "PoliticaProteccionDatosCanalEticoClientesyProveedores--ES.pdf",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 13833,
+        "caracteres_enviados_al_agente": 13833,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Documento no leido: CORREOS-Codigo-General-de-Conducta.pdf: 404 Client Error: The specified blob does not exist. for url: https://cswetwebcorsta01.blob.core.windows.net/uploads/2022/01/CORREOS-Codigo-General-de-Conducta.pdf",
+      "Se omitieron 22 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  },
+  "puntos_revision": [
+    {
+      "id": "REV-001",
+      "tipo": "verificacion_documental",
+      "estado": "pendiente_de_revision",
+      "titulo": "Documentación y otras condiciones pendientes",
+      "prioridad": "alta",
+      "detalle": "Revisar documentación y otras condiciones pendientes: 10 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-001.01",
+          "tipo": "verificacion_documental",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "El documento CORREOS-Codigo-General-de-Conducta.pdf no ha podido ser leído (error 404), por lo que cualquier obligación específica contenida en él queda pendiente de verificación documental.",
+          "evidencia": "- El documento CORREOS-Codigo-General-de-Conducta.pdf no ha podido ser leído (error 404), por lo que cualquier obligación específica contenida en él queda pendiente de verificación documental.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Software, SaaS y licencias",
+          "detalle": "| PoST (Remedy ITSM) | BMC | NO CONSTA | Ticketing, activos, ANS | NO CONSTA | Cliente (uso obligatorio por adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.56 |",
+          "evidencia": "| PoST (Remedy ITSM) | BMC | NO CONSTA | Ticketing, activos, ANS | NO CONSTA | Cliente (uso obligatorio por adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.56 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.03",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Productos, hardware y materiales",
+          "detalle": "| ThinClient HP | >12.000 | Windows7/Windows IOT 10/Otros | HP | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.34 |",
+          "evidencia": "| ThinClient HP | >12.000 | Windows7/Windows IOT 10/Otros | HP | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.34 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.04",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Productos, hardware y materiales",
+          "detalle": "| Servidores UCS B200 M5/M4 | 32/48 | Cisco UCS | Cisco | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.35 |",
+          "evidencia": "| Servidores UCS B200 M5/M4 | 32/48 | Cisco UCS | Cisco | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.35 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.05",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Productos, hardware y materiales",
+          "detalle": "| Cabinas NetApp FAS8020/AFF8040 | 4 | 2 FAS8020, 2 AFF8040 | NetApp | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.35 |",
+          "evidencia": "| Cabinas NetApp FAS8020/AFF8040 | 4 | 2 FAS8020, 2 AFF8040 | NetApp | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.35 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.06",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Productos, hardware y materiales",
+          "detalle": "| Dispositivos movilidad (PDA, smartphones, tablets) | 34.000+ | Modelos Honeywell, Zebra, Samsung, Xiaomi, Apple, Zelenza | Ver detalle | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.45 |",
+          "evidencia": "| Dispositivos movilidad (PDA, smartphones, tablets) | 34.000+ | Modelos Honeywell, Zebra, Samsung, Xiaomi, Apple, Zelenza | Ver detalle | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.45 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.07",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Software, SaaS y licencias",
+          "detalle": "| SCCM, HPDM, MDT, DA, INTUNE, MDM | Microsoft, HP, otros | NO CONSTA | Virtual, físico, movilidad | NO CONSTA | Cliente (administración a cargo adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.42 |",
+          "evidencia": "| SCCM, HPDM, MDT, DA, INTUNE, MDM | Microsoft, HP, otros | NO CONSTA | Virtual, físico, movilidad | NO CONSTA | Cliente (administración a cargo adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.42 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.08",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Software, SaaS y licencias",
+          "detalle": "| Workspace One UEM | VmWare | 3 entornos | OnPremise, migración a SaaS | NO CONSTA | Cliente (administración a cargo adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.45 |",
+          "evidencia": "| Workspace One UEM | VmWare | 3 entornos | OnPremise, migración a SaaS | NO CONSTA | Cliente (administración a cargo adjudicatario) | DOC20240806095753Pliegodefinitivofirmado.pdf, p.45 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.09",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Software, SaaS y licencias",
+          "detalle": "| Microsoft Teams, Office 365 | Microsoft | NO CONSTA | Comunicación | NO CONSTA | Adjudicatario | DOC20240806095753Pliegodefinitivofirmado.pdf, p.72 |",
+          "evidencia": "| Microsoft Teams, Office 365 | Microsoft | NO CONSTA | Comunicación | NO CONSTA | Adjudicatario | DOC20240806095753Pliegodefinitivofirmado.pdf, p.72 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.10",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No se han identificado discrepancias en la documentación revisada.",
+          "evidencia": "- No se han identificado discrepancias en la documentación revisada.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-002",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Admisión, solvencia y acreditaciones",
+      "prioridad": "alta",
+      "detalle": "Revisar admisión, solvencia y acreditaciones: 8 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-002.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Requisitos IA - Fuentes para proyecto viabilidad",
+          "detalle": "Parámetro: Seguro RC/riesgos profesionales; Subcampos pedidos: Importe, actividad, asegurador, inicio, fin, vigencia, cobertura, renovación; Estado del pliego: NO CONSTA EN LA DOCUMENTACION REVISADA; Dato/literal localizado: NO CONSTA; Documento y apartado/página: DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo V",
+          "evidencia": "| Seguro RC/riesgos profesionales | Importe, actividad, asegurador, inicio, fin, vigencia, cobertura, renovación | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo V |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Trazabilidad",
+          "detalle": "Requisito/dato: SLA fabricante/back-to-back; Tipo: SLA; Valor/condición: NO CONSTA; Documento: NO CONSTA; Página/apartado: NO CONSTA; Estado de lectura: NO CONSTA",
+          "evidencia": "| SLA fabricante/back-to-back | SLA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.03",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Ambigüedades y datos no localizados; Requisito completo: No se localizan requisitos de carta de fabricante, partnership, canal autorizado ni equivalencias técnicas mínimas. No se describen condiciones de stock, lead time, EOL/EOS, homologaciones, sostenibilidad, ni cadena de suministro. No se exige explícitamente la compra de hardware/software/SaaS por el adjudicatario para el cliente, salvo los medios propios para su personal. No se establecen SLA de fabricante ni back-to-back contractuales. No se exige staging, retirada ni destrucción de equipos, salvo la reversión documental y de conocimiento.; Fuente: NO CONSTA",
+          "evidencia": "| Ambigüedades y datos no localizados | No se localizan requisitos de carta de fabricante, partnership, canal autorizado ni equivalencias técnicas mínimas. No se describen condiciones de stock, lead time, EOL/EOS, homologaciones, sostenibilidad, ni cadena de suministro. No se exige explícitamente la compra de hardware/software/SaaS por el adjudicatario para el cliente, salvo los medios propios para su personal. No se establecen SLA de fabricante ni back-to-back contractuales. No se exige staging, retirada ni destrucción de equipos, salvo la reversión documental y de conocimiento. | NO CONSTA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.04",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Fabricantes, canal y cartas",
+          "detalle": "| NO CONSTA | Carta de fabricante, partner, canal | NO CONSTA | NO CONSTA | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "evidencia": "| NO CONSTA | Carta de fabricante, partner, canal | NO CONSTA | NO CONSTA | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.05",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Ambigüedades y datos no localizados",
+          "detalle": "No se localizan requisitos de carta de fabricante, partnership, canal autorizado ni equivalencias técnicas mínimas.",
+          "evidencia": "- No se localizan requisitos de carta de fabricante, partnership, canal autorizado ni equivalencias técnicas mínimas.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.06",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Requisitos IA - Fuentes para proyecto viabilidad",
+          "detalle": "Parámetro: Patrimonio neto/ratios; Subcampos pedidos: Ejercicio, activos, pasivos, fórmula, resultado, umbral, acreditación; Estado del pliego: NO CONSTA EN LA DOCUMENTACION REVISADA; Dato/literal localizado: NO CONSTA; Documento y apartado/página: DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo V",
+          "evidencia": "| Patrimonio neto/ratios | Ejercicio, activos, pasivos, fórmula, resultado, umbral, acreditación | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo V |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.07",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Requisitos IA - Fuentes para proyecto viabilidad",
+          "detalle": "Parámetro: Fabricantes/partnerships; Subcampos pedidos: Fabricante, nivel, especialización, carta, expiración, acreditación; Estado del pliego: NO CONSTA EN LA DOCUMENTACION REVISADA; Dato/literal localizado: NO CONSTA; Documento y apartado/página: DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I",
+          "evidencia": "| Fabricantes/partnerships | Fabricante, nivel, especialización, carta, expiración, acreditación | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.08",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Requisitos IA - Fuentes para proyecto viabilidad",
+          "detalle": "Parámetro: ROLECE/clasificación; Subcampos pedidos: Exigencia, grupo, subgrupo, categoría, vigencia, inscripción, acreditación; Estado del pliego: NO CONSTA EN LA DOCUMENTACION REVISADA; Dato/literal localizado: NO CONSTA; Documento y apartado/página: DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo V",
+          "evidencia": "| ROLECE/clasificación | Exigencia, grupo, subgrupo, categoría, vigencia, inscripción, acreditación | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo V |",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-003",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Equipo, medios y ejecución del servicio",
+      "prioridad": "media",
+      "detalle": "Revisar equipo, medios y ejecución del servicio: 7 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-003.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Productos, hardware y materiales",
+          "detalle": "| Ordenador personal técnicos | 1 por técnico | Portátil, Intel i5 9ª gen, SSD, 8/16GB RAM | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.72 |",
+          "evidencia": "| Ordenador personal técnicos | 1 por técnico | Portátil, Intel i5 9ª gen, SSD, 8/16GB RAM | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | DOC20240806095753Pliegodefinitivofirmado.pdf, p.72 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-003.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Cadena de suministro y dependencias contractuales descritas",
+          "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna descripción o condicionamiento contractual específico sobre la cadena de suministro, logística de aprovisionamiento, lead time, reposición, EOL/EOS, homologaciones, sostenibilidad, staging, retirada o destrucción de equipos.",
+          "evidencia": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna descripción o condicionamiento contractual específico sobre la cadena de suministro, logística de aprovisionamiento, lead time, reposición, EOL/EOS, homologaciones, sostenibilidad, staging, retirada o destrucción de equipos.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-003.03",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Logística, staging, stock, entrega, retirada y destrucción",
+          "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna obligación específica sobre stock mínimo, logística de entrega, staging, retirada o destrucción de equipos, salvo la obligación de preparar, empaquetar y enviar material de movilidad a centros de Correos/CEX según necesidades (DOC20240806095753Pliegodefinitivofirmado.pdf, p.49).",
+          "evidencia": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna obligación específica sobre stock mínimo, logística de entrega, staging, retirada o destrucción de equipos, salvo la obligación de preparar, empaquetar y enviar material de movilidad a centros de Correos/CEX según necesidades (DOC20240806095753Pliegodefinitivofirmado.pdf, p.49).",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-003.04",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Cadena de suministro; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA ninguna descripción o condicionamiento contractual específico sobre la cadena de suministro, logística de aprovisionamiento, lead time, reposición, EOL/EOS, homologaciones, sostenibilidad, staging, retirada o destrucción de equipos.; Fuente: NO CONSTA",
+          "evidencia": "| Cadena de suministro | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna descripción o condicionamiento contractual específico sobre la cadena de suministro, logística de aprovisionamiento, lead time, reposición, EOL/EOS, homologaciones, sostenibilidad, staging, retirada o destrucción de equipos. | NO CONSTA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-003.05",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Logística y retirada; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA ninguna obligación específica sobre stock mínimo, logística de entrega, staging, retirada o destrucción de equipos, salvo la obligación de preparar, empaquetar y enviar material de movilidad a centros de Correos/CEX según necesidades.; Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf, p.49",
+          "evidencia": "| Logística y retirada | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna obligación específica sobre stock mínimo, logística de entrega, staging, retirada o destrucción de equipos, salvo la obligación de preparar, empaquetar y enviar material de movilidad a centros de Correos/CEX según necesidades. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.49 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-003.06",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Fabricantes, canal y cartas",
+          "detalle": "| Microsoft, NetApp, Cisco, Citrix | Soporte experto bajo demanda | NO CONSTA carta/partner obligatoria | Durante ejecución, si se requiere conocimiento experto | DOC20240806095753Pliegodefinitivofirmado.pdf, p.63 |",
+          "evidencia": "| Microsoft, NetApp, Cisco, Citrix | Soporte experto bajo demanda | NO CONSTA carta/partner obligatoria | Durante ejecución, si se requiere conocimiento experto | DOC20240806095753Pliegodefinitivofirmado.pdf, p.63 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-003.07",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Trazabilidad",
+          "detalle": "Requisito/dato: Stock/logística/retirada; Tipo: Logística; Valor/condición: NO CONSTA; Documento: NO CONSTA; Página/apartado: NO CONSTA; Estado de lectura: NO CONSTA",
+          "evidencia": "| Stock/logística/retirada | Logística | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |",
+          "origen": "salida_del_agente"
+        }
+      ]
+    }
+  ],
+  "recomendaciones": [],
+  "estado_recomendaciones": "no_generadas"
+}

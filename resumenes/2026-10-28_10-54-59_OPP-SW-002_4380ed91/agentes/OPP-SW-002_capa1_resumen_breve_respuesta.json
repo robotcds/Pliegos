@@ -1,0 +1,103 @@
+{
+  "expediente": "OPP-SW-002",
+  "id": "A1",
+  "nombre": "Resumen breve",
+  "capa": 1,
+  "contenido": {
+    "resumen": [
+      "Expediente OPP-SW-002 (Agencia Ficticia de Innovación Pública): plataforma de IA para clasificación y búsqueda documental en expedientes administrativos. [Pliego adm., Pliego téc., Anexo solv.]",
+      "Presupuesto base: 822.800 EUR (IVA incl.), valor estimado: 680.000 EUR (sin IVA). [Pliego adm.]",
+      "Duración prevista: 14 meses. [Pliego adm.]",
+      "Plazo de presentación de ofertas (fase presentación): hasta 22/09/2026 a las 14:00. [Pliego adm.]",
+      "Documentación y criterios: equipo mínimo, solvencia, certificaciones, arquitectura IA, plan de datos, oferta económica. [Pliego adm., Pliego téc., Anexo solv.]",
+      "No constan documentos no leídos ni avisos técnicos."
+    ],
+    "secciones": [
+      {
+        "titulo": "Contenido inicial",
+        "parrafos": [
+          "No constan documentos no leídos ni avisos técnicos."
+        ],
+        "elementos": [
+          "Expediente OPP-SW-002 (Agencia Ficticia de Innovación Pública): plataforma de IA para clasificación y búsqueda documental en expedientes administrativos. [Pliego adm., Pliego téc., Anexo solv.]",
+          "Presupuesto base: 822.800 EUR (IVA incl.), valor estimado: 680.000 EUR (sin IVA). [Pliego adm.]",
+          "Duración prevista: 14 meses. [Pliego adm.]",
+          "Plazo de presentación de ofertas (fase presentación): hasta 22/09/2026 a las 14:00. [Pliego adm.]",
+          "Documentación y criterios: equipo mínimo, solvencia, certificaciones, arquitectura IA, plan de datos, oferta económica. [Pliego adm., Pliego téc., Anexo solv.]"
+        ],
+        "tablas": []
+      }
+    ],
+    "pendientes_y_no_localizados": [
+      {
+        "seccion": "Contenido inicial",
+        "texto": "No constan documentos no leídos ni avisos técnicos."
+      }
+    ],
+    "trazabilidad": [],
+    "salida_original": "• Expediente OPP-SW-002 (Agencia Ficticia de Innovación Pública): plataforma de IA para clasificación y búsqueda documental en expedientes administrativos. [Pliego adm., Pliego téc., Anexo solv.]\n• Presupuesto base: 822.800 EUR (IVA incl.), valor estimado: 680.000 EUR (sin IVA). [Pliego adm.]\n• Duración prevista: 14 meses. [Pliego adm.]\n• Plazo de presentación de ofertas (fase presentación): hasta 22/09/2026 a las 14:00. [Pliego adm.]\n• Documentación y criterios: equipo mínimo, solvencia, certificaciones, arquitectura IA, plan de datos, oferta económica. [Pliego adm., Pliego téc., Anexo solv.]\nNo constan documentos no leídos ni avisos técnicos."
+  },
+  "ejecucion": "4380ed9187ae498095018db97cbc629c",
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "Pliego administrativo OPP-SW-002 IA documental",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 4914,
+        "caracteres_enviados_al_agente": 4914,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Pliego tecnico OPP-SW-002 IA documental",
+        "tipo": "Pliego tecnico",
+        "fuente": "XML",
+        "caracteres_extraidos": 4092,
+        "caracteres_enviados_al_agente": 4092,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "Anexo solvencia OPP-SW-002 IA documental",
+        "tipo": "Documento general",
+        "fuente": "XML",
+        "caracteres_extraidos": 834,
+        "caracteres_enviados_al_agente": 834,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": []
+  },
+  "puntos_revision": [
+    {
+      "id": "REV-001",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Documentación y otras condiciones pendientes",
+      "prioridad": "media",
+      "detalle": "Revisar documentación y otras condiciones pendientes: 1 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-001.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "No constan documentos no leídos ni avisos técnicos.",
+          "evidencia": "No constan documentos no leídos ni avisos técnicos.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    }
+  ],
+  "recomendaciones": [],
+  "estado_recomendaciones": "no_generadas"
+}

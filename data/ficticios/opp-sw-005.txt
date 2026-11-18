@@ -1,0 +1,33 @@
+PLIEGO TECNICO FICTICIO OPP-SW-005
+Proyecto: Cuadro de mando BI para seguimiento de expedientes.
+
+Objeto:
+Desarrollo de un sistema de indicadores para seguimiento de expedientes, contratos, plazos y cargas de trabajo. Incluye extraccion desde bases de datos existentes, modelo dimensional, dashboards Power BI, control de calidad de datos y formacion a usuarios gestores.
+
+Solvencia tecnica y equipo minimo:
+- Especialista BI/datos con al menos 4 anos en ETL, SQL, modelado dimensional y Power BI.
+- Analista funcional con al menos 5 anos en toma de requisitos, definicion de KPIs y validacion con usuarios.
+- Desarrollador backend con al menos 4 anos en APIs e integraciones.
+- Se valorara experiencia en administracion publica y contratacion publica.
+
+Entregables:
+Mapa de fuentes, diccionario de datos, procesos ETL, cuadros de mando, plan de calidad, manual funcional y sesiones de formacion.
+
+Service Design / ITIL:
+El servicio incluye soporte y operacion del cuadro de mando durante 6 meses tras la puesta en produccion. Alcance: 35 usuarios gestores, 8 fuentes de datos, 12 dashboards y cargas ETL diarias.
+Modelo exigido: soporte N2 remoto, gestion de incidencias, peticiones de informes, cambios menores y gestion de conocimiento. No se exige ITIL formal, pero si procedimientos documentados.
+SLA: incidencias que impidan visualizar indicadores criticos respuesta <= 2 horas y resolucion <= 1 dia en 8x5; errores de datos no criticos resolucion <= 3 dias; peticiones de nuevos indicadores <= 10 dias previa aprobacion.
+Reporting: informe mensual de ejecucion ETL, errores de calidad, tickets, peticiones, cambios y satisfaccion de usuarios. Objetivo de satisfaccion >= 4/5.
+Transicion: 3 semanas con formacion, runbooks ETL, traspaso de diccionario de datos y manuales. Reversibilidad de 1 semana con exportacion PBIX, scripts ETL y documentacion.
+Automatizacion: se valoran alertas automaticas de fallos ETL y autoservicio de consultas frecuentes.
+
+Seguridad / DPO / ENS:
+El cuadro de mando tratara datos de expedientes, usuarios gestores, trazas de acceso y datos economicos agregados. No se preve tratamiento de categorias especiales.
+ENS: declaracion de conformidad BASICA suficiente si el alojamiento lo presta el cliente; si el adjudicatario aloja la solucion, se exigira ENS MEDIA en el entorno cloud.
+Rol RGPD: encargado del tratamiento para soporte, ETL y mantenimiento. Se requiere anexo de encargado y registro de accesos a fuentes.
+Medidas: cifrado TLS, RBAC por perfil, MFA para administradores, separacion de datasets por area, logs de acceso y cambios retenidos 12 meses, backup diario y restauracion mensual de prueba.
+Cloud y transferencias: datos dentro de UE. No se permiten herramientas de BI SaaS fuera de UE. Subencargados comunicados con 30 dias.
+Desarrollo seguro: control de secretos en scripts ETL, revision de permisos en Power BI y validacion de exportaciones para evitar fuga de datos.
+
+Criterios:
+Modelo de datos y KPIs 50 puntos, oferta economica 35 puntos y plan de formacion 15 puntos.

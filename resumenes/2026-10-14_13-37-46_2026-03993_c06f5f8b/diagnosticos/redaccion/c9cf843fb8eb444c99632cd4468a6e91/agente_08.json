@@ -1,0 +1,1180 @@
+{
+  "orden": 8,
+  "id": "A10",
+  "nombre": "Compras, proveedores y colaboradores",
+  "tipo": "extraccion",
+  "ejecucion": "c06f5f8bbb5f4552801ec2cb610a219f",
+  "estado": "completado",
+  "contenido": {
+    "resumen": [
+      "La licitación exige al adjudicatario el suministro, operación y mantenimiento de una solución SaaS de inteligencia meteorológica y gestión de riesgos naturales para la operación ferroviaria, incluyendo suscripciones, acceso a módulos funcionales, soporte, formación, documentación, integración técnica y cumplimiento de requisitos de seguridad y continuidad. No se exige hardware físico ni productos materiales para el cliente, pero sí recursos cloud, licencias, herramientas de seguridad y software comercial para la prestación del servicio. El adjudicatario debe aportar todos los elementos necesarios para la prestación, sin que puedan trasladarse costes no previstos. Se permite subcontratación bajo condiciones de cumplimiento normativo y seguridad, y la UTE es admitida bajo compromiso formal. La cadena de suministro está condicionada por requisitos de seguridad, evaluación periódica y trazabilidad. Se exige certificación ENS nivel medio y, en su caso, ISO 27001. Los SLA, garantías y soporte están definidos en el pliego técnico y administrativo, con penalizaciones por incumplimiento. No se identifican fabricantes obligatorios, pero sí alineamiento con marcas de seguridad en explotación en Renfe, salvo justificación técnica. No se exige carta de fabricante ni partnership nominal. La logística, retirada y destrucción de datos están reguladas por planes de salida y certificación de destrucción. No se localizan requisitos de stock físico ni staging.",
+      "El adjudicatario debe completar el cuestionario de evaluación de seguridad de la cadena de suministro dentro de los 30 días posteriores al envío por parte de Renfe y actualizarlo anualmente. (ANEXO I, pág. 24, 28)",
+      "La subcontratación está condicionada a que el subcontratista cumpla totalmente con las obligaciones existentes entre Renfe y el adjudicatario, incluidas las obligaciones de seguridad y protección de datos. (ANEXO I, pág. 28)",
+      "Trazabilidad, inventario y supervisión de activos, procesos y registros de la cadena de suministro. (ANEXO I, pág. 26-28)",
+      "El adjudicatario garantizará la continuidad, calidad y correcto funcionamiento del servicio durante toda la vigencia contractual. (ANEXO I, pág. 16)",
+      "Servicio mínimo de atención: 8 horas diarias, 7 días a la semana. (ANEXO I, pág. 16)",
+      "Centro de soporte accesible por portal, correo electrónico y atención telefónica para incidencias críticas. (ANEXO I, pág. 16)",
+      "Clasificación de incidencias: crítica, alta, media, baja; tiempos de respuesta, restauración y resolución definidos en acuerdo de nivel de servicio (SLA) aprobado para el contrato. (ANEXO I, pág. 16)",
+      "Garantía técnica durante toda la vigencia de la prestación: disponibilidad, corrección de defectos, funcionamiento de integraciones, actualización de datos y conservación de configuraciones. (ANEXO I, pág. 21-22)",
+      "Penalizaciones por incumplimiento de SLA y calidad del servicio: hasta el 10% del importe total del contrato, según gravedad. (PCP, pág. 29-30)",
+      "No se exige stock físico ni staging de equipos o materiales. (NO CONSTA EN LA DOCUMENTACION REVISADA)",
+      "Plan de salida y destrucción de datos: devolución y destrucción segura de información, certificado de destrucción, procedimiento conforme ENS. (ANEXO I, pág. 28, 39)"
+    ],
+    "secciones": [
+      {
+        "titulo": "1. Resumen factual",
+        "parrafos": [
+          "La licitación exige al adjudicatario el suministro, operación y mantenimiento de una solución SaaS de inteligencia meteorológica y gestión de riesgos naturales para la operación ferroviaria, incluyendo suscripciones, acceso a módulos funcionales, soporte, formación, documentación, integración técnica y cumplimiento de requisitos de seguridad y continuidad. No se exige hardware físico ni productos materiales para el cliente, pero sí recursos cloud, licencias, herramientas de seguridad y software comercial para la prestación del servicio. El adjudicatario debe aportar todos los elementos necesarios para la prestación, sin que puedan trasladarse costes no previstos. Se permite subcontratación bajo condiciones de cumplimiento normativo y seguridad, y la UTE es admitida bajo compromiso formal. La cadena de suministro está condicionada por requisitos de seguridad, evaluación periódica y trazabilidad. Se exige certificación ENS nivel medio y, en su caso, ISO 27001. Los SLA, garantías y soporte están definidos en el pliego técnico y administrativo, con penalizaciones por incumplimiento. No se identifican fabricantes obligatorios, pero sí alineamiento con marcas de seguridad en explotación en Renfe, salvo justificación técnica. No se exige carta de fabricante ni partnership nominal. La logística, retirada y destrucción de datos están reguladas por planes de salida y certificación de destrucción. No se localizan requisitos de stock físico ni staging."
+        ],
+        "elementos": [],
+        "tablas": []
+      },
+      {
+        "titulo": "2. Mapa de suministros y terceros",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Elemento/necesidad",
+              "Tipo",
+              "Cantidad/volumen",
+              "Especificación",
+              "Quien debe aportarlo",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Elemento/necesidad": "Solución SaaS de inteligencia meteorológica",
+                "Tipo": "Software/SaaS",
+                "Cantidad/volumen": "Completa",
+                "Especificación": "Acceso web, módulos funcionales, integración, soporte, formación",
+                "Quien debe aportarlo": "Adjudicatario",
+                "Fuente": "ANEXO I, pág. 3-4"
+              },
+              {
+                "Elemento/necesidad": "Suscripciones a plataforma SaaS",
+                "Tipo": "Licencia/SaaS",
+                "Cantidad/volumen": "Mínimo 15 usuarios nominativos, ampliables",
+                "Especificación": "Perfiles diferenciados, acceso web seguro, módulos de simulación",
+                "Quien debe aportarlo": "Adjudicatario",
+                "Fuente": "ANEXO I, pág. 4"
+              },
+              {
+                "Elemento/necesidad": "Recursos cloud (alojamiento, almacenamiento, proceso, backup)",
+                "Tipo": "Infraestructura cloud",
+                "Cantidad/volumen": "Suficiente para servicio",
+                "Especificación": "Incluye copias de seguridad, actualizaciones, comunicaciones",
+                "Quien debe aportarlo": "Adjudicatario",
+                "Fuente": "ANEXO I, pág. 4"
+              },
+              {
+                "Elemento/necesidad": "Acceso a fuentes meteorológicas y geoespaciales",
+                "Tipo": "Servicio/datos",
+                "Cantidad/volumen": "Completo",
+                "Especificación": "Integración de fuentes oficiales y terceros autorizados",
+                "Quien debe aportarlo": "Adjudicatario",
+                "Fuente": "ANEXO I, pág. 5-6"
+              },
+              {
+                "Elemento/necesidad": "Herramientas de seguridad (FW, IDS/IPS, antimalware, DLP, WAF, CASB, CWPP, proxys)",
+                "Tipo": "Software comercial",
+                "Cantidad/volumen": "Según arquitectura",
+                "Especificación": "Alineamiento con marcas en explotación en Renfe, salvo justificación",
+                "Quien debe aportarlo": "Adjudicatario",
+                "Fuente": "ANEXO I, pág. 34-35"
+              },
+              {
+                "Elemento/necesidad": "Certificación ENS nivel medio",
+                "Tipo": "Certificación",
+                "Cantidad/volumen": "ENS Medio",
+                "Especificación": "Obligatoria para sistemas de información",
+                "Quien debe aportarlo": "Adjudicatario",
+                "Fuente": "ANEXO I, pág. 24, 28"
+              },
+              {
+                "Elemento/necesidad": "Certificación ISO 27001 o equivalente",
+                "Tipo": "Certificación",
+                "Cantidad/volumen": "ISO 27001",
+                "Especificación": "Obligatoria para empresa",
+                "Quien debe aportarlo": "Adjudicatario",
+                "Fuente": "PCP, pág. 20"
+              },
+              {
+                "Elemento/necesidad": "Evaluación de seguridad de cadena de suministro",
+                "Tipo": "Procedimiento",
+                "Cantidad/volumen": "Anual y a los 30 días de requerimiento",
+                "Especificación": "Cuestionario, trazabilidad, actualización anual",
+                "Quien debe aportarlo": "Adjudicatario",
+                "Fuente": "ANEXO I, pág. 24, 28"
+              },
+              {
+                "Elemento/necesidad": "Plan de salida y destrucción de datos",
+                "Tipo": "Procedimiento",
+                "Cantidad/volumen": "Al cierre",
+                "Especificación": "Certificado de destrucción, devolución de datos",
+                "Quien debe aportarlo": "Adjudicatario",
+                "Fuente": "ANEXO I, pág. 28, 39"
+              },
+              {
+                "Elemento/necesidad": "Bolsa de horas para soporte especializado",
+                "Tipo": "Servicio",
+                "Cantidad/volumen": "350 UT/año",
+                "Especificación": "Soporte, desarrollos, integraciones, formación adicional",
+                "Quien debe aportarlo": "Adjudicatario",
+                "Fuente": "ANEXO I, pág. 19"
+              },
+              {
+                "Elemento/necesidad": "Subcontratación de servicios",
+                "Tipo": "Medios externos",
+                "Cantidad/volumen": "Según necesidad",
+                "Especificación": "Cumplimiento normativo, seguridad, declaración y autorización",
+                "Quien debe aportarlo": "Adjudicatario",
+                "Fuente": "PCP, pág. 33; ANEXO I, pág. 28"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "3. Productos, hardware y materiales",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Producto",
+              "Cantidad",
+              "Características",
+              "Fabricante/referencia",
+              "Equivalente permitido",
+              "Garantía/soporte",
+              "Stock/plazo",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Producto": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Cantidad": "",
+                "Características": "",
+                "Fabricante/referencia": "",
+                "Equivalente permitido": "",
+                "Garantía/soporte": "",
+                "Stock/plazo": "",
+                "Fuente": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "4. Software, SaaS y licencias",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Producto",
+              "Fabricante",
+              "Metrica/cantidad",
+              "Entornos",
+              "Duración",
+              "Quien lo aporta",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Producto": "Solución SaaS de inteligencia meteorológica",
+                "Fabricante": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Metrica/cantidad": "Mínimo 15 usuarios nominativos, ampliables",
+                "Entornos": "Web/cloud",
+                "Duración": "24 meses",
+                "Quien lo aporta": "Adjudicatario",
+                "Fuente": "ANEXO I, pág. 4"
+              },
+              {
+                "Producto": "Módulo simulación incendios forestales",
+                "Fabricante": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Metrica/cantidad": "Incluido en suscripción",
+                "Entornos": "Web/cloud",
+                "Duración": "24 meses",
+                "Quien lo aporta": "Adjudicatario",
+                "Fuente": "ANEXO I, pág. 4, 12"
+              },
+              {
+                "Producto": "Módulo simulación inundaciones",
+                "Fabricante": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Metrica/cantidad": "Incluido en suscripción",
+                "Entornos": "Web/cloud",
+                "Duración": "24 meses",
+                "Quien lo aporta": "Adjudicatario",
+                "Fuente": "ANEXO I, pág. 4, 13"
+              },
+              {
+                "Producto": "Herramientas de seguridad (FW, IDS/IPS, antimalware, DLP, WAF, CASB, CWPP, proxys)",
+                "Fabricante": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Metrica/cantidad": "Según arquitectura",
+                "Entornos": "Cloud/infraestructura",
+                "Duración": "24 meses",
+                "Quien lo aporta": "Adjudicatario",
+                "Fuente": "ANEXO I, pág. 34-35"
+              },
+              {
+                "Producto": "Certificación ENS Medio",
+                "Fabricante": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Metrica/cantidad": "Obligatoria para sistemas",
+                "Entornos": "Cloud/infraestructura",
+                "Duración": "24 meses",
+                "Quien lo aporta": "Adjudicatario",
+                "Fuente": "ANEXO I, pág. 24, 28"
+              },
+              {
+                "Producto": "Certificación ISO 27001",
+                "Fabricante": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Metrica/cantidad": "Obligatoria para empresa",
+                "Entornos": "Cloud/infraestructura",
+                "Duración": "24 meses",
+                "Quien lo aporta": "Adjudicatario",
+                "Fuente": "PCP, pág. 20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "5. Fabricantes, canal y cartas",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Fabricante",
+              "Requisito",
+              "Nivel/certificación/carta exigida",
+              "Momento",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Fabricante": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Requisito": "",
+                "Nivel/certificación/carta exigida": "",
+                "Momento": "",
+                "Fuente": ""
+              },
+              {
+                "Fabricante": "Herramientas de seguridad",
+                "Requisito": "Alineamiento con marcas en explotación en Renfe, salvo justificación técnica",
+                "Nivel/certificación/carta exigida": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Momento": "Ejecución",
+                "Fuente": "ANEXO I, pág. 35"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "6. Subcontratación, UTE y medios externos",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Regla",
+              "Límite/condición",
+              "Declaración/autorización",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Regla": "Subcontratación permitida",
+                "Límite/condición": "Cumplimiento normativo, seguridad, declaración y autorización",
+                "Declaración/autorización": "Declaración y autorización según \"Instrucción\" RENFE",
+                "Fuente": "PCP, pág. 33; ANEXO I, pág. 28"
+              },
+              {
+                "Regla": "UTE permitida",
+                "Límite/condición": "Compromiso formal, declaración responsable, constitución en caso de adjudicación",
+                "Declaración/autorización": "Declaración responsable, compromiso de constitución",
+                "Fuente": "PCP, pág. 6, 8"
+              },
+              {
+                "Regla": "Medios externos permitidos",
+                "Límite/condición": "Puesta a disposición de medios, legitimación notarial, cumplimiento de requisitos",
+                "Declaración/autorización": "Declaración responsable, documentación a requerimiento",
+                "Fuente": "PCP, pág. 17, 20"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "7. Cadena de suministro y dependencias contractuales descritas",
+        "parrafos": [],
+        "elementos": [
+          "El adjudicatario debe completar el cuestionario de evaluación de seguridad de la cadena de suministro dentro de los 30 días posteriores al envío por parte de Renfe y actualizarlo anualmente. (ANEXO I, pág. 24, 28)",
+          "La subcontratación está condicionada a que el subcontratista cumpla totalmente con las obligaciones existentes entre Renfe y el adjudicatario, incluidas las obligaciones de seguridad y protección de datos. (ANEXO I, pág. 28)",
+          "Trazabilidad, inventario y supervisión de activos, procesos y registros de la cadena de suministro. (ANEXO I, pág. 26-28)"
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "8. SLA de proveedor/fabricante, garantías y soporte exigidos",
+        "parrafos": [],
+        "elementos": [
+          "El adjudicatario garantizará la continuidad, calidad y correcto funcionamiento del servicio durante toda la vigencia contractual. (ANEXO I, pág. 16)",
+          "Servicio mínimo de atención: 8 horas diarias, 7 días a la semana. (ANEXO I, pág. 16)",
+          "Centro de soporte accesible por portal, correo electrónico y atención telefónica para incidencias críticas. (ANEXO I, pág. 16)",
+          "Clasificación de incidencias: crítica, alta, media, baja; tiempos de respuesta, restauración y resolución definidos en acuerdo de nivel de servicio (SLA) aprobado para el contrato. (ANEXO I, pág. 16)",
+          "Garantía técnica durante toda la vigencia de la prestación: disponibilidad, corrección de defectos, funcionamiento de integraciones, actualización de datos y conservación de configuraciones. (ANEXO I, pág. 21-22)",
+          "Penalizaciones por incumplimiento de SLA y calidad del servicio: hasta el 10% del importe total del contrato, según gravedad. (PCP, pág. 29-30)"
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "9. Logística, staging, stock, entrega, retirada y destrucción",
+        "parrafos": [],
+        "elementos": [
+          "No se exige stock físico ni staging de equipos o materiales. (NO CONSTA EN LA DOCUMENTACION REVISADA)",
+          "Plan de salida y destrucción de datos: devolución y destrucción segura de información, certificado de destrucción, procedimiento conforme ENS. (ANEXO I, pág. 28, 39)",
+          "Entregables: plan de devolución, exportación de datos, entrega documental y certificado de supresión al cierre. (ANEXO I, pág. 22)"
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "10. Ambigüedades y datos no localizados",
+        "parrafos": [],
+        "elementos": [
+          "No se identifican fabricantes obligatorios, referencias de producto, ni cartas de fabricante o partnership nominal.",
+          "No se especifican marcas, modelos, ediciones, métricas de licencias, ni hardware físico a suministrar.",
+          "No se localizan requisitos de stock, staging, logística física, ni plazos de entrega de materiales.",
+          "No se exige carta de canal, autorización de distribuidor, ni compromiso de suministro de fabricante.",
+          "No se identifican dependencias de suministro fuera de las descritas en seguridad y subcontratación.",
+          "No se especifican SLA de fabricantes externos, solo los del adjudicatario."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "11. Documentos revisados",
+        "parrafos": [],
+        "elementos": [
+          "PCP 2026 03993.pdf (Pliego administrativo)",
+          "ANEXO I 2026 03393 .pdf (Pliego técnico)",
+          "ANEXO III 2026 03993.pdf (Modelo oferta económica)",
+          "ANEXO II 2026 03993.pdf (Modelo declaración responsable)",
+          "ANEXO IV 2026 03993.pdf (Modelo garantía definitiva)",
+          "poc (Documento enlazado, Plataforma Contratación)",
+          "poc (Documento enlazado, Perfil Contratante)",
+          "poc (Documento enlazado, Perfil Contratante)"
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "12. Tabla de trazabilidad",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Requisito/dato",
+              "Tipo",
+              "Valor/condición",
+              "Documento",
+              "Página/apartado",
+              "Estado de lectura"
+            ],
+            "filas": [
+              {
+                "Requisito/dato": "Solución SaaS de inteligencia meteorológica",
+                "Tipo": "Software/SaaS",
+                "Valor/condición": "Completa, acceso web, módulos funcionales, integración, soporte, formación",
+                "Documento": "ANEXO I",
+                "Página/apartado": "3-4",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Suscripciones a plataforma SaaS",
+                "Tipo": "Licencia/SaaS",
+                "Valor/condición": "Mínimo 15 usuarios nominativos, ampliables",
+                "Documento": "ANEXO I",
+                "Página/apartado": "4",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Recursos cloud",
+                "Tipo": "Infraestructura",
+                "Valor/condición": "Suficiente para servicio",
+                "Documento": "ANEXO I",
+                "Página/apartado": "4",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Acceso a fuentes meteorológicas y geoespaciales",
+                "Tipo": "Servicio/datos",
+                "Valor/condición": "Completo",
+                "Documento": "ANEXO I",
+                "Página/apartado": "5-6",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Herramientas de seguridad",
+                "Tipo": "Software comercial",
+                "Valor/condición": "Según arquitectura, alineamiento con marcas en explotación en Renfe, salvo justificación",
+                "Documento": "ANEXO I",
+                "Página/apartado": "34-35",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Certificación ENS nivel medio",
+                "Tipo": "Certificación",
+                "Valor/condición": "Obligatoria para sistemas de información",
+                "Documento": "ANEXO I",
+                "Página/apartado": "24, 28",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Certificación ISO 27001",
+                "Tipo": "Certificación",
+                "Valor/condición": "Obligatoria para empresa",
+                "Documento": "PCP",
+                "Página/apartado": "20",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Evaluación de seguridad de cadena de suministro",
+                "Tipo": "Procedimiento",
+                "Valor/condición": "Anual y a los 30 días de requerimiento",
+                "Documento": "ANEXO I",
+                "Página/apartado": "24, 28",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Plan de salida y destrucción de datos",
+                "Tipo": "Procedimiento",
+                "Valor/condición": "Certificado de destrucción, devolución de datos",
+                "Documento": "ANEXO I",
+                "Página/apartado": "28, 39",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Bolsa de horas para soporte especializado",
+                "Tipo": "Servicio",
+                "Valor/condición": "350 UT/año",
+                "Documento": "ANEXO I",
+                "Página/apartado": "19",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Subcontratación de servicios",
+                "Tipo": "Medios externos",
+                "Valor/condición": "Cumplimiento normativo, seguridad, declaración y autorización",
+                "Documento": "PCP",
+                "Página/apartado": "33; ANEXO I, 28",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "UTE permitida",
+                "Tipo": "Medios externos",
+                "Valor/condición": "Compromiso formal, declaración responsable, constitución en caso de adjudicación",
+                "Documento": "PCP",
+                "Página/apartado": "6, 8",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Medios externos permitidos",
+                "Tipo": "Medios externos",
+                "Valor/condición": "Puesta a disposición de medios, legitimación notarial, cumplimiento de requisitos",
+                "Documento": "PCP",
+                "Página/apartado": "17, 20",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "SLA de soporte",
+                "Tipo": "SLA",
+                "Valor/condición": "8h/día, 7d/semana, clasificación de incidencias, acuerdo de nivel de servicio",
+                "Documento": "ANEXO I",
+                "Página/apartado": "16",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Garantía técnica",
+                "Tipo": "Garantía",
+                "Valor/condición": "Durante toda la vigencia, cubre disponibilidad, defectos, integraciones, actualización de datos",
+                "Documento": "ANEXO I",
+                "Página/apartado": "21-22",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Penalizaciones por incumplimiento",
+                "Tipo": "Penalización",
+                "Valor/condición": "Hasta el 10% del importe total del contrato, según gravedad",
+                "Documento": "PCP",
+                "Página/apartado": "29-30",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Logística, retirada y destrucción",
+                "Tipo": "Procedimiento",
+                "Valor/condición": "Plan de salida, devolución y destrucción segura, certificado",
+                "Documento": "ANEXO I",
+                "Página/apartado": "28, 39",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Fabricante, canal, carta",
+                "Tipo": "Requisito",
+                "Valor/condición": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Documento": "",
+                "Página/apartado": "",
+                "Estado de lectura": ""
+              },
+              {
+                "Requisito/dato": "Hardware físico, stock, staging",
+                "Tipo": "Requisito",
+                "Valor/condición": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Documento": "",
+                "Página/apartado": "",
+                "Estado de lectura": ""
+              },
+              {
+                "Requisito/dato": "SLA de fabricante externo",
+                "Tipo": "SLA",
+                "Valor/condición": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Documento": "",
+                "Página/apartado": "",
+                "Estado de lectura": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "13. Parámetros de viabilidad (capa 1)",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Parámetro",
+              "Subcampos pedidos",
+              "Estado del pliego",
+              "Dato/literal localizado",
+              "Documento",
+              "Apartado/página"
+            ],
+            "filas": [
+              {
+                "Parámetro": "Volumen anual de negocios",
+                "Subcampos pedidos": "Umbral, ámbito, mejor ejercicio, ventana temporal, moneda, medio de acreditación",
+                "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+                "Dato/literal localizado": "1,5 veces el valor anual del contrato, mejor de los 3 últimos años, declaración responsable, verificación posible por cuentas",
+                "Documento": "PCP",
+                "Apartado/página": "20"
+              },
+              {
+                "Parámetro": "Patrimonio neto/ratios",
+                "Subcampos pedidos": "Ejercicio/fecha, activos, pasivos, fórmula, resultado, umbral, medio de acreditación",
+                "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Dato/literal localizado": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Documento": "PCP",
+                "Apartado/página": "20"
+              },
+              {
+                "Parámetro": "Seguro RC/riesgos profesionales",
+                "Subcampos pedidos": "Importe, actividad, asegurador, identificador, inicio, fin, vigencia, cobertura, renovación",
+                "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+                "Dato/literal localizado": "600.000 €, RC general, vigente durante el contrato, recibo justificativo, compromiso de renovación",
+                "Documento": "PCP",
+                "Apartado/página": "24"
+              },
+              {
+                "Parámetro": "Certificados de buena ejecución",
+                "Subcampos pedidos": "Objeto, similitud/CPV, importe, fechas, duración, destinatario, prueba admisible",
+                "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+                "Dato/literal localizado": "Relación de al menos 3 contratos SaaS geoespacial/meteorología/riesgos, últimos 5 años, importe anual igual o superior al valor anual medio del contrato, declaración responsable",
+                "Documento": "PCP",
+                "Apartado/página": "20"
+              },
+              {
+                "Parámetro": "ISO/ENS",
+                "Subcampos pedidos": "Norma, versión/nivel, alcance, entidad certificadora, caducidad, momento, equivalencias",
+                "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+                "Dato/literal localizado": "ISO 27001 o equivalente, ENS nivel medio, compromiso de disponer antes del inicio del servicio",
+                "Documento": "PCP, ANEXO I",
+                "Apartado/página": "20, 24, 28"
+              },
+              {
+                "Parámetro": "Fabricantes/partnerships",
+                "Subcampos pedidos": "Fabricante, nivel, especialización, carta, fecha, momento",
+                "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Dato/literal localizado": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Documento": "ANEXO I",
+                "Apartado/página": "35"
+              },
+              {
+                "Parámetro": "Perfiles",
+                "Subcampos pedidos": "Puesto, cantidad, titulación, colegiación, experiencia, sector, certificaciones, dedicación, jornada, presencialidad, ubicación, idiomas, funciones, sustitución",
+                "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+                "Dato/literal localizado": "Project Manager (1), equipo multidisciplinar (4), titulaciones universitarias, experiencia mínima, funciones detalladas, declaración responsable, cobertura desde inicio",
+                "Documento": "ANEXO I",
+                "Apartado/página": "17-18"
+              },
+              {
+                "Parámetro": "ROLECE/clasificación",
+                "Subcampos pedidos": "Exigencia o alternativa, grupo, subgrupo, categoría, vigencia, fecha, momento",
+                "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+                "Dato/literal localizado": "Certificado ROLECE o alternativa documental, declaración responsable, momento de acreditación a requerimiento",
+                "Documento": "PCP",
+                "Apartado/página": "17"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "14. Discrepancias y pendientes de aclaración",
+        "parrafos": [],
+        "elementos": [
+          "No se han identificado discrepancias en la documentación revisada.",
+          "No se localizan fabricantes obligatorios, referencias de producto, ni cartas de fabricante o partnership nominal.",
+          "No se especifican marcas, modelos, ediciones, métricas de licencias, ni hardware físico a suministrar.",
+          "No se localizan requisitos de stock, staging, logística física, ni plazos de entrega de materiales.",
+          "No se exige carta de canal, autorización de distribuidor, ni compromiso de suministro de fabricante.",
+          "No se identifican dependencias de suministro fuera de las descritas en seguridad y subcontratación.",
+          "No se especifican SLA de fabricantes externos, solo los del adjudicatario."
+        ],
+        "tablas": []
+      }
+    ],
+    "pendientes_y_no_localizados": [
+      {
+        "titulo": "10. Ambigüedades y datos no localizados",
+        "parrafos": [],
+        "elementos": [
+          "No se identifican fabricantes obligatorios, referencias de producto, ni cartas de fabricante o partnership nominal.",
+          "No se especifican marcas, modelos, ediciones, métricas de licencias, ni hardware físico a suministrar.",
+          "No se localizan requisitos de stock, staging, logística física, ni plazos de entrega de materiales.",
+          "No se exige carta de canal, autorización de distribuidor, ni compromiso de suministro de fabricante.",
+          "No se identifican dependencias de suministro fuera de las descritas en seguridad y subcontratación.",
+          "No se especifican SLA de fabricantes externos, solo los del adjudicatario."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "14. Discrepancias y pendientes de aclaración",
+        "parrafos": [],
+        "elementos": [
+          "No se han identificado discrepancias en la documentación revisada.",
+          "No se localizan fabricantes obligatorios, referencias de producto, ni cartas de fabricante o partnership nominal.",
+          "No se especifican marcas, modelos, ediciones, métricas de licencias, ni hardware físico a suministrar.",
+          "No se localizan requisitos de stock, staging, logística física, ni plazos de entrega de materiales.",
+          "No se exige carta de canal, autorización de distribuidor, ni compromiso de suministro de fabricante.",
+          "No se identifican dependencias de suministro fuera de las descritas en seguridad y subcontratación.",
+          "No se especifican SLA de fabricantes externos, solo los del adjudicatario."
+        ],
+        "tablas": []
+      }
+    ],
+    "trazabilidad": [
+      {
+        "Elemento/necesidad": "Solución SaaS de inteligencia meteorológica",
+        "Tipo": "Software/SaaS",
+        "Cantidad/volumen": "Completa",
+        "Especificación": "Acceso web, módulos funcionales, integración, soporte, formación",
+        "Quien debe aportarlo": "Adjudicatario",
+        "Fuente": "ANEXO I, pág. 3-4"
+      },
+      {
+        "Elemento/necesidad": "Suscripciones a plataforma SaaS",
+        "Tipo": "Licencia/SaaS",
+        "Cantidad/volumen": "Mínimo 15 usuarios nominativos, ampliables",
+        "Especificación": "Perfiles diferenciados, acceso web seguro, módulos de simulación",
+        "Quien debe aportarlo": "Adjudicatario",
+        "Fuente": "ANEXO I, pág. 4"
+      },
+      {
+        "Elemento/necesidad": "Recursos cloud (alojamiento, almacenamiento, proceso, backup)",
+        "Tipo": "Infraestructura cloud",
+        "Cantidad/volumen": "Suficiente para servicio",
+        "Especificación": "Incluye copias de seguridad, actualizaciones, comunicaciones",
+        "Quien debe aportarlo": "Adjudicatario",
+        "Fuente": "ANEXO I, pág. 4"
+      },
+      {
+        "Elemento/necesidad": "Acceso a fuentes meteorológicas y geoespaciales",
+        "Tipo": "Servicio/datos",
+        "Cantidad/volumen": "Completo",
+        "Especificación": "Integración de fuentes oficiales y terceros autorizados",
+        "Quien debe aportarlo": "Adjudicatario",
+        "Fuente": "ANEXO I, pág. 5-6"
+      },
+      {
+        "Elemento/necesidad": "Herramientas de seguridad (FW, IDS/IPS, antimalware, DLP, WAF, CASB, CWPP, proxys)",
+        "Tipo": "Software comercial",
+        "Cantidad/volumen": "Según arquitectura",
+        "Especificación": "Alineamiento con marcas en explotación en Renfe, salvo justificación",
+        "Quien debe aportarlo": "Adjudicatario",
+        "Fuente": "ANEXO I, pág. 34-35"
+      },
+      {
+        "Elemento/necesidad": "Certificación ENS nivel medio",
+        "Tipo": "Certificación",
+        "Cantidad/volumen": "ENS Medio",
+        "Especificación": "Obligatoria para sistemas de información",
+        "Quien debe aportarlo": "Adjudicatario",
+        "Fuente": "ANEXO I, pág. 24, 28"
+      },
+      {
+        "Elemento/necesidad": "Certificación ISO 27001 o equivalente",
+        "Tipo": "Certificación",
+        "Cantidad/volumen": "ISO 27001",
+        "Especificación": "Obligatoria para empresa",
+        "Quien debe aportarlo": "Adjudicatario",
+        "Fuente": "PCP, pág. 20"
+      },
+      {
+        "Elemento/necesidad": "Evaluación de seguridad de cadena de suministro",
+        "Tipo": "Procedimiento",
+        "Cantidad/volumen": "Anual y a los 30 días de requerimiento",
+        "Especificación": "Cuestionario, trazabilidad, actualización anual",
+        "Quien debe aportarlo": "Adjudicatario",
+        "Fuente": "ANEXO I, pág. 24, 28"
+      },
+      {
+        "Elemento/necesidad": "Plan de salida y destrucción de datos",
+        "Tipo": "Procedimiento",
+        "Cantidad/volumen": "Al cierre",
+        "Especificación": "Certificado de destrucción, devolución de datos",
+        "Quien debe aportarlo": "Adjudicatario",
+        "Fuente": "ANEXO I, pág. 28, 39"
+      },
+      {
+        "Elemento/necesidad": "Bolsa de horas para soporte especializado",
+        "Tipo": "Servicio",
+        "Cantidad/volumen": "350 UT/año",
+        "Especificación": "Soporte, desarrollos, integraciones, formación adicional",
+        "Quien debe aportarlo": "Adjudicatario",
+        "Fuente": "ANEXO I, pág. 19"
+      },
+      {
+        "Elemento/necesidad": "Subcontratación de servicios",
+        "Tipo": "Medios externos",
+        "Cantidad/volumen": "Según necesidad",
+        "Especificación": "Cumplimiento normativo, seguridad, declaración y autorización",
+        "Quien debe aportarlo": "Adjudicatario",
+        "Fuente": "PCP, pág. 33; ANEXO I, pág. 28"
+      },
+      {
+        "Producto": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Cantidad": "",
+        "Características": "",
+        "Fabricante/referencia": "",
+        "Equivalente permitido": "",
+        "Garantía/soporte": "",
+        "Stock/plazo": "",
+        "Fuente": ""
+      },
+      {
+        "Producto": "Solución SaaS de inteligencia meteorológica",
+        "Fabricante": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Metrica/cantidad": "Mínimo 15 usuarios nominativos, ampliables",
+        "Entornos": "Web/cloud",
+        "Duración": "24 meses",
+        "Quien lo aporta": "Adjudicatario",
+        "Fuente": "ANEXO I, pág. 4"
+      },
+      {
+        "Producto": "Módulo simulación incendios forestales",
+        "Fabricante": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Metrica/cantidad": "Incluido en suscripción",
+        "Entornos": "Web/cloud",
+        "Duración": "24 meses",
+        "Quien lo aporta": "Adjudicatario",
+        "Fuente": "ANEXO I, pág. 4, 12"
+      },
+      {
+        "Producto": "Módulo simulación inundaciones",
+        "Fabricante": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Metrica/cantidad": "Incluido en suscripción",
+        "Entornos": "Web/cloud",
+        "Duración": "24 meses",
+        "Quien lo aporta": "Adjudicatario",
+        "Fuente": "ANEXO I, pág. 4, 13"
+      },
+      {
+        "Producto": "Herramientas de seguridad (FW, IDS/IPS, antimalware, DLP, WAF, CASB, CWPP, proxys)",
+        "Fabricante": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Metrica/cantidad": "Según arquitectura",
+        "Entornos": "Cloud/infraestructura",
+        "Duración": "24 meses",
+        "Quien lo aporta": "Adjudicatario",
+        "Fuente": "ANEXO I, pág. 34-35"
+      },
+      {
+        "Producto": "Certificación ENS Medio",
+        "Fabricante": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Metrica/cantidad": "Obligatoria para sistemas",
+        "Entornos": "Cloud/infraestructura",
+        "Duración": "24 meses",
+        "Quien lo aporta": "Adjudicatario",
+        "Fuente": "ANEXO I, pág. 24, 28"
+      },
+      {
+        "Producto": "Certificación ISO 27001",
+        "Fabricante": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Metrica/cantidad": "Obligatoria para empresa",
+        "Entornos": "Cloud/infraestructura",
+        "Duración": "24 meses",
+        "Quien lo aporta": "Adjudicatario",
+        "Fuente": "PCP, pág. 20"
+      },
+      {
+        "Fabricante": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Requisito": "",
+        "Nivel/certificación/carta exigida": "",
+        "Momento": "",
+        "Fuente": ""
+      },
+      {
+        "Fabricante": "Herramientas de seguridad",
+        "Requisito": "Alineamiento con marcas en explotación en Renfe, salvo justificación técnica",
+        "Nivel/certificación/carta exigida": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Momento": "Ejecución",
+        "Fuente": "ANEXO I, pág. 35"
+      },
+      {
+        "Regla": "Subcontratación permitida",
+        "Límite/condición": "Cumplimiento normativo, seguridad, declaración y autorización",
+        "Declaración/autorización": "Declaración y autorización según \"Instrucción\" RENFE",
+        "Fuente": "PCP, pág. 33; ANEXO I, pág. 28"
+      },
+      {
+        "Regla": "UTE permitida",
+        "Límite/condición": "Compromiso formal, declaración responsable, constitución en caso de adjudicación",
+        "Declaración/autorización": "Declaración responsable, compromiso de constitución",
+        "Fuente": "PCP, pág. 6, 8"
+      },
+      {
+        "Regla": "Medios externos permitidos",
+        "Límite/condición": "Puesta a disposición de medios, legitimación notarial, cumplimiento de requisitos",
+        "Declaración/autorización": "Declaración responsable, documentación a requerimiento",
+        "Fuente": "PCP, pág. 17, 20"
+      },
+      {
+        "Requisito/dato": "Solución SaaS de inteligencia meteorológica",
+        "Tipo": "Software/SaaS",
+        "Valor/condición": "Completa, acceso web, módulos funcionales, integración, soporte, formación",
+        "Documento": "ANEXO I",
+        "Página/apartado": "3-4",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Suscripciones a plataforma SaaS",
+        "Tipo": "Licencia/SaaS",
+        "Valor/condición": "Mínimo 15 usuarios nominativos, ampliables",
+        "Documento": "ANEXO I",
+        "Página/apartado": "4",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Recursos cloud",
+        "Tipo": "Infraestructura",
+        "Valor/condición": "Suficiente para servicio",
+        "Documento": "ANEXO I",
+        "Página/apartado": "4",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Acceso a fuentes meteorológicas y geoespaciales",
+        "Tipo": "Servicio/datos",
+        "Valor/condición": "Completo",
+        "Documento": "ANEXO I",
+        "Página/apartado": "5-6",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Herramientas de seguridad",
+        "Tipo": "Software comercial",
+        "Valor/condición": "Según arquitectura, alineamiento con marcas en explotación en Renfe, salvo justificación",
+        "Documento": "ANEXO I",
+        "Página/apartado": "34-35",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Certificación ENS nivel medio",
+        "Tipo": "Certificación",
+        "Valor/condición": "Obligatoria para sistemas de información",
+        "Documento": "ANEXO I",
+        "Página/apartado": "24, 28",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Certificación ISO 27001",
+        "Tipo": "Certificación",
+        "Valor/condición": "Obligatoria para empresa",
+        "Documento": "PCP",
+        "Página/apartado": "20",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Evaluación de seguridad de cadena de suministro",
+        "Tipo": "Procedimiento",
+        "Valor/condición": "Anual y a los 30 días de requerimiento",
+        "Documento": "ANEXO I",
+        "Página/apartado": "24, 28",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Plan de salida y destrucción de datos",
+        "Tipo": "Procedimiento",
+        "Valor/condición": "Certificado de destrucción, devolución de datos",
+        "Documento": "ANEXO I",
+        "Página/apartado": "28, 39",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Bolsa de horas para soporte especializado",
+        "Tipo": "Servicio",
+        "Valor/condición": "350 UT/año",
+        "Documento": "ANEXO I",
+        "Página/apartado": "19",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Subcontratación de servicios",
+        "Tipo": "Medios externos",
+        "Valor/condición": "Cumplimiento normativo, seguridad, declaración y autorización",
+        "Documento": "PCP",
+        "Página/apartado": "33; ANEXO I, 28",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "UTE permitida",
+        "Tipo": "Medios externos",
+        "Valor/condición": "Compromiso formal, declaración responsable, constitución en caso de adjudicación",
+        "Documento": "PCP",
+        "Página/apartado": "6, 8",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Medios externos permitidos",
+        "Tipo": "Medios externos",
+        "Valor/condición": "Puesta a disposición de medios, legitimación notarial, cumplimiento de requisitos",
+        "Documento": "PCP",
+        "Página/apartado": "17, 20",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "SLA de soporte",
+        "Tipo": "SLA",
+        "Valor/condición": "8h/día, 7d/semana, clasificación de incidencias, acuerdo de nivel de servicio",
+        "Documento": "ANEXO I",
+        "Página/apartado": "16",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Garantía técnica",
+        "Tipo": "Garantía",
+        "Valor/condición": "Durante toda la vigencia, cubre disponibilidad, defectos, integraciones, actualización de datos",
+        "Documento": "ANEXO I",
+        "Página/apartado": "21-22",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Penalizaciones por incumplimiento",
+        "Tipo": "Penalización",
+        "Valor/condición": "Hasta el 10% del importe total del contrato, según gravedad",
+        "Documento": "PCP",
+        "Página/apartado": "29-30",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Logística, retirada y destrucción",
+        "Tipo": "Procedimiento",
+        "Valor/condición": "Plan de salida, devolución y destrucción segura, certificado",
+        "Documento": "ANEXO I",
+        "Página/apartado": "28, 39",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Fabricante, canal, carta",
+        "Tipo": "Requisito",
+        "Valor/condición": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Documento": "",
+        "Página/apartado": "",
+        "Estado de lectura": ""
+      },
+      {
+        "Requisito/dato": "Hardware físico, stock, staging",
+        "Tipo": "Requisito",
+        "Valor/condición": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Documento": "",
+        "Página/apartado": "",
+        "Estado de lectura": ""
+      },
+      {
+        "Requisito/dato": "SLA de fabricante externo",
+        "Tipo": "SLA",
+        "Valor/condición": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Documento": "",
+        "Página/apartado": "",
+        "Estado de lectura": ""
+      },
+      {
+        "Parámetro": "Volumen anual de negocios",
+        "Subcampos pedidos": "Umbral, ámbito, mejor ejercicio, ventana temporal, moneda, medio de acreditación",
+        "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+        "Dato/literal localizado": "1,5 veces el valor anual del contrato, mejor de los 3 últimos años, declaración responsable, verificación posible por cuentas",
+        "Documento": "PCP",
+        "Apartado/página": "20"
+      },
+      {
+        "Parámetro": "Patrimonio neto/ratios",
+        "Subcampos pedidos": "Ejercicio/fecha, activos, pasivos, fórmula, resultado, umbral, medio de acreditación",
+        "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Dato/literal localizado": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Documento": "PCP",
+        "Apartado/página": "20"
+      },
+      {
+        "Parámetro": "Seguro RC/riesgos profesionales",
+        "Subcampos pedidos": "Importe, actividad, asegurador, identificador, inicio, fin, vigencia, cobertura, renovación",
+        "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+        "Dato/literal localizado": "600.000 €, RC general, vigente durante el contrato, recibo justificativo, compromiso de renovación",
+        "Documento": "PCP",
+        "Apartado/página": "24"
+      },
+      {
+        "Parámetro": "Certificados de buena ejecución",
+        "Subcampos pedidos": "Objeto, similitud/CPV, importe, fechas, duración, destinatario, prueba admisible",
+        "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+        "Dato/literal localizado": "Relación de al menos 3 contratos SaaS geoespacial/meteorología/riesgos, últimos 5 años, importe anual igual o superior al valor anual medio del contrato, declaración responsable",
+        "Documento": "PCP",
+        "Apartado/página": "20"
+      },
+      {
+        "Parámetro": "ISO/ENS",
+        "Subcampos pedidos": "Norma, versión/nivel, alcance, entidad certificadora, caducidad, momento, equivalencias",
+        "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+        "Dato/literal localizado": "ISO 27001 o equivalente, ENS nivel medio, compromiso de disponer antes del inicio del servicio",
+        "Documento": "PCP, ANEXO I",
+        "Apartado/página": "20, 24, 28"
+      },
+      {
+        "Parámetro": "Fabricantes/partnerships",
+        "Subcampos pedidos": "Fabricante, nivel, especialización, carta, fecha, momento",
+        "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Dato/literal localizado": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Documento": "ANEXO I",
+        "Apartado/página": "35"
+      },
+      {
+        "Parámetro": "Perfiles",
+        "Subcampos pedidos": "Puesto, cantidad, titulación, colegiación, experiencia, sector, certificaciones, dedicación, jornada, presencialidad, ubicación, idiomas, funciones, sustitución",
+        "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+        "Dato/literal localizado": "Project Manager (1), equipo multidisciplinar (4), titulaciones universitarias, experiencia mínima, funciones detalladas, declaración responsable, cobertura desde inicio",
+        "Documento": "ANEXO I",
+        "Apartado/página": "17-18"
+      },
+      {
+        "Parámetro": "ROLECE/clasificación",
+        "Subcampos pedidos": "Exigencia o alternativa, grupo, subgrupo, categoría, vigencia, fecha, momento",
+        "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+        "Dato/literal localizado": "Certificado ROLECE o alternativa documental, declaración responsable, momento de acreditación a requerimiento",
+        "Documento": "PCP",
+        "Apartado/página": "17"
+      }
+    ],
+    "salida_original": "# 1. Resumen factual\n\nLa licitación exige al adjudicatario el suministro, operación y mantenimiento de una solución SaaS de inteligencia meteorológica y gestión de riesgos naturales para la operación ferroviaria, incluyendo suscripciones, acceso a módulos funcionales, soporte, formación, documentación, integración técnica y cumplimiento de requisitos de seguridad y continuidad. No se exige hardware físico ni productos materiales para el cliente, pero sí recursos cloud, licencias, herramientas de seguridad y software comercial para la prestación del servicio. El adjudicatario debe aportar todos los elementos necesarios para la prestación, sin que puedan trasladarse costes no previstos. Se permite subcontratación bajo condiciones de cumplimiento normativo y seguridad, y la UTE es admitida bajo compromiso formal. La cadena de suministro está condicionada por requisitos de seguridad, evaluación periódica y trazabilidad. Se exige certificación ENS nivel medio y, en su caso, ISO 27001. Los SLA, garantías y soporte están definidos en el pliego técnico y administrativo, con penalizaciones por incumplimiento. No se identifican fabricantes obligatorios, pero sí alineamiento con marcas de seguridad en explotación en Renfe, salvo justificación técnica. No se exige carta de fabricante ni partnership nominal. La logística, retirada y destrucción de datos están reguladas por planes de salida y certificación de destrucción. No se localizan requisitos de stock físico ni staging. \n\n# 2. Mapa de suministros y terceros\n\n| Elemento/necesidad | Tipo | Cantidad/volumen | Especificación | Quien debe aportarlo | Fuente |\n|--------------------|------|------------------|----------------|----------------------|--------|\n| Solución SaaS de inteligencia meteorológica | Software/SaaS | Completa | Acceso web, módulos funcionales, integración, soporte, formación | Adjudicatario | ANEXO I, pág. 3-4 |\n| Suscripciones a plataforma SaaS | Licencia/SaaS | Mínimo 15 usuarios nominativos, ampliables | Perfiles diferenciados, acceso web seguro, módulos de simulación | Adjudicatario | ANEXO I, pág. 4 |\n| Recursos cloud (alojamiento, almacenamiento, proceso, backup) | Infraestructura cloud | Suficiente para servicio | Incluye copias de seguridad, actualizaciones, comunicaciones | Adjudicatario | ANEXO I, pág. 4 |\n| Acceso a fuentes meteorológicas y geoespaciales | Servicio/datos | Completo | Integración de fuentes oficiales y terceros autorizados | Adjudicatario | ANEXO I, pág. 5-6 |\n| Herramientas de seguridad (FW, IDS/IPS, antimalware, DLP, WAF, CASB, CWPP, proxys) | Software comercial | Según arquitectura | Alineamiento con marcas en explotación en Renfe, salvo justificación | Adjudicatario | ANEXO I, pág. 34-35 |\n| Certificación ENS nivel medio | Certificación | ENS Medio | Obligatoria para sistemas de información | Adjudicatario | ANEXO I, pág. 24, 28 |\n| Certificación ISO 27001 o equivalente | Certificación | ISO 27001 | Obligatoria para empresa | Adjudicatario | PCP, pág. 20 |\n| Evaluación de seguridad de cadena de suministro | Procedimiento | Anual y a los 30 días de requerimiento | Cuestionario, trazabilidad, actualización anual | Adjudicatario | ANEXO I, pág. 24, 28 |\n| Plan de salida y destrucción de datos | Procedimiento | Al cierre | Certificado de destrucción, devolución de datos | Adjudicatario | ANEXO I, pág. 28, 39 |\n| Bolsa de horas para soporte especializado | Servicio | 350 UT/año | Soporte, desarrollos, integraciones, formación adicional | Adjudicatario | ANEXO I, pág. 19 |\n| Subcontratación de servicios | Medios externos | Según necesidad | Cumplimiento normativo, seguridad, declaración y autorización | Adjudicatario | PCP, pág. 33; ANEXO I, pág. 28 |\n\n# 3. Productos, hardware y materiales\n\n| Producto | Cantidad | Características | Fabricante/referencia | Equivalente permitido | Garantía/soporte | Stock/plazo | Fuente |\n|---------|---------|---------------|----------------------|----------------------|---------------|------------|--------|\n| NO CONSTA EN LA DOCUMENTACION REVISADA | | | | | | | |\n\n# 4. Software, SaaS y licencias\n\n| Producto | Fabricante | Metrica/cantidad | Entornos | Duración | Quien lo aporta | Fuente |\n|---------|----------|---------------|---------|---------|----------------|--------|\n| Solución SaaS de inteligencia meteorológica | NO CONSTA EN LA DOCUMENTACION REVISADA | Mínimo 15 usuarios nominativos, ampliables | Web/cloud | 24 meses | Adjudicatario | ANEXO I, pág. 4 |\n| Módulo simulación incendios forestales | NO CONSTA EN LA DOCUMENTACION REVISADA | Incluido en suscripción | Web/cloud | 24 meses | Adjudicatario | ANEXO I, pág. 4, 12 |\n| Módulo simulación inundaciones | NO CONSTA EN LA DOCUMENTACION REVISADA | Incluido en suscripción | Web/cloud | 24 meses | Adjudicatario | ANEXO I, pág. 4, 13 |\n| Herramientas de seguridad (FW, IDS/IPS, antimalware, DLP, WAF, CASB, CWPP, proxys) | NO CONSTA EN LA DOCUMENTACION REVISADA | Según arquitectura | Cloud/infraestructura | 24 meses | Adjudicatario | ANEXO I, pág. 34-35 |\n| Certificación ENS Medio | NO CONSTA EN LA DOCUMENTACION REVISADA | Obligatoria para sistemas | Cloud/infraestructura | 24 meses | Adjudicatario | ANEXO I, pág. 24, 28 |\n| Certificación ISO 27001 | NO CONSTA EN LA DOCUMENTACION REVISADA | Obligatoria para empresa | Cloud/infraestructura | 24 meses | Adjudicatario | PCP, pág. 20 |\n\n# 5. Fabricantes, canal y cartas\n\n| Fabricante | Requisito | Nivel/certificación/carta exigida | Momento | Fuente |\n|-----------|----------|-------------------------------|---------|--------|\n| NO CONSTA EN LA DOCUMENTACION REVISADA | | | | |\n| Herramientas de seguridad | Alineamiento con marcas en explotación en Renfe, salvo justificación técnica | NO CONSTA EN LA DOCUMENTACION REVISADA | Ejecución | ANEXO I, pág. 35 |\n\n# 6. Subcontratación, UTE y medios externos\n\n| Regla | Límite/condición | Declaración/autorización | Fuente |\n|-------|-----------------|------------------------|--------|\n| Subcontratación permitida | Cumplimiento normativo, seguridad, declaración y autorización | Declaración y autorización según \"Instrucción\" RENFE | PCP, pág. 33; ANEXO I, pág. 28 |\n| UTE permitida | Compromiso formal, declaración responsable, constitución en caso de adjudicación | Declaración responsable, compromiso de constitución | PCP, pág. 6, 8 |\n| Medios externos permitidos | Puesta a disposición de medios, legitimación notarial, cumplimiento de requisitos | Declaración responsable, documentación a requerimiento | PCP, pág. 17, 20 |\n\n# 7. Cadena de suministro y dependencias contractuales descritas\n\n- El adjudicatario debe completar el cuestionario de evaluación de seguridad de la cadena de suministro dentro de los 30 días posteriores al envío por parte de Renfe y actualizarlo anualmente. (ANEXO I, pág. 24, 28)\n- La subcontratación está condicionada a que el subcontratista cumpla totalmente con las obligaciones existentes entre Renfe y el adjudicatario, incluidas las obligaciones de seguridad y protección de datos. (ANEXO I, pág. 28)\n- Trazabilidad, inventario y supervisión de activos, procesos y registros de la cadena de suministro. (ANEXO I, pág. 26-28)\n\n# 8. SLA de proveedor/fabricante, garantías y soporte exigidos\n\n- El adjudicatario garantizará la continuidad, calidad y correcto funcionamiento del servicio durante toda la vigencia contractual. (ANEXO I, pág. 16)\n- Servicio mínimo de atención: 8 horas diarias, 7 días a la semana. (ANEXO I, pág. 16)\n- Centro de soporte accesible por portal, correo electrónico y atención telefónica para incidencias críticas. (ANEXO I, pág. 16)\n- Clasificación de incidencias: crítica, alta, media, baja; tiempos de respuesta, restauración y resolución definidos en acuerdo de nivel de servicio (SLA) aprobado para el contrato. (ANEXO I, pág. 16)\n- Garantía técnica durante toda la vigencia de la prestación: disponibilidad, corrección de defectos, funcionamiento de integraciones, actualización de datos y conservación de configuraciones. (ANEXO I, pág. 21-22)\n- Penalizaciones por incumplimiento de SLA y calidad del servicio: hasta el 10% del importe total del contrato, según gravedad. (PCP, pág. 29-30)\n\n# 9. Logística, staging, stock, entrega, retirada y destrucción\n\n- No se exige stock físico ni staging de equipos o materiales. (NO CONSTA EN LA DOCUMENTACION REVISADA)\n- Plan de salida y destrucción de datos: devolución y destrucción segura de información, certificado de destrucción, procedimiento conforme ENS. (ANEXO I, pág. 28, 39)\n- Entregables: plan de devolución, exportación de datos, entrega documental y certificado de supresión al cierre. (ANEXO I, pág. 22)\n\n# 10. Ambigüedades y datos no localizados\n\n- No se identifican fabricantes obligatorios, referencias de producto, ni cartas de fabricante o partnership nominal.\n- No se especifican marcas, modelos, ediciones, métricas de licencias, ni hardware físico a suministrar.\n- No se localizan requisitos de stock, staging, logística física, ni plazos de entrega de materiales.\n- No se exige carta de canal, autorización de distribuidor, ni compromiso de suministro de fabricante.\n- No se identifican dependencias de suministro fuera de las descritas en seguridad y subcontratación.\n- No se especifican SLA de fabricantes externos, solo los del adjudicatario.\n\n# 11. Documentos revisados\n\n1. PCP 2026 03993.pdf (Pliego administrativo)\n2. ANEXO I 2026 03393 .pdf (Pliego técnico)\n3. ANEXO III 2026 03993.pdf (Modelo oferta económica)\n4. ANEXO II 2026 03993.pdf (Modelo declaración responsable)\n5. ANEXO IV 2026 03993.pdf (Modelo garantía definitiva)\n6. poc (Documento enlazado, Plataforma Contratación)\n7. poc (Documento enlazado, Perfil Contratante)\n8. poc (Documento enlazado, Perfil Contratante)\n\n# 12. Tabla de trazabilidad\n\n| Requisito/dato | Tipo | Valor/condición | Documento | Página/apartado | Estado de lectura |\n|---------------|------|----------------|-----------|-----------------|------------------|\n| Solución SaaS de inteligencia meteorológica | Software/SaaS | Completa, acceso web, módulos funcionales, integración, soporte, formación | ANEXO I | 3-4 | TEXTO EXTRAIDO |\n| Suscripciones a plataforma SaaS | Licencia/SaaS | Mínimo 15 usuarios nominativos, ampliables | ANEXO I | 4 | TEXTO EXTRAIDO |\n| Recursos cloud | Infraestructura | Suficiente para servicio | ANEXO I | 4 | TEXTO EXTRAIDO |\n| Acceso a fuentes meteorológicas y geoespaciales | Servicio/datos | Completo | ANEXO I | 5-6 | TEXTO EXTRAIDO |\n| Herramientas de seguridad | Software comercial | Según arquitectura, alineamiento con marcas en explotación en Renfe, salvo justificación | ANEXO I | 34-35 | TEXTO EXTRAIDO |\n| Certificación ENS nivel medio | Certificación | Obligatoria para sistemas de información | ANEXO I | 24, 28 | TEXTO EXTRAIDO |\n| Certificación ISO 27001 | Certificación | Obligatoria para empresa | PCP | 20 | TEXTO EXTRAIDO |\n| Evaluación de seguridad de cadena de suministro | Procedimiento | Anual y a los 30 días de requerimiento | ANEXO I | 24, 28 | TEXTO EXTRAIDO |\n| Plan de salida y destrucción de datos | Procedimiento | Certificado de destrucción, devolución de datos | ANEXO I | 28, 39 | TEXTO EXTRAIDO |\n| Bolsa de horas para soporte especializado | Servicio | 350 UT/año | ANEXO I | 19 | TEXTO EXTRAIDO |\n| Subcontratación de servicios | Medios externos | Cumplimiento normativo, seguridad, declaración y autorización | PCP | 33; ANEXO I, 28 | TEXTO EXTRAIDO |\n| UTE permitida | Medios externos | Compromiso formal, declaración responsable, constitución en caso de adjudicación | PCP | 6, 8 | TEXTO EXTRAIDO |\n| Medios externos permitidos | Medios externos | Puesta a disposición de medios, legitimación notarial, cumplimiento de requisitos | PCP | 17, 20 | TEXTO EXTRAIDO |\n| SLA de soporte | SLA | 8h/día, 7d/semana, clasificación de incidencias, acuerdo de nivel de servicio | ANEXO I | 16 | TEXTO EXTRAIDO |\n| Garantía técnica | Garantía | Durante toda la vigencia, cubre disponibilidad, defectos, integraciones, actualización de datos | ANEXO I | 21-22 | TEXTO EXTRAIDO |\n| Penalizaciones por incumplimiento | Penalización | Hasta el 10% del importe total del contrato, según gravedad | PCP | 29-30 | TEXTO EXTRAIDO |\n| Logística, retirada y destrucción | Procedimiento | Plan de salida, devolución y destrucción segura, certificado | ANEXO I | 28, 39 | TEXTO EXTRAIDO |\n| Fabricante, canal, carta | Requisito | NO CONSTA EN LA DOCUMENTACION REVISADA | | | |\n| Hardware físico, stock, staging | Requisito | NO CONSTA EN LA DOCUMENTACION REVISADA | | | |\n| SLA de fabricante externo | SLA | NO CONSTA EN LA DOCUMENTACION REVISADA | | | |\n\n# 13. Parámetros de viabilidad (capa 1)\n\n| Parámetro | Subcampos pedidos | Estado del pliego | Dato/literal localizado | Documento | Apartado/página |\n|-----------|--------------------|------------------|-----------------------|-----------|-----------------|\n| Volumen anual de negocios | Umbral, ámbito, mejor ejercicio, ventana temporal, moneda, medio de acreditación | ENCONTRADO EN EL PLIEGO | 1,5 veces el valor anual del contrato, mejor de los 3 últimos años, declaración responsable, verificación posible por cuentas | PCP | 20 |\n| Patrimonio neto/ratios | Ejercicio/fecha, activos, pasivos, fórmula, resultado, umbral, medio de acreditación | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA EN LA DOCUMENTACION REVISADA | PCP | 20 |\n| Seguro RC/riesgos profesionales | Importe, actividad, asegurador, identificador, inicio, fin, vigencia, cobertura, renovación | ENCONTRADO EN EL PLIEGO | 600.000 €, RC general, vigente durante el contrato, recibo justificativo, compromiso de renovación | PCP | 24 |\n| Certificados de buena ejecución | Objeto, similitud/CPV, importe, fechas, duración, destinatario, prueba admisible | ENCONTRADO EN EL PLIEGO | Relación de al menos 3 contratos SaaS geoespacial/meteorología/riesgos, últimos 5 años, importe anual igual o superior al valor anual medio del contrato, declaración responsable | PCP | 20 |\n| ISO/ENS | Norma, versión/nivel, alcance, entidad certificadora, caducidad, momento, equivalencias | ENCONTRADO EN EL PLIEGO | ISO 27001 o equivalente, ENS nivel medio, compromiso de disponer antes del inicio del servicio | PCP, ANEXO I | 20, 24, 28 |\n| Fabricantes/partnerships | Fabricante, nivel, especialización, carta, fecha, momento | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA EN LA DOCUMENTACION REVISADA | ANEXO I | 35 |\n| Perfiles | Puesto, cantidad, titulación, colegiación, experiencia, sector, certificaciones, dedicación, jornada, presencialidad, ubicación, idiomas, funciones, sustitución | ENCONTRADO EN EL PLIEGO | Project Manager (1), equipo multidisciplinar (4), titulaciones universitarias, experiencia mínima, funciones detalladas, declaración responsable, cobertura desde inicio | ANEXO I | 17-18 |\n| ROLECE/clasificación | Exigencia o alternativa, grupo, subgrupo, categoría, vigencia, fecha, momento | ENCONTRADO EN EL PLIEGO | Certificado ROLECE o alternativa documental, declaración responsable, momento de acreditación a requerimiento | PCP | 17 |\n\n# 14. Discrepancias y pendientes de aclaración\n\n- No se han identificado discrepancias en la documentación revisada.\n- No se localizan fabricantes obligatorios, referencias de producto, ni cartas de fabricante o partnership nominal.\n- No se especifican marcas, modelos, ediciones, métricas de licencias, ni hardware físico a suministrar.\n- No se localizan requisitos de stock, staging, logística física, ni plazos de entrega de materiales.\n- No se exige carta de canal, autorización de distribuidor, ni compromiso de suministro de fabricante.\n- No se identifican dependencias de suministro fuera de las descritas en seguridad y subcontratación.\n- No se especifican SLA de fabricantes externos, solo los del adjudicatario."
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "PCP 2026 03993.pdf",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 96360,
+        "caracteres_enviados_al_agente": 96360,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "ANEXO I 2026 03393 .pdf",
+        "tipo": "Pliego tecnico",
+        "fuente": "XML",
+        "caracteres_extraidos": 97875,
+        "caracteres_enviados_al_agente": 97875,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "ANEXO III 2026 03993.pdf",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 1431,
+        "caracteres_enviados_al_agente": 1431,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 4,
+        "nombre": "ANEXO II 2026 03993.pdf",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 7189,
+        "caracteres_enviados_al_agente": 7189,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 5,
+        "nombre": "ANEXO IV 2026 03993.pdf",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 4657,
+        "caracteres_enviados_al_agente": 4657,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 6,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "PCP 2026 03993.pdf",
+        "caracteres_extraidos": 2659,
+        "caracteres_enviados_al_agente": 2659,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 7,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "PCP 2026 03993.pdf",
+        "caracteres_extraidos": 3160,
+        "caracteres_enviados_al_agente": 3160,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 8,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "poc",
+        "caracteres_extraidos": 3160,
+        "caracteres_enviados_al_agente": 3160,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Se omitieron 6 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  }
+}

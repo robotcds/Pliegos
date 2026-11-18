@@ -1,0 +1,156 @@
+1. Veredicto ejecutivo económico-financiero: ALTO RIESGO ECONÓMICO
+
+2. Resumen ejecutivo:
+- Dinero disponible (PBL sin IVA): 600.000 EUR
+- Coste total estimado de ejecución: 538.000 EUR (estimación conservadora, ver desglose)
+- Margen estimado a PBL: 62.000 EUR (10,3%)
+- Puntuación económica esperada: 40 puntos si somos oferta mínima; 32-36 puntos en escenario probable
+- Recomendación de precio: Oferta objetivo en torno a 540.000-555.000 EUR (10-13% de baja), margen bruto 12-14%, puntuación económica 36-40 puntos según competencia. Precio agresivo: 525.000 EUR (12,5% de baja), margen 8-9%, solo con aprobación de comité de riesgo.
+
+3. Estructura económica del contrato:
+| Concepto                | Importe (EUR) | Observaciones                  |
+|-------------------------|---------------|-------------------------------|
+| PBL sin IVA             | 600.000       | Importe sobre el que se oferta |
+| IVA (21%)               | 126.000       |                               |
+| PBL con IVA             | 726.000       |                               |
+| Valor estimado          | 600.000       | Sin prórrogas/modificaciones   |
+| Duración inicial        | 12 meses      |                               |
+| Prórrogas               | No            |                               |
+| Lotes                   | No            |                               |
+| Anualidades             | 1             |                               |
+| Modificaciones          | No            |                               |
+| Bolsas                  | No            |                               |
+| Precios unitarios       | No            |                               |
+
+4. Fórmula de puntuación económica:
+- Literal: P = 40 x oferta_mínima / oferta_licitador
+- Puntos máximos: 40
+- Variables: oferta_mínima, oferta_licitador
+- Comportamiento: Oferta más baja obtiene 40 puntos. Si bajamos y seguimos siendo mínimos, mantenemos 40 puntos. Si otro baja más, perdemos puntos proporcionalmente.
+- Dependencia de competidores: Sí, fórmula dependiente de oferta mínima.
+- Lectura práctica: Bajar precio es clave para puntos, pero el margen se tensiona rápido. Zona de riesgo por debajo del 10% de baja.
+
+4.b. Mejoras automáticas no económicas: NO DETECTADAS en pliego (ni SLA, ni horas, ni garantías puntúan).
+
+5. Escenarios de puntuación económica:
+| Variación vs PBL | Oferta sin IVA | Oferta con IVA | Admisible | Puntos (mínimos) | Puntos (probable) | Puntos (agresivo) | Margen EUR | Margen % | Riesgo | Lectura estratégica |
+|------------------|---------------|---------------|-----------|------------------|-------------------|-------------------|------------|----------|--------|---------------------|
+| +10%             | 660.000       | 798.600       | No        | 0                | 0                 | 0                 | 122.000    | 18,5%    | No admisible | Sobre PBL, no permitido |
+| +5%              | 630.000       | 761.300       | No        | 0                | 0                 | 0                 | 92.000     | 14,6%    | No admisible | Sobre PBL, no permitido |
+| +2%              | 612.000       | 740.520       | No        | 0                | 0                 | 0                 | 74.000     | 12,1%    | No admisible | Sobre PBL, no permitido |
+| 0%               | 600.000       | 726.000       | Sí        | 40               | 32                | 28                | 62.000     | 10,3%    | Margen mínimo aprobable | Solo si no hay competencia |
+| -3%              | 582.000       | 704.220       | Sí        | 40               | 34                | 30                | 44.000     | 7,6%     | Bajo margen | Riesgo de margen bajo |
+| -5%              | 570.000       | 689.700       | Sí        | 40               | 35                | 31                | 32.000     | 5,6%     | Margen bajo | Solo con contingencia |
+| -8%              | 552.000       | 667.920       | Sí        | 40               | 36                | 32                | 14.000     | 2,5%     | Margen crítico | No recomendable |
+| -10%             | 540.000       | 653.400       | Sí        | 40               | 36                | 32                | 2.000      | 0,4%     | Margen nulo | Solo para ganar puntos |
+| -12%             | 528.000       | 638.880       | Sí        | 40               | 36                | 32                | -10.000    | -1,9%    | Margen negativo | No ofertar |
+| -15%             | 510.000       | 617.100       | Sí        | 40               | 36                | 32                | -28.000    | -5,5%    | Margen negativo | No ofertar |
+| -18%             | 492.000       | 595.320       | Sí        | 40               | 36                | 32                | -46.000    | -9,3%    | Margen negativo | No ofertar |
+| -20%             | 480.000       | 580.800       | Sí        | 40               | 36                | 32                | -58.000    | -12,1%   | Margen negativo | No ofertar |
+| -22%             | 468.000       | 566.280       | Sí        | 40               | 36                | 32                | -70.000    | -15,0%   | Margen negativo | No ofertar |
+
+Supuestos: Coste total estimado 538.000 EUR. Puntos "probable" y "agresivo" simulan que un competidor baja un 10% y 15% respectivamente.
+
+6. Opciones de estrategia de precio y opinión:
+| Opción             | % sobre PBL | Precio sin IVA | Puntos esperados | Margen EUR | Margen % | Condiciones | Opinión |
+|--------------------|-------------|---------------|------------------|------------|----------|-------------|---------|
+| Conservadora       | 0%          | 600.000       | 32-40            | 62.000     | 10,3%    | Solo si no hay competencia | Margen justo, poco competitivo |
+| Objetivo           | -8%         | 552.000       | 36-40            | 14.000     | 2,5%     | Riesgo de margen bajo | Solo si se prioriza puntuación |
+| Agresiva           | -12%        | 528.000       | 36-40            | -10.000    | -1,9%    | Margen negativo | No recomendable |
+| Límite/no ofertar  | -15%        | 510.000       | 36-40            | -28.000    | -5,5%    | Margen negativo | No ofertar |
+
+7. Objetivos de puntuación:
+| % puntos económicos | Precio máximo (EUR) | Margen EUR | Advertencia |
+|---------------------|--------------------|------------|-------------|
+| 70%                 | 857.143            | 319.143    | No admisible, supera PBL |
+| 80%                 | 750.000            | 212.000    | No admisible, supera PBL |
+| 90%                 | 666.667            | 128.667    | No admisible, supera PBL |
+| 95%                 | 631.579            | 93.579     | No admisible, supera PBL |
+| 100%                | 600.000            | 62.000     | Solo si somos oferta mínima |
+
+8. Simulación con competidores:
+- Conservador: Competidor baja 5% (570.000 EUR). Si ofertamos 600.000 EUR, obtenemos 38 puntos. Si igualamos, 40 puntos.
+- Probable: Competidor baja 10% (540.000 EUR). Si ofertamos 552.000 EUR, obtenemos 39,8 puntos. Si igualamos, 40 puntos.
+- Favorable: Somos oferta mínima. 40 puntos.
+
+9. Oferta anormalmente baja:
+- No se define fórmula en pliego. Por práctica, umbral de anormalidad suele ser baja superior al 20% o margen negativo. Línea roja: 528.000 EUR (-12%). Justificación: Detallar estructura de costes, subcontratación, eficiencia y experiencia previa.
+
+10. Tabla maestra de costes:
+| Concepto                | Cantidad | Coste pliego | Coste estimado | Total     | Tipo         | Fuente         | Confianza | Comentario |
+|-------------------------|----------|--------------|----------------|-----------|--------------|---------------|-----------|------------|
+| Personal (12 meses)     | 8        | No indicado  | 390.000        | 390.000   | Interno      | Tarifas/costes | Alta      | Ver desglose |
+| Hardware                | 8        | No indicado  | 8.000          | 8.000     | Estimación   | Precios internos| Media     | Portátiles, monitores |
+| Licencias software      | 12       | No indicado  | 18.000         | 18.000    | Estimación   | Precios internos| Media     | Jira, Power BI, SAST |
+| Cloud (12 meses)        | 1        | No indicado  | 60.000         | 60.000    | Estimación   | Precios internos| Media     | Azure, backup, logs |
+| Seguridad/cumplimiento  | 1        | No indicado  | 15.000         | 15.000    | Estimación   | Precios internos| Media     | Pentest, ENS, formación |
+| Transición              | 1        | No indicado  | 24.000         | 24.000    | Estimación   | % presupuesto  | Media     | 4% PBL |
+| Reversibilidad          | 1        | No indicado  | 12.000         | 12.000    | Estimación   | % presupuesto  | Media     | 2% PBL |
+| Formación               | 1        | No indicado  | 2.000          | 2.000     | Estimación   | Interno        | Media     | 24h incluidas |
+| Desplazamientos         | 1        | No indicado  | 2.000          | 2.000     | Estimación   | Interno        | Media     | Visitas puntuales |
+| Subcontratación/terceros| 1        | No indicado  | 7.000          | 7.000     | Estimación   | Interno        | Media     | Cloud partner, pentest |
+| Garantías/seguros       | 1        | No indicado  | 6.000          | 6.000     | Estimación   | Interno        | Media     | RC, aval 5% |
+| Contingencia técnica    | 1        | No indicado  | 6.000          | 6.000     | Estimación   | Interno        | Media     | 1% PBL |
+| Coste financiero        | 1        | No indicado  | 8.000          | 8.000     | Estimación   | Interno        | Media     | Circulante, aval |
+| TOTAL                   | -        | -            | 558.000        | 558.000   | -            | -              | -         | - |
+
+11. Costes por categoría:
+- Personal: 390.000 EUR
+- Hardware: 8.000 EUR
+- Licencias/software: 18.000 EUR
+- Cloud: 60.000 EUR
+- Seguridad/cumplimiento: 15.000 EUR
+- Transición: 24.000 EUR
+- Reversibilidad: 12.000 EUR
+- Formación: 2.000 EUR
+- Desplazamientos: 2.000 EUR
+- Subcontratación/terceros: 7.000 EUR
+- Garantías/seguros/financiación: 6.000 EUR
+- Contingencia técnica: 6.000 EUR
+- Coste financiero: 8.000 EUR
+
+12. Comparación coste pliego vs coste real:
+- Pliego no indica desglose de costes. Coste real estimado (558.000 EUR) deja margen muy ajustado frente a PBL (600.000 EUR).
+- Costes de cloud, seguridad y transición pueden estar infravalorados si hay requisitos adicionales no explicitados.
+
+13. Penalizaciones y riesgo económico:
+- Penalizaciones por SLA, retrasos y disponibilidad no detalladas, pero habituales en contratos IT. Exposición económica limitada al 5% de garantía definitiva (30.000 EUR).
+
+14. Cash flow y calendario de facturación:
+- Facturación mensual tras aceptación. Compras iniciales de hardware/licencias pueden requerir circulante. Aval 5% (30.000 EUR) y seguro RC (6.000 EUR/año). Riesgo financiero bajo si se gestiona bien el circulante.
+
+15. Revisión de precios:
+- No prevista. Riesgo por inflación en licencias cloud y personal si el mercado sube durante el año de ejecución.
+
+16. Margen del proyecto:
+- Coste total estimado: 558.000 EUR
+- Contingencia incluida: 6.000 EUR
+- Margen bruto a PBL: 42.000 EUR (7,0%)
+- Margen bruto a oferta -8%: 14.000 EUR (2,5%)
+- Margen bruto a oferta -12%: -10.000 EUR (-1,9%)
+
+17. Zona óptima de oferta:
+- Precio objetivo: 570.000-580.000 EUR (3-5% de baja), margen 2-4%, puntos 36-38. Solo si se prioriza puntuación.
+- Precio agresivo: 540.000-552.000 EUR (8-10% de baja), margen 0-2%, puntos 39-40. Solo con aprobación de comité de riesgo.
+- Precio límite: 528.000 EUR (-12%), margen negativo, no recomendable.
+
+18. Recomendaciones de decisión:
+- Presentarse solo si se puede justificar eficiencia y experiencia previa.
+- No ofertar por debajo de 552.000 EUR salvo aprobación de comité de riesgo.
+- Cerrar cotización de cloud y subcontratistas antes de ofertar.
+- Revisar penalizaciones y condiciones de facturación.
+
+19. Preguntas al órgano de contratación:
+- ¿Existe umbral de anormalidad definido? ¿Cómo se justifica una baja superior al 10%?
+- ¿Se permite revisión de precios en licencias cloud?
+- ¿Qué penalizaciones exactas aplican por SLA y retrasos?
+- ¿Se aceptan mejoras técnicas cuantificables?
+- ¿Se puede subcontratar la operación cloud y con qué límites?
+
+20. Documentos revisados:
+- PCAP OPP-SW-011 (Pliego administrativo)
+- PPT OPP-SW-011 (Pliego técnico)
+
+---
+
+Bloque de viabilidad documental en formato JSON a continuación.

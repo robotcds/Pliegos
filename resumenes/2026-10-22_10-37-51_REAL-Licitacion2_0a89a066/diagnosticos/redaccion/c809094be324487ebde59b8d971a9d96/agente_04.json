@@ -1,0 +1,198 @@
+{
+  "orden": 4,
+  "id": "A4",
+  "nombre": "Criterios de adjudicación",
+  "tipo": "extraccion",
+  "ejecucion": "0a89a066905a4580bec3e207eac222da",
+  "estado": "completado",
+  "contenido": {
+    "salida_original": "# 1. Resumen factual de criterios de adjudicación\n\nLa licitación \"Administración Workplace\" de Correos y CEX establece una adjudicación basada en pluralidad de criterios (mejor relación calidad-precio), con una ponderación total de 100 puntos distribuidos en tres bloques: criterios sujetos a juicio de valor (27%), criterios técnicos automáticos (3%) y criterio económico (70%). Los criterios y subcriterios, sus reglas de valoración, fórmulas, umbrales y topes están detallados en los Anexos IX y X del pliego. El régimen de ofertas anormalmente bajas y las reglas de desempate están expresamente documentados.\n\n# 2. Mapa completo de criterios de adjudicación\n\n| Criterio principal | Subcriterio | Puntos | % total | Tipo | Fórmula/regla | Umbral | Tope | Fuente |\n|-------------------|-------------|--------|---------|------|---------------|--------|------|--------|\n| 1. Solución técnica del servicio | 1.1. Descripción y detalle del alcance completo de los servicios solicitados en el pliego | 0-9 | 9% | Juicio de valor | Ver desglose: 3 puntos por detalle y adecuación, 1 por modelo relación, 2 por optimización/mejora, 2 por subcontratación, 1 por gestión del conocimiento | No consta | 9 | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.84-85 |\n| 1. Solución técnica del servicio | 1.2. Descripción del modelo de gobierno de entrega del servicio | 0-3 | 3% | Juicio de valor | 1 punto por cada uno de: roles y responsabilidades, modelo de gobierno, conocimientos/experiencia, organigrama/procesos | No consta | 3 | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.85 |\n| 1. Solución técnica del servicio | 1.3. Plan propuesto para la transición del servicio | 0-2 | 2% | Juicio de valor | 1,5 puntos por detalle y adecuación; 0,5 si el tiempo es inferior a 30 días naturales | No consta | 2 | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.85 |\n| 1. Solución técnica del servicio | 1.4. Plan propuesto para la reversión del servicio | 0-2 | 2% | Juicio de valor | 1 punto por detalle y adecuación; 1 punto si el equipo de reversión >5 personas | No consta | 2 | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.85 |\n| 2. Características y conocimientos del equipo de trabajo | 2.1. Propuesta organizativa y descripción del equipo de trabajo con características adicionales a las requeridas en la fase de solvencia | 0-4 | 4% | Juicio de valor | 4 puntos si se proporciona propuesta con correcto nivel de detalle y se adecua a los requisitos | No consta | 4 | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.85-86 |\n| 2. Características y conocimientos del equipo de trabajo | 2.2. Incremento de horas ofrecidas sobre las necesidades estimadas y mejoras en el pliego | 0-7 | 7% | Juicio de valor | 5 puntos a la mejor oferta, proporcional al resto; 2 puntos adicionales a mayor número de mejoras | No consta | 7 | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86 |\n| 3. Acuerdo de Niveles de Servicio (ANS) | 3.1. Mejora en los Niveles de Servicio solicitados en el Anexo XVII | 0-3 | 3% | Automático | 0,5 puntos por cada indicador mejorado, hasta 3 puntos | No consta | 3 | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87 |\n| 4. Oferta económica | N/A | 0-70 | 70% | Automático | Fórmula de proporcionalidad variable por tramos de descuento (ver detalle abajo) | No consta | 70 | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.88 |\n\n# 3. Distribución objetiva de la puntuación por bloques\n\n- Criterios sujetos a juicio de valor: 27 puntos (27%)\n- Criterios técnicos automáticos: 3 puntos (3%)\n- Criterio económico: 70 puntos (70%)\n\n# 4. Criterios automáticos y fórmulas\n\n## 4.1. Criterio técnico automático (Mejora ANS)\n- Subcriterio: Mejora en los Niveles de Servicio solicitados en el Anexo XVII – Evaluación de Proveedores.\n- Puntuación: 0,5 puntos por cada indicador mejorado, hasta un máximo de 3 puntos.\n- Fórmula: Puntos = 0,5 x (nº de indicadores mejorados), máximo 3 puntos.\n- Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87\n\n## 4.2. Criterio económico (Oferta económica)\n- Puntuación máxima: 70 puntos\n- Fórmula de descuento:\n  - DtoN = (PL - POn) / PL x 100\n    - PL = Presupuesto de licitación\n    - POn = Presupuesto Oferta “n”\n    - DtoN = Descuento de la Oferta N\n- Puntuación económica de la oferta N (PEn):\n  - Si 0 ≤ DtoN ≤ 10: PEn = DtoN x 50 / 10\n  - Si 10 < DtoN ≤ 25: PEn = (DtoN - 10) x 20 / 15 + 50\n  - Si 25 < DtoN ≤ 30: PEn = (DtoN - 25) x (-70) / 5 + 70\n  - Si DtoN > 30: PEn = 0\n- Tramos y puntos:\n  - Dto1 = 10%, PE1 = 50\n  - Dto2 = 25%, PE2 = 70\n  - Dto3 = 30%, PE3 = 0\n- Redondeo: Todas las puntuaciones serán redondeadas al segundo decimal.\n- Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.88\n\n# 5. Baremo de precio/descuento: tramos y puntos\n\n| Tramo de descuento (DtoN) | Fórmula de puntos (PEn) | Puntos máximos |\n|---------------------------|------------------------|----------------|\n| 0 ≤ DtoN ≤ 10             | PEn = DtoN x 50 / 10   | 50             |\n| 10 < DtoN ≤ 25            | PEn = (DtoN-10) x 20/15 + 50 | 70      |\n| 25 < DtoN ≤ 30            | PEn = (DtoN-25) x (-70)/5 + 70 | 0     |\n| DtoN > 30                 | PEn = 0                | 0              |\n\n- Si el descuento supera el 30%, la oferta recibe 0 puntos económicos.\n- Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.88\n\n# 6. Mejoras automáticas: Unidad/condición | Puntos por unidad | Tope | Fórmula | Fuente\n\n- Mejora en los Niveles de Servicio (ANS): 0,5 puntos por cada indicador mejorado, hasta un máximo de 3 puntos. Unidad: indicador ANS mejorado. Tope: 3 puntos. Fórmula: 0,5 x nº indicadores mejorados. Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87\n\n# 7. Criterios sujetos a juicio de valor: contenido, subapartados, puntos, umbrales y reglas de valoración\n\n## 7.1. Solución técnica del servicio (máx. 16 puntos)\n- 1.1. Descripción y detalle del alcance completo de los servicios solicitados en el pliego (0-9 puntos):\n  - 3 puntos: correcto detalle y adecuación con las prestaciones a realizar\n  - 1 punto: correcto detalle del Modelo de relación cliente-proveedor\n  - 2 puntos: correcto detalle de propuestas de optimización y mejora continua\n  - 2 puntos: correcto detalle del plan de subcontratación\n  - 1 punto: correcto detalle de propuestas relacionadas con la gestión del conocimiento\n- 1.2. Descripción del modelo de gobierno de entrega del servicio (0-3 puntos):\n  - 1 punto por cada uno de: roles y responsabilidades, modelo de gobierno, conocimientos y experiencia, organigrama y procesos\n- 1.3. Plan propuesto para la transición del servicio (0-2 puntos):\n  - 1,5 puntos: correcto detalle y adecuación a los requisitos\n  - 0,5 punto: correcto detalle y adecuación a los requisitos y el tiempo es inferior a 30 días naturales\n- 1.4. Plan propuesto para la reversión del servicio (0-2 puntos):\n  - 1 punto: correcto detalle y adecuación a los requisitos\n  - 1 punto: equipo de reversión formado por más de 5 personas\n\n## 7.2. Características y conocimientos del equipo de trabajo (máx. 11 puntos)\n- 2.1. Propuesta organizativa y descripción del equipo de trabajo con características adicionales a las requeridas en la fase de solvencia (0-4 puntos):\n  - 4 puntos: propuesta con correcto nivel de detalle y adecuada a los requisitos\n- 2.2. Incremento de horas ofrecidas sobre las necesidades estimadas y mejoras en el pliego (0-7 puntos):\n  - 5 puntos: mejor oferta, puntuación proporcional al resto\n  - 2 puntos adicionales: mayor número de mejoras\n\n- La puntuación técnica de la oferta estará constituida por la suma de las puntuaciones finales asignadas a cada uno de los bloques de criterios técnicos, con un máximo de 27 puntos.\n- Fórmula de normalización técnica: PTn = PTm x VTn / VTm\n  - PTn = Puntuación técnica oferta “n”\n  - PTm = Puntuación técnica máxima (27)\n  - VTn = Valoración técnica de la oferta “n”\n  - VTm = Valoración técnica más alta\n- Redondeo: Todas las puntuaciones serán redondeadas al segundo decimal.\n- Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86\n\n# 8. Umbrales mínimos o causas de exclusión ligadas a criterios\n- No se han localizado umbrales mínimos de puntuación técnica o económica que supongan exclusión automática, más allá de los requisitos de admisión y solvencia.\n- Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX-X\n\n# 9. Datos no calculables o no localizados\n- No consta baremo detallado de \"indicadores ANS\" mejorables ni listado de mejoras automáticas concretas más allá de la fórmula general.\n- No consta desarrollo de la proporcionalidad para la puntuación de incremento de horas ofrecidas (2.2) más allá de la regla de \"mejor oferta\" y proporcionalidad.\n- No consta desarrollo de la fórmula de normalización técnica (PTn) para casos de empate o valores coincidentes.\n\n# 10. Documentos revisados\n1. ANEXO I.pdf\n2. Anuncio.pdf\n3. DOC20240806095753Pliegodefinitivofirmado.pdf\n4. DOC_CD2024-000901195.pdf\n5. poc (detalle licitación)\n6. poc (perfil contratante)\n7. CORREOS-Codigo-General-de-Conducta.pdf (no leído, error 404)\n8. perfil-contratante\n9. PoliticaProteccionDatosCanalEticoClientesyProveedores--ES.pdf\n\n# Registro documental de preventa\n\n| Materia | Requisito completo | Fuente |\n|--------|--------------------|--------|\n| Criterios de adjudicación: estructura | La adjudicación se realiza por pluralidad de criterios: juicio de valor (27%), criterios técnicos automáticos (3%), criterio económico (70%). | DOC20240806095753Pliegodefinitivofirmado.pdf, p.10-11, Anexos IX-X |\n| Criterios de adjudicación: juicio de valor | Criterios sujetos a juicio de valor: 1. Solución técnica del servicio (máx. 16 puntos), 2. Características y conocimientos del equipo de trabajo (máx. 11 puntos). Subcriterios, reglas y desglose en Anexo IX. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.84-86 |\n| Criterios de adjudicación: automáticos | Criterio técnico automático: Mejora en los Niveles de Servicio (ANS), 0,5 puntos por cada indicador mejorado, hasta 3 puntos. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87 |\n| Criterios de adjudicación: económicos | Criterio económico: Oferta económica, hasta 70 puntos, fórmula de proporcionalidad variable por tramos de descuento. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.88 |\n| Fórmulas y reglas de valoración | Fórmula de puntuación económica: ver detalle en sección 4.2. Fórmula de normalización técnica: PTn = PTm x VTn / VTm. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX-X |\n| Mejoras automáticas | Mejora en los Niveles de Servicio (ANS): 0,5 puntos por cada indicador mejorado, hasta 3 puntos. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87 |\n| Baremo de precio/descuento | Tramos: 0-10% (PEn = DtoN x 50/10), 10-25% (PEn = (DtoN-10)x20/15+50), 25-30% (PEn = (DtoN-25)x(-70)/5+70), >30% (PEn=0). | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.88 |\n| Redondeo | Todas las puntuaciones serán redondeadas al segundo decimal. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86 |\n| Umbrales mínimos/exclusión | No se han localizado umbrales mínimos de puntuación técnica o económica que supongan exclusión automática. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX-X |\n| Régimen de ofertas anormalmente bajas | Se considerará anormalmente baja una proposición económica que incluya un porcentaje de baja que, respecto de la media aritmética de los porcentajes de baja de todas las ofertas admitidas, o del presupuesto de licitación en caso de licitador único, exceda de diez unidades porcentuales. Justificación en 5 días hábiles. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.16 |\n| Criterios de desempate | En caso de empate, se acudirá a lo dispuesto en el artículo 66.11 del Real Decreto Ley 3/2020. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.11 |\n| Documentos revisados | ANEXO I.pdf, Anuncio.pdf, DOC20240806095753Pliegodefinitivofirmado.pdf, DOC_CD2024-000901195.pdf, poc (detalle licitación), poc (perfil contratante), CORREOS-Codigo-General-de-Conducta.pdf (no leído, error 404), perfil-contratante, PoliticaProteccionDatosCanalEticoClientesyProveedores--ES.pdf | Índice de documentos procesados |\n\n# Discrepancias y pendientes de aclaración\n- No se han identificado discrepancias en la documentación revisada.\n- No consta el detalle de los indicadores ANS mejorables ni el listado de mejoras automáticas concretas más allá de la fórmula general.\n- El documento \"CORREOS-Codigo-General-de-Conducta.pdf\" no ha podido ser leído (error 404); cualquier remisión a su contenido queda pendiente de verificación documental.",
+    "requisitos_documentales": [
+      {
+        "id": "R0001",
+        "seccion": "Criterios de adjudicación: estructura",
+        "detalle": "La adjudicación se realiza por pluralidad de criterios: juicio de valor (27%), criterios técnicos automáticos (3%), criterio económico (70%).",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.10-11, Anexos IX-X",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0002",
+        "seccion": "Criterios de adjudicación: juicio de valor",
+        "detalle": "Criterios sujetos a juicio de valor: 1. Solución técnica del servicio (máx. 16 puntos), 2. Características y conocimientos del equipo de trabajo (máx. 11 puntos). Subcriterios, reglas y desglose en Anexo IX.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.84-86",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0003",
+        "seccion": "Criterios de adjudicación: automáticos",
+        "detalle": "Criterio técnico automático: Mejora en los Niveles de Servicio (ANS), 0,5 puntos por cada indicador mejorado, hasta 3 puntos.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0004",
+        "seccion": "Criterios de adjudicación: económicos",
+        "detalle": "Criterio económico: Oferta económica, hasta 70 puntos, fórmula de proporcionalidad variable por tramos de descuento.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.88",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0005",
+        "seccion": "Fórmulas y reglas de valoración",
+        "detalle": "Fórmula de puntuación económica: ver detalle en sección 4.2. Fórmula de normalización técnica: PTn = PTm x VTn / VTm.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX-X",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0006",
+        "seccion": "Mejoras automáticas",
+        "detalle": "Mejora en los Niveles de Servicio (ANS): 0,5 puntos por cada indicador mejorado, hasta 3 puntos.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0007",
+        "seccion": "Baremo de precio/descuento",
+        "detalle": "Tramos: 0-10% (PEn = DtoN x 50/10), 10-25% (PEn = (DtoN-10)x20/15+50), 25-30% (PEn = (DtoN-25)x(-70)/5+70), >30% (PEn=0).",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.88",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0008",
+        "seccion": "Redondeo",
+        "detalle": "Todas las puntuaciones serán redondeadas al segundo decimal.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0009",
+        "seccion": "Umbrales mínimos/exclusión",
+        "detalle": "No se han localizado umbrales mínimos de puntuación técnica o económica que supongan exclusión automática.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX-X",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0010",
+        "seccion": "Régimen de ofertas anormalmente bajas",
+        "detalle": "Se considerará anormalmente baja una proposición económica que incluya un porcentaje de baja que, respecto de la media aritmética de los porcentajes de baja de todas las ofertas admitidas, o del presupuesto de licitación en caso de licitador único, exceda de diez unidades porcentuales. Justificación en 5 días hábiles.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.16",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0011",
+        "seccion": "Criterios de desempate",
+        "detalle": "En caso de empate, se acudirá a lo dispuesto en el artículo 66.11 del Real Decreto Ley 3/2020.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.11",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0012",
+        "seccion": "Documentos revisados",
+        "detalle": "ANEXO I.pdf, Anuncio.pdf, DOC20240806095753Pliegodefinitivofirmado.pdf, DOC_CD2024-000901195.pdf, poc (detalle licitación), poc (perfil contratante), CORREOS-Codigo-General-de-Conducta.pdf (no leído, error 404), perfil-contratante, PoliticaProteccionDatosCanalEticoClientesyProveedores--ES.pdf",
+        "fuente": "Índice de documentos procesados",
+        "origen": "extraccion_agente"
+      }
+    ]
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "ANEXO I.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 108608,
+        "caracteres_enviados_al_agente": 108608,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Anuncio.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 8853,
+        "caracteres_enviados_al_agente": 8853,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 300656,
+        "caracteres_enviados_al_agente": 300656,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 4,
+        "nombre": "DOC_CD2024-000901195.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 8376,
+        "caracteres_enviados_al_agente": 8376,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 5,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "Anuncio.pdf",
+        "caracteres_extraidos": 5053,
+        "caracteres_enviados_al_agente": 5053,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 6,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "Anuncio.pdf",
+        "caracteres_extraidos": 3234,
+        "caracteres_enviados_al_agente": 3234,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 7,
+        "nombre": "CORREOS-Codigo-General-de-Conducta.pdf",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 0,
+        "caracteres_enviados_al_agente": 0,
+        "texto_compactado": false,
+        "error": "404 Client Error: The specified blob does not exist. for url: https://cswetwebcorsta01.blob.core.windows.net/uploads/2022/01/CORREOS-Codigo-General-de-Conducta.pdf"
+      },
+      {
+        "numero": 8,
+        "nombre": "perfil-contratante",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 84908,
+        "caracteres_enviados_al_agente": 84908,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 9,
+        "nombre": "PoliticaProteccionDatosCanalEticoClientesyProveedores--ES.pdf",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 13833,
+        "caracteres_enviados_al_agente": 13833,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Documento no leido: CORREOS-Codigo-General-de-Conducta.pdf: 404 Client Error: The specified blob does not exist. for url: https://cswetwebcorsta01.blob.core.windows.net/uploads/2022/01/CORREOS-Codigo-General-de-Conducta.pdf",
+      "Se omitieron 22 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  }
+}

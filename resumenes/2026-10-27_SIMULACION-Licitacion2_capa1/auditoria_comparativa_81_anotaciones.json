@@ -1,0 +1,2203 @@
+{
+  "fecha": "2026-10-27",
+  "tipo": "auditoria_documental_manual",
+  "resumen": {
+    "anotaciones": 81,
+    "errores_senalados": 13,
+    "omisiones_senaladas": 68,
+    "omisiones_cubiertas_tras_revision": 68,
+    "omisiones_ausentes_tras_revision": 0,
+    "precisiones_al_pdf_simulado": [
+      29,
+      48
+    ],
+    "version_anterior_omisiones_ausentes": 54,
+    "version_anterior_omisiones_incompletas": 14
+  },
+  "alcance": "Compara el PDF anterior de tres páginas, la simulación de 25 páginas y los cuatro originales con las consultas externas ya documentadas. No audita JSON de agentes ni logs de la ejecución anterior. No altera prompts.",
+  "fuentes": {
+    "anterior": "C:\\Users\\JUAN CARTAGENA\\Downloads\\ResumenesLicitacionesReales (1)\\REAL-Licitacion2_resumen_legible_limpio.pdf",
+    "actual": "C:\\Users\\JUAN CARTAGENA\\Desktop\\Oportunidades.v3.Preventa\\Oportunidades.v2\\resumenes\\2026-10-27_SIMULACION-Licitacion2_capa1\\AI240006_simulacion_capa1_resumen_legible.pdf",
+    "original_principal": "C:\\Users\\JUAN CARTAGENA\\Desktop\\Oportunidades.v3.Preventa\\Oportunidades.v2\\Examples\\Licitacion2\\DOC20240806095753Pliegodefinitivofirmado.pdf"
+  },
+  "comprobaciones": [
+    {
+      "id": "E01",
+      "grupo": "Errores señalados",
+      "anotacion": "El 26/08/2024 a las 10:00 corresponde al plazo confirmado de solicitudes de participación según la publicación posterior, no al cierre inequívoco de la oferta completa. Las ofertas se presentan posteriormente, en el plazo de la invitación.",
+      "tema": "Plazo y fase",
+      "anterior": "Error confirmado, p. 1",
+      "respaldo": "PCAT 6, 8-9; publicaciones nacionales p. 2; TED p. 3",
+      "recuperable": "PDF locales + TED corroborativo",
+      "antes_simulacion": "Cubierto con el matiz indicado",
+      "nuevo": "Cubierto / tratado correctamente",
+      "secciones": [
+        2
+      ],
+      "comentario": "El resumen anterior daba una fecha límite de presentación sin distinguir participación de oferta. La publicación posterior confirma participación y el plazo de ofertas queda para la invitación.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 2,
+          "pagina": 2,
+          "titulo": "Fases del procedimiento y presentación",
+          "paginas": "2-3"
+        }
+      ]
+    },
+    {
+      "id": "E02",
+      "grupo": "Errores señalados",
+      "anotacion": "Los tres sobres corresponden a la fase de ofertas iniciales. No describen por sí solos la fase previa de solicitud de participación y selección de candidatos.",
+      "tema": "Solicitud previa y sobres",
+      "anterior": "Incompleto, p. 2",
+      "respaldo": "PCAT 8-12 y 78",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto con el matiz indicado",
+      "nuevo": "Cubierto / tratado correctamente",
+      "secciones": [
+        2
+      ],
+      "comentario": "Los tres sobres estaban descritos, pero faltaban solicitud de participación, selección e invitación. La observación es pertinente como omisión de fase.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 2,
+          "pagina": 2,
+          "titulo": "Fases del procedimiento y presentación",
+          "paginas": "2-3"
+        }
+      ]
+    },
+    {
+      "id": "E03",
+      "grupo": "Errores señalados",
+      "anotacion": "La confidencialidad no termina siempre a los cinco años. El plazo general es de cinco años desde el conocimiento de la información, salvo plazo mayor; para datos personales, el deber de confidencialidad continúa indefinidamente.",
+      "tema": "Confidencialidad",
+      "anterior": "Incompleto, p. 2",
+      "respaldo": "PCAT 24 y 101",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto con el matiz indicado",
+      "nuevo": "Cubierto / tratado correctamente",
+      "secciones": [
+        19,
+        18
+      ],
+      "comentario": "Constaban cinco años sin inicio del cómputo, posible plazo mayor ni confidencialidad indefinida de datos personales. El comentario está respaldado.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 19,
+          "pagina": 19,
+          "titulo": "Obligaciones laborales, clasificación y subcontratación",
+          "paginas": "19-20"
+        },
+        {
+          "seccion": 18,
+          "pagina": 18,
+          "titulo": "Seguridad, privacidad y evidencias",
+          "paginas": "18-19"
+        }
+      ]
+    },
+    {
+      "id": "E04",
+      "grupo": "Errores señalados",
+      "anotacion": "Se mezclan condiciones especiales de ejecución con otras obligaciones. La condición especial expresamente seleccionada es emplear al menos un 20 % de trabajadores indefinidos. La adscripción de medios y la protección de datos son obligaciones esenciales; igualdad, PRL y confidencialidad tienen su propia regulación.",
+      "tema": "Clasificación de obligaciones",
+      "anterior": "Error confirmado, p. 2",
+      "respaldo": "PCAT 22-24 y 30",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto con el matiz indicado",
+      "nuevo": "Cubierto / tratado correctamente",
+      "secciones": [
+        19
+      ],
+      "comentario": "Se calificaban conjuntamente como condiciones especiales protección de datos, medios, igualdad, PRL y confidencialidad. La casilla seleccionada es el 20 % de indefinidos; medios y datos tienen carácter esencial y las demás materias regulación propia.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 19,
+          "pagina": 19,
+          "titulo": "Obligaciones laborales, clasificación y subcontratación",
+          "paginas": "19-20"
+        }
+      ]
+    },
+    {
+      "id": "E05",
+      "grupo": "Errores señalados",
+      "anotacion": "No se ha localizado una cláusula que establezca expresamente el español como idioma de presentación. No debe afirmarse como requisito confirmado.",
+      "tema": "Idioma español",
+      "anterior": "Afirmación sin referencia suficiente, p. 2",
+      "respaldo": "Cuatro PDF locales: cláusula expresa no localizada; TED 475713-2024 p. 3",
+      "recuperable": "Confirmación expresa en enlace TED",
+      "antes_simulacion": "Cubierto con el matiz indicado",
+      "nuevo": "Cubierto / tratado correctamente",
+      "secciones": [
+        2,
+        23,
+        24
+      ],
+      "comentario": "La anotación era prudente si se limitaba a los cuatro PDF originales. No permite afirmar que el español nunca estuviera documentado: el TED enlazado lo confirma expresamente. El nuevo PDF conserva el español con esa fuente.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 2,
+          "pagina": 2,
+          "titulo": "Fases del procedimiento y presentación",
+          "paginas": "2-3"
+        },
+        {
+          "seccion": 23,
+          "pagina": 24,
+          "titulo": "Fuentes revisadas y alcance de la simulación",
+          "paginas": "24-25"
+        },
+        {
+          "seccion": 24,
+          "pagina": 25,
+          "titulo": "Conclusión documental para preventa",
+          "paginas": "25"
+        }
+      ]
+    },
+    {
+      "id": "E06",
+      "grupo": "Errores señalados",
+      "anotacion": "La ausencia de cartas de fabricante, categoría de partner o documento denominado SLA back-to-back no significa que no existan obligaciones con fabricantes. Se exige soporte, disponibilidad de expertos, gestiones contractuales y aseguramiento de los ANS de los productos.",
+      "tema": "Fabricantes y soporte",
+      "anterior": "Omisión material; no negación literal, p. 2",
+      "respaldo": "PCAT 36-44, 63, 71 y 97",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto con el matiz indicado",
+      "nuevo": "Cubierto / tratado correctamente",
+      "secciones": [
+        9,
+        10,
+        13
+      ],
+      "comentario": "El anterior decía que no se exigían cartas, partnerships o SLA back-to-back; no decía expresamente que no hubiera soporte. La crítica es válida como falta del alcance material, no como prueba de una exención contractual afirmada literalmente.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 9,
+          "pagina": 10,
+          "titulo": "Prestaciones de virtualización y puesto de trabajo",
+          "paginas": "10-11"
+        },
+        {
+          "seccion": 10,
+          "pagina": 11,
+          "titulo": "Movilidad y proyectos especiales",
+          "paginas": "11-12"
+        },
+        {
+          "seccion": 13,
+          "pagina": 14,
+          "titulo": "Recursos, medios y responsabilidades del proveedor",
+          "paginas": "14"
+        }
+      ]
+    },
+    {
+      "id": "E07",
+      "grupo": "Errores señalados",
+      "anotacion": "No debe afirmarse una ausencia general de habilitación profesional. No se concreta una habilitación sectorial específica, pero sí existen obligaciones generales de acreditación y de gestión de permisos, licencias y autorizaciones.",
+      "tema": "Habilitación",
+      "anterior": "Matiz al diagnóstico, p. 2",
+      "respaldo": "PCAT 7, 16 y 20",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto con el matiz indicado",
+      "nuevo": "Cubierto / tratado correctamente",
+      "secciones": [
+        3
+      ],
+      "comentario": "El anterior hablaba de habilitaciones legales específicas, no de una exención general de toda habilitación. Es correcto añadir acreditación general y permisos/licencias; no es correcto atribuirle sin matiz una negación más amplia que su texto.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 3,
+          "pagina": 4,
+          "titulo": "Solvencia, habilitación y acreditación",
+          "paginas": "4-5"
+        }
+      ]
+    },
+    {
+      "id": "E08",
+      "grupo": "Errores señalados",
+      "anotacion": "La ausencia de garantías de producto no elimina las garantías contractuales: definitiva del 5 %, complementaria de otro 5 % para oferta temeraria y garantía general de tres meses desde la recepción conforme.",
+      "tema": "Garantías contractuales",
+      "anterior": "Omisión material; no negación literal, p. 2",
+      "respaldo": "PCAT 18-19 y 28",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto con el matiz indicado",
+      "nuevo": "Cubierto / tratado correctamente",
+      "secciones": [
+        6
+      ],
+      "comentario": "La ausencia de garantías de producto no contradice por sí sola el pliego. Sí faltaban las garantías económicas 5 %+5 % y la garantía del servicio de tres meses, todas recuperables de los PDF.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 6,
+          "pagina": 7,
+          "titulo": "Garantías y negociación",
+          "paginas": "7"
+        }
+      ]
+    },
+    {
+      "id": "E09",
+      "grupo": "Errores señalados",
+      "anotacion": "Es impreciso afirmar que faltan datos de los perfiles en general. Los pliegos contienen perfiles, experiencia, dedicaciones y horas. Lo que figura sin definir es el número de recursos compartidos de NetApp, Cisco y SQL.",
+      "tema": "Datos de perfiles",
+      "anterior": "Generalización incorrecta, p. 1",
+      "respaldo": "PCAT 63-73",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto con el matiz indicado",
+      "nuevo": "Cubierto / tratado correctamente",
+      "secciones": [
+        12
+      ],
+      "comentario": "No faltan perfiles, experiencia, dedicación y horas de forma general. Falta definir cuántos especialistas compartidos habrá, no su especialidad o sus horas mínimas.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 12,
+          "pagina": 13,
+          "titulo": "Equipo mínimo, horas y acreditación",
+          "paginas": "13-14"
+        }
+      ]
+    },
+    {
+      "id": "E10",
+      "grupo": "Errores señalados",
+      "anotacion": "No se localiza una cifra consolidada de usuarios finales únicos, pero sí volumetrías de dispositivos y sesiones. No deben confundirse ni utilizarse como magnitudes equivalentes.",
+      "tema": "Usuarios frente a dispositivos",
+      "anterior": "Afirmación sobre ausencia no refutada; falta detalle, p. 1",
+      "respaldo": "PCAT 34-36, 41 y 45-46",
+      "recuperable": "PDF locales; no consta total de usuarios únicos",
+      "antes_simulacion": "Cubierto con el matiz indicado",
+      "nuevo": "Cubierto / tratado correctamente",
+      "secciones": [
+        8
+      ],
+      "comentario": "El resumen anterior señalaba ausencia de usuarios finales; no daba una suma falsa de dispositivos como usuarios. La advertencia evita un error posible, pero no demuestra que se hubiera cometido. Sí faltaban las volumetrías disponibles.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 8,
+          "pagina": 9,
+          "titulo": "Alcance técnico e inventario de referencia",
+          "paginas": "9-10"
+        }
+      ]
+    },
+    {
+      "id": "E11",
+      "grupo": "Errores señalados",
+      "anotacion": "Las referencias a la revisión de un JSON, un error 404 y 22 enlaces omitidos no pueden verificarse con los documentos aportados.",
+      "tema": "JSON, 404 y 22 enlaces",
+      "anterior": "Aviso de procesamiento ya separado, pp. 1 y 3",
+      "respaldo": "Resumen anterior pp. 1 y 3; no acreditable con pliegos; consulta externa actual",
+      "recuperable": "JSON/logs históricos no aportados",
+      "antes_simulacion": "Cubierto con el matiz indicado",
+      "nuevo": "Cubierto / tratado correctamente",
+      "secciones": [
+        23,
+        24
+      ],
+      "comentario": "No puede validarse la revisión del JSON ni el número de enlaces descartados sin los artefactos y logs de aquella ejecución. El 404 está citado como aviso de procesamiento, no como obligación contractual. Un 404 observado ahora no acredita retrospectivamente todo el procesamiento anterior.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 23,
+          "pagina": 24,
+          "titulo": "Fuentes revisadas y alcance de la simulación",
+          "paginas": "24-25"
+        },
+        {
+          "seccion": 24,
+          "pagina": 25,
+          "titulo": "Conclusión documental para preventa",
+          "paginas": "25"
+        }
+      ]
+    },
+    {
+      "id": "E12",
+      "grupo": "Errores señalados",
+      "anotacion": "No pueden darse por revisados los contenidos externos del Canal Ético y del Código General de Conducta ni confirmar que sus enlaces sigan fallando.",
+      "tema": "Canal Ético y Código",
+      "anterior": "Cautela metodológica válida; verificación histórica abierta",
+      "respaldo": "Enlaces del PCAT 22-23 y 119-120; manifiesto de consultas; política enlazada de cinco páginas",
+      "recuperable": "Requiere consulta externa; parte recuperada",
+      "antes_simulacion": "Cubierto con el matiz indicado",
+      "nuevo": "Cubierto / tratado correctamente",
+      "secciones": [
+        23
+      ],
+      "comentario": "El resumen anterior cita la política del Canal Ético, pero esa cita sola no demuestra su lectura completa. Para el nuevo PDF se ha recuperado y leído la política; el Código en la URL concreta devuelve 404. No se certifica el acceso que tuvo la ejecución anterior.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 23,
+          "pagina": 24,
+          "titulo": "Fuentes revisadas y alcance de la simulación",
+          "paginas": "24-25"
+        }
+      ]
+    },
+    {
+      "id": "E13",
+      "grupo": "Errores señalados",
+      "anotacion": "La referencia de solvencia debe precisarse: los umbrales están en la página 7 del pliego y su acreditación en el Anexo V, página 79.",
+      "tema": "Solvencia: páginas",
+      "anterior": "Referencia mejorable, no umbral errado, p. 2",
+      "respaldo": "PCAT 7 y 79",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto con el matiz indicado",
+      "nuevo": "Cubierto / tratado correctamente",
+      "secciones": [
+        3
+      ],
+      "comentario": "El resumen anterior ya daba correctamente los umbrales y remitía a p. 7 y Anexo V. Añadir p. 79 precisa la acreditación; no revela un error de cuantía ni que faltase la solvencia completa.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 3,
+          "pagina": 4,
+          "titulo": "Solvencia, habilitación y acreditación",
+          "paginas": "4-5"
+        }
+      ]
+    },
+    {
+      "id": "F01",
+      "grupo": "Información que faltaba",
+      "anotacion": "Desglose del presupuesto sin IVA: Correos, 1.087.500 €; CEX, 332.500 €. Los servicios ordinarios suman 1.270.000 € y los proyectos especiales, 150.000 €.",
+      "tema": "Desglose presupuestario por sociedad y componente",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 6, 75-77",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        4
+      ],
+      "comentario": "Los totales globales sí estaban en el anterior, pero no el desglose pedido.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 4,
+          "pagina": 5,
+          "titulo": "Presupuesto, bolsas y modificaciones",
+          "paginas": "5"
+        }
+      ]
+    },
+    {
+      "id": "F02",
+      "grupo": "Información que faltaba",
+      "anotacion": "Las bolsas de proyectos especiales son de 135.000 € para Correos y 15.000 € para CEX. Son fijas y no pueden reducirse en la oferta.",
+      "tema": "Bolsas de 135.000 € y 15.000 €, fijas",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 50-51, 90-91",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        4,
+        5
+      ],
+      "comentario": "Dato y prohibición de reducción expresos.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 4,
+          "pagina": 5,
+          "titulo": "Presupuesto, bolsas y modificaciones",
+          "paginas": "5"
+        },
+        {
+          "seccion": 5,
+          "pagina": 6,
+          "titulo": "Facturación, cobro y trabajos sin ingreso garantizado",
+          "paginas": "6"
+        }
+      ]
+    },
+    {
+      "id": "F03",
+      "grupo": "Información que faltaba",
+      "anotacion": "No existe obligación de consumir las bolsas de proyectos especiales. Solo se factura lo consumido, por lo que no constituyen ingresos garantizados.",
+      "tema": "Consumo no obligatorio y facturación de lo consumido",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 50-51, 71, 90-91",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        4,
+        5,
+        10
+      ],
+      "comentario": "No consumo garantizado: consecuencia económica del régimen de consumo, no ingreso mínimo contratado.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 4,
+          "pagina": 5,
+          "titulo": "Presupuesto, bolsas y modificaciones",
+          "paginas": "5"
+        },
+        {
+          "seccion": 5,
+          "pagina": 6,
+          "titulo": "Facturación, cobro y trabajos sin ingreso garantizado",
+          "paginas": "6"
+        },
+        {
+          "seccion": 10,
+          "pagina": 11,
+          "titulo": "Movilidad y proyectos especiales",
+          "paginas": "11-12"
+        }
+      ]
+    },
+    {
+      "id": "F04",
+      "grupo": "Información que faltaba",
+      "anotacion": "Cada sociedad formaliza su propio contrato y tiene facturación separada.",
+      "tema": "Contrato y factura separados por sociedad",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 4, 74, 90-91",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        1,
+        5
+      ],
+      "comentario": "Expreso, aunque el procedimiento no tenga lotes.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 1,
+          "pagina": 2,
+          "titulo": "Identificación, objeto y vigencia",
+          "paginas": "2"
+        },
+        {
+          "seccion": 5,
+          "pagina": 6,
+          "titulo": "Facturación, cobro y trabajos sin ingreso garantizado",
+          "paginas": "6"
+        }
+      ]
+    },
+    {
+      "id": "F05",
+      "grupo": "Información que faltaba",
+      "anotacion": "La fórmula económica no premia siempre un mayor descuento. Hasta el 10 %: 5 × descuento; más del 10 % y hasta el 25 %: 50 + (descuento − 10) × 20 / 15; más del 25 % y hasta el 30 %: 70 − (descuento − 25) × 14; más del 30 %: cero puntos. El descuento se expresa en puntos porcentuales.",
+      "tema": "Fórmula de precio por tramos",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 13-14, 86-89",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        7
+      ],
+      "comentario": "El anterior decía que había fórmulas detalladas, pero no las reproducía. Los cuatro tramos son recuperables.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 7,
+          "pagina": 8,
+          "titulo": "Criterios de adjudicación y fórmula económica",
+          "paginas": "8-9"
+        }
+      ]
+    },
+    {
+      "id": "F06",
+      "grupo": "Información que faltaba",
+      "anotacion": "La máxima puntuación económica, 70 puntos, se obtiene con un descuento del 25 %. Un descuento del 27,5 % obtiene 35 puntos y uno del 30 % obtiene cero.",
+      "tema": "Ejemplos 25 % / 27,5 % / 30 %",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 13-14, 87-89",
+      "recuperable": "PDF locales; cálculo derivado",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        7
+      ],
+      "comentario": "Cálculos derivados: 70, 35 y 0 puntos. No son tres requisitos textuales independientes.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 7,
+          "pagina": 8,
+          "titulo": "Criterios de adjudicación y fórmula económica",
+          "paginas": "8-9"
+        }
+      ]
+    },
+    {
+      "id": "F07",
+      "grupo": "Información que faltaba",
+      "anotacion": "Solo hay una ronda de negociación técnica y económica. La oferta definitiva debe reducir el importe de la inicial; si lo iguala o supera, queda excluida.",
+      "tema": "Una ronda y oferta definitiva estrictamente menor",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 12-15",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        6
+      ],
+      "comentario": "La igualdad o incremento del importe da lugar al rechazo en el supuesto descrito.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 6,
+          "pagina": 7,
+          "titulo": "Garantías y negociación",
+          "paginas": "7"
+        }
+      ]
+    },
+    {
+      "id": "F08",
+      "grupo": "Información que faltaba",
+      "anotacion": "Se negocian valores de ANS e importes, no requisitos mínimos ni criterios de adjudicación.",
+      "tema": "Objeto negociable: ANS y precio",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 12-13",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        6
+      ],
+      "comentario": "Se conservan los requisitos mínimos y criterios de adjudicación.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 6,
+          "pagina": 7,
+          "titulo": "Garantías y negociación",
+          "paginas": "7"
+        }
+      ]
+    },
+    {
+      "id": "F09",
+      "grupo": "Información que faltaba",
+      "anotacion": "La baja anormal se identifica al superar en más de diez puntos porcentuales la media de bajas admitidas, con una regla específica si solo hay un licitador. Se conceden cinco días hábiles para justificarla. No equivale a exclusión automática por superar el 25 % de descuento.",
+      "tema": "Baja anormal y cinco días hábiles de justificación",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 16",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        7
+      ],
+      "comentario": "Es un procedimiento distinto de la curva de puntos; no exclusión automática por descuento del 25 %.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 7,
+          "pagina": 8,
+          "titulo": "Criterios de adjudicación y fórmula económica",
+          "paginas": "8-9"
+        }
+      ]
+    },
+    {
+      "id": "F10",
+      "grupo": "Información que faltaba",
+      "anotacion": "No hay garantía provisional. La definitiva es del 5 % del importe de adjudicación sin IVA y la complementaria añade otro 5 % en caso de oferta temeraria.",
+      "tema": "Sin provisional; definitiva 5 % y adicional 5 %",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 18-19",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        6
+      ],
+      "comentario": "Garantía complementaria para la oferta inicialmente anormal que resulte adjudicataria.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 6,
+          "pagina": 7,
+          "titulo": "Garantías y negociación",
+          "paginas": "7"
+        }
+      ]
+    },
+    {
+      "id": "F11",
+      "grupo": "Información que faltaba",
+      "anotacion": "Se prevén modificaciones de hasta el 20 % del precio inicial, al alza o a la baja, sin nuevos precios unitarios.",
+      "tema": "Modificaciones de hasta 20 %, alza/baja, sin nuevos precios",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 24, 77, 94-95",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        4
+      ],
+      "comentario": "Se aplican bajo los supuestos del Anexo XIV, no como volumen contratado seguro.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 4,
+          "pagina": 5,
+          "titulo": "Presupuesto, bolsas y modificaciones",
+          "paginas": "5"
+        }
+      ]
+    },
+    {
+      "id": "F12",
+      "grupo": "Información que faltaba",
+      "anotacion": "El equipo mínimo incluye diez recursos dedicados a jornada completa: un responsable de gestión, cuatro de sistemas virtualizados, tres de puesto de trabajo y dos de movilidad.",
+      "tema": "Diez recursos dedicados a jornada completa",
+      "anterior": "Incompleto",
+      "respaldo": "PCAT, pp. 63-64, 73",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        12
+      ],
+      "comentario": "Solo constaba equipo estructurado. El mínimo y su reparto sí son documentales.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 12,
+          "pagina": 13,
+          "titulo": "Equipo mínimo, horas y acreditación",
+          "paginas": "13-14"
+        }
+      ]
+    },
+    {
+      "id": "F13",
+      "grupo": "Información que faltaba",
+      "anotacion": "Además, se requieren recursos compartidos de NetApp, Cisco y SQL, con 480 horas para cada especialidad.",
+      "tema": "NetApp, Cisco y SQL compartidos, 480 h cada uno",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 64, 73",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        12
+      ],
+      "comentario": "No hay que inventar número de personas compartidas.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 12,
+          "pagina": 13,
+          "titulo": "Equipo mínimo, horas y acreditación",
+          "paginas": "13-14"
+        }
+      ]
+    },
+    {
+      "id": "F14",
+      "grupo": "Información que faltaba",
+      "anotacion": "Las horas mínimas suman 37.440 para el conjunto de los 24 meses, no para cada año. Este mínimo no elimina la necesidad de cubrir guardias, sustituciones, ventanas y picos.",
+      "tema": "37.440 horas en 24 meses y coberturas adicionales",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 40, 44, 50, 63-64, 72-73",
+      "recuperable": "PDF locales; cálculo derivado",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        11,
+        12
+      ],
+      "comentario": "Total obtenido sumando la tabla; 24 meses son explícitos. Guardias y sustituciones se acreditan en otros apartados.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 11,
+          "pagina": 12,
+          "titulo": "Horarios, presencialidad y continuidad",
+          "paginas": "12"
+        },
+        {
+          "seccion": 12,
+          "pagina": 13,
+          "titulo": "Equipo mínimo, horas y acreditación",
+          "paginas": "13-14"
+        }
+      ]
+    },
+    {
+      "id": "F15",
+      "grupo": "Información que faltaba",
+      "anotacion": "Experiencia mínima: cinco años para el responsable, comunicaciones Cisco y expertos de proyectos especiales; tres años para virtualización, NetApp, SQL, puesto de trabajo y movilidad.",
+      "tema": "Experiencias de cinco y tres años según perfil",
+      "anterior": "Incompleto",
+      "respaldo": "PCAT, pp. 64-71",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        10,
+        12
+      ],
+      "comentario": "Se mencionaba experiencia de forma genérica. Los mínimos específicos están en el anexo.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 10,
+          "pagina": 11,
+          "titulo": "Movilidad y proyectos especiales",
+          "paginas": "11-12"
+        },
+        {
+          "seccion": 12,
+          "pagina": 13,
+          "titulo": "Equipo mínimo, horas y acreditación",
+          "paginas": "13-14"
+        }
+      ]
+    },
+    {
+      "id": "F16",
+      "grupo": "Información que faltaba",
+      "anotacion": "Se exigen conocimientos técnicos detallados e inglés de conversación y lectura técnica para los perfiles técnicos descritos. Las certificaciones de fabricante son deseables o valorables, distintas de las ISO empresariales obligatorias.",
+      "tema": "Conocimientos, inglés y certificaciones deseables",
+      "anterior": "Incompleto",
+      "respaldo": "PCAT, pp. 7, 65-70, 79",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        12
+      ],
+      "comentario": "El anterior aludía a certificaciones deseables; faltaban conocimientos e inglés. ISO empresariales o equivalentes y certificaciones personales no son intercambiables.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 12,
+          "pagina": 13,
+          "titulo": "Equipo mínimo, horas y acreditación",
+          "paginas": "13-14"
+        }
+      ]
+    },
+    {
+      "id": "F17",
+      "grupo": "Información que faltaba",
+      "anotacion": "La declaración de disponibilidad y el certificado de al menos un año en puesto similar no sustituyen los mínimos específicos de experiencia superiores del anexo técnico.",
+      "tema": "Certificado de un año no sustituye experiencia específica",
+      "anterior": "Incompleto",
+      "respaldo": "PCAT, pp. 8, 64-71",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        3,
+        12
+      ],
+      "comentario": "La adscripción se mencionaba; faltaba conciliar el documento de un año con los tres/cinco años de los perfiles.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 3,
+          "pagina": 4,
+          "titulo": "Solvencia, habilitación y acreditación",
+          "paginas": "4-5"
+        },
+        {
+          "seccion": 12,
+          "pagina": 13,
+          "titulo": "Equipo mínimo, horas y acreditación",
+          "paginas": "13-14"
+        }
+      ]
+    },
+    {
+      "id": "F18",
+      "grupo": "Información que faltaba",
+      "anotacion": "No procede subrogación según la opción seleccionada en el pliego. El convenio de referencia del expediente es el XVIII Convenio estatal de empresas de consultoría de sistemas de información y estudios de mercado y opinión pública.",
+      "tema": "No subrogación y convenio de referencia",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 19, 64, 93",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        19
+      ],
+      "comentario": "La opción principal es no; el anexo de plantilla conserva una frase afirmativa. El convenio se cita como referencia del expediente de 2024.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 19,
+          "pagina": 19,
+          "titulo": "Obligaciones laborales, clasificación y subcontratación",
+          "paginas": "19-20"
+        }
+      ]
+    },
+    {
+      "id": "F19",
+      "grupo": "Información que faltaba",
+      "anotacion": "El proveedor aporta portátil, licencias, conexión y teléfono directo. Se incluyen mínimos de Intel i5 de novena generación o superior, SSD y 8 GB de RAM, con posibles configuraciones de 16 GB.",
+      "tema": "Portátil, licencias, conexión, teléfono y configuración mínima",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 71-72",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        13
+      ],
+      "comentario": "Las especificaciones i5/SSD/RAM y medios de comunicación constan en el anexo.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 13,
+          "pagina": 14,
+          "titulo": "Recursos, medios y responsabilidades del proveedor",
+          "paginas": "14"
+        }
+      ]
+    },
+    {
+      "id": "F20",
+      "grupo": "Información que faltaba",
+      "anotacion": "Falta recoger el parque técnico: más de 12.000 thin clients HP, 500 VDI, 15.000 sesiones o máquinas virtuales y 1.000 VDI en Azure WVD. Estas categorías no deben sumarse sin comprobar solapamientos.",
+      "tema": "Thin clients, VDI, sesiones y Azure WVD",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 34-36",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        8
+      ],
+      "comentario": "No sumar magnitudes diferentes ni dar por probada la ausencia de solapamiento.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 8,
+          "pagina": 9,
+          "titulo": "Alcance técnico e inventario de referencia",
+          "paginas": "9-10"
+        }
+      ]
+    },
+    {
+      "id": "F21",
+      "grupo": "Información que faltaba",
+      "anotacion": "El puesto físico supera los 16.000 equipos, además de periféricos.",
+      "tema": "Más de 16.000 equipos físicos y periféricos",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 41",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        8
+      ],
+      "comentario": "Es inventario aproximado y susceptible de variación.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 8,
+          "pagina": 9,
+          "titulo": "Alcance técnico e inventario de referencia",
+          "paginas": "9-10"
+        }
+      ]
+    },
+    {
+      "id": "F22",
+      "grupo": "Información que faltaba",
+      "anotacion": "La movilidad incluye 34.000 PDA Honeywell, 2.000 Zebra TC56, 400 TC57, 100 Zelenza, 3.100 smartphones Android, 130 iPhone y 100 tablets Samsung.",
+      "tema": "Volumetría de terminales móviles",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 45",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        8
+      ],
+      "comentario": "Se conservan todas las cantidades de la observación; no son usuarios únicos.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 8,
+          "pagina": 9,
+          "titulo": "Alcance técnico e inventario de referencia",
+          "paginas": "9-10"
+        }
+      ]
+    },
+    {
+      "id": "F23",
+      "grupo": "Información que faltaba",
+      "anotacion": "La plataforma de movilidad incluye nueve hosts ESXi, dos vSphere/vCenter, más de 40 máquinas virtuales y tres entornos MDM Workspace One UEM en migración a SaaS.",
+      "tema": "Infraestructura de movilidad y migración a SaaS",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 45-46",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        8,
+        10
+      ],
+      "comentario": "Nueve hosts, dos vSphere/vCenter, más de 40 VM y tres MDM; recuperable del anexo.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 8,
+          "pagina": 9,
+          "titulo": "Alcance técnico e inventario de referencia",
+          "paginas": "9-10"
+        },
+        {
+          "seccion": 10,
+          "pagina": 11,
+          "titulo": "Movilidad y proyectos especiales",
+          "paginas": "11-12"
+        }
+      ]
+    },
+    {
+      "id": "F24",
+      "grupo": "Información que faltaba",
+      "anotacion": "Horario ordinario de virtualización, puesto y movilidad: lunes a viernes de 07:00 a 18:30, incluidos festivos no nacionales.",
+      "tema": "Horario ordinario 07:00-18:30",
+      "anterior": "Incompleto",
+      "respaldo": "PCAT, pp. 40, 44, 50",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        11
+      ],
+      "comentario": "El anterior solo decía presencial y remoto; no fijaba franja ni festivos no nacionales.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 11,
+          "pagina": 12,
+          "titulo": "Horarios, presencialidad y continuidad",
+          "paginas": "12"
+        }
+      ]
+    },
+    {
+      "id": "F25",
+      "grupo": "Información que faltaba",
+      "anotacion": "Presencialidad mínima de 09:00 a 18:30: un recurso en Correos y otro en CEX para virtualización; uno en Correos para puesto; uno en cada sociedad para movilidad. Se admite remoto si las circunstancias lo requieren.",
+      "tema": "Presencialidad 09:00-18:30 por sociedad y servicio",
+      "anterior": "Incompleto",
+      "respaldo": "PCAT, pp. 40, 44, 50",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        11
+      ],
+      "comentario": "Faltaba el mínimo concreto. Se mantiene el supuesto de remoto previsto.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 11,
+          "pagina": 12,
+          "titulo": "Horarios, presencialidad y continuidad",
+          "paginas": "12"
+        }
+      ]
+    },
+    {
+      "id": "F26",
+      "grupo": "Información que faltaba",
+      "anotacion": "Fuera del horario habitual se exige guardia 24/7 para incidencias relevantes y actividades programadas que no puedan hacerse en jornada. Su disponibilidad y actuaciones deben incluirse en costes.",
+      "tema": "Guardia 24/7 y actuaciones fuera de jornada",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 40, 44, 50",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        11,
+        13
+      ],
+      "comentario": "Obligación de cobertura; no equivale a diez técnicos trabajando permanentemente.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 11,
+          "pagina": 12,
+          "titulo": "Horarios, presencialidad y continuidad",
+          "paginas": "12"
+        },
+        {
+          "seccion": 13,
+          "pagina": 14,
+          "titulo": "Recursos, medios y responsabilidades del proveedor",
+          "paginas": "14"
+        }
+      ]
+    },
+    {
+      "id": "F27",
+      "grupo": "Información que faltaba",
+      "anotacion": "El servicio incluye soporte de tercer nivel y administración especializada, no queda suficientemente descrito como un Service Desk genérico.",
+      "tema": "Administración especializada y tercer nivel",
+      "anterior": "Incompleto",
+      "respaldo": "PCAT, pp. 36-44, 47-50",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        8,
+        9
+      ],
+      "comentario": "La administración/evolución sí constaban. Faltaba individualizar el tercer nivel; el anterior no lo llamaba literalmente Service Desk.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 8,
+          "pagina": 9,
+          "titulo": "Alcance técnico e inventario de referencia",
+          "paginas": "9-10"
+        },
+        {
+          "seccion": 9,
+          "pagina": 10,
+          "titulo": "Prestaciones de virtualización y puesto de trabajo",
+          "paginas": "10-11"
+        }
+      ]
+    },
+    {
+      "id": "F28",
+      "grupo": "Información que faltaba",
+      "anotacion": "El alcance incluye Citrix, Hyper-V, Azure WVD, Cisco, NetApp, SQL, SCCM, HPDM, MDT, Intune y MDM, además de automatización, parcheo, monitorización, capacidad, copias, pruebas de recuperación y análisis de causa raíz de incidencias críticas.",
+      "tema": "Tecnologías y tareas de administración",
+      "anterior": "Incompleto",
+      "respaldo": "PCAT, pp. 34-50",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        8,
+        9,
+        10
+      ],
+      "comentario": "Los ámbitos generales constaban, pero no la lista de tecnologías ni tareas, backups, recuperación o RCA.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 8,
+          "pagina": 9,
+          "titulo": "Alcance técnico e inventario de referencia",
+          "paginas": "9-10"
+        },
+        {
+          "seccion": 9,
+          "pagina": 10,
+          "titulo": "Prestaciones de virtualización y puesto de trabajo",
+          "paginas": "10-11"
+        },
+        {
+          "seccion": 10,
+          "pagina": 11,
+          "titulo": "Movilidad y proyectos especiales",
+          "paginas": "11-12"
+        }
+      ]
+    },
+    {
+      "id": "F29",
+      "grupo": "Información que faltaba",
+      "anotacion": "Son obligatorios PoST/Remedy, registro de tareas y esfuerzos, documentación actualizada, repositorio, base de conocimiento y planes de servicio, gobierno, riesgos, calidad y capacidad. Las automatizaciones pertenecen a Correos/CEX.",
+      "tema": "PoST/Remedy, registros, planes y propiedad de automatizaciones",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 54-56, 60",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Parcial: precisión corregida en esta auditoría",
+      "nuevo": "Cubierto",
+      "secciones": [
+        9,
+        14
+      ],
+      "comentario": "En mi primer PDF los planes de riesgos, calidad y capacidad quedaban demasiado implícitos como informes: ahora están nombrados expresamente.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 9,
+          "pagina": 10,
+          "titulo": "Prestaciones de virtualización y puesto de trabajo",
+          "paginas": "10-11"
+        },
+        {
+          "seccion": 14,
+          "pagina": 15,
+          "titulo": "Gobierno, operación y entregables",
+          "paginas": "15"
+        }
+      ]
+    },
+    {
+      "id": "F30",
+      "grupo": "Información que faltaba",
+      "anotacion": "Falta desglosar los 27 puntos técnicos: alcance, 3; relación cliente-proveedor, 1; mejora continua, 2; subcontratación, 2; conocimiento, 1; gobierno, 3; transición, 2; reversión, 2; equipo, 4; incremento de horas, 5; mejoras adicionales, 2.",
+      "tema": "Desglose de los 27 puntos técnicos",
+      "anterior": "Incompleto",
+      "respaldo": "PCAT, pp. 84-86",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        7
+      ],
+      "comentario": "Constaban 27 puntos y grandes bloques, no las once partidas y sus máximos.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 7,
+          "pagina": 8,
+          "titulo": "Criterios de adjudicación y fórmula económica",
+          "paginas": "8-9"
+        }
+      ]
+    },
+    {
+      "id": "F31",
+      "grupo": "Información que faltaba",
+      "anotacion": "En transición se valora ejecutar en menos de 30 días naturales; en reversión, disponer de un equipo de más de cinco personas. El incremento de horas recibe cinco puntos para la mejor oferta y puntuación proporcional para el resto.",
+      "tema": "Transición <30, reversión >5, proporcionalidad de horas",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 85-86",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        7
+      ],
+      "comentario": "Son elementos valorables. No confundir con mínimos de ejecución o capacidad de instalaciones.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 7,
+          "pagina": 8,
+          "titulo": "Criterios de adjudicación y fórmula económica",
+          "paginas": "8-9"
+        }
+      ]
+    },
+    {
+      "id": "F32",
+      "grupo": "Información que faltaba",
+      "anotacion": "La puntuación técnica se normaliza: 27 × valoración de la oferta / mayor valoración obtenida, redondeando a dos decimales. Los ANS otorgan 0,5 puntos por indicador mejorado, hasta tres puntos.",
+      "tema": "Normalización y 0,5 puntos por ANS mejorado",
+      "anterior": "Incompleto",
+      "respaldo": "PCAT, pp. 13, 86-87",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        7
+      ],
+      "comentario": "Constaban los tres puntos de ANS, no la unidad 0,5 ni la fórmula de normalización.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 7,
+          "pagina": 8,
+          "titulo": "Criterios de adjudicación y fórmula económica",
+          "paginas": "8-9"
+        }
+      ]
+    },
+    {
+      "id": "F33",
+      "grupo": "Información que faltaba",
+      "anotacion": "Aunque no haya un umbral técnico numérico identificado, pueden rechazarse ofertas técnicamente inadecuadas o que no garanticen la ejecución.",
+      "tema": "Rechazo técnico pese a no localizar umbral numérico",
+      "anterior": "Incompleto",
+      "respaldo": "PCAT, pp. 15",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        2,
+        7
+      ],
+      "comentario": "El anterior decía que no identificaba umbral; faltaba explicar que eso no impide rechazar ofertas inadecuadas.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 2,
+          "pagina": 2,
+          "titulo": "Fases del procedimiento y presentación",
+          "paginas": "2-3"
+        },
+        {
+          "seccion": 7,
+          "pagina": 8,
+          "titulo": "Criterios de adjudicación y fórmula económica",
+          "paginas": "8-9"
+        }
+      ]
+    },
+    {
+      "id": "F34",
+      "grupo": "Información que faltaba",
+      "anotacion": "Incluir en el sobre 2 información que corresponde al sobre 3 implica exclusión. También pueden rechazarse condicionantes contrarios al pliego y pluralidad de proposiciones en los supuestos prohibidos.",
+      "tema": "Exclusiones y separación sobre 2 / sobre 3",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 10-12, 15",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        2
+      ],
+      "comentario": "La existencia de tres sobres sí constaba, pero no estas causas y sus diferencias con subsanación.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 2,
+          "pagina": 2,
+          "titulo": "Fases del procedimiento y presentación",
+          "paginas": "2-3"
+        }
+      ]
+    },
+    {
+      "id": "F35",
+      "grupo": "Información que faltaba",
+      "anotacion": "Debe reflejarse expresamente en la oferta la cláusula de asunción del servicio tras la transición. Su omisión puede causar rechazo.",
+      "tema": "Cláusula expresa de asunción del servicio",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 59",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        2,
+        20
+      ],
+      "comentario": "Debe incluirse en la oferta; la omisión puede causar rechazo.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 2,
+          "pagina": 2,
+          "titulo": "Fases del procedimiento y presentación",
+          "paginas": "2-3"
+        },
+        {
+          "seccion": 20,
+          "pagina": 20,
+          "titulo": "Transición, asunción y reversión",
+          "paginas": "20-21"
+        }
+      ]
+    },
+    {
+      "id": "F36",
+      "grupo": "Información que faltaba",
+      "anotacion": "Los ANS exigen un cumplimiento mínimo del 100 % y contemplan penalizaciones acumulables. La base de cálculo cambia según el incumplimiento.",
+      "tema": "ANS al 100 %, acumulación y bases diferentes",
+      "anterior": "Incompleto",
+      "respaldo": "PCAT, pp. 111-118",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        15,
+        16
+      ],
+      "comentario": "Solo se mencionaban ANS con penalizaciones, sin objetivos ni bases.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 15,
+          "pagina": 16,
+          "titulo": "Niveles de servicio y penalizaciones de personal",
+          "paginas": "16"
+        },
+        {
+          "seccion": 16,
+          "pagina": 17,
+          "titulo": "ANS de incidencias, peticiones y parcheo",
+          "paginas": "17"
+        }
+      ]
+    },
+    {
+      "id": "F37",
+      "grupo": "Información que faltaba",
+      "anotacion": "Rendimiento o habilidades insuficientes de un perfil: penalización del 15 % de la mensualidad del servicio por cada identificación y sustitución en quince días.",
+      "tema": "Rendimiento: 15 % y sustitución en quince días",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 111-112",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        15
+      ],
+      "comentario": "El plazo del párrafo no califica los días como naturales o hábiles; el nuevo PDF no inventa esa calificación.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 15,
+          "pagina": 16,
+          "titulo": "Niveles de servicio y penalizaciones de personal",
+          "paginas": "16"
+        }
+      ]
+    },
+    {
+      "id": "F38",
+      "grupo": "Información que faltaba",
+      "anotacion": "Cambio de perfil: máximo de quince días naturales para cubrirlo y al menos cinco días laborables de traspaso. Incumplimiento: 25 % de la mensualidad del servicio; a los treinta días o más, posible 100 %.",
+      "tema": "Cambio: quince naturales, cinco laborables, 25/100 %",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 112",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        15
+      ],
+      "comentario": "Se conserva el condicionante de treinta días o más para el posible 100 %.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 15,
+          "pagina": 16,
+          "titulo": "Niveles de servicio y penalizaciones de personal",
+          "paginas": "16"
+        }
+      ]
+    },
+    {
+      "id": "F39",
+      "grupo": "Información que faltaba",
+      "anotacion": "Indisponibilidad temporal: sustitución por un equivalente en los tres primeros días laborables. Si no se cumple, 20 % de la mensualidad del servicio por cada perfil afectado.",
+      "tema": "Ausencia temporal: tres laborables y 20 % por perfil",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 112-113",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        15
+      ],
+      "comentario": "La anotación necesita la condición: indisponibilidad mayor de tres días laborables sin sustitución en los tres iniciales. El nuevo PDF sí la recoge.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 15,
+          "pagina": 16,
+          "titulo": "Niveles de servicio y penalizaciones de personal",
+          "paginas": "16"
+        }
+      ]
+    },
+    {
+      "id": "F40",
+      "grupo": "Información que faltaba",
+      "anotacion": "Más de una rotación por año y servicio: penalización del 20 % de la facturación mensual de la totalidad de servicios contratados por Correos/CEX, según el anexo.",
+      "tema": "Rotación >1/año/servicio, base todos los servicios",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 113",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        15
+      ],
+      "comentario": "Base superior a la mensualidad de un solo servicio; texto expreso.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 15,
+          "pagina": 16,
+          "titulo": "Niveles de servicio y penalizaciones de personal",
+          "paginas": "16"
+        }
+      ]
+    },
+    {
+      "id": "F41",
+      "grupo": "Información que faltaba",
+      "anotacion": "Respuesta a proyectos especiales: el ANS utiliza quince días naturales y contempla una penalización del 15 % de una mensualidad de todos los servicios de la empresa solicitante.",
+      "tema": "Respuesta especial: quince naturales y 15 %",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 113-114",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        15,
+        22
+      ],
+      "comentario": "El ANS está así redactado, pero su convivencia con días laborables y el límite del día quince requiere aclaración.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 15,
+          "pagina": 16,
+          "titulo": "Niveles de servicio y penalizaciones de personal",
+          "paginas": "16"
+        },
+        {
+          "seccion": 22,
+          "pagina": 23,
+          "titulo": "Discrepancias y asuntos pendientes de aclaración",
+          "paginas": "23-24"
+        }
+      ]
+    },
+    {
+      "id": "F42",
+      "grupo": "Información que faltaba",
+      "anotacion": "Incidencias y peticiones altas, medias y bajas: tiempos inferiores a 4, 12 y 72 horas, con penalizaciones respectivas del 25 %, 5 % y 1 % de la mensualidad del servicio afectado.",
+      "tema": "Incidencias y peticiones: 4/12/72 h y 25/5/1 %",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 114-117",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        16
+      ],
+      "comentario": "Son reglas de los indicadores y deben leerse junto a prioridad, cómputo y forma de cumplimiento.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 16,
+          "pagina": 17,
+          "titulo": "ANS de incidencias, peticiones y parcheo",
+          "paginas": "17"
+        }
+      ]
+    },
+    {
+      "id": "F43",
+      "grupo": "Información que faltaba",
+      "anotacion": "Para prioridad media y baja, las horas cuentan de lunes a viernes de 08:00 a 18:30. Según el supuesto, puede admitirse un proceso de resolución o una fecha acordada; no siempre se exige resolución definitiva dentro del plazo.",
+      "tema": "Reloj de media/baja y proceso o fecha acordada",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 114-117",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        11,
+        16
+      ],
+      "comentario": "Evita afirmar reparación definitiva siempre dentro del tiempo o aplicar el reloj 24/7 a todas las prioridades.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 11,
+          "pagina": 12,
+          "titulo": "Horarios, presencialidad y continuidad",
+          "paginas": "12"
+        },
+        {
+          "seccion": 16,
+          "pagina": 17,
+          "titulo": "ANS de incidencias, peticiones y parcheo",
+          "paginas": "17"
+        }
+      ]
+    },
+    {
+      "id": "F44",
+      "grupo": "Información que faltaba",
+      "anotacion": "Parcheo de virtualización al menos dos veces por año natural. El incumplimiento puede penalizarse con el 100 % de una mensualidad de virtualización de la sociedad correspondiente.",
+      "tema": "Parcheo dos veces/año y 100 % de mensualidad virtual",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 117-118",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        9,
+        16
+      ],
+      "comentario": "El ANS fija año natural y su base por sociedad, más preciso que una referencia aislada a bianual.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 9,
+          "pagina": 10,
+          "titulo": "Prestaciones de virtualización y puesto de trabajo",
+          "paginas": "10-11"
+        },
+        {
+          "seccion": 16,
+          "pagina": 17,
+          "titulo": "ANS de incidencias, peticiones y parcheo",
+          "paginas": "17"
+        }
+      ]
+    },
+    {
+      "id": "F45",
+      "grupo": "Información que faltaba",
+      "anotacion": "Un ANS penalizado durante tres mensualidades consecutivas o cuatro veces en doce meses puede permitir la cancelación anticipada sin compensación.",
+      "tema": "Reiteración ANS y cancelación sin compensación",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 111",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        15
+      ],
+      "comentario": "Tres mensualidades consecutivas o cuatro en doce meses respecto del ANS, no una penalización aislada automática.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 15,
+          "pagina": 16,
+          "titulo": "Niveles de servicio y penalizaciones de personal",
+          "paginas": "16"
+        }
+      ]
+    },
+    {
+      "id": "F46",
+      "grupo": "Información que faltaba",
+      "anotacion": "Existen otras penalidades: hasta el 2 % por adscripción, hasta el 50 % del subcontrato por incumplir sus condiciones y hasta el 10 % por condiciones especiales.",
+      "tema": "Otras penalidades: 2 %, 50 % subcontrato y 10 %",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 96-98",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        17
+      ],
+      "comentario": "Son máximos y bases distintas. No se equiparan a los porcentajes de una mensualidad de ANS.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 17,
+          "pagina": 17,
+          "titulo": "Otras penalidades y causas de resolución",
+          "paginas": "17-18"
+        }
+      ]
+    },
+    {
+      "id": "F47",
+      "grupo": "Información que faltaba",
+      "anotacion": "La transición tiene un límite de treinta días naturales desde la firma. Los recursos del entrante durante el solapamiento son a su cargo y no se facturan.",
+      "tema": "Transición en treinta días y recursos no facturables",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 57-59",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        5,
+        20
+      ],
+      "comentario": "El coste del entrante en el solapamiento es suyo.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 5,
+          "pagina": 6,
+          "titulo": "Facturación, cobro y trabajos sin ingreso garantizado",
+          "paginas": "6"
+        },
+        {
+          "seccion": 20,
+          "pagina": 20,
+          "titulo": "Transición, asunción y reversión",
+          "paginas": "20-21"
+        }
+      ]
+    },
+    {
+      "id": "F48",
+      "grupo": "Información que faltaba",
+      "anotacion": "Se exige un plan detallado de transición. Los modelos de gobierno y operación deben concretarse e implantarse en los primeros quince días.",
+      "tema": "Plan de transición y gobierno/operación primeros quince días",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 57-58",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Parcial: precisión corregida en esta auditoría",
+      "nuevo": "Cubierto",
+      "secciones": [
+        14,
+        20,
+        21
+      ],
+      "comentario": "He precisado mi primer PDF: modelos definidos en oferta, concretados con Correos e implantados en los quince primeros días de la fase de arranque.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 14,
+          "pagina": 15,
+          "titulo": "Gobierno, operación y entregables",
+          "paginas": "15"
+        },
+        {
+          "seccion": 20,
+          "pagina": 20,
+          "titulo": "Transición, asunción y reversión",
+          "paginas": "20-21"
+        },
+        {
+          "seccion": 21,
+          "pagina": 22,
+          "titulo": "Hitos y plazos que deben controlarse",
+          "paginas": "22"
+        }
+      ]
+    },
+    {
+      "id": "F49",
+      "grupo": "Información que faltaba",
+      "anotacion": "Durante la reversión se mantiene íntegramente el equipo habitual y la responsabilidad sobre los ANS. El solapamiento mínimo es de quince días y se recomienda al menos un mes.",
+      "tema": "Reversión: equipo íntegro, ANS, mínimo quince días",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 61-62",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        20
+      ],
+      "comentario": "Un mes es recomendación, no mínimo obligatorio. No se añade calificación natural/laborable a los quince días si el pasaje no la da.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 20,
+          "pagina": 20,
+          "titulo": "Transición, asunción y reversión",
+          "paginas": "20-21"
+        }
+      ]
+    },
+    {
+      "id": "F50",
+      "grupo": "Información que faltaba",
+      "anotacion": "La reversión requiere plan de salida y capacidad en instalaciones para al menos cinco personas. La falta de colaboración puede reducir la fianza un 50 %.",
+      "tema": "Plan de salida, instalaciones para cinco y fianza 50 %",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 61-62",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        20
+      ],
+      "comentario": "Capacidad de instalaciones para cinco no equivale a equipo valorable de más de cinco.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 20,
+          "pagina": 20,
+          "titulo": "Transición, asunción y reversión",
+          "paginas": "20-21"
+        }
+      ]
+    },
+    {
+      "id": "F51",
+      "grupo": "Información que faltaba",
+      "anotacion": "Sin entrega y aprobación documental no se considera finalizado el servicio ni se factura el último mes fijo u otros trabajos pendientes.",
+      "tema": "Cierre documental y última factura",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 62",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        5,
+        20
+      ],
+      "comentario": "Entrega y aprobación de documentación condicionan cierre y facturación pendiente.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 5,
+          "pagina": 6,
+          "titulo": "Facturación, cobro y trabajos sin ingreso garantizado",
+          "paginas": "6"
+        },
+        {
+          "seccion": 20,
+          "pagina": 20,
+          "titulo": "Transición, asunción y reversión",
+          "paginas": "20-21"
+        }
+      ]
+    },
+    {
+      "id": "F52",
+      "grupo": "Información que faltaba",
+      "anotacion": "Se exige trabajar conforme a la metodología de Correos/CEX y a los Esquemas Nacionales de Seguridad e Interoperabilidad. No se identifica una categoría ni certificación ENS concreta.",
+      "tema": "Metodología, ENS y ENI sin categoría concreta",
+      "anterior": "Incompleto",
+      "respaldo": "PCAT, pp. 54",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        14
+      ],
+      "comentario": "El anterior mencionaba ISO/ENS, no la metodología, ENI y la falta de categoría/certificación ENS concreta identificada.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 14,
+          "pagina": 15,
+          "titulo": "Gobierno, operación y entregables",
+          "paginas": "15"
+        }
+      ]
+    },
+    {
+      "id": "F53",
+      "grupo": "Información que faltaba",
+      "anotacion": "Los dispositivos no corporativos requieren protección actualizada y monitorizada, parcheo desatendido, software autorizado y licenciado y usuarios sin privilegios de administrador. El proveedor gestiona accesos y aporta evidencias.",
+      "tema": "Seguridad de equipos no corporativos y evidencias",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 60-61",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        18
+      ],
+      "comentario": "Incluye monitorización, parcheo desatendido, licencias y ausencia de privilegios de administrador del usuario.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 18,
+          "pagina": 18,
+          "titulo": "Seguridad, privacidad y evidencias",
+          "paginas": "18-19"
+        }
+      ]
+    },
+    {
+      "id": "F54",
+      "grupo": "Información que faltaba",
+      "anotacion": "Las brechas de datos deben notificarse sin dilación y como máximo en 24 horas desde que se conocieron o debieron conocerse. Las solicitudes de derechos deben trasladarse en un máximo de tres días naturales.",
+      "tema": "Brechas 24 h y derechos tres días naturales",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 101-103",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        18,
+        21
+      ],
+      "comentario": "El plazo de brecha empieza con conocimiento real o debido; no se sustituye por el plazo general del responsable ante la autoridad.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 18,
+          "pagina": 18,
+          "titulo": "Seguridad, privacidad y evidencias",
+          "paginas": "18-19"
+        },
+        {
+          "seccion": 21,
+          "pagina": 22,
+          "titulo": "Hitos y plazos que deben controlarse",
+          "paginas": "22"
+        }
+      ]
+    },
+    {
+      "id": "F55",
+      "grupo": "Información que faltaba",
+      "anotacion": "Deben contemplarse auditorías y medidas sobre accesos, registros, soportes, copias, continuidad, cifrado y prevención de fugas.",
+      "tema": "Auditorías, accesos, soportes, continuidad, cifrado y fugas",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 20-21, 102, 105-110",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        18
+      ],
+      "comentario": "Medidas concretas y sus supuestos, no solo referencia genérica a una norma.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 18,
+          "pagina": 18,
+          "titulo": "Seguridad, privacidad y evidencias",
+          "paginas": "18-19"
+        }
+      ]
+    },
+    {
+      "id": "F56",
+      "grupo": "Información que faltaba",
+      "anotacion": "La subcontratación parcial está permitida, salvo gestión y coordinación. La oferta debe indicar parte, importe e identidad o perfil del subcontratista; las contrataciones y cambios deben comunicarse y justificarse.",
+      "tema": "Subcontratación permitida salvo gestión/coordinación",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 25",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        19
+      ],
+      "comentario": "Oferta: parte, importe, identidad o perfil; contratación y cambios: comunicaciones y aptitud.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 19,
+          "pagina": 19,
+          "titulo": "Obligaciones laborales, clasificación y subcontratación",
+          "paginas": "19-20"
+        }
+      ]
+    },
+    {
+      "id": "F57",
+      "grupo": "Información que faltaba",
+      "anotacion": "La subcontratación de tratamientos de datos requiere atender las autorizaciones y formalizar las obligaciones correspondientes.",
+      "tema": "Subcontratar tratamientos: autorización y obligaciones",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 20-21, 25, 103-104",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        18,
+        19,
+        22
+      ],
+      "comentario": "Debe reflejarse también el conflicto entre autorización expresa y aceptación sin oposición.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 18,
+          "pagina": 18,
+          "titulo": "Seguridad, privacidad y evidencias",
+          "paginas": "18-19"
+        },
+        {
+          "seccion": 19,
+          "pagina": 19,
+          "titulo": "Obligaciones laborales, clasificación y subcontratación",
+          "paginas": "19-20"
+        },
+        {
+          "seccion": 22,
+          "pagina": 23,
+          "titulo": "Discrepancias y asuntos pendientes de aclaración",
+          "paginas": "23-24"
+        }
+      ]
+    },
+    {
+      "id": "F58",
+      "grupo": "Información que faltaba",
+      "anotacion": "Debe disponerse de una política propia de prevención de imputaciones delictivas similar a la de Correos o adherirse a la suya.",
+      "tema": "Política de prevención penal propia o adhesión",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 22",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        19
+      ],
+      "comentario": "Obligación general expresa; la casilla equivalente no seleccionada como especial no la elimina.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 19,
+          "pagina": 19,
+          "titulo": "Obligaciones laborales, clasificación y subcontratación",
+          "paginas": "19-20"
+        }
+      ]
+    },
+    {
+      "id": "F59",
+      "grupo": "Información que faltaba",
+      "anotacion": "El mínimo del 20 % de trabajadores indefinidos se acredita al inicio, puede comprobarse durante el contrato y también alcanza a subcontratistas.",
+      "tema": "20 % indefinidos: inicio, control y subcontratistas",
+      "anterior": "Incompleto",
+      "respaldo": "PCAT, pp. 24",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        19,
+        21
+      ],
+      "comentario": "El porcentaje sí figuraba; faltaban acreditación inicial, controles y extensión a subcontratistas.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 19,
+          "pagina": 19,
+          "titulo": "Obligaciones laborales, clasificación y subcontratación",
+          "paginas": "19-20"
+        },
+        {
+          "seccion": 21,
+          "pagina": 22,
+          "titulo": "Hitos y plazos que deben controlarse",
+          "paginas": "22"
+        }
+      ]
+    },
+    {
+      "id": "F60",
+      "grupo": "Información que faltaba",
+      "anotacion": "La facturación ordinaria se reparte un 75 % para Correos y un 25 % para CEX, excluyendo proyectos especiales, con desglose adicional por servicio.",
+      "tema": "Facturación 75/25 y reparto adicional por servicio",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 90-91",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        5
+      ],
+      "comentario": "Porcentajes expresos, excluyendo proyectos especiales.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 5,
+          "pagina": 6,
+          "titulo": "Facturación, cobro y trabajos sin ingreso garantizado",
+          "paginas": "6"
+        }
+      ]
+    },
+    {
+      "id": "F61",
+      "grupo": "Información que faltaba",
+      "anotacion": "Se prevé factura electrónica, transferencia en sesenta días naturales desde recepción conforme al calendario de pagos y confirming. La garantía es de tres meses desde la recepción conforme.",
+      "tema": "Factura electrónica, sesenta días, confirming y garantía",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 26-28",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        5,
+        6
+      ],
+      "comentario": "Matiz: sesenta días desde recepción de factura según conformidad/calendario; tres meses desde recepción conforme del servicio para su garantía. No confundir los hitos.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 5,
+          "pagina": 6,
+          "titulo": "Facturación, cobro y trabajos sin ingreso garantizado",
+          "paginas": "6"
+        },
+        {
+          "seccion": 6,
+          "pagina": 7,
+          "titulo": "Garantías y negociación",
+          "paginas": "7"
+        }
+      ]
+    },
+    {
+      "id": "F62",
+      "grupo": "Información que faltaba",
+      "anotacion": "Falta advertir la contradicción sobre el calendario: una cláusula cuenta los 24 meses desde la formalización y otra excluye la transición. Los 39 meses nominales no resuelven el calendario total.",
+      "tema": "Calendario: formalización frente a transición excluida",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 5, 57",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        1,
+        20,
+        22
+      ],
+      "comentario": "Es una discrepancia interna; no prueba un calendario concreto de cuarenta meses.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 1,
+          "pagina": 2,
+          "titulo": "Identificación, objeto y vigencia",
+          "paginas": "2"
+        },
+        {
+          "seccion": 20,
+          "pagina": 20,
+          "titulo": "Transición, asunción y reversión",
+          "paginas": "20-21"
+        },
+        {
+          "seccion": 22,
+          "pagina": 23,
+          "titulo": "Discrepancias y asuntos pendientes de aclaración",
+          "paginas": "23-24"
+        }
+      ]
+    },
+    {
+      "id": "F63",
+      "grupo": "Información que faltaba",
+      "anotacion": "Falta advertir la discrepancia del plazo de proyectos especiales: quince días laborables frente a naturales, con diferencias también sobre si se admite el propio día quince.",
+      "tema": "Proyectos: laborables/naturales y día quince",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 50-51, 113-114",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        10,
+        15,
+        22
+      ],
+      "comentario": "Contraste documental, no un nuevo plazo inventado.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 10,
+          "pagina": 11,
+          "titulo": "Movilidad y proyectos especiales",
+          "paginas": "11-12"
+        },
+        {
+          "seccion": 15,
+          "pagina": 16,
+          "titulo": "Niveles de servicio y penalizaciones de personal",
+          "paginas": "16"
+        },
+        {
+          "seccion": 22,
+          "pagina": 23,
+          "titulo": "Discrepancias y asuntos pendientes de aclaración",
+          "paginas": "23-24"
+        }
+      ]
+    },
+    {
+      "id": "F64",
+      "grupo": "Información que faltaba",
+      "anotacion": "Falta aclarar la petición de precio por hora dentro de un criterio del sobre técnico, pese a la prohibición de incluir información económica que corresponda al sobre 3.",
+      "tema": "Precio/hora en criterio técnico y secreto económico",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 11-12, 85-86",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        2,
+        7,
+        22
+      ],
+      "comentario": "Debe aclararse cómo presentar; no se da una autorización unilateral para poner economía en el sobre 2.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 2,
+          "pagina": 2,
+          "titulo": "Fases del procedimiento y presentación",
+          "paginas": "2-3"
+        },
+        {
+          "seccion": 7,
+          "pagina": 8,
+          "titulo": "Criterios de adjudicación y fórmula económica",
+          "paginas": "8-9"
+        },
+        {
+          "seccion": 22,
+          "pagina": 23,
+          "titulo": "Discrepancias y asuntos pendientes de aclaración",
+          "paginas": "23-24"
+        }
+      ]
+    },
+    {
+      "id": "F65",
+      "grupo": "Información que faltaba",
+      "anotacion": "Falta advertir que el anexo de subrogación conserva una frase genérica afirmativa, aunque la opción seleccionada indica que no procede.",
+      "tema": "Subrogación: casilla no y frase de anexo sí",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 19, 93",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        19,
+        22
+      ],
+      "comentario": "El texto de plantilla no se convierte por sí solo en obligación de subrogación.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 19,
+          "pagina": 19,
+          "titulo": "Obligaciones laborales, clasificación y subcontratación",
+          "paginas": "19-20"
+        },
+        {
+          "seccion": 22,
+          "pagina": 23,
+          "titulo": "Discrepancias y asuntos pendientes de aclaración",
+          "paginas": "23-24"
+        }
+      ]
+    },
+    {
+      "id": "F66",
+      "grupo": "Información que faltaba",
+      "anotacion": "Falta señalar las incoherencias de valoración: gobierno enumera cuatro aspectos de un punto con un máximo de tres; el incremento de horas y las mejoras no detallan toda su mecánica.",
+      "tema": "Gobierno 4 aspectos/tope 3 y mecánicas incompletas",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 85-86",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        7,
+        22
+      ],
+      "comentario": "Advertencia pertinente: cuatro aspectos con un tope de tres pueden ser una regla de límite, no una contradicción matemática inevitable. Se pide aclaración, no se suma un cuarto punto.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 7,
+          "pagina": 8,
+          "titulo": "Criterios de adjudicación y fórmula económica",
+          "paginas": "8-9"
+        },
+        {
+          "seccion": 22,
+          "pagina": 23,
+          "titulo": "Discrepancias y asuntos pendientes de aclaración",
+          "paginas": "23-24"
+        }
+      ]
+    },
+    {
+      "id": "F67",
+      "grupo": "Información que faltaba",
+      "anotacion": "Falta aclarar la convivencia de autorización expresa para subcontratar tratamientos con aceptación tras treinta días sin oposición, y la redacción contradictoria sobre conservación de datos.",
+      "tema": "Subencargos y conservación de datos contradictoria",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 20, 22, 103",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        18,
+        22
+      ],
+      "comentario": "Ambas tensiones son localizables. No se deduce autorización automática de tratamiento ni retención indefinida.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 18,
+          "pagina": 18,
+          "titulo": "Seguridad, privacidad y evidencias",
+          "paginas": "18-19"
+        },
+        {
+          "seccion": 22,
+          "pagina": 23,
+          "titulo": "Discrepancias y asuntos pendientes de aclaración",
+          "paginas": "23-24"
+        }
+      ]
+    },
+    {
+      "id": "F68",
+      "grupo": "Información que faltaba",
+      "anotacion": "Falta advertir otras inconsistencias del pliego: anuncia dos niveles de gobierno y desarrolla tres, menciona lotes pese a no haberlos y contiene penalidades sobre pruebas y filtraciones de encaje poco claro.",
+      "tema": "Niveles de gobierno, lotes y penalidades de encaje dudoso",
+      "anterior": "Ausente",
+      "respaldo": "PCAT, pp. 51-53, 74, 96-98",
+      "recuperable": "PDF locales",
+      "antes_simulacion": "Cubierto",
+      "nuevo": "Cubierto",
+      "secciones": [
+        14,
+        17,
+        22
+      ],
+      "comentario": "Son inconsistencias o dudas de aplicabilidad. No se infiere que existan lotes ni se invalida el contrato desde este resumen.",
+      "ubicacion_nuevo": [
+        {
+          "seccion": 14,
+          "pagina": 15,
+          "titulo": "Gobierno, operación y entregables",
+          "paginas": "15"
+        },
+        {
+          "seccion": 17,
+          "pagina": 17,
+          "titulo": "Otras penalidades y causas de resolución",
+          "paginas": "17-18"
+        },
+        {
+          "seccion": 22,
+          "pagina": 23,
+          "titulo": "Discrepancias y asuntos pendientes de aclaración",
+          "paginas": "23-24"
+        }
+      ]
+    }
+  ]
+}

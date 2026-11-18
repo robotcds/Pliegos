@@ -1,0 +1,394 @@
+{
+  "orden": 4,
+  "id": "A4",
+  "nombre": "Criterios de adjudicación",
+  "tipo": "extraccion",
+  "estado": "completado",
+  "contenido": {
+    "resumen": [
+      "RESUMEN FACTUAL DE CRITERIOS DE ADJUDICACIÓN",
+      "MAPA COMPLETO DE CRITERIOS DE ADJUDICACIÓN",
+      "DISTRIBUCIÓN OBJETIVA DE LA PUNTUACIÓN POR BLOQUES",
+      "Criterios de juicio de valor: 45 puntos (45%)",
+      "Criterios automáticos (precio): 55 puntos (55%)",
+      "CRITERIOS AUTOMÁTICOS Y FÓRMULAS",
+      "Fórmulas documentadas:",
+      "BOj = Baja de la oferta económica (%) del licitador j respecto al presupuesto base de licitación",
+      "PB = Presupuesto base de licitación",
+      "Ofj = Importe de la oferta del licitador j",
+      "BM = Baja media",
+      "n = número de ofertas"
+    ],
+    "secciones": [
+      {
+        "titulo": "Contenido inicial",
+        "parrafos": [
+          "La licitación se adjudica mediante pluralidad de criterios, divididos en dos grandes bloques: criterios evaluables mediante fórmulas (automáticos) y criterios sujetos a juicio de valor (no automáticos). La puntuación máxima total es de 100 puntos, distribuidos en 55 puntos para criterios automáticos (precio) y 45 puntos para criterios de juicio de valor (plan de ejecución, equipo, evolución del servicio, plan de mejora). Existe un umbral mínimo del 50% (22,5 puntos) en los criterios de juicio de valor para pasar a la fase de valoración global. No se han identificado mejoras automáticas adicionales ni criterios automáticos distintos al precio.",
+          "Fuente: DOC20240202141404130-24_PLIEGO.pdf, p.30-34",
+          "Criterio: Precio (hasta 55 puntos)",
+          "a) Cálculo de la baja de la oferta económica (BOj):",
+          "BOj = (1 - (Ofj / PB)) x 100",
+          "Donde:",
+          "b) Cálculo de la desviación estándar (σ):",
+          "σ = sqrt(Σ(BOj^2) / n - (BM)^2)",
+          "c) Si σ ≥ 5:",
+          "Puntuación = 55 x (PB - Ofj) / (PB - Importe oferta más económica)",
+          "d) Si σ < 5:",
+          "Puntuación = 55 x (Importe oferta más económica / Ofj)",
+          "Fuente: DOC20240202141404130-24_PLIEGO.pdf, p.33-34",
+          "Criterio 1.1 Plan de Ejecución del servicio (hasta 15 puntos)",
+          "Criterio 1.2 Equipo de trabajo (hasta 15 puntos)",
+          "Criterio 1.3 Evolución del servicio (hasta 10 puntos)",
+          "Criterio 1.4 Plan de seguimiento y mejora continua del servicio (hasta 5 puntos)",
+          "Reglas de valoración:",
+          "Fuente: DOC20240202141404130-24_PLIEGO.pdf, p.30-32",
+          "Fuente: DOC20240202141404130-24_PLIEGO.pdf, p.30",
+          "TABLA DE TRAZABILIDAD"
+        ],
+        "elementos": [
+          "RESUMEN FACTUAL DE CRITERIOS DE ADJUDICACIÓN",
+          "MAPA COMPLETO DE CRITERIOS DE ADJUDICACIÓN",
+          "DISTRIBUCIÓN OBJETIVA DE LA PUNTUACIÓN POR BLOQUES",
+          "Criterios de juicio de valor: 45 puntos (45%)",
+          "Criterios automáticos (precio): 55 puntos (55%)",
+          "CRITERIOS AUTOMÁTICOS Y FÓRMULAS",
+          "Fórmulas documentadas:",
+          "BOj = Baja de la oferta económica (%) del licitador j respecto al presupuesto base de licitación",
+          "PB = Presupuesto base de licitación",
+          "Ofj = Importe de la oferta del licitador j",
+          "BM = Baja media",
+          "n = número de ofertas",
+          "Reglas:",
+          "Los importes se consideran sin IVA.",
+          "No se han documentado tramos ni escalones adicionales.",
+          "No se han documentado reglas de redondeo.",
+          "BAREMO DE PRECIO/DESCUENTO",
+          "No se han documentado tramos ni escalones adicionales. La puntuación se asigna según las fórmulas anteriores.",
+          "No se han documentado mejoras automáticas adicionales.",
+          "MEJORAS AUTOMÁTICAS",
+          "No consta la existencia de mejoras automáticas puntuables distintas al precio.",
+          "CRITERIOS SUJETOS A JUICIO DE VALOR",
+          "Descripción detallada de la propuesta de ejecución en las fases de transición, ejecución y devolución del servicio.",
+          "Se valora la calidad técnica del plan de asunción, gestión, planificación, actividades y adaptación a los requerimientos del Ministerio.",
+          "Descripción de la organización y constitución del equipo inicial, distribución de responsabilidades y adecuación a los perfiles del PPT.",
+          "Se valora la calidad técnica de la estructura organizativa, asignación de tareas y adecuación a los requisitos.",
+          "Propuestas de evolución de los servicios prestados (monitorización, nube, gestión de peticiones, seguridad, nuevas herramientas, etc.).",
+          "Se valora la calidad técnica y aplicabilidad de las propuestas de evolución.",
+          "Procedimientos, organización y métodos para el seguimiento del servicio, control de actividad, imputación de costes, informes y cuadros de mando.",
+          "Se valora la calidad técnica de las propuestas de seguimiento y mejora continua.",
+          "La oferta técnica no debe superar 100 páginas (excluyendo portadas, índices, etc.).",
+          "No debe contener información sobre criterios automáticos (precio), bajo riesgo de exclusión.",
+          "Se suman las puntuaciones de cada criterio hasta el máximo indicado.",
+          "Umbral mínimo: 22,5 puntos sobre 45 para pasar a la fase de valoración global.",
+          "UMBRALES MÍNIMOS O CAUSAS DE EXCLUSIÓN",
+          "Umbral mínimo de 22,5 puntos (50% de 45) en criterios de juicio de valor para pasar a la valoración global. Las ofertas que no alcancen este umbral quedan excluidas.",
+          "DATOS NO CALCULABLES O NO LOCALIZADOS",
+          "No consta la existencia de mejoras automáticas puntuables.",
+          "No consta la existencia de tramos de puntuación para el precio distintos a los expresados en las fórmulas.",
+          "No consta la existencia de reglas de redondeo.",
+          "No consta la existencia de criterios automáticos adicionales al precio.",
+          "DOCUMENTOS REVISADOS",
+          "DOC2024020214010801+PPT+2023+VI.pdf",
+          "DOC20240202141404130-24_PLIEGO.pdf",
+          "DOC20240202144445012+Anexo+II+Lista+final+de+sedes+del+MITMA+7+nov+2023.pdf",
+          "DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf",
+          "DOC20240202144519014+Anexo+IV+Resumen+de+activos.pdf",
+          "DOC20240202144535015+Anexo+V+Conocimientos+equipo+de+trabajo.pdf",
+          "DOC20240202144619016+Anexo+VI+Datos+de+peticiones+de+servicio+e+incidencias.pdf",
+          "DOC_CD2024-000159639.pdf",
+          "DOC_CN2024-000157989.pdf",
+          "poc (enlazado desde DOC_CD2024-000159639.pdf)",
+          "poc (enlazado desde DOC_CD2024-000159639.pdf)",
+          "poc (enlazado desde DOC_CD2024-000159639.pdf)"
+        ],
+        "tablas": [
+          {
+            "columnas": [
+              "Criterio principal",
+              "Subcriterio",
+              "Puntos",
+              "% total",
+              "Tipo",
+              "Fórmula/Regla",
+              "Umbral",
+              "Tope",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Criterio principal": "1. Criterios no evaluables mediante fórmulas",
+                "Subcriterio": "1.1 Plan de ejecución del servicio",
+                "Puntos": "15",
+                "% total": "15%",
+                "Tipo": "Juicio de valor",
+                "Fórmula/Regla": "Ver contenido abajo",
+                "Umbral": "22,5/45 (global)",
+                "Tope": "15",
+                "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.30-32"
+              },
+              {
+                "Criterio principal": "",
+                "Subcriterio": "1.2 Equipo de trabajo",
+                "Puntos": "15",
+                "% total": "15%",
+                "Tipo": "Juicio de valor",
+                "Fórmula/Regla": "Ver contenido abajo",
+                "Umbral": "22,5/45 (global)",
+                "Tope": "15",
+                "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.30-32"
+              },
+              {
+                "Criterio principal": "",
+                "Subcriterio": "1.3 Evolución del servicio",
+                "Puntos": "10",
+                "% total": "10%",
+                "Tipo": "Juicio de valor",
+                "Fórmula/Regla": "Ver contenido abajo",
+                "Umbral": "22,5/45 (global)",
+                "Tope": "10",
+                "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.30-32"
+              },
+              {
+                "Criterio principal": "",
+                "Subcriterio": "1.4 Plan de seguimiento y mejora continua",
+                "Puntos": "5",
+                "% total": "5%",
+                "Tipo": "Juicio de valor",
+                "Fórmula/Regla": "Ver contenido abajo",
+                "Umbral": "22,5/45 (global)",
+                "Tope": "5",
+                "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.30-32"
+              },
+              {
+                "Criterio principal": "2. Criterios evaluables mediante fórmulas",
+                "Subcriterio": "2.1 Precio",
+                "Puntos": "55",
+                "% total": "55%",
+                "Tipo": "Automático",
+                "Fórmula/Regla": "Ver fórmulas abajo",
+                "Umbral": "No consta",
+                "Tope": "55",
+                "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.33-34"
+              }
+            ]
+          },
+          {
+            "columnas": [
+              "Requisito/dato",
+              "Tipo",
+              "Valor/condición",
+              "Documento",
+              "Página/apartado",
+              "Estado de lectura"
+            ],
+            "filas": [
+              {
+                "Requisito/dato": "Criterios de adjudicación",
+                "Tipo": "Regla",
+                "Valor/condición": "45 puntos juicio de valor, 55 puntos precio",
+                "Documento": "DOC20240202141404130-24_PLIEGO.pdf",
+                "Página/apartado": "p.30-34",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Umbral mínimo criterios de juicio de valor",
+                "Tipo": "Umbral",
+                "Valor/condición": "22,5 puntos sobre 45",
+                "Documento": "DOC20240202141404130-24_PLIEGO.pdf",
+                "Página/apartado": "p.30",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Fórmula precio",
+                "Tipo": "Fórmula",
+                "Valor/condición": "Ver punto 4 arriba",
+                "Documento": "DOC20240202141404130-24_PLIEGO.pdf",
+                "Página/apartado": "p.33-34",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Mejoras automáticas",
+                "Tipo": "NO CONSTA",
+                "Valor/condición": "-",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": "-"
+              },
+              {
+                "Requisito/dato": "Tramos de puntuación precio",
+                "Tipo": "NO CONSTA",
+                "Valor/condición": "-",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": "-"
+              },
+              {
+                "Requisito/dato": "Reglas de redondeo",
+                "Tipo": "NO CONSTA",
+                "Valor/condición": "-",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": ""
+              },
+              {
+                "Requisito/dato": "Criterios automáticos adicionales",
+                "Tipo": "NO CONSTA",
+                "Valor/condición": "-",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": ""
+              },
+              {
+                "Requisito/dato": "Criterios de juicio de valor",
+                "Tipo": "Regla",
+                "Valor/condición": "Ver punto 7 arriba",
+                "Documento": "DOC20240202141404130-24_PLIEGO.pdf",
+                "Página/apartado": "p.30-32",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Documentos revisados",
+                "Tipo": "Listado",
+                "Valor/condición": "Ver punto 10 arriba",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": "Leído"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pendientes_y_no_localizados": [],
+    "trazabilidad": [
+      {
+        "Criterio principal": "1. Criterios no evaluables mediante fórmulas",
+        "Subcriterio": "1.1 Plan de ejecución del servicio",
+        "Puntos": "15",
+        "% total": "15%",
+        "Tipo": "Juicio de valor",
+        "Fórmula/Regla": "Ver contenido abajo",
+        "Umbral": "22,5/45 (global)",
+        "Tope": "15",
+        "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.30-32"
+      },
+      {
+        "Criterio principal": "",
+        "Subcriterio": "1.2 Equipo de trabajo",
+        "Puntos": "15",
+        "% total": "15%",
+        "Tipo": "Juicio de valor",
+        "Fórmula/Regla": "Ver contenido abajo",
+        "Umbral": "22,5/45 (global)",
+        "Tope": "15",
+        "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.30-32"
+      },
+      {
+        "Criterio principal": "",
+        "Subcriterio": "1.3 Evolución del servicio",
+        "Puntos": "10",
+        "% total": "10%",
+        "Tipo": "Juicio de valor",
+        "Fórmula/Regla": "Ver contenido abajo",
+        "Umbral": "22,5/45 (global)",
+        "Tope": "10",
+        "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.30-32"
+      },
+      {
+        "Criterio principal": "",
+        "Subcriterio": "1.4 Plan de seguimiento y mejora continua",
+        "Puntos": "5",
+        "% total": "5%",
+        "Tipo": "Juicio de valor",
+        "Fórmula/Regla": "Ver contenido abajo",
+        "Umbral": "22,5/45 (global)",
+        "Tope": "5",
+        "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.30-32"
+      },
+      {
+        "Criterio principal": "2. Criterios evaluables mediante fórmulas",
+        "Subcriterio": "2.1 Precio",
+        "Puntos": "55",
+        "% total": "55%",
+        "Tipo": "Automático",
+        "Fórmula/Regla": "Ver fórmulas abajo",
+        "Umbral": "No consta",
+        "Tope": "55",
+        "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.33-34"
+      },
+      {
+        "Requisito/dato": "Criterios de adjudicación",
+        "Tipo": "Regla",
+        "Valor/condición": "45 puntos juicio de valor, 55 puntos precio",
+        "Documento": "DOC20240202141404130-24_PLIEGO.pdf",
+        "Página/apartado": "p.30-34",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Umbral mínimo criterios de juicio de valor",
+        "Tipo": "Umbral",
+        "Valor/condición": "22,5 puntos sobre 45",
+        "Documento": "DOC20240202141404130-24_PLIEGO.pdf",
+        "Página/apartado": "p.30",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Fórmula precio",
+        "Tipo": "Fórmula",
+        "Valor/condición": "Ver punto 4 arriba",
+        "Documento": "DOC20240202141404130-24_PLIEGO.pdf",
+        "Página/apartado": "p.33-34",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Mejoras automáticas",
+        "Tipo": "NO CONSTA",
+        "Valor/condición": "-",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": "-"
+      },
+      {
+        "Requisito/dato": "Tramos de puntuación precio",
+        "Tipo": "NO CONSTA",
+        "Valor/condición": "-",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": "-"
+      },
+      {
+        "Requisito/dato": "Reglas de redondeo",
+        "Tipo": "NO CONSTA",
+        "Valor/condición": "-",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": ""
+      },
+      {
+        "Requisito/dato": "Criterios automáticos adicionales",
+        "Tipo": "NO CONSTA",
+        "Valor/condición": "-",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": ""
+      },
+      {
+        "Requisito/dato": "Criterios de juicio de valor",
+        "Tipo": "Regla",
+        "Valor/condición": "Ver punto 7 arriba",
+        "Documento": "DOC20240202141404130-24_PLIEGO.pdf",
+        "Página/apartado": "p.30-32",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Documentos revisados",
+        "Tipo": "Listado",
+        "Valor/condición": "Ver punto 10 arriba",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": "Leído"
+      }
+    ],
+    "salida_original": "1. RESUMEN FACTUAL DE CRITERIOS DE ADJUDICACIÓN\n\nLa licitación se adjudica mediante pluralidad de criterios, divididos en dos grandes bloques: criterios evaluables mediante fórmulas (automáticos) y criterios sujetos a juicio de valor (no automáticos). La puntuación máxima total es de 100 puntos, distribuidos en 55 puntos para criterios automáticos (precio) y 45 puntos para criterios de juicio de valor (plan de ejecución, equipo, evolución del servicio, plan de mejora). Existe un umbral mínimo del 50% (22,5 puntos) en los criterios de juicio de valor para pasar a la fase de valoración global. No se han identificado mejoras automáticas adicionales ni criterios automáticos distintos al precio.\n\n2. MAPA COMPLETO DE CRITERIOS DE ADJUDICACIÓN\n\n| Criterio principal | Subcriterio | Puntos | % total | Tipo | Fórmula/Regla | Umbral | Tope | Fuente |\n|--------------------|-------------|--------|---------|------|---------------|--------|------|--------|\n| 1. Criterios no evaluables mediante fórmulas | 1.1 Plan de ejecución del servicio | 15 | 15% | Juicio de valor | Ver contenido abajo | 22,5/45 (global) | 15 | DOC20240202141404130-24_PLIEGO.pdf, p.30-32 |\n|  | 1.2 Equipo de trabajo | 15 | 15% | Juicio de valor | Ver contenido abajo | 22,5/45 (global) | 15 | DOC20240202141404130-24_PLIEGO.pdf, p.30-32 |\n|  | 1.3 Evolución del servicio | 10 | 10% | Juicio de valor | Ver contenido abajo | 22,5/45 (global) | 10 | DOC20240202141404130-24_PLIEGO.pdf, p.30-32 |\n|  | 1.4 Plan de seguimiento y mejora continua | 5 | 5% | Juicio de valor | Ver contenido abajo | 22,5/45 (global) | 5 | DOC20240202141404130-24_PLIEGO.pdf, p.30-32 |\n| 2. Criterios evaluables mediante fórmulas | 2.1 Precio | 55 | 55% | Automático | Ver fórmulas abajo | No consta | 55 | DOC20240202141404130-24_PLIEGO.pdf, p.33-34 |\n\n3. DISTRIBUCIÓN OBJETIVA DE LA PUNTUACIÓN POR BLOQUES\n- Criterios de juicio de valor: 45 puntos (45%)\n- Criterios automáticos (precio): 55 puntos (55%)\nFuente: DOC20240202141404130-24_PLIEGO.pdf, p.30-34\n\n4. CRITERIOS AUTOMÁTICOS Y FÓRMULAS\n\nCriterio: Precio (hasta 55 puntos)\n- Fórmulas documentadas:\n  a) Cálculo de la baja de la oferta económica (BOj):\n     BOj = (1 - (Ofj / PB)) x 100\n     Donde:\n     - BOj = Baja de la oferta económica (%) del licitador j respecto al presupuesto base de licitación\n     - PB = Presupuesto base de licitación\n     - Ofj = Importe de la oferta del licitador j\n  b) Cálculo de la desviación estándar (σ):\n     σ = sqrt(Σ(BOj^2) / n - (BM)^2)\n     - BM = Baja media\n     - n = número de ofertas\n  c) Si σ ≥ 5:\n     Puntuación = 55 x (PB - Ofj) / (PB - Importe oferta más económica)\n  d) Si σ < 5:\n     Puntuación = 55 x (Importe oferta más económica / Ofj)\n- Reglas:\n  - Los importes se consideran sin IVA.\n  - No se han documentado tramos ni escalones adicionales.\n  - No se han documentado reglas de redondeo.\nFuente: DOC20240202141404130-24_PLIEGO.pdf, p.33-34\n\n5. BAREMO DE PRECIO/DESCUENTO\n- No se han documentado tramos ni escalones adicionales. La puntuación se asigna según las fórmulas anteriores.\n- No se han documentado mejoras automáticas adicionales.\n\n6. MEJORAS AUTOMÁTICAS\n- No consta la existencia de mejoras automáticas puntuables distintas al precio.\n\n7. CRITERIOS SUJETOS A JUICIO DE VALOR\n\nCriterio 1.1 Plan de Ejecución del servicio (hasta 15 puntos)\n- Descripción detallada de la propuesta de ejecución en las fases de transición, ejecución y devolución del servicio.\n- Se valora la calidad técnica del plan de asunción, gestión, planificación, actividades y adaptación a los requerimientos del Ministerio.\n\nCriterio 1.2 Equipo de trabajo (hasta 15 puntos)\n- Descripción de la organización y constitución del equipo inicial, distribución de responsabilidades y adecuación a los perfiles del PPT.\n- Se valora la calidad técnica de la estructura organizativa, asignación de tareas y adecuación a los requisitos.\n\nCriterio 1.3 Evolución del servicio (hasta 10 puntos)\n- Propuestas de evolución de los servicios prestados (monitorización, nube, gestión de peticiones, seguridad, nuevas herramientas, etc.).\n- Se valora la calidad técnica y aplicabilidad de las propuestas de evolución.\n\nCriterio 1.4 Plan de seguimiento y mejora continua del servicio (hasta 5 puntos)\n- Procedimientos, organización y métodos para el seguimiento del servicio, control de actividad, imputación de costes, informes y cuadros de mando.\n- Se valora la calidad técnica de las propuestas de seguimiento y mejora continua.\n\nReglas de valoración:\n- La oferta técnica no debe superar 100 páginas (excluyendo portadas, índices, etc.).\n- No debe contener información sobre criterios automáticos (precio), bajo riesgo de exclusión.\n- Se suman las puntuaciones de cada criterio hasta el máximo indicado.\n- Umbral mínimo: 22,5 puntos sobre 45 para pasar a la fase de valoración global.\nFuente: DOC20240202141404130-24_PLIEGO.pdf, p.30-32\n\n8. UMBRALES MÍNIMOS O CAUSAS DE EXCLUSIÓN\n- Umbral mínimo de 22,5 puntos (50% de 45) en criterios de juicio de valor para pasar a la valoración global. Las ofertas que no alcancen este umbral quedan excluidas.\nFuente: DOC20240202141404130-24_PLIEGO.pdf, p.30\n\n9. DATOS NO CALCULABLES O NO LOCALIZADOS\n- No consta la existencia de mejoras automáticas puntuables.\n- No consta la existencia de tramos de puntuación para el precio distintos a los expresados en las fórmulas.\n- No consta la existencia de reglas de redondeo.\n- No consta la existencia de criterios automáticos adicionales al precio.\n\n10. DOCUMENTOS REVISADOS\n1. DOC2024020214010801+PPT+2023+VI.pdf\n2. DOC20240202141404130-24_PLIEGO.pdf\n3. DOC20240202144445012+Anexo+II+Lista+final+de+sedes+del+MITMA+7+nov+2023.pdf\n4. DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf\n5. DOC20240202144519014+Anexo+IV+Resumen+de+activos.pdf\n6. DOC20240202144535015+Anexo+V+Conocimientos+equipo+de+trabajo.pdf\n7. DOC20240202144619016+Anexo+VI+Datos+de+peticiones+de+servicio+e+incidencias.pdf\n8. DOC_CD2024-000159639.pdf\n9. DOC_CN2024-000157989.pdf\n10. poc (enlazado desde DOC_CD2024-000159639.pdf)\n11. poc (enlazado desde DOC_CD2024-000159639.pdf)\n12. poc (enlazado desde DOC_CD2024-000159639.pdf)\n\nTABLA DE TRAZABILIDAD\n| Requisito/dato | Tipo | Valor/condición | Documento | Página/apartado | Estado de lectura |\n|----------------|------|----------------|-----------|------------------|-------------------|\n| Criterios de adjudicación | Regla | 45 puntos juicio de valor, 55 puntos precio | DOC20240202141404130-24_PLIEGO.pdf | p.30-34 | Leído |\n| Umbral mínimo criterios de juicio de valor | Umbral | 22,5 puntos sobre 45 | DOC20240202141404130-24_PLIEGO.pdf | p.30 | Leído |\n| Fórmula precio | Fórmula | Ver punto 4 arriba | DOC20240202141404130-24_PLIEGO.pdf | p.33-34 | Leído |\n| Mejoras automáticas | NO CONSTA | - | - | - | - |\n| Tramos de puntuación precio | NO CONSTA | - | - | - | - |\n| Reglas de redondeo | NO CONSTA | - | - | - |\n| Criterios automáticos adicionales | NO CONSTA | - | - | - |\n| Criterios de juicio de valor | Regla | Ver punto 7 arriba | DOC20240202141404130-24_PLIEGO.pdf | p.30-32 | Leído |\n| Documentos revisados | Listado | Ver punto 10 arriba | - | - | Leído |"
+  }
+}

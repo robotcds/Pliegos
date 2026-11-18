@@ -1,0 +1,32 @@
+Registro documental de preventa
+
+| Materia | Requisito completo | Fuente |
+|---|---|---|
+| Criterios de adjudicación: estructura general | La adjudicación se realizará mediante la suma de 100 puntos, distribuidos en: Precio (50 puntos), Plan de migración (22 puntos), Plan de reversibilidad y continuidad (10 puntos), Observabilidad y SLA operativo (8 puntos), Certificaciones y equipo cloud (5 puntos), Reducción de plazo (5 puntos). | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion; Pliego técnico OPP-SW-003 migracion cloud, Criterios |
+| Criterio: Precio | El criterio de precio tiene un peso de 50 puntos. La puntuación se calcula mediante la fórmula: P = 50 x (oferta mínima / oferta licitador). La mejor oferta económica obtiene 50 puntos. Las ofertas con baja superior al 18% deberán justificar viabilidad. Las ofertas con baja superior al 22% se considerarán de alto riesgo por carga de migración. | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion y Anexo económico-financiero |
+| Criterio: Plan de migración | El plan de migración se valora con un máximo de 22 puntos, distribuidos en los siguientes subcriterios: inventario y oleadas (6 puntos), automatización CI/CD (5 puntos), seguridad (4 puntos), gestión de riesgos (4 puntos), validación postmigración (3 puntos). | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion |
+| Criterio: Plan de reversibilidad y continuidad | El plan de reversibilidad y continuidad se valora con un máximo de 10 puntos. | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion |
+| Criterio: Observabilidad y SLA operativo | Observabilidad y SLA operativo se valora con un máximo de 8 puntos. Se alcanza el tope de puntuación si se ofrecen dashboards, alertas y respuesta crítica inferior a 2 horas. | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion |
+| Criterio: Certificaciones y equipo cloud | Certificaciones y equipo cloud se valora con un máximo de 5 puntos, distribuidos en: CKA (2 puntos), Azure Administrator (2 puntos), ISO 27001 (1 punto). | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion |
+| Criterio: Reducción de plazo | Reducción de plazo se valora con un máximo de 5 puntos. El tope de puntuación se alcanza por reducción del 10% del plazo. | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion |
+| Umbral mínimo técnico | Se establece un umbral mínimo de 24 puntos sobre los 40 puntos técnicos de migración, reversibilidad y observabilidad. | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion |
+| Fórmula de puntuación económica | La fórmula para la puntuación económica es: P = 50 x (oferta mínima / oferta licitador). La mejor oferta obtiene 50 puntos. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero |
+| Justificación de bajas económicas | Las ofertas con baja superior al 18% deberán justificar viabilidad mediante memoria. Las ofertas con baja superior al 22% se considerarán de alto riesgo por carga de migración. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero |
+| Exclusión por falta de documentación técnica | La falta de plan de reversibilidad o la superación del presupuesto máximo provocará exclusión. | Pliego administrativo OPP-SW-003 migracion cloud, Formato de oferta y exclusiones |
+| Exclusión por no alcanzar umbral técnico | No alcanzar el umbral mínimo de 24 puntos sobre los 40 técnicos de migración, reversibilidad y observabilidad implica exclusión. | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion |
+| Reglas de redondeo | NO CONSTA EN LA DOCUMENTACION REVISADA. | NO CONSTA EN LA DOCUMENTACION REVISADA |
+| Criterios de desempate | NO CONSTA EN LA DOCUMENTACION REVISADA. | NO CONSTA EN LA DOCUMENTACION REVISADA |
+| Mejoras puntuables adicionales | NO CONSTA EN LA DOCUMENTACION REVISADA. | NO CONSTA EN LA DOCUMENTACION REVISADA |
+| Fórmulas de subcriterios técnicos | NO CONSTA EN LA DOCUMENTACION REVISADA. | NO CONSTA EN LA DOCUMENTACION REVISADA |
+| Reglas de valoración de subcriterios técnicos | NO CONSTA EN LA DOCUMENTACION REVISADA. | NO CONSTA EN LA DOCUMENTACION REVISADA |
+| Reglas de valoración de reducción de plazo | El tope de puntuación (5 puntos) se alcanza por reducción del 10% del plazo. No se especifica la fórmula de reparto para reducciones inferiores. | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion |
+| Reglas de valoración de observabilidad y SLA | Se alcanza el tope de 8 puntos si se ofrecen dashboards, alertas y respuesta crítica inferior a 2 horas. No se especifica el reparto para propuestas que no cumplan todos los elementos. | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion |
+| Reglas de valoración de certificaciones | CKA (2 puntos), Azure Administrator (2 puntos), ISO 27001 (1 punto). No se especifica si son acumulativos o alternativos. | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion |
+| Reglas de valoración de plan de migración | Inventario y oleadas (6 puntos), automatización CI/CD (5 puntos), seguridad (4 puntos), gestión de riesgos (4 puntos), validación postmigración (3 puntos). No se especifica fórmula de reparto parcial. | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion |
+| Régimen de ofertas anormalmente bajas | Las ofertas con baja superior al 18% deberán justificar viabilidad mediante memoria. Las ofertas con baja superior al 22% se considerarán de alto riesgo por carga de migración. No se especifica fórmula de anormalidad ni procedimiento de exclusión automática. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero |
+
+Discrepancias y pendientes de aclaración:
+- No se han identificado discrepancias en la documentación revisada.
+- No consta fórmula de reparto parcial para los subcriterios técnicos, reducción de plazo ni observabilidad/SLA cuando no se alcanza el tope. No consta si los puntos de certificaciones son acumulativos o alternativos.
+- No consta régimen de desempate ni reglas de redondeo en la documentación revisada.
+- No consta baremo de mejoras adicionales fuera de los criterios expresamente puntuados.

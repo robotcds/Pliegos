@@ -1,0 +1,11 @@
+Registro documental de preventa
+
+| Materia | Requisito completo | Fuente |
+|---|---|---|
+| Seguridad / ENS / DPO | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito, obligación, condición de ejecución, criterio puntuable, referencia normativa, exigencia de certificación, declaración, alcance, categoría, sistema, servicio, momento de acreditación, guía citada, medida técnica, procedimiento, rol de protección de datos, acuerdo de encargado/subencargado, regla sobre subencargados, cloud, SaaS, CPD, soporte, cadena de suministro, localización de datos, transferencia internacional, medida de cifrado, gestión de claves, MFA, RBAC, PAM, VPN, bastionado, segmentación, EDR/XDR, WAF, SIEM, DLP, backup, logs, identidad, accesos, privilegios, altas/bajas, acceso remoto, vulnerabilidades, parcheado, CVE, pentesting, EOL/EOS, incidentes, brechas, logging, trazabilidad, retención, SOC/SIEM, continuidad, DR, RTO/RPO, pruebas, desarrollo seguro, SDLC, DevSecOps, SAST, DAST, SCA, secretos, OWASP, CI/CD, SBOM, seguridad del personal, DPO/DPD, EIPD, auditorías, certificaciones, borrado, devolución o confidencialidad. | DOC20240806095753Pliegodefinitivofirmado.pdf (texto extraído ilegible); Pliegodefinitivofirmado.pdf (texto extraído ilegible); Detalle_Licitacion (sin contenido relevante en el texto extraído) |
+
+Discrepancias y pendientes de aclaración:
+- Los documentos "DOC20240806095753Pliegodefinitivofirmado.pdf" y "Pliegodefinitivofirmado.pdf" presentan texto extraído ilegible ("Request Rejected"). No ha sido posible verificar si contienen requisitos de seguridad, ENS, protección de datos o DPO. Por tanto, la ausencia de requisitos en este registro se debe a la imposibilidad de acceder al contenido real de los pliegos, no a una exención expresa ni a una revisión exhaustiva de su contenido.
+- El documento "Detalle_Licitacion" no contiene información relevante sobre requisitos de seguridad, ENS o protección de datos en el texto extraído.
+- PENDIENTE DE VERIFICAR EN DOCUMENTO NO DISPONIBLE/LECTURA PARCIAL: Todo el contenido de los pliegos administrativos y técnicos.
+- No se han identificado discrepancias internas en la documentación revisada, pero la revisión es incompleta por limitación técnica atribuida al registro.

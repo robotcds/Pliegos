@@ -1,0 +1,36 @@
+{
+  "started_at_utc": "2026-10-28T12:08:26.486+00:00",
+  "method": "POST",
+  "url": "https://druidendpoints.druidplatform.com/api/Druid/8805a55b-9947-47b5-d511-08de9ea71a4f/GPT/a01aac92-01d1-40b9-8959-1937189f4d4c/GenericIntegration?asyncResponse=false&responseContentType=application%2Fjson",
+  "params": {
+    "asyncResponse": "false",
+    "responseContentType": "application/json"
+  },
+  "request_headers": {
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "request_body": {
+    "test": "TEST_ASYNC_SIMPLE",
+    "diagnosticCorrelationId": "0cff316e-5eb3-4965-b512-d3496d00dae4"
+  },
+  "http_status": 200,
+  "response_headers": {
+    "content-type": "application/json",
+    "date": "Wed, 28 Oct 2026 12:08:28 GMT",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "alt-svc": "h3=\":8443\";ma=60;",
+    "transfer-encoding": "chunked",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip"
+  },
+  "body_text": "{\n  \"status\": \"success\",\n  \"message\": \"PRUEBA_ASYNC_OK\",\n  \"test\": \"TEST_ASYNC_SIMPLE\"\n}",
+  "body_json": {
+    "status": "success",
+    "message": "PRUEBA_ASYNC_OK",
+    "test": "TEST_ASYNC_SIMPLE"
+  },
+  "transport_error": null,
+  "finished_at_utc": "2026-10-28T12:08:27.237+00:00",
+  "seconds": 0.751074
+}

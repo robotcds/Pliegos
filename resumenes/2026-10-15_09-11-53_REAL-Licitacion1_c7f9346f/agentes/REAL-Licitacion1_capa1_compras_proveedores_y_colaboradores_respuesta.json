@@ -1,0 +1,1448 @@
+{
+  "expediente": "REAL-Licitacion1",
+  "id": "A10",
+  "nombre": "Compras, proveedores y colaboradores",
+  "capa": 1,
+  "contenido": {
+    "resumen": [
+      "La licitación para el \"Asistente Virtual de Participación Ciudadana del Ayuntamiento de Madrid\" exige que el adjudicatario aporte y gestione una solución tecnológica en modalidad SaaS, incluyendo todos los elementos de software, licencias, servicios cloud (salvo la infraestructura MultiCloud corporativa que aporta el Ayuntamiento), y medios materiales y personales necesarios para la ejecución del contrato. No se exige ningún fabricante concreto ni cartas de canal o partnership, pero sí se establecen restricciones de despliegue en cloud y obligaciones de soporte, mantenimiento, formación, y destrucción de datos. Se permite la subcontratación con límites y declaración previa, y se detallan obligaciones sobre la cadena de suministro cloud y la entrega/retirada de datos y documentación. No se localizan requisitos de hardware físico a suministrar al cliente ni obligaciones de stock, staging o logística física. No se exigen certificaciones de fabricante, ISO ni ENS. No se identifican SLA back-to-back con terceros ni garantías de fabricante.",
+      "No se exige suministro de hardware al cliente ni stock/logística física.",
+      "No se exige fabricante concreto, ni carta de canal, ni partnership, ni certificación de fabricante.",
+      "El adjudicatario debe desplegar la solución sobre la infraestructura cloud (Azure, GCP, AWS) proporcionada por el Ayuntamiento, pero todos los recursos, servicios, licencias y costes asociados a la solución son a cargo del adjudicatario (ID_188_3.PDF, p.29-31, 43).",
+      "El adjudicatario debe mantener la solución actualizada, sustituir recursos obsoletos y garantizar la integración con las plataformas y herramientas del Ayuntamiento (ID_188_3.PDF, p.29-31).",
+      "El adjudicatario debe transferir conocimiento y entregar toda la información, datos y documentación generada al cierre del contrato, y realizar la destrucción certificada de datos (ID_188_3.PDF, p.9, 43).",
+      "No se exige SLA back-to-back con fabricantes ni soporte de fabricante específico.",
+      "El adjudicatario debe garantizar el soporte y mantenimiento de la solución durante toda la vigencia del contrato, incluyendo mantenimiento preventivo, correctivo y evolutivo (ID_188_3.PDF, p.17).",
+      "El adjudicatario debe garantizar la disponibilidad 24x7x365 del asistente virtual, salvo paradas planificadas (ID_188_3.PDF, p.13).",
+      "Penalizaciones por indisponibilidad: grave si supera 48h, muy grave si supera 5 días (ID_188_2.PDF, p.76).",
+      "No se exige garantía de fabricante ni condiciones NBD/4h/onsite.",
+      "No se exige stock físico ni staging de hardware."
+    ],
+    "secciones": [
+      {
+        "titulo": "1. Resumen factual",
+        "parrafos": [
+          "La licitación para el \"Asistente Virtual de Participación Ciudadana del Ayuntamiento de Madrid\" exige que el adjudicatario aporte y gestione una solución tecnológica en modalidad SaaS, incluyendo todos los elementos de software, licencias, servicios cloud (salvo la infraestructura MultiCloud corporativa que aporta el Ayuntamiento), y medios materiales y personales necesarios para la ejecución del contrato. No se exige ningún fabricante concreto ni cartas de canal o partnership, pero sí se establecen restricciones de despliegue en cloud y obligaciones de soporte, mantenimiento, formación, y destrucción de datos. Se permite la subcontratación con límites y declaración previa, y se detallan obligaciones sobre la cadena de suministro cloud y la entrega/retirada de datos y documentación. No se localizan requisitos de hardware físico a suministrar al cliente ni obligaciones de stock, staging o logística física. No se exigen certificaciones de fabricante, ISO ni ENS. No se identifican SLA back-to-back con terceros ni garantías de fabricante."
+        ],
+        "elementos": [],
+        "tablas": []
+      },
+      {
+        "titulo": "2. Mapa de suministros y terceros",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Elemento/necesidad",
+              "Tipo",
+              "Cantidad/volumen",
+              "Especificación",
+              "Quién debe aportarlo",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Elemento/necesidad": "Solución Asistente Virtual",
+                "Tipo": "SaaS",
+                "Cantidad/volumen": "1",
+                "Especificación": "BOT conversacional IA generativa y tradicional, integración Decide Madrid",
+                "Quién debe aportarlo": "Adjudicatario",
+                "Fuente": "ID_188_3.PDF, p.1, 13-14"
+              },
+              {
+                "Elemento/necesidad": "Panel de control",
+                "Tipo": "SaaS",
+                "Cantidad/volumen": "1",
+                "Especificación": "Acceso web, métricas, gestión, mínimo 5 usuarios",
+                "Quién debe aportarlo": "Adjudicatario",
+                "Fuente": "ID_188_3.PDF, p.14-15"
+              },
+              {
+                "Elemento/necesidad": "Licencias software y herramientas",
+                "Tipo": "Software/licencias",
+                "Cantidad/volumen": "Todas necesarias",
+                "Especificación": "Para desarrollo, operación y acceso a la solución",
+                "Quién debe aportarlo": "Adjudicatario",
+                "Fuente": "ID_188_3.PDF, p.13-14, 43"
+              },
+              {
+                "Elemento/necesidad": "Infraestructura MultiCloud (tenant, landing zone, servicios comunes)",
+                "Tipo": "Cloud infra",
+                "Cantidad/volumen": "-",
+                "Especificación": "Google Cloud Platform, Microsoft Azure, Amazon AWS",
+                "Quién debe aportarlo": "Ayuntamiento",
+                "Fuente": "ID_188_3.PDF, p.29, 43"
+              },
+              {
+                "Elemento/necesidad": "Recursos cloud (SaaS/PaaS/IaaS) para la solución",
+                "Tipo": "Cloud servicios",
+                "Cantidad/volumen": "Todos necesarios",
+                "Especificación": "Despliegue sobre Azure, GCP o AWS, bajo condiciones IAM",
+                "Quién debe aportarlo": "Adjudicatario",
+                "Fuente": "ID_188_3.PDF, p.29-31"
+              },
+              {
+                "Elemento/necesidad": "Personal técnico y agentes",
+                "Tipo": "Recursos humanos",
+                "Cantidad/volumen": "Según perfiles mínimos",
+                "Especificación": "Ver perfiles y dedicación",
+                "Quién debe aportarlo": "Adjudicatario",
+                "Fuente": "ID_188_3.PDF, p.24-27"
+              },
+              {
+                "Elemento/necesidad": "Equipos de protección individual",
+                "Tipo": "Material",
+                "Cantidad/volumen": "Según necesidad",
+                "Especificación": "Para personal propio en caso de riesgo",
+                "Quién debe aportarlo": "Adjudicatario",
+                "Fuente": "ID_188_3.PDF, p.23"
+              },
+              {
+                "Elemento/necesidad": "Formación a usuarios DGPC",
+                "Tipo": "Servicio",
+                "Cantidad/volumen": "20h mínimo, 20 asistentes",
+                "Especificación": "Formación inicial y continua",
+                "Quién debe aportarlo": "Adjudicatario",
+                "Fuente": "ID_188_3.PDF, p.16-17"
+              },
+              {
+                "Elemento/necesidad": "Destrucción de datos y documentación",
+                "Tipo": "Servicio",
+                "Cantidad/volumen": "Al cierre",
+                "Especificación": "Borrado seguro, certificado",
+                "Quién debe aportarlo": "Adjudicatario",
+                "Fuente": "ID_188_3.PDF, p.9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "3. Productos, hardware y materiales",
+        "parrafos": [
+          "No se exige suministro de hardware al cliente ni stock/logística física."
+        ],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Producto",
+              "Cantidad",
+              "Características",
+              "Fabricante/referencia",
+              "Equivalente permitido",
+              "Garantía/soporte",
+              "Stock/plazo",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Producto": "Equipos informáticos para personal propio",
+                "Cantidad": "Según necesidad",
+                "Características": "Tecnología adecuada, usabilidad universal",
+                "Fabricante/referencia": "NO CONSTA",
+                "Equivalente permitido": "NO CONSTA",
+                "Garantía/soporte": "NO CONSTA",
+                "Stock/plazo": "NO CONSTA",
+                "Fuente": "ID_188_3.PDF, p.50"
+              },
+              {
+                "Producto": "Equipos de protección individual",
+                "Cantidad": "Según necesidad",
+                "Características": "Para riesgos laborales",
+                "Fabricante/referencia": "NO CONSTA",
+                "Equivalente permitido": "NO CONSTA",
+                "Garantía/soporte": "NO CONSTA",
+                "Stock/plazo": "NO CONSTA",
+                "Fuente": "ID_188_3.PDF, p.23"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "4. Software, SaaS y licencias",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Producto",
+              "Fabricante",
+              "Métrica/cantidad",
+              "Entornos",
+              "Duración",
+              "Quién lo aporta",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Producto": "Asistente Virtual SaaS",
+                "Fabricante": "NO CONSTA",
+                "Métrica/cantidad": "1",
+                "Entornos": "Producción, preproducción (mínimo)",
+                "Duración": "Vigencia contrato",
+                "Quién lo aporta": "Adjudicatario",
+                "Fuente": "ID_188_3.PDF, p.1, 13-14, 29"
+              },
+              {
+                "Producto": "Panel de control",
+                "Fabricante": "NO CONSTA",
+                "Métrica/cantidad": "1",
+                "Entornos": "Web",
+                "Duración": "Vigencia contrato",
+                "Quién lo aporta": "Adjudicatario",
+                "Fuente": "ID_188_3.PDF, p.14-15"
+              },
+              {
+                "Producto": "Licencias software/herramientas",
+                "Fabricante": "NO CONSTA",
+                "Métrica/cantidad": "Todas necesarias",
+                "Entornos": "Según arquitectura",
+                "Duración": "Vigencia contrato",
+                "Quién lo aporta": "Adjudicatario",
+                "Fuente": "ID_188_3.PDF, p.13-14, 43"
+              },
+              {
+                "Producto": "Licencias cloud (SaaS/PaaS/IaaS)",
+                "Fabricante": "Microsoft/AWS/GCP",
+                "Métrica/cantidad": "Todas necesarias",
+                "Entornos": "Producción, preproducción",
+                "Duración": "Vigencia contrato",
+                "Quién lo aporta": "Adjudicatario",
+                "Fuente": "ID_188_3.PDF, p.29-31, 43"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "5. Fabricantes, canal y cartas",
+        "parrafos": [
+          "No se exige fabricante concreto, ni carta de canal, ni partnership, ni certificación de fabricante."
+        ],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Fabricante",
+              "Requisito",
+              "Nivel/certificación/carta exigida",
+              "Momento",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Fabricante": "NO CONSTA",
+                "Requisito": "NO CONSTA",
+                "Nivel/certificación/carta exigida": "NO CONSTA",
+                "Momento": "NO CONSTA",
+                "Fuente": "NO CONSTA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "6. Subcontratación, UTE y medios externos",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Regla",
+              "Límite/condición",
+              "Declaración/autorización",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Regla": "Subcontratación permitida",
+                "Límite/condición": "No se pueden subcontratar tareas críticas de implantación ni jefe de proyecto",
+                "Declaración/autorización": "Declarar en oferta parte a subcontratar, importe y nombre/perfil subcontratista",
+                "Fuente": "ID_188_2.PDF, p.75-76; ID_188_3.PDF, p.29"
+              },
+              {
+                "Regla": "UTE permitida",
+                "Límite/condición": "Sí, con compromiso y constitución formal si adjudicataria",
+                "Declaración/autorización": "Compromiso en oferta, escritura tras adjudicación",
+                "Fuente": "ID_188_2.PDF, p.19"
+              },
+              {
+                "Regla": "Medios externos para solvencia",
+                "Límite/condición": "Permitido",
+                "Declaración/autorización": "Compromiso de medios y documentación de la entidad externa",
+                "Fuente": "ID_188_2.PDF, p.18, 30, 92-93"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "7. Cadena de suministro y dependencias contractuales descritas",
+        "parrafos": [],
+        "elementos": [
+          "El adjudicatario debe desplegar la solución sobre la infraestructura cloud (Azure, GCP, AWS) proporcionada por el Ayuntamiento, pero todos los recursos, servicios, licencias y costes asociados a la solución son a cargo del adjudicatario (ID_188_3.PDF, p.29-31, 43).",
+          "El adjudicatario debe mantener la solución actualizada, sustituir recursos obsoletos y garantizar la integración con las plataformas y herramientas del Ayuntamiento (ID_188_3.PDF, p.29-31).",
+          "El adjudicatario debe transferir conocimiento y entregar toda la información, datos y documentación generada al cierre del contrato, y realizar la destrucción certificada de datos (ID_188_3.PDF, p.9, 43)."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "8. SLA de proveedor/fabricante, garantías y soporte exigidos",
+        "parrafos": [],
+        "elementos": [
+          "No se exige SLA back-to-back con fabricantes ni soporte de fabricante específico.",
+          "El adjudicatario debe garantizar el soporte y mantenimiento de la solución durante toda la vigencia del contrato, incluyendo mantenimiento preventivo, correctivo y evolutivo (ID_188_3.PDF, p.17).",
+          "El adjudicatario debe garantizar la disponibilidad 24x7x365 del asistente virtual, salvo paradas planificadas (ID_188_3.PDF, p.13).",
+          "Penalizaciones por indisponibilidad: grave si supera 48h, muy grave si supera 5 días (ID_188_2.PDF, p.76).",
+          "No se exige garantía de fabricante ni condiciones NBD/4h/onsite."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "9. Logística, staging, stock, entrega, retirada y destrucción",
+        "parrafos": [],
+        "elementos": [
+          "No se exige stock físico ni staging de hardware.",
+          "El adjudicatario debe garantizar la entrega de toda la información, datos y documentación generada, en formato abierto y reutilizable, al cierre del contrato (ID_188_3.PDF, p.9, 43, 55-56).",
+          "El adjudicatario debe realizar la destrucción certificada de datos y documentación al cierre del contrato (ID_188_3.PDF, p.9, 43).",
+          "No se exige retirada física de equipos ni logística inversa."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "10. Ambigüedades y datos no localizados",
+        "parrafos": [],
+        "elementos": [
+          "No se exige ningún fabricante, referencia, ni equivalencia mínima de producto.",
+          "No se exige carta de canal, partnership, ni certificación de fabricante.",
+          "No se exige stock, logística física, staging, ni retirada de hardware.",
+          "No se exige garantía de fabricante ni soporte NBD/4h/onsite.",
+          "No se identifican SLA de terceros ni back-to-back.",
+          "No se describen condiciones de cadena de suministro física, solo digital/cloud.",
+          "No se exige homologación, sostenibilidad ni EOL/EOS de productos.",
+          "No se exige ISO, ENS ni otra certificación de calidad o seguridad.",
+          "No se exige declaración de fabricantes ni de canal en la oferta.",
+          "No se exige carta de compromiso de fabricantes ni de proveedores cloud.",
+          "No se exige declaración de stock ni de logística física.",
+          "No se exige staging ni pruebas de pre-entrega física."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "11. Documentos revisados",
+        "parrafos": [],
+        "elementos": [
+          "ID_188_1.PDF (Documento licitación real)",
+          "ID_188_2.PDF (Pliego de Cláusulas Administrativas Particulares)",
+          "ID_188_3.PDF (Pliego de Prescripciones Técnicas)",
+          "poc (Documento enlazado, detalle licitación)",
+          "poc (Documento enlazado, perfil contratante)",
+          "poc (Documento enlazado, perfil contratante)",
+          "147409-2026 (Documento enlazado, sin texto extraíble; pendiente de lectura/OCR)",
+          "perfilContratante (Documento enlazado, perfil contratante)"
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "Tabla de trazabilidad",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Requisito/dato",
+              "Tipo",
+              "Valor/condición",
+              "Documento",
+              "Página/apartado",
+              "Estado de lectura"
+            ],
+            "filas": [
+              {
+                "Requisito/dato": "Solución SaaS",
+                "Tipo": "Software/SaaS",
+                "Valor/condición": "Obligatorio, BOT IA generativa y tradicional",
+                "Documento": "ID_188_3.PDF",
+                "Página/apartado": "p.1, 13-14",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Panel de control",
+                "Tipo": "Software/SaaS",
+                "Valor/condición": "Obligatorio, acceso web, 5 usuarios",
+                "Documento": "ID_188_3.PDF",
+                "Página/apartado": "p.14-15",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Licencias software",
+                "Tipo": "Licencias",
+                "Valor/condición": "Todas necesarias, a cargo adjudicatario",
+                "Documento": "ID_188_3.PDF",
+                "Página/apartado": "p.13-14, 43",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Infraestructura MultiCloud",
+                "Tipo": "Cloud infra",
+                "Valor/condición": "Tenant/landing zone, IAM",
+                "Documento": "ID_188_3.PDF",
+                "Página/apartado": "p.29, 43",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Recursos cloud",
+                "Tipo": "Cloud servicios",
+                "Valor/condición": "Azure/GCP/AWS, SaaS/PaaS/IaaS",
+                "Documento": "ID_188_3.PDF",
+                "Página/apartado": "p.29-31",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Subcontratación",
+                "Tipo": "Regla",
+                "Valor/condición": "Permitida, salvo tareas críticas",
+                "Documento": "ID_188_2.PDF",
+                "Página/apartado": "p.75-76",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "UTE",
+                "Tipo": "Regla",
+                "Valor/condición": "Permitida, compromiso y escritura",
+                "Documento": "ID_188_2.PDF",
+                "Página/apartado": "p.19",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "SLA disponibilidad",
+                "Tipo": "SLA",
+                "Valor/condición": "24x7x365, penalizaciones por indisponibilidad",
+                "Documento": "ID_188_3.PDF, ID_188_2.PDF",
+                "Página/apartado": "p.13, 76",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Garantía fabricante",
+                "Tipo": "Garantía",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": "-"
+              },
+              {
+                "Requisito/dato": "Carta de canal",
+                "Tipo": "Canal",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": "-"
+              },
+              {
+                "Requisito/dato": "Stock/logística",
+                "Tipo": "Logística",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": "-"
+              },
+              {
+                "Requisito/dato": "Hardware físico",
+                "Tipo": "Producto",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": "-"
+              },
+              {
+                "Requisito/dato": "Certificación fabricante",
+                "Tipo": "Certificación",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": "-"
+              },
+              {
+                "Requisito/dato": "ISO/ENS",
+                "Tipo": "Certificación",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": "-"
+              },
+              {
+                "Requisito/dato": "SLA back-to-back",
+                "Tipo": "SLA",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": "-"
+              },
+              {
+                "Requisito/dato": "Cadena de suministro física",
+                "Tipo": "Cadena",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": "-"
+              },
+              {
+                "Requisito/dato": "Homologación/sostenibilidad",
+                "Tipo": "Requisito",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": "-"
+              },
+              {
+                "Requisito/dato": "EOL/EOS",
+                "Tipo": "Requisito",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": "-"
+              },
+              {
+                "Requisito/dato": "Declaración de fabricante",
+                "Tipo": "Declaración",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": "-"
+              },
+              {
+                "Requisito/dato": "Declaración de canal",
+                "Tipo": "Declaración",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": "-"
+              },
+              {
+                "Requisito/dato": "Carta de compromiso fabricante",
+                "Tipo": "Compromiso",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": "-"
+              },
+              {
+                "Requisito/dato": "Staging/pruebas físicas",
+                "Tipo": "Logística",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": "-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Requisitos obligatorios del documento IA - fuentes para proyecto viabilidad",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Parámetro",
+              "Subcampos pedidos",
+              "Estado del pliego",
+              "Dato/literal localizado",
+              "Documento y apartado/página"
+            ],
+            "filas": [
+              {
+                "Parámetro": "Volumen anual de negocios",
+                "Subcampos pedidos": "Umbral, ámbito, mejor ejercicio, ventana, moneda, acreditación",
+                "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+                "Dato/literal localizado": "181.595,44 € (mejor ejercicio 2023-2025, declaración responsable)",
+                "Documento y apartado/página": "ID_188_2.PDF, p.63"
+              },
+              {
+                "Parámetro": "Patrimonio neto/ratios",
+                "Subcampos pedidos": "Ejercicio, activos, pasivos, fórmula, umbral, acreditación",
+                "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Dato/literal localizado": "NO CONSTA",
+                "Documento y apartado/página": "ID_188_2.PDF, p.63"
+              },
+              {
+                "Parámetro": "Seguro RC/riesgos profesionales",
+                "Subcampos pedidos": "Importe, actividad, asegurador, inicio, fin, vigencia, cobertura, renovación",
+                "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Dato/literal localizado": "NO CONSTA",
+                "Documento y apartado/página": "ID_188_2.PDF, p.67"
+              },
+              {
+                "Parámetro": "Certificados de buena ejecución",
+                "Subcampos pedidos": "Objeto, similitud/CPV, importe, fechas, destinatario, prueba",
+                "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+                "Dato/literal localizado": "Servicios igual/similar naturaleza, 3 últimos años, importe igual/superior presupuesto sin IVA",
+                "Documento y apartado/página": "ID_188_2.PDF, p.64"
+              },
+              {
+                "Parámetro": "ISO/ENS",
+                "Subcampos pedidos": "Norma, versión, alcance, certificadora, caducidad, acreditación, equivalencias",
+                "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Dato/literal localizado": "NO CONSTA",
+                "Documento y apartado/página": "ID_188_2.PDF, p.65; ID_188_3.PDF, p.45-46"
+              },
+              {
+                "Parámetro": "Fabricantes/partnerships",
+                "Subcampos pedidos": "Fabricante, nivel, especialización, carta, expiración, acreditación",
+                "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Dato/literal localizado": "NO CONSTA",
+                "Documento y apartado/página": "ID_188_3.PDF, p.13-14, 43"
+              },
+              {
+                "Parámetro": "Perfiles",
+                "Subcampos pedidos": "Puesto, cantidad, titulación, experiencia, sector, certificaciones, dedicación, jornada, presencialidad, ubicación, idiomas, funciones, sustitución",
+                "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+                "Dato/literal localizado": "Ver tabla perfiles mínimos y requisitos",
+                "Documento y apartado/página": "ID_188_3.PDF, p.24-27"
+              },
+              {
+                "Parámetro": "ROLECE/clasificación",
+                "Subcampos pedidos": "Exigencia/alternativa, grupo, subgrupo, categoría, vigencia, inscripción, acreditación",
+                "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+                "Dato/literal localizado": "No exigida, pero inscripción en ROLECE acredita solvencia",
+                "Documento y apartado/página": "ID_188_2.PDF, p.63"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "parrafos": [],
+        "elementos": [
+          "No se han identificado discrepancias en la documentación revisada.",
+          "Documento 147409-2026 pendiente de lectura/OCR; no se puede verificar si contiene condiciones adicionales."
+        ],
+        "tablas": []
+      }
+    ],
+    "pendientes_y_no_localizados": [
+      {
+        "titulo": "10. Ambigüedades y datos no localizados",
+        "parrafos": [],
+        "elementos": [
+          "No se exige ningún fabricante, referencia, ni equivalencia mínima de producto.",
+          "No se exige carta de canal, partnership, ni certificación de fabricante.",
+          "No se exige stock, logística física, staging, ni retirada de hardware.",
+          "No se exige garantía de fabricante ni soporte NBD/4h/onsite.",
+          "No se identifican SLA de terceros ni back-to-back.",
+          "No se describen condiciones de cadena de suministro física, solo digital/cloud.",
+          "No se exige homologación, sostenibilidad ni EOL/EOS de productos.",
+          "No se exige ISO, ENS ni otra certificación de calidad o seguridad.",
+          "No se exige declaración de fabricantes ni de canal en la oferta.",
+          "No se exige carta de compromiso de fabricantes ni de proveedores cloud.",
+          "No se exige declaración de stock ni de logística física.",
+          "No se exige staging ni pruebas de pre-entrega física."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "parrafos": [],
+        "elementos": [
+          "No se han identificado discrepancias en la documentación revisada.",
+          "Documento 147409-2026 pendiente de lectura/OCR; no se puede verificar si contiene condiciones adicionales."
+        ],
+        "tablas": []
+      }
+    ],
+    "trazabilidad": [
+      {
+        "Elemento/necesidad": "Solución Asistente Virtual",
+        "Tipo": "SaaS",
+        "Cantidad/volumen": "1",
+        "Especificación": "BOT conversacional IA generativa y tradicional, integración Decide Madrid",
+        "Quién debe aportarlo": "Adjudicatario",
+        "Fuente": "ID_188_3.PDF, p.1, 13-14"
+      },
+      {
+        "Elemento/necesidad": "Panel de control",
+        "Tipo": "SaaS",
+        "Cantidad/volumen": "1",
+        "Especificación": "Acceso web, métricas, gestión, mínimo 5 usuarios",
+        "Quién debe aportarlo": "Adjudicatario",
+        "Fuente": "ID_188_3.PDF, p.14-15"
+      },
+      {
+        "Elemento/necesidad": "Licencias software y herramientas",
+        "Tipo": "Software/licencias",
+        "Cantidad/volumen": "Todas necesarias",
+        "Especificación": "Para desarrollo, operación y acceso a la solución",
+        "Quién debe aportarlo": "Adjudicatario",
+        "Fuente": "ID_188_3.PDF, p.13-14, 43"
+      },
+      {
+        "Elemento/necesidad": "Infraestructura MultiCloud (tenant, landing zone, servicios comunes)",
+        "Tipo": "Cloud infra",
+        "Cantidad/volumen": "-",
+        "Especificación": "Google Cloud Platform, Microsoft Azure, Amazon AWS",
+        "Quién debe aportarlo": "Ayuntamiento",
+        "Fuente": "ID_188_3.PDF, p.29, 43"
+      },
+      {
+        "Elemento/necesidad": "Recursos cloud (SaaS/PaaS/IaaS) para la solución",
+        "Tipo": "Cloud servicios",
+        "Cantidad/volumen": "Todos necesarios",
+        "Especificación": "Despliegue sobre Azure, GCP o AWS, bajo condiciones IAM",
+        "Quién debe aportarlo": "Adjudicatario",
+        "Fuente": "ID_188_3.PDF, p.29-31"
+      },
+      {
+        "Elemento/necesidad": "Personal técnico y agentes",
+        "Tipo": "Recursos humanos",
+        "Cantidad/volumen": "Según perfiles mínimos",
+        "Especificación": "Ver perfiles y dedicación",
+        "Quién debe aportarlo": "Adjudicatario",
+        "Fuente": "ID_188_3.PDF, p.24-27"
+      },
+      {
+        "Elemento/necesidad": "Equipos de protección individual",
+        "Tipo": "Material",
+        "Cantidad/volumen": "Según necesidad",
+        "Especificación": "Para personal propio en caso de riesgo",
+        "Quién debe aportarlo": "Adjudicatario",
+        "Fuente": "ID_188_3.PDF, p.23"
+      },
+      {
+        "Elemento/necesidad": "Formación a usuarios DGPC",
+        "Tipo": "Servicio",
+        "Cantidad/volumen": "20h mínimo, 20 asistentes",
+        "Especificación": "Formación inicial y continua",
+        "Quién debe aportarlo": "Adjudicatario",
+        "Fuente": "ID_188_3.PDF, p.16-17"
+      },
+      {
+        "Elemento/necesidad": "Destrucción de datos y documentación",
+        "Tipo": "Servicio",
+        "Cantidad/volumen": "Al cierre",
+        "Especificación": "Borrado seguro, certificado",
+        "Quién debe aportarlo": "Adjudicatario",
+        "Fuente": "ID_188_3.PDF, p.9"
+      },
+      {
+        "Producto": "Equipos informáticos para personal propio",
+        "Cantidad": "Según necesidad",
+        "Características": "Tecnología adecuada, usabilidad universal",
+        "Fabricante/referencia": "NO CONSTA",
+        "Equivalente permitido": "NO CONSTA",
+        "Garantía/soporte": "NO CONSTA",
+        "Stock/plazo": "NO CONSTA",
+        "Fuente": "ID_188_3.PDF, p.50"
+      },
+      {
+        "Producto": "Equipos de protección individual",
+        "Cantidad": "Según necesidad",
+        "Características": "Para riesgos laborales",
+        "Fabricante/referencia": "NO CONSTA",
+        "Equivalente permitido": "NO CONSTA",
+        "Garantía/soporte": "NO CONSTA",
+        "Stock/plazo": "NO CONSTA",
+        "Fuente": "ID_188_3.PDF, p.23"
+      },
+      {
+        "Producto": "Asistente Virtual SaaS",
+        "Fabricante": "NO CONSTA",
+        "Métrica/cantidad": "1",
+        "Entornos": "Producción, preproducción (mínimo)",
+        "Duración": "Vigencia contrato",
+        "Quién lo aporta": "Adjudicatario",
+        "Fuente": "ID_188_3.PDF, p.1, 13-14, 29"
+      },
+      {
+        "Producto": "Panel de control",
+        "Fabricante": "NO CONSTA",
+        "Métrica/cantidad": "1",
+        "Entornos": "Web",
+        "Duración": "Vigencia contrato",
+        "Quién lo aporta": "Adjudicatario",
+        "Fuente": "ID_188_3.PDF, p.14-15"
+      },
+      {
+        "Producto": "Licencias software/herramientas",
+        "Fabricante": "NO CONSTA",
+        "Métrica/cantidad": "Todas necesarias",
+        "Entornos": "Según arquitectura",
+        "Duración": "Vigencia contrato",
+        "Quién lo aporta": "Adjudicatario",
+        "Fuente": "ID_188_3.PDF, p.13-14, 43"
+      },
+      {
+        "Producto": "Licencias cloud (SaaS/PaaS/IaaS)",
+        "Fabricante": "Microsoft/AWS/GCP",
+        "Métrica/cantidad": "Todas necesarias",
+        "Entornos": "Producción, preproducción",
+        "Duración": "Vigencia contrato",
+        "Quién lo aporta": "Adjudicatario",
+        "Fuente": "ID_188_3.PDF, p.29-31, 43"
+      },
+      {
+        "Fabricante": "NO CONSTA",
+        "Requisito": "NO CONSTA",
+        "Nivel/certificación/carta exigida": "NO CONSTA",
+        "Momento": "NO CONSTA",
+        "Fuente": "NO CONSTA"
+      },
+      {
+        "Regla": "Subcontratación permitida",
+        "Límite/condición": "No se pueden subcontratar tareas críticas de implantación ni jefe de proyecto",
+        "Declaración/autorización": "Declarar en oferta parte a subcontratar, importe y nombre/perfil subcontratista",
+        "Fuente": "ID_188_2.PDF, p.75-76; ID_188_3.PDF, p.29"
+      },
+      {
+        "Regla": "UTE permitida",
+        "Límite/condición": "Sí, con compromiso y constitución formal si adjudicataria",
+        "Declaración/autorización": "Compromiso en oferta, escritura tras adjudicación",
+        "Fuente": "ID_188_2.PDF, p.19"
+      },
+      {
+        "Regla": "Medios externos para solvencia",
+        "Límite/condición": "Permitido",
+        "Declaración/autorización": "Compromiso de medios y documentación de la entidad externa",
+        "Fuente": "ID_188_2.PDF, p.18, 30, 92-93"
+      },
+      {
+        "Requisito/dato": "Solución SaaS",
+        "Tipo": "Software/SaaS",
+        "Valor/condición": "Obligatorio, BOT IA generativa y tradicional",
+        "Documento": "ID_188_3.PDF",
+        "Página/apartado": "p.1, 13-14",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Panel de control",
+        "Tipo": "Software/SaaS",
+        "Valor/condición": "Obligatorio, acceso web, 5 usuarios",
+        "Documento": "ID_188_3.PDF",
+        "Página/apartado": "p.14-15",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Licencias software",
+        "Tipo": "Licencias",
+        "Valor/condición": "Todas necesarias, a cargo adjudicatario",
+        "Documento": "ID_188_3.PDF",
+        "Página/apartado": "p.13-14, 43",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Infraestructura MultiCloud",
+        "Tipo": "Cloud infra",
+        "Valor/condición": "Tenant/landing zone, IAM",
+        "Documento": "ID_188_3.PDF",
+        "Página/apartado": "p.29, 43",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Recursos cloud",
+        "Tipo": "Cloud servicios",
+        "Valor/condición": "Azure/GCP/AWS, SaaS/PaaS/IaaS",
+        "Documento": "ID_188_3.PDF",
+        "Página/apartado": "p.29-31",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Subcontratación",
+        "Tipo": "Regla",
+        "Valor/condición": "Permitida, salvo tareas críticas",
+        "Documento": "ID_188_2.PDF",
+        "Página/apartado": "p.75-76",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "UTE",
+        "Tipo": "Regla",
+        "Valor/condición": "Permitida, compromiso y escritura",
+        "Documento": "ID_188_2.PDF",
+        "Página/apartado": "p.19",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "SLA disponibilidad",
+        "Tipo": "SLA",
+        "Valor/condición": "24x7x365, penalizaciones por indisponibilidad",
+        "Documento": "ID_188_3.PDF, ID_188_2.PDF",
+        "Página/apartado": "p.13, 76",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Garantía fabricante",
+        "Tipo": "Garantía",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": "-"
+      },
+      {
+        "Requisito/dato": "Carta de canal",
+        "Tipo": "Canal",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": "-"
+      },
+      {
+        "Requisito/dato": "Stock/logística",
+        "Tipo": "Logística",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": "-"
+      },
+      {
+        "Requisito/dato": "Hardware físico",
+        "Tipo": "Producto",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": "-"
+      },
+      {
+        "Requisito/dato": "Certificación fabricante",
+        "Tipo": "Certificación",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": "-"
+      },
+      {
+        "Requisito/dato": "ISO/ENS",
+        "Tipo": "Certificación",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": "-"
+      },
+      {
+        "Requisito/dato": "SLA back-to-back",
+        "Tipo": "SLA",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": "-"
+      },
+      {
+        "Requisito/dato": "Cadena de suministro física",
+        "Tipo": "Cadena",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": "-"
+      },
+      {
+        "Requisito/dato": "Homologación/sostenibilidad",
+        "Tipo": "Requisito",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": "-"
+      },
+      {
+        "Requisito/dato": "EOL/EOS",
+        "Tipo": "Requisito",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": "-"
+      },
+      {
+        "Requisito/dato": "Declaración de fabricante",
+        "Tipo": "Declaración",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": "-"
+      },
+      {
+        "Requisito/dato": "Declaración de canal",
+        "Tipo": "Declaración",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": "-"
+      },
+      {
+        "Requisito/dato": "Carta de compromiso fabricante",
+        "Tipo": "Compromiso",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": "-"
+      },
+      {
+        "Requisito/dato": "Staging/pruebas físicas",
+        "Tipo": "Logística",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": "-"
+      },
+      {
+        "Parámetro": "Volumen anual de negocios",
+        "Subcampos pedidos": "Umbral, ámbito, mejor ejercicio, ventana, moneda, acreditación",
+        "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+        "Dato/literal localizado": "181.595,44 € (mejor ejercicio 2023-2025, declaración responsable)",
+        "Documento y apartado/página": "ID_188_2.PDF, p.63"
+      },
+      {
+        "Parámetro": "Patrimonio neto/ratios",
+        "Subcampos pedidos": "Ejercicio, activos, pasivos, fórmula, umbral, acreditación",
+        "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Dato/literal localizado": "NO CONSTA",
+        "Documento y apartado/página": "ID_188_2.PDF, p.63"
+      },
+      {
+        "Parámetro": "Seguro RC/riesgos profesionales",
+        "Subcampos pedidos": "Importe, actividad, asegurador, inicio, fin, vigencia, cobertura, renovación",
+        "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Dato/literal localizado": "NO CONSTA",
+        "Documento y apartado/página": "ID_188_2.PDF, p.67"
+      },
+      {
+        "Parámetro": "Certificados de buena ejecución",
+        "Subcampos pedidos": "Objeto, similitud/CPV, importe, fechas, destinatario, prueba",
+        "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+        "Dato/literal localizado": "Servicios igual/similar naturaleza, 3 últimos años, importe igual/superior presupuesto sin IVA",
+        "Documento y apartado/página": "ID_188_2.PDF, p.64"
+      },
+      {
+        "Parámetro": "ISO/ENS",
+        "Subcampos pedidos": "Norma, versión, alcance, certificadora, caducidad, acreditación, equivalencias",
+        "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Dato/literal localizado": "NO CONSTA",
+        "Documento y apartado/página": "ID_188_2.PDF, p.65; ID_188_3.PDF, p.45-46"
+      },
+      {
+        "Parámetro": "Fabricantes/partnerships",
+        "Subcampos pedidos": "Fabricante, nivel, especialización, carta, expiración, acreditación",
+        "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Dato/literal localizado": "NO CONSTA",
+        "Documento y apartado/página": "ID_188_3.PDF, p.13-14, 43"
+      },
+      {
+        "Parámetro": "Perfiles",
+        "Subcampos pedidos": "Puesto, cantidad, titulación, experiencia, sector, certificaciones, dedicación, jornada, presencialidad, ubicación, idiomas, funciones, sustitución",
+        "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+        "Dato/literal localizado": "Ver tabla perfiles mínimos y requisitos",
+        "Documento y apartado/página": "ID_188_3.PDF, p.24-27"
+      },
+      {
+        "Parámetro": "ROLECE/clasificación",
+        "Subcampos pedidos": "Exigencia/alternativa, grupo, subgrupo, categoría, vigencia, inscripción, acreditación",
+        "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+        "Dato/literal localizado": "No exigida, pero inscripción en ROLECE acredita solvencia",
+        "Documento y apartado/página": "ID_188_2.PDF, p.63"
+      }
+    ],
+    "salida_original": "# 1. Resumen factual\n\nLa licitación para el \"Asistente Virtual de Participación Ciudadana del Ayuntamiento de Madrid\" exige que el adjudicatario aporte y gestione una solución tecnológica en modalidad SaaS, incluyendo todos los elementos de software, licencias, servicios cloud (salvo la infraestructura MultiCloud corporativa que aporta el Ayuntamiento), y medios materiales y personales necesarios para la ejecución del contrato. No se exige ningún fabricante concreto ni cartas de canal o partnership, pero sí se establecen restricciones de despliegue en cloud y obligaciones de soporte, mantenimiento, formación, y destrucción de datos. Se permite la subcontratación con límites y declaración previa, y se detallan obligaciones sobre la cadena de suministro cloud y la entrega/retirada de datos y documentación. No se localizan requisitos de hardware físico a suministrar al cliente ni obligaciones de stock, staging o logística física. No se exigen certificaciones de fabricante, ISO ni ENS. No se identifican SLA back-to-back con terceros ni garantías de fabricante.\n\n# 2. Mapa de suministros y terceros\n| Elemento/necesidad | Tipo | Cantidad/volumen | Especificación | Quién debe aportarlo | Fuente |\n|--------------------|------|------------------|----------------|----------------------|--------|\n| Solución Asistente Virtual | SaaS | 1 | BOT conversacional IA generativa y tradicional, integración Decide Madrid | Adjudicatario | ID_188_3.PDF, p.1, 13-14 |\n| Panel de control | SaaS | 1 | Acceso web, métricas, gestión, mínimo 5 usuarios | Adjudicatario | ID_188_3.PDF, p.14-15 |\n| Licencias software y herramientas | Software/licencias | Todas necesarias | Para desarrollo, operación y acceso a la solución | Adjudicatario | ID_188_3.PDF, p.13-14, 43 |\n| Infraestructura MultiCloud (tenant, landing zone, servicios comunes) | Cloud infra | - | Google Cloud Platform, Microsoft Azure, Amazon AWS | Ayuntamiento | ID_188_3.PDF, p.29, 43 |\n| Recursos cloud (SaaS/PaaS/IaaS) para la solución | Cloud servicios | Todos necesarios | Despliegue sobre Azure, GCP o AWS, bajo condiciones IAM | Adjudicatario | ID_188_3.PDF, p.29-31 |\n| Personal técnico y agentes | Recursos humanos | Según perfiles mínimos | Ver perfiles y dedicación | Adjudicatario | ID_188_3.PDF, p.24-27 |\n| Equipos de protección individual | Material | Según necesidad | Para personal propio en caso de riesgo | Adjudicatario | ID_188_3.PDF, p.23 |\n| Formación a usuarios DGPC | Servicio | 20h mínimo, 20 asistentes | Formación inicial y continua | Adjudicatario | ID_188_3.PDF, p.16-17 |\n| Destrucción de datos y documentación | Servicio | Al cierre | Borrado seguro, certificado | Adjudicatario | ID_188_3.PDF, p.9 |\n\n# 3. Productos, hardware y materiales\n| Producto | Cantidad | Características | Fabricante/referencia | Equivalente permitido | Garantía/soporte | Stock/plazo | Fuente |\n|----------|---------|----------------|----------------------|----------------------|------------------|------------|--------|\n| Equipos informáticos para personal propio | Según necesidad | Tecnología adecuada, usabilidad universal | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | ID_188_3.PDF, p.50 |\n| Equipos de protección individual | Según necesidad | Para riesgos laborales | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | ID_188_3.PDF, p.23 |\n\nNo se exige suministro de hardware al cliente ni stock/logística física.\n\n# 4. Software, SaaS y licencias\n| Producto | Fabricante | Métrica/cantidad | Entornos | Duración | Quién lo aporta | Fuente |\n|----------|-----------|------------------|----------|----------|----------------|--------|\n| Asistente Virtual SaaS | NO CONSTA | 1 | Producción, preproducción (mínimo) | Vigencia contrato | Adjudicatario | ID_188_3.PDF, p.1, 13-14, 29 |\n| Panel de control | NO CONSTA | 1 | Web | Vigencia contrato | Adjudicatario | ID_188_3.PDF, p.14-15 |\n| Licencias software/herramientas | NO CONSTA | Todas necesarias | Según arquitectura | Vigencia contrato | Adjudicatario | ID_188_3.PDF, p.13-14, 43 |\n| Licencias cloud (SaaS/PaaS/IaaS) | Microsoft/AWS/GCP | Todas necesarias | Producción, preproducción | Vigencia contrato | Adjudicatario | ID_188_3.PDF, p.29-31, 43 |\n\n# 5. Fabricantes, canal y cartas\n| Fabricante | Requisito | Nivel/certificación/carta exigida | Momento | Fuente |\n|------------|----------|-------------------------------|---------|--------|\n| NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n\nNo se exige fabricante concreto, ni carta de canal, ni partnership, ni certificación de fabricante.\n\n# 6. Subcontratación, UTE y medios externos\n| Regla | Límite/condición | Declaración/autorización | Fuente |\n|-------|------------------|-------------------------|--------|\n| Subcontratación permitida | No se pueden subcontratar tareas críticas de implantación ni jefe de proyecto | Declarar en oferta parte a subcontratar, importe y nombre/perfil subcontratista | ID_188_2.PDF, p.75-76; ID_188_3.PDF, p.29 |\n| UTE permitida | Sí, con compromiso y constitución formal si adjudicataria | Compromiso en oferta, escritura tras adjudicación | ID_188_2.PDF, p.19 |\n| Medios externos para solvencia | Permitido | Compromiso de medios y documentación de la entidad externa | ID_188_2.PDF, p.18, 30, 92-93 |\n\n# 7. Cadena de suministro y dependencias contractuales descritas\n- El adjudicatario debe desplegar la solución sobre la infraestructura cloud (Azure, GCP, AWS) proporcionada por el Ayuntamiento, pero todos los recursos, servicios, licencias y costes asociados a la solución son a cargo del adjudicatario (ID_188_3.PDF, p.29-31, 43).\n- El adjudicatario debe mantener la solución actualizada, sustituir recursos obsoletos y garantizar la integración con las plataformas y herramientas del Ayuntamiento (ID_188_3.PDF, p.29-31).\n- El adjudicatario debe transferir conocimiento y entregar toda la información, datos y documentación generada al cierre del contrato, y realizar la destrucción certificada de datos (ID_188_3.PDF, p.9, 43).\n\n# 8. SLA de proveedor/fabricante, garantías y soporte exigidos\n- No se exige SLA back-to-back con fabricantes ni soporte de fabricante específico.\n- El adjudicatario debe garantizar el soporte y mantenimiento de la solución durante toda la vigencia del contrato, incluyendo mantenimiento preventivo, correctivo y evolutivo (ID_188_3.PDF, p.17).\n- El adjudicatario debe garantizar la disponibilidad 24x7x365 del asistente virtual, salvo paradas planificadas (ID_188_3.PDF, p.13).\n- Penalizaciones por indisponibilidad: grave si supera 48h, muy grave si supera 5 días (ID_188_2.PDF, p.76).\n- No se exige garantía de fabricante ni condiciones NBD/4h/onsite.\n\n# 9. Logística, staging, stock, entrega, retirada y destrucción\n- No se exige stock físico ni staging de hardware.\n- El adjudicatario debe garantizar la entrega de toda la información, datos y documentación generada, en formato abierto y reutilizable, al cierre del contrato (ID_188_3.PDF, p.9, 43, 55-56).\n- El adjudicatario debe realizar la destrucción certificada de datos y documentación al cierre del contrato (ID_188_3.PDF, p.9, 43).\n- No se exige retirada física de equipos ni logística inversa.\n\n# 10. Ambigüedades y datos no localizados\n- No se exige ningún fabricante, referencia, ni equivalencia mínima de producto.\n- No se exige carta de canal, partnership, ni certificación de fabricante.\n- No se exige stock, logística física, staging, ni retirada de hardware.\n- No se exige garantía de fabricante ni soporte NBD/4h/onsite.\n- No se identifican SLA de terceros ni back-to-back.\n- No se describen condiciones de cadena de suministro física, solo digital/cloud.\n- No se exige homologación, sostenibilidad ni EOL/EOS de productos.\n- No se exige ISO, ENS ni otra certificación de calidad o seguridad.\n- No se exige declaración de fabricantes ni de canal en la oferta.\n- No se exige carta de compromiso de fabricantes ni de proveedores cloud.\n- No se exige declaración de stock ni de logística física.\n- No se exige staging ni pruebas de pre-entrega física.\n\n# 11. Documentos revisados\n1. ID_188_1.PDF (Documento licitación real)\n2. ID_188_2.PDF (Pliego de Cláusulas Administrativas Particulares)\n3. ID_188_3.PDF (Pliego de Prescripciones Técnicas)\n4. poc (Documento enlazado, detalle licitación)\n5. poc (Documento enlazado, perfil contratante)\n6. poc (Documento enlazado, perfil contratante)\n7. 147409-2026 (Documento enlazado, sin texto extraíble; pendiente de lectura/OCR)\n8. perfilContratante (Documento enlazado, perfil contratante)\n\n# Tabla de trazabilidad\n| Requisito/dato | Tipo | Valor/condición | Documento | Página/apartado | Estado de lectura |\n|----------------|------|----------------|-----------|-----------------|-------------------|\n| Solución SaaS | Software/SaaS | Obligatorio, BOT IA generativa y tradicional | ID_188_3.PDF | p.1, 13-14 | Leído |\n| Panel de control | Software/SaaS | Obligatorio, acceso web, 5 usuarios | ID_188_3.PDF | p.14-15 | Leído |\n| Licencias software | Licencias | Todas necesarias, a cargo adjudicatario | ID_188_3.PDF | p.13-14, 43 | Leído |\n| Infraestructura MultiCloud | Cloud infra | Tenant/landing zone, IAM | ID_188_3.PDF | p.29, 43 | Leído |\n| Recursos cloud | Cloud servicios | Azure/GCP/AWS, SaaS/PaaS/IaaS | ID_188_3.PDF | p.29-31 | Leído |\n| Subcontratación | Regla | Permitida, salvo tareas críticas | ID_188_2.PDF | p.75-76 | Leído |\n| UTE | Regla | Permitida, compromiso y escritura | ID_188_2.PDF | p.19 | Leído |\n| SLA disponibilidad | SLA | 24x7x365, penalizaciones por indisponibilidad | ID_188_3.PDF, ID_188_2.PDF | p.13, 76 | Leído |\n| Garantía fabricante | Garantía | NO CONSTA | - | - | - |\n| Carta de canal | Canal | NO CONSTA | - | - | - |\n| Stock/logística | Logística | NO CONSTA | - | - | - |\n| Hardware físico | Producto | NO CONSTA | - | - | - |\n| Certificación fabricante | Certificación | NO CONSTA | - | - | - |\n| ISO/ENS | Certificación | NO CONSTA | - | - | - |\n| SLA back-to-back | SLA | NO CONSTA | - | - | - |\n| Cadena de suministro física | Cadena | NO CONSTA | - | - | - |\n| Homologación/sostenibilidad | Requisito | NO CONSTA | - | - | - |\n| EOL/EOS | Requisito | NO CONSTA | - | - | - |\n| Declaración de fabricante | Declaración | NO CONSTA | - | - | - |\n| Declaración de canal | Declaración | NO CONSTA | - | - | - |\n| Carta de compromiso fabricante | Compromiso | NO CONSTA | - | - | - |\n| Staging/pruebas físicas | Logística | NO CONSTA | - | - | - |\n\n# Requisitos obligatorios del documento IA - fuentes para proyecto viabilidad\n| Parámetro | Subcampos pedidos | Estado del pliego | Dato/literal localizado | Documento y apartado/página |\n|-----------|-------------------|-------------------|-----------------------|-----------------------------|\n| Volumen anual de negocios | Umbral, ámbito, mejor ejercicio, ventana, moneda, acreditación | ENCONTRADO EN EL PLIEGO | 181.595,44 € (mejor ejercicio 2023-2025, declaración responsable) | ID_188_2.PDF, p.63 |\n| Patrimonio neto/ratios | Ejercicio, activos, pasivos, fórmula, umbral, acreditación | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | ID_188_2.PDF, p.63 |\n| Seguro RC/riesgos profesionales | Importe, actividad, asegurador, inicio, fin, vigencia, cobertura, renovación | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | ID_188_2.PDF, p.67 |\n| Certificados de buena ejecución | Objeto, similitud/CPV, importe, fechas, destinatario, prueba | ENCONTRADO EN EL PLIEGO | Servicios igual/similar naturaleza, 3 últimos años, importe igual/superior presupuesto sin IVA | ID_188_2.PDF, p.64 |\n| ISO/ENS | Norma, versión, alcance, certificadora, caducidad, acreditación, equivalencias | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | ID_188_2.PDF, p.65; ID_188_3.PDF, p.45-46 |\n| Fabricantes/partnerships | Fabricante, nivel, especialización, carta, expiración, acreditación | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | ID_188_3.PDF, p.13-14, 43 |\n| Perfiles | Puesto, cantidad, titulación, experiencia, sector, certificaciones, dedicación, jornada, presencialidad, ubicación, idiomas, funciones, sustitución | ENCONTRADO EN EL PLIEGO | Ver tabla perfiles mínimos y requisitos | ID_188_3.PDF, p.24-27 |\n| ROLECE/clasificación | Exigencia/alternativa, grupo, subgrupo, categoría, vigencia, inscripción, acreditación | ENCONTRADO EN EL PLIEGO | No exigida, pero inscripción en ROLECE acredita solvencia | ID_188_2.PDF, p.63 |\n\n# Discrepancias y pendientes de aclaración\n- No se han identificado discrepancias en la documentación revisada.\n- Documento 147409-2026 pendiente de lectura/OCR; no se puede verificar si contiene condiciones adicionales."
+  },
+  "ejecucion": "c7f9346f40a742c8b18f6da93fa018f1",
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "ID_188_1.PDF",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 14915,
+        "caracteres_enviados_al_agente": 14915,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "ID_188_2.PDF",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 224684,
+        "caracteres_enviados_al_agente": 224684,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "ID_188_3.PDF",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 186976,
+        "caracteres_enviados_al_agente": 186976,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 4,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "ID_188_1.PDF",
+        "caracteres_extraidos": 5923,
+        "caracteres_enviados_al_agente": 5923,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 5,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "ID_188_1.PDF",
+        "caracteres_extraidos": 2659,
+        "caracteres_enviados_al_agente": 2659,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 6,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "ID_188_1.PDF",
+        "caracteres_extraidos": 3127,
+        "caracteres_enviados_al_agente": 3127,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 7,
+        "nombre": "147409-2026",
+        "tipo": "Documento enlazado",
+        "fuente": "ID_188_1.PDF",
+        "caracteres_extraidos": 0,
+        "caracteres_enviados_al_agente": 0,
+        "texto_compactado": false,
+        "error": "Sin texto extraible; documento pendiente de lectura/OCR"
+      },
+      {
+        "numero": 8,
+        "nombre": "perfilContratante",
+        "tipo": "Documento enlazado",
+        "fuente": "ID_188_2.PDF",
+        "caracteres_extraidos": 2690,
+        "caracteres_enviados_al_agente": 2690,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Documento no leido: 147409-2026: Sin texto extraible; documento pendiente de lectura/OCR",
+      "Se omitieron 22 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  },
+  "puntos_revision": [
+    {
+      "id": "REV-001",
+      "tipo": "verificacion_documental",
+      "estado": "pendiente_de_revision",
+      "titulo": "Equipo, medios y ejecución del servicio",
+      "prioridad": "alta",
+      "detalle": "Revisar equipo, medios y ejecución del servicio: 6 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-001.01",
+          "tipo": "verificacion_documental",
+          "estado": "pendiente_de_revision",
+          "seccion": "poc (Documento enlazado, perfil contratante)",
+          "detalle": "147409-2026 (Documento enlazado, sin texto extraíble; pendiente de lectura/OCR)",
+          "evidencia": "7. 147409-2026 (Documento enlazado, sin texto extraíble; pendiente de lectura/OCR)",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "10. Ambigüedades y datos no localizados",
+          "detalle": "No se identifican SLA de terceros ni back-to-back.",
+          "evidencia": "- No se identifican SLA de terceros ni back-to-back.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.03",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Tabla de trazabilidad",
+          "detalle": "Requisito/dato: SLA back-to-back; Tipo: SLA; Valor/condición: NO CONSTA; Documento: -; Página/apartado: -; Estado de lectura: -",
+          "evidencia": "| SLA back-to-back | SLA | NO CONSTA | - | - | - |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.04",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Tabla de trazabilidad",
+          "detalle": "Requisito/dato: Stock/logística; Tipo: Logística; Valor/condición: NO CONSTA; Documento: -; Página/apartado: -; Estado de lectura: -",
+          "evidencia": "| Stock/logística | Logística | NO CONSTA | - | - | - |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.05",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Tabla de trazabilidad",
+          "detalle": "Requisito/dato: Cadena de suministro física; Tipo: Cadena; Valor/condición: NO CONSTA; Documento: -; Página/apartado: -; Estado de lectura: -",
+          "evidencia": "| Cadena de suministro física | Cadena | NO CONSTA | - | - | - |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.06",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Tabla de trazabilidad",
+          "detalle": "Requisito/dato: Staging/pruebas físicas; Tipo: Logística; Valor/condición: NO CONSTA; Documento: -; Página/apartado: -; Estado de lectura: -",
+          "evidencia": "| Staging/pruebas físicas | Logística | NO CONSTA | - | - | - |",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-002",
+      "tipo": "verificacion_documental",
+      "estado": "pendiente_de_revision",
+      "titulo": "Documentación y otras condiciones pendientes",
+      "prioridad": "alta",
+      "detalle": "Revisar documentación y otras condiciones pendientes: 7 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-002.01",
+          "tipo": "verificacion_documental",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "Documento 147409-2026 pendiente de lectura/OCR; no se puede verificar si contiene condiciones adicionales.",
+          "evidencia": "- Documento 147409-2026 pendiente de lectura/OCR; no se puede verificar si contiene condiciones adicionales.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Tabla de trazabilidad",
+          "detalle": "Requisito/dato: Carta de canal; Tipo: Canal; Valor/condición: NO CONSTA; Documento: -; Página/apartado: -; Estado de lectura: -",
+          "evidencia": "| Carta de canal | Canal | NO CONSTA | - | - | - |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.03",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Tabla de trazabilidad",
+          "detalle": "Requisito/dato: Hardware físico; Tipo: Producto; Valor/condición: NO CONSTA; Documento: -; Página/apartado: -; Estado de lectura: -",
+          "evidencia": "| Hardware físico | Producto | NO CONSTA | - | - | - |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.04",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Tabla de trazabilidad",
+          "detalle": "Requisito/dato: Homologación/sostenibilidad; Tipo: Requisito; Valor/condición: NO CONSTA; Documento: -; Página/apartado: -; Estado de lectura: -",
+          "evidencia": "| Homologación/sostenibilidad | Requisito | NO CONSTA | - | - | - |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.05",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Tabla de trazabilidad",
+          "detalle": "Requisito/dato: EOL/EOS; Tipo: Requisito; Valor/condición: NO CONSTA; Documento: -; Página/apartado: -; Estado de lectura: -",
+          "evidencia": "| EOL/EOS | Requisito | NO CONSTA | - | - | - |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.06",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Tabla de trazabilidad",
+          "detalle": "Requisito/dato: Declaración de canal; Tipo: Declaración; Valor/condición: NO CONSTA; Documento: -; Página/apartado: -; Estado de lectura: -",
+          "evidencia": "| Declaración de canal | Declaración | NO CONSTA | - | - | - |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.07",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No se han identificado discrepancias en la documentación revisada.",
+          "evidencia": "- No se han identificado discrepancias en la documentación revisada.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-003",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Seguridad, certificaciones y protección de datos",
+      "prioridad": "alta",
+      "detalle": "Revisar seguridad, certificaciones y protección de datos: 3 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-003.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Requisitos obligatorios del documento IA - fuentes para proyecto viabilidad",
+          "detalle": "Parámetro: ISO/ENS; Subcampos pedidos: Norma, versión, alcance, certificadora, caducidad, acreditación, equivalencias; Estado del pliego: NO CONSTA EN LA DOCUMENTACION REVISADA; Dato/literal localizado: NO CONSTA; Documento y apartado/página: ID_188_2.PDF, p.65; ID_188_3.PDF, p.45-46",
+          "evidencia": "| ISO/ENS | Norma, versión, alcance, certificadora, caducidad, acreditación, equivalencias | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | ID_188_2.PDF, p.65; ID_188_3.PDF, p.45-46 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-003.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "1. Resumen factual",
+          "detalle": "La licitación para el \"Asistente Virtual de Participación Ciudadana del Ayuntamiento de Madrid\" exige que el adjudicatario aporte y gestione una solución tecnológica en modalidad SaaS, incluyendo todos los elementos de software, licencias, servicios cloud (salvo la infraestructura MultiCloud corporativa que aporta el Ayuntamiento), y medios materiales y personales necesarios para la ejecución del contrato. No se exige ningún fabricante concreto ni cartas de canal o partnership, pero sí se establecen restricciones de despliegue en cloud y obligaciones de soporte, mantenimiento, formación, y destrucción de datos. Se permite la subcontratación con límites y declaración previa, y se detallan obligaciones sobre la cadena de suministro cloud y la entrega/retirada de datos y documentación. No se localizan requisitos de hardware físico a suministrar al cliente ni obligaciones de stock, staging o logística física. No se exigen certificaciones de fabricante, ISO ni ENS. No se identifican SLA back-to-back con terceros ni garantías de fabricante.",
+          "evidencia": "La licitación para el \"Asistente Virtual de Participación Ciudadana del Ayuntamiento de Madrid\" exige que el adjudicatario aporte y gestione una solución tecnológica en modalidad SaaS, incluyendo todos los elementos de software, licencias, servicios cloud (salvo la infraestructura MultiCloud corporativa que aporta el Ayuntamiento), y medios materiales y personales necesarios para la ejecución del contrato. No se exige ningún fabricante concreto ni cartas de canal o partnership, pero sí se establecen restricciones de despliegue en cloud y obligaciones de soporte, mantenimiento, formación, y destrucción de datos. Se permite la subcontratación con límites y declaración previa, y se detallan obligaciones sobre la cadena de suministro cloud y la entrega/retirada de datos y documentación. No se localizan requisitos de hardware físico a suministrar al cliente ni obligaciones de stock, staging o logística física. No se exigen certificaciones de fabricante, ISO ni ENS. No se identifican SLA back-to-back con terceros ni garantías de fabricante.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-003.03",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Tabla de trazabilidad",
+          "detalle": "Requisito/dato: ISO/ENS; Tipo: Certificación; Valor/condición: NO CONSTA; Documento: -; Página/apartado: -; Estado de lectura: -",
+          "evidencia": "| ISO/ENS | Certificación | NO CONSTA | - | - | - |",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-004",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Admisión, solvencia y acreditaciones",
+      "prioridad": "alta",
+      "detalle": "Revisar admisión, solvencia y acreditaciones: 13 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-004.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Requisitos obligatorios del documento IA - fuentes para proyecto viabilidad",
+          "detalle": "Parámetro: Patrimonio neto/ratios; Subcampos pedidos: Ejercicio, activos, pasivos, fórmula, umbral, acreditación; Estado del pliego: NO CONSTA EN LA DOCUMENTACION REVISADA; Dato/literal localizado: NO CONSTA; Documento y apartado/página: ID_188_2.PDF, p.63",
+          "evidencia": "| Patrimonio neto/ratios | Ejercicio, activos, pasivos, fórmula, umbral, acreditación | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | ID_188_2.PDF, p.63 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-004.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Requisitos obligatorios del documento IA - fuentes para proyecto viabilidad",
+          "detalle": "Parámetro: Seguro RC/riesgos profesionales; Subcampos pedidos: Importe, actividad, asegurador, inicio, fin, vigencia, cobertura, renovación; Estado del pliego: NO CONSTA EN LA DOCUMENTACION REVISADA; Dato/literal localizado: NO CONSTA; Documento y apartado/página: ID_188_2.PDF, p.67",
+          "evidencia": "| Seguro RC/riesgos profesionales | Importe, actividad, asegurador, inicio, fin, vigencia, cobertura, renovación | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | ID_188_2.PDF, p.67 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-004.03",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Requisitos obligatorios del documento IA - fuentes para proyecto viabilidad",
+          "detalle": "Parámetro: Fabricantes/partnerships; Subcampos pedidos: Fabricante, nivel, especialización, carta, expiración, acreditación; Estado del pliego: NO CONSTA EN LA DOCUMENTACION REVISADA; Dato/literal localizado: NO CONSTA; Documento y apartado/página: ID_188_3.PDF, p.13-14, 43",
+          "evidencia": "| Fabricantes/partnerships | Fabricante, nivel, especialización, carta, expiración, acreditación | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | ID_188_3.PDF, p.13-14, 43 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-004.04",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "3. Productos, hardware y materiales",
+          "detalle": "Producto: Equipos informáticos para personal propio; Cantidad: Según necesidad; Características: Tecnología adecuada, usabilidad universal; Fabricante/referencia: NO CONSTA; Equivalente permitido: NO CONSTA; Garantía/soporte: NO CONSTA; Stock/plazo: NO CONSTA; Fuente: ID_188_3.PDF, p.50",
+          "evidencia": "| Equipos informáticos para personal propio | Según necesidad | Tecnología adecuada, usabilidad universal | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | ID_188_3.PDF, p.50 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-004.05",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "3. Productos, hardware y materiales",
+          "detalle": "Producto: Equipos de protección individual; Cantidad: Según necesidad; Características: Para riesgos laborales; Fabricante/referencia: NO CONSTA; Equivalente permitido: NO CONSTA; Garantía/soporte: NO CONSTA; Stock/plazo: NO CONSTA; Fuente: ID_188_3.PDF, p.23",
+          "evidencia": "| Equipos de protección individual | Según necesidad | Para riesgos laborales | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | ID_188_3.PDF, p.23 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-004.06",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Tabla de trazabilidad",
+          "detalle": "Requisito/dato: Garantía fabricante; Tipo: Garantía; Valor/condición: NO CONSTA; Documento: -; Página/apartado: -; Estado de lectura: -",
+          "evidencia": "| Garantía fabricante | Garantía | NO CONSTA | - | - | - |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-004.07",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "4. Software, SaaS y licencias",
+          "detalle": "Producto: Asistente Virtual SaaS; Fabricante: NO CONSTA; Métrica/cantidad: 1; Entornos: Producción, preproducción (mínimo); Duración: Vigencia contrato; Quién lo aporta: Adjudicatario; Fuente: ID_188_3.PDF, p.1, 13-14, 29",
+          "evidencia": "| Asistente Virtual SaaS | NO CONSTA | 1 | Producción, preproducción (mínimo) | Vigencia contrato | Adjudicatario | ID_188_3.PDF, p.1, 13-14, 29 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-004.08",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "4. Software, SaaS y licencias",
+          "detalle": "Producto: Panel de control; Fabricante: NO CONSTA; Métrica/cantidad: 1; Entornos: Web; Duración: Vigencia contrato; Quién lo aporta: Adjudicatario; Fuente: ID_188_3.PDF, p.14-15",
+          "evidencia": "| Panel de control | NO CONSTA | 1 | Web | Vigencia contrato | Adjudicatario | ID_188_3.PDF, p.14-15 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-004.09",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "4. Software, SaaS y licencias",
+          "detalle": "Producto: Licencias software/herramientas; Fabricante: NO CONSTA; Métrica/cantidad: Todas necesarias; Entornos: Según arquitectura; Duración: Vigencia contrato; Quién lo aporta: Adjudicatario; Fuente: ID_188_3.PDF, p.13-14, 43",
+          "evidencia": "| Licencias software/herramientas | NO CONSTA | Todas necesarias | Según arquitectura | Vigencia contrato | Adjudicatario | ID_188_3.PDF, p.13-14, 43 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-004.10",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "5. Fabricantes, canal y cartas",
+          "detalle": "Fabricante: NO CONSTA; Requisito: NO CONSTA; Nivel/certificación/carta exigida: NO CONSTA; Momento: NO CONSTA; Fuente: NO CONSTA",
+          "evidencia": "| NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-004.11",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Tabla de trazabilidad",
+          "detalle": "Requisito/dato: Certificación fabricante; Tipo: Certificación; Valor/condición: NO CONSTA; Documento: -; Página/apartado: -; Estado de lectura: -",
+          "evidencia": "| Certificación fabricante | Certificación | NO CONSTA | - | - | - |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-004.12",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Tabla de trazabilidad",
+          "detalle": "Requisito/dato: Declaración de fabricante; Tipo: Declaración; Valor/condición: NO CONSTA; Documento: -; Página/apartado: -; Estado de lectura: -",
+          "evidencia": "| Declaración de fabricante | Declaración | NO CONSTA | - | - | - |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-004.13",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Tabla de trazabilidad",
+          "detalle": "Requisito/dato: Carta de compromiso fabricante; Tipo: Compromiso; Valor/condición: NO CONSTA; Documento: -; Página/apartado: -; Estado de lectura: -",
+          "evidencia": "| Carta de compromiso fabricante | Compromiso | NO CONSTA | - | - | - |",
+          "origen": "salida_del_agente"
+        }
+      ]
+    }
+  ],
+  "recomendaciones": [],
+  "estado_recomendaciones": "no_generadas"
+}

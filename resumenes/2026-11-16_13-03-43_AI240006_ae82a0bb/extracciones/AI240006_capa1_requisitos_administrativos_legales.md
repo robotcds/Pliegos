@@ -1,0 +1,30 @@
+Registro documental de preventa
+
+| Materia | Requisito completo | Fuente |
+|---|---|---|
+| Condiciones de participación | Capacidad de obrar: se exige a los licitadores tener capacidad de obrar. | Metadatos XML, requisitos_xml |
+| Condiciones de participación | No prohibición para contratar: los licitadores no deben estar incursos en prohibiciones para contratar. | Metadatos XML, requisitos_xml |
+| Condiciones de participación | No estar incurso en incompatibilidades: los licitadores no deben estar incursos en incompatibilidades. | Metadatos XML, requisitos_xml |
+| Condiciones de participación | Cumplimiento de las obligaciones con la Seguridad Social: los licitadores deben estar al corriente de sus obligaciones con la Seguridad Social. | Metadatos XML, requisitos_xml |
+| Condiciones de participación | Cumplimiento de las obligaciones tributarias: los licitadores deben estar al corriente de sus obligaciones tributarias. | Metadatos XML, requisitos_xml |
+| Condiciones de participación | NO CONSTA EN LA DOCUMENTACION REVISADA información sobre clasificación empresarial, habilitaciones específicas, requisitos para UTE o subcontratación. | NO CONSTA EN LA DOCUMENTACION REVISADA |
+| Documentación administrativa | NO CONSTA EN LA DOCUMENTACION REVISADA información sobre DEUC, declaraciones responsables, escrituras, poderes, certificados, anexos o compromisos específicos. | NO CONSTA EN LA DOCUMENTACION REVISADA |
+| Requisitos formales de presentación | Licitación electrónica de ofertas en la Plataforma de Contratación del Sector Público; es obligatorio tener versión JAVA y certificado electrónico. | Metadatos XML, nota_plazo |
+| Requisitos formales de presentación | Todas las consultas se realizarán obligatoriamente a través de la Plataforma de Contratación del Sector Público, siendo éste el único canal mediante el que serán atendidas. | Metadatos XML, nota_plazo |
+| Requisitos formales de presentación | NO CONSTA EN LA DOCUMENTACION REVISADA información sobre sobres/archivos, contenido, idioma, firma, formatos, extensión, nomenclatura y fecha límite de presentación. | NO CONSTA EN LA DOCUMENTACION REVISADA |
+| Causas o condiciones de exclusión | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna causa o condición de exclusión expresamente prevista. | NO CONSTA EN LA DOCUMENTACION REVISADA |
+| Garantías, seguros, penalizaciones, revisión de precios y obligaciones económicas | NO CONSTA EN LA DOCUMENTACION REVISADA información sobre garantías provisionales, definitivas, complementarias, seguros, penalizaciones, revisión de precios u otras obligaciones económicas administrativas. | NO CONSTA EN LA DOCUMENTACION REVISADA |
+| Duración, prórrogas, resolución, condiciones especiales de ejecución, cesión, subcontratación, RGPD, confidencialidad, PI, PRL, laboral, igualdad y medioambiente | Duración del contrato: 24 meses. | Metadatos XML, duracion |
+| Duración, prórrogas, resolución, condiciones especiales de ejecución, cesión, subcontratación, RGPD, confidencialidad, PI, PRL, laboral, igualdad y medioambiente | Consideraciones de tipo social: se incluyen consideraciones de tipo social como condición de ejecución. | Metadatos XML, condiciones_ejecucion_xml |
+| Duración, prórrogas, resolución, condiciones especiales de ejecución, cesión, subcontratación, RGPD, confidencialidad, PI, PRL, laboral, igualdad y medioambiente | NO CONSTA EN LA DOCUMENTACION REVISADA información sobre prórrogas, resolución, cesión, subcontratación, RGPD, confidencialidad, propiedad intelectual, PRL, obligaciones laborales, igualdad o medioambiente más allá de la mención social. | NO CONSTA EN LA DOCUMENTACION REVISADA |
+| Lotes, incompatibilidades y limitaciones | NO CONSTA EN LA DOCUMENTACION REVISADA información sobre lotes, incompatibilidades adicionales o limitaciones. | NO CONSTA EN LA DOCUMENTACION REVISADA |
+| Procedimiento, tramitación, presupuesto base, valor estimado, desglose, precios unitarios, límites de gasto y partidas obligatorias | Presupuesto base de licitación: 1.718.200 EUR. | Metadatos XML, importe_total |
+| Procedimiento, tramitación, presupuesto base, valor estimado, desglose, precios unitarios, límites de gasto y partidas obligatorias | Valor estimado del contrato: 2.591.500 EUR. | Metadatos XML, importe_estimado |
+| Procedimiento, tramitación, presupuesto base, valor estimado, desglose, precios unitarios, límites de gasto y partidas obligatorias | NO CONSTA EN LA DOCUMENTACION REVISADA información sobre desglose por lote/anualidad, precios unitarios, límites de gasto o partidas obligatorias. | NO CONSTA EN LA DOCUMENTACION REVISADA |
+| Condiciones de pago, facturación, hitos de aceptación, plazos de cobro, anticipos, revisión de precios, modificaciones y prórrogas | NO CONSTA EN LA DOCUMENTACION REVISADA información sobre condiciones de pago, facturación, hitos de aceptación, plazos de cobro, anticipos, revisión de precios, modificaciones o prórrogas. | NO CONSTA EN LA DOCUMENTACION REVISADA |
+| Criterios de adjudicación | Oferta económica: 70 puntos. | Metadatos XML, criterios_adjudicacion_xml |
+| Criterios de adjudicación | Oferta técnica, criterios evaluables automáticamente: 3 puntos. | Metadatos XML, criterios_adjudicacion_xml |
+| Criterios de adjudicación | Oferta técnica: 27 puntos. | Metadatos XML, criterios_adjudicacion_xml |
+
+Discrepancias y pendientes de aclaración:
+- No se ha podido acceder al texto completo del pliego administrativo ni a sus anexos, por lo que la información extraída se limita a los metadatos del XML y los campos visibles en la consulta. No se han identificado discrepancias internas entre los datos disponibles. Toda información adicional o detalle específico de requisitos, documentación, fases, garantías, penalizaciones, condiciones de ejecución, lotes, subcontratación, facturación, pagos, prórrogas, modificaciones, etc., queda PENDIENTE DE VERIFICAR EN DOCUMENTO NO DISPONIBLE/LECTURA PARCIAL.

@@ -1,0 +1,112 @@
+{
+  "scope": "--capa todas",
+  "calls_without_retries": 26,
+  "input_proxy": 1638401,
+  "output_proxy": 61107,
+  "assumptions": {
+    "capa2_output_each": 3000,
+    "recommendation_output_each": 800,
+    "extra_editorial_input": 64800,
+    "extra_editorial_output": 6000,
+    "capa2_prior_output_proxy": "3000-token excerpt used ONLY for token sizing, not findings"
+  },
+  "extra_calls": [
+    {
+      "input": 49992,
+      "output": 3000,
+      "kind": "analysis"
+    },
+    {
+      "input": 58861,
+      "output": 3000,
+      "kind": "analysis"
+    },
+    {
+      "input": 23907,
+      "output": 3000,
+      "kind": "analysis"
+    },
+    {
+      "input": 24314,
+      "output": 3000,
+      "kind": "analysis"
+    },
+    {
+      "input": 1934,
+      "output": 800,
+      "kind": "recommendation"
+    },
+    {
+      "input": 6194,
+      "output": 800,
+      "kind": "recommendation"
+    },
+    {
+      "input": 7985,
+      "output": 800,
+      "kind": "recommendation"
+    },
+    {
+      "input": 7493,
+      "output": 800,
+      "kind": "recommendation"
+    },
+    {
+      "input": 9308,
+      "output": 800,
+      "kind": "recommendation"
+    },
+    {
+      "input": 8584,
+      "output": 800,
+      "kind": "recommendation"
+    },
+    {
+      "input": 6210,
+      "output": 800,
+      "kind": "recommendation"
+    },
+    {
+      "input": 7994,
+      "output": 800,
+      "kind": "recommendation"
+    },
+    {
+      "input": 6599,
+      "output": 800,
+      "kind": "recommendation"
+    },
+    {
+      "input": 6809,
+      "output": 800,
+      "kind": "recommendation"
+    },
+    {
+      "input": 4681,
+      "output": 800,
+      "kind": "recommendation"
+    },
+    {
+      "input": 6891,
+      "output": 800,
+      "kind": "recommendation"
+    }
+  ],
+  "costs": [
+    {
+      "model": "GPT-4.1",
+      "base_usd": 3.77,
+      "reserve_50_percent_usd": 5.65
+    },
+    {
+      "model": "GPT-5.1",
+      "base_usd": 2.66,
+      "reserve_50_percent_usd": 3.99
+    },
+    {
+      "model": "GPT-6.1 Sol",
+      "base_usd": 3.89,
+      "reserve_50_percent_usd": 5.83
+    }
+  ]
+}

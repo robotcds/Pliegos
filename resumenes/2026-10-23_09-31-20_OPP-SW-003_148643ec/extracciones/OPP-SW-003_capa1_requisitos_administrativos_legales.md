@@ -1,0 +1,63 @@
+Registro documental de preventa
+
+| Materia | Requisito completo | Fuente |
+|---|---|---|
+| Desglose económico y fases | Presupuesto base de licitación: 653.400 EUR IVA incluido; valor estimado: 540.000 EUR; presupuesto de oferta: 540.000 EUR sin IVA; duración: 10 meses; sin prórroga; facturación por hitos: 10% inventario, 25% oleada 1, 25% oleada 2, 25% oleada final, 15% cierre y reversibilidad; no hay anticipo; compras y licencias se financian con recursos propios hasta cobro de hitos; penalización: 0,5% del precio por semana de retraso en una oleada, máximo 7% del contrato; cloud temporal de migración: 4.200 EUR/mes durante 6 meses para entornos paralelos, pruebas y observabilidad (no presupuestado de forma separada en el pliego). | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| Desglose económico y fases | Plazo de presentación de ofertas: 30/09/2026 a las 13:00. | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| Procedimiento y tramitación | Procedimiento abierto simplificado ficticio. | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| Condiciones de participación: capacidad y prohibiciones | Se exige capacidad de obrar, no prohibición para contratar y certificados positivos de Hacienda y Seguridad Social. | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| Condiciones de participación: solvencia económica | Volumen anual mínimo de 900.000 EUR y seguro de responsabilidad civil profesional de 1.500.000 EUR. | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| Condiciones de participación: clasificación y habilitaciones | Se exige clasificación empresarial equivalente a servicios de consultoría y desarrollo informático Grupo V, Subgrupo 2, Categoría 3, o acreditación alternativa solo para empresas no españolas. Se exige ISO 27001. | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| Condiciones de participación: solvencia técnica y equipo mínimo | Dos perfiles DevOps/cloud senior, cada uno con al menos 5 años de experiencia en Azure, Kubernetes, Docker, CI/CD y observabilidad; un desarrollador backend senior con al menos 5 años en Java o Python; jefe de proyecto con al menos 6 años de experiencia en migraciones técnicas; experiencia previa demostrable en al menos tres migraciones cloud de administraciones públicas. | Pliego técnico OPP-SW-003 migracion cloud, texto extraído; Anexo solvencia OPP-SW-003 migracion cloud, texto extraído |
+| Condiciones de participación: solvencia técnica específica | Tres referencias de migraciones cloud en administraciones públicas, ejecutadas en los últimos cinco años, importe mínimo de 250.000 EUR y duración mínima de 6 meses; al menos una referencia debe incluir Kubernetes o AKS. | Anexo solvencia OPP-SW-003 migracion cloud, texto extraído |
+| Condiciones de participación: UTE y subcontratación | Se permite subcontratación máxima del 25%, excepto dirección de proyecto y arquitectura cloud. No se permite subcontratar dirección de proyecto ni arquitectura cloud principal. | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| Documentación administrativa: general | Documentación a presentar: memoria de migración, plan de continuidad y reversibilidad, plan de seguridad y gestión de cambios, CV del equipo mínimo, oferta económica. | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| Documentación administrativa: sobres y formato | Dos sobres electrónicos: sobre 1 documentación administrativa y técnica; sobre 2 oferta económica. Propuesta de migración no podrá superar 50 páginas. | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| Documentación administrativa: cartas y compromisos | Se exige carta de compromiso del partner cloud para soporte AKS y confirmación de regiones UE. | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| Documentación administrativa: idioma, firma, formato | NO CONSTA EN LA DOCUMENTACION REVISADA |
+| Documentación administrativa: DEUC, declaraciones, poderes, escrituras | NO CONSTA EN LA DOCUMENTACION REVISADA |
+| Requisitos formales de presentación: plataforma, nomenclatura, extensión | NO CONSTA EN LA DOCUMENTACION REVISADA |
+| Requisitos formales de presentación: fecha límite | Plazo de presentación de ofertas: 30/09/2026 a las 13:00. | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| Causas o condiciones de exclusión | La falta de plan de reversibilidad o la superación del presupuesto máximo provocará exclusión. | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| Causas o condiciones de exclusión | Las ofertas con baja superior al 18% deberán justificar viabilidad; baja superior al 22% se considerará de alto riesgo por carga de migración. | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| Garantías, seguros y obligaciones económicas | Seguro de responsabilidad civil profesional de 1.500.000 EUR. | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| Garantías económicas: provisional, definitiva, complementaria | NO CONSTA EN LA DOCUMENTACION REVISADA |
+| Penalizaciones | Penalización del 0,5% del precio por semana de retraso en una oleada; máximo 7% del contrato. | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| Penalizaciones | Penalización del 2% mensual si la disponibilidad baja de 99,5% y 1% por cambio fallido sin rollback documentado. | Pliego técnico OPP-SW-003 migracion cloud, texto extraído |
+| Revisión de precios | NO CONSTA EN LA DOCUMENTACION REVISADA |
+| Modificaciones contractuales | NO CONSTA EN LA DOCUMENTACION REVISADA |
+| Duración y prórrogas | Duración: 10 meses; sin prórroga. | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| Resolución y causas | NO CONSTA EN LA DOCUMENTACION REVISADA |
+| Condiciones especiales de ejecución | Las migraciones productivas se ejecutarán en ventanas autorizadas y con plan de vuelta atrás aprobado. | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| Condiciones especiales de ejecución | El adjudicatario deberá ejecutar migraciones sin pérdida de servicio, con ventana máxima de indisponibilidad de 4 horas por aplicación. | Pliego técnico OPP-SW-003 migracion cloud, texto extraído |
+| Condiciones especiales de ejecución | ENS: se exige que la plataforma cloud destino cumpla ENS categoría MEDIA y que el adjudicatario disponga de ISO 27001. | Pliego técnico OPP-SW-003 migracion cloud, texto extraído |
+| Condiciones especiales de ejecución | Aplicaciones y backups en regiones UE; prohibidas transferencias internacionales salvo autorización expresa. | Pliego técnico OPP-SW-003 migracion cloud, texto extraído |
+| Condiciones especiales de ejecución | MFA obligatorio, PAM para cuentas privilegiadas, bastionado de contenedores, escaneo de imágenes, gestión de secretos, cifrado de discos, network policies, WAF para aplicaciones expuestas, logs centralizados 18 meses y sincronización NTP. | Pliego técnico OPP-SW-003 migracion cloud, texto extraído |
+| Condiciones especiales de ejecución | CVE crítica en imagen base corregida <= 24 horas; CVE alta <= 7 días. SAST/SCA en pipelines y aprobación de excepciones. | Pliego técnico OPP-SW-003 migracion cloud, texto extraído |
+| Condiciones especiales de ejecución | Incidente cloud crítico comunicación <= 1 hora, RCA en 5 días, evidencias forenses preservadas. | Pliego técnico OPP-SW-003 migracion cloud, texto extraído |
+| Condiciones especiales de ejecución | Reversibilidad segura: borrado de credenciales, rotación de secretos, exportación IaC y certificado de eliminación de datos temporales. | Pliego técnico OPP-SW-003 migracion cloud, texto extraído |
+| Cesión y subcontratación | Se permite subcontratación máxima del 25%, excepto dirección de proyecto y arquitectura cloud. No se permite subcontratar dirección de proyecto ni arquitectura cloud principal. | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| RGPD y protección de datos | Inventario de subencargados cloud, soporte remoto y herramientas SaaS; prohibidas transferencias internacionales salvo autorización expresa. | Pliego técnico OPP-SW-003 migracion cloud, texto extraído |
+| Confidencialidad | NO CONSTA EN LA DOCUMENTACION REVISADA |
+| Propiedad intelectual | NO CONSTA EN LA DOCUMENTACION REVISADA |
+| PRL, laboral, igualdad, medioambiente | NO CONSTA EN LA DOCUMENTACION REVISADA |
+| Lotes, incompatibilidades y limitaciones | No se admiten variantes. | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| Lotes, incompatibilidades y limitaciones | NO CONSTA EN LA DOCUMENTACION REVISADA sobre lotes o incompatibilidades adicionales. |
+| Condiciones de pago y facturación | Facturación por hitos: 10% inventario, 25% oleada 1, 25% oleada 2, 25% oleada final, 15% cierre y reversibilidad; no hay anticipo; compras y licencias se financian con recursos propios hasta cobro de hitos. | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| Condiciones de pago y facturación | NO CONSTA EN LA DOCUMENTACION REVISADA sobre plazos de cobro, aceptación, anticipos, revisión de precios, modificaciones y prórrogas con sus límites. |
+| Equipo y continuidad | Dos DevOps cloud senior al 100% durante 8 meses y jefe de proyecto 35% durante 10 meses. | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| Equipo y continuidad | Herramientas: repositorio IaC, escaneo de contenedores, monitorización Grafana/Prometheus y licencias SAST/SCA para 5 usuarios. | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| Equipo y continuidad | Cloud temporal de migración: 4.200 EUR/mes durante 6 meses para entornos paralelos, pruebas y observabilidad. | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| Equipo y continuidad | Ventanas fuera de horario: 8 fines de semana de migración con guardias DevOps incluidas. | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| Equipo y continuidad | El adjudicatario debe aportar herramientas de escaneo de contenedores, SAST/SCA para 5 usuarios, Grafana/Prometheus gestionado si no usa herramientas del cliente, cloud temporal de migración Azure y soporte de fabricante/partner durante ventanas de migración. | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| Equipo y continuidad | Se exige carta de compromiso del partner cloud para soporte AKS y confirmación de regiones UE. | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| Equipo y continuidad | Las guardias de migración pueden cubrirse internamente o con Cloud Partner Ficticio S.A.; no se permite subcontratar dirección del proyecto ni arquitectura cloud principal. | Pliego administrativo OPP-SW-003 migracion cloud, texto extraído |
+| Equipo y continuidad | Experiencia previa demostrable en al menos tres migraciones cloud de administraciones públicas. | Pliego técnico OPP-SW-003 migracion cloud, texto extraído; Anexo solvencia OPP-SW-003 migracion cloud, texto extraído |
+| Equipo y continuidad | Tres referencias de migraciones cloud en administraciones públicas, ejecutadas en los últimos cinco años, importe mínimo de 250.000 EUR y duración mínima de 6 meses; al menos una referencia debe incluir Kubernetes o AKS. | Anexo solvencia OPP-SW-003 migracion cloud, texto extraído |
+| Equipo y continuidad | Jefe de proyecto con al menos 6 años de experiencia en migraciones técnicas. | Pliego técnico OPP-SW-003 migracion cloud, texto extraído; Anexo solvencia OPP-SW-003 migracion cloud, texto extraído |
+| Equipo y continuidad | Dos perfiles DevOps/cloud senior, cada uno con al menos 5 años de experiencia en Azure, Kubernetes, Docker, CI/CD y observabilidad. | Pliego técnico OPP-SW-003 migracion cloud, texto extraído; Anexo solvencia OPP-SW-003 migracion cloud, texto extraído |
+| Equipo y continuidad | Un desarrollador backend senior con al menos 5 años en Java o Python. | Pliego técnico OPP-SW-003 migracion cloud, texto extraído; Anexo solvencia OPP-SW-003 migracion cloud, texto extraído |
+
+Discrepancias y pendientes de aclaración:
+- NO CONSTA EN LA DOCUMENTACION REVISADA información sobre idioma, firma, formato, plataforma de presentación, nomenclatura, extensión, DEUC, declaraciones, poderes, escrituras, plazos de cobro, aceptación, anticipos, revisión de precios, modificaciones, prórrogas con sus límites, resolución, confidencialidad, propiedad intelectual, PRL, laboral, igualdad, medioambiente, lotes adicionales o incompatibilidades adicionales.
+- No se han identificado discrepancias numéricas internas entre los documentos revisados.

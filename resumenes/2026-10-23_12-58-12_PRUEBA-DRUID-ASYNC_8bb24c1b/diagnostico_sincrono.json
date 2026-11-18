@@ -1,0 +1,25 @@
+{
+  "http_status": 200,
+  "seconds": 2.543,
+  "body": {
+    "DataSource": {
+      "finish_reason": "tool_calls",
+      "responseJSON": {
+        "annotations": [],
+        "content": null,
+        "refusal": null,
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "function": {
+              "arguments": "{\"Response\":\"PRUEBA_ASYNC_OK\"}",
+              "name": "KB_response"
+            },
+            "id": "call_RT4AVlc257ZVyABZVG5TR6lZ",
+            "type": "function"
+          }
+        ]
+      }
+    }
+  }
+}

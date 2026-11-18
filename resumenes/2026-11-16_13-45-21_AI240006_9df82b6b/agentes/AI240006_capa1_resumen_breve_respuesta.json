@@ -1,0 +1,90 @@
+{
+  "orden": 1,
+  "id": "A1",
+  "nombre": "Resumen breve",
+  "tipo": "referencia",
+  "ejecucion": "9df82b6be18e498daf59eaaf83719b70",
+  "estado": "completado",
+  "contenido": {
+    "resumen": [
+      "Expediente AI240006, órgano: Consejo de Administración-Comité de Inversiones de la Sociedad Estatal Correos y Telégrafos S.A. Objeto: Contratación del servicio de Administración Workplace. [Pliego, Detalle_Licitacion]",
+      "Presupuesto base de licitación: 1.420.000 € sin IVA; estimado total: 2.591.500 €; adjudicación: 1.065.000 € (sin IVA). [Pliego, Detalle_Licitacion]",
+      "Duración inicial: 24 meses desde la formalización, con posibilidad de 2 prórrogas (12 y 3 meses). [Pliego]",
+      "Procedimiento: Licitación con negociación y publicidad; presentación electrónica. [Pliego, Detalle_Licitacion]",
+      "Plazo de presentación de solicitudes: 15 días naturales desde el anuncio; fecha de adjudicación: 13/11/2024; formalización: 11/12/2024. [Pliego, Detalle_Licitacion]",
+      "No consta evidencia de todos los documentos asociados ni del cierre de ofertas definitivo; algunos datos pueden requerir contraste adicional."
+    ],
+    "secciones": [
+      {
+        "titulo": "Contenido inicial",
+        "parrafos": [],
+        "elementos": [
+          "Expediente AI240006, órgano: Consejo de Administración-Comité de Inversiones de la Sociedad Estatal Correos y Telégrafos S.A. Objeto: Contratación del servicio de Administración Workplace. [Pliego, Detalle_Licitacion]",
+          "Presupuesto base de licitación: 1.420.000 € sin IVA; estimado total: 2.591.500 €; adjudicación: 1.065.000 € (sin IVA). [Pliego, Detalle_Licitacion]",
+          "Duración inicial: 24 meses desde la formalización, con posibilidad de 2 prórrogas (12 y 3 meses). [Pliego]",
+          "Procedimiento: Licitación con negociación y publicidad; presentación electrónica. [Pliego, Detalle_Licitacion]",
+          "Plazo de presentación de solicitudes: 15 días naturales desde el anuncio; fecha de adjudicación: 13/11/2024; formalización: 11/12/2024. [Pliego, Detalle_Licitacion]",
+          "No consta evidencia de todos los documentos asociados ni del cierre de ofertas definitivo; algunos datos pueden requerir contraste adicional."
+        ],
+        "tablas": []
+      }
+    ],
+    "pendientes_y_no_localizados": [],
+    "trazabilidad": [],
+    "salida_original": "• Expediente AI240006, órgano: Consejo de Administración-Comité de Inversiones de la Sociedad Estatal Correos y Telégrafos S.A. Objeto: Contratación del servicio de Administración Workplace. [Pliego, Detalle_Licitacion]\n• Presupuesto base de licitación: 1.420.000 € sin IVA; estimado total: 2.591.500 €; adjudicación: 1.065.000 € (sin IVA). [Pliego, Detalle_Licitacion]\n• Duración inicial: 24 meses desde la formalización, con posibilidad de 2 prórrogas (12 y 3 meses). [Pliego]\n• Procedimiento: Licitación con negociación y publicidad; presentación electrónica. [Pliego, Detalle_Licitacion]\n• Plazo de presentación de solicitudes: 15 días naturales desde el anuncio; fecha de adjudicación: 13/11/2024; formalización: 11/12/2024. [Pliego, Detalle_Licitacion]\n• No consta evidencia de todos los documentos asociados ni del cierre de ofertas definitivo; algunos datos pueden requerir contraste adicional."
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 330809,
+        "caracteres_enviados_al_agente": 330809,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Detalle_Licitacion",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 5053,
+        "caracteres_enviados_al_agente": 5053,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Se omitieron 6 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  },
+  "puntos_revision": [
+    {
+      "id": "REV-001",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Documentación y otras condiciones pendientes",
+      "prioridad": "media",
+      "detalle": "Revisar documentación y otras condiciones pendientes: 1 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-001.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "No consta evidencia de todos los documentos asociados ni del cierre de ofertas definitivo; algunos datos pueden requerir contraste adicional.",
+          "evidencia": "• No consta evidencia de todos los documentos asociados ni del cierre de ofertas definitivo; algunos datos pueden requerir contraste adicional.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    }
+  ],
+  "recomendaciones": [],
+  "estado_recomendaciones": "no_generadas"
+}

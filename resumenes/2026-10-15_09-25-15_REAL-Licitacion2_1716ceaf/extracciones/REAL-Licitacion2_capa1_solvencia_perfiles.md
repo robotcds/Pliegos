@@ -1,0 +1,99 @@
+# 1. Resumen factual de requisitos de perfiles y equipo
+
+La licitación exige un equipo mínimo estructurado en perfiles diferenciados para los servicios de Virtualización, Puesto de Trabajo, Movilidad, Proyectos Especiales y Gestión/Coordinación, con requisitos detallados de experiencia, conocimientos técnicos, certificaciones deseables, idiomas y dedicación. Se establecen mínimos de recursos dedicados por servicio y reglas de cobertura, sustitución y adscripción. Existen criterios puntuables vinculados a la organización, experiencia y horas ofertadas del equipo. La acreditación documental incluye compromiso de adscripción, declaración de experiencia y, a requerimiento, certificados de experiencia y formación.
+
+# 2. Tabla: Puesto/perfil | Cantidad | Titulacion | Experiencia | Certificaciones | Dedicacion/horario | Presencialidad/ubicacion | Tipo de requisito | Fuente
+
+| Puesto/perfil                                 | Cantidad mínima         | Titulación                        | Experiencia requerida                                                                 | Certificaciones requeridas/deseables                | Dedicación/horario                                                                 | Presencialidad/ubicación                                                                 | Tipo de requisito         | Fuente (doc/pág)                  |
+|-----------------------------------------------|------------------------|-----------------------------------|--------------------------------------------------------------------------------------|----------------------------------------------------|--------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|--------------------------|------------------------------------|
+| Responsable Gestión y Seguimiento del Servicio| 1                      | NO CONSTA EN LA DOCUMENTACION REVISADA | Al menos 5 años como responsable de servicios similares                              | NO CONSTA EN LA DOCUMENTACION REVISADA             | NO CONSTA EN LA DOCUMENTACION REVISADA                                            | NO CONSTA EN LA DOCUMENTACION REVISADA                                                 | Obligatorio              | DOC20240806095753Pliegodefinitivofirmado.pdf p.64 |
+| Administrador de Sistemas Virtualizados       | 3 dedicados Correos + 1 dedicado CEX | NO CONSTA EN LA DOCUMENTACION REVISADA | Al menos 3 años en tecnologías y tareas descritas (ver detalle abajo)                | Deseables: Citrix, Microsoft, CCNA/CCNP, JNCIA/JNCIS, CTN | Jornada completa, horario laboral 07:00-18:30, guardias 24x7 según servicio         | Presencial mínimo 1 recurso en Correos y 1 en CEX; resto remoto/híbrido según necesidades | Obligatorio              | DOC20240806095753Pliegodefinitivofirmado.pdf p.65-66, 73 |
+| Administrador de NetApp                      | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA EN LA DOCUMENTACION REVISADA | Al menos 3 años en tecnologías y tareas descritas                                    | Deseables: NetApp                                   | NO CONSTA EN LA DOCUMENTACION REVISADA                                            | NO CONSTA EN LA DOCUMENTACION REVISADA                                                 | Obligatorio              | DOC20240806095753Pliegodefinitivofirmado.pdf p.66 |
+| Administrador de BBDD SQL                    | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA EN LA DOCUMENTACION REVISADA | Al menos 3 años en tecnologías y tareas descritas                                    | NO CONSTA EN LA DOCUMENTACION REVISADA             | NO CONSTA EN LA DOCUMENTACION REVISADA                                            | NO CONSTA EN LA DOCUMENTACION REVISADA                                                 | Obligatorio              | DOC20240806095753Pliegodefinitivofirmado.pdf p.67 |
+| Administrador de Comunicaciones Cisco        | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA EN LA DOCUMENTACION REVISADA | Al menos 5 años en tecnologías y tareas descritas                                    | Deseable: CCNA, CCNP, equivalentes                 | NO CONSTA EN LA DOCUMENTACION REVISADA                                            | NO CONSTA EN LA DOCUMENTACION REVISADA                                                 | Obligatorio              | DOC20240806095753Pliegodefinitivofirmado.pdf p.68 |
+| Administrador de Sistemas (Puesto de Trabajo)| 3 dedicados Correos     | NO CONSTA EN LA DOCUMENTACION REVISADA | Al menos 3 años en tecnologías y tareas descritas                                    | Deseables: Microsoft, CCNA, JNCIA, CTN, Workspace One, HPDM, INTUNE | NO CONSTA EN LA DOCUMENTACION REVISADA                                            | NO CONSTA EN LA DOCUMENTACION REVISADA                                                 | Obligatorio              | DOC20240806095753Pliegodefinitivofirmado.pdf p.69 |
+| Administrador de Sistemas de Movilidad       | 1 dedicado Correos + 1 dedicado CEX | NO CONSTA EN LA DOCUMENTACION REVISADA | Al menos 3 años en tecnologías y tareas descritas                                    | Deseables: Workspace One UEM/AirWatch, SOTI, Ivanti, CCNA/CCNP, JNCIA/JNCIS, CTN | NO CONSTA EN LA DOCUMENTACION REVISADA                                            | NO CONSTA EN LA DOCUMENTACION REVISADA                                                 | Obligatorio              | DOC20240806095753Pliegodefinitivofirmado.pdf p.70 |
+| Expertos Proyectos Especiales                | Bolsa bajo demanda      | NO CONSTA EN LA DOCUMENTACION REVISADA | Al menos 5 años en la tecnología requerida                                            | NO CONSTA EN LA DOCUMENTACION REVISADA             | Bajo demanda según necesidad                                                      | NO CONSTA EN LA DOCUMENTACION REVISADA                                                 | Obligatorio              | DOC20240806095753Pliegodefinitivofirmado.pdf p.71 |
+
+**Notas sobre experiencia y conocimientos (ver detalle en desarrollo):**
+- Para cada perfil se detallan tecnologías, herramientas y funciones específicas (ver desarrollo).
+- Conocimiento de inglés a nivel conversación y lectura técnica es obligatorio para todos los perfiles técnicos.
+- Se exige capacidad de scripting (powershell, batch, vbs, etc.) en la mayoría de perfiles técnicos.
+- Para todos los perfiles: los requisitos son mínimos, se espera nivel igual o superior.
+
+# 3. Requisitos de acreditación documental de cada perfil
+- Compromiso de adscripción de medios personales, indicando el personal comprometido y ajustado a las características del apartado EQUIPO DE TRABAJO del Anexo I. (Obligación esencial, a presentar en oferta). Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf p.8, 120.
+- Declaración del licitador indicando que dispone del equipo técnico para la ejecución de los servicios requeridos. Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf p.8.
+- Certificado que demuestre que los recursos presentados tienen al menos 1 año de experiencia en puesto similar al solicitado. Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf p.8.
+- Correos podrá requerir documentación adicional que respalde la disponibilidad de los medios personales necesarios, como listas de personal asignado, contratos laborales, certificados de capacitación. Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf p.23.
+
+# 4. Reglas de sustitución, permanencia o adscripción de medios
+- El compromiso de adscripción de medios personales es obligación esencial del contrato. Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf p.22-23.
+- Penalizaciones por incumplimiento de adscripción: hasta el 2% del precio del contrato (grave), hasta el 10% (muy grave), y causa de resolución si es esencial. Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf p.96-98, 22.
+- Sustitución de perfiles: cualquier cambio de perfil dedicado/diferenciado debe ser cubierto en un plazo máximo de 15 días naturales por otro técnico de iguales características, con al menos 5 días laborales de traspaso de conocimiento. Penalización del 25% de la facturación mensual del servicio si no se cubre en plazo, 100% si supera 30 días. Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf p.112.
+- Indisponibilidad temporal mayor a 3 días laborables de un perfil dedicado/diferenciado, no sustituido por un perfil equivalente en 3 días, penalización del 20% de la facturación mensual del servicio por cada perfil. Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf p.113.
+- Tasa de renovación de equipos: más de una rotación por año y servicio, penalización del 20% de la facturación mensual de todos los servicios. Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf p.113.
+- Durante la fase de transición y reversión, debe haber solapamiento de equipos saliente y entrante para transferencia de conocimiento (mínimo 15 días, recomendable 1 mes). Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf p.57, 62.
+- El adjudicatario debe mantener el equipo habitual durante la fase de reversión para evitar deterioro del servicio. Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf p.62.
+
+# 5. Criterios puntuables relacionados con perfiles, con puntos/formula/umbral si constan
+- Propuesta organizativa y descripción del equipo de trabajo con características adicionales a las requeridas en la fase de solvencia: hasta 4 puntos. A mayor detalle, mayor número de recursos asignados y menor precio, mayor puntuación. Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf p.85.
+- Incremento de horas ofrecidas sobre las necesidades estimadas: hasta 5 puntos para la mejor oferta, puntuación proporcional al resto. Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf p.85.
+- Mejoras y valores adicionales propuestos en el pliego: hasta 2 puntos adicionales. Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf p.85.
+- Total criterios técnicos relacionados con equipo: hasta 11 puntos sobre 27 de la parte técnica. Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf p.85.
+
+# 6. Requisitos detectados que corresponden a experiencia de empresa y no a personas
+- Haber realizado 3 servicios de igual o similar naturaleza que los que constituyen el objeto del contrato en los tres últimos años, cuyo importe anual acumulado en el año de mayor ejecución sea igual o superior a 1.190.000,00 €. Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf p.7, Anuncio.pdf p.5.
+- Certificados de correcta ejecución de los servicios realizados, expedidos o visados por la entidad para la que hayan sido realizados. Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf p.79.
+
+# 7. Datos no localizados o no verificables por lectura parcial
+- Titulación académica concreta exigida para cada perfil: NO CONSTA EN LA DOCUMENTACION REVISADA.
+- Número exacto de personas para perfiles de NetApp, BBDD SQL, Comunicaciones Cisco, Administrador de Sistemas de Movilidad: NO CONSTA EN LA DOCUMENTACION REVISADA.
+- Detalle de jornada individual (horas/día) por perfil: NO CONSTA EN LA DOCUMENTACION REVISADA.
+- Requisitos de colegiación: NO CONSTA EN LA DOCUMENTACION REVISADA.
+- Requisitos de idiomas distintos del inglés técnico: NO CONSTA EN LA DOCUMENTACION REVISADA.
+- Requisitos de formación continua: NO CONSTA EN LA DOCUMENTACION REVISADA.
+
+# 8. Documentos revisados: enumera todos los documentos del índice
+1. ANEXO I.pdf
+2. Anuncio.pdf
+3. DOC20240806095753Pliegodefinitivofirmado.pdf
+4. DOC_CD2024-000901195.pdf
+5. poc (enlace a detalle de licitación)
+6. poc (perfil de contratante)
+7. CORREOS-Codigo-General-de-Conducta.pdf (NO DISPONIBLE, error 404)
+8. perfil-contratante
+9. PoliticaProteccionDatosCanalEticoClientesyProveedores--ES.pdf
+
+# Tabla de trazabilidad
+| Requisito/dato                                             | Tipo                  | Valor/condición                                                                 | Documento                                 | Página/apartado                | Estado de lectura                  |
+|-----------------------------------------------------------|-----------------------|-------------------------------------------------------------------------------|--------------------------------------------|-------------------------------|-------------------------------------|
+| Responsable Gestión y Seguimiento del Servicio            | Obligatorio           | 1, 5 años experiencia en servicios similares                                   | DOC20240806095753Pliegodefinitivofirmado.pdf | p.64                          | Leído completo                      |
+| Administrador de Sistemas Virtualizados                   | Obligatorio           | 3 dedicados Correos, 1 dedicado CEX, 3 años experiencia, conocimientos detallados | DOC20240806095753Pliegodefinitivofirmado.pdf | p.65-66, 73                   | Leído completo                      |
+| Administrador de NetApp                                   | Obligatorio           | NO CONSTA cantidad, 3 años experiencia, conocimientos detallados               | DOC20240806095753Pliegodefinitivofirmado.pdf | p.66                          | Leído completo                      |
+| Administrador de BBDD SQL                                 | Obligatorio           | NO CONSTA cantidad, 3 años experiencia, conocimientos detallados               | DOC20240806095753Pliegodefinitivofirmado.pdf | p.67                          | Leído completo                      |
+| Administrador de Comunicaciones Cisco                     | Obligatorio           | NO CONSTA cantidad, 5 años experiencia, conocimientos detallados               | DOC20240806095753Pliegodefinitivofirmado.pdf | p.68                          | Leído completo                      |
+| Administrador de Sistemas (Puesto de Trabajo)             | Obligatorio           | 3 dedicados Correos, 3 años experiencia, conocimientos detallados              | DOC20240806095753Pliegodefinitivofirmado.pdf | p.69                          | Leído completo                      |
+| Administrador de Sistemas de Movilidad                    | Obligatorio           | 1 dedicado Correos, 1 dedicado CEX, 3 años experiencia, conocimientos detallados| DOC20240806095753Pliegodefinitivofirmado.pdf | p.70                          | Leído completo                      |
+| Expertos Proyectos Especiales                             | Obligatorio           | Bolsa bajo demanda, 5 años experiencia en tecnología requerida                 | DOC20240806095753Pliegodefinitivofirmado.pdf | p.71                          | Leído completo                      |
+| Compromiso de adscripción de medios                      | Obligación esencial   | Presentar en oferta, ajustado a EQUIPO DE TRABAJO                              | DOC20240806095753Pliegodefinitivofirmado.pdf | p.8, 120                      | Leído completo                      |
+| Declaración de experiencia mínima 1 año                   | Obligatorio           | Certificado de experiencia en puesto similar                                    | DOC20240806095753Pliegodefinitivofirmado.pdf | p.8                           | Leído completo                      |
+| Sustitución de perfiles                                   | Obligatorio/penalizable| Máx. 15 días, 5 días traspaso, penalización 25%/100%                            | DOC20240806095753Pliegodefinitivofirmado.pdf | p.112                         | Leído completo                      |
+| Indisponibilidad >3 días sin sustitución                  | Penalizable           | Penalización 20% facturación mensual por perfil                                 | DOC20240806095753Pliegodefinitivofirmado.pdf | p.113                         | Leído completo                      |
+| Tasa de renovación de equipos                             | Penalizable           | >1 rotación/año/servicio, penalización 20% facturación mensual total            | DOC20240806095753Pliegodefinitivofirmado.pdf | p.113                         | Leído completo                      |
+| Propuesta organizativa y equipo                          | Criterio puntuable    | Hasta 4 puntos                                                                 | DOC20240806095753Pliegodefinitivofirmado.pdf | p.85                          | Leído completo                      |
+| Incremento de horas ofrecidas                            | Criterio puntuable    | Hasta 5 puntos                                                                 | DOC20240806095753Pliegodefinitivofirmado.pdf | p.85                          | Leído completo                      |
+| Mejoras y valores adicionales                            | Criterio puntuable    | Hasta 2 puntos                                                                 | DOC20240806095753Pliegodefinitivofirmado.pdf | p.85                          | Leído completo                      |
+| Experiencia empresa en servicios similares               | Obligatorio empresa   | 3 servicios, importe anual ≥1.190.000 € en año de mayor ejecución               | DOC20240806095753Pliegodefinitivofirmado.pdf | p.7, 79                       | Leído completo                      |
+| Certificados de correcta ejecución                       | Obligatorio empresa   | Aportar certificados de servicios realizados                                   | DOC20240806095753Pliegodefinitivofirmado.pdf | p.79                          | Leído completo                      |
+| Titulación académica concreta                            | NO LOCALIZADO         | NO CONSTA EN LA DOCUMENTACION REVISADA                                         | -                                          | -                             | -                                   |
+| Número exacto de personas NetApp, SQL, Cisco, Movilidad  | NO LOCALIZADO         | NO CONSTA EN LA DOCUMENTACION REVISADA                                         | -                                          | -                             | -                                   |
+| Jornada individual por perfil                            | NO LOCALIZADO         | NO CONSTA EN LA DOCUMENTACION REVISADA                                         | -                                          | -                             | -                                   |
+| Requisitos de colegiación                               | NO LOCALIZADO         | NO CONSTA EN LA DOCUMENTACION REVISADA                                         | -                                          | -                             | -                                   |
+| Requisitos de idiomas distintos del inglés técnico       | NO LOCALIZADO         | NO CONSTA EN LA DOCUMENTACION REVISADA                                         | -                                          | -                             | -                                   |
+| Requisitos de formación continua                        | NO LOCALIZADO         | NO CONSTA EN LA DOCUMENTACION REVISADA                                         | -                                          | -                             | -                                   |
+
+# Discrepancias y pendientes de aclaración
+- No se han identificado discrepancias en la documentación revisada.
+- No se han localizado requisitos de titulación académica concreta, número exacto de personas para algunos perfiles, ni detalles de jornada individual, colegiación, idiomas adicionales o formación continua.
+- El documento "CORREOS-Codigo-General-de-Conducta.pdf" no ha podido ser revisado por error 404; cualquier obligación específica contenida en él queda pendiente de verificar.

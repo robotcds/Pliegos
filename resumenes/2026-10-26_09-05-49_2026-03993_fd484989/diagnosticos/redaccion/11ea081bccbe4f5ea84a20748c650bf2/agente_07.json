@@ -1,0 +1,616 @@
+{
+  "orden": 7,
+  "id": "A9",
+  "nombre": "Seguridad y protección de datos",
+  "tipo": "extraccion",
+  "ejecucion": "fd484989f3f441c7bc0371c908fc1756",
+  "estado": "completado",
+  "contenido": {
+    "salida_original": "# Registro documental de preventa\n\n| Materia | Requisito completo | Fuente |\n|---|---|---|\n| ENS: Norma, categoría, certificación, alcance | El adjudicatario debe acreditar que los sistemas de información que den soporte a los servicios objeto de la licitación están certificados en el ENS nivel MEDIO. Si no cumple este requisito, se compromete a contar con la certificación ENS nivel MEDIO en los primeros 10 meses de prestación del servicio. Si los servicios ofertados están certificados en ISO 27001 o similar, el plazo es de 12 meses. | ANEXO I 2026 03393.pdf, pág. 28, CN.01; PCP 2026 03993.pdf, pág. 20 |\n| ENS: Declaración responsable y acreditación | El licitador debe declarar el cumplimiento de los requisitos de seguridad relacionados en la Parte I del apartado “REQUISITOS DE SEGURIDAD EN MATERIA DE CONFIDENCIALIDAD DE LA INFORMACIÓN” incluidos en el Anexo I “Especificaciones Técnicas”, mediante declaración responsable en el sobre A. La acreditación documental se exigirá al propuesto adjudicatario antes de la adjudicación. | PCP 2026 03993.pdf, pág. 5, 7; ANEXO II 2026 03993.pdf, pág. 2 |\n| ENS: Análisis de riesgos | El adjudicatario realizará un análisis de riesgos conforme al artículo 14 del ENS, usando la metodología MAGERIT (herramienta Pilar), salvo indicación contraria del Área de Ciberseguridad y Privacidad de Renfe. El análisis se compartirá con dicha área y formará parte de la evaluación de riesgos de Renfe. | ANEXO I 2026 03393.pdf, pág. 23-25, PS.04 |\n| ENS: Medidas técnicas y organizativas mínimas | El adjudicatario debe asegurar, como mínimo: parcheo regular y seguro, configuración segura, documentación técnica actualizada, inventario de activos, segmentación de red, gestión de identidades y control de accesos, administración remota segura. | ANEXO I 2026 03393.pdf, pág. 28, CN.03 |\n| ENS: Gestión de vulnerabilidades y obsolescencia | El adjudicatario debe detallar su estrategia y plan de no obsolescencia, compromisos con la gestión de vulnerabilidades (identificación, remediación, SLA), y realizar escaneos de vulnerabilidades periódicos, entregando informes y resolviendo vulnerabilidades en los plazos de Renfe. | ANEXO I 2026 03393.pdf, pág. 25-26, PS.06; pág. 34-35, CD.04 |\n| ENS: Seguridad de la cadena de suministro | El adjudicatario debe completar el cuestionario de evaluación de seguridad de la cadena de suministro en 30 días desde el envío por Renfe y actualizarlo anualmente. Debe informar a Renfe de cualquier subcontratación y garantizar que los subcontratistas cumplen las mismas obligaciones de seguridad y protección de datos. | ANEXO I 2026 03393.pdf, pág. 24-26, PS.07, PS.12 |\n| ENS: Localización de datos y transferencias internacionales | El adjudicatario debe informar a Renfe de la ubicación geográfica y países desde los que presta el servicio y almacena/trata información, tanto en operación normal como en contingencia. Es obligatorio que la prestación se realice desde el Espacio Económico Europeo, salvo autorización expresa de Renfe. Cualquier cambio de ubicación requiere autorización de Renfe. | ANEXO I 2026 03393.pdf, pág. 25, PS.01 |\n| ENS: Roles de seguridad y privacidad | El adjudicatario debe disponer de un Responsable de Seguridad (POC), un Responsable del Proyecto y un equipo de seguridad para el diseño, construcción, configuración, monitorización, operación y administración de controles de seguridad y privacidad. | ANEXO I 2026 03393.pdf, pág. 24-31, SP.01, SP.02, SP.03 |\n| ENS: Supervisión, auditoría y colaboración | El adjudicatario debe facilitar al Área de Seguridad y Privacidad de Renfe la supervisión, auditoría, gestión y notificación de incidentes de seguridad, y colaborar en auditorías, revisiones y test de penetración solicitados por Renfe o autoridades. | ANEXO I 2026 03393.pdf, pág. 24, 27-28, SP.04, PS.08, AU.01-AU.04 |\n| ENS: Logging, trazabilidad y retención | El adjudicatario debe habilitar mecanismos para registro, auditoría y trazabilidad de eventos, operaciones y acciones en aplicaciones, sistemas e infraestructuras. Los logs deben incluir actividad, acceso, IP origen/destino, usuario, estar normalizados y entregarse al SIEM de Renfe o mediante API autorizada. El adjudicatario custodiará los registros por el periodo de retención que Renfe especifique. | ANEXO I 2026 03393.pdf, pág. 27, PS.08.01; pág. 36, CD.06 |\n| ENS: Monitorización y SOC/SIEM | El adjudicatario debe monitorizar la infraestructura para detectar incidencias e incidentes en formato 24x7 y entregar los logs al SIEM de Renfe. | ANEXO I 2026 03393.pdf, pág. 36, CD.07, CD.06 |\n| ENS: Incidentes y brechas de seguridad | El adjudicatario debe comunicar a la Gerencia de Área de Ciberseguridad de Renfe los incidentes de seguridad de impacto Medio, Alto, Muy Alto y Crítico, según la Guía CCN-STIC 817, a través de la dirección notificaciones.pocterceros.ciberseguridad@renfe.es. Debe colaborar con el CERT de Renfe en la gestión, remediación y documentación del incidente, evitando la destrucción de pruebas. | ANEXO I 2026 03393.pdf, pág. 36-37, CD.08 |\n| ENS: Pruebas de seguridad (pentesting) | Si el adjudicatario realiza pruebas de seguridad (pentesting, hacking ético), debe notificarlo y pedir autorización al Departamento de Seguridad y Privacidad de Renfe, aportando información de personas, empresa, ventana, alcance, acuerdos legales y de privacidad. Los resultados deben compartirse con Renfe. | ANEXO I 2026 03393.pdf, pág. 37, CD.09 |\n| ENS: Medidas técnicas específicas | El adjudicatario debe implementar: defensa perimetral (FW), IDS/IPS, antimalware, WAF para servicios web, integración con CASB si aplica, DLP si hay datos personales/confidenciales, CWPP para multitenant, proxys de navegación y entrada, protección de correo, segundo factor de autenticación (2FA) para servicios expuestos a Internet. | ANEXO I 2026 03393.pdf, pág. 34-35, CD.03, CD.11 |\n| ENS: Gestión de identidades y accesos | El adjudicatario debe establecer mecanismos de control de acceso lógico/físico, autenticación, integración con la plataforma de gestión de identidad de Renfe y federación (SAML2, ADFS, etc.), prohibición de usuarios genéricos, validación de identidad, gestión de perfiles y privilegios, control de accesos privilegiados, acceso seguro (local, remoto, VPN), registro de intentos de autenticación, y aplicar el principio de mínimo privilegio. | ANEXO I 2026 03393.pdf, pág. 31-33, GI.01-GI.11 |\n| ENS: Seguridad de equipos de usuario | El adjudicatario debe mantener los equipos actualizados, con inventario, antimalware, remediación de infecciones, y entregar informe individual de cumplimiento ENS nivel MEDIO (65% o superior) para cada equipo que acceda a sistemas de Renfe, usando la herramienta CLARA del CCN. | ANEXO I 2026 03393.pdf, pág. 33-34, SE.01-SE.05 |\n| ENS: Seguridad de redes inalámbricas | El adjudicatario debe minimizar el uso de redes inalámbricas, garantizar cifrado, autenticación segura y gestión de riesgos y vulnerabilidades para equipos inalámbricos. | ANEXO I 2026 03393.pdf, pág. 34, SE.06 |\n| ENS: Ciberdefensa y protección de comunicaciones | Las líneas expuestas a internet deben tener protección contra ataques DDoS. El adjudicatario debe contar con licencias de software necesarias para la seguridad integral del servicio. | ANEXO I 2026 03393.pdf, pág. 34-35, CD.01, CD.02 |\n| ENS: Continuidad, recuperación y planes de salida | El adjudicatario debe disponer de localizaciones alternativas para contingencia, arquitecturas redundadas, mecanismos de backup y restauración, planes de contingencia, crisis, continuidad de negocio, y planes de salida programada y sobrevenida que detallen devolución y destrucción segura de información. | ANEXO I 2026 03393.pdf, pág. 38-39, DS.01-DS.03 |\n| ENS: Devolución y destrucción de información | El adjudicatario debe comprometerse a la devolución o destrucción (a elección de Renfe) de la información confidencial al finalizar el servicio, aplicando procedimientos seguros conforme al ENS y entregando certificado con fecha, personal, procedimiento. | ANEXO I 2026 03393.pdf, pág. 29, CN.04 |\n| ENS: Copias de seguridad y restauración | El adjudicatario debe contar con mecanismos de respaldo de la información adecuados y contrastados (backup, restauración, pruebas) para garantizar la salvaguarda en caso de contingencia grave. | ANEXO I 2026 03393.pdf, pág. 29, SD.01.04; pág. 38, DS.01.03 |\n| ENS: Cifrado y gestión de claves | El adjudicatario debe proporcionar cifrado de información en tránsito, uso y almacenamiento, usar protocolos seguros (https, TLS v1.2+), definir niveles de protección y material criptográfico, custodiar claves en HSM salvo impedimento técnico autorizado, y gestionar el ciclo de vida del cifrado. | ANEXO I 2026 03393.pdf, pág. 30, SD.03 |\n| ENS: Protección de bases de datos | El adjudicatario debe proteger las bases de datos mediante cifrado, ofuscación, pseudoanonimización, funciones de auditoría y seguir las guías CCN-CERT BP/24, BP/23 (DB2), BP/22 (Oracle) según tecnología. | ANEXO I 2026 03393.pdf, pág. 30, SD.04 |\n| ENS: DLP y descubrimiento de datos personales | El adjudicatario debe tener una solución comercial de DLP para descubrir datos personales y tarjetas de pago, realizar procesos de descubrimiento al menos cada tres meses y revisar el inventario. | ANEXO I 2026 03393.pdf, pág. 29, SD.01.03 |\n| ENS: Trasvase seguro de datos entre entornos | El adjudicatario debe describir su estrategia para evitar fugas de información en trasvase de datos entre entornos y detectar/inventariar datos sensibles/regulados en las bases de datos. | ANEXO I 2026 03393.pdf, pág. 29, SD.02 |\n| ENS: Planes de contingencia y continuidad | El adjudicatario debe elaborar planes de contingencia para situaciones que afecten a la disponibilidad de la plataforma. | ANEXO I 2026 03393.pdf, pág. 39, DS.03 |\n| ENS: Penalizaciones y resolución por incumplimiento | La falta de certificación ENS nivel MEDIO, la no entrega de documentación de ciberseguridad, la no notificación del POC de Seguridad, o la no realización del cuestionario de cadena de suministro, pueden dar lugar a penalizaciones de hasta el 10% del contrato, penalizaciones económicas progresivas o resolución del contrato. | PCP 2026 03993.pdf, pág. 30-33 |\n| ENS: Certificación ISO 27001 | El licitador debe acreditar estar en posesión de la certificación ISO 27001 o equivalente, emitida por entidad certificadora independiente. | PCP 2026 03993.pdf, pág. 20 |\n| RGPD/LOPDGDD: Rol del adjudicatario | El adjudicatario tendrá la condición de encargado del tratamiento respecto a los datos personales a los que acceda como consecuencia de la prestación de los servicios, siendo Renfe el responsable del tratamiento. | PCP 2026 03993.pdf, pág. 25-27 |\n| RGPD/LOPDGDD: Acuerdo de encargo de tratamiento | El acuerdo de encargo debe incluir: tratamiento solo bajo instrucciones documentadas, confidencialidad del personal, medidas de seguridad adecuadas, subencargados solo con autorización previa, asistencia al responsable en derechos de los interesados, ayuda en cumplimiento de obligaciones (seguridad, notificación de brechas, EIPD, consulta previa), registro de actividades si aplica, supresión o devolución de datos al finalizar el servicio, y colaboración en auditorías. | PCP 2026 03993.pdf, pág. 25-27 |\n| RGPD/LOPDGDD: Subencargados | El adjudicatario no podrá recurrir a subencargados sin autorización previa por escrito de Renfe. Debe imponerles las mismas obligaciones de protección de datos y seguridad. El adjudicatario sigue siendo responsable ante Renfe por el cumplimiento de los subencargados. | PCP 2026 03993.pdf, pág. 26-27 |\n| RGPD/LOPDGDD: Localización y transferencias internacionales | El adjudicatario debe informar a Renfe de cualquier transferencia de datos personales a un tercer país u organización internacional, identificando el país y las garantías adecuadas. | PCP 2026 03993.pdf, pág. 27 |\n| RGPD/LOPDGDD: Medidas técnicas y organizativas | El adjudicatario debe aplicar medidas técnicas y organizativas apropiadas para garantizar un nivel de seguridad adecuado al riesgo, facilitar información sobre análisis de riesgos y, si procede, EIPD. | PCP 2026 03993.pdf, pág. 26 |\n| RGPD/LOPDGDD: Notificación de derechos de interesados | El adjudicatario debe comunicar a Renfe de inmediato, a la dirección dpd@renfe.es, cualquier solicitud de derechos recibida de los interesados. | PCP 2026 03993.pdf, pág. 27 |\n| RGPD/LOPDGDD: Notificación de brechas de seguridad | El adjudicatario debe ayudar a Renfe en la notificación a la autoridad de control y a los interesados de las violaciones de seguridad de los datos personales, en los términos previstos en la legislación vigente. | PCP 2026 03993.pdf, pág. 27 |\n| RGPD/LOPDGDD: Registro de actividades de tratamiento | Si el tratamiento puede entrañar un riesgo para los derechos y libertades de los interesados, no es ocasional o incluye categorías especiales de datos, el adjudicatario llevará un registro de actividades de tratamiento por cuenta de Renfe, incluyendo nombre y datos de contacto, categorías de tratamientos, transferencias internacionales y medidas de seguridad. | PCP 2026 03993.pdf, pág. 27 |\n| RGPD/LOPDGDD: Fin del servicio, supresión o devolución | A elección de Renfe, el adjudicatario suprimirá o devolverá todos los datos personales al finalizar el servicio, suprimiendo las copias existentes salvo obligación legal de conservación. | PCP 2026 03993.pdf, pág. 28 |\n| RGPD/LOPDGDD: Auditorías y colaboración | El adjudicatario pondrá a disposición de Renfe toda la información necesaria para demostrar el cumplimiento de las obligaciones, permitiendo y contribuyendo a auditorías e inspecciones por parte de Renfe o auditor autorizado. | PCP 2026 03993.pdf, pág. 28 |\n| RGPD/LOPDGDD: Protección de datos por diseño y por defecto | El adjudicatario debe cumplir los principios de protección de datos por diseño y por defecto según la legislación vigente. | PCP 2026 03993.pdf, pág. 28 |\n| RGPD/LOPDGDD: Confidencialidad del personal | El adjudicatario debe garantizar que las personas autorizadas para tratar datos personales se hayan comprometido a respetar la confidencialidad, y que esta obligación persista tras la finalización del contrato. | PCP 2026 03993.pdf, pág. 26 |\n| RGPD/LOPDGDD: Asistencia en EIPD y consulta previa | El adjudicatario debe ayudar a Renfe en la realización de evaluaciones de impacto y consultas previas a la autoridad de control cuando proceda. | PCP 2026 03993.pdf, pág. 27 |\n| RGPD/LOPDGDD: Costes y responsabilidades | NO CONSTA EN LA DOCUMENTACION REVISADA asignación expresa de costes o responsabilidades económicas adicionales para el adjudicatario por cumplimiento de obligaciones RGPD/LOPDGDD. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| DPO/DPD: Designación | El responsable final de la privacidad de los datos es el DPD del Grupo Renfe. No se exige designación de DPO/DPD por parte del adjudicatario. | ANEXO I 2026 03393.pdf, pág. 31, SP.04 |\n| Desarrollo seguro: SDLC, DevSecOps, SAST, DAST, SCA, secretos, OWASP, CI/CD, SBOM | NO CONSTA EN LA DOCUMENTACION REVISADA requisitos específicos sobre ciclo de vida de desarrollo seguro, DevSecOps, SAST, DAST, SCA, gestión de secretos, OWASP, CI/CD o SBOM. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Seguridad del personal: formación y concienciación | El adjudicatario debe garantizar la formación, concienciación y capacitación del personal involucrado en el servicio, incluyendo conocimientos en tecnologías, seguridad de la información y legislación aplicable. | ANEXO I 2026 03393.pdf, pág. 27, PS.10 |\n| Seguridad del personal: acuerdos de confidencialidad | El personal del adjudicatario y de subcontratistas debe firmar un Acuerdo de Confidencialidad con Renfe y cumplir los procedimientos de seguridad establecidos. | ANEXO I 2026 03393.pdf, pág. 27, PS.11 |\n| Penalizaciones por incumplimiento de seguridad, protección de datos y confidencialidad | El incumplimiento de obligaciones de confidencialidad, protección de datos o propiedad intelectual puede dar lugar a penalizaciones de hasta el 20% del importe total del contrato, según la gravedad. La falta de entrega de documentación de ciberseguridad, cuestionario de cadena de suministro, certificación ENS o notificación del POC de Seguridad puede dar lugar a penalizaciones económicas progresivas o resolución del contrato. | PCP 2026 03993.pdf, pág. 30-33 |\n| Criterios puntuables: Seguridad, disponibilidad y continuidad | En la valoración técnica, se puntúa la arquitectura SaaS, seguridad, disponibilidad y continuidad, exigiendo diagrama de arquitectura, SLA, plan de continuidad y certificaciones aplicables. | PCP 2026 03993.pdf, pág. 13 |\n| Criterios puntuables: Integración y autenticación | Se valoran APIs documentadas, autenticación, SSO, mecanismos de integración y federación de identidad. | PCP 2026 03993.pdf, pág. 13; ANEXO I 2026 03393.pdf, pág. 15, GI.05 |\n| Criterios puntuables: Equipo con experiencia en cloud/ciberseguridad | Se puntúa la composición y cobertura multidisciplinar del equipo, incluyendo experiencia específica en cloud/ciberseguridad. | PCP 2026 03993.pdf, pág. 13 |\n| Criterios puntuables: Plan de formación y transferencia de conocimiento | Se puntúa la adecuación del plan formativo a perfiles operativos, analistas y administradores, incluyendo actualización y evaluación del aprendizaje. | PCP 2026 03993.pdf, pág. 13 |\n| Criterios puntuables: Trazabilidad, metadatos y control de calidad | Se puntúa la trazabilidad, metadatos, control y verificación de la calidad de los datos, incluyendo modelo de metadatos, procedimiento de calidad, indicadores y ejemplos de informes de verificación. | PCP 2026 03993.pdf, pág. 12 |\n| Criterios puntuables: Registro de alertas y logs | Se puntúa el registro de alertas generadas, destinatarios, fecha de envío, estado y criterio que originó la alerta, así como la consulta histórica y exportación de avisos y alertas. | PCP 2026 03993.pdf, pág. 12 |\n| Criterios puntuables: Exportación e informes | Se puntúa la capacidad de exportación de informes en formatos documentales, tabulares y geoespaciales interoperables, con registro de autor, fecha, parámetros y versión de datos utilizada. | PCP 2026 03993.pdf, pág. 13 |\n| Criterios puntuables: Plan de continuidad y pruebas | Se puntúa la existencia de plan de continuidad y la ejecución satisfactoria de pruebas de seguridad, continuidad e integración acordadas. | PCP 2026 03993.pdf, pág. 21 |\n| Criterios puntuables: Certificaciones aplicables | Se puntúa la aportación de certificaciones aplicables a la seguridad y continuidad del servicio. | PCP 2026 03993.pdf, pág. 13 |\n| Categorías de datos personales, interesados y finalidad | NO CONSTA EN LA DOCUMENTACION REVISADA detalle de categorías de datos personales, interesados concretos ni finalidad específica del tratamiento. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Almacenamiento y conservación de datos personales | NO CONSTA EN LA DOCUMENTACION REVISADA detalle de plazos de conservación o almacenamiento de datos personales más allá de la obligación de supresión o devolución al finalizar el servicio. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Desarrollo seguro: SDLC, DevSecOps, SAST, DAST, SCA, secretos, OWASP, CI/CD, SBOM | NO CONSTA EN LA DOCUMENTACION REVISADA requisitos específicos sobre ciclo de vida de desarrollo seguro, DevSecOps, SAST, DAST, SCA, gestión de secretos, OWASP, CI/CD o SBOM. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n\n# Discrepancias y pendientes de aclaración\n\n- No se han identificado discrepancias en la documentación revisada.\n- No consta en la documentación revisada detalle sobre categorías de datos personales, interesados concretos, finalidad específica del tratamiento, ni plazos de conservación de datos personales.\n- No consta en la documentación revisada exigencia de designación de DPO/DPD por parte del adjudicatario, más allá de la referencia a la responsabilidad final del DPD de Renfe.\n- No consta en la documentación revisada requisitos específicos sobre ciclo de vida de desarrollo seguro, DevSecOps, SAST, DAST, SCA, gestión de secretos, OWASP, CI/CD o SBOM.",
+    "registro_completo_estructura": true,
+    "requisitos_documentales": [
+      {
+        "id": "R0001",
+        "seccion": "ENS: Norma, categoría, certificación, alcance",
+        "detalle": "El adjudicatario debe acreditar que los sistemas de información que den soporte a los servicios objeto de la licitación están certificados en el ENS nivel MEDIO. Si no cumple este requisito, se compromete a contar con la certificación ENS nivel MEDIO en los primeros 10 meses de prestación del servicio. Si los servicios ofertados están certificados en ISO 27001 o similar, el plazo es de 12 meses.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 28, CN.01; PCP 2026 03993.pdf, pág. 20",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0002",
+        "seccion": "ENS: Declaración responsable y acreditación",
+        "detalle": "El licitador debe declarar el cumplimiento de los requisitos de seguridad relacionados en la Parte I del apartado “REQUISITOS DE SEGURIDAD EN MATERIA DE CONFIDENCIALIDAD DE LA INFORMACIÓN” incluidos en el Anexo I “Especificaciones Técnicas”, mediante declaración responsable en el sobre A. La acreditación documental se exigirá al propuesto adjudicatario antes de la adjudicación.",
+        "fuente": "PCP 2026 03993.pdf, pág. 5, 7; ANEXO II 2026 03993.pdf, pág. 2",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0003",
+        "seccion": "ENS: Análisis de riesgos",
+        "detalle": "El adjudicatario realizará un análisis de riesgos conforme al artículo 14 del ENS, usando la metodología MAGERIT (herramienta Pilar), salvo indicación contraria del Área de Ciberseguridad y Privacidad de Renfe. El análisis se compartirá con dicha área y formará parte de la evaluación de riesgos de Renfe.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 23-25, PS.04",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0004",
+        "seccion": "ENS: Medidas técnicas y organizativas mínimas",
+        "detalle": "El adjudicatario debe asegurar, como mínimo: parcheo regular y seguro, configuración segura, documentación técnica actualizada, inventario de activos, segmentación de red, gestión de identidades y control de accesos, administración remota segura.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 28, CN.03",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0005",
+        "seccion": "ENS: Gestión de vulnerabilidades y obsolescencia",
+        "detalle": "El adjudicatario debe detallar su estrategia y plan de no obsolescencia, compromisos con la gestión de vulnerabilidades (identificación, remediación, SLA), y realizar escaneos de vulnerabilidades periódicos, entregando informes y resolviendo vulnerabilidades en los plazos de Renfe.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 25-26, PS.06; pág. 34-35, CD.04",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0006",
+        "seccion": "ENS: Seguridad de la cadena de suministro",
+        "detalle": "El adjudicatario debe completar el cuestionario de evaluación de seguridad de la cadena de suministro en 30 días desde el envío por Renfe y actualizarlo anualmente. Debe informar a Renfe de cualquier subcontratación y garantizar que los subcontratistas cumplen las mismas obligaciones de seguridad y protección de datos.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 24-26, PS.07, PS.12",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0007",
+        "seccion": "ENS: Localización de datos y transferencias internacionales",
+        "detalle": "El adjudicatario debe informar a Renfe de la ubicación geográfica y países desde los que presta el servicio y almacena/trata información, tanto en operación normal como en contingencia. Es obligatorio que la prestación se realice desde el Espacio Económico Europeo, salvo autorización expresa de Renfe. Cualquier cambio de ubicación requiere autorización de Renfe.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 25, PS.01",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0008",
+        "seccion": "ENS: Roles de seguridad y privacidad",
+        "detalle": "El adjudicatario debe disponer de un Responsable de Seguridad (POC), un Responsable del Proyecto y un equipo de seguridad para el diseño, construcción, configuración, monitorización, operación y administración de controles de seguridad y privacidad.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 24-31, SP.01, SP.02, SP.03",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0009",
+        "seccion": "ENS: Supervisión, auditoría y colaboración",
+        "detalle": "El adjudicatario debe facilitar al Área de Seguridad y Privacidad de Renfe la supervisión, auditoría, gestión y notificación de incidentes de seguridad, y colaborar en auditorías, revisiones y test de penetración solicitados por Renfe o autoridades.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 24, 27-28, SP.04, PS.08, AU.01-AU.04",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0010",
+        "seccion": "ENS: Logging, trazabilidad y retención",
+        "detalle": "El adjudicatario debe habilitar mecanismos para registro, auditoría y trazabilidad de eventos, operaciones y acciones en aplicaciones, sistemas e infraestructuras. Los logs deben incluir actividad, acceso, IP origen/destino, usuario, estar normalizados y entregarse al SIEM de Renfe o mediante API autorizada. El adjudicatario custodiará los registros por el periodo de retención que Renfe especifique.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 27, PS.08.01; pág. 36, CD.06",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0011",
+        "seccion": "ENS: Monitorización y SOC/SIEM",
+        "detalle": "El adjudicatario debe monitorizar la infraestructura para detectar incidencias e incidentes en formato 24x7 y entregar los logs al SIEM de Renfe.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 36, CD.07, CD.06",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0012",
+        "seccion": "ENS: Incidentes y brechas de seguridad",
+        "detalle": "El adjudicatario debe comunicar a la Gerencia de Área de Ciberseguridad de Renfe los incidentes de seguridad de impacto Medio, Alto, Muy Alto y Crítico, según la Guía CCN-STIC 817, a través de la dirección notificaciones.pocterceros.ciberseguridad@renfe.es. Debe colaborar con el CERT de Renfe en la gestión, remediación y documentación del incidente, evitando la destrucción de pruebas.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 36-37, CD.08",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0013",
+        "seccion": "ENS: Pruebas de seguridad (pentesting)",
+        "detalle": "Si el adjudicatario realiza pruebas de seguridad (pentesting, hacking ético), debe notificarlo y pedir autorización al Departamento de Seguridad y Privacidad de Renfe, aportando información de personas, empresa, ventana, alcance, acuerdos legales y de privacidad. Los resultados deben compartirse con Renfe.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 37, CD.09",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0014",
+        "seccion": "ENS: Medidas técnicas específicas",
+        "detalle": "El adjudicatario debe implementar: defensa perimetral (FW), IDS/IPS, antimalware, WAF para servicios web, integración con CASB si aplica, DLP si hay datos personales/confidenciales, CWPP para multitenant, proxys de navegación y entrada, protección de correo, segundo factor de autenticación (2FA) para servicios expuestos a Internet.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 34-35, CD.03, CD.11",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0015",
+        "seccion": "ENS: Gestión de identidades y accesos",
+        "detalle": "El adjudicatario debe establecer mecanismos de control de acceso lógico/físico, autenticación, integración con la plataforma de gestión de identidad de Renfe y federación (SAML2, ADFS, etc.), prohibición de usuarios genéricos, validación de identidad, gestión de perfiles y privilegios, control de accesos privilegiados, acceso seguro (local, remoto, VPN), registro de intentos de autenticación, y aplicar el principio de mínimo privilegio.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 31-33, GI.01-GI.11",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0016",
+        "seccion": "ENS: Seguridad de equipos de usuario",
+        "detalle": "El adjudicatario debe mantener los equipos actualizados, con inventario, antimalware, remediación de infecciones, y entregar informe individual de cumplimiento ENS nivel MEDIO (65% o superior) para cada equipo que acceda a sistemas de Renfe, usando la herramienta CLARA del CCN.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 33-34, SE.01-SE.05",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0017",
+        "seccion": "ENS: Seguridad de redes inalámbricas",
+        "detalle": "El adjudicatario debe minimizar el uso de redes inalámbricas, garantizar cifrado, autenticación segura y gestión de riesgos y vulnerabilidades para equipos inalámbricos.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 34, SE.06",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0018",
+        "seccion": "ENS: Ciberdefensa y protección de comunicaciones",
+        "detalle": "Las líneas expuestas a internet deben tener protección contra ataques DDoS. El adjudicatario debe contar con licencias de software necesarias para la seguridad integral del servicio.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 34-35, CD.01, CD.02",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0019",
+        "seccion": "ENS: Continuidad, recuperación y planes de salida",
+        "detalle": "El adjudicatario debe disponer de localizaciones alternativas para contingencia, arquitecturas redundadas, mecanismos de backup y restauración, planes de contingencia, crisis, continuidad de negocio, y planes de salida programada y sobrevenida que detallen devolución y destrucción segura de información.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 38-39, DS.01-DS.03",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0020",
+        "seccion": "ENS: Devolución y destrucción de información",
+        "detalle": "El adjudicatario debe comprometerse a la devolución o destrucción (a elección de Renfe) de la información confidencial al finalizar el servicio, aplicando procedimientos seguros conforme al ENS y entregando certificado con fecha, personal, procedimiento.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 29, CN.04",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0021",
+        "seccion": "ENS: Copias de seguridad y restauración",
+        "detalle": "El adjudicatario debe contar con mecanismos de respaldo de la información adecuados y contrastados (backup, restauración, pruebas) para garantizar la salvaguarda en caso de contingencia grave.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 29, SD.01.04; pág. 38, DS.01.03",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0022",
+        "seccion": "ENS: Cifrado y gestión de claves",
+        "detalle": "El adjudicatario debe proporcionar cifrado de información en tránsito, uso y almacenamiento, usar protocolos seguros (https, TLS v1.2+), definir niveles de protección y material criptográfico, custodiar claves en HSM salvo impedimento técnico autorizado, y gestionar el ciclo de vida del cifrado.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 30, SD.03",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0023",
+        "seccion": "ENS: Protección de bases de datos",
+        "detalle": "El adjudicatario debe proteger las bases de datos mediante cifrado, ofuscación, pseudoanonimización, funciones de auditoría y seguir las guías CCN-CERT BP/24, BP/23 (DB2), BP/22 (Oracle) según tecnología.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 30, SD.04",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0024",
+        "seccion": "ENS: DLP y descubrimiento de datos personales",
+        "detalle": "El adjudicatario debe tener una solución comercial de DLP para descubrir datos personales y tarjetas de pago, realizar procesos de descubrimiento al menos cada tres meses y revisar el inventario.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 29, SD.01.03",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0025",
+        "seccion": "ENS: Trasvase seguro de datos entre entornos",
+        "detalle": "El adjudicatario debe describir su estrategia para evitar fugas de información en trasvase de datos entre entornos y detectar/inventariar datos sensibles/regulados en las bases de datos.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 29, SD.02",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0026",
+        "seccion": "ENS: Planes de contingencia y continuidad",
+        "detalle": "El adjudicatario debe elaborar planes de contingencia para situaciones que afecten a la disponibilidad de la plataforma.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 39, DS.03",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0027",
+        "seccion": "ENS: Penalizaciones y resolución por incumplimiento",
+        "detalle": "La falta de certificación ENS nivel MEDIO, la no entrega de documentación de ciberseguridad, la no notificación del POC de Seguridad, o la no realización del cuestionario de cadena de suministro, pueden dar lugar a penalizaciones de hasta el 10% del contrato, penalizaciones económicas progresivas o resolución del contrato.",
+        "fuente": "PCP 2026 03993.pdf, pág. 30-33",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0028",
+        "seccion": "ENS: Certificación ISO 27001",
+        "detalle": "El licitador debe acreditar estar en posesión de la certificación ISO 27001 o equivalente, emitida por entidad certificadora independiente.",
+        "fuente": "PCP 2026 03993.pdf, pág. 20",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0029",
+        "seccion": "RGPD/LOPDGDD: Rol del adjudicatario",
+        "detalle": "El adjudicatario tendrá la condición de encargado del tratamiento respecto a los datos personales a los que acceda como consecuencia de la prestación de los servicios, siendo Renfe el responsable del tratamiento.",
+        "fuente": "PCP 2026 03993.pdf, pág. 25-27",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0030",
+        "seccion": "RGPD/LOPDGDD: Acuerdo de encargo de tratamiento",
+        "detalle": "El acuerdo de encargo debe incluir: tratamiento solo bajo instrucciones documentadas, confidencialidad del personal, medidas de seguridad adecuadas, subencargados solo con autorización previa, asistencia al responsable en derechos de los interesados, ayuda en cumplimiento de obligaciones (seguridad, notificación de brechas, EIPD, consulta previa), registro de actividades si aplica, supresión o devolución de datos al finalizar el servicio, y colaboración en auditorías.",
+        "fuente": "PCP 2026 03993.pdf, pág. 25-27",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0031",
+        "seccion": "RGPD/LOPDGDD: Subencargados",
+        "detalle": "El adjudicatario no podrá recurrir a subencargados sin autorización previa por escrito de Renfe. Debe imponerles las mismas obligaciones de protección de datos y seguridad. El adjudicatario sigue siendo responsable ante Renfe por el cumplimiento de los subencargados.",
+        "fuente": "PCP 2026 03993.pdf, pág. 26-27",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0032",
+        "seccion": "RGPD/LOPDGDD: Localización y transferencias internacionales",
+        "detalle": "El adjudicatario debe informar a Renfe de cualquier transferencia de datos personales a un tercer país u organización internacional, identificando el país y las garantías adecuadas.",
+        "fuente": "PCP 2026 03993.pdf, pág. 27",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0033",
+        "seccion": "RGPD/LOPDGDD: Medidas técnicas y organizativas",
+        "detalle": "El adjudicatario debe aplicar medidas técnicas y organizativas apropiadas para garantizar un nivel de seguridad adecuado al riesgo, facilitar información sobre análisis de riesgos y, si procede, EIPD.",
+        "fuente": "PCP 2026 03993.pdf, pág. 26",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0034",
+        "seccion": "RGPD/LOPDGDD: Notificación de derechos de interesados",
+        "detalle": "El adjudicatario debe comunicar a Renfe de inmediato, a la dirección dpd@renfe.es, cualquier solicitud de derechos recibida de los interesados.",
+        "fuente": "PCP 2026 03993.pdf, pág. 27",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0035",
+        "seccion": "RGPD/LOPDGDD: Notificación de brechas de seguridad",
+        "detalle": "El adjudicatario debe ayudar a Renfe en la notificación a la autoridad de control y a los interesados de las violaciones de seguridad de los datos personales, en los términos previstos en la legislación vigente.",
+        "fuente": "PCP 2026 03993.pdf, pág. 27",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0036",
+        "seccion": "RGPD/LOPDGDD: Registro de actividades de tratamiento",
+        "detalle": "Si el tratamiento puede entrañar un riesgo para los derechos y libertades de los interesados, no es ocasional o incluye categorías especiales de datos, el adjudicatario llevará un registro de actividades de tratamiento por cuenta de Renfe, incluyendo nombre y datos de contacto, categorías de tratamientos, transferencias internacionales y medidas de seguridad.",
+        "fuente": "PCP 2026 03993.pdf, pág. 27",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0037",
+        "seccion": "RGPD/LOPDGDD: Fin del servicio, supresión o devolución",
+        "detalle": "A elección de Renfe, el adjudicatario suprimirá o devolverá todos los datos personales al finalizar el servicio, suprimiendo las copias existentes salvo obligación legal de conservación.",
+        "fuente": "PCP 2026 03993.pdf, pág. 28",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0038",
+        "seccion": "RGPD/LOPDGDD: Auditorías y colaboración",
+        "detalle": "El adjudicatario pondrá a disposición de Renfe toda la información necesaria para demostrar el cumplimiento de las obligaciones, permitiendo y contribuyendo a auditorías e inspecciones por parte de Renfe o auditor autorizado.",
+        "fuente": "PCP 2026 03993.pdf, pág. 28",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0039",
+        "seccion": "RGPD/LOPDGDD: Protección de datos por diseño y por defecto",
+        "detalle": "El adjudicatario debe cumplir los principios de protección de datos por diseño y por defecto según la legislación vigente.",
+        "fuente": "PCP 2026 03993.pdf, pág. 28",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0040",
+        "seccion": "RGPD/LOPDGDD: Confidencialidad del personal",
+        "detalle": "El adjudicatario debe garantizar que las personas autorizadas para tratar datos personales se hayan comprometido a respetar la confidencialidad, y que esta obligación persista tras la finalización del contrato.",
+        "fuente": "PCP 2026 03993.pdf, pág. 26",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0041",
+        "seccion": "RGPD/LOPDGDD: Asistencia en EIPD y consulta previa",
+        "detalle": "El adjudicatario debe ayudar a Renfe en la realización de evaluaciones de impacto y consultas previas a la autoridad de control cuando proceda.",
+        "fuente": "PCP 2026 03993.pdf, pág. 27",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0042",
+        "seccion": "RGPD/LOPDGDD: Costes y responsabilidades",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA asignación expresa de costes o responsabilidades económicas adicionales para el adjudicatario por cumplimiento de obligaciones RGPD/LOPDGDD.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0043",
+        "seccion": "DPO/DPD: Designación",
+        "detalle": "El responsable final de la privacidad de los datos es el DPD del Grupo Renfe. No se exige designación de DPO/DPD por parte del adjudicatario.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 31, SP.04",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0044",
+        "seccion": "Desarrollo seguro: SDLC, DevSecOps, SAST, DAST, SCA, secretos, OWASP, CI/CD, SBOM",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA requisitos específicos sobre ciclo de vida de desarrollo seguro, DevSecOps, SAST, DAST, SCA, gestión de secretos, OWASP, CI/CD o SBOM.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0045",
+        "seccion": "Seguridad del personal: formación y concienciación",
+        "detalle": "El adjudicatario debe garantizar la formación, concienciación y capacitación del personal involucrado en el servicio, incluyendo conocimientos en tecnologías, seguridad de la información y legislación aplicable.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 27, PS.10",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0046",
+        "seccion": "Seguridad del personal: acuerdos de confidencialidad",
+        "detalle": "El personal del adjudicatario y de subcontratistas debe firmar un Acuerdo de Confidencialidad con Renfe y cumplir los procedimientos de seguridad establecidos.",
+        "fuente": "ANEXO I 2026 03393.pdf, pág. 27, PS.11",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0047",
+        "seccion": "Penalizaciones por incumplimiento de seguridad, protección de datos y confidencialidad",
+        "detalle": "El incumplimiento de obligaciones de confidencialidad, protección de datos o propiedad intelectual puede dar lugar a penalizaciones de hasta el 20% del importe total del contrato, según la gravedad. La falta de entrega de documentación de ciberseguridad, cuestionario de cadena de suministro, certificación ENS o notificación del POC de Seguridad puede dar lugar a penalizaciones económicas progresivas o resolución del contrato.",
+        "fuente": "PCP 2026 03993.pdf, pág. 30-33",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0048",
+        "seccion": "Criterios puntuables: Seguridad, disponibilidad y continuidad",
+        "detalle": "En la valoración técnica, se puntúa la arquitectura SaaS, seguridad, disponibilidad y continuidad, exigiendo diagrama de arquitectura, SLA, plan de continuidad y certificaciones aplicables.",
+        "fuente": "PCP 2026 03993.pdf, pág. 13",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0049",
+        "seccion": "Criterios puntuables: Integración y autenticación",
+        "detalle": "Se valoran APIs documentadas, autenticación, SSO, mecanismos de integración y federación de identidad.",
+        "fuente": "PCP 2026 03993.pdf, pág. 13; ANEXO I 2026 03393.pdf, pág. 15, GI.05",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0050",
+        "seccion": "Criterios puntuables: Equipo con experiencia en cloud/ciberseguridad",
+        "detalle": "Se puntúa la composición y cobertura multidisciplinar del equipo, incluyendo experiencia específica en cloud/ciberseguridad.",
+        "fuente": "PCP 2026 03993.pdf, pág. 13",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0051",
+        "seccion": "Criterios puntuables: Plan de formación y transferencia de conocimiento",
+        "detalle": "Se puntúa la adecuación del plan formativo a perfiles operativos, analistas y administradores, incluyendo actualización y evaluación del aprendizaje.",
+        "fuente": "PCP 2026 03993.pdf, pág. 13",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0052",
+        "seccion": "Criterios puntuables: Trazabilidad, metadatos y control de calidad",
+        "detalle": "Se puntúa la trazabilidad, metadatos, control y verificación de la calidad de los datos, incluyendo modelo de metadatos, procedimiento de calidad, indicadores y ejemplos de informes de verificación.",
+        "fuente": "PCP 2026 03993.pdf, pág. 12",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0053",
+        "seccion": "Criterios puntuables: Registro de alertas y logs",
+        "detalle": "Se puntúa el registro de alertas generadas, destinatarios, fecha de envío, estado y criterio que originó la alerta, así como la consulta histórica y exportación de avisos y alertas.",
+        "fuente": "PCP 2026 03993.pdf, pág. 12",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0054",
+        "seccion": "Criterios puntuables: Exportación e informes",
+        "detalle": "Se puntúa la capacidad de exportación de informes en formatos documentales, tabulares y geoespaciales interoperables, con registro de autor, fecha, parámetros y versión de datos utilizada.",
+        "fuente": "PCP 2026 03993.pdf, pág. 13",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0055",
+        "seccion": "Criterios puntuables: Plan de continuidad y pruebas",
+        "detalle": "Se puntúa la existencia de plan de continuidad y la ejecución satisfactoria de pruebas de seguridad, continuidad e integración acordadas.",
+        "fuente": "PCP 2026 03993.pdf, pág. 21",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0056",
+        "seccion": "Criterios puntuables: Certificaciones aplicables",
+        "detalle": "Se puntúa la aportación de certificaciones aplicables a la seguridad y continuidad del servicio.",
+        "fuente": "PCP 2026 03993.pdf, pág. 13",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0057",
+        "seccion": "Categorías de datos personales, interesados y finalidad",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA detalle de categorías de datos personales, interesados concretos ni finalidad específica del tratamiento.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0058",
+        "seccion": "Almacenamiento y conservación de datos personales",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA detalle de plazos de conservación o almacenamiento de datos personales más allá de la obligación de supresión o devolución al finalizar el servicio.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0059",
+        "seccion": "Desarrollo seguro: SDLC, DevSecOps, SAST, DAST, SCA, secretos, OWASP, CI/CD, SBOM",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA requisitos específicos sobre ciclo de vida de desarrollo seguro, DevSecOps, SAST, DAST, SCA, gestión de secretos, OWASP, CI/CD o SBOM.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "A9-S0060",
+        "seccion": "Seguridad y protección de datos",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No se han identificado discrepancias en la documentación revisada.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A9",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A9-S0061",
+        "seccion": "Seguridad y protección de datos",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No consta en la documentación revisada detalle sobre categorías de datos personales, interesados concretos, finalidad específica del tratamiento, ni plazos de conservación de datos personales.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A9",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A9-S0062",
+        "seccion": "Seguridad y protección de datos",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No consta en la documentación revisada exigencia de designación de DPO/DPD por parte del adjudicatario, más allá de la referencia a la responsabilidad final del DPD de Renfe.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A9",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A9-S0063",
+        "seccion": "Seguridad y protección de datos",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No consta en la documentación revisada requisitos específicos sobre ciclo de vida de desarrollo seguro, DevSecOps, SAST, DAST, SCA, gestión de secretos, OWASP, CI/CD o SBOM.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A9",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      }
+    ]
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "PCP 2026 03993.pdf",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 112180,
+        "caracteres_enviados_al_agente": 112180,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "ANEXO I 2026 03393 .pdf",
+        "tipo": "Pliego tecnico",
+        "fuente": "XML",
+        "caracteres_extraidos": 104433,
+        "caracteres_enviados_al_agente": 104433,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "ANEXO III 2026 03993.pdf",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 2064,
+        "caracteres_enviados_al_agente": 2064,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 4,
+        "nombre": "ANEXO II 2026 03993.pdf",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 7591,
+        "caracteres_enviados_al_agente": 7591,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 5,
+        "nombre": "ANEXO IV 2026 03993.pdf",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 4657,
+        "caracteres_enviados_al_agente": 4657,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 6,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "PCP 2026 03993.pdf",
+        "caracteres_extraidos": 2659,
+        "caracteres_enviados_al_agente": 2659,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 7,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "PCP 2026 03993.pdf",
+        "caracteres_extraidos": 3160,
+        "caracteres_enviados_al_agente": 3160,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 8,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "poc",
+        "caracteres_extraidos": 3160,
+        "caracteres_enviados_al_agente": 3160,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Se omitieron 6 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  }
+}

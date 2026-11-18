@@ -1,0 +1,102 @@
+{
+  "orden": 4,
+  "id": "A4",
+  "nombre": "Criterios de adjudicación",
+  "tipo": "extraccion",
+  "ejecucion": "671d4d4af0ca43e09256b43a0c47de50",
+  "estado": "completado",
+  "contenido": {
+    "salida_original": "# 1. Resumen factual de criterios de adjudicación\n\nLa adjudicación del contrato \"Asistente Virtual de Participación Ciudadana del Ayuntamiento de Madrid\" se realiza mediante pluralidad de criterios, con un total de 100 puntos, distribuidos en criterios evaluables mediante juicio de valor (45 puntos) y criterios evaluables mediante fórmulas (55 puntos). Existen umbrales mínimos de puntuación en los criterios sujetos a juicio de valor para no ser excluido. Se establecen fórmulas y baremos explícitos para la valoración económica y mejoras automáticas, así como reglas de valoración detalladas para los criterios sujetos a juicio de valor. El régimen de ofertas anormalmente bajas está documentado con parámetros y reglas específicas.\n\n# 2. Mapa completo de criterios de adjudicación\n\n| Criterio principal | Subcriterio | Puntos | % total | Tipo | Fórmula/Regla | Umbral | Tope | Fuente |\n|--------------------|-------------|--------|---------|------|---------------|--------|------|--------|\n| A. Criterios no valorables en cifras o porcentajes | A.1 Proyecto técnico | 45 | 45% | Juicio de valor | Ver subcriterios | 22,5 puntos (mínimo para no exclusión) | 45 | ID_188_2.PDF, pág. 68-70, Anexo I, punto 19 |\n|  | A.1.1 Grado de detalle de la solución técnica propuesta | 10 | 10% | Juicio de valor | Baremo de calidad (ver tabla) | - | 10 | ID_188_2.PDF, pág. 69-70 |\n|  | A.1.2 Adecuación de la solución técnica a necesidades funcionales y técnicas | 30 | 30% | Juicio de valor | Baremo de calidad (ver tabla) | - | 30 | ID_188_2.PDF, pág. 69-70 |\n|  | A.1.3 Planificación del servicio | 5 | 5% | Juicio de valor | Baremo de calidad (ver tabla) | - | 5 | ID_188_2.PDF, pág. 69-70 |\n| B. Criterios valorables en cifras o porcentajes | B.1 Oferta económica | 35 | 35% | Automático (fórmula) | Y = 35 * (importe oferta más económica/importe oferta a valorar) | - | 35 | ID_188_2.PDF, pág. 71 |\n|  | B.2 Mejoras técnicas | 20 | 20% | Automático (baremo) | Ver subcriterios | - | 20 | ID_188_2.PDF, pág. 71-72 |\n|  | B.2.1 Ampliación de horario del servicio de primer nivel de atención | 10 | 10% | Automático (baremo) | 10 puntos si se oferta una hora diaria adicional (de 3h a 4h) | - | 10 | ID_188_2.PDF, pág. 71-72 |\n|  | B.2.2 Ampliación de la bolsa de horas de evolución tecnológica | 10 | 10% | Automático (baremo) | 5 puntos por 100h adicionales, 10 puntos por 200h adicionales, sin coste adicional | - | 10 | ID_188_2.PDF, pág. 71-72 |\n\n# 3. Distribución objetiva de la puntuación por bloques\n\n- Criterios no valorables en cifras o porcentajes (juicio de valor): 45 puntos (45%)\n  - Proyecto técnico: 45 puntos\n    - Grado de detalle: 10 puntos\n    - Adecuación a necesidades: 30 puntos\n    - Planificación: 5 puntos\n- Criterios valorables en cifras o porcentajes (automáticos): 55 puntos (55%)\n  - Oferta económica: 35 puntos\n  - Mejoras técnicas: 20 puntos\n    - Ampliación horario primer nivel: 10 puntos\n    - Ampliación bolsa de horas: 10 puntos\n\n# 4. Criterios automáticos y fórmulas\n\n## Oferta económica (B.1)\n- Fórmula: Y = 35 * (importe oferta más económica/importe oferta a valorar)\n- Variables:\n  - Y: Puntuación obtenida\n  - Importe oferta más económica: suma de costes fijos y variables de la oferta más baja\n  - Importe oferta a valorar: suma de costes fijos y variables de la oferta evaluada\n- Aplicación: La oferta más económica obtiene 35 puntos; el resto, proporcionalmente.\n- Redondeo: No especificado\n- Fuente: ID_188_2.PDF, pág. 71\n\n## Mejoras técnicas (B.2)\n- B.2.1 Ampliación de horario del servicio de primer nivel de atención:\n  - 10 puntos si se oferta una hora diaria adicional (de 3h a 4h) sobre el horario inicialmente requerido (Días Laborables de 11:00 a 14:00).\n  - No se otorgan puntos por menos de una hora adicional ni por más de una hora adicional.\n  - Fuente: ID_188_2.PDF, pág. 71-72\n- B.2.2 Ampliación de la bolsa de horas de evolución tecnológica:\n  - 5 puntos si se ofertan 100 horas adicionales a las requeridas (600h), sin coste adicional.\n  - 10 puntos si se ofertan 200 horas adicionales a las requeridas, sin coste adicional.\n  - No se otorgan puntos por menos de 100h ni por más de 200h adicionales.\n  - Fuente: ID_188_2.PDF, pág. 71-72\n\n# 5. Baremo de precio/descuento\n\n- Fórmula: Y = 35 * (importe oferta más económica/importe oferta a valorar)\n- Tramos: Proporcional, sin tramos intermedios ni topes adicionales.\n- Puntuación máxima: 35 puntos\n- Puntuación mínima: 0 puntos\n- No se otorgan puntos negativos.\n- Fuente: ID_188_2.PDF, pág. 71\n\n# 6. Mejoras automáticas\n\n| Unidad/condición | Puntos por unidad | Tope | Fórmula | Fuente |\n|------------------|------------------|------|---------|--------|\n| 1 hora diaria adicional de primer nivel de atención (de 3h a 4h) | 10 | 10 | 10 puntos si se oferta 1h adicional | ID_188_2.PDF, pág. 71-72 |\n| 100 horas adicionales de bolsa de evolución tecnológica | 5 | 10 | 5 puntos por 100h, 10 puntos por 200h | ID_188_2.PDF, pág. 71-72 |\n\n# 7. Criterios sujetos a juicio de valor\n\n- Proyecto técnico (A.1): 45 puntos\n  - Subcriterios:\n    - Grado de detalle de la solución técnica propuesta (A.1.1): 10 puntos\n    - Adecuación de la solución técnica a necesidades funcionales y técnicas (A.1.2): 30 puntos\n    - Planificación del servicio (A.1.3): 5 puntos\n- Baremo de calidad para cada subcriterio:\n  - EXCELENTE: 100% de la puntuación del subcriterio\n  - ALTA: 80%\n  - MEDIA: 60%\n  - BAJA: 40%\n  - MUY BAJA: 20%\n  - INSUFICIENTE: 0%\n- Umbral mínimo: 22,5 puntos en el conjunto de criterios cualitativos para continuar en el proceso selectivo. Quien no alcance este umbral es excluido.\n- Documentación técnica: máximo 40 páginas, márgenes mínimos, interlineado sencillo, fuente mínimo 11 puntos. El exceso de páginas no se valora.\n- Fuente: ID_188_2.PDF, pág. 68-70\n\n# 8. Umbrales mínimos o causas de exclusión ligadas a criterios\n\n- Umbral mínimo de 22,5 puntos (50% de 45) en los criterios no valorables en cifras o porcentajes (juicio de valor) para no ser excluido del procedimiento.\n- Fuente: ID_188_2.PDF, pág. 68-70\n\n# 9. Datos no calculables o no localizados\n\n- No consta regla de redondeo para la puntuación de la oferta económica.\n- No consta baremo intermedio para mejoras técnicas fuera de los tramos expresamente indicados (solo 0, 5 o 10 puntos).\n- No consta fórmula alternativa para la valoración de mejoras técnicas.\n- No consta desarrollo de subcriterios adicionales para el Proyecto Técnico fuera de los tres indicados.\n- No consta en la documentación revisada la ponderación de subcriterios dentro de cada bloque más allá de lo explicitado.\n\n# 10. Documentos revisados\n\n1. ID_188_1.PDF (Documento licitación real)\n2. ID_188_2.PDF (Pliego de Cláusulas Administrativas Particulares y Anexos)\n3. ID_188_3.PDF (Pliego de Prescripciones Técnicas)\n4. poc (Documento enlazado, detalle licitación, texto extraído)\n5. poc (Documento enlazado, perfil contratante, texto extraído)\n6. poc (Documento enlazado, perfil contratante, texto extraído)\n7. 147409-2026 (Documento enlazado, sin texto extraíble; pendiente de lectura/OCR)\n8. perfilContratante (Documento enlazado, texto extraído)\n\n# Tabla de trazabilidad\n\n| Requisito/dato | Tipo | Valor/condición | Documento | Página/apartado | Estado de lectura |\n|----------------|------|----------------|-----------|-----------------|------------------|\n| Proyecto técnico (A.1) | Criterio puntuable | 45 puntos, juicio de valor, 3 subcriterios | ID_188_2.PDF | Anexo I, punto 19, pág. 68-70 | Leído |\n| Grado de detalle (A.1.1) | Subcriterio | 10 puntos, baremo de calidad | ID_188_2.PDF | Anexo I, punto 19, pág. 69-70 | Leído |\n| Adecuación solución (A.1.2) | Subcriterio | 30 puntos, baremo de calidad | ID_188_2.PDF | Anexo I, punto 19, pág. 69-70 | Leído |\n| Planificación del servicio (A.1.3) | Subcriterio | 5 puntos, baremo de calidad | ID_188_2.PDF | Anexo I, punto 19, pág. 69-70 | Leído |\n| Oferta económica (B.1) | Criterio puntuable | 35 puntos, fórmula Y = 35 * (oferta más económica/oferta a valorar) | ID_188_2.PDF | Anexo I, punto 19, pág. 71 | Leído |\n| Ampliación horario primer nivel (B.2.1) | Mejora automática | 10 puntos si 1h adicional | ID_188_2.PDF | Anexo I, punto 19, pág. 71-72 | Leído |\n| Ampliación bolsa de horas (B.2.2) | Mejora automática | 5 puntos por 100h, 10 puntos por 200h | ID_188_2.PDF | Anexo I, punto 19, pág. 71-72 | Leído |\n| Umbral mínimo criterios cualitativos | Umbral de exclusión | 22,5 puntos sobre 45 | ID_188_2.PDF | Anexo I, punto 19, pág. 68-70 | Leído |\n| Redondeo oferta económica | Regla de valoración | NO CONSTA | ID_188_2.PDF | Anexo I, punto 19 | Leído |\n| Baremo intermedio mejoras técnicas | Regla de valoración | NO CONSTA | ID_188_2.PDF | Anexo I, punto 19 | Leído |\n| Subcriterios adicionales Proyecto Técnico | Regla de valoración | NO CONSTA | ID_188_2.PDF | Anexo I, punto 19 | Leído |\n| Ponderación subcriterios adicionales | Regla de valoración | NO CONSTA | ID_188_2.PDF | Anexo I, punto 19 | Leído |\n| Documento 147409-2026 | Documento | Sin texto extraíble, pendiente de lectura/OCR | 147409-2026 | - | No leído |\n\n# Régimen de ofertas anormalmente bajas\n\n- Oferta económica:\n  - Un solo licitador: oferta inferior al presupuesto base de licitación en más de 20 unidades porcentuales.\n  - Dos licitadores: oferta inferior en más de 15 unidades porcentuales a la otra oferta.\n  - Tres o más licitadores: ofertas inferiores en más de 10 unidades porcentuales a la media aritmética de las ofertas presentadas.\n  - Empresas de un mismo grupo: solo se toma la oferta más baja para el cálculo de anormalidad.\n- Plazo para justificación: 3 días.\n- Criterios afectados: solo oferta económica.\n- Fuente: ID_188_2.PDF, pág. 72, Anexo I, punto 20\n\n# Discrepancias y pendientes de aclaración\n\n- No se han identificado discrepancias en la documentación revisada entre los criterios de adjudicación y sus reglas de valoración.\n- No consta el desarrollo de reglas de redondeo para la puntuación de la oferta económica.\n- No consta baremo intermedio para mejoras técnicas fuera de los tramos expresamente indicados.\n- El documento 147409-2026 está pendiente de lectura/OCR, por lo que no se ha podido verificar si contiene información adicional relevante sobre criterios de adjudicación."
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "ID_188_1.PDF",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 14915,
+        "caracteres_enviados_al_agente": 14915,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "ID_188_2.PDF",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 224684,
+        "caracteres_enviados_al_agente": 224684,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "ID_188_3.PDF",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 186976,
+        "caracteres_enviados_al_agente": 186976,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 4,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "ID_188_1.PDF",
+        "caracteres_extraidos": 5923,
+        "caracteres_enviados_al_agente": 5923,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 5,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "ID_188_1.PDF",
+        "caracteres_extraidos": 2659,
+        "caracteres_enviados_al_agente": 2659,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 6,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "ID_188_1.PDF",
+        "caracteres_extraidos": 3127,
+        "caracteres_enviados_al_agente": 3127,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 7,
+        "nombre": "147409-2026",
+        "tipo": "Documento enlazado",
+        "fuente": "ID_188_1.PDF",
+        "caracteres_extraidos": 0,
+        "caracteres_enviados_al_agente": 0,
+        "texto_compactado": false,
+        "error": "Sin texto extraible; documento pendiente de lectura/OCR"
+      },
+      {
+        "numero": 8,
+        "nombre": "perfilContratante",
+        "tipo": "Documento enlazado",
+        "fuente": "ID_188_2.PDF",
+        "caracteres_extraidos": 2690,
+        "caracteres_enviados_al_agente": 2690,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Documento no leido: 147409-2026: Sin texto extraible; documento pendiente de lectura/OCR",
+      "Se omitieron 22 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  }
+}

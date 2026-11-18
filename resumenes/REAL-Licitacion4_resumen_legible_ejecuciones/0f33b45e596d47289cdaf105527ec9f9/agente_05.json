@@ -1,0 +1,860 @@
+{
+  "orden": 5,
+  "id": "A6",
+  "nombre": "Requisitos del servicio",
+  "tipo": "extraccion",
+  "estado": "completado",
+  "contenido": {
+    "resumen": [
+      "RESUMEN FACTUAL DEL SERVICIO REQUERIDO",
+      "ALCANCE Y VOLUMETRÍAS",
+      "Usuarios: Aproximadamente 900 usuarios/as | Total | PPT.pdf p.4",
+      "Sedes: Sede central en Madrid y sedes periféricas en todas las Comunidades Autónomas y Ciudades Autónomas | Total 10 zonas principales, múltiples ubicaciones detalladas | PPT.pdf p.18-20",
+      "Volumen de incidencias/peticiones: Aproximadamente 12.000/año (último año) | Anual | PPT.pdf p.5",
+      "Horario de servicio: L-J 9:00-18:00, V 8:00-15:00; posibilidad de bolsa de horas para fuera de horario | Semanal | PPT.pdf p.20",
+      "Duración del contrato: 24 meses (+prórroga hasta 24 meses) | PCAP.pdf p.4, 22",
+      "MODELO DE SERVICIO EXIGIDO",
+      "Centro de Atención a Usuarios (CAU) como Service Desk, con atención N1 (primer nivel) y N2 (segundo nivel), pool de técnicos centralizados y distribuidos, atención presencial/remota, soporte a inventario hardware, soporte de sistemas, comunicaciones y seguridad, administración DBA, y roles definidos (coordinador, técnicos de soporte, técnicos de sistemas). | PPT.pdf p.9-16",
+      "Se valorará la incorporación de un Nivel 0 (atención desatendida fuera de horario habitual) | PPT.pdf p.9",
+      "PROCESOS Y ACTIVIDADES",
+      "SLA/KPI/PENALIZACIONES"
+    ],
+    "secciones": [
+      {
+        "titulo": "Contenido inicial",
+        "parrafos": [
+          "El contrato exige la prestación de servicios de soporte informático a usuarios, sistemas, comunicaciones y seguridad de la Abogacía General del Estado (AGE), incluyendo atención a incidencias y peticiones, mantenimiento de puestos de usuario, apoyo en inventario hardware, soporte de sistemas, comunicaciones y seguridad, con cobertura nacional y atención presencial/remota, bajo un modelo de niveles de soporte y acuerdos de nivel de servicio (ANS/SLA) definidos.",
+          "---",
+          "TABLA DE TRAZABILIDAD"
+        ],
+        "elementos": [
+          "RESUMEN FACTUAL DEL SERVICIO REQUERIDO",
+          "ALCANCE Y VOLUMETRÍAS",
+          "Usuarios: Aproximadamente 900 usuarios/as | Total | PPT.pdf p.4",
+          "Sedes: Sede central en Madrid y sedes periféricas en todas las Comunidades Autónomas y Ciudades Autónomas | Total 10 zonas principales, múltiples ubicaciones detalladas | PPT.pdf p.18-20",
+          "Volumen de incidencias/peticiones: Aproximadamente 12.000/año (último año) | Anual | PPT.pdf p.5",
+          "Horario de servicio: L-J 9:00-18:00, V 8:00-15:00; posibilidad de bolsa de horas para fuera de horario | Semanal | PPT.pdf p.20",
+          "Duración del contrato: 24 meses (+prórroga hasta 24 meses) | PCAP.pdf p.4, 22",
+          "MODELO DE SERVICIO EXIGIDO",
+          "Centro de Atención a Usuarios (CAU) como Service Desk, con atención N1 (primer nivel) y N2 (segundo nivel), pool de técnicos centralizados y distribuidos, atención presencial/remota, soporte a inventario hardware, soporte de sistemas, comunicaciones y seguridad, administración DBA, y roles definidos (coordinador, técnicos de soporte, técnicos de sistemas). | PPT.pdf p.9-16",
+          "Se valorará la incorporación de un Nivel 0 (atención desatendida fuera de horario habitual) | PPT.pdf p.9",
+          "PROCESOS Y ACTIVIDADES",
+          "SLA/KPI/PENALIZACIONES",
+          "ORGANIZACIÓN Y ROLES EXIGIDOS",
+          "Coordinador técnico soporte a usuarios (1, Madrid)",
+          "Técnicos de sistemas: administración (2, Madrid)",
+          "Técnico de sistemas: DBA (1, Madrid)",
+          "Técnicos de soporte a usuarios (4, Madrid)",
+          "Técnicos de soporte a usuarios (1 por cada zona periférica: Cataluña, C. Valenciana+Baleares, Canarias, Galicia, Asturias+Cantabria+País Vasco, Navarra+La Rioja+Aragón, C. León, C. La Mancha+Extremadura, Andalucía+Murcia+Ceuta+Melilla)",
+          "Total: 17 recursos mínimos | PPT.pdf p.25-26, PCAP.pdf p.15",
+          "Formación mínima, experiencia y certificaciones exigidas y valorables detalladas por perfil | PPT.pdf p.28-32, PCAP.pdf p.20-21",
+          "Plan de suplencias, cobertura de ausencias, formación continua (50h/año por trabajador) | PPT.pdf p.27-28",
+          "GOBIERNO Y REPORTING EXIGIDOS",
+          "Director Técnico (AGE) y Jefe de Proyecto (adjudicatario) como interlocutores | PPT.pdf p.17",
+          "Reuniones de seguimiento, informes periódicos y específicos, reporting mensual/trimestral de incidencias/peticiones/cambios | PPT.pdf p.11, 24",
+          "Comité de Cambios para gestión de cambios | PPT.pdf p.24",
+          "HERRAMIENTAS ITSM, CMDB, MONITORIZACIÓN E INTEGRACIONES EXIGIDAS",
+          "Herramienta de gestión de incidencias y peticiones (ticketing) obligatoria, registro de toda la actividad | PPT.pdf p.10-11",
+          "GLPI para inventario hardware y gestión de activos | PPT.pdf p.13, 29, 32",
+          "Zabbix, Checkmk, Nagios (a extinguir) para monitorización | PPT.pdf p.14, 36",
+          "WorkSpaceOne, JIRA, Citrix, VMware, MDT, WSUS, SCUP, ElasticSearch, SQL Server, entre otras, como parte del entorno tecnológico | PPT.pdf p.14, 29, 33-38",
+          "No se exige expresamente integración con otras herramientas externas ni portal de autoservicio, aunque se menciona la posibilidad de peticiones vía web/autoservicio | PPT.pdf p.10",
+          "TRANSICIÓN, CONTINUIDAD Y REVERSIBILIDAD EXIGIDAS",
+          "Fase de asunción del servicio: 1 mes, plan de asunción, transferencia de conocimiento, documentación, plan de comunicación, plan de formación inicial | PPT.pdf p.7",
+          "Fase de devolución del servicio: hasta 30 días, entrega de documentación actualizada, colaboración con la UI y futuro proveedor, transferencia de conocimiento, sin coste adicional | PPT.pdf p.8-9",
+          "Apoyo en planes de contingencia y continuidad, protocolos de actuación, ejecución en caso necesario | PPT.pdf p.14-15",
+          "Centro operativo alternativo exigido en caso de desastre | PPT.pdf p.21",
+          "AUTOMATIZACIÓN, SELF-SERVICE Y GESTIÓN DEL CONOCIMIENTO",
+          "Se valorará la incorporación de Nivel 0 (atención desatendida fuera de horario habitual) mediante tecnologías de autoservicio para registro y primera respuesta, no resolutiva | PPT.pdf p.9",
+          "Herramienta de autoservicio mencionada como medio de entrada de peticiones/incidencias | PPT.pdf p.10",
+          "Gestión del conocimiento: documentación de casos, base documental, reporting | PPT.pdf p.10, 29, 32",
+          "DATOS NO LOCALIZADOS O AMBIGUOS",
+          "No consta exigencia de CMDB formal ni de integración con herramientas externas específicas.",
+          "No consta exigencia de idioma distinto al castellano.",
+          "No consta exigencia de guardias ni turnos fuera de la bolsa de horas.",
+          "No consta detalle de penalizaciones económicas específicas por incumplimiento de SLA más allá de regularización de facturación y penalizaciones generales del PCAP.",
+          "No consta exigencia de N3 (tercer nivel) ni de soporte especializado fuera de los perfiles definidos.",
+          "No consta exigencia de reporting en tiempo real ni de cuadros de mando específicos.",
+          "No consta exigencia de automatización avanzada fuera de lo indicado para Nivel 0/autoservicio.",
+          "DOCUMENTOS REVISADOS",
+          "Anuncio.pdf",
+          "PCAP.pdf",
+          "PPT.pdf",
+          "poc (detalle licitación)",
+          "poc (perfil contratante)",
+          "poc (perfil contratante)"
+        ],
+        "tablas": [
+          {
+            "columnas": [
+              "Proceso/actividad",
+              "Expreso en pliego",
+              "Exigencia descrita",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Proceso/actividad": "Gestión de incidencias",
+                "Expreso en pliego": "ITIL citado en conocimientos mínimos y certificaciones valorables",
+                "Exigencia descrita": "Registro, categorización, diagnóstico, resolución, cierre, documentación, reporting",
+                "Fuente": "PPT.pdf p.10-11, 22, 29, 32"
+              },
+              {
+                "Proceso/actividad": "Gestión de peticiones",
+                "Expreso en pliego": "ITIL citado en conocimientos mínimos y certificaciones valorables",
+                "Exigencia descrita": "Registro, resolución, cierre, reporting, tipificación simple/complex",
+                "Fuente": "PPT.pdf p.10, 23, 29, 32"
+              },
+              {
+                "Proceso/actividad": "Gestión de cambios",
+                "Expreso en pliego": "ITIL citado en conocimientos mínimos y certificaciones valorables",
+                "Exigencia descrita": "Procedimiento, comité de cambios, catálogo, aprobación, reporting",
+                "Fuente": "PPT.pdf p.24, 29, 32"
+              },
+              {
+                "Proceso/actividad": "Gestión de activos/inventario",
+                "Expreso en pliego": "ITIL citado en conocimientos mínimos",
+                "Exigencia descrita": "Apoyo en inventario hardware, uso de GLPI",
+                "Fuente": "PPT.pdf p.13, 29, 32"
+              },
+              {
+                "Proceso/actividad": "Gestión del conocimiento",
+                "Expreso en pliego": "ITIL citado en conocimientos mínimos",
+                "Exigencia descrita": "Documentación de casos, base documental, reporting",
+                "Fuente": "PPT.pdf p.10, 29, 32"
+              },
+              {
+                "Proceso/actividad": "Gestión de problemas",
+                "Expreso en pliego": "ITIL citado en conocimientos mínimos",
+                "Exigencia descrita": "No consta descripción funcional específica",
+                "Fuente": "PPT.pdf p.29, 32"
+              },
+              {
+                "Proceso/actividad": "Monitorización",
+                "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+                "Exigencia descrita": "Uso de Zabbix, Checkmk, Nagios (a extinguir)",
+                "Fuente": "PPT.pdf p.14, 36"
+              },
+              {
+                "Proceso/actividad": "Gestión de seguridad",
+                "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+                "Exigencia descrita": "Apoyo en incidentes, uso de microClaudia, ADA, definición de procedimientos, ENS",
+                "Fuente": "PPT.pdf p.14-15, 29"
+              },
+              {
+                "Proceso/actividad": "Gestión de continuidad",
+                "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+                "Exigencia descrita": "Apoyo en planes de contingencia y continuidad",
+                "Fuente": "PPT.pdf p.14-15"
+              },
+              {
+                "Proceso/actividad": "Transferencia tecnológica",
+                "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+                "Exigencia descrita": "Plan de transferencia, inventario, documentación",
+                "Fuente": "PPT.pdf p.21-22"
+              }
+            ]
+          },
+          {
+            "columnas": [
+              "Servicio",
+              "Prioridad",
+              "Respuesta",
+              "Resolución",
+              "Horario",
+              "Objetivo",
+              "Penalización",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Servicio": "Incidencias",
+                "Prioridad": "Crítica",
+                "Respuesta": "10 min",
+                "Resolución": "2 h",
+                "Horario": "Horario servicio",
+                "Objetivo": ">=90% en plazo",
+                "Penalización": "Regularización facturación, penalizaciones PCAP",
+                "Fuente": "PPT.pdf p.23, PCAP.pdf p.23, 56"
+              },
+              {
+                "Servicio": "Incidencias",
+                "Prioridad": "Alta",
+                "Respuesta": "30 min",
+                "Resolución": "4 h",
+                "Horario": "Horario servicio",
+                "Objetivo": ">=90% en plazo",
+                "Penalización": "Idem",
+                "Fuente": "PPT.pdf p.23"
+              },
+              {
+                "Servicio": "Incidencias",
+                "Prioridad": "Media",
+                "Respuesta": "1 h",
+                "Resolución": "8 h",
+                "Horario": "Horario servicio",
+                "Objetivo": ">=90% en plazo",
+                "Penalización": "Idem",
+                "Fuente": "PPT.pdf p.23"
+              },
+              {
+                "Servicio": "Incidencias",
+                "Prioridad": "Baja",
+                "Respuesta": "2 h",
+                "Resolución": "24 h",
+                "Horario": "Horario servicio",
+                "Objetivo": ">=90% en plazo",
+                "Penalización": "Idem",
+                "Fuente": "PPT.pdf p.23"
+              },
+              {
+                "Servicio": "Reapertura incidencias",
+                "Prioridad": "Todas",
+                "Respuesta": "N/A",
+                "Resolución": "N/A",
+                "Horario": "Mensual",
+                "Objetivo": "<=5%",
+                "Penalización": "Idem",
+                "Fuente": "PPT.pdf p.23"
+              },
+              {
+                "Servicio": "Peticiones",
+                "Prioridad": "Según catálogo",
+                "Respuesta": "Según catálogo",
+                "Resolución": "Según catálogo",
+                "Horario": "Horario servicio",
+                "Objetivo": ">=90% en plazo",
+                "Penalización": "Idem",
+                "Fuente": "PPT.pdf p.24"
+              },
+              {
+                "Servicio": "Reapertura peticiones",
+                "Prioridad": "Todas",
+                "Respuesta": "N/A",
+                "Resolución": "N/A",
+                "Horario": "Mensual",
+                "Objetivo": "<=5%",
+                "Penalización": "Idem",
+                "Fuente": "PPT.pdf p.24"
+              },
+              {
+                "Servicio": "Cambios",
+                "Prioridad": "N/A",
+                "Respuesta": "N/A",
+                "Resolución": "Según catálogo",
+                "Horario": "Horario servicio",
+                "Objetivo": "Disponibilidad plataformas 99%",
+                "Penalización": "Idem",
+                "Fuente": "PPT.pdf p.24"
+              }
+            ]
+          },
+          {
+            "columnas": [
+              "Requisito/dato",
+              "Tipo",
+              "Valor/condición",
+              "Documento",
+              "Página/apartado",
+              "Estado de lectura"
+            ],
+            "filas": [
+              {
+                "Requisito/dato": "Usuarios",
+                "Tipo": "Alcance",
+                "Valor/condición": "~900",
+                "Documento": "PPT.pdf",
+                "Página/apartado": "p.4",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Sedes",
+                "Tipo": "Alcance",
+                "Valor/condición": "Central+periféricas (todas CCAA)",
+                "Documento": "PPT.pdf",
+                "Página/apartado": "p.18-20",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Incidencias/año",
+                "Tipo": "Alcance",
+                "Valor/condición": "~12.000",
+                "Documento": "PPT.pdf",
+                "Página/apartado": "p.5",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Horario",
+                "Tipo": "Alcance",
+                "Valor/condición": "L-J 9-18, V 8-15",
+                "Documento": "PPT.pdf",
+                "Página/apartado": "p.20",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Duración",
+                "Tipo": "Alcance",
+                "Valor/condición": "24 meses (+24 prórroga)",
+                "Documento": "PCAP.pdf",
+                "Página/apartado": "p.4, 22",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Niveles soporte",
+                "Tipo": "Modelo",
+                "Valor/condición": "N1, N2, (N0 valorable)",
+                "Documento": "PPT.pdf",
+                "Página/apartado": "p.9",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Roles",
+                "Tipo": "Organización",
+                "Valor/condición": "Coordinador, técnicos sistemas, técnicos soporte",
+                "Documento": "PPT.pdf",
+                "Página/apartado": "p.25-26",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Formación mínima",
+                "Tipo": "Organización",
+                "Valor/condición": "Según perfil",
+                "Documento": "PPT.pdf",
+                "Página/apartado": "p.28-32",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "SLA incidencias",
+                "Tipo": "SLA",
+                "Valor/condición": "Crítica 10min/2h, Alta 30min/4h, Media 1h/8h, Baja 2h/24h",
+                "Documento": "PPT.pdf",
+                "Página/apartado": "p.23",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "SLA peticiones",
+                "Tipo": "SLA",
+                "Valor/condición": ">=90% en plazo",
+                "Documento": "PPT.pdf",
+                "Página/apartado": "p.24",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Penalizaciones",
+                "Tipo": "SLA",
+                "Valor/condición": "Regularización facturación, penalizaciones PCAP",
+                "Documento": "PCAP.pdf",
+                "Página/apartado": "p.23, 56",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Herramienta ticketing",
+                "Tipo": "ITSM",
+                "Valor/condición": "Obligatoria",
+                "Documento": "PPT.pdf",
+                "Página/apartado": "p.10-11",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "GLPI",
+                "Tipo": "ITSM",
+                "Valor/condición": "Obligatoria para inventario",
+                "Documento": "PPT.pdf",
+                "Página/apartado": "p.13, 29, 32",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Zabbix, Checkmk",
+                "Tipo": "Monitorización",
+                "Valor/condición": "Uso exigido",
+                "Documento": "PPT.pdf",
+                "Página/apartado": "p.14, 36",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Fase asunción",
+                "Tipo": "Transición",
+                "Valor/condición": "1 mes, plan, transferencia conocimiento",
+                "Documento": "PPT.pdf",
+                "Página/apartado": "p.7",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Fase devolución",
+                "Tipo": "Reversibilidad",
+                "Valor/condición": "Hasta 30 días, entrega documentación",
+                "Documento": "PPT.pdf",
+                "Página/apartado": "p.8-9",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Centro operativo alternativo",
+                "Tipo": "Continuidad",
+                "Valor/condición": "Exigido",
+                "Documento": "PPT.pdf",
+                "Página/apartado": "p.21",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Nivel 0 autoservicio",
+                "Tipo": "Automatización",
+                "Valor/condición": "Valorable",
+                "Documento": "PPT.pdf",
+                "Página/apartado": "p.9",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Gestión conocimiento",
+                "Tipo": "Conocimiento",
+                "Valor/condición": "Documentación, base documental",
+                "Documento": "PPT.pdf",
+                "Página/apartado": "p.10, 29, 32",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Comité de Cambios",
+                "Tipo": "Gobierno",
+                "Valor/condición": "Exigido",
+                "Documento": "PPT.pdf",
+                "Página/apartado": "p.24",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Informes periódicos",
+                "Tipo": "Reporting",
+                "Valor/condición": "Mensual/trimestral",
+                "Documento": "PPT.pdf",
+                "Página/apartado": "p.11, 24",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Idiomas",
+                "Tipo": "Organización",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "N/A",
+                "Página/apartado": "N/A",
+                "Estado de lectura": "N/A"
+              },
+              {
+                "Requisito/dato": "Guardias",
+                "Tipo": "Organización",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "N/A",
+                "Página/apartado": "N/A",
+                "Estado de lectura": "N/A"
+              },
+              {
+                "Requisito/dato": "N3",
+                "Tipo": "Modelo",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "N/A",
+                "Página/apartado": "N/A",
+                "Estado de lectura": "N/A"
+              },
+              {
+                "Requisito/dato": "CMDB formal",
+                "Tipo": "ITSM",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "N/A",
+                "Página/apartado": "N/A",
+                "Estado de lectura": "N/A"
+              },
+              {
+                "Requisito/dato": "Integraciones externas",
+                "Tipo": "ITSM",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "N/A",
+                "Página/apartado": "N/A",
+                "Estado de lectura": "N/A"
+              },
+              {
+                "Requisito/dato": "Reporting en tiempo real",
+                "Tipo": "Reporting",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "N/A",
+                "Página/apartado": "N/A",
+                "Estado de lectura": "N/A"
+              },
+              {
+                "Requisito/dato": "Automatización avanzada",
+                "Tipo": "Automatización",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "N/A",
+                "Página/apartado": "N/A",
+                "Estado de lectura": "N/A"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pendientes_y_no_localizados": [],
+    "trazabilidad": [
+      {
+        "Proceso/actividad": "Gestión de incidencias",
+        "Expreso en pliego": "ITIL citado en conocimientos mínimos y certificaciones valorables",
+        "Exigencia descrita": "Registro, categorización, diagnóstico, resolución, cierre, documentación, reporting",
+        "Fuente": "PPT.pdf p.10-11, 22, 29, 32"
+      },
+      {
+        "Proceso/actividad": "Gestión de peticiones",
+        "Expreso en pliego": "ITIL citado en conocimientos mínimos y certificaciones valorables",
+        "Exigencia descrita": "Registro, resolución, cierre, reporting, tipificación simple/complex",
+        "Fuente": "PPT.pdf p.10, 23, 29, 32"
+      },
+      {
+        "Proceso/actividad": "Gestión de cambios",
+        "Expreso en pliego": "ITIL citado en conocimientos mínimos y certificaciones valorables",
+        "Exigencia descrita": "Procedimiento, comité de cambios, catálogo, aprobación, reporting",
+        "Fuente": "PPT.pdf p.24, 29, 32"
+      },
+      {
+        "Proceso/actividad": "Gestión de activos/inventario",
+        "Expreso en pliego": "ITIL citado en conocimientos mínimos",
+        "Exigencia descrita": "Apoyo en inventario hardware, uso de GLPI",
+        "Fuente": "PPT.pdf p.13, 29, 32"
+      },
+      {
+        "Proceso/actividad": "Gestión del conocimiento",
+        "Expreso en pliego": "ITIL citado en conocimientos mínimos",
+        "Exigencia descrita": "Documentación de casos, base documental, reporting",
+        "Fuente": "PPT.pdf p.10, 29, 32"
+      },
+      {
+        "Proceso/actividad": "Gestión de problemas",
+        "Expreso en pliego": "ITIL citado en conocimientos mínimos",
+        "Exigencia descrita": "No consta descripción funcional específica",
+        "Fuente": "PPT.pdf p.29, 32"
+      },
+      {
+        "Proceso/actividad": "Monitorización",
+        "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+        "Exigencia descrita": "Uso de Zabbix, Checkmk, Nagios (a extinguir)",
+        "Fuente": "PPT.pdf p.14, 36"
+      },
+      {
+        "Proceso/actividad": "Gestión de seguridad",
+        "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+        "Exigencia descrita": "Apoyo en incidentes, uso de microClaudia, ADA, definición de procedimientos, ENS",
+        "Fuente": "PPT.pdf p.14-15, 29"
+      },
+      {
+        "Proceso/actividad": "Gestión de continuidad",
+        "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+        "Exigencia descrita": "Apoyo en planes de contingencia y continuidad",
+        "Fuente": "PPT.pdf p.14-15"
+      },
+      {
+        "Proceso/actividad": "Transferencia tecnológica",
+        "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+        "Exigencia descrita": "Plan de transferencia, inventario, documentación",
+        "Fuente": "PPT.pdf p.21-22"
+      },
+      {
+        "Servicio": "Incidencias",
+        "Prioridad": "Crítica",
+        "Respuesta": "10 min",
+        "Resolución": "2 h",
+        "Horario": "Horario servicio",
+        "Objetivo": ">=90% en plazo",
+        "Penalización": "Regularización facturación, penalizaciones PCAP",
+        "Fuente": "PPT.pdf p.23, PCAP.pdf p.23, 56"
+      },
+      {
+        "Servicio": "Incidencias",
+        "Prioridad": "Alta",
+        "Respuesta": "30 min",
+        "Resolución": "4 h",
+        "Horario": "Horario servicio",
+        "Objetivo": ">=90% en plazo",
+        "Penalización": "Idem",
+        "Fuente": "PPT.pdf p.23"
+      },
+      {
+        "Servicio": "Incidencias",
+        "Prioridad": "Media",
+        "Respuesta": "1 h",
+        "Resolución": "8 h",
+        "Horario": "Horario servicio",
+        "Objetivo": ">=90% en plazo",
+        "Penalización": "Idem",
+        "Fuente": "PPT.pdf p.23"
+      },
+      {
+        "Servicio": "Incidencias",
+        "Prioridad": "Baja",
+        "Respuesta": "2 h",
+        "Resolución": "24 h",
+        "Horario": "Horario servicio",
+        "Objetivo": ">=90% en plazo",
+        "Penalización": "Idem",
+        "Fuente": "PPT.pdf p.23"
+      },
+      {
+        "Servicio": "Reapertura incidencias",
+        "Prioridad": "Todas",
+        "Respuesta": "N/A",
+        "Resolución": "N/A",
+        "Horario": "Mensual",
+        "Objetivo": "<=5%",
+        "Penalización": "Idem",
+        "Fuente": "PPT.pdf p.23"
+      },
+      {
+        "Servicio": "Peticiones",
+        "Prioridad": "Según catálogo",
+        "Respuesta": "Según catálogo",
+        "Resolución": "Según catálogo",
+        "Horario": "Horario servicio",
+        "Objetivo": ">=90% en plazo",
+        "Penalización": "Idem",
+        "Fuente": "PPT.pdf p.24"
+      },
+      {
+        "Servicio": "Reapertura peticiones",
+        "Prioridad": "Todas",
+        "Respuesta": "N/A",
+        "Resolución": "N/A",
+        "Horario": "Mensual",
+        "Objetivo": "<=5%",
+        "Penalización": "Idem",
+        "Fuente": "PPT.pdf p.24"
+      },
+      {
+        "Servicio": "Cambios",
+        "Prioridad": "N/A",
+        "Respuesta": "N/A",
+        "Resolución": "Según catálogo",
+        "Horario": "Horario servicio",
+        "Objetivo": "Disponibilidad plataformas 99%",
+        "Penalización": "Idem",
+        "Fuente": "PPT.pdf p.24"
+      },
+      {
+        "Requisito/dato": "Usuarios",
+        "Tipo": "Alcance",
+        "Valor/condición": "~900",
+        "Documento": "PPT.pdf",
+        "Página/apartado": "p.4",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Sedes",
+        "Tipo": "Alcance",
+        "Valor/condición": "Central+periféricas (todas CCAA)",
+        "Documento": "PPT.pdf",
+        "Página/apartado": "p.18-20",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Incidencias/año",
+        "Tipo": "Alcance",
+        "Valor/condición": "~12.000",
+        "Documento": "PPT.pdf",
+        "Página/apartado": "p.5",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Horario",
+        "Tipo": "Alcance",
+        "Valor/condición": "L-J 9-18, V 8-15",
+        "Documento": "PPT.pdf",
+        "Página/apartado": "p.20",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Duración",
+        "Tipo": "Alcance",
+        "Valor/condición": "24 meses (+24 prórroga)",
+        "Documento": "PCAP.pdf",
+        "Página/apartado": "p.4, 22",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Niveles soporte",
+        "Tipo": "Modelo",
+        "Valor/condición": "N1, N2, (N0 valorable)",
+        "Documento": "PPT.pdf",
+        "Página/apartado": "p.9",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Roles",
+        "Tipo": "Organización",
+        "Valor/condición": "Coordinador, técnicos sistemas, técnicos soporte",
+        "Documento": "PPT.pdf",
+        "Página/apartado": "p.25-26",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Formación mínima",
+        "Tipo": "Organización",
+        "Valor/condición": "Según perfil",
+        "Documento": "PPT.pdf",
+        "Página/apartado": "p.28-32",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "SLA incidencias",
+        "Tipo": "SLA",
+        "Valor/condición": "Crítica 10min/2h, Alta 30min/4h, Media 1h/8h, Baja 2h/24h",
+        "Documento": "PPT.pdf",
+        "Página/apartado": "p.23",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "SLA peticiones",
+        "Tipo": "SLA",
+        "Valor/condición": ">=90% en plazo",
+        "Documento": "PPT.pdf",
+        "Página/apartado": "p.24",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Penalizaciones",
+        "Tipo": "SLA",
+        "Valor/condición": "Regularización facturación, penalizaciones PCAP",
+        "Documento": "PCAP.pdf",
+        "Página/apartado": "p.23, 56",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Herramienta ticketing",
+        "Tipo": "ITSM",
+        "Valor/condición": "Obligatoria",
+        "Documento": "PPT.pdf",
+        "Página/apartado": "p.10-11",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "GLPI",
+        "Tipo": "ITSM",
+        "Valor/condición": "Obligatoria para inventario",
+        "Documento": "PPT.pdf",
+        "Página/apartado": "p.13, 29, 32",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Zabbix, Checkmk",
+        "Tipo": "Monitorización",
+        "Valor/condición": "Uso exigido",
+        "Documento": "PPT.pdf",
+        "Página/apartado": "p.14, 36",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Fase asunción",
+        "Tipo": "Transición",
+        "Valor/condición": "1 mes, plan, transferencia conocimiento",
+        "Documento": "PPT.pdf",
+        "Página/apartado": "p.7",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Fase devolución",
+        "Tipo": "Reversibilidad",
+        "Valor/condición": "Hasta 30 días, entrega documentación",
+        "Documento": "PPT.pdf",
+        "Página/apartado": "p.8-9",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Centro operativo alternativo",
+        "Tipo": "Continuidad",
+        "Valor/condición": "Exigido",
+        "Documento": "PPT.pdf",
+        "Página/apartado": "p.21",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Nivel 0 autoservicio",
+        "Tipo": "Automatización",
+        "Valor/condición": "Valorable",
+        "Documento": "PPT.pdf",
+        "Página/apartado": "p.9",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Gestión conocimiento",
+        "Tipo": "Conocimiento",
+        "Valor/condición": "Documentación, base documental",
+        "Documento": "PPT.pdf",
+        "Página/apartado": "p.10, 29, 32",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Comité de Cambios",
+        "Tipo": "Gobierno",
+        "Valor/condición": "Exigido",
+        "Documento": "PPT.pdf",
+        "Página/apartado": "p.24",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Informes periódicos",
+        "Tipo": "Reporting",
+        "Valor/condición": "Mensual/trimestral",
+        "Documento": "PPT.pdf",
+        "Página/apartado": "p.11, 24",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Idiomas",
+        "Tipo": "Organización",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "N/A",
+        "Página/apartado": "N/A",
+        "Estado de lectura": "N/A"
+      },
+      {
+        "Requisito/dato": "Guardias",
+        "Tipo": "Organización",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "N/A",
+        "Página/apartado": "N/A",
+        "Estado de lectura": "N/A"
+      },
+      {
+        "Requisito/dato": "N3",
+        "Tipo": "Modelo",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "N/A",
+        "Página/apartado": "N/A",
+        "Estado de lectura": "N/A"
+      },
+      {
+        "Requisito/dato": "CMDB formal",
+        "Tipo": "ITSM",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "N/A",
+        "Página/apartado": "N/A",
+        "Estado de lectura": "N/A"
+      },
+      {
+        "Requisito/dato": "Integraciones externas",
+        "Tipo": "ITSM",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "N/A",
+        "Página/apartado": "N/A",
+        "Estado de lectura": "N/A"
+      },
+      {
+        "Requisito/dato": "Reporting en tiempo real",
+        "Tipo": "Reporting",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "N/A",
+        "Página/apartado": "N/A",
+        "Estado de lectura": "N/A"
+      },
+      {
+        "Requisito/dato": "Automatización avanzada",
+        "Tipo": "Automatización",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "N/A",
+        "Página/apartado": "N/A",
+        "Estado de lectura": "N/A"
+      }
+    ],
+    "salida_original": "1. RESUMEN FACTUAL DEL SERVICIO REQUERIDO\n\nEl contrato exige la prestación de servicios de soporte informático a usuarios, sistemas, comunicaciones y seguridad de la Abogacía General del Estado (AGE), incluyendo atención a incidencias y peticiones, mantenimiento de puestos de usuario, apoyo en inventario hardware, soporte de sistemas, comunicaciones y seguridad, con cobertura nacional y atención presencial/remota, bajo un modelo de niveles de soporte y acuerdos de nivel de servicio (ANS/SLA) definidos.\n\n2. ALCANCE Y VOLUMETRÍAS\n- Usuarios: Aproximadamente 900 usuarios/as | Total | PPT.pdf p.4\n- Sedes: Sede central en Madrid y sedes periféricas en todas las Comunidades Autónomas y Ciudades Autónomas | Total 10 zonas principales, múltiples ubicaciones detalladas | PPT.pdf p.18-20\n- Volumen de incidencias/peticiones: Aproximadamente 12.000/año (último año) | Anual | PPT.pdf p.5\n- Horario de servicio: L-J 9:00-18:00, V 8:00-15:00; posibilidad de bolsa de horas para fuera de horario | Semanal | PPT.pdf p.20\n- Duración del contrato: 24 meses (+prórroga hasta 24 meses) | PCAP.pdf p.4, 22\n\n3. MODELO DE SERVICIO EXIGIDO\n- Centro de Atención a Usuarios (CAU) como Service Desk, con atención N1 (primer nivel) y N2 (segundo nivel), pool de técnicos centralizados y distribuidos, atención presencial/remota, soporte a inventario hardware, soporte de sistemas, comunicaciones y seguridad, administración DBA, y roles definidos (coordinador, técnicos de soporte, técnicos de sistemas). | PPT.pdf p.9-16\n- Se valorará la incorporación de un Nivel 0 (atención desatendida fuera de horario habitual) | PPT.pdf p.9\n\n4. PROCESOS Y ACTIVIDADES\n| Proceso/actividad | Expreso en pliego | Exigencia descrita | Fuente |\n|-------------------|------------------|--------------------|--------|\n| Gestión de incidencias | ITIL citado en conocimientos mínimos y certificaciones valorables | Registro, categorización, diagnóstico, resolución, cierre, documentación, reporting | PPT.pdf p.10-11, 22, 29, 32 |\n| Gestión de peticiones | ITIL citado en conocimientos mínimos y certificaciones valorables | Registro, resolución, cierre, reporting, tipificación simple/complex | PPT.pdf p.10, 23, 29, 32 |\n| Gestión de cambios | ITIL citado en conocimientos mínimos y certificaciones valorables | Procedimiento, comité de cambios, catálogo, aprobación, reporting | PPT.pdf p.24, 29, 32 |\n| Gestión de activos/inventario | ITIL citado en conocimientos mínimos | Apoyo en inventario hardware, uso de GLPI | PPT.pdf p.13, 29, 32 |\n| Gestión del conocimiento | ITIL citado en conocimientos mínimos | Documentación de casos, base documental, reporting | PPT.pdf p.10, 29, 32 |\n| Gestión de problemas | ITIL citado en conocimientos mínimos | No consta descripción funcional específica | PPT.pdf p.29, 32 |\n| Monitorización | ITIL NO CITADO EXPRESAMENTE | Uso de Zabbix, Checkmk, Nagios (a extinguir) | PPT.pdf p.14, 36 |\n| Gestión de seguridad | ITIL NO CITADO EXPRESAMENTE | Apoyo en incidentes, uso de microClaudia, ADA, definición de procedimientos, ENS | PPT.pdf p.14-15, 29 |\n| Gestión de continuidad | ITIL NO CITADO EXPRESAMENTE | Apoyo en planes de contingencia y continuidad | PPT.pdf p.14-15 |\n| Transferencia tecnológica | ITIL NO CITADO EXPRESAMENTE | Plan de transferencia, inventario, documentación | PPT.pdf p.21-22 |\n\n5. SLA/KPI/PENALIZACIONES\n| Servicio | Prioridad | Respuesta | Resolución | Horario | Objetivo | Penalización | Fuente |\n|---------|----------|----------|-----------|--------|----------|-------------|--------|\n| Incidencias | Crítica | 10 min | 2 h | Horario servicio | >=90% en plazo | Regularización facturación, penalizaciones PCAP | PPT.pdf p.23, PCAP.pdf p.23, 56 |\n| Incidencias | Alta | 30 min | 4 h | Horario servicio | >=90% en plazo | Idem | PPT.pdf p.23 |\n| Incidencias | Media | 1 h | 8 h | Horario servicio | >=90% en plazo | Idem | PPT.pdf p.23 |\n| Incidencias | Baja | 2 h | 24 h | Horario servicio | >=90% en plazo | Idem | PPT.pdf p.23 |\n| Reapertura incidencias | Todas | N/A | N/A | Mensual | <=5% | Idem | PPT.pdf p.23 |\n| Peticiones | Según catálogo | Según catálogo | Según catálogo | Horario servicio | >=90% en plazo | Idem | PPT.pdf p.24 |\n| Reapertura peticiones | Todas | N/A | N/A | Mensual | <=5% | Idem | PPT.pdf p.24 |\n| Cambios | N/A | N/A | Según catálogo | Horario servicio | Disponibilidad plataformas 99% | Idem | PPT.pdf p.24 |\n\n6. ORGANIZACIÓN Y ROLES EXIGIDOS\n- Coordinador técnico soporte a usuarios (1, Madrid)\n- Técnicos de sistemas: administración (2, Madrid)\n- Técnico de sistemas: DBA (1, Madrid)\n- Técnicos de soporte a usuarios (4, Madrid)\n- Técnicos de soporte a usuarios (1 por cada zona periférica: Cataluña, C. Valenciana+Baleares, Canarias, Galicia, Asturias+Cantabria+País Vasco, Navarra+La Rioja+Aragón, C. León, C. La Mancha+Extremadura, Andalucía+Murcia+Ceuta+Melilla)\n- Total: 17 recursos mínimos | PPT.pdf p.25-26, PCAP.pdf p.15\n- Formación mínima, experiencia y certificaciones exigidas y valorables detalladas por perfil | PPT.pdf p.28-32, PCAP.pdf p.20-21\n- Plan de suplencias, cobertura de ausencias, formación continua (50h/año por trabajador) | PPT.pdf p.27-28\n\n7. GOBIERNO Y REPORTING EXIGIDOS\n- Director Técnico (AGE) y Jefe de Proyecto (adjudicatario) como interlocutores | PPT.pdf p.17\n- Reuniones de seguimiento, informes periódicos y específicos, reporting mensual/trimestral de incidencias/peticiones/cambios | PPT.pdf p.11, 24\n- Comité de Cambios para gestión de cambios | PPT.pdf p.24\n\n8. HERRAMIENTAS ITSM, CMDB, MONITORIZACIÓN E INTEGRACIONES EXIGIDAS\n- Herramienta de gestión de incidencias y peticiones (ticketing) obligatoria, registro de toda la actividad | PPT.pdf p.10-11\n- GLPI para inventario hardware y gestión de activos | PPT.pdf p.13, 29, 32\n- Zabbix, Checkmk, Nagios (a extinguir) para monitorización | PPT.pdf p.14, 36\n- WorkSpaceOne, JIRA, Citrix, VMware, MDT, WSUS, SCUP, ElasticSearch, SQL Server, entre otras, como parte del entorno tecnológico | PPT.pdf p.14, 29, 33-38\n- No se exige expresamente integración con otras herramientas externas ni portal de autoservicio, aunque se menciona la posibilidad de peticiones vía web/autoservicio | PPT.pdf p.10\n\n9. TRANSICIÓN, CONTINUIDAD Y REVERSIBILIDAD EXIGIDAS\n- Fase de asunción del servicio: 1 mes, plan de asunción, transferencia de conocimiento, documentación, plan de comunicación, plan de formación inicial | PPT.pdf p.7\n- Fase de devolución del servicio: hasta 30 días, entrega de documentación actualizada, colaboración con la UI y futuro proveedor, transferencia de conocimiento, sin coste adicional | PPT.pdf p.8-9\n- Apoyo en planes de contingencia y continuidad, protocolos de actuación, ejecución en caso necesario | PPT.pdf p.14-15\n- Centro operativo alternativo exigido en caso de desastre | PPT.pdf p.21\n\n10. AUTOMATIZACIÓN, SELF-SERVICE Y GESTIÓN DEL CONOCIMIENTO\n- Se valorará la incorporación de Nivel 0 (atención desatendida fuera de horario habitual) mediante tecnologías de autoservicio para registro y primera respuesta, no resolutiva | PPT.pdf p.9\n- Herramienta de autoservicio mencionada como medio de entrada de peticiones/incidencias | PPT.pdf p.10\n- Gestión del conocimiento: documentación de casos, base documental, reporting | PPT.pdf p.10, 29, 32\n\n11. DATOS NO LOCALIZADOS O AMBIGUOS\n- No consta exigencia de CMDB formal ni de integración con herramientas externas específicas.\n- No consta exigencia de idioma distinto al castellano.\n- No consta exigencia de guardias ni turnos fuera de la bolsa de horas.\n- No consta detalle de penalizaciones económicas específicas por incumplimiento de SLA más allá de regularización de facturación y penalizaciones generales del PCAP.\n- No consta exigencia de N3 (tercer nivel) ni de soporte especializado fuera de los perfiles definidos.\n- No consta exigencia de reporting en tiempo real ni de cuadros de mando específicos.\n- No consta exigencia de automatización avanzada fuera de lo indicado para Nivel 0/autoservicio.\n\n12. DOCUMENTOS REVISADOS\n1. Anuncio.pdf\n2. PCAP.pdf\n3. PPT.pdf\n4. poc (detalle licitación)\n5. poc (perfil contratante)\n6. poc (perfil contratante)\n\n---\n\nTABLA DE TRAZABILIDAD\n| Requisito/dato | Tipo | Valor/condición | Documento | Página/apartado | Estado de lectura |\n|----------------|------|----------------|-----------|------------------|-------------------|\n| Usuarios | Alcance | ~900 | PPT.pdf | p.4 | Leído |\n| Sedes | Alcance | Central+periféricas (todas CCAA) | PPT.pdf | p.18-20 | Leído |\n| Incidencias/año | Alcance | ~12.000 | PPT.pdf | p.5 | Leído |\n| Horario | Alcance | L-J 9-18, V 8-15 | PPT.pdf | p.20 | Leído |\n| Duración | Alcance | 24 meses (+24 prórroga) | PCAP.pdf | p.4, 22 | Leído |\n| Niveles soporte | Modelo | N1, N2, (N0 valorable) | PPT.pdf | p.9 | Leído |\n| Roles | Organización | Coordinador, técnicos sistemas, técnicos soporte | PPT.pdf | p.25-26 | Leído |\n| Formación mínima | Organización | Según perfil | PPT.pdf | p.28-32 | Leído |\n| SLA incidencias | SLA | Crítica 10min/2h, Alta 30min/4h, Media 1h/8h, Baja 2h/24h | PPT.pdf | p.23 | Leído |\n| SLA peticiones | SLA | >=90% en plazo | PPT.pdf | p.24 | Leído |\n| Penalizaciones | SLA | Regularización facturación, penalizaciones PCAP | PCAP.pdf | p.23, 56 | Leído |\n| Herramienta ticketing | ITSM | Obligatoria | PPT.pdf | p.10-11 | Leído |\n| GLPI | ITSM | Obligatoria para inventario | PPT.pdf | p.13, 29, 32 | Leído |\n| Zabbix, Checkmk | Monitorización | Uso exigido | PPT.pdf | p.14, 36 | Leído |\n| Fase asunción | Transición | 1 mes, plan, transferencia conocimiento | PPT.pdf | p.7 | Leído |\n| Fase devolución | Reversibilidad | Hasta 30 días, entrega documentación | PPT.pdf | p.8-9 | Leído |\n| Centro operativo alternativo | Continuidad | Exigido | PPT.pdf | p.21 | Leído |\n| Nivel 0 autoservicio | Automatización | Valorable | PPT.pdf | p.9 | Leído |\n| Gestión conocimiento | Conocimiento | Documentación, base documental | PPT.pdf | p.10, 29, 32 | Leído |\n| Comité de Cambios | Gobierno | Exigido | PPT.pdf | p.24 | Leído |\n| Informes periódicos | Reporting | Mensual/trimestral | PPT.pdf | p.11, 24 | Leído |\n| Idiomas | Organización | NO CONSTA | N/A | N/A | N/A |\n| Guardias | Organización | NO CONSTA | N/A | N/A | N/A |\n| N3 | Modelo | NO CONSTA | N/A | N/A | N/A |\n| CMDB formal | ITSM | NO CONSTA | N/A | N/A | N/A |\n| Integraciones externas | ITSM | NO CONSTA | N/A | N/A | N/A |\n| Reporting en tiempo real | Reporting | NO CONSTA | N/A | N/A | N/A |\n| Automatización avanzada | Automatización | NO CONSTA | N/A | N/A | N/A |"
+  }
+}

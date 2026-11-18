@@ -1,0 +1,905 @@
+{
+  "orden": 8,
+  "id": "A10",
+  "nombre": "Compras, proveedores y colaboradores",
+  "tipo": "extraccion",
+  "ejecucion": "9df82b6be18e498daf59eaaf83719b70",
+  "estado": "completado",
+  "contenido": {
+    "requisitos_documentales": [
+      {
+        "id": "R0001",
+        "seccion": "Compras y suministros",
+        "detalle": "El adjudicatario debe aportar todos los recursos humanos y materiales necesarios para la prestación de los servicios de administración Workplace, incluyendo la gestión, mantenimiento, estandarización, auditoría, innovación y evolución de la administración del puesto de trabajo físico, virtual o de movilidad de Correos y CEX, según lo descrito en el pliego.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 32-34, 63",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0002",
+        "seccion": "Compras y suministros",
+        "detalle": "El adjudicatario debe administrar y mantener la infraestructura de virtualización, incluyendo más de 12.000 ThinClient HP, impresoras, pistolas lectoras, tabletas digitalizadoras, balanzas, pin-pad, servidores virtuales y físicos, cabinas NetApp, y otros dispositivos relacionados.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 34-35",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0003",
+        "seccion": "Compras y suministros",
+        "detalle": "El adjudicatario debe administrar y mantener la infraestructura de puesto físico, compuesta por más de 16.000 equipos (68% sobremesa y thinclient, 25% portátiles, 5% dispensadores de turnos y 2% autoservicio) de diferentes fabricantes y sistemas operativos, así como periféricos asociados.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 41",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0004",
+        "seccion": "Compras y suministros",
+        "detalle": "El adjudicatario debe administrar y mantener la infraestructura de movilidad, incluyendo 34.000 PDA’s Honeywell EDA52 Android 11, 2.000 PDA’s Zebra TC56 Android 8.1, 400 PDA’s Zebra TC57 Android 8.1, 100 PDA’s Zelenza Android 12, 3.100 smartphones Samsung/Xiaomi/Huawei, 130 iPhone >11, 100 tablets Samsung TAB A8 LTE, y plataformas de movilidad asociadas.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 45",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0005",
+        "seccion": "Compras y suministros",
+        "detalle": "El adjudicatario debe administrar y mantener plataformas de movilidad, incluyendo hosts HP DL360 Proliant GEN10, host Veritas Backup, entornos MDM Workspace One UEM OnPremise de VmWare (en proceso de migración a modalidad SaaS), consolas web de Honeywell, y aplicaciones de movilidad.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 45-46",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0006",
+        "seccion": "Compras y suministros",
+        "detalle": "El adjudicatario debe preparar, plataformar y enviar material de movilidad a centros de Correos/CEX según necesidades corporativas durante el contrato.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 49",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0007",
+        "seccion": "Compras y suministros",
+        "detalle": "El adjudicatario debe aportar ordenadores personales para su equipo (mínimo Intel i5 9ª gen, SSD, 8GB RAM, pudiendo requerirse 16GB), software de comunicaciones (Microsoft Office, Teams, herramientas colaborativas), licencias correspondientes y conexión a Internet de banda ancha para trabajo remoto.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 72",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0008",
+        "seccion": "Compras y suministros",
+        "detalle": "El adjudicatario debe aportar número de teléfono fijo o móvil con conexión directa para cada técnico en remoto, y medios para reuniones virtuales con varios participantes.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 72",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0009",
+        "seccion": "Compras y suministros",
+        "detalle": "El adjudicatario debe emplear la herramienta corporativa PoST (ITSM Remedy) para la gestión y prestación de servicios, siendo obligatorio su uso correcto para gestión de tareas, tickets, horas de esfuerzo, etc.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 56",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0010",
+        "seccion": "Compras y suministros",
+        "detalle": "El adjudicatario debe emplear las herramientas de seguimiento que Correos/CEX determinen en cada momento, según la naturaleza del servicio a medir.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 56",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0011",
+        "seccion": "Compras y suministros",
+        "detalle": "El adjudicatario debe mantener y/o crear toda la documentación técnica y de gestión del servicio, en los repositorios que Correos/CEX indiquen, y migrarla si se implanta otro sistema de documentación durante el contrato.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 38, 44, 49",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0012",
+        "seccion": "Compras y suministros",
+        "detalle": "El adjudicatario debe aportar y mantener los medios técnicos para trabajo presencial y remoto, asegurando disponibilidad mixta e intercambiable de los técnicos.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 72",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0013",
+        "seccion": "Fabricantes y referencias",
+        "detalle": "Se exige administración y soporte de productos y plataformas de fabricantes concretos: HP (ThinClient), Citrix (Xenapp, WEM/Analytics), Microsoft (Windows Server, SCCM, MDT, Intune), NetApp (cabinas almacenamiento), Cisco (UCS, switches, routers), VmWare (ESXi, Workspace One UEM), Honeywell (PDA), Zebra (PDA), Zelenza (PDA), Samsung/Xiaomi/Huawei/Apple (smartphones/tablets), SQL Server (BBDD), entre otros.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 34-35, 41, 45, 65-70",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0014",
+        "seccion": "Fabricantes y referencias",
+        "detalle": "El adjudicatario debe disponer de soporte de fabricantes como Microsoft, NetApp, Cisco, Citrix, etc., para los técnicos asignados cuando se requiera conocimiento muy específico.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0015",
+        "seccion": "Fabricantes y referencias",
+        "detalle": "Se valoran certificaciones deseables de fabricante para perfiles técnicos: Citrix, Microsoft, NetApp, Cisco, VmWare, entre otros, pero no se exige carta de fabricante ni partnership formal.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 65-70",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0016",
+        "seccion": "Fabricantes y referencias",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, autorizaciones de canal, equivalencias formales ni requisitos de canal/distribución.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0017",
+        "seccion": "Licencias y software",
+        "detalle": "El adjudicatario debe aportar las licencias de software necesarias para el funcionamiento de los equipos de su personal (Microsoft Office, Teams, herramientas colaborativas, etc.).",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 72",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0018",
+        "seccion": "Licencias y software",
+        "detalle": "El adjudicatario debe administrar y mantener las herramientas centralizadas existentes y las que se pudieran implementar durante el servicio para gestión, distribución de software, actualización y configuración de puestos virtuales, físicos y de movilidad (SCCM, HPDM, MDT, DA, INTUNE, MDM, Workspace One UEM, etc.).",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 42, 48, 69-70",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0019",
+        "seccion": "Licencias y software",
+        "detalle": "El adjudicatario debe administrar la herramienta corporativa PoST (ITSM Remedy) y sus módulos (Help Desk, Change Management, Asset Management, SLM) para la gestión de servicios TI.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 56",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0020",
+        "seccion": "Licencias y software",
+        "detalle": "El adjudicatario debe administrar y mantener las licencias y actualizaciones de los sistemas operativos y aplicaciones de la infraestructura gestionada, incluyendo parches y upgrades periódicos.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 36-38, 42, 48",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0021",
+        "seccion": "Licencias y software",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de aportar licencias de software de base de la infraestructura del cliente (por ejemplo, licencias de Citrix, NetApp, SQL Server, Windows Server, etc.), salvo para los equipos propios del adjudicatario.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0022",
+        "seccion": "Subcontratación y UTE",
+        "detalle": "La subcontratación está permitida, salvo para la gestión y coordinación del servicio (tarea crítica no subcontratable). El adjudicatario debe indicar en la oferta la parte del contrato a subcontratar, su importe y el nombre o perfil empresarial de los subcontratistas.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 25",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0023",
+        "seccion": "Subcontratación y UTE",
+        "detalle": "El adjudicatario debe comunicar cualquier subcontratación durante la ejecución, justificando la aptitud del subcontratista y acreditando que no incurre en prohibición de contratar.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 25",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0024",
+        "seccion": "Subcontratación y UTE",
+        "detalle": "Si la subcontratación afecta al tratamiento de datos personales, el subcontratista debe suscribir un contrato de encargo de tratamiento conforme al modelo del Anexo XVI.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 25, 99-105",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0025",
+        "seccion": "Subcontratación y UTE",
+        "detalle": "En caso de UTE, se debe aportar compromiso de constitución y, si resulta adjudicataria, escritura pública de constitución, CIF y nombramiento de representante.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 11, 18",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0026",
+        "seccion": "Subcontratación y UTE",
+        "detalle": "El adjudicatario será responsable único del servicio prestado por los proveedores de contratos subrogados.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 52",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0027",
+        "seccion": "Subcontratación y UTE",
+        "detalle": "Todas las condiciones especiales de ejecución serán exigidas igualmente a todos los subcontratistas que participen en la ejecución, respondiendo el contratista principal en caso de incumplimiento.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 24",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0028",
+        "seccion": "Subcontratación y UTE",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de alianzas, joint ventures, consorcios, ni restricciones adicionales a la subcontratación más allá de lo indicado.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0029",
+        "seccion": "Cadena de suministro",
+        "detalle": "El adjudicatario debe preparar, empaquetar y enviar material de movilidad a centros de Correos/CEX según necesidades corporativas, asumiendo la logística asociada.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 49",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0030",
+        "seccion": "Cadena de suministro",
+        "detalle": "El adjudicatario debe mantener actualizada la documentación de activos tecnológicos, aplicaciones, torres tecnológicas, mapa de interfaces, etc., en los repositorios indicados por Correos/CEX.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 38, 44, 49",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0031",
+        "seccion": "Cadena de suministro",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de stock mínimo, lead time, EOL/EOS, homologaciones, sostenibilidad, retirada o destrucción de equipos, ni condiciones contractuales específicas sobre la cadena de suministro más allá de la logística de movilidad.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0032",
+        "seccion": "Garantías y soporte",
+        "detalle": "El adjudicatario debe liderar el diagnóstico de incidencias en todos los ámbitos de la plataforma gestionada, incluyendo la capacidad de involucrar a soportes de fabricantes.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 39, 43, 48",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0033",
+        "seccion": "Garantías y soporte",
+        "detalle": "El adjudicatario debe realizar pruebas de recuperación periódicas de backups, documentando evidencias y tiempos de recuperación.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 39",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0034",
+        "seccion": "Garantías y soporte",
+        "detalle": "El adjudicatario debe realizar un plan de mantenimiento/parcheo/evolución de la plataforma de virtualización, revisado y aplicado al menos bianualmente.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 37, 118",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0035",
+        "seccion": "Garantías y soporte",
+        "detalle": "El adjudicatario debe cumplir los ANS definidos en el Anexo XVII, incluyendo penalizaciones económicas por incumplimiento de indicadores de servicio, tiempos de respuesta y resolución, disponibilidad de recursos, tasa de renovación de equipos, y realización de planes de parcheo.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 111-118",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0036",
+        "seccion": "Garantías y soporte",
+        "detalle": "El plazo de garantía general es de tres meses desde la recepción de conformidad del servicio.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 28",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0037",
+        "seccion": "Garantías y soporte",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de soporte NBD, 4h, onsite, ni SLA back-to-back con fabricantes o terceros.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0038",
+        "seccion": "Discrepancias y pendientes de aclaración",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, equivalencias formales, restricciones de canal, stock mínimo, lead time, EOL/EOS, homologaciones, sostenibilidad, retirada o destrucción de equipos, ni SLA back-to-back.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "A10-S0039",
+        "seccion": "Medios, licencias y proveedores",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No se han identificado discrepancias en la documentación revisada.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A10",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A10-S0040",
+        "seccion": "Medios, licencias y proveedores",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, equivalencias formales, restricciones de canal, stock mínimo, lead time, EOL/EOS, homologaciones, sostenibilidad, retirada o destrucción de equipos, ni SLA back-to-back. Si estos aspectos son relevantes para la oferta, se recomienda su verificación en futuras aclaraciones o versiones del pliego si se publican.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A10",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      }
+    ],
+    "resumen": [
+      "No se han identificado discrepancias en la documentación revisada.",
+      "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, equivalencias formales, restricciones de canal, stock mínimo, lead time, EOL/EOS, homologaciones, sostenibilidad, retirada o destrucción de equipos, ni SLA back-to-back. Si estos aspectos son relevantes para la oferta, se recomienda su verificación en futuras aclaraciones o versiones del pliego si se publican."
+    ],
+    "secciones": [
+      {
+        "titulo": "Registro documental de preventa",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Materia",
+              "Requisito completo",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Materia": "Compras y suministros",
+                "Requisito completo": "El adjudicatario debe aportar todos los recursos humanos y materiales necesarios para la prestación de los servicios de administración Workplace, incluyendo la gestión, mantenimiento, estandarización, auditoría, innovación y evolución de la administración del puesto de trabajo físico, virtual o de movilidad de Correos y CEX, según lo descrito en el pliego.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 32-34, 63"
+              },
+              {
+                "Materia": "Compras y suministros",
+                "Requisito completo": "El adjudicatario debe administrar y mantener la infraestructura de virtualización, incluyendo más de 12.000 ThinClient HP, impresoras, pistolas lectoras, tabletas digitalizadoras, balanzas, pin-pad, servidores virtuales y físicos, cabinas NetApp, y otros dispositivos relacionados.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 34-35"
+              },
+              {
+                "Materia": "Compras y suministros",
+                "Requisito completo": "El adjudicatario debe administrar y mantener la infraestructura de puesto físico, compuesta por más de 16.000 equipos (68% sobremesa y thinclient, 25% portátiles, 5% dispensadores de turnos y 2% autoservicio) de diferentes fabricantes y sistemas operativos, así como periféricos asociados.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 41"
+              },
+              {
+                "Materia": "Compras y suministros",
+                "Requisito completo": "El adjudicatario debe administrar y mantener la infraestructura de movilidad, incluyendo 34.000 PDA’s Honeywell EDA52 Android 11, 2.000 PDA’s Zebra TC56 Android 8.1, 400 PDA’s Zebra TC57 Android 8.1, 100 PDA’s Zelenza Android 12, 3.100 smartphones Samsung/Xiaomi/Huawei, 130 iPhone >11, 100 tablets Samsung TAB A8 LTE, y plataformas de movilidad asociadas.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 45"
+              },
+              {
+                "Materia": "Compras y suministros",
+                "Requisito completo": "El adjudicatario debe administrar y mantener plataformas de movilidad, incluyendo hosts HP DL360 Proliant GEN10, host Veritas Backup, entornos MDM Workspace One UEM OnPremise de VmWare (en proceso de migración a modalidad SaaS), consolas web de Honeywell, y aplicaciones de movilidad.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 45-46"
+              },
+              {
+                "Materia": "Compras y suministros",
+                "Requisito completo": "El adjudicatario debe preparar, plataformar y enviar material de movilidad a centros de Correos/CEX según necesidades corporativas durante el contrato.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 49"
+              },
+              {
+                "Materia": "Compras y suministros",
+                "Requisito completo": "El adjudicatario debe aportar ordenadores personales para su equipo (mínimo Intel i5 9ª gen, SSD, 8GB RAM, pudiendo requerirse 16GB), software de comunicaciones (Microsoft Office, Teams, herramientas colaborativas), licencias correspondientes y conexión a Internet de banda ancha para trabajo remoto.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 72"
+              },
+              {
+                "Materia": "Compras y suministros",
+                "Requisito completo": "El adjudicatario debe aportar número de teléfono fijo o móvil con conexión directa para cada técnico en remoto, y medios para reuniones virtuales con varios participantes.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 72"
+              },
+              {
+                "Materia": "Compras y suministros",
+                "Requisito completo": "El adjudicatario debe emplear la herramienta corporativa PoST (ITSM Remedy) para la gestión y prestación de servicios, siendo obligatorio su uso correcto para gestión de tareas, tickets, horas de esfuerzo, etc.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 56"
+              },
+              {
+                "Materia": "Compras y suministros",
+                "Requisito completo": "El adjudicatario debe emplear las herramientas de seguimiento que Correos/CEX determinen en cada momento, según la naturaleza del servicio a medir.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 56"
+              },
+              {
+                "Materia": "Compras y suministros",
+                "Requisito completo": "El adjudicatario debe mantener y/o crear toda la documentación técnica y de gestión del servicio, en los repositorios que Correos/CEX indiquen, y migrarla si se implanta otro sistema de documentación durante el contrato.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 38, 44, 49"
+              },
+              {
+                "Materia": "Compras y suministros",
+                "Requisito completo": "El adjudicatario debe aportar y mantener los medios técnicos para trabajo presencial y remoto, asegurando disponibilidad mixta e intercambiable de los técnicos.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 72"
+              },
+              {
+                "Materia": "Fabricantes y referencias",
+                "Requisito completo": "Se exige administración y soporte de productos y plataformas de fabricantes concretos: HP (ThinClient), Citrix (Xenapp, WEM/Analytics), Microsoft (Windows Server, SCCM, MDT, Intune), NetApp (cabinas almacenamiento), Cisco (UCS, switches, routers), VmWare (ESXi, Workspace One UEM), Honeywell (PDA), Zebra (PDA), Zelenza (PDA), Samsung/Xiaomi/Huawei/Apple (smartphones/tablets), SQL Server (BBDD), entre otros.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 34-35, 41, 45, 65-70"
+              },
+              {
+                "Materia": "Fabricantes y referencias",
+                "Requisito completo": "El adjudicatario debe disponer de soporte de fabricantes como Microsoft, NetApp, Cisco, Citrix, etc., para los técnicos asignados cuando se requiera conocimiento muy específico.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63"
+              },
+              {
+                "Materia": "Fabricantes y referencias",
+                "Requisito completo": "Se valoran certificaciones deseables de fabricante para perfiles técnicos: Citrix, Microsoft, NetApp, Cisco, VmWare, entre otros, pero no se exige carta de fabricante ni partnership formal.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 65-70"
+              },
+              {
+                "Materia": "Fabricantes y referencias",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, autorizaciones de canal, equivalencias formales ni requisitos de canal/distribución.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa"
+              },
+              {
+                "Materia": "Licencias y software",
+                "Requisito completo": "El adjudicatario debe aportar las licencias de software necesarias para el funcionamiento de los equipos de su personal (Microsoft Office, Teams, herramientas colaborativas, etc.).",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 72"
+              },
+              {
+                "Materia": "Licencias y software",
+                "Requisito completo": "El adjudicatario debe administrar y mantener las herramientas centralizadas existentes y las que se pudieran implementar durante el servicio para gestión, distribución de software, actualización y configuración de puestos virtuales, físicos y de movilidad (SCCM, HPDM, MDT, DA, INTUNE, MDM, Workspace One UEM, etc.).",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 42, 48, 69-70"
+              },
+              {
+                "Materia": "Licencias y software",
+                "Requisito completo": "El adjudicatario debe administrar la herramienta corporativa PoST (ITSM Remedy) y sus módulos (Help Desk, Change Management, Asset Management, SLM) para la gestión de servicios TI.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 56"
+              },
+              {
+                "Materia": "Licencias y software",
+                "Requisito completo": "El adjudicatario debe administrar y mantener las licencias y actualizaciones de los sistemas operativos y aplicaciones de la infraestructura gestionada, incluyendo parches y upgrades periódicos.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 36-38, 42, 48"
+              },
+              {
+                "Materia": "Licencias y software",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de aportar licencias de software de base de la infraestructura del cliente (por ejemplo, licencias de Citrix, NetApp, SQL Server, Windows Server, etc.), salvo para los equipos propios del adjudicatario.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa"
+              },
+              {
+                "Materia": "Subcontratación y UTE",
+                "Requisito completo": "La subcontratación está permitida, salvo para la gestión y coordinación del servicio (tarea crítica no subcontratable). El adjudicatario debe indicar en la oferta la parte del contrato a subcontratar, su importe y el nombre o perfil empresarial de los subcontratistas.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 25"
+              },
+              {
+                "Materia": "Subcontratación y UTE",
+                "Requisito completo": "El adjudicatario debe comunicar cualquier subcontratación durante la ejecución, justificando la aptitud del subcontratista y acreditando que no incurre en prohibición de contratar.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 25"
+              },
+              {
+                "Materia": "Subcontratación y UTE",
+                "Requisito completo": "Si la subcontratación afecta al tratamiento de datos personales, el subcontratista debe suscribir un contrato de encargo de tratamiento conforme al modelo del Anexo XVI.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 25, 99-105"
+              },
+              {
+                "Materia": "Subcontratación y UTE",
+                "Requisito completo": "En caso de UTE, se debe aportar compromiso de constitución y, si resulta adjudicataria, escritura pública de constitución, CIF y nombramiento de representante.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 11, 18"
+              },
+              {
+                "Materia": "Subcontratación y UTE",
+                "Requisito completo": "El adjudicatario será responsable único del servicio prestado por los proveedores de contratos subrogados.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 52"
+              },
+              {
+                "Materia": "Subcontratación y UTE",
+                "Requisito completo": "Todas las condiciones especiales de ejecución serán exigidas igualmente a todos los subcontratistas que participen en la ejecución, respondiendo el contratista principal en caso de incumplimiento.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 24"
+              },
+              {
+                "Materia": "Subcontratación y UTE",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de alianzas, joint ventures, consorcios, ni restricciones adicionales a la subcontratación más allá de lo indicado.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa"
+              },
+              {
+                "Materia": "Cadena de suministro",
+                "Requisito completo": "El adjudicatario debe preparar, empaquetar y enviar material de movilidad a centros de Correos/CEX según necesidades corporativas, asumiendo la logística asociada.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 49"
+              },
+              {
+                "Materia": "Cadena de suministro",
+                "Requisito completo": "El adjudicatario debe mantener actualizada la documentación de activos tecnológicos, aplicaciones, torres tecnológicas, mapa de interfaces, etc., en los repositorios indicados por Correos/CEX.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 38, 44, 49"
+              },
+              {
+                "Materia": "Cadena de suministro",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de stock mínimo, lead time, EOL/EOS, homologaciones, sostenibilidad, retirada o destrucción de equipos, ni condiciones contractuales específicas sobre la cadena de suministro más allá de la logística de movilidad.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa"
+              },
+              {
+                "Materia": "Garantías y soporte",
+                "Requisito completo": "El adjudicatario debe liderar el diagnóstico de incidencias en todos los ámbitos de la plataforma gestionada, incluyendo la capacidad de involucrar a soportes de fabricantes.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 39, 43, 48"
+              },
+              {
+                "Materia": "Garantías y soporte",
+                "Requisito completo": "El adjudicatario debe realizar pruebas de recuperación periódicas de backups, documentando evidencias y tiempos de recuperación.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 39"
+              },
+              {
+                "Materia": "Garantías y soporte",
+                "Requisito completo": "El adjudicatario debe realizar un plan de mantenimiento/parcheo/evolución de la plataforma de virtualización, revisado y aplicado al menos bianualmente.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 37, 118"
+              },
+              {
+                "Materia": "Garantías y soporte",
+                "Requisito completo": "El adjudicatario debe cumplir los ANS definidos en el Anexo XVII, incluyendo penalizaciones económicas por incumplimiento de indicadores de servicio, tiempos de respuesta y resolución, disponibilidad de recursos, tasa de renovación de equipos, y realización de planes de parcheo.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 111-118"
+              },
+              {
+                "Materia": "Garantías y soporte",
+                "Requisito completo": "El plazo de garantía general es de tres meses desde la recepción de conformidad del servicio.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 28"
+              },
+              {
+                "Materia": "Garantías y soporte",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de soporte NBD, 4h, onsite, ni SLA back-to-back con fabricantes o terceros.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa"
+              },
+              {
+                "Materia": "Discrepancias y pendientes de aclaración",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, equivalencias formales, restricciones de canal, stock mínimo, lead time, EOL/EOS, homologaciones, sostenibilidad, retirada o destrucción de equipos, ni SLA back-to-back.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "parrafos": [
+          "No se han identificado discrepancias en la documentación revisada.",
+          "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, equivalencias formales, restricciones de canal, stock mínimo, lead time, EOL/EOS, homologaciones, sostenibilidad, retirada o destrucción de equipos, ni SLA back-to-back. Si estos aspectos son relevantes para la oferta, se recomienda su verificación en futuras aclaraciones o versiones del pliego si se publican."
+        ],
+        "elementos": [],
+        "tablas": []
+      }
+    ],
+    "pendientes_y_no_localizados": [
+      {
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "parrafos": [
+          "No se han identificado discrepancias en la documentación revisada.",
+          "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, equivalencias formales, restricciones de canal, stock mínimo, lead time, EOL/EOS, homologaciones, sostenibilidad, retirada o destrucción de equipos, ni SLA back-to-back. Si estos aspectos son relevantes para la oferta, se recomienda su verificación en futuras aclaraciones o versiones del pliego si se publican."
+        ],
+        "elementos": [],
+        "tablas": []
+      },
+      {
+        "seccion": "Discrepancias y pendientes de aclaración",
+        "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, equivalencias formales, restricciones de canal, stock mínimo, lead time, EOL/EOS, homologaciones, sostenibilidad, retirada o destrucción de equipos, ni SLA back-to-back. Si estos aspectos son relevantes para la oferta, se recomienda su verificación en futuras aclaraciones o versiones del pliego si se publican."
+      }
+    ],
+    "trazabilidad": [
+      {
+        "Materia": "Compras y suministros",
+        "Requisito completo": "El adjudicatario debe aportar todos los recursos humanos y materiales necesarios para la prestación de los servicios de administración Workplace, incluyendo la gestión, mantenimiento, estandarización, auditoría, innovación y evolución de la administración del puesto de trabajo físico, virtual o de movilidad de Correos y CEX, según lo descrito en el pliego.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 32-34, 63"
+      },
+      {
+        "Materia": "Compras y suministros",
+        "Requisito completo": "El adjudicatario debe administrar y mantener la infraestructura de virtualización, incluyendo más de 12.000 ThinClient HP, impresoras, pistolas lectoras, tabletas digitalizadoras, balanzas, pin-pad, servidores virtuales y físicos, cabinas NetApp, y otros dispositivos relacionados.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 34-35"
+      },
+      {
+        "Materia": "Compras y suministros",
+        "Requisito completo": "El adjudicatario debe administrar y mantener la infraestructura de puesto físico, compuesta por más de 16.000 equipos (68% sobremesa y thinclient, 25% portátiles, 5% dispensadores de turnos y 2% autoservicio) de diferentes fabricantes y sistemas operativos, así como periféricos asociados.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 41"
+      },
+      {
+        "Materia": "Compras y suministros",
+        "Requisito completo": "El adjudicatario debe administrar y mantener la infraestructura de movilidad, incluyendo 34.000 PDA’s Honeywell EDA52 Android 11, 2.000 PDA’s Zebra TC56 Android 8.1, 400 PDA’s Zebra TC57 Android 8.1, 100 PDA’s Zelenza Android 12, 3.100 smartphones Samsung/Xiaomi/Huawei, 130 iPhone >11, 100 tablets Samsung TAB A8 LTE, y plataformas de movilidad asociadas.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 45"
+      },
+      {
+        "Materia": "Compras y suministros",
+        "Requisito completo": "El adjudicatario debe administrar y mantener plataformas de movilidad, incluyendo hosts HP DL360 Proliant GEN10, host Veritas Backup, entornos MDM Workspace One UEM OnPremise de VmWare (en proceso de migración a modalidad SaaS), consolas web de Honeywell, y aplicaciones de movilidad.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 45-46"
+      },
+      {
+        "Materia": "Compras y suministros",
+        "Requisito completo": "El adjudicatario debe preparar, plataformar y enviar material de movilidad a centros de Correos/CEX según necesidades corporativas durante el contrato.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 49"
+      },
+      {
+        "Materia": "Compras y suministros",
+        "Requisito completo": "El adjudicatario debe aportar ordenadores personales para su equipo (mínimo Intel i5 9ª gen, SSD, 8GB RAM, pudiendo requerirse 16GB), software de comunicaciones (Microsoft Office, Teams, herramientas colaborativas), licencias correspondientes y conexión a Internet de banda ancha para trabajo remoto.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 72"
+      },
+      {
+        "Materia": "Compras y suministros",
+        "Requisito completo": "El adjudicatario debe aportar número de teléfono fijo o móvil con conexión directa para cada técnico en remoto, y medios para reuniones virtuales con varios participantes.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 72"
+      },
+      {
+        "Materia": "Compras y suministros",
+        "Requisito completo": "El adjudicatario debe emplear la herramienta corporativa PoST (ITSM Remedy) para la gestión y prestación de servicios, siendo obligatorio su uso correcto para gestión de tareas, tickets, horas de esfuerzo, etc.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 56"
+      },
+      {
+        "Materia": "Compras y suministros",
+        "Requisito completo": "El adjudicatario debe emplear las herramientas de seguimiento que Correos/CEX determinen en cada momento, según la naturaleza del servicio a medir.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 56"
+      },
+      {
+        "Materia": "Compras y suministros",
+        "Requisito completo": "El adjudicatario debe mantener y/o crear toda la documentación técnica y de gestión del servicio, en los repositorios que Correos/CEX indiquen, y migrarla si se implanta otro sistema de documentación durante el contrato.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 38, 44, 49"
+      },
+      {
+        "Materia": "Compras y suministros",
+        "Requisito completo": "El adjudicatario debe aportar y mantener los medios técnicos para trabajo presencial y remoto, asegurando disponibilidad mixta e intercambiable de los técnicos.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 72"
+      },
+      {
+        "Materia": "Fabricantes y referencias",
+        "Requisito completo": "Se exige administración y soporte de productos y plataformas de fabricantes concretos: HP (ThinClient), Citrix (Xenapp, WEM/Analytics), Microsoft (Windows Server, SCCM, MDT, Intune), NetApp (cabinas almacenamiento), Cisco (UCS, switches, routers), VmWare (ESXi, Workspace One UEM), Honeywell (PDA), Zebra (PDA), Zelenza (PDA), Samsung/Xiaomi/Huawei/Apple (smartphones/tablets), SQL Server (BBDD), entre otros.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 34-35, 41, 45, 65-70"
+      },
+      {
+        "Materia": "Fabricantes y referencias",
+        "Requisito completo": "El adjudicatario debe disponer de soporte de fabricantes como Microsoft, NetApp, Cisco, Citrix, etc., para los técnicos asignados cuando se requiera conocimiento muy específico.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63"
+      },
+      {
+        "Materia": "Fabricantes y referencias",
+        "Requisito completo": "Se valoran certificaciones deseables de fabricante para perfiles técnicos: Citrix, Microsoft, NetApp, Cisco, VmWare, entre otros, pero no se exige carta de fabricante ni partnership formal.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 65-70"
+      },
+      {
+        "Materia": "Fabricantes y referencias",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, autorizaciones de canal, equivalencias formales ni requisitos de canal/distribución.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa"
+      },
+      {
+        "Materia": "Licencias y software",
+        "Requisito completo": "El adjudicatario debe aportar las licencias de software necesarias para el funcionamiento de los equipos de su personal (Microsoft Office, Teams, herramientas colaborativas, etc.).",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 72"
+      },
+      {
+        "Materia": "Licencias y software",
+        "Requisito completo": "El adjudicatario debe administrar y mantener las herramientas centralizadas existentes y las que se pudieran implementar durante el servicio para gestión, distribución de software, actualización y configuración de puestos virtuales, físicos y de movilidad (SCCM, HPDM, MDT, DA, INTUNE, MDM, Workspace One UEM, etc.).",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 42, 48, 69-70"
+      },
+      {
+        "Materia": "Licencias y software",
+        "Requisito completo": "El adjudicatario debe administrar la herramienta corporativa PoST (ITSM Remedy) y sus módulos (Help Desk, Change Management, Asset Management, SLM) para la gestión de servicios TI.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 56"
+      },
+      {
+        "Materia": "Licencias y software",
+        "Requisito completo": "El adjudicatario debe administrar y mantener las licencias y actualizaciones de los sistemas operativos y aplicaciones de la infraestructura gestionada, incluyendo parches y upgrades periódicos.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 36-38, 42, 48"
+      },
+      {
+        "Materia": "Licencias y software",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de aportar licencias de software de base de la infraestructura del cliente (por ejemplo, licencias de Citrix, NetApp, SQL Server, Windows Server, etc.), salvo para los equipos propios del adjudicatario.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa"
+      },
+      {
+        "Materia": "Subcontratación y UTE",
+        "Requisito completo": "La subcontratación está permitida, salvo para la gestión y coordinación del servicio (tarea crítica no subcontratable). El adjudicatario debe indicar en la oferta la parte del contrato a subcontratar, su importe y el nombre o perfil empresarial de los subcontratistas.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 25"
+      },
+      {
+        "Materia": "Subcontratación y UTE",
+        "Requisito completo": "El adjudicatario debe comunicar cualquier subcontratación durante la ejecución, justificando la aptitud del subcontratista y acreditando que no incurre en prohibición de contratar.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 25"
+      },
+      {
+        "Materia": "Subcontratación y UTE",
+        "Requisito completo": "Si la subcontratación afecta al tratamiento de datos personales, el subcontratista debe suscribir un contrato de encargo de tratamiento conforme al modelo del Anexo XVI.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 25, 99-105"
+      },
+      {
+        "Materia": "Subcontratación y UTE",
+        "Requisito completo": "En caso de UTE, se debe aportar compromiso de constitución y, si resulta adjudicataria, escritura pública de constitución, CIF y nombramiento de representante.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 11, 18"
+      },
+      {
+        "Materia": "Subcontratación y UTE",
+        "Requisito completo": "El adjudicatario será responsable único del servicio prestado por los proveedores de contratos subrogados.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 52"
+      },
+      {
+        "Materia": "Subcontratación y UTE",
+        "Requisito completo": "Todas las condiciones especiales de ejecución serán exigidas igualmente a todos los subcontratistas que participen en la ejecución, respondiendo el contratista principal en caso de incumplimiento.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 24"
+      },
+      {
+        "Materia": "Subcontratación y UTE",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de alianzas, joint ventures, consorcios, ni restricciones adicionales a la subcontratación más allá de lo indicado.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa"
+      },
+      {
+        "Materia": "Cadena de suministro",
+        "Requisito completo": "El adjudicatario debe preparar, empaquetar y enviar material de movilidad a centros de Correos/CEX según necesidades corporativas, asumiendo la logística asociada.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 49"
+      },
+      {
+        "Materia": "Cadena de suministro",
+        "Requisito completo": "El adjudicatario debe mantener actualizada la documentación de activos tecnológicos, aplicaciones, torres tecnológicas, mapa de interfaces, etc., en los repositorios indicados por Correos/CEX.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 38, 44, 49"
+      },
+      {
+        "Materia": "Cadena de suministro",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de stock mínimo, lead time, EOL/EOS, homologaciones, sostenibilidad, retirada o destrucción de equipos, ni condiciones contractuales específicas sobre la cadena de suministro más allá de la logística de movilidad.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa"
+      },
+      {
+        "Materia": "Garantías y soporte",
+        "Requisito completo": "El adjudicatario debe liderar el diagnóstico de incidencias en todos los ámbitos de la plataforma gestionada, incluyendo la capacidad de involucrar a soportes de fabricantes.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 39, 43, 48"
+      },
+      {
+        "Materia": "Garantías y soporte",
+        "Requisito completo": "El adjudicatario debe realizar pruebas de recuperación periódicas de backups, documentando evidencias y tiempos de recuperación.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 39"
+      },
+      {
+        "Materia": "Garantías y soporte",
+        "Requisito completo": "El adjudicatario debe realizar un plan de mantenimiento/parcheo/evolución de la plataforma de virtualización, revisado y aplicado al menos bianualmente.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 37, 118"
+      },
+      {
+        "Materia": "Garantías y soporte",
+        "Requisito completo": "El adjudicatario debe cumplir los ANS definidos en el Anexo XVII, incluyendo penalizaciones económicas por incumplimiento de indicadores de servicio, tiempos de respuesta y resolución, disponibilidad de recursos, tasa de renovación de equipos, y realización de planes de parcheo.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 111-118"
+      },
+      {
+        "Materia": "Garantías y soporte",
+        "Requisito completo": "El plazo de garantía general es de tres meses desde la recepción de conformidad del servicio.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 28"
+      },
+      {
+        "Materia": "Garantías y soporte",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de soporte NBD, 4h, onsite, ni SLA back-to-back con fabricantes o terceros.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa"
+      },
+      {
+        "Materia": "Discrepancias y pendientes de aclaración",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, equivalencias formales, restricciones de canal, stock mínimo, lead time, EOL/EOS, homologaciones, sostenibilidad, retirada o destrucción de equipos, ni SLA back-to-back.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa"
+      }
+    ],
+    "salida_original": "# Registro documental de preventa\n\n| Materia | Requisito completo | Fuente |\n|---|---|---|\n| Compras y suministros | El adjudicatario debe aportar todos los recursos humanos y materiales necesarios para la prestación de los servicios de administración Workplace, incluyendo la gestión, mantenimiento, estandarización, auditoría, innovación y evolución de la administración del puesto de trabajo físico, virtual o de movilidad de Correos y CEX, según lo descrito en el pliego. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 32-34, 63 |\n| Compras y suministros | El adjudicatario debe administrar y mantener la infraestructura de virtualización, incluyendo más de 12.000 ThinClient HP, impresoras, pistolas lectoras, tabletas digitalizadoras, balanzas, pin-pad, servidores virtuales y físicos, cabinas NetApp, y otros dispositivos relacionados. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 34-35 |\n| Compras y suministros | El adjudicatario debe administrar y mantener la infraestructura de puesto físico, compuesta por más de 16.000 equipos (68% sobremesa y thinclient, 25% portátiles, 5% dispensadores de turnos y 2% autoservicio) de diferentes fabricantes y sistemas operativos, así como periféricos asociados. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 41 |\n| Compras y suministros | El adjudicatario debe administrar y mantener la infraestructura de movilidad, incluyendo 34.000 PDA’s Honeywell EDA52 Android 11, 2.000 PDA’s Zebra TC56 Android 8.1, 400 PDA’s Zebra TC57 Android 8.1, 100 PDA’s Zelenza Android 12, 3.100 smartphones Samsung/Xiaomi/Huawei, 130 iPhone >11, 100 tablets Samsung TAB A8 LTE, y plataformas de movilidad asociadas. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 45 |\n| Compras y suministros | El adjudicatario debe administrar y mantener plataformas de movilidad, incluyendo hosts HP DL360 Proliant GEN10, host Veritas Backup, entornos MDM Workspace One UEM OnPremise de VmWare (en proceso de migración a modalidad SaaS), consolas web de Honeywell, y aplicaciones de movilidad. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 45-46 |\n| Compras y suministros | El adjudicatario debe preparar, plataformar y enviar material de movilidad a centros de Correos/CEX según necesidades corporativas durante el contrato. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 49 |\n| Compras y suministros | El adjudicatario debe aportar ordenadores personales para su equipo (mínimo Intel i5 9ª gen, SSD, 8GB RAM, pudiendo requerirse 16GB), software de comunicaciones (Microsoft Office, Teams, herramientas colaborativas), licencias correspondientes y conexión a Internet de banda ancha para trabajo remoto. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 72 |\n| Compras y suministros | El adjudicatario debe aportar número de teléfono fijo o móvil con conexión directa para cada técnico en remoto, y medios para reuniones virtuales con varios participantes. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 72 |\n| Compras y suministros | El adjudicatario debe emplear la herramienta corporativa PoST (ITSM Remedy) para la gestión y prestación de servicios, siendo obligatorio su uso correcto para gestión de tareas, tickets, horas de esfuerzo, etc. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 56 |\n| Compras y suministros | El adjudicatario debe emplear las herramientas de seguimiento que Correos/CEX determinen en cada momento, según la naturaleza del servicio a medir. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 56 |\n| Compras y suministros | El adjudicatario debe mantener y/o crear toda la documentación técnica y de gestión del servicio, en los repositorios que Correos/CEX indiquen, y migrarla si se implanta otro sistema de documentación durante el contrato. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 38, 44, 49 |\n| Compras y suministros | El adjudicatario debe aportar y mantener los medios técnicos para trabajo presencial y remoto, asegurando disponibilidad mixta e intercambiable de los técnicos. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 72 |\n| Fabricantes y referencias | Se exige administración y soporte de productos y plataformas de fabricantes concretos: HP (ThinClient), Citrix (Xenapp, WEM/Analytics), Microsoft (Windows Server, SCCM, MDT, Intune), NetApp (cabinas almacenamiento), Cisco (UCS, switches, routers), VmWare (ESXi, Workspace One UEM), Honeywell (PDA), Zebra (PDA), Zelenza (PDA), Samsung/Xiaomi/Huawei/Apple (smartphones/tablets), SQL Server (BBDD), entre otros. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 34-35, 41, 45, 65-70 |\n| Fabricantes y referencias | El adjudicatario debe disponer de soporte de fabricantes como Microsoft, NetApp, Cisco, Citrix, etc., para los técnicos asignados cuando se requiera conocimiento muy específico. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63 |\n| Fabricantes y referencias | Se valoran certificaciones deseables de fabricante para perfiles técnicos: Citrix, Microsoft, NetApp, Cisco, VmWare, entre otros, pero no se exige carta de fabricante ni partnership formal. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 65-70 |\n| Fabricantes y referencias | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, autorizaciones de canal, equivalencias formales ni requisitos de canal/distribución. | DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa |\n| Licencias y software | El adjudicatario debe aportar las licencias de software necesarias para el funcionamiento de los equipos de su personal (Microsoft Office, Teams, herramientas colaborativas, etc.). | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 72 |\n| Licencias y software | El adjudicatario debe administrar y mantener las herramientas centralizadas existentes y las que se pudieran implementar durante el servicio para gestión, distribución de software, actualización y configuración de puestos virtuales, físicos y de movilidad (SCCM, HPDM, MDT, DA, INTUNE, MDM, Workspace One UEM, etc.). | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 42, 48, 69-70 |\n| Licencias y software | El adjudicatario debe administrar la herramienta corporativa PoST (ITSM Remedy) y sus módulos (Help Desk, Change Management, Asset Management, SLM) para la gestión de servicios TI. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 56 |\n| Licencias y software | El adjudicatario debe administrar y mantener las licencias y actualizaciones de los sistemas operativos y aplicaciones de la infraestructura gestionada, incluyendo parches y upgrades periódicos. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 36-38, 42, 48 |\n| Licencias y software | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de aportar licencias de software de base de la infraestructura del cliente (por ejemplo, licencias de Citrix, NetApp, SQL Server, Windows Server, etc.), salvo para los equipos propios del adjudicatario. | DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa |\n| Subcontratación y UTE | La subcontratación está permitida, salvo para la gestión y coordinación del servicio (tarea crítica no subcontratable). El adjudicatario debe indicar en la oferta la parte del contrato a subcontratar, su importe y el nombre o perfil empresarial de los subcontratistas. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 25 |\n| Subcontratación y UTE | El adjudicatario debe comunicar cualquier subcontratación durante la ejecución, justificando la aptitud del subcontratista y acreditando que no incurre en prohibición de contratar. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 25 |\n| Subcontratación y UTE | Si la subcontratación afecta al tratamiento de datos personales, el subcontratista debe suscribir un contrato de encargo de tratamiento conforme al modelo del Anexo XVI. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 25, 99-105 |\n| Subcontratación y UTE | En caso de UTE, se debe aportar compromiso de constitución y, si resulta adjudicataria, escritura pública de constitución, CIF y nombramiento de representante. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 11, 18 |\n| Subcontratación y UTE | El adjudicatario será responsable único del servicio prestado por los proveedores de contratos subrogados. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 52 |\n| Subcontratación y UTE | Todas las condiciones especiales de ejecución serán exigidas igualmente a todos los subcontratistas que participen en la ejecución, respondiendo el contratista principal en caso de incumplimiento. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 24 |\n| Subcontratación y UTE | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de alianzas, joint ventures, consorcios, ni restricciones adicionales a la subcontratación más allá de lo indicado. | DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa |\n| Cadena de suministro | El adjudicatario debe preparar, empaquetar y enviar material de movilidad a centros de Correos/CEX según necesidades corporativas, asumiendo la logística asociada. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 49 |\n| Cadena de suministro | El adjudicatario debe mantener actualizada la documentación de activos tecnológicos, aplicaciones, torres tecnológicas, mapa de interfaces, etc., en los repositorios indicados por Correos/CEX. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 38, 44, 49 |\n| Cadena de suministro | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de stock mínimo, lead time, EOL/EOS, homologaciones, sostenibilidad, retirada o destrucción de equipos, ni condiciones contractuales específicas sobre la cadena de suministro más allá de la logística de movilidad. | DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa |\n| Garantías y soporte | El adjudicatario debe liderar el diagnóstico de incidencias en todos los ámbitos de la plataforma gestionada, incluyendo la capacidad de involucrar a soportes de fabricantes. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 39, 43, 48 |\n| Garantías y soporte | El adjudicatario debe realizar pruebas de recuperación periódicas de backups, documentando evidencias y tiempos de recuperación. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 39 |\n| Garantías y soporte | El adjudicatario debe realizar un plan de mantenimiento/parcheo/evolución de la plataforma de virtualización, revisado y aplicado al menos bianualmente. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 37, 118 |\n| Garantías y soporte | El adjudicatario debe cumplir los ANS definidos en el Anexo XVII, incluyendo penalizaciones económicas por incumplimiento de indicadores de servicio, tiempos de respuesta y resolución, disponibilidad de recursos, tasa de renovación de equipos, y realización de planes de parcheo. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 111-118 |\n| Garantías y soporte | El plazo de garantía general es de tres meses desde la recepción de conformidad del servicio. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 28 |\n| Garantías y soporte | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de soporte NBD, 4h, onsite, ni SLA back-to-back con fabricantes o terceros. | DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa |\n| Discrepancias y pendientes de aclaración | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, equivalencias formales, restricciones de canal, stock mínimo, lead time, EOL/EOS, homologaciones, sostenibilidad, retirada o destrucción de equipos, ni SLA back-to-back. | DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa |\n\n## Discrepancias y pendientes de aclaración\n\nNo se han identificado discrepancias en la documentación revisada.\n\nNO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, equivalencias formales, restricciones de canal, stock mínimo, lead time, EOL/EOS, homologaciones, sostenibilidad, retirada o destrucción de equipos, ni SLA back-to-back. Si estos aspectos son relevantes para la oferta, se recomienda su verificación en futuras aclaraciones o versiones del pliego si se publican.",
+    "registro_completo_estructura": true
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 330809,
+        "caracteres_enviados_al_agente": 330809,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Detalle_Licitacion",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 5053,
+        "caracteres_enviados_al_agente": 5053,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Se omitieron 6 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  },
+  "puntos_revision": [
+    {
+      "id": "REV-001",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Admisión, solvencia y acreditaciones",
+      "prioridad": "alta",
+      "detalle": "Revisar admisión, solvencia y acreditaciones: 4 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-001.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Garantías y soporte; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de soporte NBD, 4h, onsite, ni SLA back-to-back con fabricantes o terceros.; Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa",
+          "evidencia": "| Garantías y soporte | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de soporte NBD, 4h, onsite, ni SLA back-to-back con fabricantes o terceros. | DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Discrepancias y pendientes de aclaración; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, equivalencias formales, restricciones de canal, stock mínimo, lead time, EOL/EOS, homologaciones, sostenibilidad, retirada o destrucción de equipos, ni SLA back-to-back.; Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa",
+          "evidencia": "| Discrepancias y pendientes de aclaración | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, equivalencias formales, restricciones de canal, stock mínimo, lead time, EOL/EOS, homologaciones, sostenibilidad, retirada o destrucción de equipos, ni SLA back-to-back. | DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.03",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, equivalencias formales, restricciones de canal, stock mínimo, lead time, EOL/EOS, homologaciones, sostenibilidad, retirada o destrucción de equipos, ni SLA back-to-back. Si estos aspectos son relevantes para la oferta, se recomienda su verificación en futuras aclaraciones o versiones del pliego si se publican.",
+          "evidencia": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, equivalencias formales, restricciones de canal, stock mínimo, lead time, EOL/EOS, homologaciones, sostenibilidad, retirada o destrucción de equipos, ni SLA back-to-back. Si estos aspectos son relevantes para la oferta, se recomienda su verificación en futuras aclaraciones o versiones del pliego si se publican.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.04",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Fabricantes y referencias; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, autorizaciones de canal, equivalencias formales ni requisitos de canal/distribución.; Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa",
+          "evidencia": "| Fabricantes y referencias | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, autorizaciones de canal, equivalencias formales ni requisitos de canal/distribución. | DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa |",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-002",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Equipo, medios y ejecución del servicio",
+      "prioridad": "media",
+      "detalle": "Revisar equipo, medios y ejecución del servicio: 3 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-002.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Licencias y software; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de aportar licencias de software de base de la infraestructura del cliente (por ejemplo, licencias de Citrix, NetApp, SQL Server, Windows Server, etc.), salvo para los equipos propios del adjudicatario.; Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa",
+          "evidencia": "| Licencias y software | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de aportar licencias de software de base de la infraestructura del cliente (por ejemplo, licencias de Citrix, NetApp, SQL Server, Windows Server, etc.), salvo para los equipos propios del adjudicatario. | DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Cadena de suministro; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de stock mínimo, lead time, EOL/EOS, homologaciones, sostenibilidad, retirada o destrucción de equipos, ni condiciones contractuales específicas sobre la cadena de suministro más allá de la logística de movilidad.; Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa",
+          "evidencia": "| Cadena de suministro | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de stock mínimo, lead time, EOL/EOS, homologaciones, sostenibilidad, retirada o destrucción de equipos, ni condiciones contractuales específicas sobre la cadena de suministro más allá de la logística de movilidad. | DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.03",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Subcontratación y UTE; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de alianzas, joint ventures, consorcios, ni restricciones adicionales a la subcontratación más allá de lo indicado.; Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa",
+          "evidencia": "| Subcontratación y UTE | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de alianzas, joint ventures, consorcios, ni restricciones adicionales a la subcontratación más allá de lo indicado. | DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa |",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-003",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Documentación y otras condiciones pendientes",
+      "prioridad": "media",
+      "detalle": "Revisar documentación y otras condiciones pendientes: 1 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-003.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No se han identificado discrepancias en la documentación revisada.",
+          "evidencia": "No se han identificado discrepancias en la documentación revisada.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    }
+  ],
+  "recomendaciones": [],
+  "estado_recomendaciones": "no_generadas"
+}

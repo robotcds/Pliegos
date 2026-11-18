@@ -1,0 +1,956 @@
+{
+  "orden": 7,
+  "id": "A9",
+  "nombre": "Seguridad y protección de datos",
+  "tipo": "extraccion",
+  "ejecucion": "148643ec3cf64b459ff90194acd8bf8e",
+  "estado": "completado",
+  "contenido": {
+    "requisitos_documentales": [
+      {
+        "id": "R0001",
+        "seccion": "ENS: Norma y categoría",
+        "detalle": "Se exige que la plataforma cloud destino cumpla ENS categoría MEDIA.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0002",
+        "seccion": "ENS: Alcance",
+        "detalle": "El alcance de cumplimiento ENS debe incluir administración cloud, pipelines CI/CD, monitorización y soporte.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0003",
+        "seccion": "ENS: Certificación/Declaración",
+        "detalle": "No se exige ENS ALTA.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0004",
+        "seccion": "ENS: Certificación empresa",
+        "detalle": "Se exige que el adjudicatario disponga de ISO 27001.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS; Pliego administrativo OPP-SW-003 migracion cloud, apartado Clasificación y certificaciones",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0005",
+        "seccion": "Datos no localizados y límites de lectura",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "fuente": "Declaración de ausencia del extractor; no acredita una exención contractual.",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0006",
+        "seccion": "Datos no localizados y límites de lectura",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "fuente": "Declaración de ausencia del extractor; no acredita una exención contractual.",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0007",
+        "seccion": "Datos no localizados y límites de lectura",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "fuente": "Declaración de ausencia del extractor; no acredita una exención contractual.",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0008",
+        "seccion": "Datos no localizados y límites de lectura",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "fuente": "Declaración de ausencia del extractor; no acredita una exención contractual.",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0009",
+        "seccion": "Datos no localizados y límites de lectura",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "fuente": "Declaración de ausencia del extractor; no acredita una exención contractual.",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0010",
+        "seccion": "Datos personales: almacenamiento y conservación",
+        "detalle": "Aplicaciones y backups deben estar en regiones UE.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0011",
+        "seccion": "Datos no localizados y límites de lectura",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "fuente": "Declaración de ausencia del extractor; no acredita una exención contractual.",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0012",
+        "seccion": "Datos no localizados y límites de lectura",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "fuente": "Declaración de ausencia del extractor; no acredita una exención contractual.",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0013",
+        "seccion": "Subencargados, cloud, SaaS, CPD, soporte, cadena de suministro",
+        "detalle": "Se requiere inventario de subencargados cloud, soporte remoto y herramientas SaaS.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0014",
+        "seccion": "Subencargados: autorización",
+        "detalle": "Prohibidas transferencias internacionales salvo autorización expresa.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0015",
+        "seccion": "Localización de datos",
+        "detalle": "Aplicaciones y backups en regiones UE.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0016",
+        "seccion": "Transferencias internacionales",
+        "detalle": "Prohibidas transferencias internacionales salvo autorización expresa.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0017",
+        "seccion": "Medidas técnicas: MFA",
+        "detalle": "MFA obligatorio.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0018",
+        "seccion": "Medidas técnicas: PAM",
+        "detalle": "PAM para cuentas privilegiadas.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0019",
+        "seccion": "Medidas técnicas: bastionado",
+        "detalle": "Bastionado de contenedores.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0020",
+        "seccion": "Medidas técnicas: escaneo de imágenes",
+        "detalle": "Escaneo de imágenes.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0021",
+        "seccion": "Medidas técnicas: gestión de secretos",
+        "detalle": "Gestión de secretos.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0022",
+        "seccion": "Medidas técnicas: cifrado",
+        "detalle": "Cifrado de discos.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0023",
+        "seccion": "Medidas técnicas: network policies",
+        "detalle": "Network policies.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0024",
+        "seccion": "Medidas técnicas: WAF",
+        "detalle": "WAF para aplicaciones expuestas.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0025",
+        "seccion": "Medidas técnicas: logs",
+        "detalle": "Logs centralizados 18 meses.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0026",
+        "seccion": "Medidas técnicas: sincronización NTP",
+        "detalle": "Sincronización NTP.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0027",
+        "seccion": "Medidas técnicas: SAST/SCA",
+        "detalle": "SAST/SCA en pipelines y aprobación de excepciones.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0028",
+        "seccion": "Medidas técnicas: backups",
+        "detalle": "Pruebas de backup y simulacro de rollback durante transición.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Transición",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0029",
+        "seccion": "Identidad, accesos, privilegios, altas/bajas, acceso remoto",
+        "detalle": "MFA obligatorio, PAM para cuentas privilegiadas, gestión de secretos, inventario de subencargados cloud y soporte remoto.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0030",
+        "seccion": "Vulnerabilidades, parcheado, CVE, pentesting, EOL/EOS, plazos",
+        "detalle": "CVE crítica en imagen base corregida en ≤ 24 horas; CVE alta en ≤ 7 días.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0031",
+        "seccion": "Incidentes y brechas: definición, canales, responsables, plazos",
+        "detalle": "Incidente cloud crítico: comunicación ≤ 1 hora, RCA en 5 días, evidencias forenses preservadas.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0032",
+        "seccion": "Logging, trazabilidad, retención, SOC/SIEM, continuidad, DR, RTO/RPO, pruebas",
+        "detalle": "Logs centralizados 18 meses; no se exige SOC 24x7, pero sí alertas y guardia en ventanas de migración.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0033",
+        "seccion": "Desarrollo seguro: SDLC, DevSecOps, SAST, DAST, SCA, secretos, OWASP, CI/CD, SBOM",
+        "detalle": "SAST/SCA en pipelines; gestión de secretos; automatización CI/CD como subcriterio de adjudicación.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS; Pliego administrativo OPP-SW-003 migracion cloud, apartado Criterios de adjudicación",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0034",
+        "seccion": "Seguridad del personal, DPO/DPD, EIPD, auditorías, certificaciones, borrado, devolución, confidencialidad",
+        "detalle": "Reversibilidad segura: borrado de credenciales, rotación de secretos, exportación IaC y certificado de eliminación de datos temporales.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0035",
+        "seccion": "Datos no localizados y límites de lectura",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "fuente": "Declaración de ausencia del extractor; no acredita una exención contractual.",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0036",
+        "seccion": "Datos no localizados y límites de lectura",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "fuente": "Declaración de ausencia del extractor; no acredita una exención contractual.",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0037",
+        "seccion": "Datos no localizados y límites de lectura",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "fuente": "Declaración de ausencia del extractor; no acredita una exención contractual.",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0038",
+        "seccion": "Datos no localizados y límites de lectura",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "fuente": "Declaración de ausencia del extractor; no acredita una exención contractual.",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "A9-S0039",
+        "seccion": "Seguridad y protección de datos",
+        "titulo": "Contenido inicial",
+        "detalle": "Registro documental de preventa",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A9",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A9-S0040",
+        "seccion": "Seguridad y protección de datos",
+        "titulo": "Contenido inicial",
+        "detalle": "Discrepancias y pendientes de aclaración:",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A9",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A9-S0041",
+        "seccion": "Seguridad y protección de datos",
+        "titulo": "Contenido inicial",
+        "detalle": "No se han identificado discrepancias en la documentación revisada.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A9",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A9-S0042",
+        "seccion": "Seguridad y protección de datos",
+        "titulo": "Contenido inicial",
+        "detalle": "No consta información sobre categorías de datos personales, finalidad, roles de tratamiento, contenido de acuerdos de encargado/subencargado, DPO/DPD, EIPD, auditorías ni reglas de confidencialidad más allá de las medidas técnicas y de reversibilidad citadas.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A9",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      }
+    ],
+    "resumen": [
+      "Registro documental de preventa",
+      "Discrepancias y pendientes de aclaración:",
+      "No se han identificado discrepancias en la documentación revisada.",
+      "No consta información sobre categorías de datos personales, finalidad, roles de tratamiento, contenido de acuerdos de encargado/subencargado, DPO/DPD, EIPD, auditorías ni reglas de confidencialidad más allá de las medidas técnicas y de reversibilidad citadas."
+    ],
+    "secciones": [
+      {
+        "titulo": "Contenido inicial",
+        "parrafos": [
+          "Registro documental de preventa",
+          "Discrepancias y pendientes de aclaración:",
+          "No se han identificado discrepancias en la documentación revisada.",
+          "No consta información sobre categorías de datos personales, finalidad, roles de tratamiento, contenido de acuerdos de encargado/subencargado, DPO/DPD, EIPD, auditorías ni reglas de confidencialidad más allá de las medidas técnicas y de reversibilidad citadas."
+        ],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Materia",
+              "Requisito completo",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Materia": "ENS: Norma y categoría",
+                "Requisito completo": "Se exige que la plataforma cloud destino cumpla ENS categoría MEDIA.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+              },
+              {
+                "Materia": "ENS: Alcance",
+                "Requisito completo": "El alcance de cumplimiento ENS debe incluir administración cloud, pipelines CI/CD, monitorización y soporte.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+              },
+              {
+                "Materia": "ENS: Certificación/Declaración",
+                "Requisito completo": "No se exige ENS ALTA.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+              },
+              {
+                "Materia": "ENS: Certificación empresa",
+                "Requisito completo": "Se exige que el adjudicatario disponga de ISO 27001.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS; Pliego administrativo OPP-SW-003 migracion cloud, apartado Clasificación y certificaciones"
+              },
+              {
+                "Materia": "ENS: Momento de acreditación",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Fuente": ""
+              },
+              {
+                "Materia": "ENS: Guías citadas",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Fuente": ""
+              },
+              {
+                "Materia": "Datos personales: categorías/interesados",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Fuente": ""
+              },
+              {
+                "Materia": "Datos personales: finalidad",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Fuente": ""
+              },
+              {
+                "Materia": "Datos personales: accesos",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Fuente": ""
+              },
+              {
+                "Materia": "Datos personales: almacenamiento y conservación",
+                "Requisito completo": "Aplicaciones y backups deben estar en regiones UE.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+              },
+              {
+                "Materia": "Rol del adjudicatario en protección de datos",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Fuente": ""
+              },
+              {
+                "Materia": "Acuerdo de encargado/subencargado: contenido exigido",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Fuente": ""
+              },
+              {
+                "Materia": "Subencargados, cloud, SaaS, CPD, soporte, cadena de suministro",
+                "Requisito completo": "Se requiere inventario de subencargados cloud, soporte remoto y herramientas SaaS.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+              },
+              {
+                "Materia": "Subencargados: autorización",
+                "Requisito completo": "Prohibidas transferencias internacionales salvo autorización expresa.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+              },
+              {
+                "Materia": "Localización de datos",
+                "Requisito completo": "Aplicaciones y backups en regiones UE.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+              },
+              {
+                "Materia": "Transferencias internacionales",
+                "Requisito completo": "Prohibidas transferencias internacionales salvo autorización expresa.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+              },
+              {
+                "Materia": "Medidas técnicas: MFA",
+                "Requisito completo": "MFA obligatorio.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+              },
+              {
+                "Materia": "Medidas técnicas: PAM",
+                "Requisito completo": "PAM para cuentas privilegiadas.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+              },
+              {
+                "Materia": "Medidas técnicas: bastionado",
+                "Requisito completo": "Bastionado de contenedores.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+              },
+              {
+                "Materia": "Medidas técnicas: escaneo de imágenes",
+                "Requisito completo": "Escaneo de imágenes.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+              },
+              {
+                "Materia": "Medidas técnicas: gestión de secretos",
+                "Requisito completo": "Gestión de secretos.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+              },
+              {
+                "Materia": "Medidas técnicas: cifrado",
+                "Requisito completo": "Cifrado de discos.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+              },
+              {
+                "Materia": "Medidas técnicas: network policies",
+                "Requisito completo": "Network policies.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+              },
+              {
+                "Materia": "Medidas técnicas: WAF",
+                "Requisito completo": "WAF para aplicaciones expuestas.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+              },
+              {
+                "Materia": "Medidas técnicas: logs",
+                "Requisito completo": "Logs centralizados 18 meses.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+              },
+              {
+                "Materia": "Medidas técnicas: sincronización NTP",
+                "Requisito completo": "Sincronización NTP.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+              },
+              {
+                "Materia": "Medidas técnicas: SAST/SCA",
+                "Requisito completo": "SAST/SCA en pipelines y aprobación de excepciones.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+              },
+              {
+                "Materia": "Medidas técnicas: backups",
+                "Requisito completo": "Pruebas de backup y simulacro de rollback durante transición.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Transición"
+              },
+              {
+                "Materia": "Identidad, accesos, privilegios, altas/bajas, acceso remoto",
+                "Requisito completo": "MFA obligatorio, PAM para cuentas privilegiadas, gestión de secretos, inventario de subencargados cloud y soporte remoto.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+              },
+              {
+                "Materia": "Vulnerabilidades, parcheado, CVE, pentesting, EOL/EOS, plazos",
+                "Requisito completo": "CVE crítica en imagen base corregida en ≤ 24 horas; CVE alta en ≤ 7 días.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+              },
+              {
+                "Materia": "Incidentes y brechas: definición, canales, responsables, plazos",
+                "Requisito completo": "Incidente cloud crítico: comunicación ≤ 1 hora, RCA en 5 días, evidencias forenses preservadas.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+              },
+              {
+                "Materia": "Logging, trazabilidad, retención, SOC/SIEM, continuidad, DR, RTO/RPO, pruebas",
+                "Requisito completo": "Logs centralizados 18 meses; no se exige SOC 24x7, pero sí alertas y guardia en ventanas de migración.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+              },
+              {
+                "Materia": "Desarrollo seguro: SDLC, DevSecOps, SAST, DAST, SCA, secretos, OWASP, CI/CD, SBOM",
+                "Requisito completo": "SAST/SCA en pipelines; gestión de secretos; automatización CI/CD como subcriterio de adjudicación.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS; Pliego administrativo OPP-SW-003 migracion cloud, apartado Criterios de adjudicación"
+              },
+              {
+                "Materia": "Seguridad del personal, DPO/DPD, EIPD, auditorías, certificaciones, borrado, devolución, confidencialidad",
+                "Requisito completo": "Reversibilidad segura: borrado de credenciales, rotación de secretos, exportación IaC y certificado de eliminación de datos temporales.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+              },
+              {
+                "Materia": "Seguridad del personal, DPO/DPD",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Fuente": ""
+              },
+              {
+                "Materia": "EIPD",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Fuente": ""
+              },
+              {
+                "Materia": "Auditorías",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Fuente": ""
+              },
+              {
+                "Materia": "Confidencialidad",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Fuente": ""
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pendientes_y_no_localizados": [
+      {
+        "seccion": "Contenido inicial",
+        "texto": "No consta información sobre categorías de datos personales, finalidad, roles de tratamiento, contenido de acuerdos de encargado/subencargado, DPO/DPD, EIPD, auditorías ni reglas de confidencialidad más allá de las medidas técnicas y de reversibilidad citadas."
+      }
+    ],
+    "trazabilidad": [
+      {
+        "Materia": "ENS: Norma y categoría",
+        "Requisito completo": "Se exige que la plataforma cloud destino cumpla ENS categoría MEDIA.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+      },
+      {
+        "Materia": "ENS: Alcance",
+        "Requisito completo": "El alcance de cumplimiento ENS debe incluir administración cloud, pipelines CI/CD, monitorización y soporte.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+      },
+      {
+        "Materia": "ENS: Certificación/Declaración",
+        "Requisito completo": "No se exige ENS ALTA.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+      },
+      {
+        "Materia": "ENS: Certificación empresa",
+        "Requisito completo": "Se exige que el adjudicatario disponga de ISO 27001.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS; Pliego administrativo OPP-SW-003 migracion cloud, apartado Clasificación y certificaciones"
+      },
+      {
+        "Materia": "ENS: Momento de acreditación",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Fuente": ""
+      },
+      {
+        "Materia": "ENS: Guías citadas",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Fuente": ""
+      },
+      {
+        "Materia": "Datos personales: categorías/interesados",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Fuente": ""
+      },
+      {
+        "Materia": "Datos personales: finalidad",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Fuente": ""
+      },
+      {
+        "Materia": "Datos personales: accesos",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Fuente": ""
+      },
+      {
+        "Materia": "Datos personales: almacenamiento y conservación",
+        "Requisito completo": "Aplicaciones y backups deben estar en regiones UE.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+      },
+      {
+        "Materia": "Rol del adjudicatario en protección de datos",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Fuente": ""
+      },
+      {
+        "Materia": "Acuerdo de encargado/subencargado: contenido exigido",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Fuente": ""
+      },
+      {
+        "Materia": "Subencargados, cloud, SaaS, CPD, soporte, cadena de suministro",
+        "Requisito completo": "Se requiere inventario de subencargados cloud, soporte remoto y herramientas SaaS.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+      },
+      {
+        "Materia": "Subencargados: autorización",
+        "Requisito completo": "Prohibidas transferencias internacionales salvo autorización expresa.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+      },
+      {
+        "Materia": "Localización de datos",
+        "Requisito completo": "Aplicaciones y backups en regiones UE.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+      },
+      {
+        "Materia": "Transferencias internacionales",
+        "Requisito completo": "Prohibidas transferencias internacionales salvo autorización expresa.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+      },
+      {
+        "Materia": "Medidas técnicas: MFA",
+        "Requisito completo": "MFA obligatorio.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+      },
+      {
+        "Materia": "Medidas técnicas: PAM",
+        "Requisito completo": "PAM para cuentas privilegiadas.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+      },
+      {
+        "Materia": "Medidas técnicas: bastionado",
+        "Requisito completo": "Bastionado de contenedores.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+      },
+      {
+        "Materia": "Medidas técnicas: escaneo de imágenes",
+        "Requisito completo": "Escaneo de imágenes.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+      },
+      {
+        "Materia": "Medidas técnicas: gestión de secretos",
+        "Requisito completo": "Gestión de secretos.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+      },
+      {
+        "Materia": "Medidas técnicas: cifrado",
+        "Requisito completo": "Cifrado de discos.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+      },
+      {
+        "Materia": "Medidas técnicas: network policies",
+        "Requisito completo": "Network policies.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+      },
+      {
+        "Materia": "Medidas técnicas: WAF",
+        "Requisito completo": "WAF para aplicaciones expuestas.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+      },
+      {
+        "Materia": "Medidas técnicas: logs",
+        "Requisito completo": "Logs centralizados 18 meses.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+      },
+      {
+        "Materia": "Medidas técnicas: sincronización NTP",
+        "Requisito completo": "Sincronización NTP.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+      },
+      {
+        "Materia": "Medidas técnicas: SAST/SCA",
+        "Requisito completo": "SAST/SCA en pipelines y aprobación de excepciones.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+      },
+      {
+        "Materia": "Medidas técnicas: backups",
+        "Requisito completo": "Pruebas de backup y simulacro de rollback durante transición.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Transición"
+      },
+      {
+        "Materia": "Identidad, accesos, privilegios, altas/bajas, acceso remoto",
+        "Requisito completo": "MFA obligatorio, PAM para cuentas privilegiadas, gestión de secretos, inventario de subencargados cloud y soporte remoto.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+      },
+      {
+        "Materia": "Vulnerabilidades, parcheado, CVE, pentesting, EOL/EOS, plazos",
+        "Requisito completo": "CVE crítica en imagen base corregida en ≤ 24 horas; CVE alta en ≤ 7 días.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+      },
+      {
+        "Materia": "Incidentes y brechas: definición, canales, responsables, plazos",
+        "Requisito completo": "Incidente cloud crítico: comunicación ≤ 1 hora, RCA en 5 días, evidencias forenses preservadas.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+      },
+      {
+        "Materia": "Logging, trazabilidad, retención, SOC/SIEM, continuidad, DR, RTO/RPO, pruebas",
+        "Requisito completo": "Logs centralizados 18 meses; no se exige SOC 24x7, pero sí alertas y guardia en ventanas de migración.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+      },
+      {
+        "Materia": "Desarrollo seguro: SDLC, DevSecOps, SAST, DAST, SCA, secretos, OWASP, CI/CD, SBOM",
+        "Requisito completo": "SAST/SCA en pipelines; gestión de secretos; automatización CI/CD como subcriterio de adjudicación.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS; Pliego administrativo OPP-SW-003 migracion cloud, apartado Criterios de adjudicación"
+      },
+      {
+        "Materia": "Seguridad del personal, DPO/DPD, EIPD, auditorías, certificaciones, borrado, devolución, confidencialidad",
+        "Requisito completo": "Reversibilidad segura: borrado de credenciales, rotación de secretos, exportación IaC y certificado de eliminación de datos temporales.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS"
+      },
+      {
+        "Materia": "Seguridad del personal, DPO/DPD",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Fuente": ""
+      },
+      {
+        "Materia": "EIPD",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Fuente": ""
+      },
+      {
+        "Materia": "Auditorías",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Fuente": ""
+      },
+      {
+        "Materia": "Confidencialidad",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Fuente": ""
+      }
+    ],
+    "salida_original": "Registro documental de preventa\n\n| Materia | Requisito completo | Fuente |\n|---|---|---|\n| ENS: Norma y categoría | Se exige que la plataforma cloud destino cumpla ENS categoría MEDIA. | Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS |\n| ENS: Alcance | El alcance de cumplimiento ENS debe incluir administración cloud, pipelines CI/CD, monitorización y soporte. | Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS |\n| ENS: Certificación/Declaración | No se exige ENS ALTA. | Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS |\n| ENS: Certificación empresa | Se exige que el adjudicatario disponga de ISO 27001. | Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS; Pliego administrativo OPP-SW-003 migracion cloud, apartado Clasificación y certificaciones |\n| ENS: Momento de acreditación | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| ENS: Guías citadas | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Datos personales: categorías/interesados | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Datos personales: finalidad | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Datos personales: accesos | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Datos personales: almacenamiento y conservación | Aplicaciones y backups deben estar en regiones UE. | Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS |\n| Rol del adjudicatario en protección de datos | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Acuerdo de encargado/subencargado: contenido exigido | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Subencargados, cloud, SaaS, CPD, soporte, cadena de suministro | Se requiere inventario de subencargados cloud, soporte remoto y herramientas SaaS. | Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS |\n| Subencargados: autorización | Prohibidas transferencias internacionales salvo autorización expresa. | Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS |\n| Localización de datos | Aplicaciones y backups en regiones UE. | Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS |\n| Transferencias internacionales | Prohibidas transferencias internacionales salvo autorización expresa. | Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS |\n| Medidas técnicas: MFA | MFA obligatorio. | Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS |\n| Medidas técnicas: PAM | PAM para cuentas privilegiadas. | Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS |\n| Medidas técnicas: bastionado | Bastionado de contenedores. | Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS |\n| Medidas técnicas: escaneo de imágenes | Escaneo de imágenes. | Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS |\n| Medidas técnicas: gestión de secretos | Gestión de secretos. | Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS |\n| Medidas técnicas: cifrado | Cifrado de discos. | Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS |\n| Medidas técnicas: network policies | Network policies. | Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS |\n| Medidas técnicas: WAF | WAF para aplicaciones expuestas. | Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS |\n| Medidas técnicas: logs | Logs centralizados 18 meses. | Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS |\n| Medidas técnicas: sincronización NTP | Sincronización NTP. | Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS |\n| Medidas técnicas: SAST/SCA | SAST/SCA en pipelines y aprobación de excepciones. | Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS |\n| Medidas técnicas: backups | Pruebas de backup y simulacro de rollback durante transición. | Pliego técnico OPP-SW-003 migracion cloud, apartado Transición |\n| Identidad, accesos, privilegios, altas/bajas, acceso remoto | MFA obligatorio, PAM para cuentas privilegiadas, gestión de secretos, inventario de subencargados cloud y soporte remoto. | Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS |\n| Vulnerabilidades, parcheado, CVE, pentesting, EOL/EOS, plazos | CVE crítica en imagen base corregida en ≤ 24 horas; CVE alta en ≤ 7 días. | Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS |\n| Incidentes y brechas: definición, canales, responsables, plazos | Incidente cloud crítico: comunicación ≤ 1 hora, RCA en 5 días, evidencias forenses preservadas. | Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS |\n| Logging, trazabilidad, retención, SOC/SIEM, continuidad, DR, RTO/RPO, pruebas | Logs centralizados 18 meses; no se exige SOC 24x7, pero sí alertas y guardia en ventanas de migración. | Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS |\n| Desarrollo seguro: SDLC, DevSecOps, SAST, DAST, SCA, secretos, OWASP, CI/CD, SBOM | SAST/SCA en pipelines; gestión de secretos; automatización CI/CD como subcriterio de adjudicación. | Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS; Pliego administrativo OPP-SW-003 migracion cloud, apartado Criterios de adjudicación |\n| Seguridad del personal, DPO/DPD, EIPD, auditorías, certificaciones, borrado, devolución, confidencialidad | Reversibilidad segura: borrado de credenciales, rotación de secretos, exportación IaC y certificado de eliminación de datos temporales. | Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS |\n| Seguridad del personal, DPO/DPD | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| EIPD | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Auditorías | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Confidencialidad | NO CONSTA EN LA DOCUMENTACION REVISADA |\n\nDiscrepancias y pendientes de aclaración:\nNo se han identificado discrepancias en la documentación revisada.\nNo consta información sobre categorías de datos personales, finalidad, roles de tratamiento, contenido de acuerdos de encargado/subencargado, DPO/DPD, EIPD, auditorías ni reglas de confidencialidad más allá de las medidas técnicas y de reversibilidad citadas.",
+    "registro_completo_estructura": true
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "Pliego administrativo OPP-SW-003 migracion cloud",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 4508,
+        "caracteres_enviados_al_agente": 4508,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Pliego tecnico OPP-SW-003 migracion cloud",
+        "tipo": "Pliego tecnico",
+        "fuente": "XML",
+        "caracteres_extraidos": 3727,
+        "caracteres_enviados_al_agente": 3727,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "Anexo solvencia OPP-SW-003 migracion cloud",
+        "tipo": "Documento general",
+        "fuente": "XML",
+        "caracteres_extraidos": 825,
+        "caracteres_enviados_al_agente": 825,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": []
+  },
+  "puntos_revision": [
+    {
+      "id": "REV-001",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Seguridad, certificaciones y protección de datos",
+      "prioridad": "media",
+      "detalle": "Revisar seguridad, certificaciones y protección de datos: 8 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-001.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Datos personales: categorías/interesados; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| Datos personales: categorías/interesados | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Datos personales: finalidad; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| Datos personales: finalidad | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.03",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Datos personales: accesos; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| Datos personales: accesos | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.04",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Seguridad del personal, DPO/DPD; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| Seguridad del personal, DPO/DPD | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.05",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "No consta información sobre categorías de datos personales, finalidad, roles de tratamiento, contenido de acuerdos de encargado/subencargado, DPO/DPD, EIPD, auditorías ni reglas de confidencialidad más allá de las medidas técnicas y de reversibilidad citadas.",
+          "evidencia": "No consta información sobre categorías de datos personales, finalidad, roles de tratamiento, contenido de acuerdos de encargado/subencargado, DPO/DPD, EIPD, auditorías ni reglas de confidencialidad más allá de las medidas técnicas y de reversibilidad citadas.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.06",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: ENS: Momento de acreditación; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| ENS: Momento de acreditación | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.07",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: ENS: Guías citadas; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| ENS: Guías citadas | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.08",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Confidencialidad; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| Confidencialidad | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-002",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Documentación y otras condiciones pendientes",
+      "prioridad": "media",
+      "detalle": "Revisar documentación y otras condiciones pendientes: 5 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-002.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Rol del adjudicatario en protección de datos; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| Rol del adjudicatario en protección de datos | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Acuerdo de encargado/subencargado: contenido exigido; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| Acuerdo de encargado/subencargado: contenido exigido | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.03",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: EIPD; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| EIPD | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.04",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Auditorías; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| Auditorías | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.05",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "No se han identificado discrepancias en la documentación revisada.",
+          "evidencia": "No se han identificado discrepancias en la documentación revisada.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    }
+  ],
+  "recomendaciones": [],
+  "estado_recomendaciones": "no_generadas"
+}

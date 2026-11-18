@@ -1,0 +1,48 @@
+# Registro documental de preventa
+
+| Materia | Requisito completo | Fuente |
+|---|---|---|
+| Criterios de adjudicación: resumen factual | La adjudicación se realiza por pluralidad de criterios: Mejor Relación Calidad-Precio. La puntuación final es la suma de los criterios sujetos a juicio de valor y los criterios evaluables mediante fórmula o automáticamente. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.10-11, Anexo IX, X |
+| Criterios de adjudicación: bloques y pesos | Criterios sujetos a juicio de valor (Anexo IX): Técnico, 27%. Criterios evaluables mediante fórmula o automáticamente (Anexo X): Técnico, 3%. Económico, 70%. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.10-11, Anexo IX, X |
+| Criterios de adjudicación: distribución de puntos | Criterios sujetos a juicio de valor: máximo 27 puntos. Criterios automáticos técnicos: máximo 3 puntos. Criterio económico: máximo 70 puntos. Total: 100 puntos. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.10-11, Anexo IX, X |
+| Criterios automáticos: técnico | Criterio: Acuerdo de Niveles de Servicio (ANS). Subcriterio: Mejora en los Niveles de Servicio solicitados en el Anexo XVII – Evaluación de Proveedores. Puntuación: 0 a 3 puntos. Se obtendrá 0,5 puntos por cada Indicador mejorado hasta un máximo de 3 puntos. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.86-87 |
+| Criterios automáticos: económico | Criterio: Oferta económica. Puntuación máxima: 70 puntos. Fórmula: La puntuación económica se obtiene de acuerdo con el criterio de proporcionalidad variable en función del rango de descuento. Sea el descuento de la oferta n = DtoN, obtenido en base al PL (Presupuesto de Licitación) y el POn (Presupuesto de la Oferta n) y que se calcula de la siguiente manera: DtoN = (PL - POn) / PL × 100. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87-88 |
+| Criterios automáticos: fórmula de puntuación económica | Fórmulas por tramos: 
+- Si DtoN ≥ 0 y DtoN ≤ 10: PEn = DtoN × 50 / 10
+- Si DtoN > 10 y DtoN ≤ 25: PEn = (DtoN - 10) × 20 / 15 + 50
+- Si DtoN > 25 y DtoN ≤ 30: PEn = (DtoN - 25) × -70 / 5 + 70
+- Si DtoN > 30: PEn = 0
+Variables: DtoN = descuento de la oferta N; PL = presupuesto de licitación; POn = presupuesto oferta n. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.88 |
+| Criterios automáticos: reglas de redondeo | Todas las puntuaciones serán redondeadas al segundo decimal. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86 |
+| Criterios automáticos: umbrales y topes | El máximo de puntos por criterio económico es 70. El máximo de puntos por criterio técnico automático es 3. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.86-88 |
+| Mejoras automáticas: ANS | Se obtendrá 0,5 puntos por cada Indicador mejorado en los ANS, hasta un máximo de 3 puntos. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.86-87 |
+| Criterios sujetos a juicio de valor: Solución técnica del servicio | Criterio: Solución técnica del servicio. Puntuación máxima: 16 puntos. Subcriterios: 1.1 Descripción y detalle del alcance completo de los servicios solicitados en el pliego (0-9 puntos, con desglose: 3 por detalle y adecuación, 1 por modelo relación cliente-proveedor, 2 por optimización y mejora continua, 2 por plan de subcontratación, 1 por gestión del conocimiento); 1.2 Descripción del modelo de gobierno de entrega del servicio (0-3 puntos, 1 por cada aspecto detallado); 1.3 Plan propuesto para la transición del servicio (0-2 puntos, 1,5 por detalle y adecuación, 0,5 si el tiempo es inferior a 30 días); 1.4 Plan propuesto para la reversión del servicio (0-2 puntos, 1 por detalle y adecuación, 1 si el equipo de reversión es >5 personas). | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.84-85 |
+| Criterios sujetos a juicio de valor: Características y conocimientos del equipo de trabajo | Criterio: Características y conocimientos del equipo de trabajo asociados a la prestación del servicio. Puntuación máxima: 11 puntos. Subcriterios: 2.1 Propuesta organizativa y descripción del equipo de trabajo con características adicionales a las requeridas en la fase de solvencia (0-4 puntos, a mayor detalle, mayor número de recursos y menor precio, mayor puntuación); 2.2 Incremento de Horas ofrecidas sobre las necesidades estimadas (0-7 puntos, 5 para la mejor oferta, puntuación proporcional al resto, 2 adicionales a mayor número de mejoras). | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.85-86 |
+| Criterios sujetos a juicio de valor: fórmula de puntuación técnica | La puntuación técnica de la oferta estará constituida por la suma de las puntuaciones finales asignadas a cada uno de los bloques de criterios técnicos, con un máximo de 27 puntos. Una vez obtenida la valoración técnica de las “n” ofertas, se obtiene la Puntuación Técnica (PT) a partir de la siguiente expresión: PTn = PTm × VTn / VTm, donde PT= Puntuación técnica oferta “n”, PTm= Puntuación técnica máxima (27), VTn = Valoración técnica de la oferta “n”, VTm = Valoración técnica más alta. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86 |
+| Criterios sujetos a juicio de valor: reglas de redondeo | Todas las puntuaciones serán redondeadas al segundo decimal. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86 |
+| Umbrales mínimos o causas de exclusión ligadas a criterios | No se han localizado umbrales mínimos de puntuación o causas de exclusión automáticas ligadas a los criterios de adjudicación, más allá de la exclusión por no presentar la documentación o por no cumplir los requisitos mínimos de solvencia y adscripción de medios. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, X, p.10-12 |
+| Régimen de ofertas anormalmente bajas | Se considerará que una proposición económica es anormalmente baja cuando incluya un porcentaje de baja que, respecto de la media aritmética de los porcentajes de baja de todas las ofertas admitidas, o del presupuesto de licitación en caso de licitador único, exceda de diez unidades porcentuales. En caso de identificarse, se solicitará justificación por escrito en 5 días hábiles. Si no se recibe, se entenderá retirada la oferta. Si la justificación no es aceptada, se adjudicará al siguiente mejor clasificado. Si la oferta anormalmente baja resulta adjudicataria, deberá constituir garantía complementaria del 5% del importe de adjudicación (IVA excluido). | DOC20240806095753Pliegodefinitivofirmado.pdf, p.16, 18 |
+| Criterios de desempate | En caso de empate, se acudirá a lo dispuesto en el artículo 66.11 del Real Decreto Ley 3/2020 de 4 de febrero. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.11 |
+| Documentos revisados | 1. ANEXO I.pdf; 2. Anuncio.pdf; 3. DOC20240806095753Pliegodefinitivofirmado.pdf; 4. DOC_CD2024-000901195.pdf; 5. poc (detalle licitación); 6. poc (perfil contratante); 7. CORREOS-Codigo-General-de-Conducta.pdf (no leído, error 404); 8. perfil-contratante; 9. PoliticaProteccionDatosCanalEticoClientesyProveedores--ES.pdf | Índice obligatorio de documentos procesados |
+
+# Discrepancias y pendientes de aclaración
+- No se han identificado discrepancias en la documentación revisada.
+- El documento "CORREOS-Codigo-General-de-Conducta.pdf" no ha podido ser leído por error 404; cualquier remisión a su contenido queda pendiente de verificación documental.
+
+# Trazabilidad de criterios y reglas
+| Requisito/dato | Tipo | Valor/condición | Documento | Página/apartado | Estado de lectura |
+|---|---|---|---|---|---|
+| Pluralidad de criterios | Regla general | Mejor Relación Calidad-Precio, suma de criterios técnicos y económicos | DOC20240806095753Pliegodefinitivofirmado.pdf | p.10-11 | Leído |
+| Criterios sujetos a juicio de valor | Bloque | 27% (máx. 27 puntos) | DOC20240806095753Pliegodefinitivofirmado.pdf | p.10-11, Anexo IX | Leído |
+| Criterios automáticos técnicos | Bloque | 3% (máx. 3 puntos) | DOC20240806095753Pliegodefinitivofirmado.pdf | p.10-11, Anexo X | Leído |
+| Criterio económico | Bloque | 70% (máx. 70 puntos) | DOC20240806095753Pliegodefinitivofirmado.pdf | p.10-11, Anexo X | Leído |
+| Fórmula puntuación económica | Fórmula | Tramos y fórmulas documentadas | DOC20240806095753Pliegodefinitivofirmado.pdf | Anexo X, p.88 | Leído |
+| Fórmula puntuación técnica | Fórmula | PTn = PTm × VTn / VTm | DOC20240806095753Pliegodefinitivofirmado.pdf | Anexo IX, p.86 | Leído |
+| Mejoras automáticas ANS | Regla | 0,5 puntos por indicador mejorado, máx. 3 puntos | DOC20240806095753Pliegodefinitivofirmado.pdf | Anexo X, p.86-87 | Leído |
+| Redondeo | Regla | Segundo decimal | DOC20240806095753Pliegodefinitivofirmado.pdf | Anexo IX, p.86 | Leído |
+| Ofertas anormalmente bajas | Regla | >10 puntos porcentuales sobre la media de bajas | DOC20240806095753Pliegodefinitivofirmado.pdf | p.16 | Leído |
+| Criterios de desempate | Regla | Art. 66.11 RDL 3/2020 | DOC20240806095753Pliegodefinitivofirmado.pdf | p.11 | Leído |
+| Documentos revisados | Control | Listado completo de 9 documentos | Índice obligatorio | - | Leído |
+
+# Nota final
+No se han localizado umbrales mínimos de puntuación o causas de exclusión automáticas ligadas a los criterios de adjudicación, más allá de la exclusión por no presentar la documentación o por no cumplir los requisitos mínimos de solvencia y adscripción de medios. No se han identificado discrepancias internas en los criterios de adjudicación. El documento "CORREOS-Codigo-General-de-Conducta.pdf" no ha podido ser leído y cualquier remisión a su contenido queda pendiente de verificación.

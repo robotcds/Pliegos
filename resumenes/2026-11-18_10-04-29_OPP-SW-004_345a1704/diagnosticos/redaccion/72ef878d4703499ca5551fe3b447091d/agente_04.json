@@ -1,0 +1,142 @@
+{
+  "orden": 4,
+  "id": "A4",
+  "nombre": "Criterios de adjudicación",
+  "tipo": "extraccion",
+  "ejecucion": "345a1704198e4ea8813735b477273d93",
+  "estado": "completado",
+  "contenido": {
+    "salida_original": "# Registro documental de preventa\n\n| Materia | Requisito completo | Fuente |\n|---------|--------------------|--------|\n| Criterios de adjudicación | El total de puntos de los criterios de adjudicación es 100 puntos. | Pliego administrativo OPP-SW-004 mantenimiento Java, apartado \"Criterios de adjudicación\" |\n| Criterios de adjudicación | Criterio: Precio. Peso: 55 puntos. La puntuación económica se obtiene mediante proporcionalidad variable en función del rango de descuento. Fórmula: DtoN = (PL - POn) / PL x 100, donde PL es el presupuesto de licitación y POn es el presupuesto de la oferta n. Para este expediente se establecen los rangos Dto1=8%, Dto2=15%, Dto3=22%, PE1=35, PE2=55, PE3=0. Reglas: si 0 <= DtoN <= 8, PEn = DtoN x 35 / 8; si 8 < DtoN <= 15, PEn = (DtoN - 8) x 20 / 7 + 35; si 15 < DtoN <= 22, PEn = (DtoN - 15) x -55 / 7 + 55; si DtoN > 22, PEn = 0. | Pliego administrativo OPP-SW-004 mantenimiento Java, apartado \"Criterios de adjudicación\" y \"Anexo económico-financiero\" |\n| Criterios de adjudicación | Criterio: Mejoras SLA automáticas. Peso: 18 puntos. Subcriterios: Respuesta crítica en 2 horas (6 puntos), resolución crítica en 24 horas (6 puntos), seguimiento semanal de incidencias (3 puntos), cuadro de mando mensual (3 puntos). Dentro del subapartado ANS mejorados se obtendrá 0,5 puntos por cada indicador mejorado hasta un máximo de 3 puntos. | Pliego administrativo OPP-SW-004 mantenimiento Java, apartado \"Criterios de adjudicación\" |\n| Criterios de adjudicación | Criterio: Modelo de servicio. Peso: 15 puntos. Se valoran organización, escalado, gobierno del servicio, gestión documental y calidad. No existe umbral técnico mínimo, pero las ofertas que no alcancen 8 puntos en modelo de servicio podrán recibir valoración técnica muy baja. | Pliego administrativo OPP-SW-004 mantenimiento Java, apartado \"Criterios de adjudicación\" |\n| Criterios de adjudicación | Criterio: Plan de transición. Peso: 7 puntos. Se valoran toma de control, transferencia, riesgos y continuidad. | Pliego administrativo OPP-SW-004 mantenimiento Java, apartado \"Criterios de adjudicación\" |\n| Criterios de adjudicación | Criterio: Bolsa de horas adicional. Peso: 5 puntos. Se otorga 1 punto por cada 20 horas adicionales ofertadas, hasta un máximo de 100 horas. | Pliego administrativo OPP-SW-004 mantenimiento Java, apartado \"Criterios de adjudicación\" |\n| Criterios de adjudicación | No existe umbral técnico mínimo, pero las ofertas que no alcancen 8 puntos en modelo de servicio podrán recibir valoración técnica muy baja. | Pliego administrativo OPP-SW-004 mantenimiento Java, apartado \"Criterios de adjudicación\" |\n| Criterios de adjudicación | La suma de los pesos de los criterios es 100 puntos (cálculo derivado: 55+18+15+7+5=100). | Pliego administrativo OPP-SW-004 mantenimiento Java, apartado \"Criterios de adjudicación\" |\n| Criterios de adjudicación | Régimen de ofertas anormalmente bajas: oferta inferior al 85% del presupuesto de licitación o desviación relevante respecto a la media requerirá justificación. | Pliego administrativo OPP-SW-004 mantenimiento Java, \"Anexo económico-financiero\" |\n| Criterios de adjudicación | Los criterios de adjudicación aplicables son los definidos en el pliego administrativo y en el anexo económico-financiero: precio 55 puntos, mejoras SLA automáticas 18 puntos, modelo de servicio 15 puntos, plan de transición 7 puntos y bolsa de horas adicional 5 puntos. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado \"Criterios\" |\n\n# Discrepancias y pendientes de aclaración\nNo se han identificado discrepancias en la documentación revisada.",
+    "registro_completo_estructura": true,
+    "requisitos_documentales": [
+      {
+        "id": "R0001",
+        "seccion": "Criterios de adjudicación",
+        "detalle": "El total de puntos de los criterios de adjudicación es 100 puntos.",
+        "fuente": "Pliego administrativo OPP-SW-004 mantenimiento Java, apartado \"Criterios de adjudicación\"",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0002",
+        "seccion": "Criterios de adjudicación",
+        "detalle": "Criterio: Precio. Peso: 55 puntos. La puntuación económica se obtiene mediante proporcionalidad variable en función del rango de descuento. Fórmula: DtoN = (PL - POn) / PL x 100, donde PL es el presupuesto de licitación y POn es el presupuesto de la oferta n. Para este expediente se establecen los rangos Dto1=8%, Dto2=15%, Dto3=22%, PE1=35, PE2=55, PE3=0. Reglas: si 0 <= DtoN <= 8, PEn = DtoN x 35 / 8; si 8 < DtoN <= 15, PEn = (DtoN - 8) x 20 / 7 + 35; si 15 < DtoN <= 22, PEn = (DtoN - 15) x -55 / 7 + 55; si DtoN > 22, PEn = 0.",
+        "fuente": "Pliego administrativo OPP-SW-004 mantenimiento Java, apartado \"Criterios de adjudicación\" y \"Anexo económico-financiero\"",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0003",
+        "seccion": "Criterios de adjudicación",
+        "detalle": "Criterio: Mejoras SLA automáticas. Peso: 18 puntos. Subcriterios: Respuesta crítica en 2 horas (6 puntos), resolución crítica en 24 horas (6 puntos), seguimiento semanal de incidencias (3 puntos), cuadro de mando mensual (3 puntos). Dentro del subapartado ANS mejorados se obtendrá 0,5 puntos por cada indicador mejorado hasta un máximo de 3 puntos.",
+        "fuente": "Pliego administrativo OPP-SW-004 mantenimiento Java, apartado \"Criterios de adjudicación\"",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0004",
+        "seccion": "Criterios de adjudicación",
+        "detalle": "Criterio: Modelo de servicio. Peso: 15 puntos. Se valoran organización, escalado, gobierno del servicio, gestión documental y calidad. No existe umbral técnico mínimo, pero las ofertas que no alcancen 8 puntos en modelo de servicio podrán recibir valoración técnica muy baja.",
+        "fuente": "Pliego administrativo OPP-SW-004 mantenimiento Java, apartado \"Criterios de adjudicación\"",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0005",
+        "seccion": "Criterios de adjudicación",
+        "detalle": "Criterio: Plan de transición. Peso: 7 puntos. Se valoran toma de control, transferencia, riesgos y continuidad.",
+        "fuente": "Pliego administrativo OPP-SW-004 mantenimiento Java, apartado \"Criterios de adjudicación\"",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0006",
+        "seccion": "Criterios de adjudicación",
+        "detalle": "Criterio: Bolsa de horas adicional. Peso: 5 puntos. Se otorga 1 punto por cada 20 horas adicionales ofertadas, hasta un máximo de 100 horas.",
+        "fuente": "Pliego administrativo OPP-SW-004 mantenimiento Java, apartado \"Criterios de adjudicación\"",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0007",
+        "seccion": "Criterios de adjudicación",
+        "detalle": "No existe umbral técnico mínimo, pero las ofertas que no alcancen 8 puntos en modelo de servicio podrán recibir valoración técnica muy baja.",
+        "fuente": "Pliego administrativo OPP-SW-004 mantenimiento Java, apartado \"Criterios de adjudicación\"",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0008",
+        "seccion": "Criterios de adjudicación",
+        "detalle": "La suma de los pesos de los criterios es 100 puntos (cálculo derivado: 55+18+15+7+5=100).",
+        "fuente": "Pliego administrativo OPP-SW-004 mantenimiento Java, apartado \"Criterios de adjudicación\"",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0009",
+        "seccion": "Criterios de adjudicación",
+        "detalle": "Régimen de ofertas anormalmente bajas: oferta inferior al 85% del presupuesto de licitación o desviación relevante respecto a la media requerirá justificación.",
+        "fuente": "Pliego administrativo OPP-SW-004 mantenimiento Java, \"Anexo económico-financiero\"",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0010",
+        "seccion": "Criterios de adjudicación",
+        "detalle": "Los criterios de adjudicación aplicables son los definidos en el pliego administrativo y en el anexo económico-financiero: precio 55 puntos, mejoras SLA automáticas 18 puntos, modelo de servicio 15 puntos, plan de transición 7 puntos y bolsa de horas adicional 5 puntos.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado \"Criterios\"",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "A4-S0011",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No se han identificado discrepancias en la documentación revisada.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      }
+    ]
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "Pliego administrativo OPP-SW-004 mantenimiento Java",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 4922,
+        "caracteres_enviados_al_agente": 4922,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Pliego tecnico OPP-SW-004 mantenimiento Java",
+        "tipo": "Pliego tecnico",
+        "fuente": "XML",
+        "caracteres_extraidos": 4709,
+        "caracteres_enviados_al_agente": 4709,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "Anexo solvencia OPP-SW-004 mantenimiento Java",
+        "tipo": "Documento general",
+        "fuente": "XML",
+        "caracteres_extraidos": 779,
+        "caracteres_enviados_al_agente": 779,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": []
+  }
+}

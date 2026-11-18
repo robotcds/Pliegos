@@ -1,0 +1,586 @@
+{
+  "orden": 5,
+  "id": "A6",
+  "nombre": "Requisitos del servicio",
+  "tipo": "extraccion",
+  "estado": "completado",
+  "contenido": {
+    "resumen": [
+      "RESUMEN FACTUAL DEL SERVICIO REQUERIDO",
+      "ALCANCE Y VOLUMETRÍAS",
+      "Servicio: Solución SaaS de inteligencia meteorológica y gestión de riesgos naturales | 1 servicio | 24 meses | ANEXO I, pág. 3, 21",
+      "Usuarios: Mínimo 15 usuarios nominativos, ampliables | usuarios | Vigencia del contrato | ANEXO I, pág. 4",
+      "Perfiles: Administración, operación, análisis, consulta | perfiles funcionales | Vigencia del contrato | ANEXO I, pág. 4",
+      "Acceso: Web seguro desde navegadores corporativos | acceso web | Vigencia del contrato | ANEXO I, pág. 4",
+      "Cobertura: RENFE-Operadora y ámbitos relacionados con la operación ferroviaria | ámbito | Vigencia del contrato | ANEXO I, pág. 3",
+      "Horario de soporte: 8 horas diarias, 7 días/semana | soporte | Vigencia del contrato | ANEXO I, pág. 16",
+      "MODELO DE SERVICIO EXIGIDO",
+      "Modalidad SaaS, sin despliegue de infraestructura física en RENFE | ANEXO I, pág. 3",
+      "Incluye alojamiento, operación, actualización, mantenimiento, soporte | ANEXO I, pág. 3-4",
+      "Centro de soporte accesible por portal, correo electrónico y teléfono | ANEXO I, pág. 16"
+    ],
+    "secciones": [
+      {
+        "titulo": "Contenido inicial",
+        "parrafos": [
+          "Contratación de una solución SaaS de inteligencia meteorológica y gestión de riesgos naturales para la operación ferroviaria de RENFE-Operadora, incluyendo acceso web seguro, visualización geoespacial, integración de datos meteorológicos y de riesgos, simulación de incendios e inundaciones, generación de alertas y boletines, soporte, mantenimiento, formación, integración técnica, cumplimiento de requisitos de seguridad y continuidad, y reporting.",
+          "---",
+          "TABLA DE TRAZABILIDAD (extracto)",
+          "(La tabla completa se extiende para todos los requisitos extraídos y no localizados, según lo anterior.)"
+        ],
+        "elementos": [
+          "RESUMEN FACTUAL DEL SERVICIO REQUERIDO",
+          "ALCANCE Y VOLUMETRÍAS",
+          "Servicio: Solución SaaS de inteligencia meteorológica y gestión de riesgos naturales | 1 servicio | 24 meses | ANEXO I, pág. 3, 21",
+          "Usuarios: Mínimo 15 usuarios nominativos, ampliables | usuarios | Vigencia del contrato | ANEXO I, pág. 4",
+          "Perfiles: Administración, operación, análisis, consulta | perfiles funcionales | Vigencia del contrato | ANEXO I, pág. 4",
+          "Acceso: Web seguro desde navegadores corporativos | acceso web | Vigencia del contrato | ANEXO I, pág. 4",
+          "Cobertura: RENFE-Operadora y ámbitos relacionados con la operación ferroviaria | ámbito | Vigencia del contrato | ANEXO I, pág. 3",
+          "Horario de soporte: 8 horas diarias, 7 días/semana | soporte | Vigencia del contrato | ANEXO I, pág. 16",
+          "MODELO DE SERVICIO EXIGIDO",
+          "Modalidad SaaS, sin despliegue de infraestructura física en RENFE | ANEXO I, pág. 3",
+          "Incluye alojamiento, operación, actualización, mantenimiento, soporte | ANEXO I, pág. 3-4",
+          "Centro de soporte accesible por portal, correo electrónico y teléfono | ANEXO I, pág. 16",
+          "Asistencia técnica especializada multidisciplinar | ANEXO I, pág. 15-17",
+          "Bolsa anual de hasta 350 horas para soporte especializado y evolutivos | ANEXO I, pág. 19",
+          "PROCESOS Y ACTIVIDADES",
+          "SLA/KPI/PENALIZACIONES",
+          "ORGANIZACIÓN Y ROLES EXIGIDOS",
+          "1 Project Manager: titulación universitaria, mínimo 3 años experiencia en proyectos análogos | ANEXO I, pág. 17",
+          "Especialista en meteorología y predicción: titulación universitaria, formación en meteorología y predicción numérica | ANEXO I, pág. 17-18",
+          "Especialista en algoritmos de predicción a corto plazo: titulación universitaria, formación en meteorología y predicción numérica | ANEXO I, pág. 18",
+          "Especialista en software, datos e integraciones: titulación universitaria en informática, telecomunicaciones, ingeniería, matemáticas, ciencia de datos o equivalente | ANEXO I, pág. 18",
+          "Especialista en riesgos naturales: titulación universitaria en ingeniería de montes, forestal, caminos, civil, hidrología, geología, geografía, ciencias ambientales o equivalente | ANEXO I, pág. 18",
+          "Equipo multidisciplinar estable durante toda la vigencia del contrato | ANEXO I, pág. 18",
+          "Roles de seguridad: Responsable de seguridad (POC), Responsable del proyecto, equipo de seguridad | ANEXO I, pág. 30-31",
+          "GOBIERNO Y REPORTING EXIGIDOS",
+          "Designación de responsable del servicio por el adjudicatario | ANEXO I, pág. 22",
+          "Reuniones de seguimiento con periodicidad establecida por RENFE | ANEXO I, pág. 22",
+          "Cuadro de acciones, responsables, fechas objetivo, riesgos y decisiones | ANEXO I, pág. 22",
+          "Gestión formal de cambios y evolución de requisitos | ANEXO I, pág. 22",
+          "Escalado de incidencias, riesgos de continuidad y desviaciones | ANEXO I, pág. 22",
+          "Revisión periódica de indicadores, calidad del dato, uso de la solución | ANEXO I, pág. 22",
+          "Informes mensuales de servicio, incidencias, disponibilidad, cambios, bolsa de horas | ANEXO I, pág. 19-20",
+          "HERRAMIENTAS ITSM, CMDB, MONITORIZACIÓN E INTEGRACIONES EXIGIDAS",
+          "Centro de soporte accesible por portal de solicitudes, correo electrónico y teléfono | ANEXO I, pág. 16",
+          "APIs documentadas para consulta de predicciones, observaciones, alertas, informes y simulaciones | ANEXO I, pág. 15",
+          "Servicios geoespaciales normalizados para publicación y consumo de mapas | ANEXO I, pág. 15",
+          "Integración con sistema corporativo de identidad (SSO) | ANEXO I, pág. 15, 32",
+          "Mecanismos de autenticación, control de cuota, registro de llamadas, tratamiento de errores | ANEXO I, pág. 15",
+          "Inventario de activos de información, configuraciones, procesos, procedimientos técnicos | ANEXO I, pág. 26",
+          "Monitorización de la infraestructura para detectar incidencias e incidentes 24x7 | ANEXO I, pág. 36",
+          "Entrega de logs al SIEM de RENFE o API para captura de logs | ANEXO I, pág. 36",
+          "TRANSICIÓN, CONTINUIDAD Y REVERSIBILIDAD EXIGIDAS",
+          "Planificación de puesta en marcha: reunión inicial, inventario, configuración, pruebas, formación, aceptación | ANEXO I, pág. 21",
+          "Garantía técnica durante toda la vigencia: disponibilidad, corrección de defectos, funcionamiento de integraciones, actualización de datos, conservación de configuraciones | ANEXO I, pág. 21",
+          "Plan de devolución/exportación de datos y destrucción segura al finalizar el contrato | ANEXO I, pág. 22, 28, 39",
+          "Planes de contingencia, crisis, continuidad de negocio y salida programada/sobrevenida | ANEXO I, pág. 28, 39",
+          "Redundancia, backup, restauración, pruebas de restauración | ANEXO I, pág. 28, 39",
+          "AUTOMATIZACIÓN, SELF-SERVICE Y GESTIÓN DEL CONOCIMIENTO",
+          "Automatización: Generación y envío automático de boletines y alertas | ANEXO I, pág. 11",
+          "Portal de solicitudes para soporte (self-service) | ANEXO I, pág. 16",
+          "Documentación de usuario y técnica accesible durante toda la vigencia | ANEXO I, pág. 4, 20-21",
+          "Videoteca o materiales grabados para formación continua | ANEXO I, pág. 21",
+          "DATOS NO LOCALIZADOS O AMBIGUOS",
+          "Tiempos concretos de respuesta y resolución de incidencias: NO CONSTA EN LA DOCUMENTACIÓN REVISADA",
+          "Detalle de niveles N1/N2/N3: NO CONSTA EN LA DOCUMENTACIÓN REVISADA",
+          "Herramienta ITSM específica: NO CONSTA EN LA DOCUMENTACIÓN REVISADA",
+          "CMDB específica: NO CONSTA EN LA DOCUMENTACIÓN REVISADA",
+          "Volumetría de incidencias o tickets: NO CONSTA EN LA DOCUMENTACIÓN REVISADA",
+          "Detalle de reporting en tiempo real: NO CONSTA EN LA DOCUMENTACIÓN REVISADA",
+          "DOCUMENTOS REVISADOS",
+          "PCP 2026 03993.pdf (Pliego administrativo)",
+          "ANEXO I 2026 03393 .pdf (Pliego técnico)",
+          "ANEXO III 2026 03993.pdf (Modelo oferta económica)",
+          "ANEXO II 2026 03993.pdf (Modelo declaración responsable)",
+          "ANEXO IV 2026 03993.pdf (Modelo garantía definitiva)",
+          "poc (Documento enlazado)",
+          "poc (Documento enlazado)",
+          "poc (Documento enlazado)"
+        ],
+        "tablas": [
+          {
+            "columnas": [
+              "Proceso/actividad",
+              "Expreso en pliego",
+              "Exigencia descrita",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Proceso/actividad": "Gestión de incidencias",
+                "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+                "Exigencia descrita": "Atención, registro, trazabilidad, priorización, resolución y cierre de incidencias",
+                "Fuente": "ANEXO I, pág. 16"
+              },
+              {
+                "Proceso/actividad": "Gestión de alertas y avisos",
+                "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+                "Exigencia descrita": "Configuración, emisión, registro, exportación y consulta histórica de alertas y avisos",
+                "Fuente": "ANEXO I, pág. 10-11"
+              },
+              {
+                "Proceso/actividad": "Simulación de riesgos (incendios/inundaciones)",
+                "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+                "Exigencia descrita": "Ejecución, parametrización, exportación y trazabilidad de simulaciones",
+                "Fuente": "ANEXO I, pág. 12-14"
+              },
+              {
+                "Proceso/actividad": "Integración técnica",
+                "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+                "Exigencia descrita": "Integración con sistemas de identidad, APIs, servicios geoespaciales, herramientas corporativas",
+                "Fuente": "ANEXO I, pág. 14-15"
+              },
+              {
+                "Proceso/actividad": "Formación y transferencia de conocimiento",
+                "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+                "Exigencia descrita": "Plan de formación, sesiones, materiales, documentación, videoteca",
+                "Fuente": "ANEXO I, pág. 20-21"
+              },
+              {
+                "Proceso/actividad": "Reporting mensual",
+                "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+                "Exigencia descrita": "Informes de disponibilidad, incidencias, cambios, bolsa de horas, análisis de causa raíz",
+                "Fuente": "ANEXO I, pág. 19-20"
+              },
+              {
+                "Proceso/actividad": "Gobierno del servicio",
+                "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+                "Exigencia descrita": "Reuniones de seguimiento, escalado, revisión de indicadores, gestión de cambios",
+                "Fuente": "ANEXO I, pág. 22-23"
+              },
+              {
+                "Proceso/actividad": "Seguridad de la información",
+                "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+                "Exigencia descrita": "Cumplimiento ENS, análisis de riesgos, gestión de vulnerabilidades, cifrado, control de accesos, backup, destrucción segura",
+                "Fuente": "ANEXO I, pág. 24-39"
+              }
+            ]
+          },
+          {
+            "columnas": [
+              "Servicio",
+              "Prioridad",
+              "Respuesta",
+              "Resolución",
+              "Horario",
+              "Objetivo",
+              "Penalización",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Servicio": "Soporte",
+                "Prioridad": "Crítica",
+                "Respuesta": "NO CONSTA",
+                "Resolución": "NO CONSTA",
+                "Horario": "8x7",
+                "Objetivo": "NO CONSTA",
+                "Penalización": "2% del importe del contrato por superar tiempo de respuesta/restauración comprometido",
+                "Fuente": "PCP, pág. 29"
+              },
+              {
+                "Servicio": "Soporte",
+                "Prioridad": "Alta",
+                "Respuesta": "NO CONSTA",
+                "Resolución": "NO CONSTA",
+                "Horario": "8x7",
+                "Objetivo": "NO CONSTA",
+                "Penalización": "1,5% del importe del contrato por superar tiempo de respuesta/restauración comprometido",
+                "Fuente": "PCP, pág. 29"
+              },
+              {
+                "Servicio": "Soporte",
+                "Prioridad": "Media",
+                "Respuesta": "NO CONSTA",
+                "Resolución": "NO CONSTA",
+                "Horario": "8x7",
+                "Objetivo": "NO CONSTA",
+                "Penalización": "1% del importe del contrato por superar tiempo de respuesta/restauración comprometido",
+                "Fuente": "PCP, pág. 29"
+              },
+              {
+                "Servicio": "Soporte",
+                "Prioridad": "Baja",
+                "Respuesta": "NO CONSTA",
+                "Resolución": "NO CONSTA",
+                "Horario": "8x7",
+                "Objetivo": "NO CONSTA",
+                "Penalización": "0,5% del importe del contrato por superar tiempo de respuesta/restauración comprometido",
+                "Fuente": "PCP, pág. 29"
+              },
+              {
+                "Servicio": "Calidad del servicio",
+                "Prioridad": "NO APLICA",
+                "Respuesta": "NO APLICA",
+                "Resolución": "NO APLICA",
+                "Horario": "NO APLICA",
+                "Objetivo": "NO APLICA",
+                "Penalización": "Hasta 10% del importe total del contrato por falta de calidad manifiesta",
+                "Fuente": "PCP, pág. 30"
+              },
+              {
+                "Servicio": "Equipo no conforme",
+                "Prioridad": "NO APLICA",
+                "Respuesta": "NO APLICA",
+                "Resolución": "NO APLICA",
+                "Horario": "NO APLICA",
+                "Objetivo": "NO APLICA",
+                "Penalización": "5.000 € por incumplimiento",
+                "Fuente": "PCP, pág. 30"
+              },
+              {
+                "Servicio": "Incomparecencia a reuniones",
+                "Prioridad": "NO APLICA",
+                "Respuesta": "NO APLICA",
+                "Resolución": "NO APLICA",
+                "Horario": "NO APLICA",
+                "Objetivo": "NO APLICA",
+                "Penalización": "Hasta 1% del importe total del contrato",
+                "Fuente": "PCP, pág. 30"
+              },
+              {
+                "Servicio": "Incumplimiento oferta técnica",
+                "Prioridad": "NO APLICA",
+                "Respuesta": "NO APLICA",
+                "Resolución": "NO APLICA",
+                "Horario": "NO APLICA",
+                "Objetivo": "NO APLICA",
+                "Penalización": "Hasta 2.000 € por incumplimiento",
+                "Fuente": "PCP, pág. 30"
+              },
+              {
+                "Servicio": "Incumplimiento confidencialidad, protección de datos, propiedad intelectual",
+                "Prioridad": "NO APLICA",
+                "Respuesta": "NO APLICA",
+                "Resolución": "NO APLICA",
+                "Horario": "NO APLICA",
+                "Objetivo": "NO APLICA",
+                "Penalización": "Hasta 20% del importe total del contrato",
+                "Fuente": "PCP, pág. 30"
+              },
+              {
+                "Servicio": "Incumplimiento seguridad/ciberseguridad",
+                "Prioridad": "NO APLICA",
+                "Respuesta": "NO APLICA",
+                "Resolución": "NO APLICA",
+                "Horario": "NO APLICA",
+                "Objetivo": "NO APLICA",
+                "Penalización": "Hasta 10% del contrato, penalizaciones específicas por retrasos en documentación, POC, ENS, etc.",
+                "Fuente": "PCP, pág. 31"
+              }
+            ]
+          },
+          {
+            "columnas": [
+              "Requisito/dato",
+              "Tipo",
+              "Valor/condición",
+              "Documento",
+              "Página/apartado",
+              "Estado de lectura"
+            ],
+            "filas": [
+              {
+                "Requisito/dato": "Usuarios mínimos",
+                "Tipo": "Obligatorio",
+                "Valor/condición": "15 usuarios nominativos",
+                "Documento": "ANEXO I",
+                "Página/apartado": "pág. 4",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Horario soporte",
+                "Tipo": "Obligatorio",
+                "Valor/condición": "8x7",
+                "Documento": "ANEXO I",
+                "Página/apartado": "pág. 16",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Project Manager",
+                "Tipo": "Obligatorio",
+                "Valor/condición": "Titulación universitaria, 3 años experiencia",
+                "Documento": "ANEXO I",
+                "Página/apartado": "pág. 17",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Penalización crítica",
+                "Tipo": "Obligatorio",
+                "Valor/condición": "2% importe contrato",
+                "Documento": "PCP",
+                "Página/apartado": "pág. 29",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Plan de salida",
+                "Tipo": "Obligatorio",
+                "Valor/condición": "Devolución/exportación/destrucción datos",
+                "Documento": "ANEXO I",
+                "Página/apartado": "pág. 22, 28, 39",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Automatización boletines",
+                "Tipo": "Obligatorio",
+                "Valor/condición": "Generación/envío automático",
+                "Documento": "ANEXO I",
+                "Página/apartado": "pág. 11",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Tiempos respuesta/resolución",
+                "Tipo": "NO CONSTA",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "NO CONSTA",
+                "Página/apartado": "NO CONSTA",
+                "Estado de lectura": "NO CONSTA"
+              },
+              {
+                "Requisito/dato": "Herramienta ITSM",
+                "Tipo": "NO CONSTA",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "NO CONSTA",
+                "Página/apartado": "NO CONSTA",
+                "Estado de lectura": "NO CONSTA"
+              },
+              {
+                "Requisito/dato": "Niveles N1/N2/N3",
+                "Tipo": "NO CONSTA",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "NO CONSTA",
+                "Página/apartado": "NO CONSTA",
+                "Estado de lectura": "NO CONSTA"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pendientes_y_no_localizados": [],
+    "trazabilidad": [
+      {
+        "Proceso/actividad": "Gestión de incidencias",
+        "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+        "Exigencia descrita": "Atención, registro, trazabilidad, priorización, resolución y cierre de incidencias",
+        "Fuente": "ANEXO I, pág. 16"
+      },
+      {
+        "Proceso/actividad": "Gestión de alertas y avisos",
+        "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+        "Exigencia descrita": "Configuración, emisión, registro, exportación y consulta histórica de alertas y avisos",
+        "Fuente": "ANEXO I, pág. 10-11"
+      },
+      {
+        "Proceso/actividad": "Simulación de riesgos (incendios/inundaciones)",
+        "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+        "Exigencia descrita": "Ejecución, parametrización, exportación y trazabilidad de simulaciones",
+        "Fuente": "ANEXO I, pág. 12-14"
+      },
+      {
+        "Proceso/actividad": "Integración técnica",
+        "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+        "Exigencia descrita": "Integración con sistemas de identidad, APIs, servicios geoespaciales, herramientas corporativas",
+        "Fuente": "ANEXO I, pág. 14-15"
+      },
+      {
+        "Proceso/actividad": "Formación y transferencia de conocimiento",
+        "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+        "Exigencia descrita": "Plan de formación, sesiones, materiales, documentación, videoteca",
+        "Fuente": "ANEXO I, pág. 20-21"
+      },
+      {
+        "Proceso/actividad": "Reporting mensual",
+        "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+        "Exigencia descrita": "Informes de disponibilidad, incidencias, cambios, bolsa de horas, análisis de causa raíz",
+        "Fuente": "ANEXO I, pág. 19-20"
+      },
+      {
+        "Proceso/actividad": "Gobierno del servicio",
+        "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+        "Exigencia descrita": "Reuniones de seguimiento, escalado, revisión de indicadores, gestión de cambios",
+        "Fuente": "ANEXO I, pág. 22-23"
+      },
+      {
+        "Proceso/actividad": "Seguridad de la información",
+        "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+        "Exigencia descrita": "Cumplimiento ENS, análisis de riesgos, gestión de vulnerabilidades, cifrado, control de accesos, backup, destrucción segura",
+        "Fuente": "ANEXO I, pág. 24-39"
+      },
+      {
+        "Servicio": "Soporte",
+        "Prioridad": "Crítica",
+        "Respuesta": "NO CONSTA",
+        "Resolución": "NO CONSTA",
+        "Horario": "8x7",
+        "Objetivo": "NO CONSTA",
+        "Penalización": "2% del importe del contrato por superar tiempo de respuesta/restauración comprometido",
+        "Fuente": "PCP, pág. 29"
+      },
+      {
+        "Servicio": "Soporte",
+        "Prioridad": "Alta",
+        "Respuesta": "NO CONSTA",
+        "Resolución": "NO CONSTA",
+        "Horario": "8x7",
+        "Objetivo": "NO CONSTA",
+        "Penalización": "1,5% del importe del contrato por superar tiempo de respuesta/restauración comprometido",
+        "Fuente": "PCP, pág. 29"
+      },
+      {
+        "Servicio": "Soporte",
+        "Prioridad": "Media",
+        "Respuesta": "NO CONSTA",
+        "Resolución": "NO CONSTA",
+        "Horario": "8x7",
+        "Objetivo": "NO CONSTA",
+        "Penalización": "1% del importe del contrato por superar tiempo de respuesta/restauración comprometido",
+        "Fuente": "PCP, pág. 29"
+      },
+      {
+        "Servicio": "Soporte",
+        "Prioridad": "Baja",
+        "Respuesta": "NO CONSTA",
+        "Resolución": "NO CONSTA",
+        "Horario": "8x7",
+        "Objetivo": "NO CONSTA",
+        "Penalización": "0,5% del importe del contrato por superar tiempo de respuesta/restauración comprometido",
+        "Fuente": "PCP, pág. 29"
+      },
+      {
+        "Servicio": "Calidad del servicio",
+        "Prioridad": "NO APLICA",
+        "Respuesta": "NO APLICA",
+        "Resolución": "NO APLICA",
+        "Horario": "NO APLICA",
+        "Objetivo": "NO APLICA",
+        "Penalización": "Hasta 10% del importe total del contrato por falta de calidad manifiesta",
+        "Fuente": "PCP, pág. 30"
+      },
+      {
+        "Servicio": "Equipo no conforme",
+        "Prioridad": "NO APLICA",
+        "Respuesta": "NO APLICA",
+        "Resolución": "NO APLICA",
+        "Horario": "NO APLICA",
+        "Objetivo": "NO APLICA",
+        "Penalización": "5.000 € por incumplimiento",
+        "Fuente": "PCP, pág. 30"
+      },
+      {
+        "Servicio": "Incomparecencia a reuniones",
+        "Prioridad": "NO APLICA",
+        "Respuesta": "NO APLICA",
+        "Resolución": "NO APLICA",
+        "Horario": "NO APLICA",
+        "Objetivo": "NO APLICA",
+        "Penalización": "Hasta 1% del importe total del contrato",
+        "Fuente": "PCP, pág. 30"
+      },
+      {
+        "Servicio": "Incumplimiento oferta técnica",
+        "Prioridad": "NO APLICA",
+        "Respuesta": "NO APLICA",
+        "Resolución": "NO APLICA",
+        "Horario": "NO APLICA",
+        "Objetivo": "NO APLICA",
+        "Penalización": "Hasta 2.000 € por incumplimiento",
+        "Fuente": "PCP, pág. 30"
+      },
+      {
+        "Servicio": "Incumplimiento confidencialidad, protección de datos, propiedad intelectual",
+        "Prioridad": "NO APLICA",
+        "Respuesta": "NO APLICA",
+        "Resolución": "NO APLICA",
+        "Horario": "NO APLICA",
+        "Objetivo": "NO APLICA",
+        "Penalización": "Hasta 20% del importe total del contrato",
+        "Fuente": "PCP, pág. 30"
+      },
+      {
+        "Servicio": "Incumplimiento seguridad/ciberseguridad",
+        "Prioridad": "NO APLICA",
+        "Respuesta": "NO APLICA",
+        "Resolución": "NO APLICA",
+        "Horario": "NO APLICA",
+        "Objetivo": "NO APLICA",
+        "Penalización": "Hasta 10% del contrato, penalizaciones específicas por retrasos en documentación, POC, ENS, etc.",
+        "Fuente": "PCP, pág. 31"
+      },
+      {
+        "Requisito/dato": "Usuarios mínimos",
+        "Tipo": "Obligatorio",
+        "Valor/condición": "15 usuarios nominativos",
+        "Documento": "ANEXO I",
+        "Página/apartado": "pág. 4",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Horario soporte",
+        "Tipo": "Obligatorio",
+        "Valor/condición": "8x7",
+        "Documento": "ANEXO I",
+        "Página/apartado": "pág. 16",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Project Manager",
+        "Tipo": "Obligatorio",
+        "Valor/condición": "Titulación universitaria, 3 años experiencia",
+        "Documento": "ANEXO I",
+        "Página/apartado": "pág. 17",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Penalización crítica",
+        "Tipo": "Obligatorio",
+        "Valor/condición": "2% importe contrato",
+        "Documento": "PCP",
+        "Página/apartado": "pág. 29",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Plan de salida",
+        "Tipo": "Obligatorio",
+        "Valor/condición": "Devolución/exportación/destrucción datos",
+        "Documento": "ANEXO I",
+        "Página/apartado": "pág. 22, 28, 39",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Automatización boletines",
+        "Tipo": "Obligatorio",
+        "Valor/condición": "Generación/envío automático",
+        "Documento": "ANEXO I",
+        "Página/apartado": "pág. 11",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Tiempos respuesta/resolución",
+        "Tipo": "NO CONSTA",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "NO CONSTA",
+        "Página/apartado": "NO CONSTA",
+        "Estado de lectura": "NO CONSTA"
+      },
+      {
+        "Requisito/dato": "Herramienta ITSM",
+        "Tipo": "NO CONSTA",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "NO CONSTA",
+        "Página/apartado": "NO CONSTA",
+        "Estado de lectura": "NO CONSTA"
+      },
+      {
+        "Requisito/dato": "Niveles N1/N2/N3",
+        "Tipo": "NO CONSTA",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "NO CONSTA",
+        "Página/apartado": "NO CONSTA",
+        "Estado de lectura": "NO CONSTA"
+      }
+    ],
+    "salida_original": "1. RESUMEN FACTUAL DEL SERVICIO REQUERIDO\nContratación de una solución SaaS de inteligencia meteorológica y gestión de riesgos naturales para la operación ferroviaria de RENFE-Operadora, incluyendo acceso web seguro, visualización geoespacial, integración de datos meteorológicos y de riesgos, simulación de incendios e inundaciones, generación de alertas y boletines, soporte, mantenimiento, formación, integración técnica, cumplimiento de requisitos de seguridad y continuidad, y reporting.\n\n2. ALCANCE Y VOLUMETRÍAS\n- Servicio: Solución SaaS de inteligencia meteorológica y gestión de riesgos naturales | 1 servicio | 24 meses | ANEXO I, pág. 3, 21\n- Usuarios: Mínimo 15 usuarios nominativos, ampliables | usuarios | Vigencia del contrato | ANEXO I, pág. 4\n- Perfiles: Administración, operación, análisis, consulta | perfiles funcionales | Vigencia del contrato | ANEXO I, pág. 4\n- Acceso: Web seguro desde navegadores corporativos | acceso web | Vigencia del contrato | ANEXO I, pág. 4\n- Cobertura: RENFE-Operadora y ámbitos relacionados con la operación ferroviaria | ámbito | Vigencia del contrato | ANEXO I, pág. 3\n- Horario de soporte: 8 horas diarias, 7 días/semana | soporte | Vigencia del contrato | ANEXO I, pág. 16\n\n3. MODELO DE SERVICIO EXIGIDO\n- Modalidad SaaS, sin despliegue de infraestructura física en RENFE | ANEXO I, pág. 3\n- Incluye alojamiento, operación, actualización, mantenimiento, soporte | ANEXO I, pág. 3-4\n- Centro de soporte accesible por portal, correo electrónico y teléfono | ANEXO I, pág. 16\n- Asistencia técnica especializada multidisciplinar | ANEXO I, pág. 15-17\n- Bolsa anual de hasta 350 horas para soporte especializado y evolutivos | ANEXO I, pág. 19\n\n4. PROCESOS Y ACTIVIDADES\n| Proceso/actividad | Expreso en pliego | Exigencia descrita | Fuente |\n|-------------------|------------------|--------------------|--------|\n| Gestión de incidencias | ITIL NO CITADO EXPRESAMENTE | Atención, registro, trazabilidad, priorización, resolución y cierre de incidencias | ANEXO I, pág. 16 |\n| Gestión de alertas y avisos | ITIL NO CITADO EXPRESAMENTE | Configuración, emisión, registro, exportación y consulta histórica de alertas y avisos | ANEXO I, pág. 10-11 |\n| Simulación de riesgos (incendios/inundaciones) | ITIL NO CITADO EXPRESAMENTE | Ejecución, parametrización, exportación y trazabilidad de simulaciones | ANEXO I, pág. 12-14 |\n| Integración técnica | ITIL NO CITADO EXPRESAMENTE | Integración con sistemas de identidad, APIs, servicios geoespaciales, herramientas corporativas | ANEXO I, pág. 14-15 |\n| Formación y transferencia de conocimiento | ITIL NO CITADO EXPRESAMENTE | Plan de formación, sesiones, materiales, documentación, videoteca | ANEXO I, pág. 20-21 |\n| Reporting mensual | ITIL NO CITADO EXPRESAMENTE | Informes de disponibilidad, incidencias, cambios, bolsa de horas, análisis de causa raíz | ANEXO I, pág. 19-20 |\n| Gobierno del servicio | ITIL NO CITADO EXPRESAMENTE | Reuniones de seguimiento, escalado, revisión de indicadores, gestión de cambios | ANEXO I, pág. 22-23 |\n| Seguridad de la información | ITIL NO CITADO EXPRESAMENTE | Cumplimiento ENS, análisis de riesgos, gestión de vulnerabilidades, cifrado, control de accesos, backup, destrucción segura | ANEXO I, pág. 24-39 |\n\n5. SLA/KPI/PENALIZACIONES\n| Servicio | Prioridad | Respuesta | Resolución | Horario | Objetivo | Penalización | Fuente |\n|---------|----------|----------|-----------|--------|---------|-------------|--------|\n| Soporte | Crítica | NO CONSTA | NO CONSTA | 8x7 | NO CONSTA | 2% del importe del contrato por superar tiempo de respuesta/restauración comprometido | PCP, pág. 29 |\n| Soporte | Alta | NO CONSTA | NO CONSTA | 8x7 | NO CONSTA | 1,5% del importe del contrato por superar tiempo de respuesta/restauración comprometido | PCP, pág. 29 |\n| Soporte | Media | NO CONSTA | NO CONSTA | 8x7 | NO CONSTA | 1% del importe del contrato por superar tiempo de respuesta/restauración comprometido | PCP, pág. 29 |\n| Soporte | Baja | NO CONSTA | NO CONSTA | 8x7 | NO CONSTA | 0,5% del importe del contrato por superar tiempo de respuesta/restauración comprometido | PCP, pág. 29 |\n| Calidad del servicio | NO APLICA | NO APLICA | NO APLICA | NO APLICA | NO APLICA | Hasta 10% del importe total del contrato por falta de calidad manifiesta | PCP, pág. 30 |\n| Equipo no conforme | NO APLICA | NO APLICA | NO APLICA | NO APLICA | NO APLICA | 5.000 € por incumplimiento | PCP, pág. 30 |\n| Incomparecencia a reuniones | NO APLICA | NO APLICA | NO APLICA | NO APLICA | NO APLICA | Hasta 1% del importe total del contrato | PCP, pág. 30 |\n| Incumplimiento oferta técnica | NO APLICA | NO APLICA | NO APLICA | NO APLICA | NO APLICA | Hasta 2.000 € por incumplimiento | PCP, pág. 30 |\n| Incumplimiento confidencialidad, protección de datos, propiedad intelectual | NO APLICA | NO APLICA | NO APLICA | NO APLICA | NO APLICA | Hasta 20% del importe total del contrato | PCP, pág. 30 |\n| Incumplimiento seguridad/ciberseguridad | NO APLICA | NO APLICA | NO APLICA | NO APLICA | NO APLICA | Hasta 10% del contrato, penalizaciones específicas por retrasos en documentación, POC, ENS, etc. | PCP, pág. 31 |\n\n6. ORGANIZACIÓN Y ROLES EXIGIDOS\n- 1 Project Manager: titulación universitaria, mínimo 3 años experiencia en proyectos análogos | ANEXO I, pág. 17\n- Especialista en meteorología y predicción: titulación universitaria, formación en meteorología y predicción numérica | ANEXO I, pág. 17-18\n- Especialista en algoritmos de predicción a corto plazo: titulación universitaria, formación en meteorología y predicción numérica | ANEXO I, pág. 18\n- Especialista en software, datos e integraciones: titulación universitaria en informática, telecomunicaciones, ingeniería, matemáticas, ciencia de datos o equivalente | ANEXO I, pág. 18\n- Especialista en riesgos naturales: titulación universitaria en ingeniería de montes, forestal, caminos, civil, hidrología, geología, geografía, ciencias ambientales o equivalente | ANEXO I, pág. 18\n- Equipo multidisciplinar estable durante toda la vigencia del contrato | ANEXO I, pág. 18\n- Roles de seguridad: Responsable de seguridad (POC), Responsable del proyecto, equipo de seguridad | ANEXO I, pág. 30-31\n\n7. GOBIERNO Y REPORTING EXIGIDOS\n- Designación de responsable del servicio por el adjudicatario | ANEXO I, pág. 22\n- Reuniones de seguimiento con periodicidad establecida por RENFE | ANEXO I, pág. 22\n- Cuadro de acciones, responsables, fechas objetivo, riesgos y decisiones | ANEXO I, pág. 22\n- Gestión formal de cambios y evolución de requisitos | ANEXO I, pág. 22\n- Escalado de incidencias, riesgos de continuidad y desviaciones | ANEXO I, pág. 22\n- Revisión periódica de indicadores, calidad del dato, uso de la solución | ANEXO I, pág. 22\n- Informes mensuales de servicio, incidencias, disponibilidad, cambios, bolsa de horas | ANEXO I, pág. 19-20\n\n8. HERRAMIENTAS ITSM, CMDB, MONITORIZACIÓN E INTEGRACIONES EXIGIDAS\n- Centro de soporte accesible por portal de solicitudes, correo electrónico y teléfono | ANEXO I, pág. 16\n- APIs documentadas para consulta de predicciones, observaciones, alertas, informes y simulaciones | ANEXO I, pág. 15\n- Servicios geoespaciales normalizados para publicación y consumo de mapas | ANEXO I, pág. 15\n- Integración con sistema corporativo de identidad (SSO) | ANEXO I, pág. 15, 32\n- Mecanismos de autenticación, control de cuota, registro de llamadas, tratamiento de errores | ANEXO I, pág. 15\n- Inventario de activos de información, configuraciones, procesos, procedimientos técnicos | ANEXO I, pág. 26\n- Monitorización de la infraestructura para detectar incidencias e incidentes 24x7 | ANEXO I, pág. 36\n- Entrega de logs al SIEM de RENFE o API para captura de logs | ANEXO I, pág. 36\n\n9. TRANSICIÓN, CONTINUIDAD Y REVERSIBILIDAD EXIGIDAS\n- Planificación de puesta en marcha: reunión inicial, inventario, configuración, pruebas, formación, aceptación | ANEXO I, pág. 21\n- Garantía técnica durante toda la vigencia: disponibilidad, corrección de defectos, funcionamiento de integraciones, actualización de datos, conservación de configuraciones | ANEXO I, pág. 21\n- Plan de devolución/exportación de datos y destrucción segura al finalizar el contrato | ANEXO I, pág. 22, 28, 39\n- Planes de contingencia, crisis, continuidad de negocio y salida programada/sobrevenida | ANEXO I, pág. 28, 39\n- Redundancia, backup, restauración, pruebas de restauración | ANEXO I, pág. 28, 39\n\n10. AUTOMATIZACIÓN, SELF-SERVICE Y GESTIÓN DEL CONOCIMIENTO\n- Automatización: Generación y envío automático de boletines y alertas | ANEXO I, pág. 11\n- Portal de solicitudes para soporte (self-service) | ANEXO I, pág. 16\n- Documentación de usuario y técnica accesible durante toda la vigencia | ANEXO I, pág. 4, 20-21\n- Videoteca o materiales grabados para formación continua | ANEXO I, pág. 21\n\n11. DATOS NO LOCALIZADOS O AMBIGUOS\n- Tiempos concretos de respuesta y resolución de incidencias: NO CONSTA EN LA DOCUMENTACIÓN REVISADA\n- Detalle de niveles N1/N2/N3: NO CONSTA EN LA DOCUMENTACIÓN REVISADA\n- Herramienta ITSM específica: NO CONSTA EN LA DOCUMENTACIÓN REVISADA\n- CMDB específica: NO CONSTA EN LA DOCUMENTACIÓN REVISADA\n- Volumetría de incidencias o tickets: NO CONSTA EN LA DOCUMENTACIÓN REVISADA\n- Detalle de reporting en tiempo real: NO CONSTA EN LA DOCUMENTACIÓN REVISADA\n\n12. DOCUMENTOS REVISADOS\n1. PCP 2026 03993.pdf (Pliego administrativo)\n2. ANEXO I 2026 03393 .pdf (Pliego técnico)\n3. ANEXO III 2026 03993.pdf (Modelo oferta económica)\n4. ANEXO II 2026 03993.pdf (Modelo declaración responsable)\n5. ANEXO IV 2026 03993.pdf (Modelo garantía definitiva)\n6. poc (Documento enlazado)\n7. poc (Documento enlazado)\n8. poc (Documento enlazado)\n\n---\n\nTABLA DE TRAZABILIDAD (extracto)\n| Requisito/dato | Tipo | Valor/condición | Documento | Página/apartado | Estado de lectura |\n|----------------|------|----------------|-----------|-----------------|-------------------|\n| Usuarios mínimos | Obligatorio | 15 usuarios nominativos | ANEXO I | pág. 4 | Leído |\n| Horario soporte | Obligatorio | 8x7 | ANEXO I | pág. 16 | Leído |\n| Project Manager | Obligatorio | Titulación universitaria, 3 años experiencia | ANEXO I | pág. 17 | Leído |\n| Penalización crítica | Obligatorio | 2% importe contrato | PCP | pág. 29 | Leído |\n| Plan de salida | Obligatorio | Devolución/exportación/destrucción datos | ANEXO I | pág. 22, 28, 39 | Leído |\n| Automatización boletines | Obligatorio | Generación/envío automático | ANEXO I | pág. 11 | Leído |\n| Tiempos respuesta/resolución | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n| Herramienta ITSM | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n| Niveles N1/N2/N3 | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n\n(La tabla completa se extiende para todos los requisitos extraídos y no localizados, según lo anterior.)"
+  }
+}

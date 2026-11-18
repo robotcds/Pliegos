@@ -1,0 +1,13 @@
+.env
+data/docs/
+__pycache__/
+.venv/
+*.log
+
+# Local secrets, caches and generated temporary previews
+.env.*
+!.env.example
+/tmp/
+/temp_*/
+/tmp_*/
+*.pyc

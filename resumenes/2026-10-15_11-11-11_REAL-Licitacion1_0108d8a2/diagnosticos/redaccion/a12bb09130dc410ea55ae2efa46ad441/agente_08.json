@@ -1,0 +1,102 @@
+{
+  "orden": 8,
+  "id": "A10",
+  "nombre": "Compras, proveedores y colaboradores",
+  "tipo": "extraccion",
+  "ejecucion": "d583057989774f218119ff599cb7f6ea",
+  "estado": "completado",
+  "contenido": {
+    "salida_original": "# 1. Resumen factual\n\nEl contrato tiene por objeto el diseño, desarrollo, puesta en servicio, mantenimiento y evolución tecnológica de un Asistente Virtual para el portal Decide Madrid, en modalidad SaaS. El adjudicatario es responsable de la gestión y operación de todos los elementos de la solución ofertada, salvo los elementos básicos de la infraestructura MultiCloud corporativa (Google Cloud Platform, Microsoft Azure y Amazon AWS), que serán puestos a disposición por el Ayuntamiento. El adjudicatario debe aportar todas las licencias, software, servicios, medios técnicos y materiales necesarios para la ejecución del contrato, incluyendo soporte y garantía del fabricante, sin que puedan generar costes adicionales para el Ayuntamiento. Se permite la subcontratación con límites y condiciones, y se exige la declaración de los subcontratistas y la parte subcontratada. No se exige carta de fabricante, partnership, ni canal específico, ni se imponen fabricantes nominales, pero sí se establecen requisitos de compatibilidad y cumplimiento normativo. No se describen cadenas de suministro específicas ni se exigen stocks, logística, staging, retirada o destrucción de hardware, salvo la eliminación segura de datos al cierre. No se establecen SLA back-to-back con fabricantes ni garantías de hardware, pero sí obligaciones de soporte y mantenimiento integral por parte del adjudicatario.\n\n# 2. Mapa de suministros y terceros\n| Elemento/necesidad | Tipo | Cantidad/volumen | Especificación | Quien debe aportarlo | Fuente |\n|--------------------|------|------------------|---------------|---------------------|--------|\n| Solución Asistente Virtual | SaaS | 1 | BOT conversacional IA generativa y tradicional, integración Decide Madrid | Adjudicatario | ID_188_3.PDF, p.1,5,13-14 |\n| Panel de control | SaaS | 1 | Accesible en la nube, mínimo 5 usuarios DGPC | Adjudicatario | ID_188_3.PDF, p.7,14-15 |\n| Licencias software y servicios | Software/licencias | Todas necesarias | Incluye soporte y garantía fabricante | Adjudicatario | ID_188_3.PDF, p.14,43 |\n| Infraestructura MultiCloud | Cloud infra | Según necesidad | Google Cloud Platform, Azure, AWS | Ayuntamiento | ID_188_3.PDF, p.29 |\n| Equipos/materiales para personal | Material | Según equipo | Medios técnicos y materiales, EPI | Adjudicatario | ID_188_3.PDF, p.23 |\n| Formación DGPC | Servicio | 20h mínimo, 20 asistentes | Formación sobre solución ofertada | Adjudicatario | ID_188_3.PDF, p.16 |\n| Servicio primer nivel atención | Servicio | 1 agente mínimo | Horario laborables 11:00-14:00 | Adjudicatario | ID_188_3.PDF, p.16 |\n| Bolsa de horas evolución tecnológica | Servicio | 600h iniciales | Consultoría avanzada | Adjudicatario | ID_188_3.PDF, p.17 |\n\n# 3. Productos, hardware y materiales\n| Producto | Cantidad | Características | Fabricante/referencia | Equivalente permitido | Garantía/soporte | Stock/plazo | Fuente |\n|---------|----------|----------------|----------------------|----------------------|------------------|-------------|--------|\n| Equipos/materiales para personal | Según equipo | Medios técnicos y materiales, EPI | NO CONSTA | NO CONSTA | A cargo adjudicatario | NO CONSTA | ID_188_3.PDF, p.23 |\n\n# 4. Software, SaaS y licencias\n| Producto | Fabricante | Métrica/cantidad | Entornos | Duración | Quien lo aporta | Fuente |\n|---------|-----------|-----------------|----------|----------|------------------|--------|\n| Asistente Virtual SaaS | NO CONSTA | 1 | Producción/preproducción | Vigencia contrato | Adjudicatario | ID_188_3.PDF, p.1,13-14 |\n| Panel de control SaaS | NO CONSTA | 1 | Nube | Vigencia contrato | Adjudicatario | ID_188_3.PDF, p.14-15 |\n| Licencias software y servicios | NO CONSTA | Todas necesarias | Según arquitectura | Vigencia contrato | Adjudicatario | ID_188_3.PDF, p.14,43 |\n\n# 5. Fabricantes, canal y cartas\n| Fabricante | Requisito | Nivel/certificación/carta exigida | Momento | Fuente |\n|------------|----------|-------------------------------|---------|--------|\n| NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n\n# 6. Subcontratación, UTE y medios externos\n| Regla | Límite/condición | Declaración/autorización | Fuente |\n|-------|------------------|-------------------------|--------|\n| Permitida subcontratación | No pueden subcontratarse tareas críticas de implantación ni jefe de proyecto | Declarar parte subcontratada, importe y subcontratista en oferta; comunicar cambios durante ejecución | ID_188_2.PDF, p.74-75; ID_188_3.PDF, p.29 |\n| UTE permitida | Ejecución directa de tareas críticas por licitador o participante UTE | Compromiso de constitución y reparto de tareas | ID_188_2.PDF, p.74 |\n\n# 7. Cadena de suministro y dependencias contractuales descritas\nNo se describe una cadena de suministro específica ni se establecen obligaciones contractuales sobre la misma. El adjudicatario debe aportar todos los medios, licencias y servicios necesarios para la ejecución del contrato, asumiendo los costes y la gestión de los mismos. ID_188_3.PDF, p.14,43.\n\n# 8. SLA de proveedor/fabricante, garantías y soporte exigidos\nNo se establecen SLA back-to-back con fabricantes ni garantías de hardware. El adjudicatario debe garantizar el soporte y mantenimiento integral de la solución, incluyendo soporte y garantía del fabricante para el software y servicios aportados. El plazo máximo para la fase de implantación es de 2 meses desde el inicio del contrato. ID_188_3.PDF, p.9,14,17.\n\n# 9. Logística, staging, stock, entrega, retirada y destrucción\nNo se establecen requisitos de stock, logística, staging, entrega o retirada de hardware. Se exige la eliminación segura de toda la información del servicio a la finalización del contrato, con certificado de destrucción. ID_188_3.PDF, p.9.\n\n# 10. Ambigüedades y datos no localizados\n- No se exige fabricante nominal, canal, partnership ni carta de fabricante.\n- No se describen stocks mínimos, logística, staging, ni retirada de hardware.\n- No se establecen SLA de fabricante ni garantías de hardware.\n- No se exige cadena de suministro específica.\n- No se exige homologación, sostenibilidad ni EOL/EOS de productos concretos.\n- No se exige soporte NBD/4h/onsite de fabricante.\n- No se exige carta de canal ni nivel de partner.\n- No se exige declaración de sostenibilidad de la cadena de suministro.\n- No se exige carta de compromiso de fabricante.\n- No se exige declaración de stock ni lead time.\n\n# 11. Documentos revisados\n1. ID_188_1.PDF\n2. ID_188_2.PDF\n3. ID_188_3.PDF\n4. poc (detalle licitación)\n5. poc (perfil contratante)\n6. poc (perfil contratante)\n7. 147409-2026 (Sin texto extraíble; pendiente de lectura/OCR)\n8. perfilContratante\n\n# Tabla de trazabilidad\n| Requisito/dato | Tipo | Valor/condición | Documento | Página/apartado | Estado de lectura |\n|----------------|------|----------------|-----------|-----------------|-------------------|\n| Solución SaaS | Obligación | Adjudicatario aporta y opera todos los elementos salvo infraestructura MultiCloud | ID_188_3.PDF | p.1,13-14 | Leído |\n| Licencias software | Obligación | Todas necesarias, con soporte y garantía fabricante, a cargo adjudicatario | ID_188_3.PDF | p.14,43 | Leído |\n| Infraestructura MultiCloud | Exclusión | Ayuntamiento aporta Google Cloud Platform, Azure, AWS | ID_188_3.PDF | p.29 | Leído |\n| Subcontratación | Permitida con límites | No subcontratar tareas críticas de implantación ni jefe de proyecto | ID_188_2.PDF | p.74-75 | Leído |\n| UTE | Permitida | Ejecución directa de tareas críticas por licitador/participante UTE | ID_188_2.PDF | p.74 | Leído |\n| SLA fabricante | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n| Garantía hardware | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n| Stock/logística | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n| Eliminación datos | Obligación | Eliminación segura y certificado al cierre | ID_188_3.PDF | p.9 | Leído |\n| Fabricante nominal | NO EXIGIDO | NO EXIGIDO | ID_188_3.PDF | p.14 | Leído |\n| Carta de fabricante | NO EXIGIDO | NO EXIGIDO | ID_188_3.PDF | p.14 | Leído |\n| Canal/partner | NO EXIGIDO | NO EXIGIDO | ID_188_3.PDF | p.14 | Leído |\n\n# Discrepancias y pendientes de aclaración\n- Documento 7 (147409-2026) pendiente de lectura/OCR. No se ha podido verificar si contiene condiciones adicionales sobre fabricantes, canal, cadena de suministro o SLA de terceros.\n- No se han identificado discrepancias internas en la documentación revisada."
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "ID_188_1.PDF",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 14915,
+        "caracteres_enviados_al_agente": 14915,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "ID_188_2.PDF",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 224684,
+        "caracteres_enviados_al_agente": 224684,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "ID_188_3.PDF",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 186976,
+        "caracteres_enviados_al_agente": 186976,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 4,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "ID_188_1.PDF",
+        "caracteres_extraidos": 5923,
+        "caracteres_enviados_al_agente": 5923,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 5,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "ID_188_1.PDF",
+        "caracteres_extraidos": 2659,
+        "caracteres_enviados_al_agente": 2659,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 6,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "ID_188_1.PDF",
+        "caracteres_extraidos": 3127,
+        "caracteres_enviados_al_agente": 3127,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 7,
+        "nombre": "147409-2026",
+        "tipo": "Documento enlazado",
+        "fuente": "ID_188_1.PDF",
+        "caracteres_extraidos": 0,
+        "caracteres_enviados_al_agente": 0,
+        "texto_compactado": false,
+        "error": "Sin texto extraible; documento pendiente de lectura/OCR"
+      },
+      {
+        "numero": 8,
+        "nombre": "perfilContratante",
+        "tipo": "Documento enlazado",
+        "fuente": "ID_188_2.PDF",
+        "caracteres_extraidos": 2690,
+        "caracteres_enviados_al_agente": 2690,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Documento no leido: 147409-2026: Sin texto extraible; documento pendiente de lectura/OCR",
+      "Se omitieron 22 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  }
+}

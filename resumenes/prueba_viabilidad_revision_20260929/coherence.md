@@ -1,0 +1,118 @@
+1. Veredicto ejecutivo de coherencia: INCOHERENCIAS CRITICAS
+
+2. Resumen ejecutivo de coherencia:
+La información consolidada presenta incoherencias críticas y brechas no subsanadas en requisitos de admisión, ejecución y solvencia técnica. Existen contradicciones entre agentes sobre el estado de certificaciones, cobertura de partners, vigencia de pólizas y acreditación de experiencia previa. Hay datos incompletos en CBE, compromisos de partners y certificados clave (ISO 20000-1, ISO 27001, ENS Media en producción). La información no está lista para Go/No-Go sin validaciones y subsanaciones urgentes. El riesgo de exclusión por incumplimiento documental es alto. Se requiere acción inmediata en evidencias de partners, renovaciones y declaraciones formales.
+
+3. Tabla de veredictos consolidados por agente:
+| Agente                        | Veredicto detectado                        | Dato consolidado                  | Confianza | Observaciones                                                                                 |
+|-------------------------------|--------------------------------------------|-----------------------------------|-----------|----------------------------------------------------------------------------------------------|
+| Solvencia de perfiles         | CUMPLE PARCIALMENTE                        | CUMPLE PARCIALMENTE               | Media     | Falta dedicación acreditada y certificados vigentes en perfiles clave.                       |
+| Solvencia de proyectos        | NO CUMPLE                                  | NO CUMPLE                         | Alta      | Solo 1 CBE válido, falta el segundo.                                                         |
+| Económico-financiero          | NO EVALUABLE (bloqueo admisión documental) | NO CUMPLE (admisión)              | Alta      | Ventas IT insuficientes, póliza RC no cubre toda ejecución, falta CBE y certificados clave.  |
+| Requisitos administrativos    | NO CUMPLE                                  | NO CUMPLE                         | Alta      | Coincide con económico-financiero y solvencia de proyectos.                                  |
+| Compras / Partners            | CUBIERTO CON GAPS                          | CUBIERTO CON GAPS                 | Media     | Falta compromiso firmado y especialización vigente, dependencia crítica de partner externo.  |
+| Service Design / ITIL         | ALTO RIESGO                                | ALTO RIESGO                       | Alta      | Sin ISO 20000-1, ISO 27001 y ENS Media en producción.                                        |
+| Seguridad / DPO / ENS         | NO CUMPLE                                  | NO CUMPLE                         | Alta      | Sin ENS Media ni ISO 27001 en producción, falta ISO 20000-1.                                 |
+
+4. Contradicciones detectadas:
+| Contradicción                                                                 | Agentes afectados                | Evidencia                                                                                   | Dato consolidado propuesto         | Confianza | Impacto en Go/No-Go                  |
+|------------------------------------------------------------------------------|----------------------------------|--------------------------------------------------------------------------------------------|------------------------------------|-----------|--------------------------------------|
+| Estado de póliza RC profesional (cubre cierre vs. cubre ejecución completa)   | Económico-financiero, Admin      | Póliza cubre hasta 31/12/2026, contrato hasta 30/11/2027                                   | NO CUBRE EJECUCIÓN COMPLETA        | Alta      | Bloqueante admisión                  |
+| Estado de ISO 27001 y ENS Media (oficina/desarrollo vs. producción)           | Económico-financiero, Seguridad  | Certificados solo para desarrollo/oficina, no producción                                   | NO CUBRE PRODUCCIÓN                | Alta      | Bloqueante ejecución                 |
+| Partnership Microsoft Solutions Partner (propio vs. externo, vigencia)        | Compras, Seguridad, Service Des. | Solo partner externo, especialización caducada, sin compromiso firmado                     | NO CUBIERTO HASTA FORMALIZACIÓN    | Alta      | Bloqueante ejecución                 |
+| CBE y experiencia previa (número y validez)                                  | Proyectos, Económico-financiero  | Solo 1 CBE válido, falta el segundo                                                         | NO CUMPLE                          | Alta      | Bloqueante admisión                  |
+| Certificación PMP y AWS Developer (vigencia y acreditación)                   | Perfiles, Admin, Seguridad       | PMP caduca antes del cierre, AWS sin fecha de expiración acreditada                        | NO CUMPLE/NO ACREDITADO            | Media     | Condicionado a renovación/acreditación|
+| ISO 14001 (vigencia cubre cierre vs. ejecución completa)                      | Económico-financiero, Admin      | Caduca 30/06/2026, cierre 30/10/2026                                                        | PENDIENTE RENOVACIÓN               | Alta      | Condicionado a renovación            |
+
+5. Duplicidades consolidadas:
+- Repetición de la brecha "falta CBE firmado para REF-002" en varios agentes: consolidar en una única acción.
+- Repetición de "falta compromiso firmado de partner cloud" en Compras, Seguridad y Service Design: consolidar en una única acción crítica.
+- Repetición de "certificados clave no cubren producción" (ISO 27001, ENS Media): consolidar en una única brecha de seguridad y ejecución.
+
+6. Información incompleta o pendiente:
+| Dato pendiente                        | Fuente         | Por qué importa                                 | Cómo validarlo                        | Prioridad |
+|---------------------------------------|---------------|-----------------------------------------------|---------------------------------------|-----------|
+| CBE firmado y completo para REF-002   | Proyectos     | Requisito de admisión, bloqueante             | Obtener CBE firmado y certificado     | Crítica    |
+| Compromiso firmado partner cloud      | Compras       | Requisito de ejecución, bloqueante            | Solicitar y adjuntar compromiso       | Crítica    |
+| Renovación especialización Azure VMware| Compras       | Requisito de ejecución, bloqueante            | Renovar y acreditar especialización   | Crítica    |
+| Renovación ISO 14001                  | Calidad       | Requisito ambiental, condiciona admisión      | Renovar y acreditar                   | Alta       |
+| Renovación/compromiso póliza RC       | Finanzas      | Cobertura de toda la ejecución, bloqueante    | Solicitar compromiso de renovación    | Crítica    |
+| Declaración ROLECE sin variaciones    | Admin         | Requisito formal, condiciona admisión         | Preparar y firmar declaración         | Alta       |
+| Certificado AWS Developer con vigencia| RRHH          | Requisito de perfil, condiciona admisión      | Aportar certificado con fecha         | Alta       |
+| Renovación PMP Ana Torres             | RRHH          | Requisito de perfil, condiciona admisión      | Renovar y acreditar                   | Alta       |
+| ISO 20000-1 (propio o partner)        | Calidad       | Requisito de ejecución, bloqueante            | Obtener o subcontratar                | Crítica    |
+| ISO 27001 y ENS Media en producción   | CISO/Calidad  | Requisito de ejecución, bloqueante            | Ampliar alcance o subcontratar        | Crítica    |
+
+7. Riesgos consolidados limpios:
+| Riesgo                                                      | Categoria         | Fuente principal         | Fuentes secundarias         | Impacto         | Probabilidad | Estado     | Acción recomendada                         |
+|-------------------------------------------------------------|-------------------|-------------------------|-----------------------------|-----------------|--------------|------------|--------------------------------------------|
+| Exclusión por falta de CBE                                  | Admisión          | Proyectos               | Económico-financiero, Admin | Muy alto        | Alta         | Abierto    | Obtener CBE firmado y completo             |
+| Exclusión por ventas IT insuficientes                       | Admisión          | Económico-financiero    | Admin                      | Muy alto        | Alta         | Abierto    | No subsanable salvo clasificación          |
+| Falta de cobertura RC toda la ejecución                     | Admisión/Ejecución| Económico-financiero    | Admin                      | Alto            | Alta         | Abierto    | Solicitar compromiso de renovación          |
+| Falta de ISO 20000-1, ISO 27001 y ENS Media en producción   | Ejecución         | Seguridad, Service Des. | Compras, Admin             | Muy alto        | Alta         | Abierto    | Subcontratar o ampliar alcance             |
+| Falta de compromiso partner cloud y especialización vigente | Ejecución         | Compras                 | Seguridad, Service Des.     | Muy alto        | Alta         | Abierto    | Formalizar compromiso y renovar especialización|
+| Falta de declaración ROLECE sin variaciones                 | Formal            | Admin                   | Económico-financiero        | Medio           | Media        | Abierto    | Preparar y firmar declaración               |
+| Falta de certificados vigentes en perfiles clave            | Admisión          | Perfiles                | Admin, Seguridad           | Alto            | Media        | Abierto    | Renovar/acreditar certificados              |
+
+8. Hechos consolidados para Go/No-Go:
+- Solo 1 CBE válido, falta el segundo, bloqueante.
+- Ventas IT en mejor ejercicio: 1.180.000 EUR, umbral: 1.200.000 EUR, no subsanable salvo clasificación.
+- Póliza RC cubre hasta 31/12/2026, contrato hasta 30/11/2027, falta compromiso de renovación.
+- ISO 9001 vigente y cubre alcance exigido.
+- ISO 14001 caduca antes del cierre, falta renovación.
+- ISO 20000-1 no disponible, ni propio ni partner.
+- ISO 27001 y ENS Media solo cubren desarrollo/oficina, no producción.
+- Partnership Microsoft Solutions Partner solo vía partner externo, especialización caducada, falta compromiso firmado.
+- Falta declaración ROLECE sin variaciones a la fecha de cierre.
+- Perfiles clave: falta dedicación acreditada y certificados vigentes (PMP, AWS Developer).
+
+9. Datos que el A13 no debe usar sin validar:
+- CBE REF-002 (no firmado ni certificado importe neto ejecutado).
+- Compromiso partner cloud (no firmado).
+- Renovación especialización Azure VMware Solution (no acreditada).
+- Renovación ISO 14001 (no acreditada).
+- Compromiso póliza RC para toda la ejecución (no acreditado).
+- Declaración ROLECE sin variaciones (no acreditada).
+- Certificado AWS Developer con vigencia (no acreditado).
+- Renovación PMP Ana Torres (no acreditada).
+- ISO 20000-1 (no acreditado).
+- ISO 27001 y ENS Media en producción (no acreditado).
+
+10. Correcciones aplicadas:
+- Se ha consolidado el estado de la póliza RC como NO CUBRE EJECUCIÓN COMPLETA, aunque algunos agentes la daban como CUMPLE al cierre.
+- Se ha consolidado la falta de CBE REF-002 como bloqueante, aunque algunos agentes la marcaban como "parcial".
+- Se ha consolidado la falta de ISO 20000-1, ISO 27001 y ENS Media en producción como bloqueante de ejecución.
+- Se ha consolidado la falta de compromiso firmado de partner cloud y especialización vigente como bloqueante de ejecución.
+- Se ha corregido la duplicidad de riesgos y acciones en CBE, partners y certificados.
+
+11. Paquete limpio para A13:
+- Decisión preliminar sugerida: NO-GO PROBABLE
+- Bloqueantes: Falta CBE firmado y completo, ventas IT insuficientes, póliza RC no cubre toda la ejecución, falta ISO 20000-1, ISO 27001 y ENS Media en producción, falta compromiso partner cloud y especialización vigente.
+- Condiciones pendientes: Renovación ISO 14001, declaración ROLECE sin variaciones, certificados vigentes en perfiles clave.
+- Riesgos altos: Exclusión por admisión, exclusión por ejecución, dependencia crítica de partner externo.
+- Evidencias positivas: ISO 9001 vigente, patrimonio neto y ratio liquidez cumplen, subcontratistas homologados disponibles, experiencia relevante en proyectos públicos.
+- Preguntas críticas: ¿Se puede obtener el CBE REF-002 antes del cierre? ¿Se puede formalizar el compromiso de partner cloud y renovar la especialización? ¿Se puede renovar la póliza RC y los certificados clave a tiempo?
+
+12. Fuentes utilizadas:
+- Agentes: Solvencia de perfiles, Solvencia de proyectos, Económico-financiero, Requisitos administrativos y legales, Compras/Partners, Service Design/ITIL, Seguridad/DPO/ENS.
+- Documentos: PCAP OPP-SW-011, PPT OPP-SW-011, Dossier interno OPP-SW-011, fichas de CBE, póliza RC, certificados ISO y ENS, ficha CRM alianzas, extracto RRHH, certificado ROLECE.
+
+Extracción de viabilidad:
+| Parámetro                        | Estado                | Dato decisivo                        | Fuente                  | Acción                                 |
+|----------------------------------|-----------------------|--------------------------------------|-------------------------|----------------------------------------|
+| Ventas IT mejor ejercicio        | NO CUMPLE             | 1.180.000 EUR vs. 1.200.000 EUR      | ERP Dynamics FIN-2025-042| No subsanable salvo clasificación      |
+| Patrimonio neto                  | CUMPLE                | 410.000 EUR                          | CA-2025                 | Ninguna                                |
+| Ratio liquidez                   | CUMPLE                | 1,50                                 | CA-2025                 | Ninguna                                |
+| Seguro RC profesional            | NO CUBRE EJECUCIÓN    | Vigente hasta 31/12/2026, falta 1 año| RC-IT-2026-031          | Solicitar compromiso de renovación      |
+| CBE proyectos similares          | NO CUMPLE             | Solo 1 CBE válido                    | CBE-REF-001             | Obtener CBE firmado REF-002            |
+| ISO 9001                         | CUMPLE                | Vigente hasta 31/12/2027             | Q-901-114               | Ninguna                                |
+| ISO 14001                        | PENDIENTE RENOVACIÓN  | Caduca 30/06/2026                    | M-140-208               | Renovar                                |
+| ISO 20000-1                      | NO ACREDITADO         | No disponible                        | -                       | Obtener o subcontratar                 |
+| ISO 27001 (producción)           | NO ACREDITADO         | Solo oficina, no producción          | S-270-317               | Ampliar alcance o subcontratar         |
+| ENS Media (producción)           | NO ACREDITADO         | Solo desarrollo, no producción       | ENS-M-044               | Ampliar alcance o subcontratar         |
+| Microsoft Solutions Partner      | NO ACREDITADO         | Solo partner externo, sin compromiso | ALI-027                 | Formalizar compromiso y renovar         |
+| Especialización Azure VMware     | NO ACREDITADO         | Caducada 31/08/2026                  | FAB-2026-09             | Renovar                                |
+| ROLECE                           | PENDIENTE VALIDACIÓN  | Certificado 15/09/2026, falta declaración| ROL-2026-0915        | Preparar declaración                   |
+| Clasificación alternativa        | NO ACREDITADO         | No consta clasificación              | -                       | No subsanable                          |
+| Jefatura proyecto PMP            | NO CUMPLE             | Caduca 30/09/2026                    | RH-2026-09              | Renovar                                |
+| Backend AWS Developer            | NO ACREDITADO         | Sin fecha de expiración acreditada   | RH-2026-09              | Aportar certificado                    |

@@ -1,0 +1,272 @@
+1. Veredicto ejecutivo económico-financiero: NO RENTABLE (por inviabilidad documental de admisión, aunque el margen económico sería viable)
+
+---
+
+Extracción de viabilidad
+
+Tabla de requisitos de admisión y ejecución
+
+| Parámetro                  | Literal y apartado del pliego         | Umbral y fecha exigidos                  | Estado           | Brecha, acción y responsable                |
+|---------------------------|---------------------------------------|------------------------------------------|------------------|---------------------------------------------|
+| Volumen de negocio        | PCAP A2                               | ≥1.200.000 EUR en línea IT, mejor año 23-25 | NO CUMPLE        | Mejor año IT: 1.180.000 EUR (2025); falta 20.000 EUR. Acción: revisar CBE alternativo o clasificación. Responsable: Dirección Financiera |
+| Patrimonio neto           | PCAP A2                               | ≥350.000 EUR a 31/12/2025                | CUMPLE           | 410.000 EUR. Sin brecha.                   |
+| Ratio liquidez corriente  | PCAP A2                               | ≥1,20 a 31/12/2025                       | CUMPLE           | 720.000/480.000=1,50. Sin brecha.          |
+| Seguro RC profesional     | PCAP A2                               | ≥1.000.000 EUR por siniestro, vigente al cierre y ejecución | CUMPLE           | 1.000.000 EUR, 01/01/2026-31/12/2026. No consta compromiso renovación para 2027. Acción: obtener compromiso. Responsable: Dirección Financiera |
+| CBE 1                     | PCAP A3                               | ≥350.000 EUR neto ejecutado, finalizado 30/10/23-30/10/26 | CUMPLE           | REF-001: 465.000 EUR, certificado.         |
+| CBE 2                     | PCAP A3                               | ≥350.000 EUR neto ejecutado, finalizado 30/10/23-30/10/26 | NO ACREDITADO    | REF-002: 390.000 EUR comercial, sin CBE ni neto ejecutado certificado. Acción: obtener CBE firmado. Responsable: Oficina de Proyectos |
+| ISO 9001                  | PCAP A4                               | Vigente al cierre, desarrollo/operación IT | CUMPLE           | 01/01/2025-31/12/2027. Sin brecha.         |
+| ISO 14001                 | PCAP A4                               | Vigente al cierre, instalaciones servicio | PENDIENTE VALIDACIÓN | 01/07/2023-30/06/2026. Caduca antes del cierre. Acción: renovar. Responsable: Calidad |
+| ISO 20000-1               | PCAP A4                               | Vigente al cierre, gestión del servicio   | NO ACREDITADO    | No disponible. Acción: buscar partner o evidencia alternativa. Responsable: Calidad/Alianzas |
+| ISO 27001                 | PCAP A4                               | Vigente al cierre, desarrollo/operación/hosting | NO ACREDITADO    | Solo oficina Madrid, excluye producción. Acción: buscar partner con alcance adecuado. Responsable: CISO/Alianzas |
+| ENS Media                 | PCAP A4                               | Certificado para entorno de producción    | NO ACREDITADO    | Solo entorno desarrollo Madrid. Acción: buscar partner con ENS Media en producción. Responsable: CISO/Alianzas |
+| Microsoft Solutions Partner| PCAP A4                               | Vigente al cierre, Infraestructura (Azure) | NO ACREDITADO    | Partner: vigente hasta 31/03/2027, pero especialización Azure VMware Solution caducada. Sin compromiso firmado. Acción: renovar y formalizar compromiso. Responsable: Alianzas |
+| ROLECE                    | PCAP A5                               | Certificado actualizado, sin variaciones  | PENDIENTE VALIDACIÓN | Certificado 15/09/2026. Falta declaración de ausencia de variaciones a 30/10/2026. Acción: emitir declaración. Responsable: Administración |
+| Clasificación alternativa | PCAP A5                               | Grupo V, Subgrupo 2, Categoría 3         | NO ACREDITADO    | No consta. Acción: no aplicable.            |
+
+Fichas de evidencia por campo
+
+Ventas anuales (ERP Dynamics FIN-2025-042, CA-2025, 30/06/2026):
+| Año fiscal | Ventas globales EUR | Ventas IT EUR | Documento |
+|------------|---------------------|--------------|-----------|
+| 2023       | 920.000             | 610.000      | ERP/CA-2025 |
+| 2024       | 1.350.000           | 980.000      | ERP/CA-2025 |
+| 2025       | 1.680.000           | 1.180.000    | ERP/CA-2025 |
+Mejor año IT: 1.180.000 EUR (2025). Umbral: 1.200.000 EUR. Diferencia: -20.000 EUR. Estado: NO CUMPLE.
+
+Balance 2025 (CA-2025):
+| Ejercicio/fecha | Patrimonio neto | Activo corriente | Pasivo corriente | Ratio | Resultado | Umbral | Fuente |
+|-----------------|-----------------|------------------|------------------|-------|-----------|--------|--------|
+| 2025/31-12      | 410.000         | 720.000          | 480.000          | 1,50  | 1,50      | 1,20   | CA-2025|
+
+Seguro RC (póliza RC-IT-2026-031, recibo 2026):
+| Titular                        | Asegurador                    | Identificador         | Actividad cubierta         | Importe siniestro | Agregado anual | Inicio     | Fin        | Vigencia al cierre | Cobertura ejecución | Compromiso renovación | Fuente         |
+|-------------------------------|-------------------------------|-----------------------|---------------------------|-------------------|---------------|------------|------------|--------------------|---------------------|----------------------|----------------|
+| Sermicro Software Ficticio S.L.| Aseguradora Ficticia Peninsular| RC-IT-2026-031        | Desarrollo y operación IT | 1.000.000 EUR     | 2.000.000 EUR | 01/01/2026 | 31/12/2026 | Sí                 | Sí                  | NO CONSTA            | Póliza/Recibo  |
+
+CBE 1 (CBE-REF-001, 15/05/2025):
+| Objeto         | Importe neto ejecutado | Inicio | Fin       | CPV      | Emisor/cliente                  | Certificado |
+|----------------|-----------------------|--------|-----------|----------|-------------------------------|-------------|
+| Portal ciudadano| 465.000 EUR           | 01/02/24| 30/04/25 | 72262000 | Ayto. Ficticio Sierra Capital  | Sí          |
+
+CBE 2: NO ACREDITADO (solo ficha comercial, sin CBE ni importe neto ejecutado certificado)
+
+ISO 9001: Q-901-114, Certificadora Ficticia Iberia, 01/01/2025-31/12/2027, desarrollo/operación IT, sede Madrid y nube UE.
+ISO 14001: M-140-208, Certificadora Ficticia Ambiental, 01/07/2023-30/06/2026, instalaciones Madrid. Caduca antes del cierre.
+ISO 20000-1: NO DISPONIBLE.
+ISO 27001: S-270-317, Certificadora Ficticia Seguridad, 01/01/2025-31/12/2027, solo oficina Madrid, excluye producción.
+ENS Media: ENS-M-044, Auditora Ficticia ENS, 01/01/2025-31/12/2026, solo entorno desarrollo Madrid.
+Microsoft Solutions Partner: Cloud Partner Ficticio S.A., vigente hasta 31/03/2027, especialización Azure VMware Solution caducada 31/08/2026, sin compromiso firmado.
+ROLECE: Certificado 15/09/2026, sin declaración de ausencia de variaciones a 30/10/2026.
+Clasificación alternativa: NO CONSTA.
+
+---
+
+2. Resumen ejecutivo
+- Dinero disponible (PBL sin IVA): 600.000 EUR
+- Coste total estimado de ejecución: 523.000 EUR (estimación, ver tabla de costes)
+- Margen estimado a PBL: 77.000 EUR (14,7%)
+- Puntuación económica esperada: 40 puntos si oferta mínima, 36-39 puntos en escenario probable
+- Recomendación de precio: NO RECOMENDADO ofertar por inviabilidad documental. Si se resolvieran los gaps, precio objetivo: 552.000 EUR (-8% sobre PBL, margen 15,2%)
+
+---
+
+3. Estructura económica del contrato
+| Concepto                  | Importe EUR | Observaciones                         |
+|---------------------------|-------------|---------------------------------------|
+| PBL sin IVA               | 600.000     | Importe sobre el que se presenta oferta|
+| IVA (21%)                 | 126.000     | Referencia, no afecta puntuación       |
+| PBL con IVA               | 726.000     | Referencia                            |
+| Valor estimado            | 600.000     | Sin modificaciones ni prórrogas       |
+| Duración inicial          | 12 meses    | Sin prórrogas                         |
+| Prórrogas                 | 0           | No previstas                          |
+| Lotes                     | 0           | No hay lotes                          |
+| Anualidades               | 1           | 12 meses                              |
+| Modificaciones            | 0           | No previstas                          |
+| Bolsas/servicios demanda  | 0           | No previstos                          |
+| Precios unitarios         | NO EXIGIDO  | No hay precios unitarios              |
+
+---
+
+4. Fórmula de puntuación económica
+- Literal: P = 40 x (oferta mínima / oferta licitador)
+- Puntos máximos: 40
+- Variables: oferta mínima (Omin), oferta licitador (Olic)
+- Comportamiento: la oferta más baja obtiene 40 puntos; las demás, proporcionalmente menos
+- Dependencia de competidores: sí, la puntuación depende de la oferta más baja
+- Lectura práctica: para obtener 40 puntos, hay que ser la oferta más baja. Si no, la puntuación baja en proporción inversa al precio respecto a la mínima. No hay tramos ni zonas de penalización por baja excesiva.
+
+4.b. Formulas de mejoras automáticas no económicas: NO EXIGIDO
+
+---
+
+5. Escenarios de puntuación económica
+
+Supuestos:
+- Coste total estimado: 523.000 EUR (ver tabla maestra de costes)
+- Margen bruto EUR = precio oferta sin IVA - coste total estimado
+- Margen bruto % = margen bruto EUR / precio oferta sin IVA x 100
+- Puntos si somos oferta mínima: 40
+- Puntos con competidor probable: simulamos baja del 10% sobre PBL (540.000 EUR)
+- Puntos con competidor agresivo: simulamos baja del 15% sobre PBL (510.000 EUR)
+
+| Variación vs PBL | Oferta sin IVA | Oferta con IVA | Admisible | Puntos si somos oferta mínima | Puntos con competidor probable | Puntos con competidor agresivo | Margen EUR | Margen % | Riesgo         | Lectura estratégica                         |
+|------------------|---------------|---------------|-----------|------------------------------|-------------------------------|-------------------------------|------------|----------|----------------|---------------------------------------------|
+| +10%             | 660.000       | 798.600       | NO        | -                            | -                             | -                             | 137.000    | 20,8%    | No admisible   | Sobrepasa PBL, no permitido                |
+| +5%              | 630.000       | 761.300       | NO        | -                            | -                             | -                             | 107.000    | 17,0%    | No admisible   | Sobrepasa PBL, no permitido                |
+| +2%              | 612.000       | 740.520       | NO        | -                            | -                             | -                             | 89.000     | 14,5%    | No admisible   | Sobrepasa PBL, no permitido                |
+| 0%               | 600.000       | 726.000       | SÍ        | 40                           | 36,0                          | 34,0                          | 77.000     | 12,8%    | Margen justo   | Solo recomendable si no hay competencia     |
+| -3%              | 582.000       | 704.220       | SÍ        | 40                           | 37,2                          | 35,6                          | 59.000     | 10,1%    | Riesgo margen  | Margen mínimo aprobable                    |
+| -5%              | 570.000       | 689.700       | SÍ        | 40                           | 37,9                          | 36,1                          | 47.000     | 8,2%     | Línea roja     | Solo con comité de riesgo                   |
+| -8%              | 552.000       | 667.920       | SÍ        | 40                           | 39,0                          | 36,9                          | 29.000     | 5,3%     | No recomendable| Margen por debajo de política interna       |
+| -10%             | 540.000       | 653.400       | SÍ        | 40                           | 40,0                          | 37,5                          | 17.000     | 3,1%     | No recomendable| Margen insuficiente                        |
+| -12%             | 528.000       | 638.880       | SÍ        | 40                           | 40,0                          | 38,1                          | 5.000      | 0,9%     | No recomendable| Margen casi nulo                           |
+| -15%             | 510.000       | 617.100       | SÍ        | 40                           | 40,0                          | 40,0                          | -13.000    | -2,5%    | Pérdida        | Oferta temeraria, margen negativo           |
+| -18%             | 492.000       | 595.320       | SÍ        | 40                           | 40,0                          | 40,0                          | -31.000    | -6,3%    | Pérdida        | Oferta temeraria, margen negativo           |
+| -20%             | 480.000       | 580.800       | SÍ        | 40                           | 40,0                          | 40,0                          | -43.000    | -9,0%    | Pérdida        | Oferta temeraria, margen negativo           |
+| -22%             | 468.000       | 566.280       | SÍ        | 40                           | 40,0                          | 40,0                          | -55.000    | -11,8%   | Pérdida        | Oferta temeraria, margen negativo           |
+
+---
+
+6. Opciones de estrategia de precio y opinión
+| Opción              | % sobre PBL | Precio sin IVA | Puntos esperados | Margen EUR | Margen % | Condiciones                        | Opinión                                 |
+|---------------------|-------------|---------------|------------------|------------|----------|------------------------------------|-----------------------------------------|
+| Conservadora        | 0%          | 600.000       | 36-40            | 77.000     | 12,8%    | Solo si no hay competencia         | No recomendable, margen justo           |
+| Objetivo            | -8%         | 552.000       | 39-40            | 29.000     | 5,3%     | Margen bajo, riesgo competitivo    | No recomendable, margen bajo            |
+| Agresiva            | -12%        | 528.000       | 40               | 5.000      | 0,9%     | Margen casi nulo                   | No recomendable, margen insuficiente    |
+| Límite/no ofertar   | -15%        | 510.000       | 40               | -13.000    | -2,5%    | Margen negativo                    | No ofertar, pérdida asegurada           |
+
+---
+
+7. Objetivos de puntuación
+| % puntos económicos | Precio máximo estimado | Margen EUR | Advertencia                                 |
+|---------------------|-----------------------|------------|---------------------------------------------|
+| 70%                 | 857.143               | 334.143    | No admisible, sobrepasa PBL                 |
+| 80%                 | 750.000               | 227.000    | No admisible, sobrepasa PBL                 |
+| 90%                 | 666.667               | 143.667    | No admisible, sobrepasa PBL                 |
+| 95%                 | 631.579               | 108.579    | No admisible, sobrepasa PBL                 |
+| 100%                | 600.000 (si mínima)   | 77.000     | Solo si somos oferta mínima                 |
+
+---
+
+8. Simulación con competidores
+- Conservador: Competidor baja 5% (570.000 EUR). Nuestra oferta igual o superior: 36-38 puntos.
+- Probable: Competidor baja 10% (540.000 EUR). Nuestra oferta igual o superior: 34-36 puntos.
+- Favorable: Somos oferta mínima: 40 puntos.
+
+---
+
+9. Oferta anormalmente baja
+- No se define umbral explícito en pliego. Por práctica, se considera temeraria si margen bruto <0% o baja >15% sin justificación.
+- Línea roja económica: 570.000 EUR (-5%)
+- Precio de riesgo: ≤570.000 EUR (margen <8%)
+- Procedimiento: justificar estructura de costes, subcontratación, eficiencia y viabilidad.
+
+---
+
+10. Tabla maestra de costes (estimación)
+| Concepto                | Cantidad | Coste pliego | Coste estimado | Total    | Tipo         | Fuente         | Confianza | Comentario                                 |
+|-------------------------|----------|--------------|---------------|----------|--------------|---------------|-----------|---------------------------------------------|
+| Personal (12 meses)     | 8        | NO INDICADO  | 390.000       | 390.000  | Estimación   | Tarifas internas| Alta      | Ver desglose por perfil                     |
+| Hardware                | 8        | NO INDICADO  | 8.000         | 8.000    | Estimación   | Precios internos| Media     | Portátiles, monitores, accesorios           |
+| Licencias software      | 8        | NO INDICADO  | 12.000        | 12.000   | Estimación   | Precios internos| Media     | Jira, Power BI, EDR, SAST                   |
+| Cloud (12 meses)        | 1        | NO INDICADO  | 48.000        | 48.000   | Estimación   | Precios internos| Media     | Azure portal medio, backup, logs            |
+| Seguridad/cumplimiento  | 1        | NO INDICADO  | 15.000        | 15.000   | Estimación   | Precios internos| Media     | Pentest, auditoría ENS, formación           |
+| Transición              | 1        | NO INDICADO  | 24.000        | 24.000   | Estimación   | % presupuesto   | Media     | 4% PBL                                     |
+| Reversibilidad          | 1        | NO INDICADO  | 12.000        | 12.000   | Estimación   | % presupuesto   | Media     | 2% PBL                                     |
+| Formación               | 1        | NO INDICADO  | 2.000         | 2.000    | Estimación   | Precios internos| Media     | 24 horas                                   |
+| Desplazamientos         | 1        | NO INDICADO  | 2.000         | 2.000    | Estimación   | Precios internos| Baja      | Visitas puntuales                          |
+| Materiales/consumibles  | 1        | NO INDICADO  | 1.000         | 1.000    | Estimación   | Precios internos| Baja      | Consumibles, papelería                      |
+| Terceros/subcontratación| 1        | NO INDICADO  | 7.000         | 7.000    | Estimación   | Precios internos| Baja      | Cloud partner, pentest                      |
+| Garantías/seguros       | 1        | NO INDICADO  | 2.000         | 2.000    | Estimación   | Precios internos| Baja      | Aval, RC                                    |
+| Financiación/circulante | 1        | NO INDICADO  | 2.000         | 2.000    | Estimación   | Precios internos| Baja      | Coste aval y circulante                     |
+| Contingencia técnica    | 1        | NO INDICADO  | 8.000         | 8.000    | Estimación   | 6% personal     | Media     | Riesgo técnico                             |
+| Overhead estructura     | 1        | NO INDICADO  | 12.000        | 12.000   | Estimación   | 12% personal    | Media     | Coste indirecto                            |
+| Sustituciones/guardias  | 1        | NO INDICADO  | 8.000         | 8.000    | Estimación   | 8% personal     | Media     | Vacaciones, guardias                       |
+| TOTAL                   | -        | -            | 523.000       | 523.000  | Estimación   | Suma anterior   | Media     | Coste total estimado                       |
+
+---
+
+11. Costes por categoría
+- Personal: 390.000 EUR
+- Hardware: 8.000 EUR
+- Software/licencias: 12.000 EUR
+- Cloud: 48.000 EUR
+- Seguridad/cumplimiento: 15.000 EUR
+- Transición: 24.000 EUR
+- Reversibilidad: 12.000 EUR
+- Formación: 2.000 EUR
+- Desplazamientos/presencialidad: 2.000 EUR
+- Materiales/consumibles: 1.000 EUR
+- Terceros/subcontratación: 7.000 EUR
+- Garantías/seguros/financiación: 2.000 EUR
+- Contingencia técnica: 8.000 EUR
+- Overhead estructura: 12.000 EUR
+- Sustituciones/guardias: 8.000 EUR
+
+---
+
+12. Comparación coste pliego vs coste real
+- El pliego no indica desglose de costes. El coste real estimado (523.000 EUR) es conservador y cubre todos los conceptos obligatorios. No se detectan partidas infravaloradas relevantes, pero la ausencia de ISO 20000-1, ISO 27001 y ENS Media en producción puede encarecer la subcontratación.
+
+---
+
+13. Penalizaciones y riesgo económico
+- Penalizaciones por incumplimiento de SLA, retrasos y disponibilidad: NO DETALLADO EN PLIEGO. Riesgo: medio, por exigencia de respuesta crítica y reversibilidad.
+- Exposición económica: limitada al 5% de garantía definitiva (30.000 EUR) y posibles penalizaciones contractuales estándar.
+
+---
+
+14. Cash flow y calendario de facturación
+- Facturación mensual tras aceptación. Pagos a 60 días estimados. Compras iniciales de hardware/licencias no superan el 20% del PBL, no requieren circulante especial. Aval 5% del importe adjudicado sin IVA (30.000 EUR). Riesgo financiero bajo.
+
+---
+
+15. Revisión de precios
+- NO PREVISTA. Riesgo de incremento de costes en licencias/cloud/personal si el mercado sube. Acción: incluir contingencia y negociar revisión si es posible.
+
+---
+
+16. Margen del proyecto
+- Coste total estimado: 523.000 EUR
+- Contingencia incluida: 8.000 EUR
+- Margen bruto para varios precios de oferta: ver tabla de escenarios.
+- Sensibilidad: margen cae por debajo del 10% si la oferta baja más del 3% sobre PBL.
+
+---
+
+17. Zona óptima de oferta
+| Tipo de precio | Precio sin IVA | Puntuación estimada | Margen EUR | Margen % | Justificación                                 |
+|----------------|---------------|---------------------|------------|----------|-----------------------------------------------|
+| Objetivo       | 552.000       | 39-40               | 29.000     | 5,3%     | No recomendable, margen bajo                  |
+| Agresivo       | 528.000       | 40                  | 5.000      | 0,9%     | No recomendable, margen insuficiente          |
+| Límite         | 510.000       | 40                  | -13.000    | -2,5%    | No ofertar, pérdida asegurada                 |
+
+---
+
+18. Recomendaciones de decisión
+- Presentarse: NO RECOMENDADO salvo que se acrediten ventas IT ≥1.200.000 EUR, CBE 2 firmado, ISO 20000-1, ISO 27001 y ENS Media en producción mediante partner y compromiso formal.
+- Condiciones para ofertar: cerrar todos los gaps documentales antes del cierre.
+- Cotizaciones necesarias: subcontratación de cloud, seguridad y ENS Media en producción.
+- Aprobaciones internas: comité de riesgo si margen <10%.
+- Riesgos a cerrar: viabilidad documental, subcontratación, compromiso partner, renovación ISO 14001.
+
+---
+
+19. Preguntas al órgano de contratación
+- ¿Se admite acreditar la solvencia económica y técnica mediante partner o UTE para ventas IT, ISO 20000-1, ISO 27001 y ENS Media en producción?
+- ¿Se permite subsanar la falta de CBE firmado si se aporta ficha comercial y justificante de facturación?
+- ¿Se admiten compromisos de renovación para ISO 14001 y seguro RC más allá de la fecha de cierre?
+- ¿Se puede presentar compromiso de subcontratación para Microsoft Solutions Partner y ENS Media en producción?
+- ¿Hay penalizaciones económicas específicas por incumplimiento de SLA, reversibilidad o seguridad?
+- ¿Se prevé revisión de precios para licencias cloud o personal si el contrato se prorroga o el mercado sube?
+
+---
+
+20. Documentos revisados
+1. PCAP OPP-SW-011 (Pliego administrativo, XML)
+2. PPT OPP-SW-011 (Pliego técnico, XML)
+3. Dossier interno ficticio OPP-SW-011 (ventas, póliza, CBE, certificados, alianzas, RRHH, ROLECE)
+
+---
+
+Conclusión: El proyecto sería económicamente viable a precios competitivos, pero la empresa NO CUMPLE requisitos documentales clave (ventas IT, CBE, ISO 20000-1, ISO 27001 y ENS Media en producción, compromiso partner). No se recomienda ofertar salvo subsanación total de los gaps antes del cierre.

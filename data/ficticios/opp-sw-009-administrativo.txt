@@ -1,0 +1,59 @@
+PLIEGO ADMINISTRATIVO FICTICIO OPP-SW-009
+Contrato de sistema IoT smart city para sensores urbanos.
+
+Procedimiento: abierto sujeto a regulacion armonizada ficticia.
+Presupuesto base de licitacion: 919.600 EUR IVA incluido.
+Valor estimado: 760.000 EUR.
+Duracion: 16 meses.
+Plazo de presentacion: 15/10/2026 a las 14:00.
+
+Documentacion:
+- Arquitectura IoT.
+- Plan de integracion con sensores.
+- Plan de explotacion y observabilidad.
+- Equipo adscrito.
+- Oferta economica.
+
+Condiciones:
+El adjudicatario coordinara pruebas de campo con proveedores de sensores y servicios urbanos.
+
+Condiciones de participacion:
+Podran presentarse empresas con capacidad de obrar o UTEs. Se exige declaracion de compatibilidad con proveedores de sensores y ausencia de conflicto de interes con fabricantes que participen en la licitacion.
+
+Solvencia economica y garantias:
+Facturacion minima de 1.000.000 EUR en el mejor de los tres ultimos ejercicios. Garantia provisional del 3 por ciento del presupuesto base y garantia definitiva del 5 por ciento. Seguro de responsabilidad civil de 2.000.000 EUR.
+
+Documentacion:
+DEUC, certificados de Hacienda y Seguridad Social, poderes, compromiso de adscripcion de medios, plan de seguridad operacional, declaracion ambiental y plan de continuidad.
+
+Restricciones y subcontratacion:
+Se permite subcontratacion hasta el 50 por ciento, pero la integracion IoT central debera ejecutarla el adjudicatario. La falta de garantia provisional o seguro minimo excluira la oferta.
+
+Criterios de adjudicacion:
+Total 100 puntos.
+- Arquitectura IoT y escalabilidad: 30 puntos. Subcriterios: ingesta MQTT 7, procesamiento streaming 6, GIS 5, reglas de alerta 5, seguridad 4, historico de datos 3.
+- Precio: 30 puntos.
+- Operabilidad y observabilidad: 15 puntos.
+- Experiencia smart city demostrable: 10 puntos. Maximo por dos referencias con sensores fisicos recientes.
+- Plan de pruebas de campo: 8 puntos.
+- Mejoras automaticas: 7 puntos. Reduccion de latencia 3, sensores adicionales 2, garantia adicional 2.
+Umbral minimo: 24 puntos sobre arquitectura IoT y operabilidad.
+
+ANEXO ECONOMICO-FINANCIERO:
+Presupuesto de oferta: 760.000 EUR sin IVA. PBL con IVA 919.600 EUR. Duracion 18 meses. No hay revision de precios.
+Formula economica: precio 30 puntos. La oferta mas baja obtiene 30 puntos y el resto P = 30 x oferta_minima / oferta_licitador.
+Oferta anormal: baja superior al 18 por ciento o inferior a la suma estimada de hardware obligatorio mas 12 meses de operacion se considerara riesgo severo.
+Facturacion: 10 por ciento inicio, 25 por ciento suministro sensores/gateways, 25 por ciento plataforma, 20 por ciento pruebas campo, 20 por ciento operacion y cierre.
+Costes obligatorios:
+- Hardware: 120 sensores urbanos, 20 gateways, 10 equipos de sustitucion y repuestos 5 por ciento. El pliego estima 210.000 EUR, pero exige certificacion de dispositivo, garantia 3 anos y repuestos.
+- Cloud/IoT: ingestion MQTT, streaming, base de datos historica, dashboard GIS, alertas y almacenamiento 18 meses. Estimacion pliego 6.000 EUR/mes.
+- SOC 24x7 y SIEM incluidos por exigencia ENS ALTA. Coste no desglosado en presupuesto.
+- Equipo: arquitecto IoT 70 por ciento, DevOps 60 por ciento, backend tiempo real 60 por ciento, GIS 40 por ciento, tecnico campo 50 por ciento, responsable seguridad 25 por ciento.
+- Desplazamientos: pruebas en 25 ubicaciones urbanas, minimo 40 visitas presenciales.
+- Subcontratacion permitida hasta 50 por ciento para instalacion y sensores, con margen de partner.
+Riesgo economico: alto por hardware inicial, ENS ALTA, SOC 24x7 y ausencia de revision de precios.
+Penalizaciones: indisponibilidad de monitorizacion P1 hasta 10 por ciento de factura mensual; retraso en suministro 1 por ciento semanal.
+
+ANEXO COMPRAS / PARTNERS:
+El adjudicatario debe suministrar 120 sensores IoT ambientales, 12 gateways industriales, 4 routers 5G, cableado, cajas estancas, SAI pequeno para gateways criticos, plataforma de monitorizacion, SIM M2M y servicio SOC 24x7. Se exige stock minimo del 8 por ciento de sensores y garantia de sustitucion en 4 horas para gateways criticos.
+Subcontratacion permitida hasta 50 por ciento para instalacion, sensores, telecomunicaciones y SOC, pero la direccion del servicio no es subcontratable. Hay riesgo de proveedor unico si el fabricante de sensores no garantiza stock. Accion: BOM/RFQ sensores y gateways, reserva de stock, SOC Azul 24x7 S.L., Logistica Iberica TI S.L. y autonomo Diego Santos para arquitectura IoT/GIS.

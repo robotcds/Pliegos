@@ -1,0 +1,693 @@
+{
+  "expediente": "AI240006",
+  "id": "A2",
+  "nombre": "Administrativo-legal",
+  "capa": 1,
+  "contenido": {
+    "requisitos_documentales": [
+      {
+        "id": "R0001",
+        "seccion": "Condiciones de participación",
+        "detalle": "Capacidad de obrar exigida como requisito de admisión.",
+        "fuente": "Metadatos XML, requisitos_xml",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A2"
+      },
+      {
+        "id": "R0002",
+        "seccion": "Condiciones de participación",
+        "detalle": "No estar incurso en prohibición para contratar exigido como requisito de admisión.",
+        "fuente": "Metadatos XML, requisitos_xml",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A2"
+      },
+      {
+        "id": "R0003",
+        "seccion": "Condiciones de participación",
+        "detalle": "No estar incurso en incompatibilidades exigido como requisito de admisión.",
+        "fuente": "Metadatos XML, requisitos_xml",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A2"
+      },
+      {
+        "id": "R0004",
+        "seccion": "Condiciones de participación",
+        "detalle": "Cumplimiento de las obligaciones con la Seguridad Social exigido como requisito de admisión.",
+        "fuente": "Metadatos XML, requisitos_xml",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A2"
+      },
+      {
+        "id": "R0005",
+        "seccion": "Condiciones de participación",
+        "detalle": "Cumplimiento de las obligaciones tributarias exigido como requisito de admisión.",
+        "fuente": "Metadatos XML, requisitos_xml",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A2"
+      },
+      {
+        "id": "R0006",
+        "seccion": "Condiciones de participación",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre clasificación empresarial, habilitaciones específicas, requisitos de UTE o subcontratación.",
+        "fuente": "Revisión documental",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A2"
+      },
+      {
+        "id": "R0007",
+        "seccion": "Documentación administrativa",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre DEUC, declaraciones responsables, escrituras, poderes, certificados, anexos o compromisos específicos.",
+        "fuente": "Revisión documental",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A2"
+      },
+      {
+        "id": "R0008",
+        "seccion": "Requisitos formales de presentación",
+        "detalle": "Licitación electrónica de ofertas en la Plataforma de Contratación del Sector Público, siendo obligatorio el uso de versión JAVA y certificado electrónico.",
+        "fuente": "Metadatos XML, nota_plazo",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A2"
+      },
+      {
+        "id": "R0009",
+        "seccion": "Requisitos formales de presentación",
+        "detalle": "Todas las consultas se realizarán obligatoriamente a través de la Plataforma de Contratación del Sector Público, siendo este el único canal mediante el que serán atendidas.",
+        "fuente": "Metadatos XML, nota_plazo",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A2"
+      },
+      {
+        "id": "R0010",
+        "seccion": "Requisitos formales de presentación",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre sobres/archivos, contenido, idioma, firma, formatos, extensión, nomenclatura y fecha límite de presentación.",
+        "fuente": "Revisión documental",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A2"
+      },
+      {
+        "id": "R0011",
+        "seccion": "Causas o condiciones de exclusión",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna causa o condición de exclusión expresamente prevista.",
+        "fuente": "Revisión documental",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A2"
+      },
+      {
+        "id": "R0012",
+        "seccion": "Garantías, seguros y penalizaciones",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre garantías económicas, seguros, penalizaciones, revisión de precios u obligaciones económicas administrativas.",
+        "fuente": "Revisión documental",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A2"
+      },
+      {
+        "id": "R0013",
+        "seccion": "Duración, prórrogas y resolución",
+        "detalle": "Duración del contrato: 24 meses.",
+        "fuente": "Metadatos XML, duracion",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A2"
+      },
+      {
+        "id": "R0014",
+        "seccion": "Duración, prórrogas y resolución",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre prórrogas, resolución, condiciones especiales de ejecución, cesión, subcontratación, RGPD, confidencialidad, propiedad intelectual, PRL, laboral, igualdad o medioambiente, salvo la mención genérica a consideraciones de tipo social.",
+        "fuente": "Metadatos XML, condiciones_ejecucion_xml; Revisión documental",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A2"
+      },
+      {
+        "id": "R0015",
+        "seccion": "Lotes, incompatibilidades y limitaciones",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre lotes, incompatibilidades adicionales o limitaciones.",
+        "fuente": "Revisión documental",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A2"
+      },
+      {
+        "id": "R0016",
+        "seccion": "Procedimiento y tramitación",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre fases del procedimiento, tramitación, número de rondas, extremos negociables o no negociables, ni condiciones de aceptación de oferta final.",
+        "fuente": "Revisión documental",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A2"
+      },
+      {
+        "id": "R0017",
+        "seccion": "Presupuesto y desglose económico",
+        "detalle": "Importe estimado: 2.591.500 EUR.",
+        "fuente": "Metadatos XML, importe_estimado",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A2"
+      },
+      {
+        "id": "R0018",
+        "seccion": "Presupuesto y desglose económico",
+        "detalle": "Importe total: 1.718.200 EUR.",
+        "fuente": "Metadatos XML, importe_total",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A2"
+      },
+      {
+        "id": "R0019",
+        "seccion": "Presupuesto y desglose económico",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre desglose por lote, anualidad, precios unitarios, límites de gasto o partidas obligatorias.",
+        "fuente": "Revisión documental",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A2"
+      },
+      {
+        "id": "R0020",
+        "seccion": "Condiciones de pago y facturación",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre condiciones de pago, facturación, hitos de aceptación, plazos de cobro, anticipos, revisión de precios, modificaciones o prórrogas con sus límites.",
+        "fuente": "Revisión documental",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A2"
+      },
+      {
+        "id": "R0021",
+        "seccion": "Criterios de adjudicación",
+        "detalle": "Oferta económica: 70 puntos.",
+        "fuente": "Metadatos XML, criterios_adjudicacion_xml",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A2"
+      },
+      {
+        "id": "R0022",
+        "seccion": "Criterios de adjudicación",
+        "detalle": "Oferta técnica, criterios evaluables automáticamente: 3 puntos.",
+        "fuente": "Metadatos XML, criterios_adjudicacion_xml",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A2"
+      },
+      {
+        "id": "R0023",
+        "seccion": "Criterios de adjudicación",
+        "detalle": "Oferta técnica: 27 puntos.",
+        "fuente": "Metadatos XML, criterios_adjudicacion_xml",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A2"
+      },
+      {
+        "id": "R0024",
+        "seccion": "Condiciones especiales de ejecución",
+        "detalle": "Consideraciones de tipo social: Consideraciones de tipo social.",
+        "fuente": "Metadatos XML, condiciones_ejecucion_xml",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A2"
+      },
+      {
+        "id": "A2-S0025",
+        "seccion": "Procedimiento, economía y obligaciones",
+        "titulo": "Contenido inicial",
+        "detalle": "Registro documental de preventa",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A2",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A2-S0026",
+        "seccion": "Procedimiento, economía y obligaciones",
+        "titulo": "Contenido inicial",
+        "detalle": "Discrepancias y pendientes de aclaración:",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A2",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A2-S0027",
+        "seccion": "Procedimiento, economía y obligaciones",
+        "titulo": "Contenido inicial",
+        "detalle": "No se han identificado discrepancias en la documentación revisada.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A2",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A2-S0028",
+        "seccion": "Procedimiento, economía y obligaciones",
+        "titulo": "Contenido inicial",
+        "detalle": "Limitación técnica: No ha sido posible acceder al contenido de los pliegos administrativos ni técnicos, por lo que toda la información extraída procede exclusivamente de los metadatos XML y no de los documentos completos. Por tanto, la ausencia de información en los apartados anteriores se debe a la falta de acceso al texto íntegro de los pliegos y no a una exención expresa o inexistencia de la obligación.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A2",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      }
+    ],
+    "resumen": [
+      "No se han identificado discrepancias en la documentación revisada.",
+      "Limitación técnica: No ha sido posible acceder al contenido de los pliegos administrativos ni técnicos, por lo que toda la información extraída procede exclusivamente de los metadatos XML y no de los documentos completos. Por tanto, la ausencia de información en los apartados anteriores se debe a la falta de acceso al texto íntegro de los pliegos y no a una exención expresa o inexistencia de la obligación.",
+      "Registro documental de preventa",
+      "Discrepancias y pendientes de aclaración:"
+    ],
+    "secciones": [
+      {
+        "titulo": "Contenido inicial",
+        "parrafos": [
+          "Registro documental de preventa",
+          "Discrepancias y pendientes de aclaración:"
+        ],
+        "elementos": [
+          "No se han identificado discrepancias en la documentación revisada.",
+          "Limitación técnica: No ha sido posible acceder al contenido de los pliegos administrativos ni técnicos, por lo que toda la información extraída procede exclusivamente de los metadatos XML y no de los documentos completos. Por tanto, la ausencia de información en los apartados anteriores se debe a la falta de acceso al texto íntegro de los pliegos y no a una exención expresa o inexistencia de la obligación."
+        ],
+        "tablas": [
+          {
+            "columnas": [
+              "Materia",
+              "Requisito completo",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Materia": "Condiciones de participación",
+                "Requisito completo": "Capacidad de obrar exigida como requisito de admisión.",
+                "Fuente": "Metadatos XML, requisitos_xml"
+              },
+              {
+                "Materia": "Condiciones de participación",
+                "Requisito completo": "No estar incurso en prohibición para contratar exigido como requisito de admisión.",
+                "Fuente": "Metadatos XML, requisitos_xml"
+              },
+              {
+                "Materia": "Condiciones de participación",
+                "Requisito completo": "No estar incurso en incompatibilidades exigido como requisito de admisión.",
+                "Fuente": "Metadatos XML, requisitos_xml"
+              },
+              {
+                "Materia": "Condiciones de participación",
+                "Requisito completo": "Cumplimiento de las obligaciones con la Seguridad Social exigido como requisito de admisión.",
+                "Fuente": "Metadatos XML, requisitos_xml"
+              },
+              {
+                "Materia": "Condiciones de participación",
+                "Requisito completo": "Cumplimiento de las obligaciones tributarias exigido como requisito de admisión.",
+                "Fuente": "Metadatos XML, requisitos_xml"
+              },
+              {
+                "Materia": "Condiciones de participación",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre clasificación empresarial, habilitaciones específicas, requisitos de UTE o subcontratación.",
+                "Fuente": "Revisión documental"
+              },
+              {
+                "Materia": "Documentación administrativa",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre DEUC, declaraciones responsables, escrituras, poderes, certificados, anexos o compromisos específicos.",
+                "Fuente": "Revisión documental"
+              },
+              {
+                "Materia": "Requisitos formales de presentación",
+                "Requisito completo": "Licitación electrónica de ofertas en la Plataforma de Contratación del Sector Público, siendo obligatorio el uso de versión JAVA y certificado electrónico.",
+                "Fuente": "Metadatos XML, nota_plazo"
+              },
+              {
+                "Materia": "Requisitos formales de presentación",
+                "Requisito completo": "Todas las consultas se realizarán obligatoriamente a través de la Plataforma de Contratación del Sector Público, siendo este el único canal mediante el que serán atendidas.",
+                "Fuente": "Metadatos XML, nota_plazo"
+              },
+              {
+                "Materia": "Requisitos formales de presentación",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre sobres/archivos, contenido, idioma, firma, formatos, extensión, nomenclatura y fecha límite de presentación.",
+                "Fuente": "Revisión documental"
+              },
+              {
+                "Materia": "Causas o condiciones de exclusión",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna causa o condición de exclusión expresamente prevista.",
+                "Fuente": "Revisión documental"
+              },
+              {
+                "Materia": "Garantías, seguros y penalizaciones",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre garantías económicas, seguros, penalizaciones, revisión de precios u obligaciones económicas administrativas.",
+                "Fuente": "Revisión documental"
+              },
+              {
+                "Materia": "Duración, prórrogas y resolución",
+                "Requisito completo": "Duración del contrato: 24 meses.",
+                "Fuente": "Metadatos XML, duracion"
+              },
+              {
+                "Materia": "Duración, prórrogas y resolución",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre prórrogas, resolución, condiciones especiales de ejecución, cesión, subcontratación, RGPD, confidencialidad, propiedad intelectual, PRL, laboral, igualdad o medioambiente, salvo la mención genérica a consideraciones de tipo social.",
+                "Fuente": "Metadatos XML, condiciones_ejecucion_xml; Revisión documental"
+              },
+              {
+                "Materia": "Lotes, incompatibilidades y limitaciones",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre lotes, incompatibilidades adicionales o limitaciones.",
+                "Fuente": "Revisión documental"
+              },
+              {
+                "Materia": "Procedimiento y tramitación",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre fases del procedimiento, tramitación, número de rondas, extremos negociables o no negociables, ni condiciones de aceptación de oferta final.",
+                "Fuente": "Revisión documental"
+              },
+              {
+                "Materia": "Presupuesto y desglose económico",
+                "Requisito completo": "Importe estimado: 2.591.500 EUR.",
+                "Fuente": "Metadatos XML, importe_estimado"
+              },
+              {
+                "Materia": "Presupuesto y desglose económico",
+                "Requisito completo": "Importe total: 1.718.200 EUR.",
+                "Fuente": "Metadatos XML, importe_total"
+              },
+              {
+                "Materia": "Presupuesto y desglose económico",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre desglose por lote, anualidad, precios unitarios, límites de gasto o partidas obligatorias.",
+                "Fuente": "Revisión documental"
+              },
+              {
+                "Materia": "Condiciones de pago y facturación",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre condiciones de pago, facturación, hitos de aceptación, plazos de cobro, anticipos, revisión de precios, modificaciones o prórrogas con sus límites.",
+                "Fuente": "Revisión documental"
+              },
+              {
+                "Materia": "Criterios de adjudicación",
+                "Requisito completo": "Oferta económica: 70 puntos.",
+                "Fuente": "Metadatos XML, criterios_adjudicacion_xml"
+              },
+              {
+                "Materia": "Criterios de adjudicación",
+                "Requisito completo": "Oferta técnica, criterios evaluables automáticamente: 3 puntos.",
+                "Fuente": "Metadatos XML, criterios_adjudicacion_xml"
+              },
+              {
+                "Materia": "Criterios de adjudicación",
+                "Requisito completo": "Oferta técnica: 27 puntos.",
+                "Fuente": "Metadatos XML, criterios_adjudicacion_xml"
+              },
+              {
+                "Materia": "Condiciones especiales de ejecución",
+                "Requisito completo": "Consideraciones de tipo social: Consideraciones de tipo social.",
+                "Fuente": "Metadatos XML, condiciones_ejecucion_xml"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pendientes_y_no_localizados": [],
+    "trazabilidad": [
+      {
+        "Materia": "Condiciones de participación",
+        "Requisito completo": "Capacidad de obrar exigida como requisito de admisión.",
+        "Fuente": "Metadatos XML, requisitos_xml"
+      },
+      {
+        "Materia": "Condiciones de participación",
+        "Requisito completo": "No estar incurso en prohibición para contratar exigido como requisito de admisión.",
+        "Fuente": "Metadatos XML, requisitos_xml"
+      },
+      {
+        "Materia": "Condiciones de participación",
+        "Requisito completo": "No estar incurso en incompatibilidades exigido como requisito de admisión.",
+        "Fuente": "Metadatos XML, requisitos_xml"
+      },
+      {
+        "Materia": "Condiciones de participación",
+        "Requisito completo": "Cumplimiento de las obligaciones con la Seguridad Social exigido como requisito de admisión.",
+        "Fuente": "Metadatos XML, requisitos_xml"
+      },
+      {
+        "Materia": "Condiciones de participación",
+        "Requisito completo": "Cumplimiento de las obligaciones tributarias exigido como requisito de admisión.",
+        "Fuente": "Metadatos XML, requisitos_xml"
+      },
+      {
+        "Materia": "Condiciones de participación",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre clasificación empresarial, habilitaciones específicas, requisitos de UTE o subcontratación.",
+        "Fuente": "Revisión documental"
+      },
+      {
+        "Materia": "Documentación administrativa",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre DEUC, declaraciones responsables, escrituras, poderes, certificados, anexos o compromisos específicos.",
+        "Fuente": "Revisión documental"
+      },
+      {
+        "Materia": "Requisitos formales de presentación",
+        "Requisito completo": "Licitación electrónica de ofertas en la Plataforma de Contratación del Sector Público, siendo obligatorio el uso de versión JAVA y certificado electrónico.",
+        "Fuente": "Metadatos XML, nota_plazo"
+      },
+      {
+        "Materia": "Requisitos formales de presentación",
+        "Requisito completo": "Todas las consultas se realizarán obligatoriamente a través de la Plataforma de Contratación del Sector Público, siendo este el único canal mediante el que serán atendidas.",
+        "Fuente": "Metadatos XML, nota_plazo"
+      },
+      {
+        "Materia": "Requisitos formales de presentación",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre sobres/archivos, contenido, idioma, firma, formatos, extensión, nomenclatura y fecha límite de presentación.",
+        "Fuente": "Revisión documental"
+      },
+      {
+        "Materia": "Causas o condiciones de exclusión",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna causa o condición de exclusión expresamente prevista.",
+        "Fuente": "Revisión documental"
+      },
+      {
+        "Materia": "Garantías, seguros y penalizaciones",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre garantías económicas, seguros, penalizaciones, revisión de precios u obligaciones económicas administrativas.",
+        "Fuente": "Revisión documental"
+      },
+      {
+        "Materia": "Duración, prórrogas y resolución",
+        "Requisito completo": "Duración del contrato: 24 meses.",
+        "Fuente": "Metadatos XML, duracion"
+      },
+      {
+        "Materia": "Duración, prórrogas y resolución",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre prórrogas, resolución, condiciones especiales de ejecución, cesión, subcontratación, RGPD, confidencialidad, propiedad intelectual, PRL, laboral, igualdad o medioambiente, salvo la mención genérica a consideraciones de tipo social.",
+        "Fuente": "Metadatos XML, condiciones_ejecucion_xml; Revisión documental"
+      },
+      {
+        "Materia": "Lotes, incompatibilidades y limitaciones",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre lotes, incompatibilidades adicionales o limitaciones.",
+        "Fuente": "Revisión documental"
+      },
+      {
+        "Materia": "Procedimiento y tramitación",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre fases del procedimiento, tramitación, número de rondas, extremos negociables o no negociables, ni condiciones de aceptación de oferta final.",
+        "Fuente": "Revisión documental"
+      },
+      {
+        "Materia": "Presupuesto y desglose económico",
+        "Requisito completo": "Importe estimado: 2.591.500 EUR.",
+        "Fuente": "Metadatos XML, importe_estimado"
+      },
+      {
+        "Materia": "Presupuesto y desglose económico",
+        "Requisito completo": "Importe total: 1.718.200 EUR.",
+        "Fuente": "Metadatos XML, importe_total"
+      },
+      {
+        "Materia": "Presupuesto y desglose económico",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre desglose por lote, anualidad, precios unitarios, límites de gasto o partidas obligatorias.",
+        "Fuente": "Revisión documental"
+      },
+      {
+        "Materia": "Condiciones de pago y facturación",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre condiciones de pago, facturación, hitos de aceptación, plazos de cobro, anticipos, revisión de precios, modificaciones o prórrogas con sus límites.",
+        "Fuente": "Revisión documental"
+      },
+      {
+        "Materia": "Criterios de adjudicación",
+        "Requisito completo": "Oferta económica: 70 puntos.",
+        "Fuente": "Metadatos XML, criterios_adjudicacion_xml"
+      },
+      {
+        "Materia": "Criterios de adjudicación",
+        "Requisito completo": "Oferta técnica, criterios evaluables automáticamente: 3 puntos.",
+        "Fuente": "Metadatos XML, criterios_adjudicacion_xml"
+      },
+      {
+        "Materia": "Criterios de adjudicación",
+        "Requisito completo": "Oferta técnica: 27 puntos.",
+        "Fuente": "Metadatos XML, criterios_adjudicacion_xml"
+      },
+      {
+        "Materia": "Condiciones especiales de ejecución",
+        "Requisito completo": "Consideraciones de tipo social: Consideraciones de tipo social.",
+        "Fuente": "Metadatos XML, condiciones_ejecucion_xml"
+      }
+    ],
+    "salida_original": "Registro documental de preventa\n\n| Materia | Requisito completo | Fuente |\n|---|---|---|\n| Condiciones de participación | Capacidad de obrar exigida como requisito de admisión. | Metadatos XML, requisitos_xml |\n| Condiciones de participación | No estar incurso en prohibición para contratar exigido como requisito de admisión. | Metadatos XML, requisitos_xml |\n| Condiciones de participación | No estar incurso en incompatibilidades exigido como requisito de admisión. | Metadatos XML, requisitos_xml |\n| Condiciones de participación | Cumplimiento de las obligaciones con la Seguridad Social exigido como requisito de admisión. | Metadatos XML, requisitos_xml |\n| Condiciones de participación | Cumplimiento de las obligaciones tributarias exigido como requisito de admisión. | Metadatos XML, requisitos_xml |\n| Condiciones de participación | NO CONSTA EN LA DOCUMENTACION REVISADA información sobre clasificación empresarial, habilitaciones específicas, requisitos de UTE o subcontratación. | Revisión documental |\n| Documentación administrativa | NO CONSTA EN LA DOCUMENTACION REVISADA información sobre DEUC, declaraciones responsables, escrituras, poderes, certificados, anexos o compromisos específicos. | Revisión documental |\n| Requisitos formales de presentación | Licitación electrónica de ofertas en la Plataforma de Contratación del Sector Público, siendo obligatorio el uso de versión JAVA y certificado electrónico. | Metadatos XML, nota_plazo |\n| Requisitos formales de presentación | Todas las consultas se realizarán obligatoriamente a través de la Plataforma de Contratación del Sector Público, siendo este el único canal mediante el que serán atendidas. | Metadatos XML, nota_plazo |\n| Requisitos formales de presentación | NO CONSTA EN LA DOCUMENTACION REVISADA información sobre sobres/archivos, contenido, idioma, firma, formatos, extensión, nomenclatura y fecha límite de presentación. | Revisión documental |\n| Causas o condiciones de exclusión | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna causa o condición de exclusión expresamente prevista. | Revisión documental |\n| Garantías, seguros y penalizaciones | NO CONSTA EN LA DOCUMENTACION REVISADA información sobre garantías económicas, seguros, penalizaciones, revisión de precios u obligaciones económicas administrativas. | Revisión documental |\n| Duración, prórrogas y resolución | Duración del contrato: 24 meses. | Metadatos XML, duracion |\n| Duración, prórrogas y resolución | NO CONSTA EN LA DOCUMENTACION REVISADA información sobre prórrogas, resolución, condiciones especiales de ejecución, cesión, subcontratación, RGPD, confidencialidad, propiedad intelectual, PRL, laboral, igualdad o medioambiente, salvo la mención genérica a consideraciones de tipo social. | Metadatos XML, condiciones_ejecucion_xml; Revisión documental |\n| Lotes, incompatibilidades y limitaciones | NO CONSTA EN LA DOCUMENTACION REVISADA información sobre lotes, incompatibilidades adicionales o limitaciones. | Revisión documental |\n| Procedimiento y tramitación | NO CONSTA EN LA DOCUMENTACION REVISADA información sobre fases del procedimiento, tramitación, número de rondas, extremos negociables o no negociables, ni condiciones de aceptación de oferta final. | Revisión documental |\n| Presupuesto y desglose económico | Importe estimado: 2.591.500 EUR. | Metadatos XML, importe_estimado |\n| Presupuesto y desglose económico | Importe total: 1.718.200 EUR. | Metadatos XML, importe_total |\n| Presupuesto y desglose económico | NO CONSTA EN LA DOCUMENTACION REVISADA información sobre desglose por lote, anualidad, precios unitarios, límites de gasto o partidas obligatorias. | Revisión documental |\n| Condiciones de pago y facturación | NO CONSTA EN LA DOCUMENTACION REVISADA información sobre condiciones de pago, facturación, hitos de aceptación, plazos de cobro, anticipos, revisión de precios, modificaciones o prórrogas con sus límites. | Revisión documental |\n| Criterios de adjudicación | Oferta económica: 70 puntos. | Metadatos XML, criterios_adjudicacion_xml |\n| Criterios de adjudicación | Oferta técnica, criterios evaluables automáticamente: 3 puntos. | Metadatos XML, criterios_adjudicacion_xml |\n| Criterios de adjudicación | Oferta técnica: 27 puntos. | Metadatos XML, criterios_adjudicacion_xml |\n| Condiciones especiales de ejecución | Consideraciones de tipo social: Consideraciones de tipo social. | Metadatos XML, condiciones_ejecucion_xml |\n\nDiscrepancias y pendientes de aclaración:\n- No se han identificado discrepancias en la documentación revisada.\n- Limitación técnica: No ha sido posible acceder al contenido de los pliegos administrativos ni técnicos, por lo que toda la información extraída procede exclusivamente de los metadatos XML y no de los documentos completos. Por tanto, la ausencia de información en los apartados anteriores se debe a la falta de acceso al texto íntegro de los pliegos y no a una exención expresa o inexistencia de la obligación.",
+    "registro_completo_estructura": true
+  },
+  "ejecucion": "d904aafec030446aaf37aab25fe4c1f2",
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "Pliegodefinitivofirmado.pdf",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 118,
+        "caracteres_enviados_al_agente": 118,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Pliegodefinitivofirmado.pdf",
+        "tipo": "Pliego tecnico",
+        "fuente": "XML",
+        "caracteres_extraidos": 118,
+        "caracteres_enviados_al_agente": 118,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": []
+  },
+  "puntos_revision": [
+    {
+      "id": "REV-001",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Admisión, solvencia y acreditaciones",
+      "prioridad": "alta",
+      "detalle": "Revisar admisión, solvencia y acreditaciones: 4 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-001.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Causas o condiciones de exclusión; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA ninguna causa o condición de exclusión expresamente prevista.; Fuente: Revisión documental",
+          "evidencia": "| Causas o condiciones de exclusión | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna causa o condición de exclusión expresamente prevista. | Revisión documental |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Garantías, seguros y penalizaciones; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA información sobre garantías económicas, seguros, penalizaciones, revisión de precios u obligaciones económicas administrativas.; Fuente: Revisión documental",
+          "evidencia": "| Garantías, seguros y penalizaciones | NO CONSTA EN LA DOCUMENTACION REVISADA información sobre garantías económicas, seguros, penalizaciones, revisión de precios u obligaciones económicas administrativas. | Revisión documental |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.03",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Condiciones de participación; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA información sobre clasificación empresarial, habilitaciones específicas, requisitos de UTE o subcontratación.; Fuente: Revisión documental",
+          "evidencia": "| Condiciones de participación | NO CONSTA EN LA DOCUMENTACION REVISADA información sobre clasificación empresarial, habilitaciones específicas, requisitos de UTE o subcontratación. | Revisión documental |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.04",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Documentación administrativa; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA información sobre DEUC, declaraciones responsables, escrituras, poderes, certificados, anexos o compromisos específicos.; Fuente: Revisión documental",
+          "evidencia": "| Documentación administrativa | NO CONSTA EN LA DOCUMENTACION REVISADA información sobre DEUC, declaraciones responsables, escrituras, poderes, certificados, anexos o compromisos específicos. | Revisión documental |",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-002",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Condiciones económicas y adjudicación",
+      "prioridad": "alta",
+      "detalle": "Revisar condiciones económicas y adjudicación: 2 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-002.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Presupuesto y desglose económico; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA información sobre desglose por lote, anualidad, precios unitarios, límites de gasto o partidas obligatorias.; Fuente: Revisión documental",
+          "evidencia": "| Presupuesto y desglose económico | NO CONSTA EN LA DOCUMENTACION REVISADA información sobre desglose por lote, anualidad, precios unitarios, límites de gasto o partidas obligatorias. | Revisión documental |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Condiciones de pago y facturación; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA información sobre condiciones de pago, facturación, hitos de aceptación, plazos de cobro, anticipos, revisión de precios, modificaciones o prórrogas con sus límites.; Fuente: Revisión documental",
+          "evidencia": "| Condiciones de pago y facturación | NO CONSTA EN LA DOCUMENTACION REVISADA información sobre condiciones de pago, facturación, hitos de aceptación, plazos de cobro, anticipos, revisión de precios, modificaciones o prórrogas con sus límites. | Revisión documental |",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-003",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Documentación y otras condiciones pendientes",
+      "prioridad": "media",
+      "detalle": "Revisar documentación y otras condiciones pendientes: 4 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-003.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Requisitos formales de presentación; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA información sobre sobres/archivos, contenido, idioma, firma, formatos, extensión, nomenclatura y fecha límite de presentación.; Fuente: Revisión documental",
+          "evidencia": "| Requisitos formales de presentación | NO CONSTA EN LA DOCUMENTACION REVISADA información sobre sobres/archivos, contenido, idioma, firma, formatos, extensión, nomenclatura y fecha límite de presentación. | Revisión documental |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-003.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Lotes, incompatibilidades y limitaciones; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA información sobre lotes, incompatibilidades adicionales o limitaciones.; Fuente: Revisión documental",
+          "evidencia": "| Lotes, incompatibilidades y limitaciones | NO CONSTA EN LA DOCUMENTACION REVISADA información sobre lotes, incompatibilidades adicionales o limitaciones. | Revisión documental |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-003.03",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Procedimiento y tramitación; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA información sobre fases del procedimiento, tramitación, número de rondas, extremos negociables o no negociables, ni condiciones de aceptación de oferta final.; Fuente: Revisión documental",
+          "evidencia": "| Procedimiento y tramitación | NO CONSTA EN LA DOCUMENTACION REVISADA información sobre fases del procedimiento, tramitación, número de rondas, extremos negociables o no negociables, ni condiciones de aceptación de oferta final. | Revisión documental |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-003.04",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "No se han identificado discrepancias en la documentación revisada.",
+          "evidencia": "- No se han identificado discrepancias en la documentación revisada.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-004",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Seguridad, certificaciones y protección de datos",
+      "prioridad": "media",
+      "detalle": "Revisar seguridad, certificaciones y protección de datos: 1 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-004.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Duración, prórrogas y resolución; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA información sobre prórrogas, resolución, condiciones especiales de ejecución, cesión, subcontratación, RGPD, confidencialidad, propiedad intelectual, PRL, laboral, igualdad o medioambiente, salvo la mención genérica a consideraciones de tipo social.; Fuente: Metadatos XML, condiciones_ejecucion_xml; Revisión documental",
+          "evidencia": "| Duración, prórrogas y resolución | NO CONSTA EN LA DOCUMENTACION REVISADA información sobre prórrogas, resolución, condiciones especiales de ejecución, cesión, subcontratación, RGPD, confidencialidad, propiedad intelectual, PRL, laboral, igualdad o medioambiente, salvo la mención genérica a consideraciones de tipo social. | Metadatos XML, condiciones_ejecucion_xml; Revisión documental |",
+          "origen": "salida_del_agente"
+        }
+      ]
+    }
+  ],
+  "recomendaciones": [],
+  "estado_recomendaciones": "no_generadas"
+}

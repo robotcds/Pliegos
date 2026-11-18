@@ -1,0 +1,730 @@
+{
+  "orden": 4,
+  "id": "A4",
+  "nombre": "Criterios de adjudicación",
+  "tipo": "extraccion",
+  "ejecucion": "148643ec3cf64b459ff90194acd8bf8e",
+  "estado": "completado",
+  "contenido": {
+    "requisitos_documentales": [
+      {
+        "id": "R0001",
+        "seccion": "Criterios de adjudicación: estructura general",
+        "detalle": "La adjudicación se realizará mediante la suma de 100 puntos, distribuidos en: Precio (50 puntos), Plan de migración (22 puntos), Plan de reversibilidad y continuidad (10 puntos), Observabilidad y SLA operativo (8 puntos), Certificaciones y equipo cloud (5 puntos), Reducción de plazo (5 puntos).",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion; Pliego técnico OPP-SW-003 migracion cloud, Criterios",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0002",
+        "seccion": "Criterio: Precio",
+        "detalle": "El criterio de precio tiene un peso de 50 puntos. La puntuación se calcula mediante la fórmula: P = 50 x (oferta mínima / oferta licitador). La mejor oferta económica obtiene 50 puntos. Las ofertas con baja superior al 18% deberán justificar viabilidad. Las ofertas con baja superior al 22% se considerarán de alto riesgo por carga de migración.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion y Anexo económico-financiero",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0003",
+        "seccion": "Criterio: Plan de migración",
+        "detalle": "El plan de migración se valora con un máximo de 22 puntos, distribuidos en los siguientes subcriterios: inventario y oleadas (6 puntos), automatización CI/CD (5 puntos), seguridad (4 puntos), gestión de riesgos (4 puntos), validación postmigración (3 puntos).",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0004",
+        "seccion": "Criterio: Plan de reversibilidad y continuidad",
+        "detalle": "El plan de reversibilidad y continuidad se valora con un máximo de 10 puntos.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0005",
+        "seccion": "Criterio: Observabilidad y SLA operativo",
+        "detalle": "Observabilidad y SLA operativo se valora con un máximo de 8 puntos. Se alcanza el tope de puntuación si se ofrecen dashboards, alertas y respuesta crítica inferior a 2 horas.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0006",
+        "seccion": "Criterio: Certificaciones y equipo cloud",
+        "detalle": "Certificaciones y equipo cloud se valora con un máximo de 5 puntos, distribuidos en: CKA (2 puntos), Azure Administrator (2 puntos), ISO 27001 (1 punto).",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0007",
+        "seccion": "Criterio: Reducción de plazo",
+        "detalle": "Reducción de plazo se valora con un máximo de 5 puntos. El tope de puntuación se alcanza por reducción del 10% del plazo.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0008",
+        "seccion": "Umbral mínimo técnico",
+        "detalle": "Se establece un umbral mínimo de 24 puntos sobre los 40 puntos técnicos de migración, reversibilidad y observabilidad.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0009",
+        "seccion": "Fórmula de puntuación económica",
+        "detalle": "La fórmula para la puntuación económica es: P = 50 x (oferta mínima / oferta licitador). La mejor oferta obtiene 50 puntos.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0010",
+        "seccion": "Justificación de bajas económicas",
+        "detalle": "Las ofertas con baja superior al 18% deberán justificar viabilidad mediante memoria. Las ofertas con baja superior al 22% se considerarán de alto riesgo por carga de migración.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0011",
+        "seccion": "Exclusión por falta de documentación técnica",
+        "detalle": "La falta de plan de reversibilidad o la superación del presupuesto máximo provocará exclusión.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Formato de oferta y exclusiones",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0012",
+        "seccion": "Exclusión por no alcanzar umbral técnico",
+        "detalle": "No alcanzar el umbral mínimo de 24 puntos sobre los 40 técnicos de migración, reversibilidad y observabilidad implica exclusión.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0013",
+        "seccion": "Reglas de redondeo",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0014",
+        "seccion": "Criterios de desempate",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0015",
+        "seccion": "Mejoras puntuables adicionales",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0016",
+        "seccion": "Fórmulas de subcriterios técnicos",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0017",
+        "seccion": "Reglas de valoración de subcriterios técnicos",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0018",
+        "seccion": "Reglas de valoración de reducción de plazo",
+        "detalle": "El tope de puntuación (5 puntos) se alcanza por reducción del 10% del plazo. No se especifica la fórmula de reparto para reducciones inferiores.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0019",
+        "seccion": "Reglas de valoración de observabilidad y SLA",
+        "detalle": "Se alcanza el tope de 8 puntos si se ofrecen dashboards, alertas y respuesta crítica inferior a 2 horas. No se especifica el reparto para propuestas que no cumplan todos los elementos.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0020",
+        "seccion": "Reglas de valoración de certificaciones",
+        "detalle": "CKA (2 puntos), Azure Administrator (2 puntos), ISO 27001 (1 punto). No se especifica si son acumulativos o alternativos.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0021",
+        "seccion": "Reglas de valoración de plan de migración",
+        "detalle": "Inventario y oleadas (6 puntos), automatización CI/CD (5 puntos), seguridad (4 puntos), gestión de riesgos (4 puntos), validación postmigración (3 puntos). No se especifica fórmula de reparto parcial.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0022",
+        "seccion": "Régimen de ofertas anormalmente bajas",
+        "detalle": "Las ofertas con baja superior al 18% deberán justificar viabilidad mediante memoria. Las ofertas con baja superior al 22% se considerarán de alto riesgo por carga de migración. No se especifica fórmula de anormalidad ni procedimiento de exclusión automática.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "A4-S0023",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Contenido inicial",
+        "detalle": "Registro documental de preventa",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0024",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Contenido inicial",
+        "detalle": "Discrepancias y pendientes de aclaración:",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0025",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Contenido inicial",
+        "detalle": "No se han identificado discrepancias en la documentación revisada.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0026",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Contenido inicial",
+        "detalle": "No consta fórmula de reparto parcial para los subcriterios técnicos, reducción de plazo ni observabilidad/SLA cuando no se alcanza el tope. No consta si los puntos de certificaciones son acumulativos o alternativos.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0027",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Contenido inicial",
+        "detalle": "No consta régimen de desempate ni reglas de redondeo en la documentación revisada.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0028",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Contenido inicial",
+        "detalle": "No consta baremo de mejoras adicionales fuera de los criterios expresamente puntuados.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      }
+    ],
+    "resumen": [
+      "No se han identificado discrepancias en la documentación revisada.",
+      "No consta fórmula de reparto parcial para los subcriterios técnicos, reducción de plazo ni observabilidad/SLA cuando no se alcanza el tope. No consta si los puntos de certificaciones son acumulativos o alternativos.",
+      "No consta régimen de desempate ni reglas de redondeo en la documentación revisada.",
+      "No consta baremo de mejoras adicionales fuera de los criterios expresamente puntuados.",
+      "Registro documental de preventa",
+      "Discrepancias y pendientes de aclaración:"
+    ],
+    "secciones": [
+      {
+        "titulo": "Contenido inicial",
+        "parrafos": [
+          "Registro documental de preventa",
+          "Discrepancias y pendientes de aclaración:"
+        ],
+        "elementos": [
+          "No se han identificado discrepancias en la documentación revisada.",
+          "No consta fórmula de reparto parcial para los subcriterios técnicos, reducción de plazo ni observabilidad/SLA cuando no se alcanza el tope. No consta si los puntos de certificaciones son acumulativos o alternativos.",
+          "No consta régimen de desempate ni reglas de redondeo en la documentación revisada.",
+          "No consta baremo de mejoras adicionales fuera de los criterios expresamente puntuados."
+        ],
+        "tablas": [
+          {
+            "columnas": [
+              "Materia",
+              "Requisito completo",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Materia": "Criterios de adjudicación: estructura general",
+                "Requisito completo": "La adjudicación se realizará mediante la suma de 100 puntos, distribuidos en: Precio (50 puntos), Plan de migración (22 puntos), Plan de reversibilidad y continuidad (10 puntos), Observabilidad y SLA operativo (8 puntos), Certificaciones y equipo cloud (5 puntos), Reducción de plazo (5 puntos).",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion; Pliego técnico OPP-SW-003 migracion cloud, Criterios"
+              },
+              {
+                "Materia": "Criterio: Precio",
+                "Requisito completo": "El criterio de precio tiene un peso de 50 puntos. La puntuación se calcula mediante la fórmula: P = 50 x (oferta mínima / oferta licitador). La mejor oferta económica obtiene 50 puntos. Las ofertas con baja superior al 18% deberán justificar viabilidad. Las ofertas con baja superior al 22% se considerarán de alto riesgo por carga de migración.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion y Anexo económico-financiero"
+              },
+              {
+                "Materia": "Criterio: Plan de migración",
+                "Requisito completo": "El plan de migración se valora con un máximo de 22 puntos, distribuidos en los siguientes subcriterios: inventario y oleadas (6 puntos), automatización CI/CD (5 puntos), seguridad (4 puntos), gestión de riesgos (4 puntos), validación postmigración (3 puntos).",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion"
+              },
+              {
+                "Materia": "Criterio: Plan de reversibilidad y continuidad",
+                "Requisito completo": "El plan de reversibilidad y continuidad se valora con un máximo de 10 puntos.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion"
+              },
+              {
+                "Materia": "Criterio: Observabilidad y SLA operativo",
+                "Requisito completo": "Observabilidad y SLA operativo se valora con un máximo de 8 puntos. Se alcanza el tope de puntuación si se ofrecen dashboards, alertas y respuesta crítica inferior a 2 horas.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion"
+              },
+              {
+                "Materia": "Criterio: Certificaciones y equipo cloud",
+                "Requisito completo": "Certificaciones y equipo cloud se valora con un máximo de 5 puntos, distribuidos en: CKA (2 puntos), Azure Administrator (2 puntos), ISO 27001 (1 punto).",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion"
+              },
+              {
+                "Materia": "Criterio: Reducción de plazo",
+                "Requisito completo": "Reducción de plazo se valora con un máximo de 5 puntos. El tope de puntuación se alcanza por reducción del 10% del plazo.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion"
+              },
+              {
+                "Materia": "Umbral mínimo técnico",
+                "Requisito completo": "Se establece un umbral mínimo de 24 puntos sobre los 40 puntos técnicos de migración, reversibilidad y observabilidad.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion"
+              },
+              {
+                "Materia": "Fórmula de puntuación económica",
+                "Requisito completo": "La fórmula para la puntuación económica es: P = 50 x (oferta mínima / oferta licitador). La mejor oferta obtiene 50 puntos.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero"
+              },
+              {
+                "Materia": "Justificación de bajas económicas",
+                "Requisito completo": "Las ofertas con baja superior al 18% deberán justificar viabilidad mediante memoria. Las ofertas con baja superior al 22% se considerarán de alto riesgo por carga de migración.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero"
+              },
+              {
+                "Materia": "Exclusión por falta de documentación técnica",
+                "Requisito completo": "La falta de plan de reversibilidad o la superación del presupuesto máximo provocará exclusión.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Formato de oferta y exclusiones"
+              },
+              {
+                "Materia": "Exclusión por no alcanzar umbral técnico",
+                "Requisito completo": "No alcanzar el umbral mínimo de 24 puntos sobre los 40 técnicos de migración, reversibilidad y observabilidad implica exclusión.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion"
+              },
+              {
+                "Materia": "Reglas de redondeo",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA.",
+                "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+              },
+              {
+                "Materia": "Criterios de desempate",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA.",
+                "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+              },
+              {
+                "Materia": "Mejoras puntuables adicionales",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA.",
+                "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+              },
+              {
+                "Materia": "Fórmulas de subcriterios técnicos",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA.",
+                "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+              },
+              {
+                "Materia": "Reglas de valoración de subcriterios técnicos",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA.",
+                "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+              },
+              {
+                "Materia": "Reglas de valoración de reducción de plazo",
+                "Requisito completo": "El tope de puntuación (5 puntos) se alcanza por reducción del 10% del plazo. No se especifica la fórmula de reparto para reducciones inferiores.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion"
+              },
+              {
+                "Materia": "Reglas de valoración de observabilidad y SLA",
+                "Requisito completo": "Se alcanza el tope de 8 puntos si se ofrecen dashboards, alertas y respuesta crítica inferior a 2 horas. No se especifica el reparto para propuestas que no cumplan todos los elementos.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion"
+              },
+              {
+                "Materia": "Reglas de valoración de certificaciones",
+                "Requisito completo": "CKA (2 puntos), Azure Administrator (2 puntos), ISO 27001 (1 punto). No se especifica si son acumulativos o alternativos.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion"
+              },
+              {
+                "Materia": "Reglas de valoración de plan de migración",
+                "Requisito completo": "Inventario y oleadas (6 puntos), automatización CI/CD (5 puntos), seguridad (4 puntos), gestión de riesgos (4 puntos), validación postmigración (3 puntos). No se especifica fórmula de reparto parcial.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion"
+              },
+              {
+                "Materia": "Régimen de ofertas anormalmente bajas",
+                "Requisito completo": "Las ofertas con baja superior al 18% deberán justificar viabilidad mediante memoria. Las ofertas con baja superior al 22% se considerarán de alto riesgo por carga de migración. No se especifica fórmula de anormalidad ni procedimiento de exclusión automática.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pendientes_y_no_localizados": [],
+    "trazabilidad": [
+      {
+        "Materia": "Criterios de adjudicación: estructura general",
+        "Requisito completo": "La adjudicación se realizará mediante la suma de 100 puntos, distribuidos en: Precio (50 puntos), Plan de migración (22 puntos), Plan de reversibilidad y continuidad (10 puntos), Observabilidad y SLA operativo (8 puntos), Certificaciones y equipo cloud (5 puntos), Reducción de plazo (5 puntos).",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion; Pliego técnico OPP-SW-003 migracion cloud, Criterios"
+      },
+      {
+        "Materia": "Criterio: Precio",
+        "Requisito completo": "El criterio de precio tiene un peso de 50 puntos. La puntuación se calcula mediante la fórmula: P = 50 x (oferta mínima / oferta licitador). La mejor oferta económica obtiene 50 puntos. Las ofertas con baja superior al 18% deberán justificar viabilidad. Las ofertas con baja superior al 22% se considerarán de alto riesgo por carga de migración.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion y Anexo económico-financiero"
+      },
+      {
+        "Materia": "Criterio: Plan de migración",
+        "Requisito completo": "El plan de migración se valora con un máximo de 22 puntos, distribuidos en los siguientes subcriterios: inventario y oleadas (6 puntos), automatización CI/CD (5 puntos), seguridad (4 puntos), gestión de riesgos (4 puntos), validación postmigración (3 puntos).",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion"
+      },
+      {
+        "Materia": "Criterio: Plan de reversibilidad y continuidad",
+        "Requisito completo": "El plan de reversibilidad y continuidad se valora con un máximo de 10 puntos.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion"
+      },
+      {
+        "Materia": "Criterio: Observabilidad y SLA operativo",
+        "Requisito completo": "Observabilidad y SLA operativo se valora con un máximo de 8 puntos. Se alcanza el tope de puntuación si se ofrecen dashboards, alertas y respuesta crítica inferior a 2 horas.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion"
+      },
+      {
+        "Materia": "Criterio: Certificaciones y equipo cloud",
+        "Requisito completo": "Certificaciones y equipo cloud se valora con un máximo de 5 puntos, distribuidos en: CKA (2 puntos), Azure Administrator (2 puntos), ISO 27001 (1 punto).",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion"
+      },
+      {
+        "Materia": "Criterio: Reducción de plazo",
+        "Requisito completo": "Reducción de plazo se valora con un máximo de 5 puntos. El tope de puntuación se alcanza por reducción del 10% del plazo.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion"
+      },
+      {
+        "Materia": "Umbral mínimo técnico",
+        "Requisito completo": "Se establece un umbral mínimo de 24 puntos sobre los 40 puntos técnicos de migración, reversibilidad y observabilidad.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion"
+      },
+      {
+        "Materia": "Fórmula de puntuación económica",
+        "Requisito completo": "La fórmula para la puntuación económica es: P = 50 x (oferta mínima / oferta licitador). La mejor oferta obtiene 50 puntos.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero"
+      },
+      {
+        "Materia": "Justificación de bajas económicas",
+        "Requisito completo": "Las ofertas con baja superior al 18% deberán justificar viabilidad mediante memoria. Las ofertas con baja superior al 22% se considerarán de alto riesgo por carga de migración.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero"
+      },
+      {
+        "Materia": "Exclusión por falta de documentación técnica",
+        "Requisito completo": "La falta de plan de reversibilidad o la superación del presupuesto máximo provocará exclusión.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Formato de oferta y exclusiones"
+      },
+      {
+        "Materia": "Exclusión por no alcanzar umbral técnico",
+        "Requisito completo": "No alcanzar el umbral mínimo de 24 puntos sobre los 40 técnicos de migración, reversibilidad y observabilidad implica exclusión.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion"
+      },
+      {
+        "Materia": "Reglas de redondeo",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA.",
+        "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+      },
+      {
+        "Materia": "Criterios de desempate",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA.",
+        "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+      },
+      {
+        "Materia": "Mejoras puntuables adicionales",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA.",
+        "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+      },
+      {
+        "Materia": "Fórmulas de subcriterios técnicos",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA.",
+        "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+      },
+      {
+        "Materia": "Reglas de valoración de subcriterios técnicos",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA.",
+        "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+      },
+      {
+        "Materia": "Reglas de valoración de reducción de plazo",
+        "Requisito completo": "El tope de puntuación (5 puntos) se alcanza por reducción del 10% del plazo. No se especifica la fórmula de reparto para reducciones inferiores.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion"
+      },
+      {
+        "Materia": "Reglas de valoración de observabilidad y SLA",
+        "Requisito completo": "Se alcanza el tope de 8 puntos si se ofrecen dashboards, alertas y respuesta crítica inferior a 2 horas. No se especifica el reparto para propuestas que no cumplan todos los elementos.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion"
+      },
+      {
+        "Materia": "Reglas de valoración de certificaciones",
+        "Requisito completo": "CKA (2 puntos), Azure Administrator (2 puntos), ISO 27001 (1 punto). No se especifica si son acumulativos o alternativos.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion"
+      },
+      {
+        "Materia": "Reglas de valoración de plan de migración",
+        "Requisito completo": "Inventario y oleadas (6 puntos), automatización CI/CD (5 puntos), seguridad (4 puntos), gestión de riesgos (4 puntos), validación postmigración (3 puntos). No se especifica fórmula de reparto parcial.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion"
+      },
+      {
+        "Materia": "Régimen de ofertas anormalmente bajas",
+        "Requisito completo": "Las ofertas con baja superior al 18% deberán justificar viabilidad mediante memoria. Las ofertas con baja superior al 22% se considerarán de alto riesgo por carga de migración. No se especifica fórmula de anormalidad ni procedimiento de exclusión automática.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero"
+      }
+    ],
+    "salida_original": "Registro documental de preventa\n\n| Materia | Requisito completo | Fuente |\n|---|---|---|\n| Criterios de adjudicación: estructura general | La adjudicación se realizará mediante la suma de 100 puntos, distribuidos en: Precio (50 puntos), Plan de migración (22 puntos), Plan de reversibilidad y continuidad (10 puntos), Observabilidad y SLA operativo (8 puntos), Certificaciones y equipo cloud (5 puntos), Reducción de plazo (5 puntos). | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion; Pliego técnico OPP-SW-003 migracion cloud, Criterios |\n| Criterio: Precio | El criterio de precio tiene un peso de 50 puntos. La puntuación se calcula mediante la fórmula: P = 50 x (oferta mínima / oferta licitador). La mejor oferta económica obtiene 50 puntos. Las ofertas con baja superior al 18% deberán justificar viabilidad. Las ofertas con baja superior al 22% se considerarán de alto riesgo por carga de migración. | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion y Anexo económico-financiero |\n| Criterio: Plan de migración | El plan de migración se valora con un máximo de 22 puntos, distribuidos en los siguientes subcriterios: inventario y oleadas (6 puntos), automatización CI/CD (5 puntos), seguridad (4 puntos), gestión de riesgos (4 puntos), validación postmigración (3 puntos). | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion |\n| Criterio: Plan de reversibilidad y continuidad | El plan de reversibilidad y continuidad se valora con un máximo de 10 puntos. | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion |\n| Criterio: Observabilidad y SLA operativo | Observabilidad y SLA operativo se valora con un máximo de 8 puntos. Se alcanza el tope de puntuación si se ofrecen dashboards, alertas y respuesta crítica inferior a 2 horas. | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion |\n| Criterio: Certificaciones y equipo cloud | Certificaciones y equipo cloud se valora con un máximo de 5 puntos, distribuidos en: CKA (2 puntos), Azure Administrator (2 puntos), ISO 27001 (1 punto). | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion |\n| Criterio: Reducción de plazo | Reducción de plazo se valora con un máximo de 5 puntos. El tope de puntuación se alcanza por reducción del 10% del plazo. | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion |\n| Umbral mínimo técnico | Se establece un umbral mínimo de 24 puntos sobre los 40 puntos técnicos de migración, reversibilidad y observabilidad. | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion |\n| Fórmula de puntuación económica | La fórmula para la puntuación económica es: P = 50 x (oferta mínima / oferta licitador). La mejor oferta obtiene 50 puntos. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero |\n| Justificación de bajas económicas | Las ofertas con baja superior al 18% deberán justificar viabilidad mediante memoria. Las ofertas con baja superior al 22% se considerarán de alto riesgo por carga de migración. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero |\n| Exclusión por falta de documentación técnica | La falta de plan de reversibilidad o la superación del presupuesto máximo provocará exclusión. | Pliego administrativo OPP-SW-003 migracion cloud, Formato de oferta y exclusiones |\n| Exclusión por no alcanzar umbral técnico | No alcanzar el umbral mínimo de 24 puntos sobre los 40 técnicos de migración, reversibilidad y observabilidad implica exclusión. | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion |\n| Reglas de redondeo | NO CONSTA EN LA DOCUMENTACION REVISADA. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Criterios de desempate | NO CONSTA EN LA DOCUMENTACION REVISADA. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Mejoras puntuables adicionales | NO CONSTA EN LA DOCUMENTACION REVISADA. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Fórmulas de subcriterios técnicos | NO CONSTA EN LA DOCUMENTACION REVISADA. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Reglas de valoración de subcriterios técnicos | NO CONSTA EN LA DOCUMENTACION REVISADA. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Reglas de valoración de reducción de plazo | El tope de puntuación (5 puntos) se alcanza por reducción del 10% del plazo. No se especifica la fórmula de reparto para reducciones inferiores. | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion |\n| Reglas de valoración de observabilidad y SLA | Se alcanza el tope de 8 puntos si se ofrecen dashboards, alertas y respuesta crítica inferior a 2 horas. No se especifica el reparto para propuestas que no cumplan todos los elementos. | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion |\n| Reglas de valoración de certificaciones | CKA (2 puntos), Azure Administrator (2 puntos), ISO 27001 (1 punto). No se especifica si son acumulativos o alternativos. | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion |\n| Reglas de valoración de plan de migración | Inventario y oleadas (6 puntos), automatización CI/CD (5 puntos), seguridad (4 puntos), gestión de riesgos (4 puntos), validación postmigración (3 puntos). No se especifica fórmula de reparto parcial. | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion |\n| Régimen de ofertas anormalmente bajas | Las ofertas con baja superior al 18% deberán justificar viabilidad mediante memoria. Las ofertas con baja superior al 22% se considerarán de alto riesgo por carga de migración. No se especifica fórmula de anormalidad ni procedimiento de exclusión automática. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero |\n\nDiscrepancias y pendientes de aclaración:\n- No se han identificado discrepancias en la documentación revisada.\n- No consta fórmula de reparto parcial para los subcriterios técnicos, reducción de plazo ni observabilidad/SLA cuando no se alcanza el tope. No consta si los puntos de certificaciones son acumulativos o alternativos.\n- No consta régimen de desempate ni reglas de redondeo en la documentación revisada.\n- No consta baremo de mejoras adicionales fuera de los criterios expresamente puntuados.",
+    "registro_completo_estructura": true
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "Pliego administrativo OPP-SW-003 migracion cloud",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 4508,
+        "caracteres_enviados_al_agente": 4508,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Pliego tecnico OPP-SW-003 migracion cloud",
+        "tipo": "Pliego tecnico",
+        "fuente": "XML",
+        "caracteres_extraidos": 3727,
+        "caracteres_enviados_al_agente": 3727,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "Anexo solvencia OPP-SW-003 migracion cloud",
+        "tipo": "Documento general",
+        "fuente": "XML",
+        "caracteres_extraidos": 825,
+        "caracteres_enviados_al_agente": 825,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": []
+  },
+  "puntos_revision": [
+    {
+      "id": "REV-001",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Admisión, solvencia y acreditaciones",
+      "prioridad": "alta",
+      "detalle": "Revisar admisión, solvencia y acreditaciones: 1 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-001.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Régimen de ofertas anormalmente bajas; Requisito completo: Las ofertas con baja superior al 18% deberán justificar viabilidad mediante memoria. Las ofertas con baja superior al 22% se considerarán de alto riesgo por carga de migración. No se especifica fórmula de anormalidad ni procedimiento de exclusión automática.; Fuente: Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero",
+          "evidencia": "| Régimen de ofertas anormalmente bajas | Las ofertas con baja superior al 18% deberán justificar viabilidad mediante memoria. Las ofertas con baja superior al 22% se considerarán de alto riesgo por carga de migración. No se especifica fórmula de anormalidad ni procedimiento de exclusión automática. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero |",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-002",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Condiciones económicas y adjudicación",
+      "prioridad": "alta",
+      "detalle": "Revisar condiciones económicas y adjudicación: 5 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-002.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Mejoras puntuables adicionales; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA.; Fuente: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| Mejoras puntuables adicionales | NO CONSTA EN LA DOCUMENTACION REVISADA. | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Reglas de valoración de reducción de plazo; Requisito completo: El tope de puntuación (5 puntos) se alcanza por reducción del 10% del plazo. No se especifica la fórmula de reparto para reducciones inferiores.; Fuente: Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion",
+          "evidencia": "| Reglas de valoración de reducción de plazo | El tope de puntuación (5 puntos) se alcanza por reducción del 10% del plazo. No se especifica la fórmula de reparto para reducciones inferiores. | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.03",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "No consta baremo de mejoras adicionales fuera de los criterios expresamente puntuados.",
+          "evidencia": "- No consta baremo de mejoras adicionales fuera de los criterios expresamente puntuados.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.04",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Reglas de redondeo; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA.; Fuente: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| Reglas de redondeo | NO CONSTA EN LA DOCUMENTACION REVISADA. | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.05",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "No consta régimen de desempate ni reglas de redondeo en la documentación revisada.",
+          "evidencia": "- No consta régimen de desempate ni reglas de redondeo en la documentación revisada.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-003",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Equipo, medios y ejecución del servicio",
+      "prioridad": "media",
+      "detalle": "Revisar equipo, medios y ejecución del servicio: 2 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-003.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Reglas de valoración de observabilidad y SLA; Requisito completo: Se alcanza el tope de 8 puntos si se ofrecen dashboards, alertas y respuesta crítica inferior a 2 horas. No se especifica el reparto para propuestas que no cumplan todos los elementos.; Fuente: Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion",
+          "evidencia": "| Reglas de valoración de observabilidad y SLA | Se alcanza el tope de 8 puntos si se ofrecen dashboards, alertas y respuesta crítica inferior a 2 horas. No se especifica el reparto para propuestas que no cumplan todos los elementos. | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-003.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "No consta fórmula de reparto parcial para los subcriterios técnicos, reducción de plazo ni observabilidad/SLA cuando no se alcanza el tope. No consta si los puntos de certificaciones son acumulativos o alternativos.",
+          "evidencia": "- No consta fórmula de reparto parcial para los subcriterios técnicos, reducción de plazo ni observabilidad/SLA cuando no se alcanza el tope. No consta si los puntos de certificaciones son acumulativos o alternativos.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-004",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Seguridad, certificaciones y protección de datos",
+      "prioridad": "media",
+      "detalle": "Revisar seguridad, certificaciones y protección de datos: 2 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-004.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Reglas de valoración de plan de migración; Requisito completo: Inventario y oleadas (6 puntos), automatización CI/CD (5 puntos), seguridad (4 puntos), gestión de riesgos (4 puntos), validación postmigración (3 puntos). No se especifica fórmula de reparto parcial.; Fuente: Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion",
+          "evidencia": "| Reglas de valoración de plan de migración | Inventario y oleadas (6 puntos), automatización CI/CD (5 puntos), seguridad (4 puntos), gestión de riesgos (4 puntos), validación postmigración (3 puntos). No se especifica fórmula de reparto parcial. | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-004.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Reglas de valoración de certificaciones; Requisito completo: CKA (2 puntos), Azure Administrator (2 puntos), ISO 27001 (1 punto). No se especifica si son acumulativos o alternativos.; Fuente: Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion",
+          "evidencia": "| Reglas de valoración de certificaciones | CKA (2 puntos), Azure Administrator (2 puntos), ISO 27001 (1 punto). No se especifica si son acumulativos o alternativos. | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion |",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-005",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Documentación y otras condiciones pendientes",
+      "prioridad": "media",
+      "detalle": "Revisar documentación y otras condiciones pendientes: 4 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-005.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Criterios de desempate; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA.; Fuente: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| Criterios de desempate | NO CONSTA EN LA DOCUMENTACION REVISADA. | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-005.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Fórmulas de subcriterios técnicos; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA.; Fuente: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| Fórmulas de subcriterios técnicos | NO CONSTA EN LA DOCUMENTACION REVISADA. | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-005.03",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Reglas de valoración de subcriterios técnicos; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA.; Fuente: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| Reglas de valoración de subcriterios técnicos | NO CONSTA EN LA DOCUMENTACION REVISADA. | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-005.04",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "No se han identificado discrepancias en la documentación revisada.",
+          "evidencia": "- No se han identificado discrepancias en la documentación revisada.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    }
+  ],
+  "recomendaciones": [],
+  "estado_recomendaciones": "no_generadas"
+}

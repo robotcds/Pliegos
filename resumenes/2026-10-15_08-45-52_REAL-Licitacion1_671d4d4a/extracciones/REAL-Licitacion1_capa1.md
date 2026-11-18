@@ -1,0 +1,5 @@
+• Expediente: 300/2026/00009. Órgano: Área de Gobierno de Vicealcaldía, Portavoz, Seguridad y Emergencias del Ayuntamiento de Madrid. Fuente: ID_188_1.PDF, ID_188_2.PDF, ID_188_3.PDF, poc.
+• Objeto: Servicios para diseño, desarrollo, implantación, mantenimiento y evolución tecnológica de un asistente virtual de participación ciudadana (Decide Madrid), en modalidad SaaS, con IA generativa y tradicional.
+• Presupuesto: 181.595,44 € (sin IVA), 219.730,48 € (con IVA). Valor estimado: 408.918,11 € (sin IVA). Fuente: pliegos y plataforma.
+• Duración: 24 meses desde 01/09/2026 o formalización, con prórrogas hasta 60 meses. Fuente: pliegos.
+• Plazo presentación: hasta 16/06/2026 a las 23:59. Documentos parciales/no leídos: 147409-2026 pendiente de OCR; enlaces omitidos. Fuente: índice obligatorio, avisos.

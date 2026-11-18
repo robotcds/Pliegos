@@ -1,0 +1,33 @@
+{
+  "status_code": 504,
+  "url": "https://sermicro-dev.druidapcback.druidplatform.com/druidwebview/api/DataSource/PerformOperations",
+  "response_text": "",
+  "exception": "DruidOutputLimitError('Druid indica finish_reason=length: generación cortada por el límite de salida; no es un fallo de lectura de PDF ni un JSON completo recuperable.')",
+  "attempts": 3,
+  "intentos": [
+    {
+      "intento": 1,
+      "status_code": 504,
+      "segundos": 100.32,
+      "timeout_operacion": 180,
+      "timeout_http": 210
+    },
+    {
+      "intento": 2,
+      "status_code": 200,
+      "segundos": 97.82,
+      "timeout_operacion": 360,
+      "timeout_http": 390
+    },
+    {
+      "intento": 3,
+      "status_code": 504,
+      "segundos": 100.34,
+      "timeout_operacion": 180,
+      "timeout_http": 210
+    }
+  ],
+  "system_prompt_chars": 20297,
+  "user_prompt_chars": 592471,
+  "payload_chars": 628841
+}

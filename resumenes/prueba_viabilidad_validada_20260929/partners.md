@@ -1,0 +1,63 @@
+Veredicto ejecutivo Compras / Partners: ALTO RIESGO
+
+---
+
+Extracción de viabilidad
+
+Tabla de requisitos: Compras, Partners, Fabricantes, Alianzas
+| Parámetro                                             | Literal y apartado del pliego         | Umbral y fecha exigidos                                  | Estado                | Brecha, acción y responsable                                                                                  |
+|------------------------------------------------------|--------------------------------------|----------------------------------------------------------|-----------------------|-------------------------------------------------------------------------------------------------------------|
+| ISO 9001 (desarrollo y operación IT)                 | PCAP A4                              | Vigente al cierre (30/10/2026)                           | CUMPLE               | Ninguna.                                                                                                    |
+| ISO 14001 (instalaciones de prestación)              | PCAP A4                              | Vigente al cierre (30/10/2026)                           | NO ACREDITADO        | Certificado caduca 30/06/2026. Renovar antes del cierre. Responsable: Calidad.                              |
+| ISO 20000-1 (gestión del servicio contratado)        | PCAP A4, PPT T2                      | Vigente al cierre (30/10/2026)                           | NO ACREDITADO        | No disponible. Buscar partner o subcontratista con ISO 20000-1. Responsable: Compras/Alianzas.              |
+| ISO 27001 (desarrollo, operación y alojamiento)      | PCAP A4, PPT T3                      | Vigente al cierre (30/10/2026), incluye producción nube   | NO ACREDITADO        | Certificado propio excluye producción. Buscar partner con ISO 27001 para cloud. Responsable: Compras.       |
+| ENS MEDIA (entorno de producción)                    | PCAP A4, PPT T3                      | Vigente al cierre (30/10/2026), entorno producción nube   | NO ACREDITADO        | Certificado propio excluye producción. Buscar partner con ENS MEDIA para cloud. Responsable: Compras.       |
+| Microsoft Solutions Partner for Infra (Azure)        | PCAP A4                              | Vigente al cierre (30/10/2026)                           | NO ACREDITADO        | Solo disponible en partner externo. Solicitar carta y compromiso. Responsable: Compras/Alianzas.            |
+| Especialización Azure VMware Solution                | PCAP A4                              | Vigente al cierre (30/10/2026)                           | NO ACREDITADO        | Especialización del partner caducada 31/08/2026. Solicitar renovación o buscar otro partner.                |
+| Compromiso firmado de adscripción partner            | PCAP A4                              | Compromiso firmado cubriendo todo el servicio             | NO ACREDITADO        | No consta compromiso firmado. Solicitar a partner. Responsable: Compras/Alianzas.                           |
+| Carta de fabricante/canal para cloud                 | PCAP A4, PPT T3                      | Carta/certificado de canal autorizado                     | NO ACREDITADO        | No consta carta. Solicitar a partner/fabricante. Responsable: Compras.                                      |
+| Licencias cloud y SaaS                              | PPT T3                               | Aportadas por adjudicatario                              | PENDIENTE VALIDACION | Necesario dimensionar y solicitar BOM/RFQ a partner/fabricante. Responsable: Preventa/Compras.              |
+| Hardware, materiales, staging, logística             | PPT T3, general                      | Según necesidades del proyecto                            | NO EXIGIDO           | No hay requerimiento explícito de hardware físico.                                                           |
+| Subcontratación identificada                        | PCAP A6                              | Permitida, debe declararse si aporta solvencia            | PENDIENTE VALIDACION | Identificar subcontratistas para ISO 20000-1, 27001, ENS MEDIA, cloud. Responsable: Compras/Legal.          |
+| UTE                                                  | PCAP A6                              | Permitida                                                | NO EXIGIDO           | No es obligatoria salvo para cubrir solvencia.                                                               |
+
+Fichas de evidencia de partnership y certificaciones
+
+Acreditación PROPIA del licitador
+| Campo                        | Valor exacto aportado                  | Documento interno e identificador         |
+|------------------------------|----------------------------------------|------------------------------------------|
+| Fabricante                   | Microsoft                              | NO CONSTA                                |
+| Titular                      | Sermicro Software Ficticio S.L.        | CRM ALI-027                              |
+| Nivel actual                 | Indirect reseller                      | CRM ALI-027                              |
+| Nivel exigido                | Solutions Partner for Infra (Azure)    | PCAP A4                                  |
+| Especialización técnica      | NO CONSTA                              | NO CONSTA                                |
+| Caducidad nivel              | NO CONSTA                              | NO CONSTA                                |
+| Caducidad especialización    | NO CONSTA                              | NO CONSTA                                |
+| Compromiso adscripción       | NO CONSTA                              | NO CONSTA                                |
+
+Acreditación del TERCERO propuesto (Cloud Partner Ficticio S.A.)
+| Campo                        | Valor exacto aportado                  | Documento interno e identificador         |
+|------------------------------|----------------------------------------|------------------------------------------|
+| Fabricante                   | Microsoft                              | CRM ALI-027, carta FAB-2026-09           |
+| Titular                      | Cloud Partner Ficticio S.A.            | CRM ALI-027                              |
+| Nivel actual                 | Solutions Partner for Infra (Azure)    | CRM ALI-027                              |
+| Nivel exigido                | Solutions Partner for Infra (Azure)    | PCAP A4                                  |
+| Especialización técnica      | Azure VMware Solution                  | CRM ALI-027                              |
+| Caducidad nivel              | 31/03/2027                             | CRM ALI-027                              |
+| Caducidad especialización    | 31/08/2026 (caducada antes del cierre) | CRM ALI-027                              |
+| Compromiso adscripción       | NO CONSTA                              | NO CONSTA                                |
+
+---
+
+1. Veredicto ejecutivo Compras / Partners: ALTO RIESGO
+
+2. Resumen ejecutivo:
+- Hay que comprar/contratar: servicios cloud Azure, licencias SaaS, operación cloud, soporte y cumplimiento normativo (ISO 20000-1, ISO 27001, ENS MEDIA en producción), y asegurar partnership Microsoft Solutions Partner for Infra (Azure) y especialización Azure VMware Solution vigentes.
+- Dependencias críticas: partner cloud (Cloud Partner Ficticio S.A.), subcontratista con ISO 20000-1, subcontratista con ISO 27001 y ENS MEDIA para producción cloud, carta de canal/fabricante, compromiso firmado de adscripción, renovación de especialización Azure VMware Solution.
+- Partners propuestos: Cloud Partner Ficticio S.A. (cloud y Microsoft), otros a identificar para ISO 20000-1 y ENS MEDIA.
+- Bloqueos: No se dispone de ISO 20000-1, ni de ISO 27001/ENS MEDIA para producción cloud, ni de especialización Azure VMware Solution vigente al cierre, ni de compromiso firmado de adscripción del partner. Sin estos elementos, la oferta es excluible.
+- Opinión de viabilidad: No es viable presentar oferta sin cerrar acuerdos y evidencias con partners para cubrir todos los requisitos de certificación y canal. Riesgo de exclusión por incumplimiento documental y de partnership.
+
+---
+
+(El resto del informe continúa en la siguiente respuesta por límite de espacio.)

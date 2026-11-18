@@ -1,0 +1,846 @@
+{
+  "orden": 8,
+  "id": "A10",
+  "nombre": "Compras, proveedores y colaboradores",
+  "tipo": "extraccion",
+  "ejecucion": "1b30cf3361fe4c3894e7e5eaefb91d7d",
+  "estado": "completado",
+  "contenido": {
+    "requisitos_documentales": [
+      {
+        "id": "R0001",
+        "seccion": "Productos físicos y tecnológicos a aportar",
+        "detalle": "El adjudicatario debe administrar y mantener la infraestructura de virtualización, puesto de trabajo y movilidad, incluyendo dispositivos y plataformas ya existentes en Correos y CEX, pero no se exige expresamente el suministro de nuevos equipos físicos salvo en proyectos especiales que lo requieran y sean aprobados y presupuestados aparte.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 34-51",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0002",
+        "seccion": "Productos físicos y tecnológicos a aportar",
+        "detalle": "El adjudicatario debe proveer a su equipo de trabajo de ordenadores portátiles (mínimo Intel i5 9ª gen, SSD, 8GB RAM, hasta 16GB en perfiles de mayor dedicación), software de comunicaciones (Microsoft Office, Teams, herramientas colaborativas), licencias de estos softwares, y conexión a Internet de banda ancha para trabajo remoto.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 72",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0003",
+        "seccion": "Productos físicos y tecnológicos a aportar",
+        "detalle": "El adjudicatario debe proporcionar número de teléfono fijo o móvil con conexión directa para cada técnico en remoto, y medios para reuniones virtuales con varios participantes.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 72",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0004",
+        "seccion": "Software, SaaS y licencias",
+        "detalle": "El adjudicatario debe administrar y operar herramientas centralizadas existentes y las que se implementen durante el servicio para gestión, distribución de software, actualización y configuración de puestos virtuales, físicos y de movilidad (SCCM, HPDM, MDT, DA, INTUNE, MDM, Workspace One UEM, etc.), pero no se exige la compra de licencias para el cliente salvo para el software propio del adjudicatario.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 42, 48, 69-70",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0005",
+        "seccion": "Software, SaaS y licencias",
+        "detalle": "El adjudicatario debe disponer de las licencias de software necesarias para el funcionamiento de su propio equipo (Microsoft Office, Teams, etc.).",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 72",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0006",
+        "seccion": "Software, SaaS y licencias",
+        "detalle": "El adjudicatario debe administrar plataformas y aplicaciones ya existentes en Correos/CEX (Citrix Xenapp, Hyper-V, NetApp, SQL Server, Azure WVD, Workspace One UEM, Remedy ITSM, etc.), pero no se exige la adquisición de nuevas licencias para estas plataformas salvo que se derive de un proyecto especial aprobado.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 34-51, 56",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0007",
+        "seccion": "Fabricantes obligatorios y equivalencias",
+        "detalle": "Se identifican fabricantes y tecnologías existentes en la infraestructura a administrar: HP (ThinClient), Citrix, Microsoft (Windows, SCCM, MDT, INTUNE, SQL Server), NetApp, Cisco, VmWare, Honeywell, Zebra, Samsung, Apple, Zelenza, Xiaomi, Huawei. No se exige la compra de productos de estos fabricantes salvo para el equipamiento propio del adjudicatario.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 34-51, 45-46",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0008",
+        "seccion": "Fabricantes obligatorios y equivalencias",
+        "detalle": "No se exige carta de fabricante, partnership ni autorización de canal para la presentación de la oferta ni para la ejecución, pero se valoran certificaciones deseables en perfiles técnicos (Citrix, Microsoft, NetApp, Cisco, VmWare, etc.).",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 65-70",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0009",
+        "seccion": "Certificaciones de fabricante, partner y canal",
+        "detalle": "Se valoran como deseables certificaciones técnicas de fabricante en los perfiles de los equipos (Citrix, Microsoft, NetApp, Cisco, VmWare, Workspace One UEM, SOTI, Ivanti, etc.), pero no son requisito obligatorio de admisión ni de ejecución.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 65-70",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0010",
+        "seccion": "Subcontratación, UTE y medios externos",
+        "detalle": "La subcontratación está permitida salvo para la gestión y coordinación del servicio, que es tarea crítica y no puede subcontratarse. El adjudicatario debe indicar en la oferta la parte del contrato a subcontratar, su importe y el nombre o perfil empresarial de los subcontratistas.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 25",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0011",
+        "seccion": "Subcontratación, UTE y medios externos",
+        "detalle": "El adjudicatario debe comunicar cualquier subcontratación durante la ejecución, justificando la aptitud del subcontratista y acreditando que no incurre en prohibición de contratar.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 25",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0012",
+        "seccion": "Subcontratación, UTE y medios externos",
+        "detalle": "Si la subcontratación afecta a tratamiento de datos personales, el subcontratista debe firmar un contrato de encargo de tratamiento conforme al modelo del Anexo XVI.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 25, 99-105",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0013",
+        "seccion": "Subcontratación, UTE y medios externos",
+        "detalle": "En caso de UTE, debe presentarse compromiso de constitución y declaración de participación en la fase de oferta, y escritura pública de constitución, CIF y nombramiento de representante en la formalización.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 11, 18",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0014",
+        "seccion": "Subcontratación, UTE y medios externos",
+        "detalle": "Para tecnologías donde el adjudicatario no tenga perfiles expertos, debe recurrir a subcontratar técnicos expertos del fabricante, bajo demanda de Correos/CEX y solo se facturará cuando se consuma.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 71",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0015",
+        "seccion": "Cadena de suministro",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna descripción o condicionamiento contractual específico sobre la cadena de suministro, logística, stock, lead time, EOL/EOS, homologaciones, sostenibilidad, staging, retirada o destrucción de equipos, salvo la obligación de preparar, empaquetar y enviar material de movilidad a centros de Correos/CEX según necesidades corporativas.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 49",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0016",
+        "seccion": "Plazos de suministro, stock y logística",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA ningún plazo de suministro de hardware o software a cargo del adjudicatario, salvo para proyectos especiales que lo requieran y sean aprobados y presupuestados aparte.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 50-51",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0017",
+        "seccion": "Garantías y soporte fabricante",
+        "detalle": "El adjudicatario debe asegurar soporte de fabricantes para los técnicos asignados cuando se requiera conocimiento muy específico, pero no se exige la contratación directa de soporte ni garantías de fabricante para los activos de Correos/CEX.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 63",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0018",
+        "seccion": "Garantías y soporte fabricante",
+        "detalle": "El adjudicatario debe gestionar y asegurar el cumplimiento de los Acuerdos de Nivel de Servicio (ANS) asociados a los productos contratados, incluyendo la gestión contractual con fabricantes implicados en los diferentes servicios.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, pág. 97",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0019",
+        "seccion": "SLA de terceros y back-to-back",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de SLA back-to-back con fabricantes o terceros, más allá de la obligación de cumplir los ANS del contrato y gestionar con fabricantes el soporte necesario para la resolución de incidencias.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 39, 43, 49, Anexo XV, pág. 97",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0020",
+        "seccion": "Dependencias externas",
+        "detalle": "El adjudicatario debe coordinarse con otros proveedores de Correos/CEX en un entorno multiproveedor, pero no se establecen dependencias contractuales específicas con terceros.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 52",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0021",
+        "seccion": "Dependencias externas",
+        "detalle": "El adjudicatario es responsable único del servicio prestado por los proveedores de contratos subrogados.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 52",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0022",
+        "seccion": "Condiciones de equivalencia",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna regla de equivalencia técnica para productos o fabricantes, ni procedimiento de justificación de alternativas.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0023",
+        "seccion": "Cartas de fabricante, compromisos de canal",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, compromisos de canal o partnership para la presentación de la oferta ni para la ejecución.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0024",
+        "seccion": "Restricciones de canal, reposición, stock",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna restricción de canal, reposición, stock o logística específica para el adjudicatario, salvo la preparación y envío de material de movilidad a centros de Correos/CEX.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 49",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0025",
+        "seccion": "Suministro de licencias, suscripciones, SaaS",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna obligación de suministro de licencias, suscripciones o SaaS a cargo del adjudicatario para el cliente, salvo para el software propio del adjudicatario.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 72",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0026",
+        "seccion": "Modalidad de adquisición y titularidad",
+        "detalle": "El adjudicatario debe aportar y mantener los medios técnicos y licencias necesarios para su propio equipo, siendo titular de los mismos, sin transferencia al cliente.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 72",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0027",
+        "seccion": "Modalidad de adquisición y titularidad",
+        "detalle": "La administración de plataformas y aplicaciones de Correos/CEX se realiza sobre infraestructuras y licencias ya existentes, sin transferencia de titularidad ni obligación de compra adicional salvo en proyectos especiales.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 34-51",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0028",
+        "seccion": "Garantía contractual",
+        "detalle": "El plazo de garantía general es de tres meses desde la recepción de conformidad del servicio.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 28",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0029",
+        "seccion": "Penalizaciones por incumplimiento de soporte/fabricante",
+        "detalle": "El incumplimiento de la gestión contractual con fabricantes y del aseguramiento de los ANS puede conllevar penalizaciones económicas y, en caso de reiteración, resolución anticipada del contrato.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, págs. 97-98, Anexo XVII, págs. 111-118",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0030",
+        "seccion": "Proyectos especiales",
+        "detalle": "El suministro de nuevos productos, hardware, software o licencias solo será exigible al adjudicatario si se aprueba y presupuesta como parte de un Proyecto Especial solicitado por Correos o CEX, con coste contra la bolsa económica correspondiente.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 50-51, 75-76",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "A10-S0031",
+        "seccion": "Medios, licencias y proveedores",
+        "titulo": "Contenido inicial",
+        "detalle": "Registro documental de preventa",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A10",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A10-S0032",
+        "seccion": "Medios, licencias y proveedores",
+        "titulo": "Contenido inicial",
+        "detalle": "Discrepancias y pendientes de aclaración:",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A10",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A10-S0033",
+        "seccion": "Medios, licencias y proveedores",
+        "titulo": "Contenido inicial",
+        "detalle": "No se han identificado discrepancias en la documentación revisada.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A10",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A10-S0034",
+        "seccion": "Medios, licencias y proveedores",
+        "titulo": "Contenido inicial",
+        "detalle": "No se ha podido verificar el contenido del documento \"CORREOS-Codigo-General-de-Conducta.pdf\" por error 404; cualquier obligación que remita a este documento queda pendiente de verificación documental.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A10",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      }
+    ],
+    "resumen": [
+      "No se han identificado discrepancias en la documentación revisada.",
+      "No se ha podido verificar el contenido del documento \"CORREOS-Codigo-General-de-Conducta.pdf\" por error 404; cualquier obligación que remita a este documento queda pendiente de verificación documental.",
+      "Registro documental de preventa",
+      "Discrepancias y pendientes de aclaración:"
+    ],
+    "secciones": [
+      {
+        "titulo": "Contenido inicial",
+        "parrafos": [
+          "Registro documental de preventa",
+          "Discrepancias y pendientes de aclaración:"
+        ],
+        "elementos": [
+          "No se han identificado discrepancias en la documentación revisada.",
+          "No se ha podido verificar el contenido del documento \"CORREOS-Codigo-General-de-Conducta.pdf\" por error 404; cualquier obligación que remita a este documento queda pendiente de verificación documental."
+        ],
+        "tablas": [
+          {
+            "columnas": [
+              "Materia",
+              "Requisito completo",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Materia": "Productos físicos y tecnológicos a aportar",
+                "Requisito completo": "El adjudicatario debe administrar y mantener la infraestructura de virtualización, puesto de trabajo y movilidad, incluyendo dispositivos y plataformas ya existentes en Correos y CEX, pero no se exige expresamente el suministro de nuevos equipos físicos salvo en proyectos especiales que lo requieran y sean aprobados y presupuestados aparte.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 34-51"
+              },
+              {
+                "Materia": "Productos físicos y tecnológicos a aportar",
+                "Requisito completo": "El adjudicatario debe proveer a su equipo de trabajo de ordenadores portátiles (mínimo Intel i5 9ª gen, SSD, 8GB RAM, hasta 16GB en perfiles de mayor dedicación), software de comunicaciones (Microsoft Office, Teams, herramientas colaborativas), licencias de estos softwares, y conexión a Internet de banda ancha para trabajo remoto.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 72"
+              },
+              {
+                "Materia": "Productos físicos y tecnológicos a aportar",
+                "Requisito completo": "El adjudicatario debe proporcionar número de teléfono fijo o móvil con conexión directa para cada técnico en remoto, y medios para reuniones virtuales con varios participantes.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 72"
+              },
+              {
+                "Materia": "Software, SaaS y licencias",
+                "Requisito completo": "El adjudicatario debe administrar y operar herramientas centralizadas existentes y las que se implementen durante el servicio para gestión, distribución de software, actualización y configuración de puestos virtuales, físicos y de movilidad (SCCM, HPDM, MDT, DA, INTUNE, MDM, Workspace One UEM, etc.), pero no se exige la compra de licencias para el cliente salvo para el software propio del adjudicatario.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 42, 48, 69-70"
+              },
+              {
+                "Materia": "Software, SaaS y licencias",
+                "Requisito completo": "El adjudicatario debe disponer de las licencias de software necesarias para el funcionamiento de su propio equipo (Microsoft Office, Teams, etc.).",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 72"
+              },
+              {
+                "Materia": "Software, SaaS y licencias",
+                "Requisito completo": "El adjudicatario debe administrar plataformas y aplicaciones ya existentes en Correos/CEX (Citrix Xenapp, Hyper-V, NetApp, SQL Server, Azure WVD, Workspace One UEM, Remedy ITSM, etc.), pero no se exige la adquisición de nuevas licencias para estas plataformas salvo que se derive de un proyecto especial aprobado.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 34-51, 56"
+              },
+              {
+                "Materia": "Fabricantes obligatorios y equivalencias",
+                "Requisito completo": "Se identifican fabricantes y tecnologías existentes en la infraestructura a administrar: HP (ThinClient), Citrix, Microsoft (Windows, SCCM, MDT, INTUNE, SQL Server), NetApp, Cisco, VmWare, Honeywell, Zebra, Samsung, Apple, Zelenza, Xiaomi, Huawei. No se exige la compra de productos de estos fabricantes salvo para el equipamiento propio del adjudicatario.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 34-51, 45-46"
+              },
+              {
+                "Materia": "Fabricantes obligatorios y equivalencias",
+                "Requisito completo": "No se exige carta de fabricante, partnership ni autorización de canal para la presentación de la oferta ni para la ejecución, pero se valoran certificaciones deseables en perfiles técnicos (Citrix, Microsoft, NetApp, Cisco, VmWare, etc.).",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 65-70"
+              },
+              {
+                "Materia": "Certificaciones de fabricante, partner y canal",
+                "Requisito completo": "Se valoran como deseables certificaciones técnicas de fabricante en los perfiles de los equipos (Citrix, Microsoft, NetApp, Cisco, VmWare, Workspace One UEM, SOTI, Ivanti, etc.), pero no son requisito obligatorio de admisión ni de ejecución.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 65-70"
+              },
+              {
+                "Materia": "Subcontratación, UTE y medios externos",
+                "Requisito completo": "La subcontratación está permitida salvo para la gestión y coordinación del servicio, que es tarea crítica y no puede subcontratarse. El adjudicatario debe indicar en la oferta la parte del contrato a subcontratar, su importe y el nombre o perfil empresarial de los subcontratistas.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 25"
+              },
+              {
+                "Materia": "Subcontratación, UTE y medios externos",
+                "Requisito completo": "El adjudicatario debe comunicar cualquier subcontratación durante la ejecución, justificando la aptitud del subcontratista y acreditando que no incurre en prohibición de contratar.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 25"
+              },
+              {
+                "Materia": "Subcontratación, UTE y medios externos",
+                "Requisito completo": "Si la subcontratación afecta a tratamiento de datos personales, el subcontratista debe firmar un contrato de encargo de tratamiento conforme al modelo del Anexo XVI.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 25, 99-105"
+              },
+              {
+                "Materia": "Subcontratación, UTE y medios externos",
+                "Requisito completo": "En caso de UTE, debe presentarse compromiso de constitución y declaración de participación en la fase de oferta, y escritura pública de constitución, CIF y nombramiento de representante en la formalización.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 11, 18"
+              },
+              {
+                "Materia": "Subcontratación, UTE y medios externos",
+                "Requisito completo": "Para tecnologías donde el adjudicatario no tenga perfiles expertos, debe recurrir a subcontratar técnicos expertos del fabricante, bajo demanda de Correos/CEX y solo se facturará cuando se consuma.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 71"
+              },
+              {
+                "Materia": "Cadena de suministro",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna descripción o condicionamiento contractual específico sobre la cadena de suministro, logística, stock, lead time, EOL/EOS, homologaciones, sostenibilidad, staging, retirada o destrucción de equipos, salvo la obligación de preparar, empaquetar y enviar material de movilidad a centros de Correos/CEX según necesidades corporativas.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 49"
+              },
+              {
+                "Materia": "Plazos de suministro, stock y logística",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA ningún plazo de suministro de hardware o software a cargo del adjudicatario, salvo para proyectos especiales que lo requieran y sean aprobados y presupuestados aparte.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 50-51"
+              },
+              {
+                "Materia": "Garantías y soporte fabricante",
+                "Requisito completo": "El adjudicatario debe asegurar soporte de fabricantes para los técnicos asignados cuando se requiera conocimiento muy específico, pero no se exige la contratación directa de soporte ni garantías de fabricante para los activos de Correos/CEX.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 63"
+              },
+              {
+                "Materia": "Garantías y soporte fabricante",
+                "Requisito completo": "El adjudicatario debe gestionar y asegurar el cumplimiento de los Acuerdos de Nivel de Servicio (ANS) asociados a los productos contratados, incluyendo la gestión contractual con fabricantes implicados en los diferentes servicios.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, pág. 97"
+              },
+              {
+                "Materia": "SLA de terceros y back-to-back",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de SLA back-to-back con fabricantes o terceros, más allá de la obligación de cumplir los ANS del contrato y gestionar con fabricantes el soporte necesario para la resolución de incidencias.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 39, 43, 49, Anexo XV, pág. 97"
+              },
+              {
+                "Materia": "Dependencias externas",
+                "Requisito completo": "El adjudicatario debe coordinarse con otros proveedores de Correos/CEX en un entorno multiproveedor, pero no se establecen dependencias contractuales específicas con terceros.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 52"
+              },
+              {
+                "Materia": "Dependencias externas",
+                "Requisito completo": "El adjudicatario es responsable único del servicio prestado por los proveedores de contratos subrogados.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 52"
+              },
+              {
+                "Materia": "Condiciones de equivalencia",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna regla de equivalencia técnica para productos o fabricantes, ni procedimiento de justificación de alternativas.",
+                "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+              },
+              {
+                "Materia": "Cartas de fabricante, compromisos de canal",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, compromisos de canal o partnership para la presentación de la oferta ni para la ejecución.",
+                "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+              },
+              {
+                "Materia": "Restricciones de canal, reposición, stock",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna restricción de canal, reposición, stock o logística específica para el adjudicatario, salvo la preparación y envío de material de movilidad a centros de Correos/CEX.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 49"
+              },
+              {
+                "Materia": "Suministro de licencias, suscripciones, SaaS",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna obligación de suministro de licencias, suscripciones o SaaS a cargo del adjudicatario para el cliente, salvo para el software propio del adjudicatario.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 72"
+              },
+              {
+                "Materia": "Modalidad de adquisición y titularidad",
+                "Requisito completo": "El adjudicatario debe aportar y mantener los medios técnicos y licencias necesarios para su propio equipo, siendo titular de los mismos, sin transferencia al cliente.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 72"
+              },
+              {
+                "Materia": "Modalidad de adquisición y titularidad",
+                "Requisito completo": "La administración de plataformas y aplicaciones de Correos/CEX se realiza sobre infraestructuras y licencias ya existentes, sin transferencia de titularidad ni obligación de compra adicional salvo en proyectos especiales.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 34-51"
+              },
+              {
+                "Materia": "Garantía contractual",
+                "Requisito completo": "El plazo de garantía general es de tres meses desde la recepción de conformidad del servicio.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 28"
+              },
+              {
+                "Materia": "Penalizaciones por incumplimiento de soporte/fabricante",
+                "Requisito completo": "El incumplimiento de la gestión contractual con fabricantes y del aseguramiento de los ANS puede conllevar penalizaciones económicas y, en caso de reiteración, resolución anticipada del contrato.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, págs. 97-98, Anexo XVII, págs. 111-118"
+              },
+              {
+                "Materia": "Proyectos especiales",
+                "Requisito completo": "El suministro de nuevos productos, hardware, software o licencias solo será exigible al adjudicatario si se aprueba y presupuesta como parte de un Proyecto Especial solicitado por Correos o CEX, con coste contra la bolsa económica correspondiente.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 50-51, 75-76"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pendientes_y_no_localizados": [],
+    "trazabilidad": [
+      {
+        "Materia": "Productos físicos y tecnológicos a aportar",
+        "Requisito completo": "El adjudicatario debe administrar y mantener la infraestructura de virtualización, puesto de trabajo y movilidad, incluyendo dispositivos y plataformas ya existentes en Correos y CEX, pero no se exige expresamente el suministro de nuevos equipos físicos salvo en proyectos especiales que lo requieran y sean aprobados y presupuestados aparte.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 34-51"
+      },
+      {
+        "Materia": "Productos físicos y tecnológicos a aportar",
+        "Requisito completo": "El adjudicatario debe proveer a su equipo de trabajo de ordenadores portátiles (mínimo Intel i5 9ª gen, SSD, 8GB RAM, hasta 16GB en perfiles de mayor dedicación), software de comunicaciones (Microsoft Office, Teams, herramientas colaborativas), licencias de estos softwares, y conexión a Internet de banda ancha para trabajo remoto.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 72"
+      },
+      {
+        "Materia": "Productos físicos y tecnológicos a aportar",
+        "Requisito completo": "El adjudicatario debe proporcionar número de teléfono fijo o móvil con conexión directa para cada técnico en remoto, y medios para reuniones virtuales con varios participantes.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 72"
+      },
+      {
+        "Materia": "Software, SaaS y licencias",
+        "Requisito completo": "El adjudicatario debe administrar y operar herramientas centralizadas existentes y las que se implementen durante el servicio para gestión, distribución de software, actualización y configuración de puestos virtuales, físicos y de movilidad (SCCM, HPDM, MDT, DA, INTUNE, MDM, Workspace One UEM, etc.), pero no se exige la compra de licencias para el cliente salvo para el software propio del adjudicatario.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 42, 48, 69-70"
+      },
+      {
+        "Materia": "Software, SaaS y licencias",
+        "Requisito completo": "El adjudicatario debe disponer de las licencias de software necesarias para el funcionamiento de su propio equipo (Microsoft Office, Teams, etc.).",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 72"
+      },
+      {
+        "Materia": "Software, SaaS y licencias",
+        "Requisito completo": "El adjudicatario debe administrar plataformas y aplicaciones ya existentes en Correos/CEX (Citrix Xenapp, Hyper-V, NetApp, SQL Server, Azure WVD, Workspace One UEM, Remedy ITSM, etc.), pero no se exige la adquisición de nuevas licencias para estas plataformas salvo que se derive de un proyecto especial aprobado.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 34-51, 56"
+      },
+      {
+        "Materia": "Fabricantes obligatorios y equivalencias",
+        "Requisito completo": "Se identifican fabricantes y tecnologías existentes en la infraestructura a administrar: HP (ThinClient), Citrix, Microsoft (Windows, SCCM, MDT, INTUNE, SQL Server), NetApp, Cisco, VmWare, Honeywell, Zebra, Samsung, Apple, Zelenza, Xiaomi, Huawei. No se exige la compra de productos de estos fabricantes salvo para el equipamiento propio del adjudicatario.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 34-51, 45-46"
+      },
+      {
+        "Materia": "Fabricantes obligatorios y equivalencias",
+        "Requisito completo": "No se exige carta de fabricante, partnership ni autorización de canal para la presentación de la oferta ni para la ejecución, pero se valoran certificaciones deseables en perfiles técnicos (Citrix, Microsoft, NetApp, Cisco, VmWare, etc.).",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 65-70"
+      },
+      {
+        "Materia": "Certificaciones de fabricante, partner y canal",
+        "Requisito completo": "Se valoran como deseables certificaciones técnicas de fabricante en los perfiles de los equipos (Citrix, Microsoft, NetApp, Cisco, VmWare, Workspace One UEM, SOTI, Ivanti, etc.), pero no son requisito obligatorio de admisión ni de ejecución.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 65-70"
+      },
+      {
+        "Materia": "Subcontratación, UTE y medios externos",
+        "Requisito completo": "La subcontratación está permitida salvo para la gestión y coordinación del servicio, que es tarea crítica y no puede subcontratarse. El adjudicatario debe indicar en la oferta la parte del contrato a subcontratar, su importe y el nombre o perfil empresarial de los subcontratistas.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 25"
+      },
+      {
+        "Materia": "Subcontratación, UTE y medios externos",
+        "Requisito completo": "El adjudicatario debe comunicar cualquier subcontratación durante la ejecución, justificando la aptitud del subcontratista y acreditando que no incurre en prohibición de contratar.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 25"
+      },
+      {
+        "Materia": "Subcontratación, UTE y medios externos",
+        "Requisito completo": "Si la subcontratación afecta a tratamiento de datos personales, el subcontratista debe firmar un contrato de encargo de tratamiento conforme al modelo del Anexo XVI.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 25, 99-105"
+      },
+      {
+        "Materia": "Subcontratación, UTE y medios externos",
+        "Requisito completo": "En caso de UTE, debe presentarse compromiso de constitución y declaración de participación en la fase de oferta, y escritura pública de constitución, CIF y nombramiento de representante en la formalización.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 11, 18"
+      },
+      {
+        "Materia": "Subcontratación, UTE y medios externos",
+        "Requisito completo": "Para tecnologías donde el adjudicatario no tenga perfiles expertos, debe recurrir a subcontratar técnicos expertos del fabricante, bajo demanda de Correos/CEX y solo se facturará cuando se consuma.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 71"
+      },
+      {
+        "Materia": "Cadena de suministro",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna descripción o condicionamiento contractual específico sobre la cadena de suministro, logística, stock, lead time, EOL/EOS, homologaciones, sostenibilidad, staging, retirada o destrucción de equipos, salvo la obligación de preparar, empaquetar y enviar material de movilidad a centros de Correos/CEX según necesidades corporativas.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 49"
+      },
+      {
+        "Materia": "Plazos de suministro, stock y logística",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA ningún plazo de suministro de hardware o software a cargo del adjudicatario, salvo para proyectos especiales que lo requieran y sean aprobados y presupuestados aparte.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 50-51"
+      },
+      {
+        "Materia": "Garantías y soporte fabricante",
+        "Requisito completo": "El adjudicatario debe asegurar soporte de fabricantes para los técnicos asignados cuando se requiera conocimiento muy específico, pero no se exige la contratación directa de soporte ni garantías de fabricante para los activos de Correos/CEX.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 63"
+      },
+      {
+        "Materia": "Garantías y soporte fabricante",
+        "Requisito completo": "El adjudicatario debe gestionar y asegurar el cumplimiento de los Acuerdos de Nivel de Servicio (ANS) asociados a los productos contratados, incluyendo la gestión contractual con fabricantes implicados en los diferentes servicios.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, pág. 97"
+      },
+      {
+        "Materia": "SLA de terceros y back-to-back",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de SLA back-to-back con fabricantes o terceros, más allá de la obligación de cumplir los ANS del contrato y gestionar con fabricantes el soporte necesario para la resolución de incidencias.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 39, 43, 49, Anexo XV, pág. 97"
+      },
+      {
+        "Materia": "Dependencias externas",
+        "Requisito completo": "El adjudicatario debe coordinarse con otros proveedores de Correos/CEX en un entorno multiproveedor, pero no se establecen dependencias contractuales específicas con terceros.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 52"
+      },
+      {
+        "Materia": "Dependencias externas",
+        "Requisito completo": "El adjudicatario es responsable único del servicio prestado por los proveedores de contratos subrogados.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 52"
+      },
+      {
+        "Materia": "Condiciones de equivalencia",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna regla de equivalencia técnica para productos o fabricantes, ni procedimiento de justificación de alternativas.",
+        "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+      },
+      {
+        "Materia": "Cartas de fabricante, compromisos de canal",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, compromisos de canal o partnership para la presentación de la oferta ni para la ejecución.",
+        "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+      },
+      {
+        "Materia": "Restricciones de canal, reposición, stock",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna restricción de canal, reposición, stock o logística específica para el adjudicatario, salvo la preparación y envío de material de movilidad a centros de Correos/CEX.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 49"
+      },
+      {
+        "Materia": "Suministro de licencias, suscripciones, SaaS",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna obligación de suministro de licencias, suscripciones o SaaS a cargo del adjudicatario para el cliente, salvo para el software propio del adjudicatario.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 72"
+      },
+      {
+        "Materia": "Modalidad de adquisición y titularidad",
+        "Requisito completo": "El adjudicatario debe aportar y mantener los medios técnicos y licencias necesarios para su propio equipo, siendo titular de los mismos, sin transferencia al cliente.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 72"
+      },
+      {
+        "Materia": "Modalidad de adquisición y titularidad",
+        "Requisito completo": "La administración de plataformas y aplicaciones de Correos/CEX se realiza sobre infraestructuras y licencias ya existentes, sin transferencia de titularidad ni obligación de compra adicional salvo en proyectos especiales.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 34-51"
+      },
+      {
+        "Materia": "Garantía contractual",
+        "Requisito completo": "El plazo de garantía general es de tres meses desde la recepción de conformidad del servicio.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 28"
+      },
+      {
+        "Materia": "Penalizaciones por incumplimiento de soporte/fabricante",
+        "Requisito completo": "El incumplimiento de la gestión contractual con fabricantes y del aseguramiento de los ANS puede conllevar penalizaciones económicas y, en caso de reiteración, resolución anticipada del contrato.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, págs. 97-98, Anexo XVII, págs. 111-118"
+      },
+      {
+        "Materia": "Proyectos especiales",
+        "Requisito completo": "El suministro de nuevos productos, hardware, software o licencias solo será exigible al adjudicatario si se aprueba y presupuesta como parte de un Proyecto Especial solicitado por Correos o CEX, con coste contra la bolsa económica correspondiente.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 50-51, 75-76"
+      }
+    ],
+    "salida_original": "Registro documental de preventa\n\n| Materia | Requisito completo | Fuente |\n|---|---|---|\n| Productos físicos y tecnológicos a aportar | El adjudicatario debe administrar y mantener la infraestructura de virtualización, puesto de trabajo y movilidad, incluyendo dispositivos y plataformas ya existentes en Correos y CEX, pero no se exige expresamente el suministro de nuevos equipos físicos salvo en proyectos especiales que lo requieran y sean aprobados y presupuestados aparte. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 34-51 |\n| Productos físicos y tecnológicos a aportar | El adjudicatario debe proveer a su equipo de trabajo de ordenadores portátiles (mínimo Intel i5 9ª gen, SSD, 8GB RAM, hasta 16GB en perfiles de mayor dedicación), software de comunicaciones (Microsoft Office, Teams, herramientas colaborativas), licencias de estos softwares, y conexión a Internet de banda ancha para trabajo remoto. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 72 |\n| Productos físicos y tecnológicos a aportar | El adjudicatario debe proporcionar número de teléfono fijo o móvil con conexión directa para cada técnico en remoto, y medios para reuniones virtuales con varios participantes. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 72 |\n| Software, SaaS y licencias | El adjudicatario debe administrar y operar herramientas centralizadas existentes y las que se implementen durante el servicio para gestión, distribución de software, actualización y configuración de puestos virtuales, físicos y de movilidad (SCCM, HPDM, MDT, DA, INTUNE, MDM, Workspace One UEM, etc.), pero no se exige la compra de licencias para el cliente salvo para el software propio del adjudicatario. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 42, 48, 69-70 |\n| Software, SaaS y licencias | El adjudicatario debe disponer de las licencias de software necesarias para el funcionamiento de su propio equipo (Microsoft Office, Teams, etc.). | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 72 |\n| Software, SaaS y licencias | El adjudicatario debe administrar plataformas y aplicaciones ya existentes en Correos/CEX (Citrix Xenapp, Hyper-V, NetApp, SQL Server, Azure WVD, Workspace One UEM, Remedy ITSM, etc.), pero no se exige la adquisición de nuevas licencias para estas plataformas salvo que se derive de un proyecto especial aprobado. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 34-51, 56 |\n| Fabricantes obligatorios y equivalencias | Se identifican fabricantes y tecnologías existentes en la infraestructura a administrar: HP (ThinClient), Citrix, Microsoft (Windows, SCCM, MDT, INTUNE, SQL Server), NetApp, Cisco, VmWare, Honeywell, Zebra, Samsung, Apple, Zelenza, Xiaomi, Huawei. No se exige la compra de productos de estos fabricantes salvo para el equipamiento propio del adjudicatario. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 34-51, 45-46 |\n| Fabricantes obligatorios y equivalencias | No se exige carta de fabricante, partnership ni autorización de canal para la presentación de la oferta ni para la ejecución, pero se valoran certificaciones deseables en perfiles técnicos (Citrix, Microsoft, NetApp, Cisco, VmWare, etc.). | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 65-70 |\n| Certificaciones de fabricante, partner y canal | Se valoran como deseables certificaciones técnicas de fabricante en los perfiles de los equipos (Citrix, Microsoft, NetApp, Cisco, VmWare, Workspace One UEM, SOTI, Ivanti, etc.), pero no son requisito obligatorio de admisión ni de ejecución. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 65-70 |\n| Subcontratación, UTE y medios externos | La subcontratación está permitida salvo para la gestión y coordinación del servicio, que es tarea crítica y no puede subcontratarse. El adjudicatario debe indicar en la oferta la parte del contrato a subcontratar, su importe y el nombre o perfil empresarial de los subcontratistas. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 25 |\n| Subcontratación, UTE y medios externos | El adjudicatario debe comunicar cualquier subcontratación durante la ejecución, justificando la aptitud del subcontratista y acreditando que no incurre en prohibición de contratar. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 25 |\n| Subcontratación, UTE y medios externos | Si la subcontratación afecta a tratamiento de datos personales, el subcontratista debe firmar un contrato de encargo de tratamiento conforme al modelo del Anexo XVI. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 25, 99-105 |\n| Subcontratación, UTE y medios externos | En caso de UTE, debe presentarse compromiso de constitución y declaración de participación en la fase de oferta, y escritura pública de constitución, CIF y nombramiento de representante en la formalización. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 11, 18 |\n| Subcontratación, UTE y medios externos | Para tecnologías donde el adjudicatario no tenga perfiles expertos, debe recurrir a subcontratar técnicos expertos del fabricante, bajo demanda de Correos/CEX y solo se facturará cuando se consuma. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 71 |\n| Cadena de suministro | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna descripción o condicionamiento contractual específico sobre la cadena de suministro, logística, stock, lead time, EOL/EOS, homologaciones, sostenibilidad, staging, retirada o destrucción de equipos, salvo la obligación de preparar, empaquetar y enviar material de movilidad a centros de Correos/CEX según necesidades corporativas. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 49 |\n| Plazos de suministro, stock y logística | NO CONSTA EN LA DOCUMENTACION REVISADA ningún plazo de suministro de hardware o software a cargo del adjudicatario, salvo para proyectos especiales que lo requieran y sean aprobados y presupuestados aparte. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 50-51 |\n| Garantías y soporte fabricante | El adjudicatario debe asegurar soporte de fabricantes para los técnicos asignados cuando se requiera conocimiento muy específico, pero no se exige la contratación directa de soporte ni garantías de fabricante para los activos de Correos/CEX. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 63 |\n| Garantías y soporte fabricante | El adjudicatario debe gestionar y asegurar el cumplimiento de los Acuerdos de Nivel de Servicio (ANS) asociados a los productos contratados, incluyendo la gestión contractual con fabricantes implicados en los diferentes servicios. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, pág. 97 |\n| SLA de terceros y back-to-back | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de SLA back-to-back con fabricantes o terceros, más allá de la obligación de cumplir los ANS del contrato y gestionar con fabricantes el soporte necesario para la resolución de incidencias. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 39, 43, 49, Anexo XV, pág. 97 |\n| Dependencias externas | El adjudicatario debe coordinarse con otros proveedores de Correos/CEX en un entorno multiproveedor, pero no se establecen dependencias contractuales específicas con terceros. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 52 |\n| Dependencias externas | El adjudicatario es responsable único del servicio prestado por los proveedores de contratos subrogados. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 52 |\n| Condiciones de equivalencia | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna regla de equivalencia técnica para productos o fabricantes, ni procedimiento de justificación de alternativas. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Cartas de fabricante, compromisos de canal | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, compromisos de canal o partnership para la presentación de la oferta ni para la ejecución. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Restricciones de canal, reposición, stock | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna restricción de canal, reposición, stock o logística específica para el adjudicatario, salvo la preparación y envío de material de movilidad a centros de Correos/CEX. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 49 |\n| Suministro de licencias, suscripciones, SaaS | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna obligación de suministro de licencias, suscripciones o SaaS a cargo del adjudicatario para el cliente, salvo para el software propio del adjudicatario. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 72 |\n| Modalidad de adquisición y titularidad | El adjudicatario debe aportar y mantener los medios técnicos y licencias necesarios para su propio equipo, siendo titular de los mismos, sin transferencia al cliente. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 72 |\n| Modalidad de adquisición y titularidad | La administración de plataformas y aplicaciones de Correos/CEX se realiza sobre infraestructuras y licencias ya existentes, sin transferencia de titularidad ni obligación de compra adicional salvo en proyectos especiales. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 34-51 |\n| Garantía contractual | El plazo de garantía general es de tres meses desde la recepción de conformidad del servicio. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 28 |\n| Penalizaciones por incumplimiento de soporte/fabricante | El incumplimiento de la gestión contractual con fabricantes y del aseguramiento de los ANS puede conllevar penalizaciones económicas y, en caso de reiteración, resolución anticipada del contrato. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, págs. 97-98, Anexo XVII, págs. 111-118 |\n| Proyectos especiales | El suministro de nuevos productos, hardware, software o licencias solo será exigible al adjudicatario si se aprueba y presupuesta como parte de un Proyecto Especial solicitado por Correos o CEX, con coste contra la bolsa económica correspondiente. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 50-51, 75-76 |\n\nDiscrepancias y pendientes de aclaración:\n- No se han identificado discrepancias en la documentación revisada.\n- No se ha podido verificar el contenido del documento \"CORREOS-Codigo-General-de-Conducta.pdf\" por error 404; cualquier obligación que remita a este documento queda pendiente de verificación documental.",
+    "registro_completo_estructura": true
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "ANEXO I.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 109403,
+        "caracteres_enviados_al_agente": 109403,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Anuncio.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 8853,
+        "caracteres_enviados_al_agente": 8853,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 330809,
+        "caracteres_enviados_al_agente": 330809,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 4,
+        "nombre": "DOC_CD2024-000901195.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 8376,
+        "caracteres_enviados_al_agente": 8376,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 5,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "Anuncio.pdf",
+        "caracteres_extraidos": 5053,
+        "caracteres_enviados_al_agente": 5053,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 6,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "Anuncio.pdf",
+        "caracteres_extraidos": 3234,
+        "caracteres_enviados_al_agente": 3234,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 7,
+        "nombre": "CORREOS-Codigo-General-de-Conducta.pdf",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 0,
+        "caracteres_enviados_al_agente": 0,
+        "texto_compactado": false,
+        "error": "404 Client Error: The specified blob does not exist. for url: https://cswetwebcorsta01.blob.core.windows.net/uploads/2022/01/CORREOS-Codigo-General-de-Conducta.pdf"
+      },
+      {
+        "numero": 8,
+        "nombre": "perfil-contratante",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 84908,
+        "caracteres_enviados_al_agente": 84908,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 9,
+        "nombre": "PoliticaProteccionDatosCanalEticoClientesyProveedores--ES.pdf",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 13833,
+        "caracteres_enviados_al_agente": 13833,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Documento no leido: CORREOS-Codigo-General-de-Conducta.pdf: 404 Client Error: The specified blob does not exist. for url: https://cswetwebcorsta01.blob.core.windows.net/uploads/2022/01/CORREOS-Codigo-General-de-Conducta.pdf",
+      "Se omitieron 22 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  },
+  "puntos_revision": [
+    {
+      "id": "REV-001",
+      "tipo": "verificacion_documental",
+      "estado": "pendiente_de_revision",
+      "titulo": "Documentación y otras condiciones pendientes",
+      "prioridad": "alta",
+      "detalle": "Revisar documentación y otras condiciones pendientes: 2 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-001.01",
+          "tipo": "verificacion_documental",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "No se ha podido verificar el contenido del documento \"CORREOS-Codigo-General-de-Conducta.pdf\" por error 404; cualquier obligación que remita a este documento queda pendiente de verificación documental.",
+          "evidencia": "- No se ha podido verificar el contenido del documento \"CORREOS-Codigo-General-de-Conducta.pdf\" por error 404; cualquier obligación que remita a este documento queda pendiente de verificación documental.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "No se han identificado discrepancias en la documentación revisada.",
+          "evidencia": "- No se han identificado discrepancias en la documentación revisada.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-002",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Equipo, medios y ejecución del servicio",
+      "prioridad": "media",
+      "detalle": "Revisar equipo, medios y ejecución del servicio: 4 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-002.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Cadena de suministro; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA ninguna descripción o condicionamiento contractual específico sobre la cadena de suministro, logística, stock, lead time, EOL/EOS, homologaciones, sostenibilidad, staging, retirada o destrucción de equipos, salvo la obligación de preparar, empaquetar y enviar material de movilidad a centros de Correos/CEX según necesidades corporativas.; Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 49",
+          "evidencia": "| Cadena de suministro | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna descripción o condicionamiento contractual específico sobre la cadena de suministro, logística, stock, lead time, EOL/EOS, homologaciones, sostenibilidad, staging, retirada o destrucción de equipos, salvo la obligación de preparar, empaquetar y enviar material de movilidad a centros de Correos/CEX según necesidades corporativas. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 49 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Plazos de suministro, stock y logística; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA ningún plazo de suministro de hardware o software a cargo del adjudicatario, salvo para proyectos especiales que lo requieran y sean aprobados y presupuestados aparte.; Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 50-51",
+          "evidencia": "| Plazos de suministro, stock y logística | NO CONSTA EN LA DOCUMENTACION REVISADA ningún plazo de suministro de hardware o software a cargo del adjudicatario, salvo para proyectos especiales que lo requieran y sean aprobados y presupuestados aparte. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 50-51 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.03",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Restricciones de canal, reposición, stock; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA ninguna restricción de canal, reposición, stock o logística específica para el adjudicatario, salvo la preparación y envío de material de movilidad a centros de Correos/CEX.; Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 49",
+          "evidencia": "| Restricciones de canal, reposición, stock | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna restricción de canal, reposición, stock o logística específica para el adjudicatario, salvo la preparación y envío de material de movilidad a centros de Correos/CEX. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 49 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.04",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Suministro de licencias, suscripciones, SaaS; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA ninguna obligación de suministro de licencias, suscripciones o SaaS a cargo del adjudicatario para el cliente, salvo para el software propio del adjudicatario.; Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 72",
+          "evidencia": "| Suministro de licencias, suscripciones, SaaS | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna obligación de suministro de licencias, suscripciones o SaaS a cargo del adjudicatario para el cliente, salvo para el software propio del adjudicatario. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, pág. 72 |",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-003",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Admisión, solvencia y acreditaciones",
+      "prioridad": "media",
+      "detalle": "Revisar admisión, solvencia y acreditaciones: 3 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-003.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: SLA de terceros y back-to-back; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de SLA back-to-back con fabricantes o terceros, más allá de la obligación de cumplir los ANS del contrato y gestionar con fabricantes el soporte necesario para la resolución de incidencias.; Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 39, 43, 49, Anexo XV, pág. 97",
+          "evidencia": "| SLA de terceros y back-to-back | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de SLA back-to-back con fabricantes o terceros, más allá de la obligación de cumplir los ANS del contrato y gestionar con fabricantes el soporte necesario para la resolución de incidencias. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo I, págs. 39, 43, 49, Anexo XV, pág. 97 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-003.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Condiciones de equivalencia; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA ninguna regla de equivalencia técnica para productos o fabricantes, ni procedimiento de justificación de alternativas.; Fuente: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| Condiciones de equivalencia | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna regla de equivalencia técnica para productos o fabricantes, ni procedimiento de justificación de alternativas. | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-003.03",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Materia: Cartas de fabricante, compromisos de canal; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, compromisos de canal o partnership para la presentación de la oferta ni para la ejecución.; Fuente: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| Cartas de fabricante, compromisos de canal | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, compromisos de canal o partnership para la presentación de la oferta ni para la ejecución. | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        }
+      ]
+    }
+  ],
+  "recomendaciones": [],
+  "estado_recomendaciones": "no_generadas"
+}

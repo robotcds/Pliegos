@@ -1,0 +1,33 @@
+{
+  "status_code": 500,
+  "url": "https://sermicro-dev.druidapcback.druidplatform.com/druidwebview/api/DataSource/PerformOperations",
+  "response_text": "{\"type\":\"Connector Task Error\",\"title\":\"Internal Server Error\",\"status\":500,\"detail\":\"Connector errors: 503:ServiceUnavailable::Request failed with status code ServiceUnavailable(Request host is druidservicegateway.eu.druidplatform.com, Request authorization is Bearer eyJ..)\",\"traceId\":\"00-0e129251e81c0d7f00506116e8f8605f-2879b2748705ab3b-01\"}",
+  "exception": null,
+  "attempts": 3,
+  "intentos": [
+    {
+      "intento": 1,
+      "status_code": 500,
+      "segundos": 1.12,
+      "timeout_operacion": 180,
+      "timeout_http": 210
+    },
+    {
+      "intento": 2,
+      "status_code": 500,
+      "segundos": 1.01,
+      "timeout_operacion": 180,
+      "timeout_http": 210
+    },
+    {
+      "intento": 3,
+      "status_code": 500,
+      "segundos": 1.25,
+      "timeout_operacion": 180,
+      "timeout_http": 210
+    }
+  ],
+  "system_prompt_chars": 3338,
+  "user_prompt_chars": 567667,
+  "payload_chars": 586122
+}

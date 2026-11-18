@@ -1,0 +1,90 @@
+{
+  "orden": 7,
+  "id": "A9",
+  "nombre": "Seguridad y protección de datos",
+  "tipo": "extraccion",
+  "ejecucion": "f744b0efaff245c29cca2ab5fa84667c",
+  "estado": "completado",
+  "contenido": {
+    "salida_original": "Registro documental de preventa\n\n| Materia | Requisito completo | Fuente |\n|---|---|---|\n| Seguridad / ENS / DPO | NO CONSTA EN LA DOCUMENTACION REVISADA | Pliegodefinitivofirmado.pdf (Pliego administrativo y Pliego técnico, texto extraído ilegible) |\n\nDiscrepancias y pendientes de aclaración:\n- No se han identificado discrepancias en la documentación revisada.\n- Limitación técnica atribuida al registro: El texto extraído de ambos documentos indica únicamente \"Request Rejected The requested URL was rejected. Please consult with your administrator. Your support ID is: [Go Back]\", por lo que no ha sido posible revisar el contenido íntegro de los pliegos para identificar requisitos de seguridad, ENS, DPO o protección de datos. Por tanto, todos los apartados quedan pendientes de verificación documental cuando se disponga de acceso al contenido legible de los pliegos.",
+    "registro_completo_estructura": true,
+    "requisitos_documentales": [
+      {
+        "id": "R0001",
+        "seccion": "Seguridad / ENS / DPO",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "fuente": "Pliegodefinitivofirmado.pdf (Pliego administrativo y Pliego técnico, texto extraído ilegible)",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "A9-S0002",
+        "seccion": "Seguridad y protección de datos",
+        "titulo": "Contenido inicial",
+        "detalle": "Registro documental de preventa",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A9",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A9-S0003",
+        "seccion": "Seguridad y protección de datos",
+        "titulo": "Contenido inicial",
+        "detalle": "Discrepancias y pendientes de aclaración:",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A9",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A9-S0004",
+        "seccion": "Seguridad y protección de datos",
+        "titulo": "Contenido inicial",
+        "detalle": "No se han identificado discrepancias en la documentación revisada.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A9",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A9-S0005",
+        "seccion": "Seguridad y protección de datos",
+        "titulo": "Contenido inicial",
+        "detalle": "Limitación técnica atribuida al registro: El texto extraído de ambos documentos indica únicamente \"Request Rejected The requested URL was rejected. Please consult with your administrator. Your support ID is: [Go Back]\", por lo que no ha sido posible revisar el contenido íntegro de los pliegos para identificar requisitos de seguridad, ENS, DPO o protección de datos. Por tanto, todos los apartados quedan pendientes de verificación documental cuando se disponga de acceso al contenido legible de los pliegos.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A9",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      }
+    ]
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "Pliegodefinitivofirmado.pdf",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 118,
+        "caracteres_enviados_al_agente": 118,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Pliegodefinitivofirmado.pdf",
+        "tipo": "Pliego tecnico",
+        "fuente": "XML",
+        "caracteres_extraidos": 118,
+        "caracteres_enviados_al_agente": 118,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": []
+  }
+}

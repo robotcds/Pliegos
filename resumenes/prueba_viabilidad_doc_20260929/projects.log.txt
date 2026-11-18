@@ -1,0 +1,52 @@
+
+--- Respuesta de la IA ---
+
+1. Veredicto ejecutivo de solvencia de proyectos: NO CUMPLE
+
+2. Requisitos de experiencia previa de empresa detectados:
+- Documento: PCAP OPP-SW-011, apartado A3.
+- Evidencia textual: "Dos CBE de portales/sedes electrónicas o servicios IT similares, cada uno de importe neto ejecutado mínimo 350.000 EUR y finalizado entre 30/10/2023 y 30/10/2026. Similitud por CPV 72262000 o descripción funcional equivalente. Cada CBE debe indicar objeto y tecnologías, importe neto ejecutado, inicio/fin, entidad adjudicadora/cliente, CPV si consta y emisor público o privado que acredite buena ejecución. Una ficha comercial no sustituye el certificado de buena ejecución en este caso."
+
+3. Comparación requisitos vs proyectos ejecutados:
+- Número de referencias: Se exige 2 CBE.
+- Ventana temporal: Finalización entre 30/10/2023 y 30/10/2026.
+- Importe mínimo: 350.000 EUR neto ejecutado por CBE.
+- Similitud técnica: Portal/sede electrónica o servicios IT similares, CPV 72262000 o equivalente.
+- Evidencia de buena ejecución: Certificado firmado por emisor público/privado.
+
+Proyectos que cumplen:
+- REF-001: Portal ciudadano multicanal para ayuntamiento capital. Cumple similitud técnica, CPV, importe neto ejecutado (465.000 EUR), ventana temporal (fin 30/04/2025), y dispone de CBE firmado por emisor público.
+
+Proyectos que no cumplen:
+- REF-002: Sede electrónica accesible para diputación provincial. Cumple similitud técnica, CPV, importe comercial (390.000 EUR), ventana temporal (fin 30/09/2024), pero NO se aporta CBE ni importe neto ejecutado certificado.
+- REF-011: Portal PWA de incidencias y tramitación ciudadana. Cumple similitud técnica, CPV, importe comercial (340.000 EUR), ventana temporal (fin 30/06/2024), pero NO se aporta CBE ni importe neto ejecutado certificado y el importe es inferior al mínimo exigido.
+- REF-015: Plataforma e-learning accesible para empleados públicos. Cumple ventana temporal y similitud parcial, pero NO se aporta CBE ni importe neto ejecutado certificado y el importe es inferior al mínimo exigido.
+
+4. Proyectos de referencia recomendados:
+- REF-001: Portal ciudadano multicanal para ayuntamiento capital. Encaja por similitud funcional, CPV, importe neto ejecutado y CBE firmado.
+- REF-002: Sede electrónica accesible para diputación provincial. Encajaría si se aporta CBE y certificado de importe neto ejecutado.
+
+5. Carencias o riesgos:
+- Falta un segundo CBE con certificado de buena ejecución y de importe neto ejecutado mínimo 350.000 EUR en la ventana temporal.
+- No se aporta CBE ni importe neto ejecutado certificado para REF-002 ni para otros proyectos.
+- Riesgo de exclusión por no cumplir el número mínimo de CBE exigidos.
+
+6. Requisitos que no corresponden a solvencia de proyectos:
+- Requisitos de perfiles detectados: titulación, experiencia sectorial, certificaciones personales (PMP, AWS Developer Associate), dedicación. Remitir a informe separado de perfiles.
+
+7. Documentos revisados:
+- PCAP OPP-SW-011
+- PPT OPP-SW-011
+
+8. Conclusión operativa:
+- NO CUMPLE solvencia de proyectos por falta de un segundo CBE válido.
+- Acción: Obtener y aportar CBE firmado y certificado de importe neto ejecutado para REF-002 u otro proyecto que cumpla los requisitos antes de ofertar. Responsable: Oficina de Proyectos.
+
+---
+
+```json
+{"viabilidad":[{"parametro":"numero_referencias","requisito":"2 CBE de portales/sedes electrónicas o servicios IT similares, finalizados entre 30/10/2023 y 30/10/2026, importe neto ejecutado mínimo 350.000 EUR","evidencia":"Solo se aporta CBE firmado y certificado de importe neto ejecutado para REF-001 (465.000 EUR, fin 30/04/2025). No se aporta CBE ni certificado de importe neto ejecutado para REF-002 ni otros proyectos.","fuente":"PCAP OPP-SW-011, dossier interno E3","fecha_referencia":"30/10/2026","estado":"NO CUMPLE","accion":"Obtener y aportar CBE firmado y certificado de importe neto ejecutado para REF-002 u otro proyecto antes de ofertar."},{"parametro":"similitud_tecnica","requisito":"Similitud por CPV 72262000 o descripción funcional equivalente","evidencia":"REF-001 cumple por CPV y descripción funcional. REF-002 cumple por CPV y descripción, pero falta CBE. REF-011 cumple parcialmente por descripción, pero falta CBE y el importe es inferior al mínimo.","fuente":"PCAP OPP-SW-011, dossier interno E3","fecha_referencia":"30/10/2026","estado":"CUMPLE PARCIALMENTE","accion":"Aportar CBE y certificado de importe neto ejecutado para REF-002 u otro proyecto similar."},{"parametro":"importe_minimo","requisito":"Importe neto ejecutado mínimo 350.000 EUR por CBE","evidencia":"REF-001: 465.000 EUR certificado. REF-002: 390.000 EUR comercial, pero no certificado. REF-011: 340.000 EUR comercial, inferior al mínimo y sin certificado.","fuente":"PCAP OPP-SW-011, dossier interno E3","fecha_referencia":"30/10/2026","estado":"NO CUMPLE","accion":"Aportar certificado de importe neto ejecutado para REF-002 u otro proyecto que cumpla el mínimo."},{"parametro":"ventana_temporal","requisito":"Finalización entre 30/10/2023 y 30/10/2026","evidencia":"REF-001: fin 30/04/2025. REF-002: fin 30/09/2024. REF-011: fin 30/06/2024. Todos dentro de la ventana temporal.","fuente":"PCAP OPP-SW-011, dossier interno E3","fecha_referencia":"30/10/2026","estado":"CUMPLE","accion":"Ninguna acción necesaria."},{"parametro":"certificado_buena_ejecucion","requisito":"CBE firmado por emisor público/privado, con objeto, tecnologías, importe neto ejecutado, inicio/fin, entidad adjudicadora/cliente, CPV si consta","evidencia":"Solo se aporta CBE firmado para REF-001. No se aporta CBE para REF-002 ni otros proyectos.","fuente":"PCAP OPP-SW-011, dossier interno E3","fecha_referencia":"30/10/2026","estado":"NO CUMPLE","accion":"Obtener y aportar CBE firmado para REF-002 u otro proyecto antes de ofertar."}]}
+```
+
+--- Fin de la respuesta de la IA ---
+

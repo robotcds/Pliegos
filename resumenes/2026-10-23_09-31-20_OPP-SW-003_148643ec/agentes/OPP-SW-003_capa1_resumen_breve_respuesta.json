@@ -1,0 +1,98 @@
+{
+  "orden": 1,
+  "id": "A1",
+  "nombre": "Resumen breve",
+  "tipo": "referencia",
+  "ejecucion": "148643ec3cf64b459ff90194acd8bf8e",
+  "estado": "completado",
+  "contenido": {
+    "resumen": [
+      "Expediente: OPP-SW-003. Órgano: Consorcio Ficticio de Servicios Digitales. Fuente: pliego administrativo, técnico y anexo solvencia.",
+      "Objeto: Migración cloud y contenerización de aplicaciones municipales a Azure Kubernetes Service, con CI/CD, observabilidad y reversibilidad.",
+      "Presupuesto: 653.400 EUR IVA incluido; valor estimado: 540.000 EUR sin IVA. Fuente: pliego administrativo.",
+      "Duración: 10 meses. Fuente: pliego administrativo.",
+      "Plazo de presentación de ofertas: 30/09/2026 a las 13:00 (fase: presentación de ofertas). Fuente: pliego administrativo.",
+      "No constan documentos de adjudicación, formalización ni ejecución en la documentación revisada."
+    ],
+    "secciones": [
+      {
+        "titulo": "Contenido inicial",
+        "parrafos": [],
+        "elementos": [
+          "Expediente: OPP-SW-003. Órgano: Consorcio Ficticio de Servicios Digitales. Fuente: pliego administrativo, técnico y anexo solvencia.",
+          "Objeto: Migración cloud y contenerización de aplicaciones municipales a Azure Kubernetes Service, con CI/CD, observabilidad y reversibilidad.",
+          "Presupuesto: 653.400 EUR IVA incluido; valor estimado: 540.000 EUR sin IVA. Fuente: pliego administrativo.",
+          "Duración: 10 meses. Fuente: pliego administrativo.",
+          "Plazo de presentación de ofertas: 30/09/2026 a las 13:00 (fase: presentación de ofertas). Fuente: pliego administrativo.",
+          "No constan documentos de adjudicación, formalización ni ejecución en la documentación revisada."
+        ],
+        "tablas": []
+      }
+    ],
+    "pendientes_y_no_localizados": [],
+    "trazabilidad": [],
+    "salida_original": "• Expediente: OPP-SW-003. Órgano: Consorcio Ficticio de Servicios Digitales. Fuente: pliego administrativo, técnico y anexo solvencia.\n• Objeto: Migración cloud y contenerización de aplicaciones municipales a Azure Kubernetes Service, con CI/CD, observabilidad y reversibilidad.\n• Presupuesto: 653.400 EUR IVA incluido; valor estimado: 540.000 EUR sin IVA. Fuente: pliego administrativo.\n• Duración: 10 meses. Fuente: pliego administrativo.\n• Plazo de presentación de ofertas: 30/09/2026 a las 13:00 (fase: presentación de ofertas). Fuente: pliego administrativo.\n• No constan documentos de adjudicación, formalización ni ejecución en la documentación revisada."
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "Pliego administrativo OPP-SW-003 migracion cloud",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 4508,
+        "caracteres_enviados_al_agente": 4508,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Pliego tecnico OPP-SW-003 migracion cloud",
+        "tipo": "Pliego tecnico",
+        "fuente": "XML",
+        "caracteres_extraidos": 3727,
+        "caracteres_enviados_al_agente": 3727,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "Anexo solvencia OPP-SW-003 migracion cloud",
+        "tipo": "Documento general",
+        "fuente": "XML",
+        "caracteres_extraidos": 825,
+        "caracteres_enviados_al_agente": 825,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": []
+  },
+  "puntos_revision": [
+    {
+      "id": "REV-001",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Documentación y otras condiciones pendientes",
+      "prioridad": "media",
+      "detalle": "Revisar documentación y otras condiciones pendientes: 1 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-001.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "No constan documentos de adjudicación, formalización ni ejecución en la documentación revisada.",
+          "evidencia": "• No constan documentos de adjudicación, formalización ni ejecución en la documentación revisada.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    }
+  ],
+  "recomendaciones": [],
+  "estado_recomendaciones": "no_generadas"
+}

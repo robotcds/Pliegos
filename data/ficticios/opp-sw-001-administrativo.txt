@@ -1,0 +1,59 @@
+PLIEGO ADMINISTRATIVO FICTICIO OPP-SW-001
+Contrato de servicios para el desarrollo de un portal ciudadano de tramitacion electronica.
+
+Procedimiento: abierto, tramitacion ordinaria.
+Presupuesto base de licitacion: 508.200 EUR IVA incluido.
+Valor estimado: 420.000 EUR.
+Duracion: 12 meses, sin prorroga.
+Plazo de presentacion: 15/09/2026 a las 14:00.
+
+Documentacion a presentar:
+- Declaracion responsable y DEUC.
+- Oferta economica.
+- Memoria tecnica con metodologia, plan de trabajo, equipo adscrito, arquitectura propuesta y plan de pruebas.
+- Declaracion de cumplimiento de ENS, RGPD y accesibilidad.
+
+Garantias:
+Garantia definitiva del 5 por ciento del importe de adjudicacion, excluido IVA.
+
+Penalidades:
+Incumplimiento de hitos criticos, indisponibilidad del entorno de pruebas y falta de entrega documental.
+
+Condiciones de participacion:
+Podran concurrir personas juridicas espanolas o de la Union Europea con capacidad de obrar, no incursas en prohibicion para contratar y al corriente de Hacienda y Seguridad Social. Se admite UTE con compromiso de constitucion. No se exige clasificacion empresarial si se acredita solvencia economica y tecnica por medios alternativos.
+
+Solvencia economica:
+Volumen anual de negocios minimo de 600.000 EUR en el mejor de los tres ultimos ejercicios y seguro de responsabilidad civil minimo de 600.000 EUR.
+
+Requisitos formales de la oferta:
+Presentacion exclusivamente electronica en la Plataforma de Contratacion del Sector Publico. Tres sobres: A documentacion administrativa, B memoria tecnica y C oferta economica. La memoria tecnica tendra maximo 60 paginas en PDF firmado electronicamente. La oferta economica no podra incluirse en sobres A o B.
+
+Aspectos juridicos:
+Subcontratacion permitida hasta el 40 por ciento con identificacion de tareas criticas. Proteccion de datos conforme RGPD, confidencialidad durante 5 anos y cesion a la administracion de los desarrollos especificos del portal.
+
+Criterios de adjudicacion:
+Total 100 puntos.
+- Precio: 40 puntos. Formula proporcional: la oferta mas baja obtiene 40 puntos y el resto P = 40 x oferta_minima / oferta_licitador. No se admiten bajas temerarias superiores al 22 por ciento sin justificacion.
+- Propuesta tecnica: 32 puntos. Subcriterios: arquitectura e integraciones 10, experiencia de usuario y accesibilidad 8, metodologia y plan de trabajo 7, seguridad y ENS 4, plan de pruebas 3.
+- Plan de transicion y puesta en marcha: 10 puntos. Se valora toma de requisitos, calendario, migracion, comunicacion y gestion de riesgos.
+- Soporte y formacion: 8 puntos. Hasta 4 puntos por plan de soporte y hasta 4 por formacion. Tope de 20 horas formativas puntuables.
+- Mejoras cuantificables: 6 puntos. Hasta 3 puntos por garantia adicional, tope 12 meses; hasta 3 puntos por bolsa de horas, tope 80 horas.
+- Sostenibilidad y accesibilidad avanzada: 4 puntos.
+Umbral minimo: se exige obtener al menos 18 de 32 puntos en propuesta tecnica para abrir la oferta economica.
+
+ANEXO ECONOMICO-FINANCIERO:
+El presupuesto sin IVA sobre el que se presentara la oferta es 420.000 EUR. IVA aplicable 21 por ciento. PBL con IVA 508.200 EUR.
+Facturacion: 20 por ciento tras aprobacion de diseno, 40 por ciento tras entrega de version beta, 30 por ciento tras puesta en produccion y 10 por ciento tras cierre de garantia inicial.
+Costes obligatorios incluidos en precio:
+- Equipo minimo durante 12 meses: jefe de proyecto 35 por ciento, backend senior 80 por ciento, frontend 80 por ciento, QA 45 por ciento, ciberseguridad 20 por ciento.
+- Cloud Azure para DEV/PRE/PRO durante 12 meses. El pliego estima 2.400 EUR/mes, pero exige alta disponibilidad, WAF, backups diarios y retencion de logs 12 meses.
+- Licencias: Jira Service Management para 5 agentes, herramienta SAST/SCA para 4 desarrolladores y Power BI Pro para 3 usuarios de seguimiento.
+- Formacion: 20 horas a usuarios clave, incluida en el precio. Coste de materiales incluido.
+- Transicion 4 semanas y reversibilidad 2 semanas incluidas en precio, sin pago separado.
+- Pentest web previo a produccion incluido en precio.
+Oferta anormal: baja superior al 22 por ciento requerira justificacion economica detallada. Baja superior al 26 por ciento se considerara zona roja salvo ahorro acreditado.
+Penalizaciones economicas: 1 por ciento de facturacion mensual por incumplimiento de SLA; maximo mensual 8 por ciento.
+
+ANEXO COMPRAS / PARTNERS:
+El adjudicatario debe aportar licencias Jira Service Management para 5 agentes, SAST/SCA para 4 desarrolladores, Power BI Pro para 3 usuarios y cloud Azure DEV/PRE/PRO. El cliente aporta Microsoft 365 y repositorio documental. Se admite producto equivalente para SAST/SCA siempre que cubra OWASP, SBOM y dependencias.
+Se exige pentest web externo antes de produccion y carta de compromiso del proveedor de cloud o partner Microsoft si la infraestructura no se despliega en tenant del cliente. Subcontratacion maxima 30 por ciento; no se permite subcontratar la direccion del proyecto. Accion esperada: RFQ cloud Azure, validacion licencias Power BI/Jira, compromiso de Pentest Lab Ficticio S.L. y Cloud Partner Ficticio S.A.

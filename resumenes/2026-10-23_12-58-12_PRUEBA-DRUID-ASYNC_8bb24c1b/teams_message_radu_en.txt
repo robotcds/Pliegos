@@ -1,0 +1,17 @@
+Hi Radu,
+
+We tested asynchronous integrations following the documentation you shared. We created and published a clone named AskGPT-agent-V4-Webhook-Test, added the required webhook fields to the GPT entity, and adapted the integration to read RequestBody and populate ResponseBody.
+
+Using the same minimal request and integration:
+- Synchronous (asyncResponse=false): HTTP 200 in about 2.5 seconds, returning the expected PRUEBA_ASYNC_OK response.
+- Asynchronous (asyncResponse=true): HTTP 200 with an invocationId, but GetGenericIntegrationResponse repeatedly returns HTTP 404: "No response found for invocationId...". This persists after approximately 60 seconds of polling and subsequent checks. We also cannot see the corresponding asynchronous execution in the cloned connector audit log.
+
+Could you check whether the asynchronous job is being executed and its response stored correctly, or whether any additional configuration is required in our environment?
+
+Bot ID: 8805a55b-9947-47b5-d511-08de9ea71a4f
+Integration ID: 7a7e7161-2347-47d9-8134-b869a15c5210
+Invocation ID: 8282ecab-8e90-4e63-b8ce-d22ef5f401d1
+
+I have attached diagnostic_for_druid_en.json with the request, endpoint URLs, parameters, and responses from both tests. No credentials are included.
+
+Thanks!

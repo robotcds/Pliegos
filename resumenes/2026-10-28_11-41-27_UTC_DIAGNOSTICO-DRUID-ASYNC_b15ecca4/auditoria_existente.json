@@ -1,0 +1,240 @@
+{
+  "audited_at_utc": "2026-10-28T11:41:27.865+00:00",
+  "network_calls_performed": 0,
+  "documentation": "https://docs.druidai.com/1385954/Content/Webhooks/Exchanging%20Data%20with%20External%20Systems.htm#ExecuteAsynchronousIntegrationsLongRunningRequests",
+  "runs": [
+    {
+      "directory": "C:\\Users\\JUAN CARTAGENA\\Desktop\\Oportunidades.v3.Preventa\\Oportunidades.v2\\resumenes\\2026-10-23_11-37-42_PRUEBA-DRUID-ASYNC_75f53eb1",
+      "event_utc": null,
+      "time_note": "Los registros antiguos no contienen fecha/hora UTC del request.",
+      "poll_count": 0,
+      "http_statuses": [],
+      "first_poll": null,
+      "last_poll": null
+    },
+    {
+      "directory": "C:\\Users\\JUAN CARTAGENA\\Desktop\\Oportunidades.v3.Preventa\\Oportunidades.v2\\resumenes\\2026-10-23_12-18-52_PRUEBA-DRUID-ASYNC_198ea14a",
+      "event_utc": null,
+      "time_note": "Los registros antiguos no contienen fecha/hora UTC del request.",
+      "inicio.json": {
+        "http_status": 200,
+        "seconds": 0.354,
+        "body": "e32a6ee2-36bb-4476-bbee-ed3759429082"
+      },
+      "poll_count": 0,
+      "http_statuses": [],
+      "first_poll": null,
+      "last_poll": null
+    },
+    {
+      "directory": "C:\\Users\\JUAN CARTAGENA\\Desktop\\Oportunidades.v3.Preventa\\Oportunidades.v2\\resumenes\\2026-10-23_12-20-26_PRUEBA-DRUID-ASYNC_1904b3fa",
+      "event_utc": null,
+      "time_note": "Los registros antiguos no contienen fecha/hora UTC del request.",
+      "inicio.json": {
+        "http_status": 200,
+        "seconds": 0.383,
+        "body": "903ccc73-932f-4725-9783-677317d2459b"
+      },
+      "invocacion.json": {
+        "invocationId": "903ccc73-932f-4725-9783-677317d2459b",
+        "start_url": "https://druidendpoints.druidplatform.com/api/Druid/8805a55b-9947-47b5-d511-08de9ea71a4f/GPT/7a7e7161-2347-47d9-8134-b869a15c5210/GenericIntegration",
+        "poll_url": "https://druidendpoints.druidplatform.com/api/Druid/8805a55b-9947-47b5-d511-08de9ea71a4f/GetGenericIntegrationResponse",
+        "status": "pending",
+        "queries": 1
+      },
+      "poll_count": 2,
+      "http_statuses": [
+        404
+      ],
+      "first_poll": {
+        "http_status": 404,
+        "seconds": 0.108,
+        "body": "No response found for invocationId 903ccc73-932f-4725-9783-677317d2459b"
+      },
+      "last_poll": {
+        "http_status": 404,
+        "seconds": 0.193,
+        "body": "No response found for invocationId 903ccc73-932f-4725-9783-677317d2459b"
+      }
+    },
+    {
+      "directory": "C:\\Users\\JUAN CARTAGENA\\Desktop\\Oportunidades.v3.Preventa\\Oportunidades.v2\\resumenes\\2026-10-23_12-43-47_PRUEBA-DRUID-ASYNC_63864e63",
+      "event_utc": null,
+      "time_note": "Los registros antiguos no contienen fecha/hora UTC del request.",
+      "inicio.json": {
+        "http_status": 200,
+        "seconds": 0.291,
+        "body": "86ab03fb-649c-401c-8f9e-7d49b9b5b1f4"
+      },
+      "invocacion.json": {
+        "invocationId": "86ab03fb-649c-401c-8f9e-7d49b9b5b1f4",
+        "start_url": "https://druidendpoints.druidplatform.com/api/Druid/8805a55b-9947-47b5-d511-08de9ea71a4f/GPT/7a7e7161-2347-47d9-8134-b869a15c5210/GenericIntegration",
+        "poll_url": "https://druidendpoints.druidplatform.com/api/Druid/8805a55b-9947-47b5-d511-08de9ea71a4f/GetGenericIntegrationResponse",
+        "status": "pending",
+        "queries": 7
+      },
+      "diagnostico_sincrono.json": {
+        "http_status": 400,
+        "seconds": 0.855,
+        "body": "ERR Druid Endpoints: Something bad happened: Connector errors: Value cannot be null. (Parameter 'Field RequestHeaders not found in entity GPT')"
+      },
+      "poll_count": 7,
+      "http_statuses": [
+        404
+      ],
+      "first_poll": {
+        "http_status": 404,
+        "seconds": 0.091,
+        "body": "No response found for invocationId 86ab03fb-649c-401c-8f9e-7d49b9b5b1f4"
+      },
+      "last_poll": {
+        "http_status": 404,
+        "seconds": 0.045,
+        "body": "No response found for invocationId 86ab03fb-649c-401c-8f9e-7d49b9b5b1f4"
+      }
+    },
+    {
+      "directory": "C:\\Users\\JUAN CARTAGENA\\Desktop\\Oportunidades.v3.Preventa\\Oportunidades.v2\\resumenes\\2026-10-23_12-56-25_PRUEBA-DRUID-ASYNC_895d146c",
+      "event_utc": null,
+      "time_note": "Los registros antiguos no contienen fecha/hora UTC del request.",
+      "inicio.json": {
+        "http_status": 200,
+        "seconds": 0.203,
+        "body": "852aa449-517b-4e11-a626-c82d8a69d19b"
+      },
+      "invocacion.json": {
+        "invocationId": "852aa449-517b-4e11-a626-c82d8a69d19b",
+        "start_url": "https://druidendpoints.druidplatform.com/api/Druid/8805a55b-9947-47b5-d511-08de9ea71a4f/GPT/7a7e7161-2347-47d9-8134-b869a15c5210/GenericIntegration",
+        "poll_url": "https://druidendpoints.druidplatform.com/api/Druid/8805a55b-9947-47b5-d511-08de9ea71a4f/GetGenericIntegrationResponse",
+        "status": "pending",
+        "queries": 1
+      },
+      "poll_count": 1,
+      "http_statuses": [
+        404
+      ],
+      "first_poll": {
+        "http_status": 404,
+        "seconds": 0.062,
+        "body": "No response found for invocationId 852aa449-517b-4e11-a626-c82d8a69d19b"
+      },
+      "last_poll": {
+        "http_status": 404,
+        "seconds": 0.062,
+        "body": "No response found for invocationId 852aa449-517b-4e11-a626-c82d8a69d19b"
+      }
+    },
+    {
+      "directory": "C:\\Users\\JUAN CARTAGENA\\Desktop\\Oportunidades.v3.Preventa\\Oportunidades.v2\\resumenes\\2026-10-23_12-58-12_PRUEBA-DRUID-ASYNC_8bb24c1b",
+      "event_utc": null,
+      "time_note": "Los registros antiguos no contienen fecha/hora UTC del request.",
+      "inicio.json": {
+        "http_status": 200,
+        "seconds": 0.178,
+        "body": "8282ecab-8e90-4e63-b8ce-d22ef5f401d1"
+      },
+      "invocacion.json": {
+        "invocationId": "8282ecab-8e90-4e63-b8ce-d22ef5f401d1",
+        "start_url": "https://druidendpoints.druidplatform.com/api/Druid/8805a55b-9947-47b5-d511-08de9ea71a4f/GPT/7a7e7161-2347-47d9-8134-b869a15c5210/GenericIntegration",
+        "poll_url": "https://druidendpoints.druidplatform.com/api/Druid/8805a55b-9947-47b5-d511-08de9ea71a4f/GetGenericIntegrationResponse",
+        "status": "pending",
+        "queries": 7
+      },
+      "diagnostico_sincrono.json": {
+        "http_status": 200,
+        "seconds": 2.543,
+        "body": {
+          "DataSource": {
+            "finish_reason": "tool_calls",
+            "responseJSON": {
+              "annotations": [],
+              "content": null,
+              "refusal": null,
+              "role": "assistant",
+              "tool_calls": [
+                {
+                  "function": {
+                    "arguments": "{\"Response\":\"PRUEBA_ASYNC_OK\"}",
+                    "name": "KB_response"
+                  },
+                  "id": "call_RT4AVlc257ZVyABZVG5TR6lZ",
+                  "type": "function"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "poll_count": 9,
+      "http_statuses": [
+        404
+      ],
+      "first_poll": {
+        "http_status": 404,
+        "seconds": 0.106,
+        "body": "No response found for invocationId 8282ecab-8e90-4e63-b8ce-d22ef5f401d1"
+      },
+      "last_poll": {
+        "http_status": 404,
+        "seconds": 0.16,
+        "body": "No response found for invocationId 8282ecab-8e90-4e63-b8ce-d22ef5f401d1"
+      },
+      "archived_text_plain_poll": {
+        "http_status": 404,
+        "seconds": 0.177,
+        "body": "No response found for invocationId 8282ecab-8e90-4e63-b8ce-d22ef5f401d1"
+      }
+    },
+    {
+      "directory": "C:\\Users\\JUAN CARTAGENA\\Desktop\\Oportunidades.v3.Preventa\\Oportunidades.v2\\resumenes\\2026-10-28_12-06-03_PRUEBA-DRUID-ASYNC_0706777c",
+      "event_utc": null,
+      "time_note": "Los registros antiguos no contienen fecha/hora UTC del request.",
+      "inicio.json": {
+        "http_status": 200,
+        "seconds": 0.391,
+        "body": "91934844-db82-4011-be7c-f314ac5d40a4"
+      },
+      "invocacion.json": {
+        "invocationId": "91934844-db82-4011-be7c-f314ac5d40a4",
+        "start_url": "https://druidendpoints.druidplatform.com/api/Druid/8805a55b-9947-47b5-d511-08de9ea71a4f/GPT/7a7e7161-2347-47d9-8134-b869a15c5210/GenericIntegration",
+        "poll_url": "https://druidendpoints.druidplatform.com/api/Druid/8805a55b-9947-47b5-d511-08de9ea71a4f/GetGenericIntegrationResponse",
+        "status": "pending",
+        "queries": 7
+      },
+      "poll_count": 7,
+      "http_statuses": [
+        404
+      ],
+      "first_poll": {
+        "http_status": 404,
+        "seconds": 0.178,
+        "body": "No response found for invocationId 91934844-db82-4011-be7c-f314ac5d40a4"
+      },
+      "last_poll": {
+        "http_status": 404,
+        "seconds": 0.046,
+        "body": "No response found for invocationId 91934844-db82-4011-be7c-f314ac5d40a4"
+      }
+    }
+  ],
+  "configuration": {
+    "start_url": "https://druidendpoints.druidplatform.com/api/Druid/8805a55b-9947-47b5-d511-08de9ea71a4f/GPT/7a7e7161-2347-47d9-8134-b869a15c5210/GenericIntegration",
+    "poll_url": "https://druidendpoints.druidplatform.com/api/Druid/8805a55b-9947-47b5-d511-08de9ea71a4f/GetGenericIntegrationResponse",
+    "token_present": true,
+    "identity": {
+      "botId": "8805a55b-9947-47b5-d511-08de9ea71a4f",
+      "integrationId": "7a7e7161-2347-47d9-8134-b869a15c5210",
+      "entityName": "GPT",
+      "host": "druidendpoints.druidplatform.com",
+      "association_verified_by_server": false
+    },
+    "error": null
+  },
+  "summary": {
+    "archived_acknowledgements": 6,
+    "archived_poll_requests": 26,
+    "fixed_integration_test": "NOT_EXECUTED_REQUIRES_PUBLISHED_INTEGRATION_ID",
+    "server_cause": "PENDING_VERIFICATION",
+    "connector_log_absence": "REPORTED_BY_USER_NOT_INDEPENDENTLY_VERIFIED"
+  }
+}

@@ -1,0 +1,5 @@
+• Expediente: 23RHC2IN0255. Órgano: Junta de Contratación del Ministerio de Transportes y Movilidad Sostenible. Fuente: DOC20240202141404130-24_PLIEGO.pdf, DOC_CD2024-000159639.pdf.
+• Objeto: Servicio de soporte a la gestión de los sistemas e infraestructura de TI del Ministerio de Transportes y Movilidad Sostenible, dividido en dos lotes (atención a usuarios y soporte a sistemas/redes).
+• Presupuesto: 4.257.280 € sin IVA (5.151.308,80 € con IVA). Valor estimado total: 10.217.472 € (sin IVA). Fuente: DOC20240202141404130-24_PLIEGO.pdf.
+• Duración: 25 meses desde el 17/06/2024 o formalización, con posible prórroga de hasta 24 meses. Primer mes no facturable (transición). Fuente: DOC20240202141404130-24_PLIEGO.pdf.
+• Plazo de presentación de ofertas: hasta el 19/02/2024 a las 23:59 (fase de presentación de ofertas). Fuente: DOC_CD2024-000159639.pdf. No se detectan ausencias relevantes en la documentación procesada.

@@ -1,0 +1,1710 @@
+{
+  "expediente": "REAL-Licitacion1",
+  "id": "A9",
+  "nombre": "Seguridad y protección de datos",
+  "capa": 1,
+  "contenido": {
+    "requisitos_documentales": [
+      {
+        "id": "R0001",
+        "seccion": "Seguridad e IA",
+        "detalle": "El adjudicatario debe cumplir el ENS nivel básico para todos los servicios y sistemas objeto del contrato, aplicando las medidas del Anexo II del ENS nivel Básico.",
+        "fuente": "ID_188_3.PDF, pág. 46",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0002",
+        "seccion": "Seguridad e IA",
+        "detalle": "El adjudicatario debe designar un Punto o Persona de Contacto (POC) para la seguridad de la información tratada y el servicio prestado, o justificar su no designación.",
+        "fuente": "ID_188_3.PDF, pág. 46",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0003",
+        "seccion": "Seguridad e IA",
+        "detalle": "El adjudicatario debe realizar un análisis de riesgos conforme al ENS al inicio de los trabajos, validado por el Ayuntamiento, y elaborar un plan de tratamiento del riesgo.",
+        "fuente": "ID_188_3.PDF, pág. 46",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0004",
+        "seccion": "Seguridad e IA",
+        "detalle": "Todos los componentes tecnológicos deben configurarse conforme a las guías CCN-STIC del CCN-CERT, adaptadas a las particularidades del Ayuntamiento.",
+        "fuente": "ID_188_3.PDF, pág. 47",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0005",
+        "seccion": "Seguridad e IA",
+        "detalle": "El adjudicatario debe seguir metodologías y buenas prácticas verificables de desarrollo seguro de software en todo el ciclo de vida del proyecto.",
+        "fuente": "ID_188_3.PDF, pág. 47",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0006",
+        "seccion": "Seguridad e IA",
+        "detalle": "La información propiedad del Ayuntamiento que no sea pública debe ser cifrada cuando se transmita a través de redes ajenas al Ayuntamiento, según valoración del responsable.",
+        "fuente": "ID_188_3.PDF, pág. 47",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0007",
+        "seccion": "Seguridad e IA",
+        "detalle": "Identificación y autenticación: personal municipal mediante plataforma de identidad corporativa, ciudadanía mediante sistema estatal Cl@ve, otros métodos requieren autorización.",
+        "fuente": "ID_188_3.PDF, pág. 47",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0008",
+        "seccion": "Seguridad e IA",
+        "detalle": "Acceso remoto solo mediante servicio de acceso remoto para empresas del Ayuntamiento.",
+        "fuente": "ID_188_3.PDF, pág. 48",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0009",
+        "seccion": "Seguridad e IA",
+        "detalle": "Principios de mínimo privilegio y necesidad de conocer para el acceso a los sistemas.",
+        "fuente": "ID_188_3.PDF, pág. 48",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0010",
+        "seccion": "Seguridad e IA",
+        "detalle": "Restricción al mínimo imprescindible de roles con privilegios especiales de administración.",
+        "fuente": "ID_188_3.PDF, pág. 48",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0011",
+        "seccion": "Seguridad e IA",
+        "detalle": "El sistema debe registrar las actividades de los usuarios, reteniendo la información necesaria para monitorizar, analizar, investigar y documentar actividades indebidas o no autorizadas, permitiendo identificar en cada momento a la persona que actúa.",
+        "fuente": "ID_188_3.PDF, pág. 49",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0012",
+        "seccion": "Seguridad e IA",
+        "detalle": "El adjudicatario debe aplicar actualizaciones de seguridad periódicamente y subsanar vulnerabilidades comunicadas por el responsable del contrato.",
+        "fuente": "ID_188_3.PDF, pág. 49",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0013",
+        "seccion": "Seguridad e IA",
+        "detalle": "El Ayuntamiento podrá auditar la seguridad de los sistemas de información y comunicaciones implantados o utilizados en el ámbito del contrato.",
+        "fuente": "ID_188_3.PDF, pág. 49",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0014",
+        "seccion": "Seguridad e IA",
+        "detalle": "El adjudicatario debe notificar cualquier ciberincidente que pueda afectar a información o servicios del Ayuntamiento al responsable del contrato tan pronto como tenga conocimiento y mantenerle informado hasta el cierre del incidente.",
+        "fuente": "ID_188_3.PDF, pág. 49",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0015",
+        "seccion": "Seguridad e IA",
+        "detalle": "El adjudicatario debe eliminar de forma segura toda la información del servicio a la finalización del contrato y aportar certificado de destrucción.",
+        "fuente": "ID_188_3.PDF, pág. 9",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0016",
+        "seccion": "Seguridad e IA",
+        "detalle": "El adjudicatario debe colaborar en la integración con monitorización corporativa, EDR/XDR, antivirus y backup proporcionados por IAM si así se solicita.",
+        "fuente": "ID_188_3.PDF, pág. 31",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0017",
+        "seccion": "Seguridad e IA",
+        "detalle": "Gestión de credenciales y accesos a recursos cloud es competencia del Ayuntamiento. Usuarios externos usan credenciales proporcionadas por IAM. No se permite asignación de IP pública a máquinas virtuales.",
+        "fuente": "ID_188_3.PDF, pág. 33-34",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0018",
+        "seccion": "Seguridad e IA",
+        "detalle": "Solo se permite despliegue en cloud pública de Microsoft Azure, Google Cloud Platform o Amazon AWS, en regiones del Espacio Económico Europeo (EEE).",
+        "fuente": "ID_188_3.PDF, pág. 29-34",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0019",
+        "seccion": "Seguridad e IA",
+        "detalle": "El adjudicatario debe informar sobre subcontratación y cambios durante el contrato. La subcontratación está permitida salvo para tareas críticas.",
+        "fuente": "ID_188_3.PDF, pág. 29",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0020",
+        "seccion": "Seguridad e IA",
+        "detalle": "Transferencias internacionales solo permitidas si la región está en el EEE (art. 45 RGPD).",
+        "fuente": "ID_188_3.PDF, pág. 30, 34",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0021",
+        "seccion": "Seguridad e IA",
+        "detalle": "El adjudicatario debe anonimizar datos personales que los usuarios puedan incluir voluntariamente en sus consultas al asistente virtual.",
+        "fuente": "ID_188_3.PDF, pág. 46",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0022",
+        "seccion": "Seguridad e IA",
+        "detalle": "El Ayuntamiento podrá auditar la seguridad de los sistemas.",
+        "fuente": "ID_188_3.PDF, pág. 49",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0023",
+        "seccion": "Seguridad e IA",
+        "detalle": "Confidencialidad: obligación de guardar secreto sobre información y datos a los que tenga acceso, subsistiendo tras la finalización del contrato.",
+        "fuente": "ID_188_3.PDF, pág. 53",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0024",
+        "seccion": "Seguridad e IA",
+        "detalle": "Incumplimiento de obligaciones de seguridad, confidencialidad, plazos de implantación, indisponibilidad del servicio, etc., conlleva penalidades económicas (5% o 10% del precio del contrato según gravedad) y puede ser causa de resolución.",
+        "fuente": "ID_188_2.PDF, pág. 75-77",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0025",
+        "seccion": "Seguridad e IA",
+        "detalle": "No se exige certificación ENS ni ISO 27001, solo cumplimiento material del ENS nivel básico.",
+        "fuente": "ID_188_3.PDF, pág. 46",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0026",
+        "seccion": "Seguridad e IA",
+        "detalle": "No se exige DPO/DPD al adjudicatario.",
+        "fuente": "ID_188_3.PDF, pág. 46",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0027",
+        "seccion": "Seguridad e IA",
+        "detalle": "No se define rol de encargado de tratamiento para el adjudicatario.",
+        "fuente": "ID_188_3.PDF, pág. 50",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0028",
+        "seccion": "Seguridad e IA",
+        "detalle": "No se exige acuerdo de encargo de tratamiento.",
+        "fuente": "ID_188_3.PDF, pág. 50",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0029",
+        "seccion": "Seguridad e IA",
+        "detalle": "No se detallan plazos de retención de logs ni de conservación de backups.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0030",
+        "seccion": "Seguridad e IA",
+        "detalle": "No se exige plan de continuidad ni DR específico.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0031",
+        "seccion": "Seguridad e IA",
+        "detalle": "No se exige auditoría ENS ni ISO periódica.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0032",
+        "seccion": "Seguridad e IA",
+        "detalle": "No se especifican medidas técnicas concretas como MFA, PAM, VPN, segmentación, DLP, WAF, SIEM, SAST, DAST, SCA, SBOM, ni parámetros de RTO/RPO.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0033",
+        "seccion": "Seguridad e IA",
+        "detalle": "El Anexo IX del pliego administrativo describe el tratamiento de datos personales para la gestión contractual, siendo responsable la Dirección General de Contratación y Servicios.",
+        "fuente": "ID_188_2.PDF, Anexo IX, pág. 95",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0034",
+        "seccion": "Seguridad e IA",
+        "detalle": "Se identifica Delegado de Protección de Datos (DPD) del Ayuntamiento de Madrid, pero no se exige DPO/DPD al adjudicatario.",
+        "fuente": "ID_188_2.PDF, Anexo IX, pág. 95",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0035",
+        "seccion": "Seguridad e IA",
+        "detalle": "Conservación de datos personales: mientras sean necesarios para la ejecución del contrato.",
+        "fuente": "ID_188_2.PDF, Anexo IX, pág. 95",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0036",
+        "seccion": "Seguridad e IA",
+        "detalle": "Derechos de los interesados: acceso, rectificación, supresión, limitación, oposición.",
+        "fuente": "ID_188_2.PDF, Anexo IX, pág. 95",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0037",
+        "seccion": "Seguridad e IA",
+        "detalle": "Categorías de datos tratados para gestión contractual: identificación, claves, direcciones, información comercial y económica.",
+        "fuente": "ID_188_2.PDF, Anexo IX, pág. 95",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0038",
+        "seccion": "Seguridad e IA",
+        "detalle": "No se exige acuerdo de encargo de tratamiento ni se define rol de encargado para el adjudicatario.",
+        "fuente": "ID_188_3.PDF, pág. 50",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0039",
+        "seccion": "Seguridad e IA",
+        "detalle": "No se exige DPO/DPD al adjudicatario.",
+        "fuente": "ID_188_3.PDF, pág. 46",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0040",
+        "seccion": "Seguridad e IA",
+        "detalle": "No se exige certificación ENS ni ISO 27001.",
+        "fuente": "ID_188_3.PDF, pág. 46",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0041",
+        "seccion": "Seguridad e IA",
+        "detalle": "No se especifican medidas técnicas concretas como MFA, PAM, VPN, segmentación, DLP, WAF, SIEM, SAST, DAST, SCA, SBOM, ni parámetros de RTO/RPO.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0042",
+        "seccion": "Seguridad e IA",
+        "detalle": "No se exige plan de continuidad ni DR específico.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0043",
+        "seccion": "Seguridad e IA",
+        "detalle": "No se exige auditoría ENS ni ISO periódica.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0044",
+        "seccion": "Seguridad e IA",
+        "detalle": "No se detallan plazos de retención de logs ni de conservación de backups.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0045",
+        "seccion": "Seguridad e IA",
+        "detalle": "No se define rol de encargado de tratamiento para el adjudicatario.",
+        "fuente": "ID_188_3.PDF, pág. 50",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0046",
+        "seccion": "Seguridad e IA",
+        "detalle": "No se exige acuerdo de encargo de tratamiento.",
+        "fuente": "ID_188_3.PDF, pág. 50",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0047",
+        "seccion": "Seguridad e IA",
+        "detalle": "No se exige DPO/DPD al adjudicatario.",
+        "fuente": "ID_188_3.PDF, pág. 46",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0048",
+        "seccion": "Seguridad e IA",
+        "detalle": "No se exige certificación ENS ni ISO 27001.",
+        "fuente": "ID_188_3.PDF, pág. 46",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0049",
+        "seccion": "Seguridad e IA",
+        "detalle": "No se especifican medidas técnicas concretas como MFA, PAM, VPN, segmentación, DLP, WAF, SIEM, SAST, DAST, SCA, SBOM, ni parámetros de RTO/RPO.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0050",
+        "seccion": "Seguridad e IA",
+        "detalle": "No se exige plan de continuidad ni DR específico.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0051",
+        "seccion": "Seguridad e IA",
+        "detalle": "No se exige auditoría ENS ni ISO periódica.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente"
+      },
+      {
+        "id": "R0052",
+        "seccion": "Seguridad e IA",
+        "detalle": "No se detallan plazos de retención de logs ni de conservación de backups.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente"
+      }
+    ],
+    "resumen": [
+      "Se exige cumplimiento del Esquema Nacional de Seguridad (ENS) nivel BÁSICO para los servicios y sistemas objeto del contrato, según valoración de la guía CCN-STIC-803. El adjudicatario debe aplicar las medidas del Anexo II del ENS nivel Básico. Se requiere designación de un Punto o Persona de Contacto (POC) para la seguridad de la información. Se exige análisis de riesgos conforme al ENS al inicio de los trabajos, validado por el Ayuntamiento, y elaboración de un plan de tratamiento del riesgo. Todos los componentes tecnológicos deben configurarse según guías CCN-STIC. El desarrollo debe seguir buenas prácticas de desarrollo seguro. Se exige cifrado de información no pública en tránsito por redes ajenas al Ayuntamiento, según valoración del responsable. Se requiere registro de actividad de usuarios y entrega de logs a requerimiento. El adjudicatario debe aplicar actualizaciones de seguridad periódicamente y subsanar vulnerabilidades comunicadas por el responsable del contrato. El Ayuntamiento podrá auditar la seguridad de los sistemas. El adjudicatario debe notificar incidentes de seguridad al responsable del contrato tan pronto como tenga conocimiento y colaborar en la resolución. (ID_188_3.PDF, págs. 45-50)",
+      "El contrato indica expresamente que no se precisa tratamiento de datos personales por cuenta del responsable (Dirección General de Participación Ciudadana) por parte del adjudicatario, por lo que no se exige acuerdo de encargo de tratamiento ni se define rol de encargado. No obstante, se prevé anonimización de datos personales que los usuarios puedan incluir voluntariamente en sus consultas al asistente virtual. (ID_188_3.PDF, pág. 46, 50)",
+      "El Anexo IX del pliego administrativo describe el tratamiento de datos personales para la gestión contractual, siendo responsable la Dirección General de Contratación y Servicios. Se identifican categorías de datos: identificación, claves, direcciones, información comercial y económica. Conservación: mientras sean necesarios para la ejecución del contrato. Derechos: acceso, rectificación, supresión, limitación, oposición. (ID_188_2.PDF, Anexo IX, pág. 95)",
+      "Se identifica Delegado de Protección de Datos (DPD) del Ayuntamiento de Madrid, pero no se exige DPO/DPD al adjudicatario. (ID_188_2.PDF, Anexo IX, pág. 95)",
+      "Solo se permite despliegue en cloud pública de Microsoft Azure, Google Cloud Platform o Amazon AWS, en regiones del Espacio Económico Europeo (EEE). No se admiten otros proveedores. El adjudicatario debe garantizar que los recursos estén localizados en el EEE y cumplir el art. 45 RGPD sobre transferencias basadas en decisión de adecuación. (ID_188_3.PDF, pág. 29-34)",
+      "El adjudicatario debe informar sobre subcontratación y cambios durante el contrato. La subcontratación está permitida salvo para tareas críticas. (ID_188_3.PDF, pág. 29)",
+      "Se exige configuración segura conforme a guías CCN-STIC. Se requiere cifrado de información no pública en tránsito por redes ajenas. Identificación y autenticación: personal municipal mediante plataforma de identidad corporativa, ciudadanía mediante sistema estatal Cl@ve, otros métodos requieren autorización. Acceso remoto solo mediante servicio de acceso remoto para empresas del Ayuntamiento. Principios de mínimo privilegio y necesidad de conocer. Restricción de roles de administración. Registro de actividad de usuarios. Aplicación de actualizaciones de seguridad periódicas. Subsanación de vulnerabilidades comunicadas. (ID_188_3.PDF, págs. 45-49)",
+      "El adjudicatario debe colaborar en integración con monitorización corporativa, EDR/XDR, antivirus y backup proporcionados por IAM. (ID_188_3.PDF, pág. 31)",
+      "Desarrollo seguro: se exige seguir metodologías y buenas prácticas verificables de desarrollo seguro en todo el ciclo de vida. (ID_188_3.PDF, pág. 47)",
+      "Gestión de credenciales y accesos a recursos cloud es competencia del Ayuntamiento. Usuarios externos usan credenciales proporcionadas por IAM. No se permite asignación de IP pública a máquinas virtuales. Acceso a la red corporativa solo mediante mecanismos autorizados. (ID_188_3.PDF, pág. 33-34, 47-48)",
+      "El adjudicatario debe aplicar actualizaciones de seguridad periódicamente y subsanar vulnerabilidades comunicadas. Desarrollo seguro obligatorio en todo el ciclo de vida. (ID_188_3.PDF, pág. 47, 49)",
+      "El adjudicatario debe notificar cualquier ciberincidente que pueda afectar a información o servicios del Ayuntamiento al responsable del contrato tan pronto como tenga conocimiento y mantenerle informado hasta el cierre del incidente. Debe colaborar activamente en la resolución. (ID_188_3.PDF, pág. 49)"
+    ],
+    "secciones": [
+      {
+        "titulo": "1. Resumen factual Seguridad / DPO / ENS",
+        "parrafos": [
+          "**ENS:**",
+          "**RGPD/DPO:**",
+          "**Subencargados, cloud, localización y transferencias:**",
+          "**Medidas técnicas:**",
+          "**Identidad, accesos y privilegios:**",
+          "**Vulnerabilidades, parcheado y desarrollo seguro:**",
+          "**Incidentes, brechas y plazos de notificación:**",
+          "**Logging, SOC/SIEM, continuidad, backup, RTO/RPO y retención:**",
+          "**Auditorías, evidencias, certificaciones, seguridad del personal, borrado y confidencialidad:**",
+          "**Consecuencias contractuales expresamente asociadas al incumplimiento:**",
+          "**Datos no localizados o ambiguos:**",
+          "**Documentos revisados:**"
+        ],
+        "elementos": [
+          "Se exige cumplimiento del Esquema Nacional de Seguridad (ENS) nivel BÁSICO para los servicios y sistemas objeto del contrato, según valoración de la guía CCN-STIC-803. El adjudicatario debe aplicar las medidas del Anexo II del ENS nivel Básico. Se requiere designación de un Punto o Persona de Contacto (POC) para la seguridad de la información. Se exige análisis de riesgos conforme al ENS al inicio de los trabajos, validado por el Ayuntamiento, y elaboración de un plan de tratamiento del riesgo. Todos los componentes tecnológicos deben configurarse según guías CCN-STIC. El desarrollo debe seguir buenas prácticas de desarrollo seguro. Se exige cifrado de información no pública en tránsito por redes ajenas al Ayuntamiento, según valoración del responsable. Se requiere registro de actividad de usuarios y entrega de logs a requerimiento. El adjudicatario debe aplicar actualizaciones de seguridad periódicamente y subsanar vulnerabilidades comunicadas por el responsable del contrato. El Ayuntamiento podrá auditar la seguridad de los sistemas. El adjudicatario debe notificar incidentes de seguridad al responsable del contrato tan pronto como tenga conocimiento y colaborar en la resolución. (ID_188_3.PDF, págs. 45-50)",
+          "El contrato indica expresamente que no se precisa tratamiento de datos personales por cuenta del responsable (Dirección General de Participación Ciudadana) por parte del adjudicatario, por lo que no se exige acuerdo de encargo de tratamiento ni se define rol de encargado. No obstante, se prevé anonimización de datos personales que los usuarios puedan incluir voluntariamente en sus consultas al asistente virtual. (ID_188_3.PDF, pág. 46, 50)",
+          "El Anexo IX del pliego administrativo describe el tratamiento de datos personales para la gestión contractual, siendo responsable la Dirección General de Contratación y Servicios. Se identifican categorías de datos: identificación, claves, direcciones, información comercial y económica. Conservación: mientras sean necesarios para la ejecución del contrato. Derechos: acceso, rectificación, supresión, limitación, oposición. (ID_188_2.PDF, Anexo IX, pág. 95)",
+          "Se identifica Delegado de Protección de Datos (DPD) del Ayuntamiento de Madrid, pero no se exige DPO/DPD al adjudicatario. (ID_188_2.PDF, Anexo IX, pág. 95)",
+          "Solo se permite despliegue en cloud pública de Microsoft Azure, Google Cloud Platform o Amazon AWS, en regiones del Espacio Económico Europeo (EEE). No se admiten otros proveedores. El adjudicatario debe garantizar que los recursos estén localizados en el EEE y cumplir el art. 45 RGPD sobre transferencias basadas en decisión de adecuación. (ID_188_3.PDF, pág. 29-34)",
+          "El adjudicatario debe informar sobre subcontratación y cambios durante el contrato. La subcontratación está permitida salvo para tareas críticas. (ID_188_3.PDF, pág. 29)",
+          "Se exige configuración segura conforme a guías CCN-STIC. Se requiere cifrado de información no pública en tránsito por redes ajenas. Identificación y autenticación: personal municipal mediante plataforma de identidad corporativa, ciudadanía mediante sistema estatal Cl@ve, otros métodos requieren autorización. Acceso remoto solo mediante servicio de acceso remoto para empresas del Ayuntamiento. Principios de mínimo privilegio y necesidad de conocer. Restricción de roles de administración. Registro de actividad de usuarios. Aplicación de actualizaciones de seguridad periódicas. Subsanación de vulnerabilidades comunicadas. (ID_188_3.PDF, págs. 45-49)",
+          "El adjudicatario debe colaborar en integración con monitorización corporativa, EDR/XDR, antivirus y backup proporcionados por IAM. (ID_188_3.PDF, pág. 31)",
+          "Desarrollo seguro: se exige seguir metodologías y buenas prácticas verificables de desarrollo seguro en todo el ciclo de vida. (ID_188_3.PDF, pág. 47)",
+          "Gestión de credenciales y accesos a recursos cloud es competencia del Ayuntamiento. Usuarios externos usan credenciales proporcionadas por IAM. No se permite asignación de IP pública a máquinas virtuales. Acceso a la red corporativa solo mediante mecanismos autorizados. (ID_188_3.PDF, pág. 33-34, 47-48)",
+          "El adjudicatario debe aplicar actualizaciones de seguridad periódicamente y subsanar vulnerabilidades comunicadas. Desarrollo seguro obligatorio en todo el ciclo de vida. (ID_188_3.PDF, pág. 47, 49)",
+          "El adjudicatario debe notificar cualquier ciberincidente que pueda afectar a información o servicios del Ayuntamiento al responsable del contrato tan pronto como tenga conocimiento y mantenerle informado hasta el cierre del incidente. Debe colaborar activamente en la resolución. (ID_188_3.PDF, pág. 49)",
+          "Se exige registro de actividad de usuarios, retención de logs para monitorizar, analizar, investigar y documentar actividades indebidas o no autorizadas. Entrega de logs a requerimiento. Integración con herramientas de observabilidad y monitorización de IAM si se solicita. Backup y restauración proporcionados por IAM. No se especifican RTO/RPO. (ID_188_3.PDF, pág. 31, 49)",
+          "El Ayuntamiento podrá auditar la seguridad de los sistemas. El adjudicatario debe eliminar de forma segura toda la información del servicio a la finalización del contrato y aportar certificado de destrucción. Confidencialidad: obligación de guardar secreto sobre información y datos a los que tenga acceso, subsistiendo tras la finalización del contrato. (ID_188_3.PDF, pág. 9, 15, 53)",
+          "Se exige designación de POC de seguridad, pero no DPO/DPD al adjudicatario. (ID_188_3.PDF, pág. 46)",
+          "Incumplimiento de obligaciones de seguridad, confidencialidad, plazos de implantación, indisponibilidad del servicio, etc., conlleva penalidades económicas (5% o 10% del precio del contrato según gravedad) y puede ser causa de resolución. (ID_188_2.PDF, pág. 75-77)",
+          "No se exige certificación ENS ni ISO 27001, solo cumplimiento material del ENS nivel básico. No se especifican medidas técnicas concretas como MFA, PAM, VPN, segmentación, DLP, WAF, SIEM, SAST, DAST, SCA, SBOM, ni parámetros de RTO/RPO. No se exige DPO/DPD al adjudicatario. No se define rol de encargado de tratamiento para el adjudicatario. No se exige acuerdo de encargo de tratamiento. No se detallan plazos de retención de logs ni de conservación de backups. No se exige plan de continuidad ni DR específico. No se exige auditoría ENS ni ISO periódica.",
+          "ID_188_1.PDF (Documento licitación real)",
+          "ID_188_2.PDF (Pliego de Cláusulas Administrativas Particulares y Anexos)",
+          "ID_188_3.PDF (Pliego de Prescripciones Técnicas)"
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "2. ENS: Requisito | Categoria/nivel | Alcance | Acreditacion | Momento | Fuente",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Requisito",
+              "Categoria/nivel",
+              "Alcance",
+              "Acreditacion",
+              "Momento",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Requisito": "Cumplimiento ENS",
+                "Categoria/nivel": "Básico",
+                "Alcance": "Servicios y sistemas objeto del contrato",
+                "Acreditacion": "Descripción de mecanismos de seguridad en la oferta",
+                "Momento": "Presentación de oferta",
+                "Fuente": "ID_188_3.PDF, pág. 46"
+              },
+              {
+                "Requisito": "Análisis de riesgos ENS",
+                "Categoria/nivel": "Básico",
+                "Alcance": "Servicios prestados/sistemas desarrollados",
+                "Acreditacion": "Análisis de riesgos validado por el Ayuntamiento",
+                "Momento": "Inicio de los trabajos",
+                "Fuente": "ID_188_3.PDF, pág. 46"
+              },
+              {
+                "Requisito": "Designación POC seguridad",
+                "Categoria/nivel": "Básico",
+                "Alcance": "Seguridad de la información tratada y servicio prestado",
+                "Acreditacion": "Designación de POC o justificación de no designación",
+                "Momento": "Inicio de ejecución",
+                "Fuente": "ID_188_3.PDF, pág. 46"
+              },
+              {
+                "Requisito": "Configuración segura CCN-STIC",
+                "Categoria/nivel": "Básico",
+                "Alcance": "Todos los componentes tecnológicos",
+                "Acreditacion": "Configuración conforme a guías CCN-STIC",
+                "Momento": "Ejecución",
+                "Fuente": "ID_188_3.PDF, pág. 47"
+              },
+              {
+                "Requisito": "Desarrollo seguro",
+                "Categoria/nivel": "Básico",
+                "Alcance": "Software desarrollado/mantenido",
+                "Acreditacion": "Metodologías y buenas prácticas verificables",
+                "Momento": "Ejecución",
+                "Fuente": "ID_188_3.PDF, pág. 47"
+              },
+              {
+                "Requisito": "Registro de actividad",
+                "Categoria/nivel": "Básico",
+                "Alcance": "Sistemas objeto del contrato",
+                "Acreditacion": "Entrega de logs a requerimiento",
+                "Momento": "Ejecución",
+                "Fuente": "ID_188_3.PDF, pág. 49"
+              },
+              {
+                "Requisito": "Actualizaciones de seguridad",
+                "Categoria/nivel": "Básico",
+                "Alcance": "Sistemas objeto del contrato",
+                "Acreditacion": "Aplicación periódica y continuada",
+                "Momento": "Ejecución",
+                "Fuente": "ID_188_3.PDF, pág. 49"
+              },
+              {
+                "Requisito": "Subsanación de vulnerabilidades",
+                "Categoria/nivel": "Básico",
+                "Alcance": "Sistemas objeto del contrato",
+                "Acreditacion": "Subsanación a requerimiento",
+                "Momento": "Ejecución",
+                "Fuente": "ID_188_3.PDF, pág. 49"
+              },
+              {
+                "Requisito": "Auditoría de seguridad",
+                "Categoria/nivel": "Básico",
+                "Alcance": "Sistemas implantados/utilizados",
+                "Acreditacion": "Auditoría por el Ayuntamiento",
+                "Momento": "Ejecución",
+                "Fuente": "ID_188_3.PDF, pág. 49"
+              },
+              {
+                "Requisito": "Notificación de incidentes",
+                "Categoria/nivel": "Básico",
+                "Alcance": "Servicios/sistemas objeto del contrato",
+                "Acreditacion": "Notificación inmediata al responsable del contrato",
+                "Momento": "Ejecución",
+                "Fuente": "ID_188_3.PDF, pág. 49"
+              },
+              {
+                "Requisito": "Borrado seguro y certificado",
+                "Categoria/nivel": "Básico",
+                "Alcance": "Todos los sistemas de la solución",
+                "Acreditacion": "Certificado de destrucción",
+                "Momento": "Cierre del contrato",
+                "Fuente": "ID_188_3.PDF, pág. 9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "3. RGPD/DPO: Datos/rol/obligacion | Condicion | Plazo/retencion | Fuente",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Datos/rol/obligacion",
+              "Condicion",
+              "Plazo/retencion",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Datos/rol/obligacion": "No se precisa tratamiento de datos personales por cuenta del responsable",
+                "Condicion": "Contrato no requiere encargo de tratamiento",
+                "Plazo/retencion": "NO APLICA",
+                "Fuente": "ID_188_3.PDF, pág. 50"
+              },
+              {
+                "Datos/rol/obligacion": "Anonimización de datos personales incluidos voluntariamente por usuarios",
+                "Condicion": "Obligación de anonimizar",
+                "Plazo/retencion": "NO ESPECIFICADO",
+                "Fuente": "ID_188_3.PDF, pág. 46"
+              },
+              {
+                "Datos/rol/obligacion": "Tratamiento de datos personales para gestión contractual (Dirección General de Contratación y Servicios)",
+                "Condicion": "Responsable: Ayuntamiento de Madrid",
+                "Plazo/retencion": "Mientras sean necesarios para la ejecución del contrato",
+                "Fuente": "ID_188_2.PDF, Anexo IX, pág. 95"
+              },
+              {
+                "Datos/rol/obligacion": "Delegado de Protección de Datos del Ayuntamiento de Madrid",
+                "Condicion": "DPD identificado para el Ayuntamiento",
+                "Plazo/retencion": "NO ESPECIFICADO",
+                "Fuente": "ID_188_2.PDF, Anexo IX, pág. 95"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "4. Subencargados, cloud, localización y transferencias: requisito | condicion | fuente",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Requisito",
+              "Condición",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Requisito": "Despliegue solo en cloud pública Microsoft Azure, Google Cloud Platform o Amazon AWS",
+                "Condición": "Solo en regiones del EEE",
+                "Fuente": "ID_188_3.PDF, pág. 29-34"
+              },
+              {
+                "Requisito": "Subcontratación permitida salvo tareas críticas",
+                "Condición": "Debe informar sobre subcontratistas y cambios",
+                "Fuente": "ID_188_3.PDF, pág. 29"
+              },
+              {
+                "Requisito": "Transferencias internacionales",
+                "Condición": "Solo permitidas si la región está en el EEE (art. 45 RGPD)",
+                "Fuente": "ID_188_3.PDF, pág. 30, 34"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "5. Medidas tecnicas: Medida | Obligatoria/valorable/condicionada | Parametro/plazo | Fuente",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Medida",
+              "Obligatoria/valorable/condicionada",
+              "Parametro/plazo",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Medida": "Configuración segura CCN-STIC",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parametro/plazo": "Ejecución",
+                "Fuente": "ID_188_3.PDF, pág. 47"
+              },
+              {
+                "Medida": "Cifrado de información no pública en tránsito",
+                "Obligatoria/valorable/condicionada": "Obligatoria si la información no es pública",
+                "Parametro/plazo": "Según valoración del responsable",
+                "Fuente": "ID_188_3.PDF, pág. 47"
+              },
+              {
+                "Medida": "Identificación y autenticación",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parametro/plazo": "Personal municipal: identidad corporativa; ciudadanía: Cl@ve; otros: autorización",
+                "Fuente": "ID_188_3.PDF, pág. 47"
+              },
+              {
+                "Medida": "Acceso remoto",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parametro/plazo": "Solo mediante servicio de acceso remoto para empresas",
+                "Fuente": "ID_188_3.PDF, pág. 48"
+              },
+              {
+                "Medida": "Principio de mínimo privilegio y necesidad de conocer",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parametro/plazo": "Ejecución",
+                "Fuente": "ID_188_3.PDF, pág. 48"
+              },
+              {
+                "Medida": "Restricción de roles de administración",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parametro/plazo": "Ejecución",
+                "Fuente": "ID_188_3.PDF, pág. 48"
+              },
+              {
+                "Medida": "Registro de actividad de usuarios",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parametro/plazo": "Entrega de logs a requerimiento",
+                "Fuente": "ID_188_3.PDF, pág. 49"
+              },
+              {
+                "Medida": "Aplicación de actualizaciones de seguridad",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parametro/plazo": "Periódica y continuada",
+                "Fuente": "ID_188_3.PDF, pág. 49"
+              },
+              {
+                "Medida": "Subsanación de vulnerabilidades",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parametro/plazo": "A requerimiento",
+                "Fuente": "ID_188_3.PDF, pág. 49"
+              },
+              {
+                "Medida": "Integración con monitorización, EDR/XDR, antivirus, backup de IAM",
+                "Obligatoria/valorable/condicionada": "Obligatoria si lo solicita IAM",
+                "Parametro/plazo": "Ejecución",
+                "Fuente": "ID_188_3.PDF, pág. 31"
+              },
+              {
+                "Medida": "Desarrollo seguro",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parametro/plazo": "Todo el ciclo de vida",
+                "Fuente": "ID_188_3.PDF, pág. 47"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "6. Identidad, accesos y privilegios",
+        "parrafos": [],
+        "elementos": [
+          "Gestión de credenciales y accesos a recursos cloud es competencia del Ayuntamiento. Usuarios externos usan credenciales proporcionadas por IAM. No se permite asignación de IP pública a máquinas virtuales. Acceso a la red corporativa solo mediante mecanismos autorizados. (ID_188_3.PDF, pág. 33-34, 47-48)"
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "7. Vulnerabilidades, parcheado y desarrollo seguro",
+        "parrafos": [],
+        "elementos": [
+          "El adjudicatario debe aplicar actualizaciones de seguridad periódicamente y subsanar vulnerabilidades comunicadas. Desarrollo seguro obligatorio en todo el ciclo de vida. (ID_188_3.PDF, pág. 47, 49)"
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "8. Incidentes, brechas y plazos de notificación expresamente indicados",
+        "parrafos": [],
+        "elementos": [
+          "El adjudicatario debe notificar cualquier ciberincidente que pueda afectar a información o servicios del Ayuntamiento al responsable del contrato tan pronto como tenga conocimiento y mantenerle informado hasta el cierre del incidente. Debe colaborar activamente en la resolución. (ID_188_3.PDF, pág. 49)"
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "9. Logging, SOC/SIEM, continuidad, backup, RTO/RPO y retencion",
+        "parrafos": [],
+        "elementos": [
+          "Se exige registro de actividad de usuarios, retención de logs para monitorizar, analizar, investigar y documentar actividades indebidas o no autorizadas. Entrega de logs a requerimiento. Integración con herramientas de observabilidad y monitorización de IAM si se solicita. Backup y restauración proporcionados por IAM. No se especifican RTO/RPO. (ID_188_3.PDF, pág. 31, 49)"
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "10. Auditorias, evidencias, certificaciones, seguridad del personal, borrado y confidencialidad",
+        "parrafos": [],
+        "elementos": [
+          "El Ayuntamiento podrá auditar la seguridad de los sistemas. El adjudicatario debe eliminar de forma segura toda la información del servicio a la finalización del contrato y aportar certificado de destrucción. Confidencialidad: obligación de guardar secreto sobre información y datos a los que tenga acceso, subsistiendo tras la finalización del contrato. (ID_188_3.PDF, pág. 9, 15, 53)",
+          "Se exige designación de POC de seguridad, pero no DPO/DPD al adjudicatario. (ID_188_3.PDF, pág. 46)"
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "11. Consecuencias contractuales expresamente asociadas al incumplimiento",
+        "parrafos": [],
+        "elementos": [
+          "Incumplimiento de obligaciones de seguridad, confidencialidad, plazos de implantación, indisponibilidad del servicio, etc., conlleva penalidades económicas (5% o 10% del precio del contrato según gravedad) y puede ser causa de resolución. (ID_188_2.PDF, pág. 75-77)"
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "12. Datos no localizados o ambiguos, sin recomendaciones",
+        "parrafos": [],
+        "elementos": [
+          "No se exige certificación ENS ni ISO 27001, solo cumplimiento material del ENS nivel básico. No se especifican medidas técnicas concretas como MFA, PAM, VPN, segmentación, DLP, WAF, SIEM, SAST, DAST, SCA, SBOM, ni parámetros de RTO/RPO. No se exige DPO/DPD al adjudicatario. No se define rol de encargado de tratamiento para el adjudicatario. No se exige acuerdo de encargo de tratamiento. No se detallan plazos de retención de logs ni de conservación de backups. No se exige plan de continuidad ni DR específico. No se exige auditoría ENS ni ISO periódica."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "13. Documentos revisados",
+        "parrafos": [],
+        "elementos": [
+          "ID_188_1.PDF (Documento licitación real)",
+          "ID_188_2.PDF (Pliego de Cláusulas Administrativas Particulares y Anexos)",
+          "ID_188_3.PDF (Pliego de Prescripciones Técnicas)"
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "Registro documental de preventa",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Materia",
+              "Requisito completo",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "El adjudicatario debe cumplir el ENS nivel básico para todos los servicios y sistemas objeto del contrato, aplicando las medidas del Anexo II del ENS nivel Básico.",
+                "Fuente": "ID_188_3.PDF, pág. 46"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "El adjudicatario debe designar un Punto o Persona de Contacto (POC) para la seguridad de la información tratada y el servicio prestado, o justificar su no designación.",
+                "Fuente": "ID_188_3.PDF, pág. 46"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "El adjudicatario debe realizar un análisis de riesgos conforme al ENS al inicio de los trabajos, validado por el Ayuntamiento, y elaborar un plan de tratamiento del riesgo.",
+                "Fuente": "ID_188_3.PDF, pág. 46"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "Todos los componentes tecnológicos deben configurarse conforme a las guías CCN-STIC del CCN-CERT, adaptadas a las particularidades del Ayuntamiento.",
+                "Fuente": "ID_188_3.PDF, pág. 47"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "El adjudicatario debe seguir metodologías y buenas prácticas verificables de desarrollo seguro de software en todo el ciclo de vida del proyecto.",
+                "Fuente": "ID_188_3.PDF, pág. 47"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "La información propiedad del Ayuntamiento que no sea pública debe ser cifrada cuando se transmita a través de redes ajenas al Ayuntamiento, según valoración del responsable.",
+                "Fuente": "ID_188_3.PDF, pág. 47"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "Identificación y autenticación: personal municipal mediante plataforma de identidad corporativa, ciudadanía mediante sistema estatal Cl@ve, otros métodos requieren autorización.",
+                "Fuente": "ID_188_3.PDF, pág. 47"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "Acceso remoto solo mediante servicio de acceso remoto para empresas del Ayuntamiento.",
+                "Fuente": "ID_188_3.PDF, pág. 48"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "Principios de mínimo privilegio y necesidad de conocer para el acceso a los sistemas.",
+                "Fuente": "ID_188_3.PDF, pág. 48"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "Restricción al mínimo imprescindible de roles con privilegios especiales de administración.",
+                "Fuente": "ID_188_3.PDF, pág. 48"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "El sistema debe registrar las actividades de los usuarios, reteniendo la información necesaria para monitorizar, analizar, investigar y documentar actividades indebidas o no autorizadas, permitiendo identificar en cada momento a la persona que actúa.",
+                "Fuente": "ID_188_3.PDF, pág. 49"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "El adjudicatario debe aplicar actualizaciones de seguridad periódicamente y subsanar vulnerabilidades comunicadas por el responsable del contrato.",
+                "Fuente": "ID_188_3.PDF, pág. 49"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "El Ayuntamiento podrá auditar la seguridad de los sistemas de información y comunicaciones implantados o utilizados en el ámbito del contrato.",
+                "Fuente": "ID_188_3.PDF, pág. 49"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "El adjudicatario debe notificar cualquier ciberincidente que pueda afectar a información o servicios del Ayuntamiento al responsable del contrato tan pronto como tenga conocimiento y mantenerle informado hasta el cierre del incidente.",
+                "Fuente": "ID_188_3.PDF, pág. 49"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "El adjudicatario debe eliminar de forma segura toda la información del servicio a la finalización del contrato y aportar certificado de destrucción.",
+                "Fuente": "ID_188_3.PDF, pág. 9"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "El adjudicatario debe colaborar en la integración con monitorización corporativa, EDR/XDR, antivirus y backup proporcionados por IAM si así se solicita.",
+                "Fuente": "ID_188_3.PDF, pág. 31"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "Gestión de credenciales y accesos a recursos cloud es competencia del Ayuntamiento. Usuarios externos usan credenciales proporcionadas por IAM. No se permite asignación de IP pública a máquinas virtuales.",
+                "Fuente": "ID_188_3.PDF, pág. 33-34"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "Solo se permite despliegue en cloud pública de Microsoft Azure, Google Cloud Platform o Amazon AWS, en regiones del Espacio Económico Europeo (EEE).",
+                "Fuente": "ID_188_3.PDF, pág. 29-34"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "El adjudicatario debe informar sobre subcontratación y cambios durante el contrato. La subcontratación está permitida salvo para tareas críticas.",
+                "Fuente": "ID_188_3.PDF, pág. 29"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "Transferencias internacionales solo permitidas si la región está en el EEE (art. 45 RGPD).",
+                "Fuente": "ID_188_3.PDF, pág. 30, 34"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "El adjudicatario debe anonimizar datos personales que los usuarios puedan incluir voluntariamente en sus consultas al asistente virtual.",
+                "Fuente": "ID_188_3.PDF, pág. 46"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "El Ayuntamiento podrá auditar la seguridad de los sistemas.",
+                "Fuente": "ID_188_3.PDF, pág. 49"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "Confidencialidad: obligación de guardar secreto sobre información y datos a los que tenga acceso, subsistiendo tras la finalización del contrato.",
+                "Fuente": "ID_188_3.PDF, pág. 53"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "Incumplimiento de obligaciones de seguridad, confidencialidad, plazos de implantación, indisponibilidad del servicio, etc., conlleva penalidades económicas (5% o 10% del precio del contrato según gravedad) y puede ser causa de resolución.",
+                "Fuente": "ID_188_2.PDF, pág. 75-77"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "No se exige certificación ENS ni ISO 27001, solo cumplimiento material del ENS nivel básico.",
+                "Fuente": "ID_188_3.PDF, pág. 46"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "No se exige DPO/DPD al adjudicatario.",
+                "Fuente": "ID_188_3.PDF, pág. 46"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "No se define rol de encargado de tratamiento para el adjudicatario.",
+                "Fuente": "ID_188_3.PDF, pág. 50"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "No se exige acuerdo de encargo de tratamiento.",
+                "Fuente": "ID_188_3.PDF, pág. 50"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "No se detallan plazos de retención de logs ni de conservación de backups.",
+                "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "No se exige plan de continuidad ni DR específico.",
+                "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "No se exige auditoría ENS ni ISO periódica.",
+                "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "No se especifican medidas técnicas concretas como MFA, PAM, VPN, segmentación, DLP, WAF, SIEM, SAST, DAST, SCA, SBOM, ni parámetros de RTO/RPO.",
+                "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "El Anexo IX del pliego administrativo describe el tratamiento de datos personales para la gestión contractual, siendo responsable la Dirección General de Contratación y Servicios.",
+                "Fuente": "ID_188_2.PDF, Anexo IX, pág. 95"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "Se identifica Delegado de Protección de Datos (DPD) del Ayuntamiento de Madrid, pero no se exige DPO/DPD al adjudicatario.",
+                "Fuente": "ID_188_2.PDF, Anexo IX, pág. 95"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "Conservación de datos personales: mientras sean necesarios para la ejecución del contrato.",
+                "Fuente": "ID_188_2.PDF, Anexo IX, pág. 95"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "Derechos de los interesados: acceso, rectificación, supresión, limitación, oposición.",
+                "Fuente": "ID_188_2.PDF, Anexo IX, pág. 95"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "Categorías de datos tratados para gestión contractual: identificación, claves, direcciones, información comercial y económica.",
+                "Fuente": "ID_188_2.PDF, Anexo IX, pág. 95"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "No se exige acuerdo de encargo de tratamiento ni se define rol de encargado para el adjudicatario.",
+                "Fuente": "ID_188_3.PDF, pág. 50"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "No se exige DPO/DPD al adjudicatario.",
+                "Fuente": "ID_188_3.PDF, pág. 46"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "No se exige certificación ENS ni ISO 27001.",
+                "Fuente": "ID_188_3.PDF, pág. 46"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "No se especifican medidas técnicas concretas como MFA, PAM, VPN, segmentación, DLP, WAF, SIEM, SAST, DAST, SCA, SBOM, ni parámetros de RTO/RPO.",
+                "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "No se exige plan de continuidad ni DR específico.",
+                "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "No se exige auditoría ENS ni ISO periódica.",
+                "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "No se detallan plazos de retención de logs ni de conservación de backups.",
+                "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "No se define rol de encargado de tratamiento para el adjudicatario.",
+                "Fuente": "ID_188_3.PDF, pág. 50"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "No se exige acuerdo de encargo de tratamiento.",
+                "Fuente": "ID_188_3.PDF, pág. 50"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "No se exige DPO/DPD al adjudicatario.",
+                "Fuente": "ID_188_3.PDF, pág. 46"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "No se exige certificación ENS ni ISO 27001.",
+                "Fuente": "ID_188_3.PDF, pág. 46"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "No se especifican medidas técnicas concretas como MFA, PAM, VPN, segmentación, DLP, WAF, SIEM, SAST, DAST, SCA, SBOM, ni parámetros de RTO/RPO.",
+                "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "No se exige plan de continuidad ni DR específico.",
+                "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "No se exige auditoría ENS ni ISO periódica.",
+                "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+              },
+              {
+                "Materia": "Seguridad e IA",
+                "Requisito completo": "No se detallan plazos de retención de logs ni de conservación de backups.",
+                "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "parrafos": [
+          "No se han identificado discrepancias en la documentación revisada."
+        ],
+        "elementos": [],
+        "tablas": []
+      }
+    ],
+    "pendientes_y_no_localizados": [
+      {
+        "titulo": "12. Datos no localizados o ambiguos, sin recomendaciones",
+        "parrafos": [],
+        "elementos": [
+          "No se exige certificación ENS ni ISO 27001, solo cumplimiento material del ENS nivel básico. No se especifican medidas técnicas concretas como MFA, PAM, VPN, segmentación, DLP, WAF, SIEM, SAST, DAST, SCA, SBOM, ni parámetros de RTO/RPO. No se exige DPO/DPD al adjudicatario. No se define rol de encargado de tratamiento para el adjudicatario. No se exige acuerdo de encargo de tratamiento. No se detallan plazos de retención de logs ni de conservación de backups. No se exige plan de continuidad ni DR específico. No se exige auditoría ENS ni ISO periódica."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "parrafos": [
+          "No se han identificado discrepancias en la documentación revisada."
+        ],
+        "elementos": [],
+        "tablas": []
+      }
+    ],
+    "trazabilidad": [
+      {
+        "Requisito": "Cumplimiento ENS",
+        "Categoria/nivel": "Básico",
+        "Alcance": "Servicios y sistemas objeto del contrato",
+        "Acreditacion": "Descripción de mecanismos de seguridad en la oferta",
+        "Momento": "Presentación de oferta",
+        "Fuente": "ID_188_3.PDF, pág. 46"
+      },
+      {
+        "Requisito": "Análisis de riesgos ENS",
+        "Categoria/nivel": "Básico",
+        "Alcance": "Servicios prestados/sistemas desarrollados",
+        "Acreditacion": "Análisis de riesgos validado por el Ayuntamiento",
+        "Momento": "Inicio de los trabajos",
+        "Fuente": "ID_188_3.PDF, pág. 46"
+      },
+      {
+        "Requisito": "Designación POC seguridad",
+        "Categoria/nivel": "Básico",
+        "Alcance": "Seguridad de la información tratada y servicio prestado",
+        "Acreditacion": "Designación de POC o justificación de no designación",
+        "Momento": "Inicio de ejecución",
+        "Fuente": "ID_188_3.PDF, pág. 46"
+      },
+      {
+        "Requisito": "Configuración segura CCN-STIC",
+        "Categoria/nivel": "Básico",
+        "Alcance": "Todos los componentes tecnológicos",
+        "Acreditacion": "Configuración conforme a guías CCN-STIC",
+        "Momento": "Ejecución",
+        "Fuente": "ID_188_3.PDF, pág. 47"
+      },
+      {
+        "Requisito": "Desarrollo seguro",
+        "Categoria/nivel": "Básico",
+        "Alcance": "Software desarrollado/mantenido",
+        "Acreditacion": "Metodologías y buenas prácticas verificables",
+        "Momento": "Ejecución",
+        "Fuente": "ID_188_3.PDF, pág. 47"
+      },
+      {
+        "Requisito": "Registro de actividad",
+        "Categoria/nivel": "Básico",
+        "Alcance": "Sistemas objeto del contrato",
+        "Acreditacion": "Entrega de logs a requerimiento",
+        "Momento": "Ejecución",
+        "Fuente": "ID_188_3.PDF, pág. 49"
+      },
+      {
+        "Requisito": "Actualizaciones de seguridad",
+        "Categoria/nivel": "Básico",
+        "Alcance": "Sistemas objeto del contrato",
+        "Acreditacion": "Aplicación periódica y continuada",
+        "Momento": "Ejecución",
+        "Fuente": "ID_188_3.PDF, pág. 49"
+      },
+      {
+        "Requisito": "Subsanación de vulnerabilidades",
+        "Categoria/nivel": "Básico",
+        "Alcance": "Sistemas objeto del contrato",
+        "Acreditacion": "Subsanación a requerimiento",
+        "Momento": "Ejecución",
+        "Fuente": "ID_188_3.PDF, pág. 49"
+      },
+      {
+        "Requisito": "Auditoría de seguridad",
+        "Categoria/nivel": "Básico",
+        "Alcance": "Sistemas implantados/utilizados",
+        "Acreditacion": "Auditoría por el Ayuntamiento",
+        "Momento": "Ejecución",
+        "Fuente": "ID_188_3.PDF, pág. 49"
+      },
+      {
+        "Requisito": "Notificación de incidentes",
+        "Categoria/nivel": "Básico",
+        "Alcance": "Servicios/sistemas objeto del contrato",
+        "Acreditacion": "Notificación inmediata al responsable del contrato",
+        "Momento": "Ejecución",
+        "Fuente": "ID_188_3.PDF, pág. 49"
+      },
+      {
+        "Requisito": "Borrado seguro y certificado",
+        "Categoria/nivel": "Básico",
+        "Alcance": "Todos los sistemas de la solución",
+        "Acreditacion": "Certificado de destrucción",
+        "Momento": "Cierre del contrato",
+        "Fuente": "ID_188_3.PDF, pág. 9"
+      },
+      {
+        "Datos/rol/obligacion": "No se precisa tratamiento de datos personales por cuenta del responsable",
+        "Condicion": "Contrato no requiere encargo de tratamiento",
+        "Plazo/retencion": "NO APLICA",
+        "Fuente": "ID_188_3.PDF, pág. 50"
+      },
+      {
+        "Datos/rol/obligacion": "Anonimización de datos personales incluidos voluntariamente por usuarios",
+        "Condicion": "Obligación de anonimizar",
+        "Plazo/retencion": "NO ESPECIFICADO",
+        "Fuente": "ID_188_3.PDF, pág. 46"
+      },
+      {
+        "Datos/rol/obligacion": "Tratamiento de datos personales para gestión contractual (Dirección General de Contratación y Servicios)",
+        "Condicion": "Responsable: Ayuntamiento de Madrid",
+        "Plazo/retencion": "Mientras sean necesarios para la ejecución del contrato",
+        "Fuente": "ID_188_2.PDF, Anexo IX, pág. 95"
+      },
+      {
+        "Datos/rol/obligacion": "Delegado de Protección de Datos del Ayuntamiento de Madrid",
+        "Condicion": "DPD identificado para el Ayuntamiento",
+        "Plazo/retencion": "NO ESPECIFICADO",
+        "Fuente": "ID_188_2.PDF, Anexo IX, pág. 95"
+      },
+      {
+        "Requisito": "Despliegue solo en cloud pública Microsoft Azure, Google Cloud Platform o Amazon AWS",
+        "Condición": "Solo en regiones del EEE",
+        "Fuente": "ID_188_3.PDF, pág. 29-34"
+      },
+      {
+        "Requisito": "Subcontratación permitida salvo tareas críticas",
+        "Condición": "Debe informar sobre subcontratistas y cambios",
+        "Fuente": "ID_188_3.PDF, pág. 29"
+      },
+      {
+        "Requisito": "Transferencias internacionales",
+        "Condición": "Solo permitidas si la región está en el EEE (art. 45 RGPD)",
+        "Fuente": "ID_188_3.PDF, pág. 30, 34"
+      },
+      {
+        "Medida": "Configuración segura CCN-STIC",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parametro/plazo": "Ejecución",
+        "Fuente": "ID_188_3.PDF, pág. 47"
+      },
+      {
+        "Medida": "Cifrado de información no pública en tránsito",
+        "Obligatoria/valorable/condicionada": "Obligatoria si la información no es pública",
+        "Parametro/plazo": "Según valoración del responsable",
+        "Fuente": "ID_188_3.PDF, pág. 47"
+      },
+      {
+        "Medida": "Identificación y autenticación",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parametro/plazo": "Personal municipal: identidad corporativa; ciudadanía: Cl@ve; otros: autorización",
+        "Fuente": "ID_188_3.PDF, pág. 47"
+      },
+      {
+        "Medida": "Acceso remoto",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parametro/plazo": "Solo mediante servicio de acceso remoto para empresas",
+        "Fuente": "ID_188_3.PDF, pág. 48"
+      },
+      {
+        "Medida": "Principio de mínimo privilegio y necesidad de conocer",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parametro/plazo": "Ejecución",
+        "Fuente": "ID_188_3.PDF, pág. 48"
+      },
+      {
+        "Medida": "Restricción de roles de administración",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parametro/plazo": "Ejecución",
+        "Fuente": "ID_188_3.PDF, pág. 48"
+      },
+      {
+        "Medida": "Registro de actividad de usuarios",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parametro/plazo": "Entrega de logs a requerimiento",
+        "Fuente": "ID_188_3.PDF, pág. 49"
+      },
+      {
+        "Medida": "Aplicación de actualizaciones de seguridad",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parametro/plazo": "Periódica y continuada",
+        "Fuente": "ID_188_3.PDF, pág. 49"
+      },
+      {
+        "Medida": "Subsanación de vulnerabilidades",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parametro/plazo": "A requerimiento",
+        "Fuente": "ID_188_3.PDF, pág. 49"
+      },
+      {
+        "Medida": "Integración con monitorización, EDR/XDR, antivirus, backup de IAM",
+        "Obligatoria/valorable/condicionada": "Obligatoria si lo solicita IAM",
+        "Parametro/plazo": "Ejecución",
+        "Fuente": "ID_188_3.PDF, pág. 31"
+      },
+      {
+        "Medida": "Desarrollo seguro",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parametro/plazo": "Todo el ciclo de vida",
+        "Fuente": "ID_188_3.PDF, pág. 47"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "El adjudicatario debe cumplir el ENS nivel básico para todos los servicios y sistemas objeto del contrato, aplicando las medidas del Anexo II del ENS nivel Básico.",
+        "Fuente": "ID_188_3.PDF, pág. 46"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "El adjudicatario debe designar un Punto o Persona de Contacto (POC) para la seguridad de la información tratada y el servicio prestado, o justificar su no designación.",
+        "Fuente": "ID_188_3.PDF, pág. 46"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "El adjudicatario debe realizar un análisis de riesgos conforme al ENS al inicio de los trabajos, validado por el Ayuntamiento, y elaborar un plan de tratamiento del riesgo.",
+        "Fuente": "ID_188_3.PDF, pág. 46"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "Todos los componentes tecnológicos deben configurarse conforme a las guías CCN-STIC del CCN-CERT, adaptadas a las particularidades del Ayuntamiento.",
+        "Fuente": "ID_188_3.PDF, pág. 47"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "El adjudicatario debe seguir metodologías y buenas prácticas verificables de desarrollo seguro de software en todo el ciclo de vida del proyecto.",
+        "Fuente": "ID_188_3.PDF, pág. 47"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "La información propiedad del Ayuntamiento que no sea pública debe ser cifrada cuando se transmita a través de redes ajenas al Ayuntamiento, según valoración del responsable.",
+        "Fuente": "ID_188_3.PDF, pág. 47"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "Identificación y autenticación: personal municipal mediante plataforma de identidad corporativa, ciudadanía mediante sistema estatal Cl@ve, otros métodos requieren autorización.",
+        "Fuente": "ID_188_3.PDF, pág. 47"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "Acceso remoto solo mediante servicio de acceso remoto para empresas del Ayuntamiento.",
+        "Fuente": "ID_188_3.PDF, pág. 48"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "Principios de mínimo privilegio y necesidad de conocer para el acceso a los sistemas.",
+        "Fuente": "ID_188_3.PDF, pág. 48"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "Restricción al mínimo imprescindible de roles con privilegios especiales de administración.",
+        "Fuente": "ID_188_3.PDF, pág. 48"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "El sistema debe registrar las actividades de los usuarios, reteniendo la información necesaria para monitorizar, analizar, investigar y documentar actividades indebidas o no autorizadas, permitiendo identificar en cada momento a la persona que actúa.",
+        "Fuente": "ID_188_3.PDF, pág. 49"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "El adjudicatario debe aplicar actualizaciones de seguridad periódicamente y subsanar vulnerabilidades comunicadas por el responsable del contrato.",
+        "Fuente": "ID_188_3.PDF, pág. 49"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "El Ayuntamiento podrá auditar la seguridad de los sistemas de información y comunicaciones implantados o utilizados en el ámbito del contrato.",
+        "Fuente": "ID_188_3.PDF, pág. 49"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "El adjudicatario debe notificar cualquier ciberincidente que pueda afectar a información o servicios del Ayuntamiento al responsable del contrato tan pronto como tenga conocimiento y mantenerle informado hasta el cierre del incidente.",
+        "Fuente": "ID_188_3.PDF, pág. 49"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "El adjudicatario debe eliminar de forma segura toda la información del servicio a la finalización del contrato y aportar certificado de destrucción.",
+        "Fuente": "ID_188_3.PDF, pág. 9"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "El adjudicatario debe colaborar en la integración con monitorización corporativa, EDR/XDR, antivirus y backup proporcionados por IAM si así se solicita.",
+        "Fuente": "ID_188_3.PDF, pág. 31"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "Gestión de credenciales y accesos a recursos cloud es competencia del Ayuntamiento. Usuarios externos usan credenciales proporcionadas por IAM. No se permite asignación de IP pública a máquinas virtuales.",
+        "Fuente": "ID_188_3.PDF, pág. 33-34"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "Solo se permite despliegue en cloud pública de Microsoft Azure, Google Cloud Platform o Amazon AWS, en regiones del Espacio Económico Europeo (EEE).",
+        "Fuente": "ID_188_3.PDF, pág. 29-34"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "El adjudicatario debe informar sobre subcontratación y cambios durante el contrato. La subcontratación está permitida salvo para tareas críticas.",
+        "Fuente": "ID_188_3.PDF, pág. 29"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "Transferencias internacionales solo permitidas si la región está en el EEE (art. 45 RGPD).",
+        "Fuente": "ID_188_3.PDF, pág. 30, 34"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "El adjudicatario debe anonimizar datos personales que los usuarios puedan incluir voluntariamente en sus consultas al asistente virtual.",
+        "Fuente": "ID_188_3.PDF, pág. 46"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "El Ayuntamiento podrá auditar la seguridad de los sistemas.",
+        "Fuente": "ID_188_3.PDF, pág. 49"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "Confidencialidad: obligación de guardar secreto sobre información y datos a los que tenga acceso, subsistiendo tras la finalización del contrato.",
+        "Fuente": "ID_188_3.PDF, pág. 53"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "Incumplimiento de obligaciones de seguridad, confidencialidad, plazos de implantación, indisponibilidad del servicio, etc., conlleva penalidades económicas (5% o 10% del precio del contrato según gravedad) y puede ser causa de resolución.",
+        "Fuente": "ID_188_2.PDF, pág. 75-77"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "No se exige certificación ENS ni ISO 27001, solo cumplimiento material del ENS nivel básico.",
+        "Fuente": "ID_188_3.PDF, pág. 46"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "No se exige DPO/DPD al adjudicatario.",
+        "Fuente": "ID_188_3.PDF, pág. 46"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "No se define rol de encargado de tratamiento para el adjudicatario.",
+        "Fuente": "ID_188_3.PDF, pág. 50"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "No se exige acuerdo de encargo de tratamiento.",
+        "Fuente": "ID_188_3.PDF, pág. 50"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "No se detallan plazos de retención de logs ni de conservación de backups.",
+        "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "No se exige plan de continuidad ni DR específico.",
+        "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "No se exige auditoría ENS ni ISO periódica.",
+        "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "No se especifican medidas técnicas concretas como MFA, PAM, VPN, segmentación, DLP, WAF, SIEM, SAST, DAST, SCA, SBOM, ni parámetros de RTO/RPO.",
+        "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "El Anexo IX del pliego administrativo describe el tratamiento de datos personales para la gestión contractual, siendo responsable la Dirección General de Contratación y Servicios.",
+        "Fuente": "ID_188_2.PDF, Anexo IX, pág. 95"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "Se identifica Delegado de Protección de Datos (DPD) del Ayuntamiento de Madrid, pero no se exige DPO/DPD al adjudicatario.",
+        "Fuente": "ID_188_2.PDF, Anexo IX, pág. 95"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "Conservación de datos personales: mientras sean necesarios para la ejecución del contrato.",
+        "Fuente": "ID_188_2.PDF, Anexo IX, pág. 95"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "Derechos de los interesados: acceso, rectificación, supresión, limitación, oposición.",
+        "Fuente": "ID_188_2.PDF, Anexo IX, pág. 95"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "Categorías de datos tratados para gestión contractual: identificación, claves, direcciones, información comercial y económica.",
+        "Fuente": "ID_188_2.PDF, Anexo IX, pág. 95"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "No se exige acuerdo de encargo de tratamiento ni se define rol de encargado para el adjudicatario.",
+        "Fuente": "ID_188_3.PDF, pág. 50"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "No se exige DPO/DPD al adjudicatario.",
+        "Fuente": "ID_188_3.PDF, pág. 46"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "No se exige certificación ENS ni ISO 27001.",
+        "Fuente": "ID_188_3.PDF, pág. 46"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "No se especifican medidas técnicas concretas como MFA, PAM, VPN, segmentación, DLP, WAF, SIEM, SAST, DAST, SCA, SBOM, ni parámetros de RTO/RPO.",
+        "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "No se exige plan de continuidad ni DR específico.",
+        "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "No se exige auditoría ENS ni ISO periódica.",
+        "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "No se detallan plazos de retención de logs ni de conservación de backups.",
+        "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "No se define rol de encargado de tratamiento para el adjudicatario.",
+        "Fuente": "ID_188_3.PDF, pág. 50"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "No se exige acuerdo de encargo de tratamiento.",
+        "Fuente": "ID_188_3.PDF, pág. 50"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "No se exige DPO/DPD al adjudicatario.",
+        "Fuente": "ID_188_3.PDF, pág. 46"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "No se exige certificación ENS ni ISO 27001.",
+        "Fuente": "ID_188_3.PDF, pág. 46"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "No se especifican medidas técnicas concretas como MFA, PAM, VPN, segmentación, DLP, WAF, SIEM, SAST, DAST, SCA, SBOM, ni parámetros de RTO/RPO.",
+        "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "No se exige plan de continuidad ni DR específico.",
+        "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "No se exige auditoría ENS ni ISO periódica.",
+        "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+      },
+      {
+        "Materia": "Seguridad e IA",
+        "Requisito completo": "No se detallan plazos de retención de logs ni de conservación de backups.",
+        "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+      }
+    ],
+    "salida_original": "# 1. Resumen factual Seguridad / DPO / ENS\n\n**ENS:**\n- Se exige cumplimiento del Esquema Nacional de Seguridad (ENS) nivel BÁSICO para los servicios y sistemas objeto del contrato, según valoración de la guía CCN-STIC-803. El adjudicatario debe aplicar las medidas del Anexo II del ENS nivel Básico. Se requiere designación de un Punto o Persona de Contacto (POC) para la seguridad de la información. Se exige análisis de riesgos conforme al ENS al inicio de los trabajos, validado por el Ayuntamiento, y elaboración de un plan de tratamiento del riesgo. Todos los componentes tecnológicos deben configurarse según guías CCN-STIC. El desarrollo debe seguir buenas prácticas de desarrollo seguro. Se exige cifrado de información no pública en tránsito por redes ajenas al Ayuntamiento, según valoración del responsable. Se requiere registro de actividad de usuarios y entrega de logs a requerimiento. El adjudicatario debe aplicar actualizaciones de seguridad periódicamente y subsanar vulnerabilidades comunicadas por el responsable del contrato. El Ayuntamiento podrá auditar la seguridad de los sistemas. El adjudicatario debe notificar incidentes de seguridad al responsable del contrato tan pronto como tenga conocimiento y colaborar en la resolución. (ID_188_3.PDF, págs. 45-50)\n\n**RGPD/DPO:**\n- El contrato indica expresamente que no se precisa tratamiento de datos personales por cuenta del responsable (Dirección General de Participación Ciudadana) por parte del adjudicatario, por lo que no se exige acuerdo de encargo de tratamiento ni se define rol de encargado. No obstante, se prevé anonimización de datos personales que los usuarios puedan incluir voluntariamente en sus consultas al asistente virtual. (ID_188_3.PDF, pág. 46, 50)\n- El Anexo IX del pliego administrativo describe el tratamiento de datos personales para la gestión contractual, siendo responsable la Dirección General de Contratación y Servicios. Se identifican categorías de datos: identificación, claves, direcciones, información comercial y económica. Conservación: mientras sean necesarios para la ejecución del contrato. Derechos: acceso, rectificación, supresión, limitación, oposición. (ID_188_2.PDF, Anexo IX, pág. 95)\n- Se identifica Delegado de Protección de Datos (DPD) del Ayuntamiento de Madrid, pero no se exige DPO/DPD al adjudicatario. (ID_188_2.PDF, Anexo IX, pág. 95)\n\n**Subencargados, cloud, localización y transferencias:**\n- Solo se permite despliegue en cloud pública de Microsoft Azure, Google Cloud Platform o Amazon AWS, en regiones del Espacio Económico Europeo (EEE). No se admiten otros proveedores. El adjudicatario debe garantizar que los recursos estén localizados en el EEE y cumplir el art. 45 RGPD sobre transferencias basadas en decisión de adecuación. (ID_188_3.PDF, pág. 29-34)\n- El adjudicatario debe informar sobre subcontratación y cambios durante el contrato. La subcontratación está permitida salvo para tareas críticas. (ID_188_3.PDF, pág. 29)\n\n**Medidas técnicas:**\n- Se exige configuración segura conforme a guías CCN-STIC. Se requiere cifrado de información no pública en tránsito por redes ajenas. Identificación y autenticación: personal municipal mediante plataforma de identidad corporativa, ciudadanía mediante sistema estatal Cl@ve, otros métodos requieren autorización. Acceso remoto solo mediante servicio de acceso remoto para empresas del Ayuntamiento. Principios de mínimo privilegio y necesidad de conocer. Restricción de roles de administración. Registro de actividad de usuarios. Aplicación de actualizaciones de seguridad periódicas. Subsanación de vulnerabilidades comunicadas. (ID_188_3.PDF, págs. 45-49)\n- El adjudicatario debe colaborar en integración con monitorización corporativa, EDR/XDR, antivirus y backup proporcionados por IAM. (ID_188_3.PDF, pág. 31)\n- Desarrollo seguro: se exige seguir metodologías y buenas prácticas verificables de desarrollo seguro en todo el ciclo de vida. (ID_188_3.PDF, pág. 47)\n\n**Identidad, accesos y privilegios:**\n- Gestión de credenciales y accesos a recursos cloud es competencia del Ayuntamiento. Usuarios externos usan credenciales proporcionadas por IAM. No se permite asignación de IP pública a máquinas virtuales. Acceso a la red corporativa solo mediante mecanismos autorizados. (ID_188_3.PDF, pág. 33-34, 47-48)\n\n**Vulnerabilidades, parcheado y desarrollo seguro:**\n- El adjudicatario debe aplicar actualizaciones de seguridad periódicamente y subsanar vulnerabilidades comunicadas. Desarrollo seguro obligatorio en todo el ciclo de vida. (ID_188_3.PDF, pág. 47, 49)\n\n**Incidentes, brechas y plazos de notificación:**\n- El adjudicatario debe notificar cualquier ciberincidente que pueda afectar a información o servicios del Ayuntamiento al responsable del contrato tan pronto como tenga conocimiento y mantenerle informado hasta el cierre del incidente. Debe colaborar activamente en la resolución. (ID_188_3.PDF, pág. 49)\n\n**Logging, SOC/SIEM, continuidad, backup, RTO/RPO y retención:**\n- Se exige registro de actividad de usuarios, retención de logs para monitorizar, analizar, investigar y documentar actividades indebidas o no autorizadas. Entrega de logs a requerimiento. Integración con herramientas de observabilidad y monitorización de IAM si se solicita. Backup y restauración proporcionados por IAM. No se especifican RTO/RPO. (ID_188_3.PDF, pág. 31, 49)\n\n**Auditorías, evidencias, certificaciones, seguridad del personal, borrado y confidencialidad:**\n- El Ayuntamiento podrá auditar la seguridad de los sistemas. El adjudicatario debe eliminar de forma segura toda la información del servicio a la finalización del contrato y aportar certificado de destrucción. Confidencialidad: obligación de guardar secreto sobre información y datos a los que tenga acceso, subsistiendo tras la finalización del contrato. (ID_188_3.PDF, pág. 9, 15, 53)\n- Se exige designación de POC de seguridad, pero no DPO/DPD al adjudicatario. (ID_188_3.PDF, pág. 46)\n\n**Consecuencias contractuales expresamente asociadas al incumplimiento:**\n- Incumplimiento de obligaciones de seguridad, confidencialidad, plazos de implantación, indisponibilidad del servicio, etc., conlleva penalidades económicas (5% o 10% del precio del contrato según gravedad) y puede ser causa de resolución. (ID_188_2.PDF, pág. 75-77)\n\n**Datos no localizados o ambiguos:**\n- No se exige certificación ENS ni ISO 27001, solo cumplimiento material del ENS nivel básico. No se especifican medidas técnicas concretas como MFA, PAM, VPN, segmentación, DLP, WAF, SIEM, SAST, DAST, SCA, SBOM, ni parámetros de RTO/RPO. No se exige DPO/DPD al adjudicatario. No se define rol de encargado de tratamiento para el adjudicatario. No se exige acuerdo de encargo de tratamiento. No se detallan plazos de retención de logs ni de conservación de backups. No se exige plan de continuidad ni DR específico. No se exige auditoría ENS ni ISO periódica.\n\n**Documentos revisados:**\n- ID_188_1.PDF (Documento licitación real)\n- ID_188_2.PDF (Pliego de Cláusulas Administrativas Particulares y Anexos)\n- ID_188_3.PDF (Pliego de Prescripciones Técnicas)\n\n# 2. ENS: Requisito | Categoria/nivel | Alcance | Acreditacion | Momento | Fuente\n| Requisito | Categoria/nivel | Alcance | Acreditacion | Momento | Fuente |\n|---|---|---|---|---|---|\n| Cumplimiento ENS | Básico | Servicios y sistemas objeto del contrato | Descripción de mecanismos de seguridad en la oferta | Presentación de oferta | ID_188_3.PDF, pág. 46 |\n| Análisis de riesgos ENS | Básico | Servicios prestados/sistemas desarrollados | Análisis de riesgos validado por el Ayuntamiento | Inicio de los trabajos | ID_188_3.PDF, pág. 46 |\n| Designación POC seguridad | Básico | Seguridad de la información tratada y servicio prestado | Designación de POC o justificación de no designación | Inicio de ejecución | ID_188_3.PDF, pág. 46 |\n| Configuración segura CCN-STIC | Básico | Todos los componentes tecnológicos | Configuración conforme a guías CCN-STIC | Ejecución | ID_188_3.PDF, pág. 47 |\n| Desarrollo seguro | Básico | Software desarrollado/mantenido | Metodologías y buenas prácticas verificables | Ejecución | ID_188_3.PDF, pág. 47 |\n| Registro de actividad | Básico | Sistemas objeto del contrato | Entrega de logs a requerimiento | Ejecución | ID_188_3.PDF, pág. 49 |\n| Actualizaciones de seguridad | Básico | Sistemas objeto del contrato | Aplicación periódica y continuada | Ejecución | ID_188_3.PDF, pág. 49 |\n| Subsanación de vulnerabilidades | Básico | Sistemas objeto del contrato | Subsanación a requerimiento | Ejecución | ID_188_3.PDF, pág. 49 |\n| Auditoría de seguridad | Básico | Sistemas implantados/utilizados | Auditoría por el Ayuntamiento | Ejecución | ID_188_3.PDF, pág. 49 |\n| Notificación de incidentes | Básico | Servicios/sistemas objeto del contrato | Notificación inmediata al responsable del contrato | Ejecución | ID_188_3.PDF, pág. 49 |\n| Borrado seguro y certificado | Básico | Todos los sistemas de la solución | Certificado de destrucción | Cierre del contrato | ID_188_3.PDF, pág. 9 |\n\n# 3. RGPD/DPO: Datos/rol/obligacion | Condicion | Plazo/retencion | Fuente\n| Datos/rol/obligacion | Condicion | Plazo/retencion | Fuente |\n|---|---|---|---|\n| No se precisa tratamiento de datos personales por cuenta del responsable | Contrato no requiere encargo de tratamiento | NO APLICA | ID_188_3.PDF, pág. 50 |\n| Anonimización de datos personales incluidos voluntariamente por usuarios | Obligación de anonimizar | NO ESPECIFICADO | ID_188_3.PDF, pág. 46 |\n| Tratamiento de datos personales para gestión contractual (Dirección General de Contratación y Servicios) | Responsable: Ayuntamiento de Madrid | Mientras sean necesarios para la ejecución del contrato | ID_188_2.PDF, Anexo IX, pág. 95 |\n| Delegado de Protección de Datos del Ayuntamiento de Madrid | DPD identificado para el Ayuntamiento | NO ESPECIFICADO | ID_188_2.PDF, Anexo IX, pág. 95 |\n\n# 4. Subencargados, cloud, localización y transferencias: requisito | condicion | fuente\n| Requisito | Condición | Fuente |\n|---|---|---|\n| Despliegue solo en cloud pública Microsoft Azure, Google Cloud Platform o Amazon AWS | Solo en regiones del EEE | ID_188_3.PDF, pág. 29-34 |\n| Subcontratación permitida salvo tareas críticas | Debe informar sobre subcontratistas y cambios | ID_188_3.PDF, pág. 29 |\n| Transferencias internacionales | Solo permitidas si la región está en el EEE (art. 45 RGPD) | ID_188_3.PDF, pág. 30, 34 |\n\n# 5. Medidas tecnicas: Medida | Obligatoria/valorable/condicionada | Parametro/plazo | Fuente\n| Medida | Obligatoria/valorable/condicionada | Parametro/plazo | Fuente |\n|---|---|---|---|\n| Configuración segura CCN-STIC | Obligatoria | Ejecución | ID_188_3.PDF, pág. 47 |\n| Cifrado de información no pública en tránsito | Obligatoria si la información no es pública | Según valoración del responsable | ID_188_3.PDF, pág. 47 |\n| Identificación y autenticación | Obligatoria | Personal municipal: identidad corporativa; ciudadanía: Cl@ve; otros: autorización | ID_188_3.PDF, pág. 47 |\n| Acceso remoto | Obligatoria | Solo mediante servicio de acceso remoto para empresas | ID_188_3.PDF, pág. 48 |\n| Principio de mínimo privilegio y necesidad de conocer | Obligatoria | Ejecución | ID_188_3.PDF, pág. 48 |\n| Restricción de roles de administración | Obligatoria | Ejecución | ID_188_3.PDF, pág. 48 |\n| Registro de actividad de usuarios | Obligatoria | Entrega de logs a requerimiento | ID_188_3.PDF, pág. 49 |\n| Aplicación de actualizaciones de seguridad | Obligatoria | Periódica y continuada | ID_188_3.PDF, pág. 49 |\n| Subsanación de vulnerabilidades | Obligatoria | A requerimiento | ID_188_3.PDF, pág. 49 |\n| Integración con monitorización, EDR/XDR, antivirus, backup de IAM | Obligatoria si lo solicita IAM | Ejecución | ID_188_3.PDF, pág. 31 |\n| Desarrollo seguro | Obligatoria | Todo el ciclo de vida | ID_188_3.PDF, pág. 47 |\n\n# 6. Identidad, accesos y privilegios\n- Gestión de credenciales y accesos a recursos cloud es competencia del Ayuntamiento. Usuarios externos usan credenciales proporcionadas por IAM. No se permite asignación de IP pública a máquinas virtuales. Acceso a la red corporativa solo mediante mecanismos autorizados. (ID_188_3.PDF, pág. 33-34, 47-48)\n\n# 7. Vulnerabilidades, parcheado y desarrollo seguro\n- El adjudicatario debe aplicar actualizaciones de seguridad periódicamente y subsanar vulnerabilidades comunicadas. Desarrollo seguro obligatorio en todo el ciclo de vida. (ID_188_3.PDF, pág. 47, 49)\n\n# 8. Incidentes, brechas y plazos de notificación expresamente indicados\n- El adjudicatario debe notificar cualquier ciberincidente que pueda afectar a información o servicios del Ayuntamiento al responsable del contrato tan pronto como tenga conocimiento y mantenerle informado hasta el cierre del incidente. Debe colaborar activamente en la resolución. (ID_188_3.PDF, pág. 49)\n\n# 9. Logging, SOC/SIEM, continuidad, backup, RTO/RPO y retencion\n- Se exige registro de actividad de usuarios, retención de logs para monitorizar, analizar, investigar y documentar actividades indebidas o no autorizadas. Entrega de logs a requerimiento. Integración con herramientas de observabilidad y monitorización de IAM si se solicita. Backup y restauración proporcionados por IAM. No se especifican RTO/RPO. (ID_188_3.PDF, pág. 31, 49)\n\n# 10. Auditorias, evidencias, certificaciones, seguridad del personal, borrado y confidencialidad\n- El Ayuntamiento podrá auditar la seguridad de los sistemas. El adjudicatario debe eliminar de forma segura toda la información del servicio a la finalización del contrato y aportar certificado de destrucción. Confidencialidad: obligación de guardar secreto sobre información y datos a los que tenga acceso, subsistiendo tras la finalización del contrato. (ID_188_3.PDF, pág. 9, 15, 53)\n- Se exige designación de POC de seguridad, pero no DPO/DPD al adjudicatario. (ID_188_3.PDF, pág. 46)\n\n# 11. Consecuencias contractuales expresamente asociadas al incumplimiento\n- Incumplimiento de obligaciones de seguridad, confidencialidad, plazos de implantación, indisponibilidad del servicio, etc., conlleva penalidades económicas (5% o 10% del precio del contrato según gravedad) y puede ser causa de resolución. (ID_188_2.PDF, pág. 75-77)\n\n# 12. Datos no localizados o ambiguos, sin recomendaciones\n- No se exige certificación ENS ni ISO 27001, solo cumplimiento material del ENS nivel básico. No se especifican medidas técnicas concretas como MFA, PAM, VPN, segmentación, DLP, WAF, SIEM, SAST, DAST, SCA, SBOM, ni parámetros de RTO/RPO. No se exige DPO/DPD al adjudicatario. No se define rol de encargado de tratamiento para el adjudicatario. No se exige acuerdo de encargo de tratamiento. No se detallan plazos de retención de logs ni de conservación de backups. No se exige plan de continuidad ni DR específico. No se exige auditoría ENS ni ISO periódica.\n\n# 13. Documentos revisados\n- ID_188_1.PDF (Documento licitación real)\n- ID_188_2.PDF (Pliego de Cláusulas Administrativas Particulares y Anexos)\n- ID_188_3.PDF (Pliego de Prescripciones Técnicas)\n\n# Registro documental de preventa\n| Materia | Requisito completo | Fuente |\n|---|---|---|\n| Seguridad e IA | El adjudicatario debe cumplir el ENS nivel básico para todos los servicios y sistemas objeto del contrato, aplicando las medidas del Anexo II del ENS nivel Básico. | ID_188_3.PDF, pág. 46 |\n| Seguridad e IA | El adjudicatario debe designar un Punto o Persona de Contacto (POC) para la seguridad de la información tratada y el servicio prestado, o justificar su no designación. | ID_188_3.PDF, pág. 46 |\n| Seguridad e IA | El adjudicatario debe realizar un análisis de riesgos conforme al ENS al inicio de los trabajos, validado por el Ayuntamiento, y elaborar un plan de tratamiento del riesgo. | ID_188_3.PDF, pág. 46 |\n| Seguridad e IA | Todos los componentes tecnológicos deben configurarse conforme a las guías CCN-STIC del CCN-CERT, adaptadas a las particularidades del Ayuntamiento. | ID_188_3.PDF, pág. 47 |\n| Seguridad e IA | El adjudicatario debe seguir metodologías y buenas prácticas verificables de desarrollo seguro de software en todo el ciclo de vida del proyecto. | ID_188_3.PDF, pág. 47 |\n| Seguridad e IA | La información propiedad del Ayuntamiento que no sea pública debe ser cifrada cuando se transmita a través de redes ajenas al Ayuntamiento, según valoración del responsable. | ID_188_3.PDF, pág. 47 |\n| Seguridad e IA | Identificación y autenticación: personal municipal mediante plataforma de identidad corporativa, ciudadanía mediante sistema estatal Cl@ve, otros métodos requieren autorización. | ID_188_3.PDF, pág. 47 |\n| Seguridad e IA | Acceso remoto solo mediante servicio de acceso remoto para empresas del Ayuntamiento. | ID_188_3.PDF, pág. 48 |\n| Seguridad e IA | Principios de mínimo privilegio y necesidad de conocer para el acceso a los sistemas. | ID_188_3.PDF, pág. 48 |\n| Seguridad e IA | Restricción al mínimo imprescindible de roles con privilegios especiales de administración. | ID_188_3.PDF, pág. 48 |\n| Seguridad e IA | El sistema debe registrar las actividades de los usuarios, reteniendo la información necesaria para monitorizar, analizar, investigar y documentar actividades indebidas o no autorizadas, permitiendo identificar en cada momento a la persona que actúa. | ID_188_3.PDF, pág. 49 |\n| Seguridad e IA | El adjudicatario debe aplicar actualizaciones de seguridad periódicamente y subsanar vulnerabilidades comunicadas por el responsable del contrato. | ID_188_3.PDF, pág. 49 |\n| Seguridad e IA | El Ayuntamiento podrá auditar la seguridad de los sistemas de información y comunicaciones implantados o utilizados en el ámbito del contrato. | ID_188_3.PDF, pág. 49 |\n| Seguridad e IA | El adjudicatario debe notificar cualquier ciberincidente que pueda afectar a información o servicios del Ayuntamiento al responsable del contrato tan pronto como tenga conocimiento y mantenerle informado hasta el cierre del incidente. | ID_188_3.PDF, pág. 49 |\n| Seguridad e IA | El adjudicatario debe eliminar de forma segura toda la información del servicio a la finalización del contrato y aportar certificado de destrucción. | ID_188_3.PDF, pág. 9 |\n| Seguridad e IA | El adjudicatario debe colaborar en la integración con monitorización corporativa, EDR/XDR, antivirus y backup proporcionados por IAM si así se solicita. | ID_188_3.PDF, pág. 31 |\n| Seguridad e IA | Gestión de credenciales y accesos a recursos cloud es competencia del Ayuntamiento. Usuarios externos usan credenciales proporcionadas por IAM. No se permite asignación de IP pública a máquinas virtuales. | ID_188_3.PDF, pág. 33-34 |\n| Seguridad e IA | Solo se permite despliegue en cloud pública de Microsoft Azure, Google Cloud Platform o Amazon AWS, en regiones del Espacio Económico Europeo (EEE). | ID_188_3.PDF, pág. 29-34 |\n| Seguridad e IA | El adjudicatario debe informar sobre subcontratación y cambios durante el contrato. La subcontratación está permitida salvo para tareas críticas. | ID_188_3.PDF, pág. 29 |\n| Seguridad e IA | Transferencias internacionales solo permitidas si la región está en el EEE (art. 45 RGPD). | ID_188_3.PDF, pág. 30, 34 |\n| Seguridad e IA | El adjudicatario debe anonimizar datos personales que los usuarios puedan incluir voluntariamente en sus consultas al asistente virtual. | ID_188_3.PDF, pág. 46 |\n| Seguridad e IA | El Ayuntamiento podrá auditar la seguridad de los sistemas. | ID_188_3.PDF, pág. 49 |\n| Seguridad e IA | Confidencialidad: obligación de guardar secreto sobre información y datos a los que tenga acceso, subsistiendo tras la finalización del contrato. | ID_188_3.PDF, pág. 53 |\n| Seguridad e IA | Incumplimiento de obligaciones de seguridad, confidencialidad, plazos de implantación, indisponibilidad del servicio, etc., conlleva penalidades económicas (5% o 10% del precio del contrato según gravedad) y puede ser causa de resolución. | ID_188_2.PDF, pág. 75-77 |\n| Seguridad e IA | No se exige certificación ENS ni ISO 27001, solo cumplimiento material del ENS nivel básico. | ID_188_3.PDF, pág. 46 |\n| Seguridad e IA | No se exige DPO/DPD al adjudicatario. | ID_188_3.PDF, pág. 46 |\n| Seguridad e IA | No se define rol de encargado de tratamiento para el adjudicatario. | ID_188_3.PDF, pág. 50 |\n| Seguridad e IA | No se exige acuerdo de encargo de tratamiento. | ID_188_3.PDF, pág. 50 |\n| Seguridad e IA | No se detallan plazos de retención de logs ni de conservación de backups. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Seguridad e IA | No se exige plan de continuidad ni DR específico. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Seguridad e IA | No se exige auditoría ENS ni ISO periódica. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Seguridad e IA | No se especifican medidas técnicas concretas como MFA, PAM, VPN, segmentación, DLP, WAF, SIEM, SAST, DAST, SCA, SBOM, ni parámetros de RTO/RPO. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Seguridad e IA | El Anexo IX del pliego administrativo describe el tratamiento de datos personales para la gestión contractual, siendo responsable la Dirección General de Contratación y Servicios. | ID_188_2.PDF, Anexo IX, pág. 95 |\n| Seguridad e IA | Se identifica Delegado de Protección de Datos (DPD) del Ayuntamiento de Madrid, pero no se exige DPO/DPD al adjudicatario. | ID_188_2.PDF, Anexo IX, pág. 95 |\n| Seguridad e IA | Conservación de datos personales: mientras sean necesarios para la ejecución del contrato. | ID_188_2.PDF, Anexo IX, pág. 95 |\n| Seguridad e IA | Derechos de los interesados: acceso, rectificación, supresión, limitación, oposición. | ID_188_2.PDF, Anexo IX, pág. 95 |\n| Seguridad e IA | Categorías de datos tratados para gestión contractual: identificación, claves, direcciones, información comercial y económica. | ID_188_2.PDF, Anexo IX, pág. 95 |\n| Seguridad e IA | No se exige acuerdo de encargo de tratamiento ni se define rol de encargado para el adjudicatario. | ID_188_3.PDF, pág. 50 |\n| Seguridad e IA | No se exige DPO/DPD al adjudicatario. | ID_188_3.PDF, pág. 46 |\n| Seguridad e IA | No se exige certificación ENS ni ISO 27001. | ID_188_3.PDF, pág. 46 |\n| Seguridad e IA | No se especifican medidas técnicas concretas como MFA, PAM, VPN, segmentación, DLP, WAF, SIEM, SAST, DAST, SCA, SBOM, ni parámetros de RTO/RPO. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Seguridad e IA | No se exige plan de continuidad ni DR específico. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Seguridad e IA | No se exige auditoría ENS ni ISO periódica. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Seguridad e IA | No se detallan plazos de retención de logs ni de conservación de backups. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Seguridad e IA | No se define rol de encargado de tratamiento para el adjudicatario. | ID_188_3.PDF, pág. 50 |\n| Seguridad e IA | No se exige acuerdo de encargo de tratamiento. | ID_188_3.PDF, pág. 50 |\n| Seguridad e IA | No se exige DPO/DPD al adjudicatario. | ID_188_3.PDF, pág. 46 |\n| Seguridad e IA | No se exige certificación ENS ni ISO 27001. | ID_188_3.PDF, pág. 46 |\n| Seguridad e IA | No se especifican medidas técnicas concretas como MFA, PAM, VPN, segmentación, DLP, WAF, SIEM, SAST, DAST, SCA, SBOM, ni parámetros de RTO/RPO. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Seguridad e IA | No se exige plan de continuidad ni DR específico. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Seguridad e IA | No se exige auditoría ENS ni ISO periódica. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Seguridad e IA | No se detallan plazos de retención de logs ni de conservación de backups. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n\n# Discrepancias y pendientes de aclaración\nNo se han identificado discrepancias en la documentación revisada."
+  },
+  "ejecucion": "85031d5b7624483e9ed6104d59da6aeb",
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "ID_188_1.PDF",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 14915,
+        "caracteres_enviados_al_agente": 14915,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "ID_188_2.PDF",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 224684,
+        "caracteres_enviados_al_agente": 224684,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "ID_188_3.PDF",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 186976,
+        "caracteres_enviados_al_agente": 186976,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": []
+  },
+  "puntos_revision": [
+    {
+      "id": "REV-001",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Seguridad, certificaciones y protección de datos",
+      "prioridad": "media",
+      "detalle": "Revisar seguridad, certificaciones y protección de datos: 10 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-001.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "1. Resumen factual Seguridad / DPO / ENS",
+          "detalle": "El contrato indica expresamente que no se precisa tratamiento de datos personales por cuenta del responsable (Dirección General de Participación Ciudadana) por parte del adjudicatario, por lo que no se exige acuerdo de encargo de tratamiento ni se define rol de encargado. No obstante, se prevé anonimización de datos personales que los usuarios puedan incluir voluntariamente en sus consultas al asistente virtual. (ID_188_3.PDF, pág. 46, 50)",
+          "evidencia": "- El contrato indica expresamente que no se precisa tratamiento de datos personales por cuenta del responsable (Dirección General de Participación Ciudadana) por parte del adjudicatario, por lo que no se exige acuerdo de encargo de tratamiento ni se define rol de encargado. No obstante, se prevé anonimización de datos personales que los usuarios puedan incluir voluntariamente en sus consultas al asistente virtual. (ID_188_3.PDF, pág. 46, 50)",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "1. Resumen factual Seguridad / DPO / ENS",
+          "detalle": "**Datos no localizados o ambiguos:**",
+          "evidencia": "**Datos no localizados o ambiguos:**",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.03",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "1. Resumen factual Seguridad / DPO / ENS",
+          "detalle": "No se exige certificación ENS ni ISO 27001, solo cumplimiento material del ENS nivel básico. No se especifican medidas técnicas concretas como MFA, PAM, VPN, segmentación, DLP, WAF, SIEM, SAST, DAST, SCA, SBOM, ni parámetros de RTO/RPO. No se exige DPO/DPD al adjudicatario. No se define rol de encargado de tratamiento para el adjudicatario. No se exige acuerdo de encargo de tratamiento. No se detallan plazos de retención de logs ni de conservación de backups. No se exige plan de continuidad ni DR específico. No se exige auditoría ENS ni ISO periódica.",
+          "evidencia": "- No se exige certificación ENS ni ISO 27001, solo cumplimiento material del ENS nivel básico. No se especifican medidas técnicas concretas como MFA, PAM, VPN, segmentación, DLP, WAF, SIEM, SAST, DAST, SCA, SBOM, ni parámetros de RTO/RPO. No se exige DPO/DPD al adjudicatario. No se define rol de encargado de tratamiento para el adjudicatario. No se exige acuerdo de encargo de tratamiento. No se detallan plazos de retención de logs ni de conservación de backups. No se exige plan de continuidad ni DR específico. No se exige auditoría ENS ni ISO periódica.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.04",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "12. Datos no localizados o ambiguos, sin recomendaciones",
+          "detalle": "No se exige certificación ENS ni ISO 27001, solo cumplimiento material del ENS nivel básico. No se especifican medidas técnicas concretas como MFA, PAM, VPN, segmentación, DLP, WAF, SIEM, SAST, DAST, SCA, SBOM, ni parámetros de RTO/RPO. No se exige DPO/DPD al adjudicatario. No se define rol de encargado de tratamiento para el adjudicatario. No se exige acuerdo de encargo de tratamiento. No se detallan plazos de retención de logs ni de conservación de backups. No se exige plan de continuidad ni DR específico. No se exige auditoría ENS ni ISO periódica.",
+          "evidencia": "- No se exige certificación ENS ni ISO 27001, solo cumplimiento material del ENS nivel básico. No se especifican medidas técnicas concretas como MFA, PAM, VPN, segmentación, DLP, WAF, SIEM, SAST, DAST, SCA, SBOM, ni parámetros de RTO/RPO. No se exige DPO/DPD al adjudicatario. No se define rol de encargado de tratamiento para el adjudicatario. No se exige acuerdo de encargo de tratamiento. No se detallan plazos de retención de logs ni de conservación de backups. No se exige plan de continuidad ni DR específico. No se exige auditoría ENS ni ISO periódica.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.05",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Seguridad e IA; Requisito completo: No se define rol de encargado de tratamiento para el adjudicatario.; Fuente: ID_188_3.PDF, pág. 50",
+          "evidencia": "| Seguridad e IA | No se define rol de encargado de tratamiento para el adjudicatario. | ID_188_3.PDF, pág. 50 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.06",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Seguridad e IA; Requisito completo: No se detallan plazos de retención de logs ni de conservación de backups.; Fuente: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| Seguridad e IA | No se detallan plazos de retención de logs ni de conservación de backups. | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.07",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Seguridad e IA; Requisito completo: No se exige plan de continuidad ni DR específico.; Fuente: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| Seguridad e IA | No se exige plan de continuidad ni DR específico. | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.08",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Seguridad e IA; Requisito completo: No se exige auditoría ENS ni ISO periódica.; Fuente: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| Seguridad e IA | No se exige auditoría ENS ni ISO periódica. | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.09",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Seguridad e IA; Requisito completo: No se especifican medidas técnicas concretas como MFA, PAM, VPN, segmentación, DLP, WAF, SIEM, SAST, DAST, SCA, SBOM, ni parámetros de RTO/RPO.; Fuente: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| Seguridad e IA | No se especifican medidas técnicas concretas como MFA, PAM, VPN, segmentación, DLP, WAF, SIEM, SAST, DAST, SCA, SBOM, ni parámetros de RTO/RPO. | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.10",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Seguridad e IA; Requisito completo: No se exige acuerdo de encargo de tratamiento ni se define rol de encargado para el adjudicatario.; Fuente: ID_188_3.PDF, pág. 50",
+          "evidencia": "| Seguridad e IA | No se exige acuerdo de encargo de tratamiento ni se define rol de encargado para el adjudicatario. | ID_188_3.PDF, pág. 50 |",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-002",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Equipo, medios y ejecución del servicio",
+      "prioridad": "media",
+      "detalle": "Revisar equipo, medios y ejecución del servicio: 2 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-002.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "1. Resumen factual Seguridad / DPO / ENS",
+          "detalle": "Se exige registro de actividad de usuarios, retención de logs para monitorizar, analizar, investigar y documentar actividades indebidas o no autorizadas. Entrega de logs a requerimiento. Integración con herramientas de observabilidad y monitorización de IAM si se solicita. Backup y restauración proporcionados por IAM. No se especifican RTO/RPO. (ID_188_3.PDF, pág. 31, 49)",
+          "evidencia": "- Se exige registro de actividad de usuarios, retención de logs para monitorizar, analizar, investigar y documentar actividades indebidas o no autorizadas. Entrega de logs a requerimiento. Integración con herramientas de observabilidad y monitorización de IAM si se solicita. Backup y restauración proporcionados por IAM. No se especifican RTO/RPO. (ID_188_3.PDF, pág. 31, 49)",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "9. Logging, SOC/SIEM, continuidad, backup, RTO/RPO y retencion",
+          "detalle": "Se exige registro de actividad de usuarios, retención de logs para monitorizar, analizar, investigar y documentar actividades indebidas o no autorizadas. Entrega de logs a requerimiento. Integración con herramientas de observabilidad y monitorización de IAM si se solicita. Backup y restauración proporcionados por IAM. No se especifican RTO/RPO. (ID_188_3.PDF, pág. 31, 49)",
+          "evidencia": "- Se exige registro de actividad de usuarios, retención de logs para monitorizar, analizar, investigar y documentar actividades indebidas o no autorizadas. Entrega de logs a requerimiento. Integración con herramientas de observabilidad y monitorización de IAM si se solicita. Backup y restauración proporcionados por IAM. No se especifican RTO/RPO. (ID_188_3.PDF, pág. 31, 49)",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-003",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Documentación y otras condiciones pendientes",
+      "prioridad": "media",
+      "detalle": "Revisar documentación y otras condiciones pendientes: 1 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-003.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No se han identificado discrepancias en la documentación revisada.",
+          "evidencia": "No se han identificado discrepancias en la documentación revisada.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    }
+  ],
+  "recomendaciones": [],
+  "estado_recomendaciones": "no_generadas"
+}

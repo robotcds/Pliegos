@@ -1,0 +1,3180 @@
+{
+  "expediente": "OPP-SW-003",
+  "agentes_revisados": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A6",
+    "A8",
+    "A9",
+    "A10"
+  ],
+  "introduccion": [
+    "El expediente OPP-SW-003, promovido por el Consorcio Ficticio de Servicios Digitales, tiene por objeto la migración de aplicaciones municipales a una plataforma cloud basada en Azure Kubernetes Service, incluyendo contenerización, automatización CI/CD, observabilidad y reversibilidad. El contrato abarca la transición, migración, operación estabilizada y procedimientos de reversibilidad, con un alcance técnico que cubre seis aplicaciones, dieciocho microservicios y cuatro bases de datos, así como la integración de herramientas de monitorización y seguridad avanzadas.",
+    "La duración prevista es de 10 meses, con un presupuesto base de 540.000 EUR (sin IVA) y un importe total de 653.400 EUR (IVA incluido). Entre los condicionantes clave destacan la exigencia de solvencia económica y técnica elevada, la aportación de perfiles DevOps cloud senior y backend senior, la obligación de aportar herramientas y licencias específicas, y la necesidad de cumplir requisitos de seguridad ENS e ISO 27001. La presentación de la oferta debe realizarse antes del 30 de septiembre de 2026 a las 13:00 horas.",
+    "El modelo de prestación exige la ejecución de migraciones en ventanas autorizadas, sin pérdida de servicio y con reversibilidad garantizada. Se establecen penalizaciones por incumplimiento de plazos y niveles de servicio, así como restricciones a la subcontratación y la obligación de aportar soporte de fabricante/partner. Existen lagunas en la documentación sobre algunos aspectos formales y de acreditación, que deberán ser aclaradas en fases posteriores. [Pliego administrativo, técnico y anexo solvencia]"
+  ],
+  "secciones": [
+    {
+      "titulo": "Datos principales de la licitación",
+      "bloques": [
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Concepto",
+            "Información"
+          ],
+          "filas": [
+            [
+              "Expediente",
+              "OPP-SW-003"
+            ],
+            [
+              "Órgano de contratación",
+              "Consorcio Ficticio de Servicios Digitales"
+            ],
+            [
+              "Objeto",
+              "Migración cloud y contenerización de aplicaciones municipales a Azure Kubernetes Service, con CI/CD, observabilidad y reversibilidad"
+            ],
+            [
+              "Presupuesto base (sin IVA)",
+              "540.000 EUR"
+            ],
+            [
+              "Importe total (con IVA)",
+              "653.400 EUR"
+            ],
+            [
+              "Valor estimado",
+              "540.000 EUR"
+            ],
+            [
+              "Duración inicial",
+              "10 meses"
+            ],
+            [
+              "Prórrogas",
+              "No previstas"
+            ],
+            [
+              "CPV",
+              "72222300"
+            ],
+            [
+              "Ubicación",
+              "Aragón"
+            ],
+            [
+              "Plazo de presentación",
+              "30/09/2026 13:00"
+            ],
+            [
+              "Lotes",
+              "No se admiten variantes ni lotes"
+            ],
+            [
+              "Procedimiento",
+              "Abierto simplificado ficticio"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Presentación y documentación por fase",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "La presentación de ofertas se realiza en dos sobres electrónicos: el sobre 1 incluye la documentación administrativa y técnica, y el sobre 2 la oferta económica. La propuesta de migración no podrá superar 50 páginas. La documentación a presentar comprende memoria de migración, plan de continuidad y reversibilidad, plan de seguridad y gestión de cambios, CV del equipo mínimo y oferta económica. Se exige carta de compromiso del partner cloud para soporte AKS y confirmación de regiones UE. [Pliego administrativo]"
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Sobre 1: documentación administrativa y técnica (memoria, planes, CV)",
+            "Sobre 2: oferta económica",
+            "Carta de compromiso del partner cloud (soporte AKS, regiones UE)",
+            "CV del equipo mínimo en la oferta (sobre 1)",
+            "No consta información sobre idioma, firma, formato, plataforma de presentación, nomenclatura ni extensión"
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La falta de plan de reversibilidad o la superación del presupuesto máximo provocará exclusión. Las ofertas con baja superior al 18% deberán justificar viabilidad; baja superior al 22% se considerará de alto riesgo. [Pliego administrativo]"
+        }
+      ]
+    },
+    {
+      "titulo": "Alcance técnico, actividades y entregables",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "El objeto del contrato es la migración de seis aplicaciones internas a Azure Kubernetes Service, incluyendo contenerización Docker, pipelines CI/CD, monitorización, backup, hardening y procedimientos de reversibilidad. El alcance incluye 18 microservicios, 4 bases de datos y 3 entornos por aplicación. El servicio cubre transición, migración, operación estabilizada durante 9 meses y reversibilidad. [Pliego técnico]"
+        },
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Elemento",
+            "Cantidad/Detalle"
+          ],
+          "filas": [
+            [
+              "Aplicaciones",
+              "6"
+            ],
+            [
+              "Microservicios",
+              "18"
+            ],
+            [
+              "Bases de datos",
+              "4"
+            ],
+            [
+              "Entornos por aplicación",
+              "3"
+            ],
+            [
+              "Cloud temporal de migración",
+              "4.200 EUR/mes durante 6 meses"
+            ],
+            [
+              "Guardias de migración",
+              "8 fines de semana"
+            ]
+          ]
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Transición de 8 semanas: inventario, discovery, diseño de CMDB, runbooks, pruebas de backup, simulacro de rollback y reverse shadowing.",
+            "Migraciones productivas en ventanas autorizadas y con plan de vuelta atrás aprobado.",
+            "Operación estabilizada: soporte 12x5 con guardia localizada para ventanas de migración.",
+            "Reversibilidad de 4 semanas: exportación de configuración, pipelines, IaC, CMDB, tickets e informes de capacidad.",
+            "El adjudicatario debe aportar cloud temporal de migración Azure, herramientas de escaneo de contenedores, SAST/SCA para 5 usuarios, Grafana/Prometheus gestionado si no usa herramientas del cliente, y soporte de fabricante/partner durante ventanas de migración.",
+            "El adjudicatario debe ejecutar migraciones sin pérdida de servicio, con ventana máxima de indisponibilidad de 4 horas por aplicación."
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige Change Management formal con CAB semanal, Release/Deployment Management, Event Management, Configuration Management y Availability Management. Se requiere reconciliación mensual de la CMDB y reporting de capacidad en reversibilidad. [Pliego técnico]"
+        }
+      ]
+    },
+    {
+      "titulo": "Equipo y continuidad del servicio",
+      "bloques": [
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Perfil",
+            "Cantidad",
+            "Experiencia mínima",
+            "Dedicación"
+          ],
+          "filas": [
+            [
+              "DevOps/Cloud Senior",
+              "2",
+              "5 años en Azure, Kubernetes, Docker, CI/CD y observabilidad",
+              "100% durante 8 meses"
+            ],
+            [
+              "Backend Senior",
+              "1",
+              "5 años en Java o Python",
+              "No consta"
+            ],
+            [
+              "Jefe de Proyecto",
+              "1",
+              "6 años en migraciones técnicas",
+              "35% durante 10 meses"
+            ]
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El equipo mínimo debe estar disponible desde el inicio de la ejecución del contrato. Los DevOps/cloud senior cubren migración, contenerización, automatización de pipelines, monitorización, soporte en ventanas de migración y guardias. El backend senior adapta servicios y APIs. El jefe de proyecto dirige, planifica, coordina migraciones, gestiona riesgos y valida postmigración. [Pliego técnico y administrativo]"
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Guardia localizada para ventanas de migración: 8 fines de semana de migración con guardias DevOps incluidas.",
+            "No se exige titulación universitaria, colegiación ni habilitación profesional específica.",
+            "Certificaciones puntuables: CKA, Azure Administrator, ISO 27001 (empresa).",
+            "No se regula el reemplazo ni las condiciones de sustitución de miembros del equipo.",
+            "No se cuantifican suplentes ni se regula la cobertura de ausencias, vacaciones o bajas.",
+            "No se exige formación adicional ni refuerzos específicos."
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige la presentación de CV del equipo mínimo en la oferta (sobre 1). No se exige documentación adicional (vida laboral, títulos, contratos) para acreditar la vinculación del equipo en la fase de oferta. [Pliego administrativo]"
+        }
+      ]
+    },
+    {
+      "titulo": "Solvencia y acreditación",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Solvencia económica"
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Volumen anual mínimo de negocios: 900.000 EUR. No se especifica si es global o sectorial ni el periodo de referencia.",
+            "Seguro de responsabilidad civil profesional de 1.500.000 EUR. No se detalla si es por siniestro o agregado ni la vigencia mínima."
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Solvencia técnica"
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Experiencia previa demostrable en al menos tres migraciones cloud en administraciones públicas.",
+            "Cada referencia: importe mínimo 250.000 EUR, ejecutada en los últimos cinco años, duración mínima 6 meses, al menos una con Kubernetes o AKS.",
+            "No se menciona la exigencia de certificados de buena ejecución; se exige experiencia 'demostrable' y referencias, pero no se detalla el medio de acreditación."
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Otros requisitos y acreditaciones"
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Clasificación empresarial: servicios de consultoría y desarrollo informático Grupo V, Subgrupo 2, Categoría 3, o acreditación alternativa solo para empresas no españolas.",
+            "ISO 27001 obligatoria para la empresa. No se especifica versión, alcance ni entidad certificadora.",
+            "Carta de compromiso del partner cloud para soporte AKS y confirmación de regiones UE.",
+            "No consta exigencia ni alternativa expresa relativa a ROLECE."
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se detallan los momentos de presentación ni los sobres/documentos concretos para la acreditación de la solvencia, salvo que la documentación administrativa y técnica va en el sobre 1. [Pliego administrativo, técnico y anexo solvencia]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Contenido inicial"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se han identificado discrepancias numéricas internas ni contradicciones entre documentos en la documentación revisada."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Contenido inicial"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se especifica en ningún documento si la acreditación de la experiencia previa (referencias) requiere certificados de buena ejecución, relación de trabajos o si se admiten otros medios. El término \"demostrable\" no se desarrolla. (Pliego técnico y Anexo solvencia)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Contenido inicial"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se detalla el periodo de referencia para el volumen anual de negocios ni si es el mejor ejercicio dentro de una ventana temporal. (Pliego administrativo)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Contenido inicial"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se especifica si el seguro de responsabilidad civil profesional debe estar vigente a la fecha de presentación, durante la ejecución o si se admite compromiso de renovación. (Pliego administrativo)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Contenido inicial"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se indica si la clasificación empresarial puede ser sustituida por inscripción en ROLECE o si se admite para empresas españolas. (Pliego administrativo)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Contenido inicial"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se detallan reglas para acumulación de solvencia en UTE ni para empresas de nueva creación. (Revisión completa de pliego y anexos)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Contenido inicial"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se especifica el formato, vigencia ni momento de acreditación de la carta de compromiso del partner cloud. (Pliego administrativo, anexo compras/partners)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Contenido inicial"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se indica versión, alcance ni entidad certificadora exigida para la ISO 27001. (Pliego administrativo y técnico)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        }
+      ]
+    },
+    {
+      "titulo": "Criterios, subcriterios y mejoras puntuables",
+      "bloques": [
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Criterio",
+            "Puntos máximos",
+            "Peso",
+            "Tipo"
+          ],
+          "filas": [
+            [
+              "Precio",
+              "50",
+              "50%",
+              "Automático"
+            ],
+            [
+              "Plan de migración",
+              "22",
+              "22%",
+              "Juicio de valor"
+            ],
+            [
+              "Plan de reversibilidad y continuidad",
+              "10",
+              "10%",
+              "Juicio de valor"
+            ],
+            [
+              "Observabilidad y SLA operativo",
+              "8",
+              "8%",
+              "Juicio de valor"
+            ],
+            [
+              "Certificaciones y equipo cloud",
+              "5",
+              "5%",
+              "Automático"
+            ],
+            [
+              "Reducción de plazo",
+              "5",
+              "5%",
+              "Automático"
+            ]
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El criterio de precio se valora con la fórmula: P = 50 x (oferta mínima / oferta licitador). La mejor oferta obtiene 50 puntos. Las ofertas con baja superior al 18% deberán justificar viabilidad mediante memoria; baja superior al 22% se considerará de alto riesgo. [Pliego administrativo]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El plan de migración se valora con un máximo de 22 puntos, distribuidos en: inventario y oleadas (6), automatización CI/CD (5), seguridad (4), gestión de riesgos (4), validación postmigración (3). El plan de reversibilidad y continuidad se valora con un máximo de 10 puntos. Observabilidad y SLA operativo: hasta 8 puntos si se ofrecen dashboards, alertas y respuesta crítica inferior a 2 horas. Certificaciones y equipo cloud: CKA (2 puntos), Azure Administrator (2 puntos), ISO 27001 (1 punto). Reducción de plazo: hasta 5 puntos por reducción del 10% del plazo. [Pliego administrativo]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se establece un umbral mínimo de 24 puntos sobre los 40 puntos técnicos de migración, reversibilidad y observabilidad. No alcanzar este umbral implica exclusión. No consta fórmula de reparto parcial para subcriterios técnicos, reducción de plazo ni observabilidad/SLA cuando no se alcanza el tope. No consta si los puntos de certificaciones son acumulativos o alternativos. [Pliego administrativo]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El plan de migración se valora con un máximo de 22 puntos, distribuidos en los siguientes subcriterios: inventario y oleadas (6 puntos), automatización CI/CD (5 puntos), seguridad (4 puntos), gestión de riesgos (4 puntos), validación postmigración (3 puntos). El plan de reversibilidad y continuidad se valora con un máximo de 10 puntos. Observabilidad y SLA operativo: hasta 8 puntos si se ofrecen dashboards, alertas y respuesta crítica inferior a 2 horas. Certificaciones y equipo cloud: CKA (2 puntos), Azure Administrator (2 puntos), ISO 27001 (1 punto). Reducción de plazo: hasta 5 puntos por reducción del 10% del plazo. No consta baremo de mejoras adicionales fuera de los criterios expresamente puntuados. [Pliego administrativo]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No consta fórmula de reparto parcial para los subcriterios técnicos, reducción de plazo ni observabilidad/SLA cuando no se alcanza el tope. No consta si los puntos de certificaciones son acumulativos o alternativos. No consta régimen de desempate ni reglas de redondeo. [Pliego administrativo]"
+        }
+      ]
+    },
+    {
+      "titulo": "Oferta económica y ofertas anormalmente bajas",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "La oferta económica se valora con la fórmula: P = 50 x (oferta mínima / oferta licitador). La mejor oferta obtiene 50 puntos. Las ofertas con baja superior al 18% deberán justificar viabilidad mediante memoria. Las ofertas con baja superior al 22% se considerarán de alto riesgo por carga de migración. No se especifica fórmula de anormalidad ni procedimiento de exclusión automática. [Pliego administrativo]"
+        }
+      ]
+    },
+    {
+      "titulo": "Facturación, cobro y garantías",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "La facturación se realiza por hitos: 10% inventario, 25% oleada 1, 25% oleada 2, 25% oleada final, 15% cierre y reversibilidad. No hay anticipo; compras y licencias se financian con recursos propios hasta el cobro de hitos. No consta información sobre plazos de cobro, aceptación, anticipos, revisión de precios, modificaciones ni prórrogas. [Pliego administrativo]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Garantías y seguros"
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Seguro de responsabilidad civil profesional de 1.500.000 EUR.",
+            "No consta exigencia de garantía provisional, definitiva ni complementaria."
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Horarios, plazos, ANS y penalizaciones",
+      "bloques": [
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Actividad/SLA",
+            "Plazo/Objetivo",
+            "Penalización"
+          ],
+          "filas": [
+            [
+              "Transición",
+              "8 semanas",
+              "No especificada"
+            ],
+            [
+              "Migración productiva",
+              "Ventanas autorizadas, máx. 4 h indisponibilidad/app",
+              "0,5%/semana de retraso, máx. 7% contrato"
+            ],
+            [
+              "Guardias de migración",
+              "8 fines de semana",
+              "No especificada"
+            ],
+            [
+              "Estabilización P1",
+              "Respuesta ≤ 30 min, resolución ≤ 4 h",
+              "No especificada"
+            ],
+            [
+              "Estabilización P2",
+              "Respuesta ≤ 2 h, resolución ≤ 1 día",
+              "No especificada"
+            ],
+            [
+              "Disponibilidad",
+              "≥ 99,5%",
+              "2% mensual si baja de 99,5%"
+            ],
+            [
+              "Cambio fallido sin rollback",
+              "-",
+              "1% por cambio fallido"
+            ]
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Las penalizaciones se aplican por retraso en oleadas (0,5% del precio por semana, máximo 7% del contrato), por baja disponibilidad (2% mensual si baja de 99,5%) y por cambio fallido sin rollback documentado (1%). [Pliego administrativo y técnico]"
+        }
+      ]
+    },
+    {
+      "titulo": "Obligaciones contractuales y subcontratación",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Se permite subcontratación máxima del 25%, excepto dirección de proyecto y arquitectura cloud principal, que no pueden subcontratarse. Las guardias de migración pueden cubrirse internamente o con Cloud Partner Ficticio S.A. No se admiten variantes. [Pliego administrativo]"
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Condiciones especiales de ejecución: migraciones productivas en ventanas autorizadas y con plan de vuelta atrás aprobado.",
+            "El adjudicatario debe ejecutar migraciones sin pérdida de servicio, con ventana máxima de indisponibilidad de 4 horas por aplicación.",
+            "ENS: la plataforma cloud destino debe cumplir ENS categoría MEDIA y el adjudicatario disponer de ISO 27001.",
+            "Aplicaciones y backups en regiones UE; prohibidas transferencias internacionales salvo autorización expresa."
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Seguridad y protección de datos",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige que la plataforma cloud destino cumpla ENS categoría MEDIA, incluyendo administración cloud, pipelines CI/CD, monitorización y soporte. El adjudicatario debe disponer de ISO 27001. Aplicaciones y backups deben estar en regiones UE; prohibidas transferencias internacionales salvo autorización expresa. [Pliego técnico]"
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Inventario de subencargados cloud, soporte remoto y herramientas SaaS.",
+            "MFA obligatorio, PAM para cuentas privilegiadas, bastionado de contenedores, escaneo de imágenes, gestión de secretos, cifrado de discos, network policies, WAF para aplicaciones expuestas, logs centralizados 18 meses y sincronización NTP.",
+            "CVE crítica en imagen base corregida ≤ 24 horas; CVE alta ≤ 7 días. SAST/SCA en pipelines y aprobación de excepciones.",
+            "Incidente cloud crítico: comunicación ≤ 1 hora, RCA en 5 días, evidencias forenses preservadas.",
+            "Reversibilidad segura: borrado de credenciales, rotación de secretos, exportación IaC y certificado de eliminación de datos temporales."
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No consta información sobre categorías de datos personales, finalidad, roles de tratamiento, contenido de acuerdos de encargado/subencargado, DPO/DPD, EIPD, auditorías ni reglas de confidencialidad más allá de las medidas técnicas y de reversibilidad citadas. [Pliego técnico]"
+        }
+      ]
+    },
+    {
+      "titulo": "Medios, licencias y terceros",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe aportar herramientas de escaneo de contenedores, licencias SAST/SCA para 5 usuarios, Grafana/Prometheus gestionado si no usa herramientas del cliente, cloud temporal de migración Azure y soporte de fabricante/partner durante ventanas de migración. Jira Service Management será aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias. [Pliego administrativo y técnico]"
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Cloud temporal de migración: 4.200 EUR/mes durante 6 meses.",
+            "Herramientas obligatorias: repositorio IaC, escaneo de contenedores, monitorización Grafana/Prometheus y licencias SAST/SCA para 5 usuarios.",
+            "Azure Monitor, Grafana y Jira Service Management aceptadas como herramientas de monitorización y gestión.",
+            "Carta de compromiso del partner cloud para soporte AKS y confirmación de regiones UE.",
+            "No se admiten variantes."
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Cierre y transferencia",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "La reversibilidad debe ejecutarse en 4 semanas, incluyendo exportación de configuración, pipelines, IaC, CMDB, tickets e informes de capacidad. Se exige borrado de credenciales, rotación de secretos, exportación IaC y certificado de eliminación de datos temporales. [Pliego técnico]"
+        }
+      ]
+    },
+    {
+      "titulo": "Discrepancias y datos pendientes",
+      "bloques": [
+        {
+          "tipo": "lista",
+          "elementos": [
+            "No consta información sobre idioma, firma, formato, plataforma de presentación, nomenclatura, extensión, DEUC, declaraciones, poderes, escrituras, plazos de cobro, aceptación, anticipos, revisión de precios, modificaciones, prórrogas, resolución, confidencialidad, propiedad intelectual, PRL, laboral, igualdad, medioambiente, lotes adicionales o incompatibilidades adicionales.",
+            "No se especifica si la acreditación de la experiencia previa requiere certificados de buena ejecución, relación de trabajos o si se admiten otros medios.",
+            "No se detalla el periodo de referencia para el volumen anual de negocios ni si es el mejor ejercicio dentro de una ventana temporal.",
+            "No se especifica si el seguro de responsabilidad civil profesional debe estar vigente a la fecha de presentación, durante la ejecución o si se admite compromiso de renovación.",
+            "No se indica si la clasificación empresarial puede ser sustituida por inscripción en ROLECE o si se admite para empresas españolas.",
+            "No se detallan reglas para acumulación de solvencia en UTE ni para empresas de nueva creación.",
+            "No se especifica el formato, vigencia ni momento de acreditación de la carta de compromiso del partner cloud.",
+            "No se indica versión, alcance ni entidad certificadora exigida para la ISO 27001.",
+            "No consta fórmula de reparto parcial para subcriterios técnicos, reducción de plazo ni observabilidad/SLA cuando no se alcanza el tope.",
+            "No consta si los puntos de certificaciones son acumulativos o alternativos.",
+            "No consta régimen de desempate ni reglas de redondeo.",
+            "No consta baremo de mejoras adicionales fuera de los criterios expresamente puntuados."
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Desglose económico y fases",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Presupuesto base de licitación: 653.400 EUR IVA incluido; valor estimado: 540.000 EUR; presupuesto de oferta: 540.000 EUR sin IVA; duración: 10 meses; sin prórroga; facturación por hitos: 10% inventario, 25% oleada 1, 25% oleada 2, 25% oleada final, 15% cierre y reversibilidad; no hay anticipo; compras y licencias se financian con recursos propios hasta cobro de hitos; penalización: 0,5% del precio por semana de retraso en una oleada, máximo 7% del contrato; cloud temporal de migración: 4.200 EUR/mes durante 6 meses para entornos paralelos, pruebas y observabilidad (no presupuestado de forma separada en el pliego)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Plazo de presentación de ofertas: 30/09/2026 a las 13:00."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, texto extraído]"
+        }
+      ]
+    },
+    {
+      "titulo": "Procedimiento y tramitación",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Procedimiento abierto simplificado ficticio."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, texto extraído]"
+        }
+      ]
+    },
+    {
+      "titulo": "Condiciones de participación",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "capacidad y prohibiciones"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige capacidad de obrar, no prohibición para contratar y certificados positivos de Hacienda y Seguridad Social."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, texto extraído]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "solvencia económica"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Volumen anual mínimo de 900.000 EUR y seguro de responsabilidad civil profesional de 1.500.000 EUR."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, texto extraído]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "clasificación y habilitaciones"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige clasificación empresarial equivalente a servicios de consultoría y desarrollo informático Grupo V, Subgrupo 2, Categoría 3, o acreditación alternativa solo para empresas no españolas. Se exige ISO 27001."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, texto extraído]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "solvencia técnica y equipo mínimo"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dos perfiles DevOps/cloud senior, cada uno con al menos 5 años de experiencia en Azure, Kubernetes, Docker, CI/CD y observabilidad; un desarrollador backend senior con al menos 5 años en Java o Python; jefe de proyecto con al menos 6 años de experiencia en migraciones técnicas; experiencia previa demostrable en al menos tres migraciones cloud de administraciones públicas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, texto extraído; Anexo solvencia OPP-SW-003 migracion cloud, texto extraído]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "solvencia técnica específica"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Tres referencias de migraciones cloud en administraciones públicas, ejecutadas en los últimos cinco años, importe mínimo de 250.000 EUR y duración mínima de 6 meses; al menos una referencia debe incluir Kubernetes o AKS."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Anexo solvencia OPP-SW-003 migracion cloud, texto extraído]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "UTE y subcontratación"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se permite subcontratación máxima del 25%, excepto dirección de proyecto y arquitectura cloud. No se permite subcontratar dirección de proyecto ni arquitectura cloud principal."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, texto extraído]"
+        }
+      ]
+    },
+    {
+      "titulo": "Documentación administrativa",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "general"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Documentación a presentar: memoria de migración, plan de continuidad y reversibilidad, plan de seguridad y gestión de cambios, CV del equipo mínimo, oferta económica."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, texto extraído]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "sobres y formato"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dos sobres electrónicos: sobre 1 documentación administrativa y técnica; sobre 2 oferta económica. Propuesta de migración no podrá superar 50 páginas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, texto extraído]"
+        }
+      ]
+    },
+    {
+      "titulo": "Datos no localizados y límites de lectura",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Declaración de ausencia del extractor; no acredita una exención contractual.]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA sobre lotes o incompatibilidades adicionales."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Declaración de ausencia del extractor; no acredita una exención contractual.]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA sobre plazos de cobro, aceptación, anticipos, revisión de precios, modificaciones y prórrogas con sus límites."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Declaración de ausencia del extractor; no acredita una exención contractual.]"
+        }
+      ]
+    },
+    {
+      "titulo": "Causas o condiciones de exclusión",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Las ofertas con baja superior al 18% deberán justificar viabilidad; baja superior al 22% se considerará de alto riesgo por carga de migración."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, texto extraído]"
+        }
+      ]
+    },
+    {
+      "titulo": "Penalizaciones",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Penalización del 0,5% del precio por semana de retraso en una oleada; máximo 7% del contrato."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Penalización del 2% mensual si la disponibilidad baja de 99,5% y 1% por cambio fallido sin rollback documentado."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, texto extraído]"
+        }
+      ]
+    },
+    {
+      "titulo": "Duración y prórrogas",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Duración: 10 meses; sin prórroga."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, texto extraído]"
+        }
+      ]
+    },
+    {
+      "titulo": "Condiciones especiales de ejecución",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Las migraciones productivas se ejecutarán en ventanas autorizadas y con plan de vuelta atrás aprobado."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario deberá ejecutar migraciones sin pérdida de servicio, con ventana máxima de indisponibilidad de 4 horas por aplicación."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "ENS: se exige que la plataforma cloud destino cumpla ENS categoría MEDIA y que el adjudicatario disponga de ISO 27001."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Incidente cloud crítico comunicación <= 1 hora, RCA en 5 días, evidencias forenses preservadas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, texto extraído]"
+        }
+      ]
+    },
+    {
+      "titulo": "RGPD y protección de datos",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Inventario de subencargados cloud, soporte remoto y herramientas SaaS; prohibidas transferencias internacionales salvo autorización expresa."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, texto extraído]"
+        }
+      ]
+    },
+    {
+      "titulo": "Condiciones de pago y facturación",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Facturación por hitos: 10% inventario, 25% oleada 1, 25% oleada 2, 25% oleada final, 15% cierre y reversibilidad; no hay anticipo; compras y licencias se financian con recursos propios hasta cobro de hitos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, texto extraído]"
+        }
+      ]
+    },
+    {
+      "titulo": "Equipo y continuidad",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Dos DevOps cloud senior al 100% durante 8 meses y jefe de proyecto 35% durante 10 meses."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Herramientas: repositorio IaC, escaneo de contenedores, monitorización Grafana/Prometheus y licencias SAST/SCA para 5 usuarios."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Cloud temporal de migración: 4.200 EUR/mes durante 6 meses para entornos paralelos, pruebas y observabilidad."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Ventanas fuera de horario: 8 fines de semana de migración con guardias DevOps incluidas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe aportar herramientas de escaneo de contenedores, SAST/SCA para 5 usuarios, Grafana/Prometheus gestionado si no usa herramientas del cliente, cloud temporal de migración Azure y soporte de fabricante/partner durante ventanas de migración."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Las guardias de migración pueden cubrirse internamente o con Cloud Partner Ficticio S.A.; no se permite subcontratar dirección del proyecto ni arquitectura cloud principal."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Jefe de proyecto con al menos 6 años de experiencia en migraciones técnicas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, texto extraído; Anexo solvencia OPP-SW-003 migracion cloud, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dos perfiles DevOps/cloud senior, cada uno con al menos 5 años de experiencia en Azure, Kubernetes, Docker, CI/CD y observabilidad."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, texto extraído; Anexo solvencia OPP-SW-003 migracion cloud, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Un desarrollador backend senior con al menos 5 años en Java o Python."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, texto extraído; Anexo solvencia OPP-SW-003 migracion cloud, texto extraído]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "DevOps/Cloud Senior (2 puestos)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "DevOps/Cloud Senior (2 puestos): Se exige un mínimo de dos perfiles DevOps/cloud senior [Pliego técnico OPP-SW-003 migracion cloud, \"Solvencia tecnica y equipo minimo\"; Anexo solvencia OPP-SW-003 migracion cloud, \"Equipo minimo\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "DevOps/Cloud Senior (2 puestos)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "DevOps/Cloud Senior (2 puestos): Cada uno debe contar con al menos 5 años de experiencia en Azure, Kubernetes, Docker, CI/CD y observabilidad [Pliego técnico OPP-SW-003 migracion cloud, \"Solvencia tecnica y equipo minimo\"; Anexo solvencia OPP-SW-003 migracion cloud, \"Equipo minimo\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "DevOps/Cloud Senior (2 puestos)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "DevOps/Cloud Senior (2 puestos): Dedicación: 100% durante 8 meses [Pliego administrativo OPP-SW-003 migracion cloud, \"ANEXO ECONOMICO-FINANCIERO: Costes obligatorios\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "DevOps/Cloud Senior (2 puestos)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "DevOps/Cloud Senior (2 puestos): Funciones: migración, contenerización, automatización de pipelines, monitorización, soporte en ventanas de migración, guardias [Pliego técnico OPP-SW-003 migracion cloud, \"Objeto\", \"Service Design / ITIL\", \"Condiciones\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "DevOps/Cloud Senior (2 puestos)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "DevOps/Cloud Senior (2 puestos): Presencialidad/ubicación: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "DevOps/Cloud Senior (2 puestos)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "DevOps/Cloud Senior (2 puestos): Idiomas: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "DevOps/Cloud Senior (2 puestos)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "DevOps/Cloud Senior (2 puestos): Certificaciones: puntuables, no obligatorias (CKA, Azure Administrator) [Pliego administrativo OPP-SW-003 migracion cloud, \"Criterios de adjudicacion\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "DevOps/Cloud Senior (2 puestos)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "DevOps/Cloud Senior (2 puestos): Sustituciones: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Backend Senior (1 puesto)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Backend Senior (1 puesto): Se exige un perfil de desarrollador backend senior [Pliego técnico OPP-SW-003 migracion cloud, \"Solvencia tecnica y equipo minimo\"; Anexo solvencia OPP-SW-003 migracion cloud, \"Equipo minimo\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Backend Senior (1 puesto)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Backend Senior (1 puesto): Experiencia mínima de 5 años en Java o Python [Pliego técnico OPP-SW-003 migracion cloud, \"Solvencia tecnica y equipo minimo\"; Anexo solvencia OPP-SW-003 migracion cloud, \"Equipo minimo\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Backend Senior (1 puesto)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Backend Senior (1 puesto): Funciones: adaptación de servicios y APIs para la migración y contenerización [Pliego técnico OPP-SW-003 migracion cloud, \"Objeto\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Backend Senior (1 puesto)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Backend Senior (1 puesto): Dedicación: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Backend Senior (1 puesto)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Backend Senior (1 puesto): Presencialidad/ubicación: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Backend Senior (1 puesto)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Backend Senior (1 puesto): Idiomas: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Backend Senior (1 puesto)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Backend Senior (1 puesto): Certificaciones: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Backend Senior (1 puesto)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Backend Senior (1 puesto): Sustituciones: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Jefe de Proyecto (1 puesto)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Jefe de Proyecto (1 puesto): Se exige un jefe de proyecto [Pliego técnico OPP-SW-003 migracion cloud, \"Solvencia tecnica y equipo minimo\"; Anexo solvencia OPP-SW-003 migracion cloud, \"Equipo minimo\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Jefe de Proyecto (1 puesto)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Jefe de Proyecto (1 puesto): Experiencia mínima de 6 años en migraciones técnicas [Pliego técnico OPP-SW-003 migracion cloud, \"Solvencia tecnica y equipo minimo\"; Anexo solvencia OPP-SW-003 migracion cloud, \"Equipo minimo\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Jefe de Proyecto (1 puesto)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Jefe de Proyecto (1 puesto): Dedicación: 35% durante 10 meses [Pliego administrativo OPP-SW-003 migracion cloud, \"ANEXO ECONOMICO-FINANCIERO: Costes obligatorios\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Jefe de Proyecto (1 puesto)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Jefe de Proyecto (1 puesto): Funciones: dirección de proyecto, planificación, coordinación de migraciones, gestión de riesgos, validación postmigración, interlocución con el cliente [Pliego técnico OPP-SW-003 migracion cloud, \"Objeto\", \"Service Design / ITIL\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Jefe de Proyecto (1 puesto)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Jefe de Proyecto (1 puesto): Presencialidad/ubicación: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Jefe de Proyecto (1 puesto)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Jefe de Proyecto (1 puesto): Idiomas: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Jefe de Proyecto (1 puesto)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Jefe de Proyecto (1 puesto): Certificaciones: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Jefe de Proyecto (1 puesto)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Jefe de Proyecto (1 puesto): Sustituciones: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Titulaciones, colegiación, certificaciones y habilitaciones"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Titulaciones, colegiación, certificaciones y habilitaciones: No se exige titulación universitaria, colegiación ni habilitación profesional específica para ningún perfil [NO CONSTA EN LA DOCUMENTACION REVISADA]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Titulaciones, colegiación, certificaciones y habilitaciones"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Titulaciones, colegiación, certificaciones y habilitaciones: Certificaciones puntuables: CKA (Certified Kubernetes Administrator), Azure Administrator, ISO 27001 (esta última a nivel empresa) [Pliego administrativo OPP-SW-003 migracion cloud, \"Criterios de adjudicacion\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Titulaciones, colegiación, certificaciones y habilitaciones"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Titulaciones, colegiación, certificaciones y habilitaciones: Certificaciones obligatorias: ISO 27001 a nivel empresa [Pliego administrativo OPP-SW-003 migracion cloud, \"Clasificacion y certificaciones\"; Pliego técnico OPP-SW-003 migracion cloud, \"Seguridad / DPO / ENS\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Experiencia exigida, sector, tecnología, funciones y periodos de referencia"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Experiencia exigida, sector, tecnología, funciones y periodos de referencia: DevOps/cloud senior: mínimo 5 años en Azure, Kubernetes, Docker, CI/CD y observabilidad [Pliego técnico OPP-SW-003 migracion cloud, \"Solvencia tecnica y equipo minimo\"; Anexo solvencia OPP-SW-003 migracion cloud, \"Equipo minimo\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Experiencia exigida, sector, tecnología, funciones y periodos de referencia"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Experiencia exigida, sector, tecnología, funciones y periodos de referencia: Backend senior: mínimo 5 años en Java o Python [Pliego técnico OPP-SW-003 migracion cloud, \"Solvencia tecnica y equipo minimo\"; Anexo solvencia OPP-SW-003 migracion cloud, \"Equipo minimo\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Experiencia exigida, sector, tecnología, funciones y periodos de referencia"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Experiencia exigida, sector, tecnología, funciones y periodos de referencia: Jefe de proyecto: mínimo 6 años en migraciones técnicas [Pliego técnico OPP-SW-003 migracion cloud, \"Solvencia tecnica y equipo minimo\"; Anexo solvencia OPP-SW-003 migracion cloud, \"Equipo minimo\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Experiencia exigida, sector, tecnología, funciones y periodos de referencia"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Experiencia exigida, sector, tecnología, funciones y periodos de referencia: Experiencia previa en al menos tres migraciones cloud de administraciones públicas (empresa, no personal) [Pliego técnico OPP-SW-003 migracion cloud, \"Solvencia tecnica y equipo minimo\"; Anexo solvencia OPP-SW-003 migracion cloud, \"Solvencia especifica\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Experiencia exigida, sector, tecnología, funciones y periodos de referencia"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Experiencia exigida, sector, tecnología, funciones y periodos de referencia: Periodo de referencia para migraciones cloud: últimos cinco años, importe mínimo 250.000 EUR, duración mínima 6 meses, al menos una con Kubernetes o AKS [Anexo solvencia OPP-SW-003 migracion cloud, \"Solvencia especifica\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones: DevOps/cloud senior: dedicación 100% durante 8 meses [Pliego administrativo OPP-SW-003 migracion cloud, \"ANEXO ECONOMICO-FINANCIERO: Costes obligatorios\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones: Jefe de proyecto: dedicación 35% durante 10 meses [Pliego administrativo OPP-SW-003 migracion cloud, \"ANEXO ECONOMICO-FINANCIERO: Costes obligatorios\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones: Backend senior: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones: Horario de soporte: 12x5 (12 horas al día, 5 días a la semana) con guardia localizada para ventanas de migración [Pliego técnico OPP-SW-003 migracion cloud, \"Service Design / ITIL\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones: Ventanas fuera de horario: 8 fines de semana de migración con guardias DevOps incluidas [Pliego administrativo OPP-SW-003 migracion cloud, \"ANEXO ECONOMICO-FINANCIERO: Costes obligatorios\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones: Presencialidad/ubicación: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones: Idiomas: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones: Sustituciones: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa: Se exige la presentación de CV del equipo mínimo en la oferta (sobre 1) [Pliego administrativo OPP-SW-003 migracion cloud, \"Documentacion\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa: No se especifica formato ni requisitos de anonimización para los CV [NO CONSTA EN LA DOCUMENTACION REVISADA]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa: No se exige compromiso de adscripción ni permanencia expreso más allá de la presentación de CV [NO CONSTA EN LA DOCUMENTACION REVISADA]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa: No se regula el reemplazo ni las condiciones de sustitución de miembros del equipo [NO CONSTA EN LA DOCUMENTACION REVISADA]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa: No se exige documentación adicional (vida laboral, títulos, contratos) para acreditar la vinculación del equipo en la fase de oferta [NO CONSTA EN LA DOCUMENTACION REVISADA]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Criterios de adjudicación vinculados a perfiles (puntuables)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Criterios de adjudicación vinculados a perfiles (puntuables): Certificaciones y equipo cloud: hasta 5 puntos (CKA 2, Azure Administrator 2, ISO 27001 1) [Pliego administrativo OPP-SW-003 migracion cloud, \"Criterios de adjudicacion\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Criterios de adjudicación vinculados a perfiles (puntuables)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Criterios de adjudicación vinculados a perfiles (puntuables): No se puntúan titulaciones universitarias, experiencia adicional ni otros méritos personales [NO CONSTA EN LA DOCUMENTACION REVISADA]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Cobertura, continuidad, refuerzos, formación y suplencias"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Cobertura, continuidad, refuerzos, formación y suplencias: Cobertura de guardias: los DevOps/cloud senior deben cubrir 8 fines de semana de migración con guardias incluidas [Pliego administrativo OPP-SW-003 migracion cloud, \"ANEXO ECONOMICO-FINANCIERO: Costes obligatorios\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Cobertura, continuidad, refuerzos, formación y suplencias"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Cobertura, continuidad, refuerzos, formación y suplencias: No se cuantifican suplentes ni se regula la cobertura de ausencias, vacaciones o bajas [NO CONSTA EN LA DOCUMENTACION REVISADA]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Cobertura, continuidad, refuerzos, formación y suplencias"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Cobertura, continuidad, refuerzos, formación y suplencias: No se exige formación adicional ni refuerzos específicos [NO CONSTA EN LA DOCUMENTACION REVISADA]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Incorporación, plazos y fases"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Incorporación, plazos y fases: El equipo mínimo debe estar disponible desde el inicio de la ejecución del contrato [Pliego administrativo OPP-SW-003 migracion cloud, \"Documentacion\"; Pliego técnico OPP-SW-003 migracion cloud, \"Objeto\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Incorporación, plazos y fases"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Incorporación, plazos y fases: No se especifica plazo de incorporación tras la adjudicación [NO CONSTA EN LA DOCUMENTACION REVISADA]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Acreditación y fases de presentación"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Acreditación y fases de presentación: CV del equipo mínimo debe presentarse en la oferta (sobre 1) [Pliego administrativo OPP-SW-003 migracion cloud, \"Documentacion\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Acreditación y fases de presentación"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Acreditación y fases de presentación: No se exige documentación adicional para acreditar experiencia o vinculación en la fase de oferta [NO CONSTA EN LA DOCUMENTACION REVISADA]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Acreditación y fases de presentación"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Acreditación y fases de presentación: La experiencia de empresa en migraciones cloud se acredita con referencias (no personal) [Anexo solvencia OPP-SW-003 migracion cloud, \"Solvencia especifica\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Discrepancias y pendientes de aclaración"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Discrepancias y pendientes de aclaración: No se han identificado discrepancias en la documentación revisada."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Discrepancias y pendientes de aclaración"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Discrepancias y pendientes de aclaración: NO CONSTA EN LA DOCUMENTACION REVISADA: dedicación del backend senior, presencialidad/ubicación, idiomas, condiciones de sustitución, compromiso de adscripción/permanencia, cobertura de ausencias, suplentes, formación adicional, plazo de incorporación tras adjudicación, formato de CV, documentación adicional de acreditación personal, regulación de reemplazo de miembros del equipo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        }
+      ]
+    },
+    {
+      "titulo": "Procedimiento, economía y obligaciones",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Contenido inicial"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Registro documental de preventa"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Contenido inicial"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Discrepancias y pendientes de aclaración:"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Contenido inicial"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA información sobre idioma, firma, formato, plataforma de presentación, nomenclatura, extensión, DEUC, declaraciones, poderes, escrituras, plazos de cobro, aceptación, anticipos, revisión de precios, modificaciones, prórrogas con sus límites, resolución, confidencialidad, propiedad intelectual, PRL, laboral, igualdad, medioambiente, lotes adicionales o incompatibilidades adicionales."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Contenido inicial"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se han identificado discrepancias numéricas internas entre los documentos revisados."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        }
+      ]
+    },
+    {
+      "titulo": "Solvencia económica",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "volumen anual de negocios"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige un volumen anual mínimo de negocios de 900.000 EUR. No se especifica si es global o sectorial. El periodo de referencia no se detalla, ni si es el mejor ejercicio dentro de una ventana temporal concreta. La acreditación se entiende en la fase de presentación de ofertas, pero no se especifica el documento concreto."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, apartado \"Solvencia economica\"]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "seguro de responsabilidad civil profesional"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige seguro de responsabilidad civil profesional de 1.500.000 EUR. No se especifica si es por siniestro o agregado, ni la vigencia mínima ni el momento de acreditación."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, apartado \"Solvencia economica\"]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "patrimonio neto y ratios"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito relativo a patrimonio neto, ratios, activos, pasivos ni fórmulas asociadas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Revisión completa de pliego y anexos]"
+        }
+      ]
+    },
+    {
+      "titulo": "Solvencia técnica",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "número mínimo de trabajos/referencias"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige experiencia previa demostrable en al menos tres migraciones cloud en administraciones públicas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, apartado \"Solvencia tecnica y equipo minimo\"; Anexo solvencia OPP-SW-003 migracion cloud, apartado \"Solvencia especifica\"]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "objeto/similitud, CPV, sector, tecnologías o alcance requerido"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Las referencias deben ser migraciones cloud en administraciones públicas; al menos una referencia debe incluir Kubernetes o AKS. No se especifica CPV numérico, pero el sector es claramente cloud público y tecnologías Azure/Kubernetes."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Anexo solvencia OPP-SW-003 migracion cloud, apartado \"Solvencia especifica\"]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "importes mínimos y naturaleza"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Cada referencia debe tener un importe mínimo de 250.000 EUR. No se especifica si es neto o bruto, ni si es anualizado o acumulado."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Anexo solvencia OPP-SW-003 migracion cloud, apartado \"Solvencia especifica\"]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "periodo o ventana temporal aplicable"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Cada referencia debe estar ejecutada en los últimos cinco años."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Anexo solvencia OPP-SW-003 migracion cloud, apartado \"Solvencia especifica\"]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "duración mínima, fechas, condiciones de finalización"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Cada referencia debe tener una duración mínima de 6 meses. No se especifican condiciones de finalización ni fechas concretas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Anexo solvencia OPP-SW-003 migracion cloud, apartado \"Solvencia especifica\"]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "forma de acreditación"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se menciona expresamente la exigencia de certificados de buena ejecución; se exige experiencia \"demostrable\" y referencias, pero no se detalla si basta una relación de trabajos, si se requiere certificado del cliente o si se admiten otros medios."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, apartado \"Solvencia tecnica y equipo minimo\"; Anexo solvencia OPP-SW-003 migracion cloud, apartado \"Solvencia especifica\"]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "destinatario público/privado"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Las referencias deben ser de administraciones públicas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Anexo solvencia OPP-SW-003 migracion cloud, apartado \"Solvencia especifica\"]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "reglas para empresas de nueva creación"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna regla específica para empresas de nueva creación ni medios alternativos de acreditación."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Revisión completa de pliego y anexos]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "acumulación de solvencia en UTE o medios externos"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna mención a la posibilidad de acumular solvencia técnica o económica mediante UTE o medios externos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Revisión completa de pliego y anexos]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "alternativas y exenciones"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna exención expresa ni alternativa para la solvencia técnica, salvo la alternativa a la clasificación para empresas no españolas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, apartado \"Clasificacion y certificaciones\"]"
+        }
+      ]
+    },
+    {
+      "titulo": "Clasificación empresarial",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige clasificación empresarial equivalente a servicios de consultoría y desarrollo informático Grupo V, Subgrupo 2, Categoría 3. Se admite acreditación alternativa solo para empresas no españolas. No se especifica el momento de acreditación ni si se admite ROLECE."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, apartado \"Clasificacion y certificaciones\"]"
+        }
+      ]
+    },
+    {
+      "titulo": "Certificaciones de empresa",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "ISO/ENS"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige ISO 27001. No se especifica versión, alcance, entidad certificadora, caducidad ni momento de acreditación. Se exige que la plataforma cloud destino cumpla ENS categoría MEDIA, pero no se exige ENS ALTA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, apartado \"Clasificacion y certificaciones\"; Pliego técnico OPP-SW-003 migracion cloud, apartado \"Seguridad / DPO / ENS\"]"
+        }
+      ]
+    },
+    {
+      "titulo": "Partnerships y cartas de compromiso",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige carta de compromiso del partner cloud para soporte AKS y confirmación de regiones UE. No se especifica formato, vigencia ni momento de acreditación."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, anexo compras/partners]"
+        }
+      ]
+    },
+    {
+      "titulo": "ROLECE",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna exigencia ni alternativa expresa relativa a ROLECE."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Revisión completa de pliego y anexos]"
+        }
+      ]
+    },
+    {
+      "titulo": "Medios de acreditación",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "momento y fase"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se detallan los momentos de presentación ni los sobres/documentos concretos para la acreditación de la solvencia económica y técnica, salvo que la documentación administrativa y técnica va en el sobre 1 y la oferta económica en el sobre 2."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, apartado \"Formato de oferta y exclusiones\"]"
+        }
+      ]
+    },
+    {
+      "titulo": "Criterios de adjudicación",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "estructura general"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La adjudicación se realizará mediante la suma de 100 puntos, distribuidos en: Precio (50 puntos), Plan de migración (22 puntos), Plan de reversibilidad y continuidad (10 puntos), Observabilidad y SLA operativo (8 puntos), Certificaciones y equipo cloud (5 puntos), Reducción de plazo (5 puntos)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion; Pliego técnico OPP-SW-003 migracion cloud, Criterios]"
+        }
+      ]
+    },
+    {
+      "titulo": "Criterio",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Precio"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El criterio de precio tiene un peso de 50 puntos. La puntuación se calcula mediante la fórmula: P = 50 x (oferta mínima / oferta licitador). La mejor oferta económica obtiene 50 puntos. Las ofertas con baja superior al 18% deberán justificar viabilidad. Las ofertas con baja superior al 22% se considerarán de alto riesgo por carga de migración."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion y Anexo económico-financiero]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Plan de migración"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El plan de migración se valora con un máximo de 22 puntos, distribuidos en los siguientes subcriterios: inventario y oleadas (6 puntos), automatización CI/CD (5 puntos), seguridad (4 puntos), gestión de riesgos (4 puntos), validación postmigración (3 puntos)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Observabilidad y SLA operativo"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Observabilidad y SLA operativo se valora con un máximo de 8 puntos. Se alcanza el tope de puntuación si se ofrecen dashboards, alertas y respuesta crítica inferior a 2 horas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Certificaciones y equipo cloud"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Certificaciones y equipo cloud se valora con un máximo de 5 puntos, distribuidos en: CKA (2 puntos), Azure Administrator (2 puntos), ISO 27001 (1 punto)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reducción de plazo"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Reducción de plazo se valora con un máximo de 5 puntos. El tope de puntuación se alcanza por reducción del 10% del plazo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion]"
+        }
+      ]
+    },
+    {
+      "titulo": "Fórmula de puntuación económica",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "La fórmula para la puntuación económica es: P = 50 x (oferta mínima / oferta licitador). La mejor oferta obtiene 50 puntos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero]"
+        }
+      ]
+    },
+    {
+      "titulo": "Exclusión por falta de documentación técnica",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "La falta de plan de reversibilidad o la superación del presupuesto máximo provocará exclusión."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Formato de oferta y exclusiones]"
+        }
+      ]
+    },
+    {
+      "titulo": "Exclusión por no alcanzar umbral técnico",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "No alcanzar el umbral mínimo de 24 puntos sobre los 40 técnicos de migración, reversibilidad y observabilidad implica exclusión."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion]"
+        }
+      ]
+    },
+    {
+      "titulo": "Reglas de redondeo",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        }
+      ]
+    },
+    {
+      "titulo": "Reglas de valoración de reducción de plazo",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "El tope de puntuación (5 puntos) se alcanza por reducción del 10% del plazo. No se especifica la fórmula de reparto para reducciones inferiores."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion]"
+        }
+      ]
+    },
+    {
+      "titulo": "Reglas de valoración de observabilidad y SLA",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Se alcanza el tope de 8 puntos si se ofrecen dashboards, alertas y respuesta crítica inferior a 2 horas. No se especifica el reparto para propuestas que no cumplan todos los elementos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion]"
+        }
+      ]
+    },
+    {
+      "titulo": "Reglas de valoración de certificaciones",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "CKA (2 puntos), Azure Administrator (2 puntos), ISO 27001 (1 punto). No se especifica si son acumulativos o alternativos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion]"
+        }
+      ]
+    },
+    {
+      "titulo": "Reglas de valoración de plan de migración",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Inventario y oleadas (6 puntos), automatización CI/CD (5 puntos), seguridad (4 puntos), gestión de riesgos (4 puntos), validación postmigración (3 puntos). No se especifica fórmula de reparto parcial."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicacion]"
+        }
+      ]
+    },
+    {
+      "titulo": "Valoración y preparación de la oferta",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Contenido inicial"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se han identificado discrepancias en la documentación revisada."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Contenido inicial"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No consta fórmula de reparto parcial para los subcriterios técnicos, reducción de plazo ni observabilidad/SLA cuando no se alcanza el tope. No consta si los puntos de certificaciones son acumulativos o alternativos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Contenido inicial"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No consta régimen de desempate ni reglas de redondeo en la documentación revisada."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        }
+      ]
+    },
+    {
+      "titulo": "Alcance del servicio",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "El objeto del contrato es la migración de seis aplicaciones internas a una plataforma Azure Kubernetes Service, incluyendo contenerización Docker, pipelines CI/CD, monitorización, backup, hardening y procedimientos de reversibilidad."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Objeto]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El alcance incluye 6 aplicaciones, 18 microservicios, 4 bases de datos y 3 entornos por aplicación."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Horario de soporte 12x5 con guardia localizada para ventanas de migración."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Las migraciones productivas se ejecutarán en ventanas autorizadas y con plan de vuelta atrás aprobado."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Condiciones de ejecución]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe aportar cloud temporal de migración Azure durante 6 meses para entornos paralelos, pruebas y observabilidad."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, ANEXO COMPRAS / PARTNERS]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe aportar herramientas de escaneo de contenedores, SAST/SCA para 5 usuarios, Grafana/Prometheus gestionado si no usa herramientas del cliente."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, ANEXO COMPRAS / PARTNERS]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe aportar soporte de fabricante/partner durante ventanas de migración."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, ANEXO COMPRAS / PARTNERS]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe aportar inventario, oleadas, migración de datos, pruebas, documentación y plan de reversibilidad."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, ANEXO ECONOMICO-FINANCIERO]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe ejecutar migraciones sin pérdida de servicio, con ventana máxima de indisponibilidad de 4 horas por aplicación."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Condiciones]"
+        }
+      ]
+    },
+    {
+      "titulo": "Modelo de servicio",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "El servicio incluye transición, migración, operación estabilizada y reversibilidad."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL]"
+        }
+      ]
+    },
+    {
+      "titulo": "Niveles de soporte",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA una definición explícita de N1/N2/N3, pero se describen actividades de soporte especializado DevOps y guardias."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        }
+      ]
+    },
+    {
+      "titulo": "Procesos ITIL citados",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige Change Management formal con CAB semanal."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige Release/Deployment Management."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige Event Management."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige Configuration Management."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige Availability Management."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige registro de cambios, plan de vuelta atrás, matriz de riesgos y aprobación previa por aplicación. (ITIL NO CITADO EXPRESAMENTE para registro de cambios y matriz de riesgos)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL]"
+        }
+      ]
+    },
+    {
+      "titulo": "SLA/KPI",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Durante estabilización: P1 respuesta ≤ 30 minutos y resolución ≤ 4 horas; P2 respuesta ≤ 2 horas y resolución ≤ 1 día."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Disponibilidad mínima 99,5 %."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Penalización: 2 % mensual si la disponibilidad baja de 99,5 %."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Penalización: 1 % por cambio fallido sin rollback documentado."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Penalización: 0,5 % del precio por semana de retraso en una oleada; máximo 7 % del contrato."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, ANEXO ECONOMICO-FINANCIERO]"
+        }
+      ]
+    },
+    {
+      "titulo": "Reglas de priorización",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "P1 y P2 definidos por tiempos de respuesta y resolución; no se detallan criterios de impacto/urgencia."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL]"
+        }
+      ]
+    },
+    {
+      "titulo": "Organización",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "roles"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dos perfiles DevOps/cloud senior, cada uno con al menos 5 años de experiencia en Azure, Kubernetes, Docker, CI/CD y observabilidad."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Solvencia técnica y equipo mínimo]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "roles"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Un desarrollador backend senior con al menos 5 años en Java o Python para adaptación de servicios y APIs."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Solvencia técnica y equipo mínimo]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "dedicaciones"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dos DevOps cloud senior al 100 % durante 8 meses y jefe de proyecto 35 % durante 10 meses."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, ANEXO ECONOMICO-FINANCIERO]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "guardias"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Guardia localizada para ventanas de migración; 8 fines de semana de migración con guardias DevOps incluidas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL; Pliego administrativo OPP-SW-003 migracion cloud, ANEXO ECONOMICO-FINANCIERO]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "presencialidad"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA una exigencia de presencialidad; se menciona soporte remoto."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "idiomas"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA una exigencia de idiomas distintos al español."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "certificaciones"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige ISO 27001 para la empresa."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Clasificación y certificaciones]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "certificaciones"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "CKA 2 puntos, Azure Administrator 2 puntos, ISO 27001 1 punto (criterio puntuable)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicación]"
+        }
+      ]
+    },
+    {
+      "titulo": "Gobierno",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "comités"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige Change Advisory Board (CAB) semanal para gestión de cambios."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "informes"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige reconciliación mensual de la CMDB."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "entregables"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Memoria de migración, plan de continuidad y reversibilidad, plan de seguridad y gestión de cambios, CV del equipo mínimo, oferta económica."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Documentación]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "entregables"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Exportación de configuración, pipelines, IaC, CMDB, tickets e informes de capacidad en reversibilidad."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Reversibilidad]"
+        }
+      ]
+    },
+    {
+      "titulo": "Herramientas ITSM/CMDB",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Herramientas aceptadas: Azure Monitor, Grafana y Jira Service Management."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "CMDB obligatoria con aplicaciones, servicios, contenedores, pipelines, bases de datos, dependencias y propietarios."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Azure Monitor, Grafana y Jira Service Management aceptadas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL]"
+        }
+      ]
+    },
+    {
+      "titulo": "Monitorización",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige monitorización con Azure Monitor y Grafana/Prometheus."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige observabilidad y dashboards como criterio puntuable (tope de puntuación si se ofrecen dashboards, alertas y respuesta crítica < 2 horas)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicación]"
+        }
+      ]
+    },
+    {
+      "titulo": "Transición",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Transición de 8 semanas con inventario, discovery, diseño de CMDB, runbooks, pruebas de backup, simulacro de rollback y reverse shadowing."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Transición]"
+        }
+      ]
+    },
+    {
+      "titulo": "Continuidad",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Plan de continuidad y reversibilidad como entregable obligatorio."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Documentación]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El servicio debe ejecutarse sin pérdida de servicio, con ventana máxima de indisponibilidad de 4 horas por aplicación."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Condiciones]"
+        }
+      ]
+    },
+    {
+      "titulo": "Reversibilidad",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Reversibilidad de 4 semanas, exportación de configuración, pipelines, IaC, CMDB, tickets e informes de capacidad."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Reversibilidad]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Borrado de credenciales, rotación de secretos, exportación IaC y certificado de eliminación de datos temporales."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Reversibilidad segura]"
+        }
+      ]
+    },
+    {
+      "titulo": "Dependencias técnicas",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Aplicaciones y backups en regiones UE; prohibidas transferencias internacionales salvo autorización expresa."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Seguridad / DPO / ENS]"
+        }
+      ]
+    },
+    {
+      "titulo": "Automatización/self-service",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Automatización CI/CD es subcriterio puntuable en el plan de migración (5 puntos)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicación]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige repositorio IaC y pipelines CI/CD como parte del alcance."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Objeto]"
+        }
+      ]
+    },
+    {
+      "titulo": "Reporting",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Exportación de informes de capacidad en reversibilidad."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, Reversibilidad]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de informes periódicos adicionales fuera de los citados."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        }
+      ]
+    },
+    {
+      "titulo": "ENS",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Norma y categoría"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige que la plataforma cloud destino cumpla ENS categoría MEDIA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Alcance"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El alcance de cumplimiento ENS debe incluir administración cloud, pipelines CI/CD, monitorización y soporte."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Certificación empresa"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige que el adjudicatario disponga de ISO 27001."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS; Pliego administrativo OPP-SW-003 migracion cloud, apartado Clasificación y certificaciones]"
+        }
+      ]
+    },
+    {
+      "titulo": "Datos personales",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "almacenamiento y conservación"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Aplicaciones y backups deben estar en regiones UE."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS]"
+        }
+      ]
+    },
+    {
+      "titulo": "Subencargados, cloud, SaaS, CPD, soporte, cadena de suministro",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Se requiere inventario de subencargados cloud, soporte remoto y herramientas SaaS."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS]"
+        }
+      ]
+    },
+    {
+      "titulo": "Localización de datos",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Aplicaciones y backups en regiones UE."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS]"
+        }
+      ]
+    },
+    {
+      "titulo": "Medidas técnicas",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "MFA"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "MFA obligatorio."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "PAM"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "PAM para cuentas privilegiadas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "bastionado"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Bastionado de contenedores."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "escaneo de imágenes"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Escaneo de imágenes."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "gestión de secretos"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Gestión de secretos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "cifrado"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Cifrado de discos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "network policies"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Network policies."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "WAF"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "WAF para aplicaciones expuestas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "logs"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Logs centralizados 18 meses."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "backups"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Pruebas de backup y simulacro de rollback durante transición."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, apartado Transición]"
+        }
+      ]
+    },
+    {
+      "titulo": "Identidad, accesos, privilegios, altas/bajas, acceso remoto",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "MFA obligatorio, PAM para cuentas privilegiadas, gestión de secretos, inventario de subencargados cloud y soporte remoto."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS]"
+        }
+      ]
+    },
+    {
+      "titulo": "Vulnerabilidades, parcheado, CVE, pentesting, EOL/EOS, plazos",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "CVE crítica en imagen base corregida en ≤ 24 horas; CVE alta en ≤ 7 días."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS]"
+        }
+      ]
+    },
+    {
+      "titulo": "Logging, trazabilidad, retención, SOC/SIEM, continuidad, DR, RTO/RPO, pruebas",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Logs centralizados 18 meses; no se exige SOC 24x7, pero sí alertas y guardia en ventanas de migración."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS]"
+        }
+      ]
+    },
+    {
+      "titulo": "Desarrollo seguro",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "SDLC, DevSecOps, SAST, DAST, SCA, secretos, OWASP, CI/CD, SBOM"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "SAST/SCA en pipelines; gestión de secretos; automatización CI/CD como subcriterio de adjudicación."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud, apartado Seguridad / DPO / ENS; Pliego administrativo OPP-SW-003 migracion cloud, apartado Criterios de adjudicación]"
+        }
+      ]
+    },
+    {
+      "titulo": "Compras y suministros",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe financiar compras y licencias con recursos propios hasta el cobro de hitos; no hay anticipo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Cloud temporal de migración: 4.200 EUR/mes durante 6 meses para entornos paralelos, pruebas y observabilidad. No está presupuestado de forma separada en el pliego."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero]"
+        }
+      ]
+    },
+    {
+      "titulo": "Fabricantes y productos",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Accion: deal registration Microsoft, RFQ de cloud temporal y compromiso back-to-back de guardias."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se permite Grafana/Prometheus gestionado por el adjudicatario si no se usan herramientas del cliente."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Cloud temporal de migración debe ser Azure y en regiones UE."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners; Pliego técnico OPP-SW-003 migracion cloud]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Vulnerabilidades: CVE crítica en imagen base corregida <= 24 horas; CVE alta <= 7 días. SAST/SCA en pipelines y aprobación de excepciones."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud]"
+        }
+      ]
+    },
+    {
+      "titulo": "Licencias y SaaS",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Licencias SAST/SCA para 5 usuarios a aportar por el adjudicatario."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Jira Service Management aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Herramientas SaaS para soporte remoto y gestión de cambios requeridas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Cloud temporal de migración Azure a aportar por el adjudicatario."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe aportar herramientas de escaneo de contenedores, SAST/SCA, Grafana/Prometheus gestionado si no usa herramientas del cliente."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe financiar compras y licencias con recursos propios hasta el cobro de hitos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero]"
+        }
+      ]
+    },
+    {
+      "titulo": "Certificaciones y canal",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige ISO 27001 para el adjudicatario."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud; Pliego técnico OPP-SW-003 migracion cloud]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Certificaciones y equipo cloud: CKA 2 puntos, Azure Administrator 2 puntos, ISO 27001 1 punto (criterio puntuable)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud]"
+        }
+      ]
+    },
+    {
+      "titulo": "Subcontratación y UTE",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Se permite subcontratación máxima del 25 por ciento, excepto dirección de proyecto y arquitectura cloud."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se requiere inventario de subencargados cloud."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud]"
+        }
+      ]
+    },
+    {
+      "titulo": "Garantías y soporte",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Soporte de fabricante/partner durante ventanas de migración a aportar por el adjudicatario."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "SLA: durante estabilización, P1 respuesta <= 30 minutos y resolución <= 4 horas; P2 respuesta <= 2 horas y resolución <= 1 día. Disponibilidad mínima 99,5 %. Penalización: 2 % mensual si la disponibilidad baja de 99,5 % y 1 % por cambio fallido sin rollback documentado."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Penalizaciones: 0,5 % del precio por semana de retraso en una oleada; máximo 7 % del contrato."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud]"
+        }
+      ]
+    },
+    {
+      "titulo": "Plazos y logística",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Transición: 8 semanas con inventario, discovery, diseño de CMDB, runbooks, pruebas de backup, simulacro de rollback y reverse shadowing."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Reversibilidad: 4 semanas, exportación de configuración, pipelines, IaC, CMDB, tickets e informes de capacidad."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-003 migracion cloud]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Facturación por hitos: 10 % inventario, 25 % oleada 1, 25 % oleada 2, 25 % oleada final, 15 % cierre y reversibilidad."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero]"
+        }
+      ]
+    }
+  ],
+  "conclusion": [
+    "**DOCUMENTALMENTE ESTABLECIDO:** El contrato exige la migración de seis aplicaciones municipales a Azure Kubernetes Service, con contenerización, CI/CD, observabilidad, seguridad ENS e ISO 27001, y reversibilidad garantizada. El alcance incluye transición, migración, operación estabilizada y cierre con exportación de activos y borrado seguro.",
+    "**PUNTO CRÍTICO DE ADJUDICACIÓN:** La valoración técnica se centra en el plan de migración (22 puntos), plan de reversibilidad (10), observabilidad/SLA (8) y certificaciones/equipo cloud (5), con umbral mínimo de 24 puntos sobre 40 en criterios técnicos. El precio representa el 50% de la puntuación.",
+    "**PUNTO RELEVANTE:** Se exige solvencia económica (900.000 EUR de volumen anual y seguro RC de 1.500.000 EUR) y técnica (tres migraciones cloud en AAPP, importe mínimo 250.000 EUR, duración mínima 6 meses, al menos una con Kubernetes/AKS). ISO 27001 es obligatoria para la empresa.",
+    "**PUNTO RELEVANTE:** El equipo mínimo incluye dos DevOps/cloud senior (100% durante 8 meses), un backend senior y un jefe de proyecto (35% durante 10 meses). Se exige la presentación de CV en la oferta, pero no se regula el reemplazo ni la cobertura de ausencias.",
+    "**PUNTO RELEVANTE:** El adjudicatario debe aportar herramientas y licencias específicas, cloud temporal de migración, soporte de fabricante/partner y cumplir con medidas avanzadas de seguridad y reversibilidad.",
+    "**NO LOCALIZADO:** No consta información sobre idioma, firma, formato, plataforma de presentación, plazos de cobro, aceptación, anticipos, revisión de precios, modificaciones, prórrogas, resolución, confidencialidad, propiedad intelectual, PRL, igualdad, medioambiente, ni sobre la acreditación detallada de experiencia y solvencia.",
+    "**NO LOCALIZADO:** No se especifica el formato, vigencia ni momento de acreditación de la carta de compromiso del partner cloud, ni la versión o alcance de la ISO 27001.",
+    "**NO LOCALIZADO:** No consta fórmula de reparto parcial para subcriterios técnicos, ni si los puntos de certificaciones son acumulativos o alternativos, ni régimen de desempate o baremo de mejoras adicionales.",
+    "**DECISIÓN INTERNA REQUERIDA:** Se recomienda aclarar en fase de consultas los aspectos pendientes de acreditación, documentación formal y reglas de valoración parcial, así como la cobertura de ausencias y suplencias en el equipo."
+  ]
+}

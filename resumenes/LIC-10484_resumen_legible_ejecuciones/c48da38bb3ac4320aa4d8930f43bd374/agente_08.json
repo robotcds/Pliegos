@@ -1,0 +1,810 @@
+{
+  "orden": 8,
+  "id": "A10",
+  "nombre": "Compras, proveedores y colaboradores",
+  "tipo": "extraccion",
+  "estado": "completado",
+  "contenido": {
+    "resumen": [
+      "La licitación LIC-10484 del Banco de España tiene por objeto la contratación de servicios de asesoramiento, control y seguimiento del suministro energético (electricidad y gas) del Banco de España. El contrato es de servicios, no de suministro de productos físicos, y abarca la revisión de facturación, elaboración de informes, asistencia en contratación pública de suministros energéticos, asesoramiento técnico y jurídico, y apoyo en la gestión presupuestaria y regulatoria. No se exige la aportación de hardware, software, SaaS, licencias comerciales, ni se establecen requisitos de fabricantes, canal, partnerships, ni cartas de compromiso de fabricantes. La subcontratación está permitida con ciertas condiciones, pero no se exige ni limita la UTE ni se describen cadenas de suministro materiales. No se establecen SLA de terceros, garantías de fabricante, ni requisitos de soporte, stock, logística, retirada o destrucción de materiales.",
+      "No se exige la aportación de productos físicos, hardware, materiales, ni equipamiento informático específico por parte del adjudicatario. El equipamiento informático del Banco de España solo se menciona para el acceso a infraestructuras propias, pero no como suministro a cargo del adjudicatario.",
+      "El único software mencionado es el programa informático para conexión remota a los puntos de suministro eléctrico del Banco de España, que debe ser aportado por el adjudicatario. No se especifica fabricante, tipo de licencia, modalidad SaaS, cantidad de usuarios, entornos, ni duración. No se exigen licencias comerciales, SaaS, ni productos de software de fabricantes concretos.",
+      "No se exige ningún fabricante concreto, nivel de partner, canal autorizado, ni carta/compromiso de fabricante o distribuidor. No se establecen requisitos de partnerships ni equivalencias.",
+      "No se describe ni condiciona contractualmente ninguna cadena de suministro material, logística, ni dependencias de terceros para la ejecución del servicio. El servicio es de consultoría y asesoramiento, no de suministro físico.",
+      "No se establecen SLA de terceros, garantías de fabricante, soporte NBD/4h/onsite, ni condiciones back-to-back. Los plazos de entrega aplican solo a informes y servicios, no a productos o materiales.",
+      "No se establecen requisitos de logística, staging, stock, entrega, retirada ni destrucción de productos o materiales. No se exige gestión de inventario ni cadena de suministro física.",
+      "No se localizan requisitos de productos físicos, hardware, materiales, ni licencias comerciales específicas.",
+      "No se exige fabricante, canal, partnership, ni cartas de compromiso.",
+      "No se describen cadenas de suministro materiales ni dependencias logísticas.",
+      "No se establecen SLA de terceros, garantías de fabricante, ni soporte técnico externo.",
+      "No se exige stock, logística, retirada ni destrucción de materiales."
+    ],
+    "secciones": [
+      {
+        "titulo": "Resumen factual",
+        "parrafos": [
+          "La licitación LIC-10484 del Banco de España tiene por objeto la contratación de servicios de asesoramiento, control y seguimiento del suministro energético (electricidad y gas) del Banco de España. El contrato es de servicios, no de suministro de productos físicos, y abarca la revisión de facturación, elaboración de informes, asistencia en contratación pública de suministros energéticos, asesoramiento técnico y jurídico, y apoyo en la gestión presupuestaria y regulatoria. No se exige la aportación de hardware, software, SaaS, licencias comerciales, ni se establecen requisitos de fabricantes, canal, partnerships, ni cartas de compromiso de fabricantes. La subcontratación está permitida con ciertas condiciones, pero no se exige ni limita la UTE ni se describen cadenas de suministro materiales. No se establecen SLA de terceros, garantías de fabricante, ni requisitos de soporte, stock, logística, retirada o destrucción de materiales."
+        ],
+        "elementos": [],
+        "tablas": []
+      },
+      {
+        "titulo": "Mapa de suministros y terceros",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Elemento/necesidad",
+              "Tipo",
+              "Cantidad/volumen",
+              "Especificación",
+              "Quién debe aportarlo",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Elemento/necesidad": "Programa informático para conexión remota a puntos de suministro eléctrico",
+                "Tipo": "Software/herramienta",
+                "Cantidad/volumen": "1 sistema",
+                "Especificación": "Permitir seguimiento de consumo y facturación, descarga de datos horarios y cuarto horarios",
+                "Quién debe aportarlo": "Adjudicatario",
+                "Fuente": "LIC10484 PPT.pdf, p.4"
+              },
+              {
+                "Elemento/necesidad": "Equipo humano multidisciplinar (técnicos y administrativos)",
+                "Tipo": "Personal",
+                "Cantidad/volumen": "No especificado (mínimo 2 perfiles esenciales)",
+                "Especificación": "Ver requisitos de perfiles",
+                "Quién debe aportarlo": "Adjudicatario",
+                "Fuente": "LIC10484 PPT.pdf, p.10; LIC10484 PCP CDC.pdf, p.5"
+              },
+              {
+                "Elemento/necesidad": "Coordinador de Proyecto",
+                "Tipo": "Personal",
+                "Cantidad/volumen": "1",
+                "Especificación": "Puede ser uno de los dos perfiles esenciales",
+                "Quién debe aportarlo": "Adjudicatario",
+                "Fuente": "LIC10484 PPT.pdf, p.10"
+              },
+              {
+                "Elemento/necesidad": "Personal de apoyo y sustitución",
+                "Tipo": "Personal",
+                "Cantidad/volumen": "No especificado",
+                "Especificación": "Para bajas, vacaciones, etc.",
+                "Quién debe aportarlo": "Adjudicatario",
+                "Fuente": "LIC10484 PPT.pdf, p.11"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Productos, hardware y materiales",
+        "parrafos": [
+          "No se exige la aportación de productos físicos, hardware, materiales, ni equipamiento informático específico por parte del adjudicatario. El equipamiento informático del Banco de España solo se menciona para el acceso a infraestructuras propias, pero no como suministro a cargo del adjudicatario."
+        ],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Producto",
+              "Cantidad",
+              "Características",
+              "Fabricante/referencia",
+              "Equivalente permitido",
+              "Garantía/soporte",
+              "Stock/plazo",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Producto": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Cantidad": "",
+                "Características": "",
+                "Fabricante/referencia": "",
+                "Equivalente permitido": "",
+                "Garantía/soporte": "",
+                "Stock/plazo": "",
+                "Fuente": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Software, SaaS y licencias",
+        "parrafos": [
+          "El único software mencionado es el programa informático para conexión remota a los puntos de suministro eléctrico del Banco de España, que debe ser aportado por el adjudicatario. No se especifica fabricante, tipo de licencia, modalidad SaaS, cantidad de usuarios, entornos, ni duración. No se exigen licencias comerciales, SaaS, ni productos de software de fabricantes concretos."
+        ],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Producto",
+              "Fabricante",
+              "Metrica/cantidad",
+              "Entornos",
+              "Duración",
+              "Quién lo aporta",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Producto": "Programa informático para conexión remota",
+                "Fabricante": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Metrica/cantidad": "1 sistema",
+                "Entornos": "NO CONSTA",
+                "Duración": "NO CONSTA",
+                "Quién lo aporta": "Adjudicatario",
+                "Fuente": "LIC10484 PPT.pdf, p.4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Fabricantes, canal y cartas",
+        "parrafos": [
+          "No se exige ningún fabricante concreto, nivel de partner, canal autorizado, ni carta/compromiso de fabricante o distribuidor. No se establecen requisitos de partnerships ni equivalencias."
+        ],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Fabricante",
+              "Requisito",
+              "Nivel/certificación/carta exigida",
+              "Momento",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Fabricante": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Requisito": "",
+                "Nivel/certificación/carta exigida": "",
+                "Momento": "",
+                "Fuente": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Subcontratacion, UTE y medios externos",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Regla",
+              "Límite/condición",
+              "Declaración/autorización",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Regla": "Subcontratación permitida",
+                "Límite/condición": "No tareas críticas definidas; no requiere autorización previa salvo supuestos art. 215.2.d) LCSP; no es obligatorio declarar en oferta partes a subcontratar",
+                "Declaración/autorización": "Declaración de subcontratistas y parte del contrato a subcontratar, solo tras adjudicación y antes de inicio de ejecución",
+                "Fuente": "LIC10484 PCP CDC.pdf, p.13-14"
+              },
+              {
+                "Regla": "UTE permitida",
+                "Límite/condición": "Sin límites específicos",
+                "Declaración/autorización": "Compromiso de constitución en caso de adjudicación",
+                "Fuente": "LIC10484 PCP CLAUS.pdf, p.18, 27"
+              },
+              {
+                "Regla": "Medios externos permitidos para solvencia",
+                "Límite/condición": "Debe acreditarse disponibilidad efectiva durante la ejecución",
+                "Declaración/autorización": "Compromiso de puesta a disposición de recursos",
+                "Fuente": "LIC10484 PCP CLAUS.pdf, p.10-11"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Cadena de suministro y dependencias contractuales descritas",
+        "parrafos": [
+          "No se describe ni condiciona contractualmente ninguna cadena de suministro material, logística, ni dependencias de terceros para la ejecución del servicio. El servicio es de consultoría y asesoramiento, no de suministro físico."
+        ],
+        "elementos": [],
+        "tablas": []
+      },
+      {
+        "titulo": "SLA de proveedor/fabricante, garantías y soporte exigidos",
+        "parrafos": [
+          "No se establecen SLA de terceros, garantías de fabricante, soporte NBD/4h/onsite, ni condiciones back-to-back. Los plazos de entrega aplican solo a informes y servicios, no a productos o materiales."
+        ],
+        "elementos": [],
+        "tablas": []
+      },
+      {
+        "titulo": "Logística, staging, stock, entrega, retirada y destrucción",
+        "parrafos": [
+          "No se establecen requisitos de logística, staging, stock, entrega, retirada ni destrucción de productos o materiales. No se exige gestión de inventario ni cadena de suministro física."
+        ],
+        "elementos": [],
+        "tablas": []
+      },
+      {
+        "titulo": "Ambigüedades y datos no localizados",
+        "parrafos": [],
+        "elementos": [
+          "No se localizan requisitos de productos físicos, hardware, materiales, ni licencias comerciales específicas.",
+          "No se exige fabricante, canal, partnership, ni cartas de compromiso.",
+          "No se describen cadenas de suministro materiales ni dependencias logísticas.",
+          "No se establecen SLA de terceros, garantías de fabricante, ni soporte técnico externo.",
+          "No se exige stock, logística, retirada ni destrucción de materiales.",
+          "No se exige seguro de responsabilidad civil.",
+          "No se exige ISO, ENS ni otras certificaciones de calidad o seguridad."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "Documentos revisados",
+        "parrafos": [],
+        "elementos": [
+          "LIC10484 PCP CLAUS.pdf (Pliego administrativo)",
+          "LIC10484 PPT.pdf (Pliego técnico)",
+          "LIC10484 PPT Anexo 2.pdf (Anexo técnico)",
+          "LIC10484 PCP CDC Anexo 2.pdf (Anexo administrativo)",
+          "LIC10484 PPT Anexo 1.pdf (Anexo técnico)",
+          "LIC10484 PCP CDC Anexo 1.xlsx (Anexo administrativo)",
+          "LIC10484 PCP ANEXOS.pdf (Anejos administrativos)",
+          "LIC10484 PCP CDC.pdf (Cuadro de Características)",
+          "LIC10484 PPT Anexo 3.pdf (Anexo técnico)",
+          "Documento de aprobación del expediente (Documento general)"
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "Tabla de trazabilidad",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Requisito/dato",
+              "Tipo",
+              "Valor/condición",
+              "Documento",
+              "Página/apartado",
+              "Estado de lectura"
+            ],
+            "filas": [
+              {
+                "Requisito/dato": "Programa informático para conexión remota",
+                "Tipo": "Software/herramienta",
+                "Valor/condición": "1 sistema, para seguimiento de consumo y facturación",
+                "Documento": "LIC10484 PPT.pdf",
+                "Página/apartado": "p.4",
+                "Estado de lectura": "ENCONTRADO EN EL PLIEGO"
+              },
+              {
+                "Requisito/dato": "Hardware/materiales",
+                "Tipo": "Producto",
+                "Valor/condición": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": "ENCONTRADO EN EL PLIEGO"
+              },
+              {
+                "Requisito/dato": "Licencias/SaaS",
+                "Tipo": "Software",
+                "Valor/condición": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": "ENCONTRADO EN EL PLIEGO"
+              },
+              {
+                "Requisito/dato": "Fabricante/canal/carta",
+                "Tipo": "Requisito",
+                "Valor/condición": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": "ENCONTRADO EN EL PLIEGO"
+              },
+              {
+                "Requisito/dato": "Subcontratación",
+                "Tipo": "Regla",
+                "Valor/condición": "Permitida, sin tareas críticas, declaración tras adjudicación",
+                "Documento": "LIC10484 PCP CDC.pdf",
+                "Página/apartado": "p.13-14",
+                "Estado de lectura": "ENCONTRADO EN EL PLIEGO"
+              },
+              {
+                "Requisito/dato": "UTE",
+                "Tipo": "Regla",
+                "Valor/condición": "Permitida, compromiso de constitución",
+                "Documento": "LIC10484 PCP CLAUS.pdf",
+                "Página/apartado": "p.18, 27",
+                "Estado de lectura": "ENCONTRADO EN EL PLIEGO"
+              },
+              {
+                "Requisito/dato": "Cadena de suministro",
+                "Tipo": "Descripción",
+                "Valor/condición": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": "ENCONTRADO EN EL PLIEGO"
+              },
+              {
+                "Requisito/dato": "SLA/garantía/soporte",
+                "Tipo": "Requisito",
+                "Valor/condición": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": "ENCONTRADO EN EL PLIEGO"
+              },
+              {
+                "Requisito/dato": "Logística/stock/retirada",
+                "Tipo": "Requisito",
+                "Valor/condición": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": "ENCONTRADO EN EL PLIEGO"
+              },
+              {
+                "Requisito/dato": "Seguro RC",
+                "Tipo": "Requisito",
+                "Valor/condición": "No exigido",
+                "Documento": "LIC10484 PCP CDC.pdf",
+                "Página/apartado": "p.8",
+                "Estado de lectura": "ENCONTRADO EN EL PLIEGO"
+              },
+              {
+                "Requisito/dato": "ISO/ENS",
+                "Tipo": "Requisito",
+                "Valor/condición": "No exigido",
+                "Documento": "LIC10484 PCP CDC.pdf",
+                "Página/apartado": "p.5",
+                "Estado de lectura": "ENCONTRADO EN EL PLIEGO"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Parámetros de viabilidad (capa 1)",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Parámetro",
+              "Subcampos pedidos",
+              "Estado del pliego",
+              "Dato/literal localizado",
+              "Documento y apartado/página"
+            ],
+            "filas": [
+              {
+                "Parámetro": "Volumen anual de negocios",
+                "Subcampos pedidos": "Umbral, ámbito, mejor ejercicio, ventana, moneda, acreditación",
+                "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+                "Dato/literal localizado": "34.440,00 euros mínimo, ámbito consultoría y asesoramiento en energía eléctrica y gasística, mejor ejercicio de los tres últimos, euros, acreditación por relación de servicios",
+                "Documento y apartado/página": "LIC10484 PCP CDC.pdf, p.5"
+              },
+              {
+                "Parámetro": "Patrimonio neto/ratios",
+                "Subcampos pedidos": "Ejercicio, activos, pasivos, fórmula, resultado, umbral, acreditación",
+                "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Dato/literal localizado": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Documento y apartado/página": "LIC10484 PCP CDC.pdf, p.5"
+              },
+              {
+                "Parámetro": "Seguro RC/riesgos profesionales",
+                "Subcampos pedidos": "Importe, actividad, asegurador, identificador, inicio, fin, vigencia, cobertura, renovación",
+                "Estado del pliego": "NO EXIGIDO EXPRESAMENTE",
+                "Dato/literal localizado": "No se exige seguro de RC",
+                "Documento y apartado/página": "LIC10484 PCP CDC.pdf, p.8"
+              },
+              {
+                "Parámetro": "Certificados de buena ejecución",
+                "Subcampos pedidos": "Objeto, similitud/CPV, importe, fechas, duración, destinatario, prueba",
+                "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+                "Dato/literal localizado": "Relación de principales servicios realizados en los últimos tres años, igual o similar naturaleza, importe anual acumulado mínimo 16.072,00 euros, incluir importe, fechas y destinatario",
+                "Documento y apartado/página": "LIC10484 PCP CDC.pdf, p.5"
+              },
+              {
+                "Parámetro": "ISO/ENS",
+                "Subcampos pedidos": "Norma, versión, alcance, certificadora, caducidad, acreditación, equivalencias",
+                "Estado del pliego": "NO EXIGIDO EXPRESAMENTE",
+                "Dato/literal localizado": "No se exige ISO ni ENS",
+                "Documento y apartado/página": "LIC10484 PCP CDC.pdf, p.5"
+              },
+              {
+                "Parámetro": "Fabricantes/partnerships",
+                "Subcampos pedidos": "Fabricante, nivel, especialización, cartas, expiración, acreditación",
+                "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Dato/literal localizado": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Documento y apartado/página": "LIC10484 PCP CDC.pdf, p.5"
+              },
+              {
+                "Parámetro": "Perfiles",
+                "Subcampos pedidos": "Puesto, cantidad, titulación, experiencia, sector, certificaciones, dedicación, jornada, presencialidad, ubicación, idiomas, funciones, sustitución",
+                "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+                "Dato/literal localizado": "Responsable técnico (ingeniería/arquitectura, 3 años experiencia), Responsable jurídico-económico (universitaria, 3 años experiencia), personal de apoyo y sustitución, detalle en oferta",
+                "Documento y apartado/página": "LIC10484 PPT.pdf, p.10-11; LIC10484 PCP CDC.pdf, p.5"
+              },
+              {
+                "Parámetro": "ROLECE/clasificación",
+                "Subcampos pedidos": "Exigencia, grupo, subgrupo, categoría, vigencia, inscripción, acreditación",
+                "Estado del pliego": "NO EXIGIDO EXPRESAMENTE",
+                "Dato/literal localizado": "No se exige clasificación ni inscripción en ROLECE",
+                "Documento y apartado/página": "LIC10484 PCP CDC.pdf, p.5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "parrafos": [
+          "No se han identificado discrepancias en la documentación revisada."
+        ],
+        "elementos": [],
+        "tablas": []
+      }
+    ],
+    "pendientes_y_no_localizados": [
+      {
+        "titulo": "Ambigüedades y datos no localizados",
+        "parrafos": [],
+        "elementos": [
+          "No se localizan requisitos de productos físicos, hardware, materiales, ni licencias comerciales específicas.",
+          "No se exige fabricante, canal, partnership, ni cartas de compromiso.",
+          "No se describen cadenas de suministro materiales ni dependencias logísticas.",
+          "No se establecen SLA de terceros, garantías de fabricante, ni soporte técnico externo.",
+          "No se exige stock, logística, retirada ni destrucción de materiales.",
+          "No se exige seguro de responsabilidad civil.",
+          "No se exige ISO, ENS ni otras certificaciones de calidad o seguridad."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "parrafos": [
+          "No se han identificado discrepancias en la documentación revisada."
+        ],
+        "elementos": [],
+        "tablas": []
+      }
+    ],
+    "trazabilidad": [
+      {
+        "Elemento/necesidad": "Programa informático para conexión remota a puntos de suministro eléctrico",
+        "Tipo": "Software/herramienta",
+        "Cantidad/volumen": "1 sistema",
+        "Especificación": "Permitir seguimiento de consumo y facturación, descarga de datos horarios y cuarto horarios",
+        "Quién debe aportarlo": "Adjudicatario",
+        "Fuente": "LIC10484 PPT.pdf, p.4"
+      },
+      {
+        "Elemento/necesidad": "Equipo humano multidisciplinar (técnicos y administrativos)",
+        "Tipo": "Personal",
+        "Cantidad/volumen": "No especificado (mínimo 2 perfiles esenciales)",
+        "Especificación": "Ver requisitos de perfiles",
+        "Quién debe aportarlo": "Adjudicatario",
+        "Fuente": "LIC10484 PPT.pdf, p.10; LIC10484 PCP CDC.pdf, p.5"
+      },
+      {
+        "Elemento/necesidad": "Coordinador de Proyecto",
+        "Tipo": "Personal",
+        "Cantidad/volumen": "1",
+        "Especificación": "Puede ser uno de los dos perfiles esenciales",
+        "Quién debe aportarlo": "Adjudicatario",
+        "Fuente": "LIC10484 PPT.pdf, p.10"
+      },
+      {
+        "Elemento/necesidad": "Personal de apoyo y sustitución",
+        "Tipo": "Personal",
+        "Cantidad/volumen": "No especificado",
+        "Especificación": "Para bajas, vacaciones, etc.",
+        "Quién debe aportarlo": "Adjudicatario",
+        "Fuente": "LIC10484 PPT.pdf, p.11"
+      },
+      {
+        "Producto": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Cantidad": "",
+        "Características": "",
+        "Fabricante/referencia": "",
+        "Equivalente permitido": "",
+        "Garantía/soporte": "",
+        "Stock/plazo": "",
+        "Fuente": ""
+      },
+      {
+        "Producto": "Programa informático para conexión remota",
+        "Fabricante": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Metrica/cantidad": "1 sistema",
+        "Entornos": "NO CONSTA",
+        "Duración": "NO CONSTA",
+        "Quién lo aporta": "Adjudicatario",
+        "Fuente": "LIC10484 PPT.pdf, p.4"
+      },
+      {
+        "Fabricante": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Requisito": "",
+        "Nivel/certificación/carta exigida": "",
+        "Momento": "",
+        "Fuente": ""
+      },
+      {
+        "Regla": "Subcontratación permitida",
+        "Límite/condición": "No tareas críticas definidas; no requiere autorización previa salvo supuestos art. 215.2.d) LCSP; no es obligatorio declarar en oferta partes a subcontratar",
+        "Declaración/autorización": "Declaración de subcontratistas y parte del contrato a subcontratar, solo tras adjudicación y antes de inicio de ejecución",
+        "Fuente": "LIC10484 PCP CDC.pdf, p.13-14"
+      },
+      {
+        "Regla": "UTE permitida",
+        "Límite/condición": "Sin límites específicos",
+        "Declaración/autorización": "Compromiso de constitución en caso de adjudicación",
+        "Fuente": "LIC10484 PCP CLAUS.pdf, p.18, 27"
+      },
+      {
+        "Regla": "Medios externos permitidos para solvencia",
+        "Límite/condición": "Debe acreditarse disponibilidad efectiva durante la ejecución",
+        "Declaración/autorización": "Compromiso de puesta a disposición de recursos",
+        "Fuente": "LIC10484 PCP CLAUS.pdf, p.10-11"
+      },
+      {
+        "Requisito/dato": "Programa informático para conexión remota",
+        "Tipo": "Software/herramienta",
+        "Valor/condición": "1 sistema, para seguimiento de consumo y facturación",
+        "Documento": "LIC10484 PPT.pdf",
+        "Página/apartado": "p.4",
+        "Estado de lectura": "ENCONTRADO EN EL PLIEGO"
+      },
+      {
+        "Requisito/dato": "Hardware/materiales",
+        "Tipo": "Producto",
+        "Valor/condición": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": "ENCONTRADO EN EL PLIEGO"
+      },
+      {
+        "Requisito/dato": "Licencias/SaaS",
+        "Tipo": "Software",
+        "Valor/condición": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": "ENCONTRADO EN EL PLIEGO"
+      },
+      {
+        "Requisito/dato": "Fabricante/canal/carta",
+        "Tipo": "Requisito",
+        "Valor/condición": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": "ENCONTRADO EN EL PLIEGO"
+      },
+      {
+        "Requisito/dato": "Subcontratación",
+        "Tipo": "Regla",
+        "Valor/condición": "Permitida, sin tareas críticas, declaración tras adjudicación",
+        "Documento": "LIC10484 PCP CDC.pdf",
+        "Página/apartado": "p.13-14",
+        "Estado de lectura": "ENCONTRADO EN EL PLIEGO"
+      },
+      {
+        "Requisito/dato": "UTE",
+        "Tipo": "Regla",
+        "Valor/condición": "Permitida, compromiso de constitución",
+        "Documento": "LIC10484 PCP CLAUS.pdf",
+        "Página/apartado": "p.18, 27",
+        "Estado de lectura": "ENCONTRADO EN EL PLIEGO"
+      },
+      {
+        "Requisito/dato": "Cadena de suministro",
+        "Tipo": "Descripción",
+        "Valor/condición": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": "ENCONTRADO EN EL PLIEGO"
+      },
+      {
+        "Requisito/dato": "SLA/garantía/soporte",
+        "Tipo": "Requisito",
+        "Valor/condición": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": "ENCONTRADO EN EL PLIEGO"
+      },
+      {
+        "Requisito/dato": "Logística/stock/retirada",
+        "Tipo": "Requisito",
+        "Valor/condición": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": "ENCONTRADO EN EL PLIEGO"
+      },
+      {
+        "Requisito/dato": "Seguro RC",
+        "Tipo": "Requisito",
+        "Valor/condición": "No exigido",
+        "Documento": "LIC10484 PCP CDC.pdf",
+        "Página/apartado": "p.8",
+        "Estado de lectura": "ENCONTRADO EN EL PLIEGO"
+      },
+      {
+        "Requisito/dato": "ISO/ENS",
+        "Tipo": "Requisito",
+        "Valor/condición": "No exigido",
+        "Documento": "LIC10484 PCP CDC.pdf",
+        "Página/apartado": "p.5",
+        "Estado de lectura": "ENCONTRADO EN EL PLIEGO"
+      },
+      {
+        "Parámetro": "Volumen anual de negocios",
+        "Subcampos pedidos": "Umbral, ámbito, mejor ejercicio, ventana, moneda, acreditación",
+        "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+        "Dato/literal localizado": "34.440,00 euros mínimo, ámbito consultoría y asesoramiento en energía eléctrica y gasística, mejor ejercicio de los tres últimos, euros, acreditación por relación de servicios",
+        "Documento y apartado/página": "LIC10484 PCP CDC.pdf, p.5"
+      },
+      {
+        "Parámetro": "Patrimonio neto/ratios",
+        "Subcampos pedidos": "Ejercicio, activos, pasivos, fórmula, resultado, umbral, acreditación",
+        "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Dato/literal localizado": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Documento y apartado/página": "LIC10484 PCP CDC.pdf, p.5"
+      },
+      {
+        "Parámetro": "Seguro RC/riesgos profesionales",
+        "Subcampos pedidos": "Importe, actividad, asegurador, identificador, inicio, fin, vigencia, cobertura, renovación",
+        "Estado del pliego": "NO EXIGIDO EXPRESAMENTE",
+        "Dato/literal localizado": "No se exige seguro de RC",
+        "Documento y apartado/página": "LIC10484 PCP CDC.pdf, p.8"
+      },
+      {
+        "Parámetro": "Certificados de buena ejecución",
+        "Subcampos pedidos": "Objeto, similitud/CPV, importe, fechas, duración, destinatario, prueba",
+        "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+        "Dato/literal localizado": "Relación de principales servicios realizados en los últimos tres años, igual o similar naturaleza, importe anual acumulado mínimo 16.072,00 euros, incluir importe, fechas y destinatario",
+        "Documento y apartado/página": "LIC10484 PCP CDC.pdf, p.5"
+      },
+      {
+        "Parámetro": "ISO/ENS",
+        "Subcampos pedidos": "Norma, versión, alcance, certificadora, caducidad, acreditación, equivalencias",
+        "Estado del pliego": "NO EXIGIDO EXPRESAMENTE",
+        "Dato/literal localizado": "No se exige ISO ni ENS",
+        "Documento y apartado/página": "LIC10484 PCP CDC.pdf, p.5"
+      },
+      {
+        "Parámetro": "Fabricantes/partnerships",
+        "Subcampos pedidos": "Fabricante, nivel, especialización, cartas, expiración, acreditación",
+        "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Dato/literal localizado": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Documento y apartado/página": "LIC10484 PCP CDC.pdf, p.5"
+      },
+      {
+        "Parámetro": "Perfiles",
+        "Subcampos pedidos": "Puesto, cantidad, titulación, experiencia, sector, certificaciones, dedicación, jornada, presencialidad, ubicación, idiomas, funciones, sustitución",
+        "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+        "Dato/literal localizado": "Responsable técnico (ingeniería/arquitectura, 3 años experiencia), Responsable jurídico-económico (universitaria, 3 años experiencia), personal de apoyo y sustitución, detalle en oferta",
+        "Documento y apartado/página": "LIC10484 PPT.pdf, p.10-11; LIC10484 PCP CDC.pdf, p.5"
+      },
+      {
+        "Parámetro": "ROLECE/clasificación",
+        "Subcampos pedidos": "Exigencia, grupo, subgrupo, categoría, vigencia, inscripción, acreditación",
+        "Estado del pliego": "NO EXIGIDO EXPRESAMENTE",
+        "Dato/literal localizado": "No se exige clasificación ni inscripción en ROLECE",
+        "Documento y apartado/página": "LIC10484 PCP CDC.pdf, p.5"
+      }
+    ],
+    "salida_original": "# Resumen factual\nLa licitación LIC-10484 del Banco de España tiene por objeto la contratación de servicios de asesoramiento, control y seguimiento del suministro energético (electricidad y gas) del Banco de España. El contrato es de servicios, no de suministro de productos físicos, y abarca la revisión de facturación, elaboración de informes, asistencia en contratación pública de suministros energéticos, asesoramiento técnico y jurídico, y apoyo en la gestión presupuestaria y regulatoria. No se exige la aportación de hardware, software, SaaS, licencias comerciales, ni se establecen requisitos de fabricantes, canal, partnerships, ni cartas de compromiso de fabricantes. La subcontratación está permitida con ciertas condiciones, pero no se exige ni limita la UTE ni se describen cadenas de suministro materiales. No se establecen SLA de terceros, garantías de fabricante, ni requisitos de soporte, stock, logística, retirada o destrucción de materiales.\n\n# Mapa de suministros y terceros\n| Elemento/necesidad | Tipo | Cantidad/volumen | Especificación | Quién debe aportarlo | Fuente |\n|--------------------|------|------------------|---------------|----------------------|--------|\n| Programa informático para conexión remota a puntos de suministro eléctrico | Software/herramienta | 1 sistema | Permitir seguimiento de consumo y facturación, descarga de datos horarios y cuarto horarios | Adjudicatario | LIC10484 PPT.pdf, p.4 |\n| Equipo humano multidisciplinar (técnicos y administrativos) | Personal | No especificado (mínimo 2 perfiles esenciales) | Ver requisitos de perfiles | Adjudicatario | LIC10484 PPT.pdf, p.10; LIC10484 PCP CDC.pdf, p.5 |\n| Coordinador de Proyecto | Personal | 1 | Puede ser uno de los dos perfiles esenciales | Adjudicatario | LIC10484 PPT.pdf, p.10 |\n| Personal de apoyo y sustitución | Personal | No especificado | Para bajas, vacaciones, etc. | Adjudicatario | LIC10484 PPT.pdf, p.11 |\n\n# Productos, hardware y materiales\nNo se exige la aportación de productos físicos, hardware, materiales, ni equipamiento informático específico por parte del adjudicatario. El equipamiento informático del Banco de España solo se menciona para el acceso a infraestructuras propias, pero no como suministro a cargo del adjudicatario.\n\n| Producto | Cantidad | Características | Fabricante/referencia | Equivalente permitido | Garantía/soporte | Stock/plazo | Fuente |\n|----------|----------|----------------|----------------------|----------------------|------------------|------------|--------|\n| NO CONSTA EN LA DOCUMENTACION REVISADA | | | | | | | |\n\n# Software, SaaS y licencias\nEl único software mencionado es el programa informático para conexión remota a los puntos de suministro eléctrico del Banco de España, que debe ser aportado por el adjudicatario. No se especifica fabricante, tipo de licencia, modalidad SaaS, cantidad de usuarios, entornos, ni duración. No se exigen licencias comerciales, SaaS, ni productos de software de fabricantes concretos.\n\n| Producto | Fabricante | Metrica/cantidad | Entornos | Duración | Quién lo aporta | Fuente |\n|----------|-----------|------------------|----------|----------|----------------|--------|\n| Programa informático para conexión remota | NO CONSTA EN LA DOCUMENTACION REVISADA | 1 sistema | NO CONSTA | NO CONSTA | Adjudicatario | LIC10484 PPT.pdf, p.4 |\n\n# Fabricantes, canal y cartas\nNo se exige ningún fabricante concreto, nivel de partner, canal autorizado, ni carta/compromiso de fabricante o distribuidor. No se establecen requisitos de partnerships ni equivalencias.\n\n| Fabricante | Requisito | Nivel/certificación/carta exigida | Momento | Fuente |\n|------------|----------|-------------------------------|---------|--------|\n| NO CONSTA EN LA DOCUMENTACION REVISADA | | | | |\n\n# Subcontratacion, UTE y medios externos\n| Regla | Límite/condición | Declaración/autorización | Fuente |\n|-------|------------------|-------------------------|--------|\n| Subcontratación permitida | No tareas críticas definidas; no requiere autorización previa salvo supuestos art. 215.2.d) LCSP; no es obligatorio declarar en oferta partes a subcontratar | Declaración de subcontratistas y parte del contrato a subcontratar, solo tras adjudicación y antes de inicio de ejecución | LIC10484 PCP CDC.pdf, p.13-14 |\n| UTE permitida | Sin límites específicos | Compromiso de constitución en caso de adjudicación | LIC10484 PCP CLAUS.pdf, p.18, 27 |\n| Medios externos permitidos para solvencia | Debe acreditarse disponibilidad efectiva durante la ejecución | Compromiso de puesta a disposición de recursos | LIC10484 PCP CLAUS.pdf, p.10-11 |\n\n# Cadena de suministro y dependencias contractuales descritas\nNo se describe ni condiciona contractualmente ninguna cadena de suministro material, logística, ni dependencias de terceros para la ejecución del servicio. El servicio es de consultoría y asesoramiento, no de suministro físico.\n\n# SLA de proveedor/fabricante, garantías y soporte exigidos\nNo se establecen SLA de terceros, garantías de fabricante, soporte NBD/4h/onsite, ni condiciones back-to-back. Los plazos de entrega aplican solo a informes y servicios, no a productos o materiales.\n\n# Logística, staging, stock, entrega, retirada y destrucción\nNo se establecen requisitos de logística, staging, stock, entrega, retirada ni destrucción de productos o materiales. No se exige gestión de inventario ni cadena de suministro física.\n\n# Ambigüedades y datos no localizados\n- No se localizan requisitos de productos físicos, hardware, materiales, ni licencias comerciales específicas.\n- No se exige fabricante, canal, partnership, ni cartas de compromiso.\n- No se describen cadenas de suministro materiales ni dependencias logísticas.\n- No se establecen SLA de terceros, garantías de fabricante, ni soporte técnico externo.\n- No se exige stock, logística, retirada ni destrucción de materiales.\n- No se exige seguro de responsabilidad civil.\n- No se exige ISO, ENS ni otras certificaciones de calidad o seguridad.\n\n# Documentos revisados\n1. LIC10484 PCP CLAUS.pdf (Pliego administrativo)\n2. LIC10484 PPT.pdf (Pliego técnico)\n3. LIC10484 PPT Anexo 2.pdf (Anexo técnico)\n4. LIC10484 PCP CDC Anexo 2.pdf (Anexo administrativo)\n5. LIC10484 PPT Anexo 1.pdf (Anexo técnico)\n6. LIC10484 PCP CDC Anexo 1.xlsx (Anexo administrativo)\n7. LIC10484 PCP ANEXOS.pdf (Anejos administrativos)\n8. LIC10484 PCP CDC.pdf (Cuadro de Características)\n9. LIC10484 PPT Anexo 3.pdf (Anexo técnico)\n10. Documento de aprobación del expediente (Documento general)\n\n# Tabla de trazabilidad\n| Requisito/dato | Tipo | Valor/condición | Documento | Página/apartado | Estado de lectura |\n|----------------|------|-----------------|-----------|-----------------|-------------------|\n| Programa informático para conexión remota | Software/herramienta | 1 sistema, para seguimiento de consumo y facturación | LIC10484 PPT.pdf | p.4 | ENCONTRADO EN EL PLIEGO |\n| Hardware/materiales | Producto | NO CONSTA EN LA DOCUMENTACION REVISADA | - | - | ENCONTRADO EN EL PLIEGO |\n| Licencias/SaaS | Software | NO CONSTA EN LA DOCUMENTACION REVISADA | - | - | ENCONTRADO EN EL PLIEGO |\n| Fabricante/canal/carta | Requisito | NO CONSTA EN LA DOCUMENTACION REVISADA | - | - | ENCONTRADO EN EL PLIEGO |\n| Subcontratación | Regla | Permitida, sin tareas críticas, declaración tras adjudicación | LIC10484 PCP CDC.pdf | p.13-14 | ENCONTRADO EN EL PLIEGO |\n| UTE | Regla | Permitida, compromiso de constitución | LIC10484 PCP CLAUS.pdf | p.18, 27 | ENCONTRADO EN EL PLIEGO |\n| Cadena de suministro | Descripción | NO CONSTA EN LA DOCUMENTACION REVISADA | - | - | ENCONTRADO EN EL PLIEGO |\n| SLA/garantía/soporte | Requisito | NO CONSTA EN LA DOCUMENTACION REVISADA | - | - | ENCONTRADO EN EL PLIEGO |\n| Logística/stock/retirada | Requisito | NO CONSTA EN LA DOCUMENTACION REVISADA | - | - | ENCONTRADO EN EL PLIEGO |\n| Seguro RC | Requisito | No exigido | LIC10484 PCP CDC.pdf | p.8 | ENCONTRADO EN EL PLIEGO |\n| ISO/ENS | Requisito | No exigido | LIC10484 PCP CDC.pdf | p.5 | ENCONTRADO EN EL PLIEGO |\n\n# Parámetros de viabilidad (capa 1)\n| Parámetro | Subcampos pedidos | Estado del pliego | Dato/literal localizado | Documento y apartado/página |\n|-----------|--------------------|-------------------|------------------------|-----------------------------|\n| Volumen anual de negocios | Umbral, ámbito, mejor ejercicio, ventana, moneda, acreditación | ENCONTRADO EN EL PLIEGO | 34.440,00 euros mínimo, ámbito consultoría y asesoramiento en energía eléctrica y gasística, mejor ejercicio de los tres últimos, euros, acreditación por relación de servicios | LIC10484 PCP CDC.pdf, p.5 |\n| Patrimonio neto/ratios | Ejercicio, activos, pasivos, fórmula, resultado, umbral, acreditación | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA EN LA DOCUMENTACION REVISADA | LIC10484 PCP CDC.pdf, p.5 |\n| Seguro RC/riesgos profesionales | Importe, actividad, asegurador, identificador, inicio, fin, vigencia, cobertura, renovación | NO EXIGIDO EXPRESAMENTE | No se exige seguro de RC | LIC10484 PCP CDC.pdf, p.8 |\n| Certificados de buena ejecución | Objeto, similitud/CPV, importe, fechas, duración, destinatario, prueba | ENCONTRADO EN EL PLIEGO | Relación de principales servicios realizados en los últimos tres años, igual o similar naturaleza, importe anual acumulado mínimo 16.072,00 euros, incluir importe, fechas y destinatario | LIC10484 PCP CDC.pdf, p.5 |\n| ISO/ENS | Norma, versión, alcance, certificadora, caducidad, acreditación, equivalencias | NO EXIGIDO EXPRESAMENTE | No se exige ISO ni ENS | LIC10484 PCP CDC.pdf, p.5 |\n| Fabricantes/partnerships | Fabricante, nivel, especialización, cartas, expiración, acreditación | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA EN LA DOCUMENTACION REVISADA | LIC10484 PCP CDC.pdf, p.5 |\n| Perfiles | Puesto, cantidad, titulación, experiencia, sector, certificaciones, dedicación, jornada, presencialidad, ubicación, idiomas, funciones, sustitución | ENCONTRADO EN EL PLIEGO | Responsable técnico (ingeniería/arquitectura, 3 años experiencia), Responsable jurídico-económico (universitaria, 3 años experiencia), personal de apoyo y sustitución, detalle en oferta | LIC10484 PPT.pdf, p.10-11; LIC10484 PCP CDC.pdf, p.5 |\n| ROLECE/clasificación | Exigencia, grupo, subgrupo, categoría, vigencia, inscripción, acreditación | NO EXIGIDO EXPRESAMENTE | No se exige clasificación ni inscripción en ROLECE | LIC10484 PCP CDC.pdf, p.5 |\n\n# Discrepancias y pendientes de aclaración\nNo se han identificado discrepancias en la documentación revisada."
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "LIC10484 PCP CLAUS.pdf",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 212955,
+        "caracteres_enviados_al_agente": 212955,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "LIC10484 PPT.pdf",
+        "tipo": "Pliego tecnico",
+        "fuente": "XML",
+        "caracteres_extraidos": 25428,
+        "caracteres_enviados_al_agente": 25428,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "LIC10484 PPT Anexo 2.pdf",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 1535,
+        "caracteres_enviados_al_agente": 1535,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 4,
+        "nombre": "LIC10484 PCP CDC Anexo 2.pdf",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 1250,
+        "caracteres_enviados_al_agente": 1250,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 5,
+        "nombre": "LIC10484 PPT Anexo 1.pdf",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 5262,
+        "caracteres_enviados_al_agente": 5262,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 6,
+        "nombre": "LIC10484 PCP CDC Anexo 1.xlsx",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 3338,
+        "caracteres_enviados_al_agente": 3338,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 7,
+        "nombre": "LIC10484 PCP ANEXOS.pdf",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 40068,
+        "caracteres_enviados_al_agente": 40068,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 8,
+        "nombre": "LIC10484 PCP CDC.pdf",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 27299,
+        "caracteres_enviados_al_agente": 27299,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 9,
+        "nombre": "LIC10484 PPT Anexo 3.pdf",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 18940,
+        "caracteres_enviados_al_agente": 18940,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 10,
+        "nombre": "Documento de aprobación del expediente",
+        "tipo": "Documento general",
+        "fuente": "XML",
+        "caracteres_extraidos": 4831,
+        "caracteres_enviados_al_agente": 4831,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Se omitieron 8 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  }
+}

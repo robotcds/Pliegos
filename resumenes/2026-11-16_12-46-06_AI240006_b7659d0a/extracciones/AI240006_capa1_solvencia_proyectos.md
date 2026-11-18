@@ -1,0 +1,17 @@
+Registro documental de preventa
+
+| Materia | Requisito completo | Fuente |
+|---|---|---|
+| Solvencia económica | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito relativo a volumen anual de negocios, umbrales, ejercicios, mejor ejercicio, moneda o forma de acreditación. | DOC20240806095753Pliegodefinitivofirmado.pdf (texto extraído incompleto) |
+| Solvencia económica | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito relativo a patrimonio neto, ratios, componentes, fórmulas o ejercicio de referencia. | DOC20240806095753Pliegodefinitivofirmado.pdf (texto extraído incompleto) |
+| Solvencia económica | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito relativo a seguro de responsabilidad civil o de riesgos profesionales, coberturas, límites, moneda, vigencia o renovación. | DOC20240806095753Pliegodefinitivofirmado.pdf (texto extraído incompleto) |
+| Solvencia técnica | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito relativo a número mínimo de trabajos, proyectos o referencias exigidas, ni a objeto/similitud, CPV, sector, tecnologías o alcance requerido. | DOC20240806095753Pliegodefinitivofirmado.pdf (texto extraído incompleto) |
+| Solvencia técnica | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito relativo a importes mínimos, acumulados, anualizados o referidos al año de mayor ejecución. | DOC20240806095753Pliegodefinitivofirmado.pdf (texto extraído incompleto) |
+| Solvencia técnica | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito relativo a periodo o ventana temporal aplicable, reglas para empresas de nueva creación, duración mínima, fechas, condiciones de finalización o ejecución. | DOC20240806095753Pliegodefinitivofirmado.pdf (texto extraído incompleto) |
+| Solvencia técnica | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito relativo a forma de acreditación (certificados de buena ejecución, relación de trabajos, destinatario público/privado u otros medios expresamente admitidos). | DOC20240806095753Pliegodefinitivofirmado.pdf (texto extraído incompleto) |
+| Solvencia técnica | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito relativo a ISO, ENS, partnerships, clasificación, ROLECE, medios externos, reglas de acumulación en UTE, acreditación y momento de cumplimiento, por lote. | DOC20240806095753Pliegodefinitivofirmado.pdf (texto extraído incompleto) |
+| Discrepancias y pendientes de aclaración | El documento principal del pliego administrativo no ha podido ser leído en su totalidad debido a un error de acceso/rechazo de URL, por lo que no es posible verificar la existencia o ausencia de requisitos de solvencia económica y técnica. | DOC20240806095753Pliegodefinitivofirmado.pdf (texto extraído incompleto) |
+
+Discrepancias y pendientes de aclaración:
+- El pliego administrativo no ha podido ser revisado en su totalidad debido a un error de acceso a la URL proporcionada ("Request Rejected The requested URL was rejected"). Por tanto, no es posible confirmar la existencia, detalle o ausencia de requisitos de solvencia económica y técnica, ni de sus alternativas, exenciones o medios de acreditación. Esta limitación afecta a todos los apartados de solvencia y experiencia de empresa.
+- No se han identificado discrepancias internas en la documentación revisada, pero la revisión es incompleta por limitación técnica atribuida al registro documental.

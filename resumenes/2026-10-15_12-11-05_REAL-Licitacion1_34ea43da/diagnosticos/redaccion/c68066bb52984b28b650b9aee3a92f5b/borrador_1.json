@@ -1,0 +1,617 @@
+{
+  "respuesta_original": "{\"expediente\":\"REAL-Licitacion1\",\"agentes_revisados\":[\"A1\",\"A2\",\"A3\",\"A4\",\"A6\",\"A8\",\"A9\",\"A10\"],\"introduccion\":[\"El expediente administrativo 300/2026/00009, promovido por el Ayuntamiento de Madrid, regula la contratación del servicio de Asistente Virtual de Participación Ciudadana para Decide Madrid. El objeto es la implantación, operación y evolución tecnológica de un asistente virtual, con integración total en el portal, atención ciudadana y soporte a procesos participativos. El alcance abarca tanto la prestación técnica como la gestión de datos, seguridad, formación y transferencia final, con requisitos específicos de solvencia, equipo y medios tecnológicos.\",\"La duración inicial del contrato es de 24 meses, con un presupuesto base de 181.595,44 € sin IVA y 219.730,48 € con IVA, y un valor estimado de 408.918,11 €. Se prevén prórrogas sucesivas de 24 y 12 meses, hasta un máximo de 60 meses, condicionadas a acuerdo expreso y subsistencia de la necesidad. La oferta debe respetar topes independientes para fijo, variable y bolsa de horas, y la facturación se ajusta a hitos y consumos justificados, sin constituir ingreso garantizado.\",\"El modelo de prestación exige integración cloud, cumplimiento de requisitos de seguridad ENS, cobertura de atención humana y automatizada, y mecanismos de mejora continua. Se establecen obligaciones esenciales y condiciones especiales de ejecución, así como penalizaciones por indisponibilidad, retrasos o incumplimientos. Existen discrepancias documentales pendientes de aclaración en la totalización de la bolsa de horas, multiplicadores anuales y ámbitos de borrado de datos. [ID_188_1.PDF, ID_188_2.PDF, ID_188_3.PDF]\"],\"secciones\":[{\"titulo\":\"Datos principales de la licitación\",\"bloques\":[{\"tipo\":\"tabla\",\"columnas\":[\"Concepto\",\"Información\"],\"filas\":[[\"Expediente administrativo\",\"300/2026/00009\"],[\"Identificador interno\",\"REAL-Licitacion1\"],[\"Órgano de contratación\",\"No localizado en XML\"],[\"Objeto\",\"Asistente Virtual de Participación Ciudadana de Decide Madrid\"],[\"Presupuesto base (sin IVA)\",\"181.595,44 €\"],[\"Presupuesto base (con IVA)\",\"219.730,48 €\"],[\"Valor estimado\",\"408.918,11 €\"],[\"Duración inicial\",\"24 meses\"],[\"Prórrogas\",\"24 y 12 meses (máximo 60 meses)\"],[\"Fecha de inicio prevista\",\"01/09/2026 o formalización\"],[\"CPV\",\"No localizado\"],[\"Lotes\",\"No consta\"],[\"Procedimiento\",\"No localizado\"],[\"Plazo de presentación\",\"16/06/2026 a las 23:59 (documental)\"],[\"Presentación\",\"Electrónica (PLACSP)\"]]}]},{\"titulo\":\"Presentación y documentación por fase\",\"bloques\":[{\"tipo\":\"parrafo\",\"texto\":\"La oferta se presenta electrónicamente en la Plataforma de Contratación del Sector Público (PLACSP), estructurada en tres sobres digitales: A (documentación administrativa), B (memoria técnica de juicio de valor) y C (oferta económica y mejoras).\"},{\"tipo\":\"lista\",\"elementos\":[\"Sobre A: DEUC firmado, declaraciones aplicables, Anexo VI para empresas vinculadas, compromiso Anexo X, compromisos UTE y declaraciones de entidades externas, declaraciones laborales/sociales/igualdad. No se exigen nombres ni cualificación del equipo en esta fase.\",\"Sobre B: Memoria técnica de juicio de valor, máximo 40 páginas incluyendo índice y anexos, márgenes mínimos de 2 cm, interlineado sencillo y letra mínima de 11 puntos. Las páginas excedentes no se valoran, pero no implican exclusión automática. No debe incluir información de valoración automática.\",\"Sobre C: Oferta económica (Anexo II), desglosando fijo, variable, tarifa e IVA, y mejoras automáticas ofertables.\",\"La prueba efectiva de medios, solvencia y equipo se requiere solo al propuesto adjudicatario antes de adjudicar, en un plazo de diez días hábiles desde el requerimiento. El compromiso inicial no equivale a acreditación definitiva.\",\"Defectos documentales subsanables: tres días para corregir y, en su caso, cinco para aclaraciones/complementos. La documentación debe presentarse en castellano.\",\"No se admiten variantes. Se puede solicitar información adicional con diez días de antelación al cierre.\"]},{\"tipo\":\"parrafo\",\"texto\":\"El cierre de presentación de ofertas es el 16/06/2026 a las 23:59, según la fecha documental del expediente. [ID_188_2.PDF, páginas PDF 18-21, 24, 65-69, 73, 79; ID_188_3.PDF, página PDF 28]\"}]},{\"titulo\":\"Alcance técnico, actividades y entregables\",\"bloques\":[{\"tipo\":\"parrafo\",\"texto\":\"El servicio abarca la implantación, operación y evolución de un asistente virtual integrado en Decide Madrid, con atención ciudadana, soporte a procesos participativos y cumplimiento de requisitos de seguridad, accesibilidad y protección de datos.\"},{\"tipo\":\"subtitulo\",\"texto\":\"Volumetría y capacidad mínima\"},{\"tipo\":\"tabla\",\"columnas\":[\"Año\",\"Personas atendidas\",\"Mensajes gestionados\"],\"filas\":[[\"2023\",\"6.246\",\"27.083\"],[\"2024\",\"4.490\",\"46.723\"],[\"2025 (hasta 30/11)\",\"2.552\",\"26.784\"]]},{\"tipo\":\"lista\",\"elementos\":[\"Capacidad mínima de la nueva solución: 50 conversaciones simultáneas y 15.000 mensajes/mes.\",\"Disponibilidad general 24/7/365, salvo paradas planificadas comunicadas con antelación.\",\"Integración mediante script en todas las secciones del portal, sustituyendo el buscador tradicional y cumpliendo compatibilidad/seguridad IAM.\",\"Funcionamiento en navegador estándar, fijo/móvil, sin software específico.\",\"Mecanismos obligatorios de mejora de respuestas del LLM (ejemplos: RAG, prompts, fine-tuning), con supervisión diaria y documento actualizado de flujos y configuraciones.\",\"Conversación en castellano, respuestas contextualizadas y restringidas a portal/participación, almacenamiento y anonimización de conversaciones para análisis y mejora.\",\"Panel cloud en castellano, acceso por navegador, con estadísticas, trazabilidad, informes, análisis de errores, intervención humana en tiempo real, encuestas y supervisión de agentes conectados.\",\"Formación inicial mínima de 20 horas para hasta 20 asistentes DGPC, presencial o telemática, y horas de actualización durante el contrato.\",\"Entornos de producción y preproducción obligatorios, arquitectura contenerizable, despliegue inicial y redespliegues por IaC y Git IAM, coordinación inicial de CI/CD.\",\"Uso obligado de Plataforma del Dato y cuadros de mando en Power BI Premium (licenciado por IAM); el adjudicatario aporta licencias Power BI Pro necesarias para su trabajo.\",\"Accesibilidad: cumplimiento UNE 139803:2012, prioridad 2 (AA WCAG 2.0), y RD 1494/2007 y 1112/2018; declaración responsable en siete días desde inicio.\",\"Mantenimiento preventivo, correctivo y evolutivo, con bolsa de consultoría avanzada para proyectos de evolución tecnológica.\",\"Transferencia de conocimiento y entrega de desarrollos, modelos, código, datos sintéticos y registros en los dos últimos meses; borrado seguro y certificado de destrucción para sistemas con información municipal.\"]},{\"tipo\":\"parrafo\",\"texto\":\"La validación de arquitectura por IAM y DGPC es obligatoria antes de producción; cambios posteriores requieren aprobación previa. [ID_188_3.PDF, páginas PDF 6, 8-9, 12-20, 23, 25-28, 30, 33, 35-37, 40-46, 49, 50, 52]\"}]},{\"titulo\":\"Equipo y continuidad del servicio\",\"bloques\":[{\"tipo\":\"parrafo\",\"texto\":\"El equipo mínimo exigido consta de nueve personas en siete perfiles, con requisitos específicos de titulación y experiencia. Se exige cobertura continua de atención humana y coordinación técnica, así como mecanismos de sustitución y acreditación documental.\"},{\"tipo\":\"tabla\",\"columnas\":[\"Perfil\",\"Cantidad\",\"Titulación mínima\",\"Experiencia específica\"],\"filas\":[[\"Jefe de proyecto\",\"2\",\"Grado o equivalente\",\"5 años dirigiendo proyectos de administración electrónica y 3 años en asistentes virtuales\"],[\"Técnico nube\",\"1\",\"Grado o equivalente\",\"3 años en funciones propias y 2 en asistentes virtuales\"],[\"Analista programador\",\"1\",\"Grado o equivalente\",\"3 años en funciones propias y 2 en asistentes virtuales\"],[\"Experto IA/datos\",\"1\",\"Grado o equivalente\",\"3 años en funciones propias y 2 en asistentes virtuales\"],[\"Lingüista\",\"1\",\"Grado o equivalente\",\"3 años en funciones propias y 2 en asistentes virtuales\"],[\"Agente de primer nivel\",\"2\",\"Secundaria\",\"3 años de atención ciudadana en castellano\"],[\"Consultor de evolución\",\"1\",\"Grado o equivalente\",\"5 años en funciones propias, 3 en análisis de proyectos de administración electrónica y 3 en asistentes virtuales\"]]},{\"tipo\":\"lista\",\"elementos\":[\"Al menos una persona agente durante toda la atención, laborables 11:00-14:00 o cuatro horas consecutivas si se adjudica la mejora.\",\"Planificación de vacaciones, bajas y eventualidades sin perder cobertura.\",\"Designación de interlocutor único/coordinador técnico y suplente, localizable 8:00-17:00 laborables, en siete días desde notificación de adjudicación.\",\"Constitución del equipo en quince días desde notificación de adjudicación; sustituciones justificadas con comunicación previa y pruebas de titulación/experiencia, plazo de siete días para proponer sustituto.\",\"Acreditación documental solo al propuesto adjudicatario: relación completa, pertenencia a empresa o compromiso, declaración responsable, CV anonimizados, certificados de vida laboral y títulos oficiales.\",\"El equipo debe mantener conocimientos actualizados en experiencia de usuario, diseño conversacional, entrenamiento de modelos, riesgos y ética IA, sistemas/APIs, comunicación institucional y mejora continua.\"]},{\"tipo\":\"parrafo\",\"texto\":\"La cobertura de ausencias es obligatoria y no se interpreta el plazo de sustitución como permiso para interrumpir el servicio. [ID_188_3.PDF, páginas PDF 10, 16, 23, 25-28; ID_188_2.PDF, páginas PDF 25, 26, 66, 71]\"}]},{\"titulo\":\"Solvencia y acreditación\",\"bloques\":[{\"tipo\":\"subtitulo\",\"texto\":\"Solvencia técnica y profesional\"},{\"tipo\":\"parrafo\",\"texto\":\"Se exige haber realizado trabajos iguales o similares por importe igual o superior a 181.595,44 € sin IVA en los tres últimos años naturales desde el cierre de ofertas, con coincidencia de los tres primeros dígitos CPV. La acreditación remite al artículo 90.1.a LCSP, sin exención general de certificados de buena ejecución.\"},{\"tipo\":\"subtitulo\",\"texto\":\"Solvencia económica\"},{\"tipo\":\"parrafo\",\"texto\":\"Volumen anual mínimo de negocios: 181.595,44 € en el mejor ejercicio disponible de 2023, 2024 y 2025, por declaración responsable. Para empresas de menos de cinco años, la alternativa afecta solo a solvencia técnica (declaración de medios y título del jefe de proyecto), no exime de solvencia económica.\"},{\"tipo\":\"subtitulo\",\"texto\":\"ROLECE y medios externos\"},{\"tipo\":\"parrafo\",\"texto\":\"ROLECE acredita solo extremos inscritos y actualizados, pudiendo eximir documentalmente en los ámbitos contemplados, incluida solvencia económica/financiera. No acredita automáticamente toda solvencia ni medios del equipo. La solvencia externa exige disponibilidad efectiva, ausencia de prohibición, compromisos y pruebas aplicables, con responsabilidad solidaria al integrar solvencia económica externa.\"},{\"tipo\":\"parrafo\",\"texto\":\"La prueba efectiva de solvencia se requiere solo al propuesto adjudicatario antes de adjudicar. [ID_188_2.PDF, páginas PDF 18, 29, 30, 63-65]\"}]},{\"titulo\":\"Criterios, subcriterios y mejoras puntuables\",\"bloques\":[{\"tipo\":\"tabla\",\"columnas\":[\"Criterio\",\"Puntos máximos\",\"Peso\",\"Tipo de evaluación\"],\"filas\":[[\"Juicio de valor (memoria técnica)\",\"45\",\"45 %\",\"Subjetivo\"],[\"Precio (fijo + variable)\",\"35\",\"35 %\",\"Automático\"],[\"Mejoras ofertables (sobre C)\",\"20\",\"20 %\",\"Automático\"]]},{\"tipo\":\"subtitulo\",\"texto\":\"Desglose de subcriterios de juicio de valor\"},{\"tipo\":\"tabla\",\"columnas\":[\"Subcriterio\",\"Puntos\"],\"filas\":[[\"Detalle, estructura y calidad del documento\",\"10\"],[\"Adecuación funcional y técnica, comprensión, viabilidad y valor añadido\",\"30\"],[\"Planificación, calendario, recursos, documentación, riesgos, contingencias, calidad, trazabilidad y transferencia\",\"5\"]]},{\"tipo\":\"parrafo\",\"texto\":\"Cada subcriterio se valora con los siguientes niveles: excelente (100 %), alta (80 %), media (60 %), baja (40 %), muy baja (20 %) o insuficiente (0 %). Es obligatorio alcanzar al menos 22,5 puntos en juicio de valor para no ser excluido.\"},{\"tipo\":\"subtitulo\",\"texto\":\"Mejoras puntuables (sobre C)\"},{\"tipo\":\"tabla\",\"columnas\":[\"Mejora ofertada\",\"Puntos\"],\"filas\":[[\"Una hora diaria adicional de atención humana (laborables 11:00-14:00, cuatro horas consecutivas)\",\"10\"],[\"100 horas gratuitas adicionales en bolsa de consultoría avanzada\",\"5\"],[\"200 horas gratuitas adicionales en bolsa de consultoría avanzada\",\"10\"]]},{\"tipo\":\"parrafo\",\"texto\":\"Las mejoras son ofertables y no constituyen mínimos universales ni criterios de experiencia adicional del personal. [ID_188_2.PDF, páginas PDF 67-72]\"}]},{\"titulo\":\"Oferta económica y ofertas anormalmente bajas\",\"bloques\":[{\"tipo\":\"parrafo\",\"texto\":\"La oferta debe respetar tres topes independientes: 150.234,97 € de fijo, 31.360,47 € de variable y 52,27 €/hora de evolución tecnológica, todos sin IVA. Cumplir solo el total no sustituye cumplir cada componente. Fijo más variable constituye el importe total ofertado.\"},{\"tipo\":\"parrafo\",\"texto\":\"El variable se calcula como tarifa ofertada × 600 horas, con máximo dos decimales. Las horas adicionales gratuitas no aumentan el precio ofertado, sino que modifican la proporción gratuita de cada factura. El Ayuntamiento no está obligado a agotar la bolsa, solo se factura variable por trabajos finalizados y horas justificadas mediante memoria mensual.\"},{\"tipo\":\"parrafo\",\"texto\":\"La fórmula de valoración económica es: Y = 35 × (oferta más económica / oferta a valorar), aplicada sobre fijo más variable. [ID_188_2.PDF, páginas PDF 68-72]\"},{\"tipo\":\"subtitulo\",\"texto\":\"Ofertas anormalmente bajas\"},{\"tipo\":\"lista\",\"elementos\":[\"Un licitador: oferta inferior al presupuesto base en más de 20 puntos porcentuales.\",\"Dos licitadores: inferior a la otra en más de 15 puntos porcentuales.\",\"Tres o más: inferior a la media aritmética en más de 10 puntos porcentuales.\",\"Para empresas del mismo grupo se toma solo la oferta más baja a estos efectos.\",\"La presunción activa justificación en tres días (no se especifica si hábiles o naturales), no exclusión automática.\"]} ]},{\"titulo\":\"Facturación, cobro y garantías\",\"bloques\":[{\"tipo\":\"lista\",\"elementos\":[\"La primera factura es el 20 % del fijo ofertado al completar la implantación (máximo dos meses desde inicio).\",\"El 80 % restante se divide entre 22 meses de operación, a mes vencido y, en cualquier caso, desde el tercer mes, más el variable realizado.\",\"Los trabajos de diciembre de 2026 y 2027 son exigibles el 1 de enero siguiente.\",\"No proceden abonos a cuenta preparatorios.\",\"Solo se factura variable por trabajos finalizados y horas efectivamente realizadas y justificadas.\",\"Las facturas requieren conformidad del responsable y desglose de IVA.\",\"Bolsa de 600 horas: 0 % gratuito y 100 % facturable. Con 100 adicionales, total 700: 14,29 % gratuito y 85,71 % facturable. Con 200 adicionales, total 800: 25 % gratuito y 75 % facturable. Se aplica la proporción en cada factura, no se dejan las horas gratuitas para el final.\",\"No procede revisión de precios, subrogación ni modificaciones en el PCAP; no se permite incrementar las unidades hasta el 10 % del precio.\"]},{\"tipo\":\"subtitulo\",\"texto\":\"Garantías\"},{\"tipo\":\"lista\",\"elementos\":[\"No hay garantía provisional.\",\"Garantía definitiva: 5 % del precio final ofertado sin IVA, a constituir antes de adjudicar, en diez días hábiles desde requerimiento.\",\"Garantía complementaria: 1 % del precio final ofertado sin IVA para ofertas incursas en presunción de anormalidad.\",\"Garantía del servicio: 12 meses desde recepción o conformidad, con subsanación de defectos y soporte del fabricante.\"]} ]},{\"titulo\":\"Horarios, plazos, ANS y penalizaciones\",\"bloques\":[{\"tipo\":\"tabla\",\"columnas\":[\"Actuación\",\"Plazo/Condición\"],\"filas\":[[\"Implantación\",\"Máximo 2 meses desde inicio\"],[\"Constitución del equipo\",\"15 días desde notificación de adjudicación\"],[\"Designación de interlocutor\",\"7 días desde notificación de adjudicación\"],[\"Declaración de accesibilidad y flexibilidad\",\"7 días naturales desde inicio\"],[\"Afiliación y alta en Seguridad Social\",\"7 días naturales desde inicio o subcontratación\"],[\"Acreditación de equipo y medios\",\"Antes de adjudicar, a requerimiento\"],[\"Transferencia de conocimiento y entregables finales\",\"Últimos 2 meses del contrato\"],[\"Declaración de género y conciliación\",\"Antes de finalizar, para aprobación\"],[\"Facturación del fijo (implantación)\",\"20 % al completar implantación (máximo 2 meses)\"],[\"Facturación del fijo (operación)\",\"80 % en 22 meses, a mes vencido\"],[\"Facturación variable\",\"Por trabajos finalizados y horas justificadas\"],[\"Subsanación de defectos documentales\",\"3 días para corregir, 5 para aclaraciones/complementos\"]]},{\"tipo\":\"subtitulo\",\"texto\":\"Penalizaciones y causas de resolución\"},{\"tipo\":\"lista\",\"elementos\":[\"Indisponibilidad por más de 48 horas: grave, 5 % del precio adjudicado sin IVA.\",\"Indisponibilidad por más de 5 días naturales: muy grave, 10 %, más otra penalidad muy grave por cada 5 días adicionales.\",\"Retraso en implantación superior a una semana: grave, 5 %; superior a dos semanas: muy grave, 10 %.\",\"Incumplimiento/retraso superior a 3 días en monitorización, primer nivel, mantenimiento o dirección: muy grave.\",\"Dos o más graves: muy grave; dos o más muy graves: causa de resolución.\",\"Penalidad del 5 % en supuestos de condiciones especiales/sociales y subcontratación prohibida o falta documental.\",\"El responsable certifica incumplimientos, se da audiencia y diez días hábiles de alegaciones; el órgano resuelve con acuerdo ejecutivo y deducción de pagos o garantía.\"]} ]},{\"titulo\":\"Obligaciones contractuales y subcontratación\",\"bloques\":[{\"tipo\":\"lista\",\"elementos\":[\"Condiciones especiales: informe de impacto de género antes del cierre y aprobado, no minoración unilateral de condiciones laborales, conciliación mediante flexibilidad/teletrabajo, interlocutor y permanencia, formación y adscripción.\",\"Obligaciones esenciales: medios/acreditación, aprobación de arquitectura, seguridad, confidencialidad y datos.\",\"Subcontratación permitida salvo implantación y tareas del jefe de proyecto, críticas y ejecutadas directamente por licitador o integrante UTE.\",\"Oferta: parte, importe, nombre o perfil del subcontratista; se informa de intervenciones y cambios posteriores.\",\"Cesión del contrato no procede por cualidades técnicas/personales determinantes.\",\"UTE: compromiso inicial y formalización tras adjudicación conforme al PCAP.\"]} ]},{\"titulo\":\"Seguridad y protección de datos\",\"bloques\":[{\"tipo\":\"lista\",\"elementos\":[\"Recursos en regiones del Espacio Económico Europeo autorizadas por IAM; restricción general de Marketplace de terceros salvo free/BYOL.\",\"Nivel ENS BÁSICO y medidas correspondientes de Anexo II; análisis de riesgos ENS validado por Ayuntamiento y plan de tratamiento posterior.\",\"Configuración según guías CCN-STIC, cifrado de información municipal no pública en redes ajenas, autenticación municipal o CL@VE para ciudadanía.\",\"Registros de actividad identificables y entrega a requerimiento; actualizaciones periódicas y subsanación de vulnerabilidades.\",\"Gestión de ciberincidentes conforme normativa municipal y CCN-STIC-817; aviso inmediato al responsable y colaboración activa en resolución.\",\"Gestión simplificada de riesgos de salud, seguridad y derechos antes de entrega; pruebas y documentación de riesgos, medidas y pruebas disponibles en entrega.\",\"Gobernanza de datos de entrenamiento/validación/prueba, documentación técnica e instrucciones claras en castellano.\",\"Registro automático de acontecimientos, trazabilidad, supervisión humana eficaz, conformidad desde entrega a cierre y derecho municipal a compartir información relevante.\",\"Derechos de datos públicos: uso solo contractual, destrucción a requerimiento y prueba si se solicita; reciprocidad de indemnizaciones por reclamaciones de terceros.\",\"PPT 43 y 50 declaran no precisar tratamiento personal por cuenta de DGPC; otras cláusulas exigen anonimización y registros identificables. Pendiente aclarar datos, roles y responsabilidades.\",\"Borrado: eliminar toda información al finalizar, salvo información publicada en Decide Madrid (FAQ, centro de ayuda). Pendiente conciliar ámbitos y soportes.\"]} ]},{\"titulo\":\"Medios, licencias y terceros\",\"bloques\":[{\"tipo\":\"lista\",\"elementos\":[\"El adjudicatario asume todos los componentes de nube pública desplegados, con licencias, suscripciones, créditos y costes necesarios de su solución.\",\"Solo se admiten Microsoft Azure, Google Cloud Platform (GCP) y Amazon Web Services (AWS); acuerdo empresarial con proveedor que permita gestión directa municipal y acceso a soporte especializado.\",\"Se aporta software/licencias con soporte y garantía del fabricante durante contrato, cualquiera que sea el modelo de licencia.\",\"Actualización de componentes, parches y documentación; colaboración con IAM en incidencias con canal urgente.\",\"Licencias para trabajadores y, previa autorización, puestos municipales a cargo del adjudicatario; inclusión en tenant municipal cuando proceda.\"]} ]},{\"titulo\":\"Cierre y transferencia\",\"bloques\":[{\"tipo\":\"lista\",\"elementos\":[\"En los dos últimos meses: transferencia de conocimiento y entrega de desarrollos, modelos, código, datos sintéticos, conversaciones anonimizadas, encuestas y registros.\",\"Informe final de hitos, innovaciones, lecciones y mejoras.\",\"Borrado seguro y certificado de destrucción para sistemas con información municipal.\",\"Transferencia a Ayuntamiento o nuevo adjudicatario para continuidad; IAM retira sistemas IA sin mantenimiento/soporte.\",\"Excepciones de destrucción para información publicada en Decide Madrid.\"]} ]},{\"titulo\":\"Discrepancias y datos pendientes\",\"bloques\":[{\"tipo\":\"lista\",\"elementos\":[\"Descuadre de 1,53 € entre el cálculo de la bolsa de horas (600 × 52,27 € = 31.362,00 €) y el máximo publicado (31.360,47 €). Se conservan ambas cifras y apartados; pendiente de aclaración.\",\"Multiplicadores anuales discordantes en la facturación del fijo: para 2026, texto 1/22 pero fórmula multiplicada por 12; para 2028, texto 9/22 y fórmula también multiplicada por 12. No se corrigen ni aplican como coherentes.\",\"Remisiones cruzadas entre PCAP y PPT sobre condiciones especiales y cláusulas sociales; pendiente de aclaración documental.\",\"Obligación de despliegue por IaC: PPT 30 lo exige, PPT 33 lo formula como preferente con excepción justificada. Ambas cláusulas se conservan y requieren aclaración.\",\"Ámbitos de borrado de datos: PPT 9 exige eliminar toda información, PPT 40 exceptúa información publicada en Decide Madrid. Pendiente conciliar ámbitos, soportes y activos.\",\"Tratamiento de datos personales: coexistencia de cláusulas que declaran no precisar tratamiento personal y otras que exigen anonimización y registros identificables. Pendiente aclarar roles y responsabilidades.\"]} ]}],\"conclusion\":[\"**DOCUMENTALMENTE ESTABLECIDO:** El contrato regula la implantación, operación y evolución de un asistente virtual para Decide Madrid, con integración cloud, atención ciudadana, soporte a procesos participativos y cumplimiento de requisitos de seguridad, accesibilidad y protección de datos.\",\"**DOCUMENTALMENTE ESTABLECIDO:** El presupuesto base es de 181.595,44 € sin IVA, con valor estimado de 408.918,11 €, duración inicial de 24 meses y prórrogas hasta 60 meses. La oferta debe respetar topes independientes para fijo, variable y bolsa de horas, y la facturación se ajusta a hitos y consumos justificados.\",\"**PUNTO CRÍTICO DE ADJUDICACIÓN:** La valoración técnica (juicio de valor) supone 45 puntos, el precio 35 y las mejoras ofertables 20, con subcriterios y mínimos de continuidad. Las mejoras de atención humana y bolsa de horas son ofertables, no obligatorias universales.\",\"**PUNTO RELEVANTE:** El equipo mínimo exige nueve personas en siete perfiles, con requisitos de titulación y experiencia, cobertura continua y mecanismos de sustitución y acreditación documental solo al propuesto adjudicatario.\",\"**PUNTO RELEVANTE:** La solvencia técnica y económica se acredita por trabajos similares y volumen de negocios, con alternativas para empresas nuevas solo en solvencia técnica. ROLECE puede eximir documentalmente en los ámbitos inscritos y actualizados.\",\"**PUNTO RELEVANTE:** Las garantías incluyen definitiva (5 %), complementaria (1 % para ofertas anómalas) y de servicio (12 meses), todas con condiciones y plazos específicos. No hay garantía provisional.\",\"**CONTRADICCIÓN / AMBIGÜEDAD:** Existen discrepancias pendientes de aclaración en la totalización de la bolsa de horas, multiplicadores anuales de facturación, obligación de despliegue por IaC y ámbitos de borrado de datos y tratamiento personal. Se conservan ambas versiones y se requiere aclaración documental.\",\"**NO LOCALIZADO:** No consta información sobre CPV, lotes, procedimiento ni órgano de contratación en los metadatos XML. La revisión documental se ha realizado sobre los PDF locales disponibles.\",\"**AVISO DE PROCESAMIENTO:** El informe se basa en revisión local explícita de fuentes PDF, con cobertura de observaciones identificadas y sin garantía de exhaustividad absoluta del expediente.\" ]}",
+  "json": {
+    "expediente": "REAL-Licitacion1",
+    "agentes_revisados": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "introduccion": [
+      "El expediente administrativo 300/2026/00009, promovido por el Ayuntamiento de Madrid, regula la contratación del servicio de Asistente Virtual de Participación Ciudadana para Decide Madrid. El objeto es la implantación, operación y evolución tecnológica de un asistente virtual, con integración total en el portal, atención ciudadana y soporte a procesos participativos. El alcance abarca tanto la prestación técnica como la gestión de datos, seguridad, formación y transferencia final, con requisitos específicos de solvencia, equipo y medios tecnológicos.",
+      "La duración inicial del contrato es de 24 meses, con un presupuesto base de 181.595,44 € sin IVA y 219.730,48 € con IVA, y un valor estimado de 408.918,11 €. Se prevén prórrogas sucesivas de 24 y 12 meses, hasta un máximo de 60 meses, condicionadas a acuerdo expreso y subsistencia de la necesidad. La oferta debe respetar topes independientes para fijo, variable y bolsa de horas, y la facturación se ajusta a hitos y consumos justificados, sin constituir ingreso garantizado.",
+      "El modelo de prestación exige integración cloud, cumplimiento de requisitos de seguridad ENS, cobertura de atención humana y automatizada, y mecanismos de mejora continua. Se establecen obligaciones esenciales y condiciones especiales de ejecución, así como penalizaciones por indisponibilidad, retrasos o incumplimientos. Existen discrepancias documentales pendientes de aclaración en la totalización de la bolsa de horas, multiplicadores anuales y ámbitos de borrado de datos. [ID_188_1.PDF, ID_188_2.PDF, ID_188_3.PDF]"
+    ],
+    "secciones": [
+      {
+        "titulo": "Datos principales de la licitación",
+        "bloques": [
+          {
+            "tipo": "tabla",
+            "columnas": [
+              "Concepto",
+              "Información"
+            ],
+            "filas": [
+              [
+                "Expediente administrativo",
+                "300/2026/00009"
+              ],
+              [
+                "Identificador interno",
+                "REAL-Licitacion1"
+              ],
+              [
+                "Órgano de contratación",
+                "No localizado en XML"
+              ],
+              [
+                "Objeto",
+                "Asistente Virtual de Participación Ciudadana de Decide Madrid"
+              ],
+              [
+                "Presupuesto base (sin IVA)",
+                "181.595,44 €"
+              ],
+              [
+                "Presupuesto base (con IVA)",
+                "219.730,48 €"
+              ],
+              [
+                "Valor estimado",
+                "408.918,11 €"
+              ],
+              [
+                "Duración inicial",
+                "24 meses"
+              ],
+              [
+                "Prórrogas",
+                "24 y 12 meses (máximo 60 meses)"
+              ],
+              [
+                "Fecha de inicio prevista",
+                "01/09/2026 o formalización"
+              ],
+              [
+                "CPV",
+                "No localizado"
+              ],
+              [
+                "Lotes",
+                "No consta"
+              ],
+              [
+                "Procedimiento",
+                "No localizado"
+              ],
+              [
+                "Plazo de presentación",
+                "16/06/2026 a las 23:59 (documental)"
+              ],
+              [
+                "Presentación",
+                "Electrónica (PLACSP)"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Presentación y documentación por fase",
+        "bloques": [
+          {
+            "tipo": "parrafo",
+            "texto": "La oferta se presenta electrónicamente en la Plataforma de Contratación del Sector Público (PLACSP), estructurada en tres sobres digitales: A (documentación administrativa), B (memoria técnica de juicio de valor) y C (oferta económica y mejoras)."
+          },
+          {
+            "tipo": "lista",
+            "elementos": [
+              "Sobre A: DEUC firmado, declaraciones aplicables, Anexo VI para empresas vinculadas, compromiso Anexo X, compromisos UTE y declaraciones de entidades externas, declaraciones laborales/sociales/igualdad. No se exigen nombres ni cualificación del equipo en esta fase.",
+              "Sobre B: Memoria técnica de juicio de valor, máximo 40 páginas incluyendo índice y anexos, márgenes mínimos de 2 cm, interlineado sencillo y letra mínima de 11 puntos. Las páginas excedentes no se valoran, pero no implican exclusión automática. No debe incluir información de valoración automática.",
+              "Sobre C: Oferta económica (Anexo II), desglosando fijo, variable, tarifa e IVA, y mejoras automáticas ofertables.",
+              "La prueba efectiva de medios, solvencia y equipo se requiere solo al propuesto adjudicatario antes de adjudicar, en un plazo de diez días hábiles desde el requerimiento. El compromiso inicial no equivale a acreditación definitiva.",
+              "Defectos documentales subsanables: tres días para corregir y, en su caso, cinco para aclaraciones/complementos. La documentación debe presentarse en castellano.",
+              "No se admiten variantes. Se puede solicitar información adicional con diez días de antelación al cierre."
+            ]
+          },
+          {
+            "tipo": "parrafo",
+            "texto": "El cierre de presentación de ofertas es el 16/06/2026 a las 23:59, según la fecha documental del expediente. [ID_188_2.PDF, páginas PDF 18-21, 24, 65-69, 73, 79; ID_188_3.PDF, página PDF 28]"
+          }
+        ]
+      },
+      {
+        "titulo": "Alcance técnico, actividades y entregables",
+        "bloques": [
+          {
+            "tipo": "parrafo",
+            "texto": "El servicio abarca la implantación, operación y evolución de un asistente virtual integrado en Decide Madrid, con atención ciudadana, soporte a procesos participativos y cumplimiento de requisitos de seguridad, accesibilidad y protección de datos."
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Volumetría y capacidad mínima"
+          },
+          {
+            "tipo": "tabla",
+            "columnas": [
+              "Año",
+              "Personas atendidas",
+              "Mensajes gestionados"
+            ],
+            "filas": [
+              [
+                "2023",
+                "6.246",
+                "27.083"
+              ],
+              [
+                "2024",
+                "4.490",
+                "46.723"
+              ],
+              [
+                "2025 (hasta 30/11)",
+                "2.552",
+                "26.784"
+              ]
+            ]
+          },
+          {
+            "tipo": "lista",
+            "elementos": [
+              "Capacidad mínima de la nueva solución: 50 conversaciones simultáneas y 15.000 mensajes/mes.",
+              "Disponibilidad general 24/7/365, salvo paradas planificadas comunicadas con antelación.",
+              "Integración mediante script en todas las secciones del portal, sustituyendo el buscador tradicional y cumpliendo compatibilidad/seguridad IAM.",
+              "Funcionamiento en navegador estándar, fijo/móvil, sin software específico.",
+              "Mecanismos obligatorios de mejora de respuestas del LLM (ejemplos: RAG, prompts, fine-tuning), con supervisión diaria y documento actualizado de flujos y configuraciones.",
+              "Conversación en castellano, respuestas contextualizadas y restringidas a portal/participación, almacenamiento y anonimización de conversaciones para análisis y mejora.",
+              "Panel cloud en castellano, acceso por navegador, con estadísticas, trazabilidad, informes, análisis de errores, intervención humana en tiempo real, encuestas y supervisión de agentes conectados.",
+              "Formación inicial mínima de 20 horas para hasta 20 asistentes DGPC, presencial o telemática, y horas de actualización durante el contrato.",
+              "Entornos de producción y preproducción obligatorios, arquitectura contenerizable, despliegue inicial y redespliegues por IaC y Git IAM, coordinación inicial de CI/CD.",
+              "Uso obligado de Plataforma del Dato y cuadros de mando en Power BI Premium (licenciado por IAM); el adjudicatario aporta licencias Power BI Pro necesarias para su trabajo.",
+              "Accesibilidad: cumplimiento UNE 139803:2012, prioridad 2 (AA WCAG 2.0), y RD 1494/2007 y 1112/2018; declaración responsable en siete días desde inicio.",
+              "Mantenimiento preventivo, correctivo y evolutivo, con bolsa de consultoría avanzada para proyectos de evolución tecnológica.",
+              "Transferencia de conocimiento y entrega de desarrollos, modelos, código, datos sintéticos y registros en los dos últimos meses; borrado seguro y certificado de destrucción para sistemas con información municipal."
+            ]
+          },
+          {
+            "tipo": "parrafo",
+            "texto": "La validación de arquitectura por IAM y DGPC es obligatoria antes de producción; cambios posteriores requieren aprobación previa. [ID_188_3.PDF, páginas PDF 6, 8-9, 12-20, 23, 25-28, 30, 33, 35-37, 40-46, 49, 50, 52]"
+          }
+        ]
+      },
+      {
+        "titulo": "Equipo y continuidad del servicio",
+        "bloques": [
+          {
+            "tipo": "parrafo",
+            "texto": "El equipo mínimo exigido consta de nueve personas en siete perfiles, con requisitos específicos de titulación y experiencia. Se exige cobertura continua de atención humana y coordinación técnica, así como mecanismos de sustitución y acreditación documental."
+          },
+          {
+            "tipo": "tabla",
+            "columnas": [
+              "Perfil",
+              "Cantidad",
+              "Titulación mínima",
+              "Experiencia específica"
+            ],
+            "filas": [
+              [
+                "Jefe de proyecto",
+                "2",
+                "Grado o equivalente",
+                "5 años dirigiendo proyectos de administración electrónica y 3 años en asistentes virtuales"
+              ],
+              [
+                "Técnico nube",
+                "1",
+                "Grado o equivalente",
+                "3 años en funciones propias y 2 en asistentes virtuales"
+              ],
+              [
+                "Analista programador",
+                "1",
+                "Grado o equivalente",
+                "3 años en funciones propias y 2 en asistentes virtuales"
+              ],
+              [
+                "Experto IA/datos",
+                "1",
+                "Grado o equivalente",
+                "3 años en funciones propias y 2 en asistentes virtuales"
+              ],
+              [
+                "Lingüista",
+                "1",
+                "Grado o equivalente",
+                "3 años en funciones propias y 2 en asistentes virtuales"
+              ],
+              [
+                "Agente de primer nivel",
+                "2",
+                "Secundaria",
+                "3 años de atención ciudadana en castellano"
+              ],
+              [
+                "Consultor de evolución",
+                "1",
+                "Grado o equivalente",
+                "5 años en funciones propias, 3 en análisis de proyectos de administración electrónica y 3 en asistentes virtuales"
+              ]
+            ]
+          },
+          {
+            "tipo": "lista",
+            "elementos": [
+              "Al menos una persona agente durante toda la atención, laborables 11:00-14:00 o cuatro horas consecutivas si se adjudica la mejora.",
+              "Planificación de vacaciones, bajas y eventualidades sin perder cobertura.",
+              "Designación de interlocutor único/coordinador técnico y suplente, localizable 8:00-17:00 laborables, en siete días desde notificación de adjudicación.",
+              "Constitución del equipo en quince días desde notificación de adjudicación; sustituciones justificadas con comunicación previa y pruebas de titulación/experiencia, plazo de siete días para proponer sustituto.",
+              "Acreditación documental solo al propuesto adjudicatario: relación completa, pertenencia a empresa o compromiso, declaración responsable, CV anonimizados, certificados de vida laboral y títulos oficiales.",
+              "El equipo debe mantener conocimientos actualizados en experiencia de usuario, diseño conversacional, entrenamiento de modelos, riesgos y ética IA, sistemas/APIs, comunicación institucional y mejora continua."
+            ]
+          },
+          {
+            "tipo": "parrafo",
+            "texto": "La cobertura de ausencias es obligatoria y no se interpreta el plazo de sustitución como permiso para interrumpir el servicio. [ID_188_3.PDF, páginas PDF 10, 16, 23, 25-28; ID_188_2.PDF, páginas PDF 25, 26, 66, 71]"
+          }
+        ]
+      },
+      {
+        "titulo": "Solvencia y acreditación",
+        "bloques": [
+          {
+            "tipo": "subtitulo",
+            "texto": "Solvencia técnica y profesional"
+          },
+          {
+            "tipo": "parrafo",
+            "texto": "Se exige haber realizado trabajos iguales o similares por importe igual o superior a 181.595,44 € sin IVA en los tres últimos años naturales desde el cierre de ofertas, con coincidencia de los tres primeros dígitos CPV. La acreditación remite al artículo 90.1.a LCSP, sin exención general de certificados de buena ejecución."
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Solvencia económica"
+          },
+          {
+            "tipo": "parrafo",
+            "texto": "Volumen anual mínimo de negocios: 181.595,44 € en el mejor ejercicio disponible de 2023, 2024 y 2025, por declaración responsable. Para empresas de menos de cinco años, la alternativa afecta solo a solvencia técnica (declaración de medios y título del jefe de proyecto), no exime de solvencia económica."
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "ROLECE y medios externos"
+          },
+          {
+            "tipo": "parrafo",
+            "texto": "ROLECE acredita solo extremos inscritos y actualizados, pudiendo eximir documentalmente en los ámbitos contemplados, incluida solvencia económica/financiera. No acredita automáticamente toda solvencia ni medios del equipo. La solvencia externa exige disponibilidad efectiva, ausencia de prohibición, compromisos y pruebas aplicables, con responsabilidad solidaria al integrar solvencia económica externa."
+          },
+          {
+            "tipo": "parrafo",
+            "texto": "La prueba efectiva de solvencia se requiere solo al propuesto adjudicatario antes de adjudicar. [ID_188_2.PDF, páginas PDF 18, 29, 30, 63-65]"
+          }
+        ]
+      },
+      {
+        "titulo": "Criterios, subcriterios y mejoras puntuables",
+        "bloques": [
+          {
+            "tipo": "tabla",
+            "columnas": [
+              "Criterio",
+              "Puntos máximos",
+              "Peso",
+              "Tipo de evaluación"
+            ],
+            "filas": [
+              [
+                "Juicio de valor (memoria técnica)",
+                "45",
+                "45 %",
+                "Subjetivo"
+              ],
+              [
+                "Precio (fijo + variable)",
+                "35",
+                "35 %",
+                "Automático"
+              ],
+              [
+                "Mejoras ofertables (sobre C)",
+                "20",
+                "20 %",
+                "Automático"
+              ]
+            ]
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Desglose de subcriterios de juicio de valor"
+          },
+          {
+            "tipo": "tabla",
+            "columnas": [
+              "Subcriterio",
+              "Puntos"
+            ],
+            "filas": [
+              [
+                "Detalle, estructura y calidad del documento",
+                "10"
+              ],
+              [
+                "Adecuación funcional y técnica, comprensión, viabilidad y valor añadido",
+                "30"
+              ],
+              [
+                "Planificación, calendario, recursos, documentación, riesgos, contingencias, calidad, trazabilidad y transferencia",
+                "5"
+              ]
+            ]
+          },
+          {
+            "tipo": "parrafo",
+            "texto": "Cada subcriterio se valora con los siguientes niveles: excelente (100 %), alta (80 %), media (60 %), baja (40 %), muy baja (20 %) o insuficiente (0 %). Es obligatorio alcanzar al menos 22,5 puntos en juicio de valor para no ser excluido."
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Mejoras puntuables (sobre C)"
+          },
+          {
+            "tipo": "tabla",
+            "columnas": [
+              "Mejora ofertada",
+              "Puntos"
+            ],
+            "filas": [
+              [
+                "Una hora diaria adicional de atención humana (laborables 11:00-14:00, cuatro horas consecutivas)",
+                "10"
+              ],
+              [
+                "100 horas gratuitas adicionales en bolsa de consultoría avanzada",
+                "5"
+              ],
+              [
+                "200 horas gratuitas adicionales en bolsa de consultoría avanzada",
+                "10"
+              ]
+            ]
+          },
+          {
+            "tipo": "parrafo",
+            "texto": "Las mejoras son ofertables y no constituyen mínimos universales ni criterios de experiencia adicional del personal. [ID_188_2.PDF, páginas PDF 67-72]"
+          }
+        ]
+      },
+      {
+        "titulo": "Oferta económica y ofertas anormalmente bajas",
+        "bloques": [
+          {
+            "tipo": "parrafo",
+            "texto": "La oferta debe respetar tres topes independientes: 150.234,97 € de fijo, 31.360,47 € de variable y 52,27 €/hora de evolución tecnológica, todos sin IVA. Cumplir solo el total no sustituye cumplir cada componente. Fijo más variable constituye el importe total ofertado."
+          },
+          {
+            "tipo": "parrafo",
+            "texto": "El variable se calcula como tarifa ofertada × 600 horas, con máximo dos decimales. Las horas adicionales gratuitas no aumentan el precio ofertado, sino que modifican la proporción gratuita de cada factura. El Ayuntamiento no está obligado a agotar la bolsa, solo se factura variable por trabajos finalizados y horas justificadas mediante memoria mensual."
+          },
+          {
+            "tipo": "parrafo",
+            "texto": "La fórmula de valoración económica es: Y = 35 × (oferta más económica / oferta a valorar), aplicada sobre fijo más variable. [ID_188_2.PDF, páginas PDF 68-72]"
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Ofertas anormalmente bajas"
+          },
+          {
+            "tipo": "lista",
+            "elementos": [
+              "Un licitador: oferta inferior al presupuesto base en más de 20 puntos porcentuales.",
+              "Dos licitadores: inferior a la otra en más de 15 puntos porcentuales.",
+              "Tres o más: inferior a la media aritmética en más de 10 puntos porcentuales.",
+              "Para empresas del mismo grupo se toma solo la oferta más baja a estos efectos.",
+              "La presunción activa justificación en tres días (no se especifica si hábiles o naturales), no exclusión automática."
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Facturación, cobro y garantías",
+        "bloques": [
+          {
+            "tipo": "lista",
+            "elementos": [
+              "La primera factura es el 20 % del fijo ofertado al completar la implantación (máximo dos meses desde inicio).",
+              "El 80 % restante se divide entre 22 meses de operación, a mes vencido y, en cualquier caso, desde el tercer mes, más el variable realizado.",
+              "Los trabajos de diciembre de 2026 y 2027 son exigibles el 1 de enero siguiente.",
+              "No proceden abonos a cuenta preparatorios.",
+              "Solo se factura variable por trabajos finalizados y horas efectivamente realizadas y justificadas.",
+              "Las facturas requieren conformidad del responsable y desglose de IVA.",
+              "Bolsa de 600 horas: 0 % gratuito y 100 % facturable. Con 100 adicionales, total 700: 14,29 % gratuito y 85,71 % facturable. Con 200 adicionales, total 800: 25 % gratuito y 75 % facturable. Se aplica la proporción en cada factura, no se dejan las horas gratuitas para el final.",
+              "No procede revisión de precios, subrogación ni modificaciones en el PCAP; no se permite incrementar las unidades hasta el 10 % del precio."
+            ]
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Garantías"
+          },
+          {
+            "tipo": "lista",
+            "elementos": [
+              "No hay garantía provisional.",
+              "Garantía definitiva: 5 % del precio final ofertado sin IVA, a constituir antes de adjudicar, en diez días hábiles desde requerimiento.",
+              "Garantía complementaria: 1 % del precio final ofertado sin IVA para ofertas incursas en presunción de anormalidad.",
+              "Garantía del servicio: 12 meses desde recepción o conformidad, con subsanación de defectos y soporte del fabricante."
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Horarios, plazos, ANS y penalizaciones",
+        "bloques": [
+          {
+            "tipo": "tabla",
+            "columnas": [
+              "Actuación",
+              "Plazo/Condición"
+            ],
+            "filas": [
+              [
+                "Implantación",
+                "Máximo 2 meses desde inicio"
+              ],
+              [
+                "Constitución del equipo",
+                "15 días desde notificación de adjudicación"
+              ],
+              [
+                "Designación de interlocutor",
+                "7 días desde notificación de adjudicación"
+              ],
+              [
+                "Declaración de accesibilidad y flexibilidad",
+                "7 días naturales desde inicio"
+              ],
+              [
+                "Afiliación y alta en Seguridad Social",
+                "7 días naturales desde inicio o subcontratación"
+              ],
+              [
+                "Acreditación de equipo y medios",
+                "Antes de adjudicar, a requerimiento"
+              ],
+              [
+                "Transferencia de conocimiento y entregables finales",
+                "Últimos 2 meses del contrato"
+              ],
+              [
+                "Declaración de género y conciliación",
+                "Antes de finalizar, para aprobación"
+              ],
+              [
+                "Facturación del fijo (implantación)",
+                "20 % al completar implantación (máximo 2 meses)"
+              ],
+              [
+                "Facturación del fijo (operación)",
+                "80 % en 22 meses, a mes vencido"
+              ],
+              [
+                "Facturación variable",
+                "Por trabajos finalizados y horas justificadas"
+              ],
+              [
+                "Subsanación de defectos documentales",
+                "3 días para corregir, 5 para aclaraciones/complementos"
+              ]
+            ]
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Penalizaciones y causas de resolución"
+          },
+          {
+            "tipo": "lista",
+            "elementos": [
+              "Indisponibilidad por más de 48 horas: grave, 5 % del precio adjudicado sin IVA.",
+              "Indisponibilidad por más de 5 días naturales: muy grave, 10 %, más otra penalidad muy grave por cada 5 días adicionales.",
+              "Retraso en implantación superior a una semana: grave, 5 %; superior a dos semanas: muy grave, 10 %.",
+              "Incumplimiento/retraso superior a 3 días en monitorización, primer nivel, mantenimiento o dirección: muy grave.",
+              "Dos o más graves: muy grave; dos o más muy graves: causa de resolución.",
+              "Penalidad del 5 % en supuestos de condiciones especiales/sociales y subcontratación prohibida o falta documental.",
+              "El responsable certifica incumplimientos, se da audiencia y diez días hábiles de alegaciones; el órgano resuelve con acuerdo ejecutivo y deducción de pagos o garantía."
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Obligaciones contractuales y subcontratación",
+        "bloques": [
+          {
+            "tipo": "lista",
+            "elementos": [
+              "Condiciones especiales: informe de impacto de género antes del cierre y aprobado, no minoración unilateral de condiciones laborales, conciliación mediante flexibilidad/teletrabajo, interlocutor y permanencia, formación y adscripción.",
+              "Obligaciones esenciales: medios/acreditación, aprobación de arquitectura, seguridad, confidencialidad y datos.",
+              "Subcontratación permitida salvo implantación y tareas del jefe de proyecto, críticas y ejecutadas directamente por licitador o integrante UTE.",
+              "Oferta: parte, importe, nombre o perfil del subcontratista; se informa de intervenciones y cambios posteriores.",
+              "Cesión del contrato no procede por cualidades técnicas/personales determinantes.",
+              "UTE: compromiso inicial y formalización tras adjudicación conforme al PCAP."
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Seguridad y protección de datos",
+        "bloques": [
+          {
+            "tipo": "lista",
+            "elementos": [
+              "Recursos en regiones del Espacio Económico Europeo autorizadas por IAM; restricción general de Marketplace de terceros salvo free/BYOL.",
+              "Nivel ENS BÁSICO y medidas correspondientes de Anexo II; análisis de riesgos ENS validado por Ayuntamiento y plan de tratamiento posterior.",
+              "Configuración según guías CCN-STIC, cifrado de información municipal no pública en redes ajenas, autenticación municipal o CL@VE para ciudadanía.",
+              "Registros de actividad identificables y entrega a requerimiento; actualizaciones periódicas y subsanación de vulnerabilidades.",
+              "Gestión de ciberincidentes conforme normativa municipal y CCN-STIC-817; aviso inmediato al responsable y colaboración activa en resolución.",
+              "Gestión simplificada de riesgos de salud, seguridad y derechos antes de entrega; pruebas y documentación de riesgos, medidas y pruebas disponibles en entrega.",
+              "Gobernanza de datos de entrenamiento/validación/prueba, documentación técnica e instrucciones claras en castellano.",
+              "Registro automático de acontecimientos, trazabilidad, supervisión humana eficaz, conformidad desde entrega a cierre y derecho municipal a compartir información relevante.",
+              "Derechos de datos públicos: uso solo contractual, destrucción a requerimiento y prueba si se solicita; reciprocidad de indemnizaciones por reclamaciones de terceros.",
+              "PPT 43 y 50 declaran no precisar tratamiento personal por cuenta de DGPC; otras cláusulas exigen anonimización y registros identificables. Pendiente aclarar datos, roles y responsabilidades.",
+              "Borrado: eliminar toda información al finalizar, salvo información publicada en Decide Madrid (FAQ, centro de ayuda). Pendiente conciliar ámbitos y soportes."
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Medios, licencias y terceros",
+        "bloques": [
+          {
+            "tipo": "lista",
+            "elementos": [
+              "El adjudicatario asume todos los componentes de nube pública desplegados, con licencias, suscripciones, créditos y costes necesarios de su solución.",
+              "Solo se admiten Microsoft Azure, Google Cloud Platform (GCP) y Amazon Web Services (AWS); acuerdo empresarial con proveedor que permita gestión directa municipal y acceso a soporte especializado.",
+              "Se aporta software/licencias con soporte y garantía del fabricante durante contrato, cualquiera que sea el modelo de licencia.",
+              "Actualización de componentes, parches y documentación; colaboración con IAM en incidencias con canal urgente.",
+              "Licencias para trabajadores y, previa autorización, puestos municipales a cargo del adjudicatario; inclusión en tenant municipal cuando proceda."
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Cierre y transferencia",
+        "bloques": [
+          {
+            "tipo": "lista",
+            "elementos": [
+              "En los dos últimos meses: transferencia de conocimiento y entrega de desarrollos, modelos, código, datos sintéticos, conversaciones anonimizadas, encuestas y registros.",
+              "Informe final de hitos, innovaciones, lecciones y mejoras.",
+              "Borrado seguro y certificado de destrucción para sistemas con información municipal.",
+              "Transferencia a Ayuntamiento o nuevo adjudicatario para continuidad; IAM retira sistemas IA sin mantenimiento/soporte.",
+              "Excepciones de destrucción para información publicada en Decide Madrid."
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Discrepancias y datos pendientes",
+        "bloques": [
+          {
+            "tipo": "lista",
+            "elementos": [
+              "Descuadre de 1,53 € entre el cálculo de la bolsa de horas (600 × 52,27 € = 31.362,00 €) y el máximo publicado (31.360,47 €). Se conservan ambas cifras y apartados; pendiente de aclaración.",
+              "Multiplicadores anuales discordantes en la facturación del fijo: para 2026, texto 1/22 pero fórmula multiplicada por 12; para 2028, texto 9/22 y fórmula también multiplicada por 12. No se corrigen ni aplican como coherentes.",
+              "Remisiones cruzadas entre PCAP y PPT sobre condiciones especiales y cláusulas sociales; pendiente de aclaración documental.",
+              "Obligación de despliegue por IaC: PPT 30 lo exige, PPT 33 lo formula como preferente con excepción justificada. Ambas cláusulas se conservan y requieren aclaración.",
+              "Ámbitos de borrado de datos: PPT 9 exige eliminar toda información, PPT 40 exceptúa información publicada en Decide Madrid. Pendiente conciliar ámbitos, soportes y activos.",
+              "Tratamiento de datos personales: coexistencia de cláusulas que declaran no precisar tratamiento personal y otras que exigen anonimización y registros identificables. Pendiente aclarar roles y responsabilidades."
+            ]
+          }
+        ]
+      }
+    ],
+    "conclusion": [
+      "**DOCUMENTALMENTE ESTABLECIDO:** El contrato regula la implantación, operación y evolución de un asistente virtual para Decide Madrid, con integración cloud, atención ciudadana, soporte a procesos participativos y cumplimiento de requisitos de seguridad, accesibilidad y protección de datos.",
+      "**DOCUMENTALMENTE ESTABLECIDO:** El presupuesto base es de 181.595,44 € sin IVA, con valor estimado de 408.918,11 €, duración inicial de 24 meses y prórrogas hasta 60 meses. La oferta debe respetar topes independientes para fijo, variable y bolsa de horas, y la facturación se ajusta a hitos y consumos justificados.",
+      "**PUNTO CRÍTICO DE ADJUDICACIÓN:** La valoración técnica (juicio de valor) supone 45 puntos, el precio 35 y las mejoras ofertables 20, con subcriterios y mínimos de continuidad. Las mejoras de atención humana y bolsa de horas son ofertables, no obligatorias universales.",
+      "**PUNTO RELEVANTE:** El equipo mínimo exige nueve personas en siete perfiles, con requisitos de titulación y experiencia, cobertura continua y mecanismos de sustitución y acreditación documental solo al propuesto adjudicatario.",
+      "**PUNTO RELEVANTE:** La solvencia técnica y económica se acredita por trabajos similares y volumen de negocios, con alternativas para empresas nuevas solo en solvencia técnica. ROLECE puede eximir documentalmente en los ámbitos inscritos y actualizados.",
+      "**PUNTO RELEVANTE:** Las garantías incluyen definitiva (5 %), complementaria (1 % para ofertas anómalas) y de servicio (12 meses), todas con condiciones y plazos específicos. No hay garantía provisional.",
+      "**CONTRADICCIÓN / AMBIGÜEDAD:** Existen discrepancias pendientes de aclaración en la totalización de la bolsa de horas, multiplicadores anuales de facturación, obligación de despliegue por IaC y ámbitos de borrado de datos y tratamiento personal. Se conservan ambas versiones y se requiere aclaración documental.",
+      "**NO LOCALIZADO:** No consta información sobre CPV, lotes, procedimiento ni órgano de contratación en los metadatos XML. La revisión documental se ha realizado sobre los PDF locales disponibles.",
+      "**AVISO DE PROCESAMIENTO:** El informe se basa en revisión local explícita de fuentes PDF, con cobertura de observaciones identificadas y sin garantía de exhaustividad absoluta del expediente."
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+• Expediente AI240006, órgano: Consejo de Administración-Comité de Inversiones de la Sociedad Estatal Correos y Telégrafos S.A. Objeto: Contratación del servicio de Administración Workplace para Correos y Correos Express (CEX).
+• Presupuesto base de licitación: 1.718.200 € (IVA incluido), 1.420.000 € (sin IVA). Valor estimado: 2.591.500 € (fuente: Anuncio.pdf, DOC20240806095753Pliegodefinitivofirmado.pdf).
+• Duración inicial: 24 meses, con hasta 2 prórrogas (12 y 3 meses). Fuente: Pliego, Anuncio.pdf.
+• Plazo de presentación de solicitudes de participación/ofertas: hasta el 26/08/2024 a las 10:00 (fase: participación). Fuente: Anuncio.pdf, DOC_CD2024-000901195.pdf.
+• Documentos no leídos: CORREOS-Codigo-General-de-Conducta.pdf (error 404). Pliegos y anexos procesados; requisitos y fases completas en extractores. Plazo de oferta pendiente de invitación si aplica.

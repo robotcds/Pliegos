@@ -1,0 +1,1407 @@
+{
+  "expediente": "REAL-Licitacion2",
+  "id": "A4",
+  "nombre": "Criterios de adjudicación",
+  "capa": 1,
+  "contenido": {
+    "requisitos_documentales": [
+      {
+        "id": "R0001",
+        "seccion": "Criterios de adjudicación: estructura general",
+        "detalle": "La adjudicación se realiza por pluralidad de criterios: 70% económico (precio), 3% técnico automático (mejoras ANS), 27% técnico por juicio de valor. Suma total: 100%.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.10-11, Anexo IX-X",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0002",
+        "seccion": "Criterios de adjudicación: bloques y sobres",
+        "detalle": "Criterios sujetos a juicio de valor (27 puntos, sobre 2); criterios evaluables automáticamente (3 puntos, sobre 3); criterio económico (70 puntos, sobre 3).",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.10-12, Anexo IX-X",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0003",
+        "seccion": "Criterios de adjudicación: juicio de valor",
+        "detalle": "Criterios técnicos evaluables mediante juicio de valor: máximo 27 puntos. Subcriterios: 1) Solución técnica del servicio (0-16 puntos), 2) Características y conocimientos del equipo de trabajo (0-11 puntos).",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.84-86",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0004",
+        "seccion": "Criterios de adjudicación: juicio de valor, desglose",
+        "detalle": "1.1 Descripción y detalle del alcance completo de los servicios solicitados en el pliego (0-9 puntos, con desglose: 3 puntos por detalle y adecuación, 1 punto modelo relación cliente-proveedor, 2 puntos optimización y mejora continua, 2 puntos plan de subcontratación, 1 punto gestión del conocimiento). 1.2 Descripción del modelo de gobierno de entrega del servicio (0-3 puntos, 1 punto por cada uno de: roles y responsabilidades, modelo de gobierno, conocimientos y experiencia, organigrama y procesos). 1.3 Plan propuesto para la transición del servicio (0-2 puntos: 1,5 puntos por detalle y adecuación, 0,5 puntos si el tiempo es inferior a 30 días naturales). 1.4 Plan propuesto para la reversión del servicio (0-2 puntos: 1 punto por detalle y adecuación, 1 punto si el equipo de reversión es >5 personas). 2.1 Propuesta organizativa y descripción del equipo de trabajo con características adicionales a las requeridas en la fase de solvencia (0-4 puntos: mayor detalle, más recursos y menor precio, mayor puntuación; 4 puntos por propuesta con correcto nivel de detalle y adecuación). 2.2 Incremento de horas ofrecidas sobre las necesidades estimadas (0-7 puntos: 5 puntos mejor oferta, puntuación proporcional al resto; 2 puntos adicionales a mayor número de mejoras).",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.84-86",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0005",
+        "seccion": "Criterios de adjudicación: juicio de valor, fórmula de normalización",
+        "detalle": "La puntuación técnica de la oferta estará constituida por la suma de las puntuaciones finales asignadas a cada uno de los bloques de criterios técnicos, con un máximo de 27 puntos. Una vez obtenida la valoración técnica de las “n” ofertas, se obtiene la Puntuación Técnica (PT) a partir de la siguiente expresión: PTn = PTm × VTn / VTm, donde PTm=27, VTn=valoración técnica de la oferta n, VTm=valoración técnica más alta. Redondeo al segundo decimal.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0006",
+        "seccion": "Criterios de adjudicación: criterios automáticos técnicos",
+        "detalle": "Criterios técnicos automáticos: máximo 3 puntos. Subcriterio: Acuerdo de Niveles de Servicio (ANS): mejora en los Niveles de Servicio solicitados en el Anexo XVII – Evaluación de Proveedores. Se obtendrá 0,5 puntos por cada indicador mejorado hasta un máximo de 3 puntos.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0007",
+        "seccion": "Criterios de adjudicación: criterio económico",
+        "detalle": "Criterio económico: máximo 70 puntos. La puntuación económica se obtiene de acuerdo con el criterio de proporcionalidad variable en función del rango de descuento. Fórmula: DtoN = (PL - POn) / PL × 100, donde PL=Presupuesto de licitación, POn=Presupuesto Oferta n, DtoN=Descuento de la Oferta N.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87-88",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0008",
+        "seccion": "Criterios de adjudicación: criterio económico, tramos y fórmula",
+        "detalle": "Rango de descuento y fórmula de puntuación económica: Dto1=10%, Dto2=25%, Dto3=30%, PE1=50, PE2=70, PE3=0. Fórmulas: 1) DtoN ≥ 0 y DtoN ≤ 10: PEn = DtoN × 50 / 10; 2) DtoN > 10 y DtoN ≤ 25: PEn = (DtoN - 10) × 20 / 15 + 50; 3) DtoN > 25 y DtoN ≤ 30: PEn = (DtoN - 25) × -70 / 5 + 70; 4) DtoN > 30: PEn = 0.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.88",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0009",
+        "seccion": "Criterios de adjudicación: criterio económico, comprobación de extremos",
+        "detalle": "Cálculo derivado: la puntuación máxima (70 puntos) se alcanza con un descuento del 25%. Para descuentos superiores al 25% y hasta el 30%, la puntuación decrece linealmente hasta 0. Para descuentos superiores al 30%, la puntuación es 0. Para descuentos entre 0% y 10%, la puntuación crece linealmente de 0 a 50.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.88 (cálculo derivado)",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0010",
+        "seccion": "Criterios de adjudicación: criterio económico, redondeo",
+        "detalle": "Los importes totales estarán expresados en Euros y constarán de 2 decimales.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0011",
+        "seccion": "Criterios de adjudicación: mejoras puntuables",
+        "detalle": "En el subcriterio 2.2 de juicio de valor, se otorgan hasta 2 puntos adicionales a mayor número de mejoras propuestas sobre el pliego.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0012",
+        "seccion": "Criterios de adjudicación: reglas de desempate",
+        "detalle": "En caso de empate tras la aplicación de los criterios de adjudicación, se acudirá a lo dispuesto en el artículo 66.11 del Real Decreto Ley 3/2020.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.11",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0013",
+        "seccion": "Criterios de adjudicación: exclusión de ofertas",
+        "detalle": "La inclusión de cualquier documentación y/o información en el SOBRE 2 que debiera incluirse en el SOBRE 3 supondrá la exclusión del licitador.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0014",
+        "seccion": "Criterios de adjudicación: anormalidad de ofertas",
+        "detalle": "Se considerará que una proposición económica es anormalmente baja cuando incluya un porcentaje de baja que, respecto de la media aritmética de los porcentajes de baja de todas las ofertas admitidas, o del presupuesto de licitación en caso de licitador único, exceda de diez unidades porcentuales.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.16",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0015",
+        "seccion": "Criterios de adjudicación: anormalidad, justificación y plazo",
+        "detalle": "En caso de oferta anormalmente baja, se solicitará al licitador su justificación por escrito de forma razonada y detallada, en un plazo de 5 días hábiles. Si no se recibe justificación en plazo, se entenderá retirada la oferta.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.16",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0016",
+        "seccion": "Criterios de adjudicación: anormalidad, consecuencias",
+        "detalle": "Si la justificación no es aceptada, se propondrá la adjudicación en favor del siguiente mejor, sin nueva clasificación. Si la oferta anormalmente baja resulta adjudicataria, el licitador deberá constituir una garantía complementaria si así se hubiera contemplado.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.16, 19",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0017",
+        "seccion": "Criterios de adjudicación: documentación de oferta",
+        "detalle": "Sobre 2: oferta técnica y criterios de adjudicación cuya evaluación depende de un juicio de valor, según Anexo IX. Sobre 3: proposición económica y criterios de adjudicación de evaluación automática, según Anexo X.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0018",
+        "seccion": "Criterios de adjudicación: presentación y exclusión",
+        "detalle": "No se aceptarán ofertas con omisiones o errores que impidan conocer claramente sus términos esenciales.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0019",
+        "seccion": "Criterios de adjudicación: negociación",
+        "detalle": "Se realizará una única ronda de negociación técnica y económica. Los aspectos técnicos que pueden ser mejorados en la negociación técnica son los ANSs indicados en el Anexo XVII. La oferta económica mejorada debe suponer una reducción del importe de la oferta inicial. Si la oferta definitiva iguala o supera la inicial, el licitador será excluido.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.13-15",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0020",
+        "seccion": "Criterios de adjudicación: criterios negociables",
+        "detalle": "No serán objeto de negociación los requisitos mínimos de la prestación objeto del contrato ni los criterios de adjudicación.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.15",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0021",
+        "seccion": "Criterios de adjudicación: criterios automáticos negociados",
+        "detalle": "Criterios Técnicos Mejorados en negociación: máximo 3 puntos, 0,5 puntos por cada indicador ANS mejorado, hasta 3 puntos.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.13, Anexo X, p.87",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0022",
+        "seccion": "Criterios de adjudicación: fórmula de puntuación técnica negociada",
+        "detalle": "La puntuación técnica mejorada se valorará con un máximo de 3 puntos, 0,5 puntos por cada indicador ANS mejorado, hasta 3 puntos.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.13, Anexo X, p.87",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0023",
+        "seccion": "Criterios de adjudicación: fórmula de puntuación económica negociada",
+        "detalle": "La puntuación económica mejorada se obtiene con la misma fórmula de proporcionalidad variable en función del rango de descuento.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.13-14, Anexo X, p.88",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0024",
+        "seccion": "Criterios de adjudicación: redondeo de puntuaciones",
+        "detalle": "Todas las puntuaciones serán redondeadas al segundo decimal.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0025",
+        "seccion": "Criterios de adjudicación: exclusión por error en oferta final",
+        "detalle": "Si la oferta definitiva, negociada o final iguala o supera la oferta inicial, el licitador será excluido.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.15",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0026",
+        "seccion": "Criterios de adjudicación: exclusión por error en sobres",
+        "detalle": "La inclusión de información económica en el sobre técnico (sobre 2) supondrá la exclusión del licitador.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0027",
+        "seccion": "Criterios de adjudicación: exclusión por omisión",
+        "detalle": "No se aceptarán ofertas con omisiones o errores que impidan conocer claramente sus términos esenciales.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0028",
+        "seccion": "Criterios de adjudicación: exclusión por incumplimiento de reducción en negociación",
+        "detalle": "Si la oferta definitiva, negociada o final iguala o supera la oferta inicial, el licitador será excluido.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.15",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0029",
+        "seccion": "Criterios de adjudicación: exclusión por documentación",
+        "detalle": "No se aceptarán ofertas con omisiones o errores que impidan conocer claramente sus términos esenciales.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0030",
+        "seccion": "Criterios de adjudicación: exclusión por documentación en sobre incorrecto",
+        "detalle": "La inclusión de cualquier documentación y/o información en el SOBRE 2 que debiera incluirse en el SOBRE 3 supondrá la exclusión del licitador.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0031",
+        "seccion": "Criterios de adjudicación: exclusión por incumplimiento de requisitos mínimos",
+        "detalle": "Las ofertas presentadas se considerarán aptas o no en virtud de que cumplan con todos los requisitos exigidos en el pliego.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.15",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0032",
+        "seccion": "Criterios de adjudicación: exclusión por incumplimiento de requisitos técnicos",
+        "detalle": "Las ofertas técnicamente inadecuadas o que no garanticen adecuadamente la correcta ejecución del contrato podrán ser desechadas.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.15",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0033",
+        "seccion": "Criterios de adjudicación: exclusión por incumplimiento de requisitos económicos",
+        "detalle": "Las ofertas que no aporten ventaja económica alguna a Correos serán excluidas.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.15",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0034",
+        "seccion": "Criterios de adjudicación: exclusión por incumplimiento de requisitos de solvencia",
+        "detalle": "Las ofertas que no cumplan los requisitos de solvencia serán excluidas.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.15",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0035",
+        "seccion": "Criterios de adjudicación: exclusión por incumplimiento de requisitos de adscripción de medios",
+        "detalle": "El compromiso de adscripción de medios es obligatorio y su incumplimiento es causa de exclusión.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.8, 22, Anexo XIX",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0036",
+        "seccion": "Criterios de adjudicación: exclusión por incumplimiento de condiciones especiales de ejecución",
+        "detalle": "El incumplimiento de condiciones especiales de ejecución puede dar lugar a la imposición de penalidad o resolución del contrato.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.23-24",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0037",
+        "seccion": "Criterios de adjudicación: exclusión por incumplimiento de obligaciones esenciales",
+        "detalle": "El incumplimiento de obligaciones esenciales del contrato es causa de resolución.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.22, 28",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0038",
+        "seccion": "Criterios de adjudicación: exclusión por incumplimiento de protección de datos",
+        "detalle": "El sometimiento a la normativa nacional y de la Unión Europea en materia de protección de datos es obligación esencial; su incumplimiento es causa de resolución.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.22, 30",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0039",
+        "seccion": "Criterios de adjudicación: exclusión por incumplimiento de plan de igualdad",
+        "detalle": "La declaración responsable sobre la implantación del plan de igualdad es obligatoria; su incumplimiento puede ser causa de exclusión.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XVIII, p.119",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0040",
+        "seccion": "Criterios de adjudicación: exclusión por incumplimiento de subrogación",
+        "detalle": "El incumplimiento de la obligación de proporcionar información sobre subrogación de contratos de trabajo puede ser penalizado hasta un 6% del precio del contrato.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, p.97",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0041",
+        "seccion": "Criterios de adjudicación: exclusión por incumplimiento de subcontratación",
+        "detalle": "El incumplimiento de las condiciones de subcontratación puede ser penalizado hasta un 50% del importe del subcontrato.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, p.97",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0042",
+        "seccion": "Criterios de adjudicación: exclusión por incumplimiento de convenio colectivo",
+        "detalle": "El incumplimiento del convenio colectivo aplicable supondrá una penalización del 10% del precio de adjudicación del contrato.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, p.98",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0043",
+        "seccion": "Criterios de adjudicación: exclusión por incumplimiento de condiciones especiales de ejecución",
+        "detalle": "El incumplimiento de condiciones especiales de ejecución puede ser penalizado hasta el 10% del precio del contrato.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, p.98",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0044",
+        "seccion": "Criterios de adjudicación: exclusión por reincidencia",
+        "detalle": "La comisión de una tercera infracción grave en el plazo de un año puede ser penalizada hasta el 10% del precio del contrato.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, p.98",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0045",
+        "seccion": "Criterios de adjudicación: exclusión por incumplimiento de plazos",
+        "detalle": "El incumplimiento de los plazos de ejecución puede ser penalizado hasta el 10% del precio del contrato.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, p.98",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0046",
+        "seccion": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de confidencialidad",
+        "detalle": "El incumplimiento de las condiciones de confidencialidad puede ser causa de resolución del contrato.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.24",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0047",
+        "seccion": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de protección de datos",
+        "detalle": "El incumplimiento de las condiciones de protección de datos puede ser causa de resolución del contrato.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.22, 30",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0048",
+        "seccion": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de igualdad",
+        "detalle": "El incumplimiento de las condiciones de igualdad puede ser causa de resolución del contrato.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XVIII, p.119",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0049",
+        "seccion": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de subrogación",
+        "detalle": "El incumplimiento de las condiciones de subrogación puede ser causa de resolución del contrato.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XIII, p.93",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0050",
+        "seccion": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de subcontratación",
+        "detalle": "El incumplimiento de las condiciones de subcontratación puede ser causa de resolución del contrato.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.25",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0051",
+        "seccion": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de adscripción de medios",
+        "detalle": "El incumplimiento de las condiciones de adscripción de medios puede ser causa de resolución del contrato.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.22, Anexo XIX",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0052",
+        "seccion": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de ejecución",
+        "detalle": "El incumplimiento de las condiciones de ejecución puede ser causa de resolución del contrato.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.28",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0053",
+        "seccion": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de reversión",
+        "detalle": "El incumplimiento de las condiciones de reversión puede ser causa de resolución del contrato.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.28",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0054",
+        "seccion": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de transición",
+        "detalle": "El incumplimiento de las condiciones de transición puede ser causa de resolución del contrato.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.28",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0055",
+        "seccion": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de prestación del servicio",
+        "detalle": "El incumplimiento de las condiciones de prestación del servicio puede ser causa de resolución del contrato.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.28",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "A4-S0056",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No se han identificado discrepancias en la documentación revisada entre los criterios de adjudicación, fórmulas, pesos, tramos, reglas de exclusión y anormalidad, ni entre los anexos y el cuerpo principal del pliego. Las sumas de puntos y porcentajes coinciden con los valores declarados. No se han localizado criterios de adjudicación adicionales fuera de los desarrollados en los Anexos IX y X y el cuerpo principal del pliego.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0057",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No consta baremo de subcriterios adicionales ni fórmulas alternativas para la valoración técnica o económica fuera de las recogidas en los anexos citados.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0058",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No consta en la documentación revisada la existencia de criterios de adjudicación automáticos distintos a los expresamente desarrollados (precio y mejoras ANS).",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0059",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No consta en la documentación revisada la existencia de criterios de adjudicación por experiencia, formación, certificaciones o referencias fuera de los mínimos de solvencia y los subcriterios técnicos de juicio de valor.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0060",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No consta en la documentación revisada la existencia de reglas de redondeo distintas a las expresamente indicadas (segundo decimal).",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0061",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No consta en la documentación revisada la existencia de reglas de desempate adicionales a la remisión al artículo 66.11 del Real Decreto Ley 3/2020.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0062",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No consta en la documentación revisada la existencia de fórmulas de normalización alternativas ni de ponderaciones distintas a las indicadas.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0063",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No consta en la documentación revisada la existencia de criterios de adjudicación por lotes, ya que el contrato no se divide en lotes.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0064",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No consta en la documentación revisada la existencia de criterios de adjudicación por variantes, alternativas o mejoras automáticas fuera de las expresamente puntuables.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0065",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No consta en la documentación revisada la existencia de criterios de adjudicación por subcontratación, adscripción de medios, plan de igualdad, protección de datos o condiciones sociales fuera de los mínimos obligatorios y penalizaciones.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      }
+    ],
+    "resumen": [
+      "---",
+      "No se han identificado discrepancias en la documentación revisada entre los criterios de adjudicación, fórmulas, pesos, tramos, reglas de exclusión y anormalidad, ni entre los anexos y el cuerpo principal del pliego. Las sumas de puntos y porcentajes coinciden con los valores declarados. No se han localizado criterios de adjudicación adicionales fuera de los desarrollados en los Anexos IX y X y el cuerpo principal del pliego.",
+      "No consta baremo de subcriterios adicionales ni fórmulas alternativas para la valoración técnica o económica fuera de las recogidas en los anexos citados.",
+      "No consta en la documentación revisada la existencia de criterios de adjudicación automáticos distintos a los expresamente desarrollados (precio y mejoras ANS).",
+      "No consta en la documentación revisada la existencia de criterios de adjudicación por experiencia, formación, certificaciones o referencias fuera de los mínimos de solvencia y los subcriterios técnicos de juicio de valor.",
+      "No consta en la documentación revisada la existencia de reglas de redondeo distintas a las expresamente indicadas (segundo decimal).",
+      "No consta en la documentación revisada la existencia de reglas de desempate adicionales a la remisión al artículo 66.11 del Real Decreto Ley 3/2020.",
+      "No consta en la documentación revisada la existencia de fórmulas de normalización alternativas ni de ponderaciones distintas a las indicadas.",
+      "No consta en la documentación revisada la existencia de criterios de adjudicación por lotes, ya que el contrato no se divide en lotes.",
+      "No consta en la documentación revisada la existencia de criterios de adjudicación por variantes, alternativas o mejoras automáticas fuera de las expresamente puntuables.",
+      "No consta en la documentación revisada la existencia de criterios de adjudicación por subcontratación, adscripción de medios, plan de igualdad, protección de datos o condiciones sociales fuera de los mínimos obligatorios y penalizaciones.",
+      "---"
+    ],
+    "secciones": [
+      {
+        "titulo": "Registro documental de preventa",
+        "parrafos": [
+          "---"
+        ],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Materia",
+              "Requisito completo",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Materia": "Criterios de adjudicación: estructura general",
+                "Requisito completo": "La adjudicación se realiza por pluralidad de criterios: 70% económico (precio), 3% técnico automático (mejoras ANS), 27% técnico por juicio de valor. Suma total: 100%.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.10-11, Anexo IX-X"
+              },
+              {
+                "Materia": "Criterios de adjudicación: bloques y sobres",
+                "Requisito completo": "Criterios sujetos a juicio de valor (27 puntos, sobre 2); criterios evaluables automáticamente (3 puntos, sobre 3); criterio económico (70 puntos, sobre 3).",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.10-12, Anexo IX-X"
+              },
+              {
+                "Materia": "Criterios de adjudicación: juicio de valor",
+                "Requisito completo": "Criterios técnicos evaluables mediante juicio de valor: máximo 27 puntos. Subcriterios: 1) Solución técnica del servicio (0-16 puntos), 2) Características y conocimientos del equipo de trabajo (0-11 puntos).",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.84-86"
+              },
+              {
+                "Materia": "Criterios de adjudicación: juicio de valor, desglose",
+                "Requisito completo": "1.1 Descripción y detalle del alcance completo de los servicios solicitados en el pliego (0-9 puntos, con desglose: 3 puntos por detalle y adecuación, 1 punto modelo relación cliente-proveedor, 2 puntos optimización y mejora continua, 2 puntos plan de subcontratación, 1 punto gestión del conocimiento). 1.2 Descripción del modelo de gobierno de entrega del servicio (0-3 puntos, 1 punto por cada uno de: roles y responsabilidades, modelo de gobierno, conocimientos y experiencia, organigrama y procesos). 1.3 Plan propuesto para la transición del servicio (0-2 puntos: 1,5 puntos por detalle y adecuación, 0,5 puntos si el tiempo es inferior a 30 días naturales). 1.4 Plan propuesto para la reversión del servicio (0-2 puntos: 1 punto por detalle y adecuación, 1 punto si el equipo de reversión es >5 personas). 2.1 Propuesta organizativa y descripción del equipo de trabajo con características adicionales a las requeridas en la fase de solvencia (0-4 puntos: mayor detalle, más recursos y menor precio, mayor puntuación; 4 puntos por propuesta con correcto nivel de detalle y adecuación). 2.2 Incremento de horas ofrecidas sobre las necesidades estimadas (0-7 puntos: 5 puntos mejor oferta, puntuación proporcional al resto; 2 puntos adicionales a mayor número de mejoras).",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.84-86"
+              },
+              {
+                "Materia": "Criterios de adjudicación: juicio de valor, fórmula de normalización",
+                "Requisito completo": "La puntuación técnica de la oferta estará constituida por la suma de las puntuaciones finales asignadas a cada uno de los bloques de criterios técnicos, con un máximo de 27 puntos. Una vez obtenida la valoración técnica de las “n” ofertas, se obtiene la Puntuación Técnica (PT) a partir de la siguiente expresión: PTn = PTm × VTn / VTm, donde PTm=27, VTn=valoración técnica de la oferta n, VTm=valoración técnica más alta. Redondeo al segundo decimal.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86"
+              },
+              {
+                "Materia": "Criterios de adjudicación: criterios automáticos técnicos",
+                "Requisito completo": "Criterios técnicos automáticos: máximo 3 puntos. Subcriterio: Acuerdo de Niveles de Servicio (ANS): mejora en los Niveles de Servicio solicitados en el Anexo XVII – Evaluación de Proveedores. Se obtendrá 0,5 puntos por cada indicador mejorado hasta un máximo de 3 puntos.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87"
+              },
+              {
+                "Materia": "Criterios de adjudicación: criterio económico",
+                "Requisito completo": "Criterio económico: máximo 70 puntos. La puntuación económica se obtiene de acuerdo con el criterio de proporcionalidad variable en función del rango de descuento. Fórmula: DtoN = (PL - POn) / PL × 100, donde PL=Presupuesto de licitación, POn=Presupuesto Oferta n, DtoN=Descuento de la Oferta N.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87-88"
+              },
+              {
+                "Materia": "Criterios de adjudicación: criterio económico, tramos y fórmula",
+                "Requisito completo": "Rango de descuento y fórmula de puntuación económica: Dto1=10%, Dto2=25%, Dto3=30%, PE1=50, PE2=70, PE3=0. Fórmulas: 1) DtoN ≥ 0 y DtoN ≤ 10: PEn = DtoN × 50 / 10; 2) DtoN > 10 y DtoN ≤ 25: PEn = (DtoN - 10) × 20 / 15 + 50; 3) DtoN > 25 y DtoN ≤ 30: PEn = (DtoN - 25) × -70 / 5 + 70; 4) DtoN > 30: PEn = 0.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.88"
+              },
+              {
+                "Materia": "Criterios de adjudicación: criterio económico, comprobación de extremos",
+                "Requisito completo": "Cálculo derivado: la puntuación máxima (70 puntos) se alcanza con un descuento del 25%. Para descuentos superiores al 25% y hasta el 30%, la puntuación decrece linealmente hasta 0. Para descuentos superiores al 30%, la puntuación es 0. Para descuentos entre 0% y 10%, la puntuación crece linealmente de 0 a 50.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.88 (cálculo derivado)"
+              },
+              {
+                "Materia": "Criterios de adjudicación: criterio económico, redondeo",
+                "Requisito completo": "Los importes totales estarán expresados en Euros y constarán de 2 decimales.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87"
+              },
+              {
+                "Materia": "Criterios de adjudicación: mejoras puntuables",
+                "Requisito completo": "En el subcriterio 2.2 de juicio de valor, se otorgan hasta 2 puntos adicionales a mayor número de mejoras propuestas sobre el pliego.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86"
+              },
+              {
+                "Materia": "Criterios de adjudicación: reglas de desempate",
+                "Requisito completo": "En caso de empate tras la aplicación de los criterios de adjudicación, se acudirá a lo dispuesto en el artículo 66.11 del Real Decreto Ley 3/2020.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.11"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión de ofertas",
+                "Requisito completo": "La inclusión de cualquier documentación y/o información en el SOBRE 2 que debiera incluirse en el SOBRE 3 supondrá la exclusión del licitador.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12"
+              },
+              {
+                "Materia": "Criterios de adjudicación: anormalidad de ofertas",
+                "Requisito completo": "Se considerará que una proposición económica es anormalmente baja cuando incluya un porcentaje de baja que, respecto de la media aritmética de los porcentajes de baja de todas las ofertas admitidas, o del presupuesto de licitación en caso de licitador único, exceda de diez unidades porcentuales.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.16"
+              },
+              {
+                "Materia": "Criterios de adjudicación: anormalidad, justificación y plazo",
+                "Requisito completo": "En caso de oferta anormalmente baja, se solicitará al licitador su justificación por escrito de forma razonada y detallada, en un plazo de 5 días hábiles. Si no se recibe justificación en plazo, se entenderá retirada la oferta.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.16"
+              },
+              {
+                "Materia": "Criterios de adjudicación: anormalidad, consecuencias",
+                "Requisito completo": "Si la justificación no es aceptada, se propondrá la adjudicación en favor del siguiente mejor, sin nueva clasificación. Si la oferta anormalmente baja resulta adjudicataria, el licitador deberá constituir una garantía complementaria si así se hubiera contemplado.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.16, 19"
+              },
+              {
+                "Materia": "Criterios de adjudicación: documentación de oferta",
+                "Requisito completo": "Sobre 2: oferta técnica y criterios de adjudicación cuya evaluación depende de un juicio de valor, según Anexo IX. Sobre 3: proposición económica y criterios de adjudicación de evaluación automática, según Anexo X.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12"
+              },
+              {
+                "Materia": "Criterios de adjudicación: presentación y exclusión",
+                "Requisito completo": "No se aceptarán ofertas con omisiones o errores que impidan conocer claramente sus términos esenciales.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12"
+              },
+              {
+                "Materia": "Criterios de adjudicación: negociación",
+                "Requisito completo": "Se realizará una única ronda de negociación técnica y económica. Los aspectos técnicos que pueden ser mejorados en la negociación técnica son los ANSs indicados en el Anexo XVII. La oferta económica mejorada debe suponer una reducción del importe de la oferta inicial. Si la oferta definitiva iguala o supera la inicial, el licitador será excluido.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.13-15"
+              },
+              {
+                "Materia": "Criterios de adjudicación: criterios negociables",
+                "Requisito completo": "No serán objeto de negociación los requisitos mínimos de la prestación objeto del contrato ni los criterios de adjudicación.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.15"
+              },
+              {
+                "Materia": "Criterios de adjudicación: criterios automáticos negociados",
+                "Requisito completo": "Criterios Técnicos Mejorados en negociación: máximo 3 puntos, 0,5 puntos por cada indicador ANS mejorado, hasta 3 puntos.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.13, Anexo X, p.87"
+              },
+              {
+                "Materia": "Criterios de adjudicación: fórmula de puntuación técnica negociada",
+                "Requisito completo": "La puntuación técnica mejorada se valorará con un máximo de 3 puntos, 0,5 puntos por cada indicador ANS mejorado, hasta 3 puntos.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.13, Anexo X, p.87"
+              },
+              {
+                "Materia": "Criterios de adjudicación: fórmula de puntuación económica negociada",
+                "Requisito completo": "La puntuación económica mejorada se obtiene con la misma fórmula de proporcionalidad variable en función del rango de descuento.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.13-14, Anexo X, p.88"
+              },
+              {
+                "Materia": "Criterios de adjudicación: redondeo de puntuaciones",
+                "Requisito completo": "Todas las puntuaciones serán redondeadas al segundo decimal.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por error en oferta final",
+                "Requisito completo": "Si la oferta definitiva, negociada o final iguala o supera la oferta inicial, el licitador será excluido.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.15"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por error en sobres",
+                "Requisito completo": "La inclusión de información económica en el sobre técnico (sobre 2) supondrá la exclusión del licitador.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por omisión",
+                "Requisito completo": "No se aceptarán ofertas con omisiones o errores que impidan conocer claramente sus términos esenciales.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por incumplimiento de reducción en negociación",
+                "Requisito completo": "Si la oferta definitiva, negociada o final iguala o supera la oferta inicial, el licitador será excluido.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.15"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por documentación",
+                "Requisito completo": "No se aceptarán ofertas con omisiones o errores que impidan conocer claramente sus términos esenciales.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por documentación en sobre incorrecto",
+                "Requisito completo": "La inclusión de cualquier documentación y/o información en el SOBRE 2 que debiera incluirse en el SOBRE 3 supondrá la exclusión del licitador.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por incumplimiento de requisitos mínimos",
+                "Requisito completo": "Las ofertas presentadas se considerarán aptas o no en virtud de que cumplan con todos los requisitos exigidos en el pliego.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.15"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por incumplimiento de requisitos técnicos",
+                "Requisito completo": "Las ofertas técnicamente inadecuadas o que no garanticen adecuadamente la correcta ejecución del contrato podrán ser desechadas.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.15"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por incumplimiento de requisitos económicos",
+                "Requisito completo": "Las ofertas que no aporten ventaja económica alguna a Correos serán excluidas.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.15"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por incumplimiento de requisitos de solvencia",
+                "Requisito completo": "Las ofertas que no cumplan los requisitos de solvencia serán excluidas.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.15"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por incumplimiento de requisitos de adscripción de medios",
+                "Requisito completo": "El compromiso de adscripción de medios es obligatorio y su incumplimiento es causa de exclusión.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.8, 22, Anexo XIX"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por incumplimiento de condiciones especiales de ejecución",
+                "Requisito completo": "El incumplimiento de condiciones especiales de ejecución puede dar lugar a la imposición de penalidad o resolución del contrato.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.23-24"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por incumplimiento de obligaciones esenciales",
+                "Requisito completo": "El incumplimiento de obligaciones esenciales del contrato es causa de resolución.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.22, 28"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por incumplimiento de protección de datos",
+                "Requisito completo": "El sometimiento a la normativa nacional y de la Unión Europea en materia de protección de datos es obligación esencial; su incumplimiento es causa de resolución.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.22, 30"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por incumplimiento de plan de igualdad",
+                "Requisito completo": "La declaración responsable sobre la implantación del plan de igualdad es obligatoria; su incumplimiento puede ser causa de exclusión.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XVIII, p.119"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por incumplimiento de subrogación",
+                "Requisito completo": "El incumplimiento de la obligación de proporcionar información sobre subrogación de contratos de trabajo puede ser penalizado hasta un 6% del precio del contrato.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, p.97"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por incumplimiento de subcontratación",
+                "Requisito completo": "El incumplimiento de las condiciones de subcontratación puede ser penalizado hasta un 50% del importe del subcontrato.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, p.97"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por incumplimiento de convenio colectivo",
+                "Requisito completo": "El incumplimiento del convenio colectivo aplicable supondrá una penalización del 10% del precio de adjudicación del contrato.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, p.98"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por incumplimiento de condiciones especiales de ejecución",
+                "Requisito completo": "El incumplimiento de condiciones especiales de ejecución puede ser penalizado hasta el 10% del precio del contrato.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, p.98"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por reincidencia",
+                "Requisito completo": "La comisión de una tercera infracción grave en el plazo de un año puede ser penalizada hasta el 10% del precio del contrato.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, p.98"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por incumplimiento de plazos",
+                "Requisito completo": "El incumplimiento de los plazos de ejecución puede ser penalizado hasta el 10% del precio del contrato.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, p.98"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de confidencialidad",
+                "Requisito completo": "El incumplimiento de las condiciones de confidencialidad puede ser causa de resolución del contrato.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.24"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de protección de datos",
+                "Requisito completo": "El incumplimiento de las condiciones de protección de datos puede ser causa de resolución del contrato.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.22, 30"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de igualdad",
+                "Requisito completo": "El incumplimiento de las condiciones de igualdad puede ser causa de resolución del contrato.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XVIII, p.119"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de subrogación",
+                "Requisito completo": "El incumplimiento de las condiciones de subrogación puede ser causa de resolución del contrato.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XIII, p.93"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de subcontratación",
+                "Requisito completo": "El incumplimiento de las condiciones de subcontratación puede ser causa de resolución del contrato.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.25"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de adscripción de medios",
+                "Requisito completo": "El incumplimiento de las condiciones de adscripción de medios puede ser causa de resolución del contrato.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.22, Anexo XIX"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de ejecución",
+                "Requisito completo": "El incumplimiento de las condiciones de ejecución puede ser causa de resolución del contrato.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.28"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de reversión",
+                "Requisito completo": "El incumplimiento de las condiciones de reversión puede ser causa de resolución del contrato.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.28"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de transición",
+                "Requisito completo": "El incumplimiento de las condiciones de transición puede ser causa de resolución del contrato.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.28"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de prestación del servicio",
+                "Requisito completo": "El incumplimiento de las condiciones de prestación del servicio puede ser causa de resolución del contrato.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.28"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "parrafos": [
+          "---"
+        ],
+        "elementos": [
+          "No se han identificado discrepancias en la documentación revisada entre los criterios de adjudicación, fórmulas, pesos, tramos, reglas de exclusión y anormalidad, ni entre los anexos y el cuerpo principal del pliego. Las sumas de puntos y porcentajes coinciden con los valores declarados. No se han localizado criterios de adjudicación adicionales fuera de los desarrollados en los Anexos IX y X y el cuerpo principal del pliego.",
+          "No consta baremo de subcriterios adicionales ni fórmulas alternativas para la valoración técnica o económica fuera de las recogidas en los anexos citados.",
+          "No consta en la documentación revisada la existencia de criterios de adjudicación automáticos distintos a los expresamente desarrollados (precio y mejoras ANS).",
+          "No consta en la documentación revisada la existencia de criterios de adjudicación por experiencia, formación, certificaciones o referencias fuera de los mínimos de solvencia y los subcriterios técnicos de juicio de valor.",
+          "No consta en la documentación revisada la existencia de reglas de redondeo distintas a las expresamente indicadas (segundo decimal).",
+          "No consta en la documentación revisada la existencia de reglas de desempate adicionales a la remisión al artículo 66.11 del Real Decreto Ley 3/2020.",
+          "No consta en la documentación revisada la existencia de fórmulas de normalización alternativas ni de ponderaciones distintas a las indicadas.",
+          "No consta en la documentación revisada la existencia de criterios de adjudicación por lotes, ya que el contrato no se divide en lotes.",
+          "No consta en la documentación revisada la existencia de criterios de adjudicación por variantes, alternativas o mejoras automáticas fuera de las expresamente puntuables.",
+          "No consta en la documentación revisada la existencia de criterios de adjudicación por subcontratación, adscripción de medios, plan de igualdad, protección de datos o condiciones sociales fuera de los mínimos obligatorios y penalizaciones."
+        ],
+        "tablas": []
+      }
+    ],
+    "pendientes_y_no_localizados": [
+      {
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "parrafos": [
+          "---"
+        ],
+        "elementos": [
+          "No se han identificado discrepancias en la documentación revisada entre los criterios de adjudicación, fórmulas, pesos, tramos, reglas de exclusión y anormalidad, ni entre los anexos y el cuerpo principal del pliego. Las sumas de puntos y porcentajes coinciden con los valores declarados. No se han localizado criterios de adjudicación adicionales fuera de los desarrollados en los Anexos IX y X y el cuerpo principal del pliego.",
+          "No consta baremo de subcriterios adicionales ni fórmulas alternativas para la valoración técnica o económica fuera de las recogidas en los anexos citados.",
+          "No consta en la documentación revisada la existencia de criterios de adjudicación automáticos distintos a los expresamente desarrollados (precio y mejoras ANS).",
+          "No consta en la documentación revisada la existencia de criterios de adjudicación por experiencia, formación, certificaciones o referencias fuera de los mínimos de solvencia y los subcriterios técnicos de juicio de valor.",
+          "No consta en la documentación revisada la existencia de reglas de redondeo distintas a las expresamente indicadas (segundo decimal).",
+          "No consta en la documentación revisada la existencia de reglas de desempate adicionales a la remisión al artículo 66.11 del Real Decreto Ley 3/2020.",
+          "No consta en la documentación revisada la existencia de fórmulas de normalización alternativas ni de ponderaciones distintas a las indicadas.",
+          "No consta en la documentación revisada la existencia de criterios de adjudicación por lotes, ya que el contrato no se divide en lotes.",
+          "No consta en la documentación revisada la existencia de criterios de adjudicación por variantes, alternativas o mejoras automáticas fuera de las expresamente puntuables.",
+          "No consta en la documentación revisada la existencia de criterios de adjudicación por subcontratación, adscripción de medios, plan de igualdad, protección de datos o condiciones sociales fuera de los mínimos obligatorios y penalizaciones."
+        ],
+        "tablas": []
+      }
+    ],
+    "trazabilidad": [
+      {
+        "Materia": "Criterios de adjudicación: estructura general",
+        "Requisito completo": "La adjudicación se realiza por pluralidad de criterios: 70% económico (precio), 3% técnico automático (mejoras ANS), 27% técnico por juicio de valor. Suma total: 100%.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.10-11, Anexo IX-X"
+      },
+      {
+        "Materia": "Criterios de adjudicación: bloques y sobres",
+        "Requisito completo": "Criterios sujetos a juicio de valor (27 puntos, sobre 2); criterios evaluables automáticamente (3 puntos, sobre 3); criterio económico (70 puntos, sobre 3).",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.10-12, Anexo IX-X"
+      },
+      {
+        "Materia": "Criterios de adjudicación: juicio de valor",
+        "Requisito completo": "Criterios técnicos evaluables mediante juicio de valor: máximo 27 puntos. Subcriterios: 1) Solución técnica del servicio (0-16 puntos), 2) Características y conocimientos del equipo de trabajo (0-11 puntos).",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.84-86"
+      },
+      {
+        "Materia": "Criterios de adjudicación: juicio de valor, desglose",
+        "Requisito completo": "1.1 Descripción y detalle del alcance completo de los servicios solicitados en el pliego (0-9 puntos, con desglose: 3 puntos por detalle y adecuación, 1 punto modelo relación cliente-proveedor, 2 puntos optimización y mejora continua, 2 puntos plan de subcontratación, 1 punto gestión del conocimiento). 1.2 Descripción del modelo de gobierno de entrega del servicio (0-3 puntos, 1 punto por cada uno de: roles y responsabilidades, modelo de gobierno, conocimientos y experiencia, organigrama y procesos). 1.3 Plan propuesto para la transición del servicio (0-2 puntos: 1,5 puntos por detalle y adecuación, 0,5 puntos si el tiempo es inferior a 30 días naturales). 1.4 Plan propuesto para la reversión del servicio (0-2 puntos: 1 punto por detalle y adecuación, 1 punto si el equipo de reversión es >5 personas). 2.1 Propuesta organizativa y descripción del equipo de trabajo con características adicionales a las requeridas en la fase de solvencia (0-4 puntos: mayor detalle, más recursos y menor precio, mayor puntuación; 4 puntos por propuesta con correcto nivel de detalle y adecuación). 2.2 Incremento de horas ofrecidas sobre las necesidades estimadas (0-7 puntos: 5 puntos mejor oferta, puntuación proporcional al resto; 2 puntos adicionales a mayor número de mejoras).",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.84-86"
+      },
+      {
+        "Materia": "Criterios de adjudicación: juicio de valor, fórmula de normalización",
+        "Requisito completo": "La puntuación técnica de la oferta estará constituida por la suma de las puntuaciones finales asignadas a cada uno de los bloques de criterios técnicos, con un máximo de 27 puntos. Una vez obtenida la valoración técnica de las “n” ofertas, se obtiene la Puntuación Técnica (PT) a partir de la siguiente expresión: PTn = PTm × VTn / VTm, donde PTm=27, VTn=valoración técnica de la oferta n, VTm=valoración técnica más alta. Redondeo al segundo decimal.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86"
+      },
+      {
+        "Materia": "Criterios de adjudicación: criterios automáticos técnicos",
+        "Requisito completo": "Criterios técnicos automáticos: máximo 3 puntos. Subcriterio: Acuerdo de Niveles de Servicio (ANS): mejora en los Niveles de Servicio solicitados en el Anexo XVII – Evaluación de Proveedores. Se obtendrá 0,5 puntos por cada indicador mejorado hasta un máximo de 3 puntos.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87"
+      },
+      {
+        "Materia": "Criterios de adjudicación: criterio económico",
+        "Requisito completo": "Criterio económico: máximo 70 puntos. La puntuación económica se obtiene de acuerdo con el criterio de proporcionalidad variable en función del rango de descuento. Fórmula: DtoN = (PL - POn) / PL × 100, donde PL=Presupuesto de licitación, POn=Presupuesto Oferta n, DtoN=Descuento de la Oferta N.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87-88"
+      },
+      {
+        "Materia": "Criterios de adjudicación: criterio económico, tramos y fórmula",
+        "Requisito completo": "Rango de descuento y fórmula de puntuación económica: Dto1=10%, Dto2=25%, Dto3=30%, PE1=50, PE2=70, PE3=0. Fórmulas: 1) DtoN ≥ 0 y DtoN ≤ 10: PEn = DtoN × 50 / 10; 2) DtoN > 10 y DtoN ≤ 25: PEn = (DtoN - 10) × 20 / 15 + 50; 3) DtoN > 25 y DtoN ≤ 30: PEn = (DtoN - 25) × -70 / 5 + 70; 4) DtoN > 30: PEn = 0.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.88"
+      },
+      {
+        "Materia": "Criterios de adjudicación: criterio económico, comprobación de extremos",
+        "Requisito completo": "Cálculo derivado: la puntuación máxima (70 puntos) se alcanza con un descuento del 25%. Para descuentos superiores al 25% y hasta el 30%, la puntuación decrece linealmente hasta 0. Para descuentos superiores al 30%, la puntuación es 0. Para descuentos entre 0% y 10%, la puntuación crece linealmente de 0 a 50.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.88 (cálculo derivado)"
+      },
+      {
+        "Materia": "Criterios de adjudicación: criterio económico, redondeo",
+        "Requisito completo": "Los importes totales estarán expresados en Euros y constarán de 2 decimales.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87"
+      },
+      {
+        "Materia": "Criterios de adjudicación: mejoras puntuables",
+        "Requisito completo": "En el subcriterio 2.2 de juicio de valor, se otorgan hasta 2 puntos adicionales a mayor número de mejoras propuestas sobre el pliego.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86"
+      },
+      {
+        "Materia": "Criterios de adjudicación: reglas de desempate",
+        "Requisito completo": "En caso de empate tras la aplicación de los criterios de adjudicación, se acudirá a lo dispuesto en el artículo 66.11 del Real Decreto Ley 3/2020.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.11"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión de ofertas",
+        "Requisito completo": "La inclusión de cualquier documentación y/o información en el SOBRE 2 que debiera incluirse en el SOBRE 3 supondrá la exclusión del licitador.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12"
+      },
+      {
+        "Materia": "Criterios de adjudicación: anormalidad de ofertas",
+        "Requisito completo": "Se considerará que una proposición económica es anormalmente baja cuando incluya un porcentaje de baja que, respecto de la media aritmética de los porcentajes de baja de todas las ofertas admitidas, o del presupuesto de licitación en caso de licitador único, exceda de diez unidades porcentuales.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.16"
+      },
+      {
+        "Materia": "Criterios de adjudicación: anormalidad, justificación y plazo",
+        "Requisito completo": "En caso de oferta anormalmente baja, se solicitará al licitador su justificación por escrito de forma razonada y detallada, en un plazo de 5 días hábiles. Si no se recibe justificación en plazo, se entenderá retirada la oferta.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.16"
+      },
+      {
+        "Materia": "Criterios de adjudicación: anormalidad, consecuencias",
+        "Requisito completo": "Si la justificación no es aceptada, se propondrá la adjudicación en favor del siguiente mejor, sin nueva clasificación. Si la oferta anormalmente baja resulta adjudicataria, el licitador deberá constituir una garantía complementaria si así se hubiera contemplado.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.16, 19"
+      },
+      {
+        "Materia": "Criterios de adjudicación: documentación de oferta",
+        "Requisito completo": "Sobre 2: oferta técnica y criterios de adjudicación cuya evaluación depende de un juicio de valor, según Anexo IX. Sobre 3: proposición económica y criterios de adjudicación de evaluación automática, según Anexo X.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12"
+      },
+      {
+        "Materia": "Criterios de adjudicación: presentación y exclusión",
+        "Requisito completo": "No se aceptarán ofertas con omisiones o errores que impidan conocer claramente sus términos esenciales.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12"
+      },
+      {
+        "Materia": "Criterios de adjudicación: negociación",
+        "Requisito completo": "Se realizará una única ronda de negociación técnica y económica. Los aspectos técnicos que pueden ser mejorados en la negociación técnica son los ANSs indicados en el Anexo XVII. La oferta económica mejorada debe suponer una reducción del importe de la oferta inicial. Si la oferta definitiva iguala o supera la inicial, el licitador será excluido.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.13-15"
+      },
+      {
+        "Materia": "Criterios de adjudicación: criterios negociables",
+        "Requisito completo": "No serán objeto de negociación los requisitos mínimos de la prestación objeto del contrato ni los criterios de adjudicación.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.15"
+      },
+      {
+        "Materia": "Criterios de adjudicación: criterios automáticos negociados",
+        "Requisito completo": "Criterios Técnicos Mejorados en negociación: máximo 3 puntos, 0,5 puntos por cada indicador ANS mejorado, hasta 3 puntos.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.13, Anexo X, p.87"
+      },
+      {
+        "Materia": "Criterios de adjudicación: fórmula de puntuación técnica negociada",
+        "Requisito completo": "La puntuación técnica mejorada se valorará con un máximo de 3 puntos, 0,5 puntos por cada indicador ANS mejorado, hasta 3 puntos.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.13, Anexo X, p.87"
+      },
+      {
+        "Materia": "Criterios de adjudicación: fórmula de puntuación económica negociada",
+        "Requisito completo": "La puntuación económica mejorada se obtiene con la misma fórmula de proporcionalidad variable en función del rango de descuento.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.13-14, Anexo X, p.88"
+      },
+      {
+        "Materia": "Criterios de adjudicación: redondeo de puntuaciones",
+        "Requisito completo": "Todas las puntuaciones serán redondeadas al segundo decimal.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por error en oferta final",
+        "Requisito completo": "Si la oferta definitiva, negociada o final iguala o supera la oferta inicial, el licitador será excluido.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.15"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por error en sobres",
+        "Requisito completo": "La inclusión de información económica en el sobre técnico (sobre 2) supondrá la exclusión del licitador.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por omisión",
+        "Requisito completo": "No se aceptarán ofertas con omisiones o errores que impidan conocer claramente sus términos esenciales.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por incumplimiento de reducción en negociación",
+        "Requisito completo": "Si la oferta definitiva, negociada o final iguala o supera la oferta inicial, el licitador será excluido.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.15"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por documentación",
+        "Requisito completo": "No se aceptarán ofertas con omisiones o errores que impidan conocer claramente sus términos esenciales.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por documentación en sobre incorrecto",
+        "Requisito completo": "La inclusión de cualquier documentación y/o información en el SOBRE 2 que debiera incluirse en el SOBRE 3 supondrá la exclusión del licitador.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por incumplimiento de requisitos mínimos",
+        "Requisito completo": "Las ofertas presentadas se considerarán aptas o no en virtud de que cumplan con todos los requisitos exigidos en el pliego.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.15"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por incumplimiento de requisitos técnicos",
+        "Requisito completo": "Las ofertas técnicamente inadecuadas o que no garanticen adecuadamente la correcta ejecución del contrato podrán ser desechadas.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.15"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por incumplimiento de requisitos económicos",
+        "Requisito completo": "Las ofertas que no aporten ventaja económica alguna a Correos serán excluidas.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.15"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por incumplimiento de requisitos de solvencia",
+        "Requisito completo": "Las ofertas que no cumplan los requisitos de solvencia serán excluidas.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.15"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por incumplimiento de requisitos de adscripción de medios",
+        "Requisito completo": "El compromiso de adscripción de medios es obligatorio y su incumplimiento es causa de exclusión.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.8, 22, Anexo XIX"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por incumplimiento de condiciones especiales de ejecución",
+        "Requisito completo": "El incumplimiento de condiciones especiales de ejecución puede dar lugar a la imposición de penalidad o resolución del contrato.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.23-24"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por incumplimiento de obligaciones esenciales",
+        "Requisito completo": "El incumplimiento de obligaciones esenciales del contrato es causa de resolución.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.22, 28"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por incumplimiento de protección de datos",
+        "Requisito completo": "El sometimiento a la normativa nacional y de la Unión Europea en materia de protección de datos es obligación esencial; su incumplimiento es causa de resolución.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.22, 30"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por incumplimiento de plan de igualdad",
+        "Requisito completo": "La declaración responsable sobre la implantación del plan de igualdad es obligatoria; su incumplimiento puede ser causa de exclusión.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XVIII, p.119"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por incumplimiento de subrogación",
+        "Requisito completo": "El incumplimiento de la obligación de proporcionar información sobre subrogación de contratos de trabajo puede ser penalizado hasta un 6% del precio del contrato.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, p.97"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por incumplimiento de subcontratación",
+        "Requisito completo": "El incumplimiento de las condiciones de subcontratación puede ser penalizado hasta un 50% del importe del subcontrato.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, p.97"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por incumplimiento de convenio colectivo",
+        "Requisito completo": "El incumplimiento del convenio colectivo aplicable supondrá una penalización del 10% del precio de adjudicación del contrato.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, p.98"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por incumplimiento de condiciones especiales de ejecución",
+        "Requisito completo": "El incumplimiento de condiciones especiales de ejecución puede ser penalizado hasta el 10% del precio del contrato.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, p.98"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por reincidencia",
+        "Requisito completo": "La comisión de una tercera infracción grave en el plazo de un año puede ser penalizada hasta el 10% del precio del contrato.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, p.98"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por incumplimiento de plazos",
+        "Requisito completo": "El incumplimiento de los plazos de ejecución puede ser penalizado hasta el 10% del precio del contrato.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, p.98"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de confidencialidad",
+        "Requisito completo": "El incumplimiento de las condiciones de confidencialidad puede ser causa de resolución del contrato.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.24"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de protección de datos",
+        "Requisito completo": "El incumplimiento de las condiciones de protección de datos puede ser causa de resolución del contrato.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.22, 30"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de igualdad",
+        "Requisito completo": "El incumplimiento de las condiciones de igualdad puede ser causa de resolución del contrato.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XVIII, p.119"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de subrogación",
+        "Requisito completo": "El incumplimiento de las condiciones de subrogación puede ser causa de resolución del contrato.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XIII, p.93"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de subcontratación",
+        "Requisito completo": "El incumplimiento de las condiciones de subcontratación puede ser causa de resolución del contrato.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.25"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de adscripción de medios",
+        "Requisito completo": "El incumplimiento de las condiciones de adscripción de medios puede ser causa de resolución del contrato.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.22, Anexo XIX"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de ejecución",
+        "Requisito completo": "El incumplimiento de las condiciones de ejecución puede ser causa de resolución del contrato.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.28"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de reversión",
+        "Requisito completo": "El incumplimiento de las condiciones de reversión puede ser causa de resolución del contrato.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.28"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de transición",
+        "Requisito completo": "El incumplimiento de las condiciones de transición puede ser causa de resolución del contrato.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.28"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión por incumplimiento de condiciones de prestación del servicio",
+        "Requisito completo": "El incumplimiento de las condiciones de prestación del servicio puede ser causa de resolución del contrato.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.28"
+      }
+    ],
+    "salida_original": "# Registro documental de preventa\n\n| Materia | Requisito completo | Fuente |\n|---|---|---|\n| Criterios de adjudicación: estructura general | La adjudicación se realiza por pluralidad de criterios: 70% económico (precio), 3% técnico automático (mejoras ANS), 27% técnico por juicio de valor. Suma total: 100%. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.10-11, Anexo IX-X |\n| Criterios de adjudicación: bloques y sobres | Criterios sujetos a juicio de valor (27 puntos, sobre 2); criterios evaluables automáticamente (3 puntos, sobre 3); criterio económico (70 puntos, sobre 3). | DOC20240806095753Pliegodefinitivofirmado.pdf, p.10-12, Anexo IX-X |\n| Criterios de adjudicación: juicio de valor | Criterios técnicos evaluables mediante juicio de valor: máximo 27 puntos. Subcriterios: 1) Solución técnica del servicio (0-16 puntos), 2) Características y conocimientos del equipo de trabajo (0-11 puntos). | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.84-86 |\n| Criterios de adjudicación: juicio de valor, desglose | 1.1 Descripción y detalle del alcance completo de los servicios solicitados en el pliego (0-9 puntos, con desglose: 3 puntos por detalle y adecuación, 1 punto modelo relación cliente-proveedor, 2 puntos optimización y mejora continua, 2 puntos plan de subcontratación, 1 punto gestión del conocimiento). 1.2 Descripción del modelo de gobierno de entrega del servicio (0-3 puntos, 1 punto por cada uno de: roles y responsabilidades, modelo de gobierno, conocimientos y experiencia, organigrama y procesos). 1.3 Plan propuesto para la transición del servicio (0-2 puntos: 1,5 puntos por detalle y adecuación, 0,5 puntos si el tiempo es inferior a 30 días naturales). 1.4 Plan propuesto para la reversión del servicio (0-2 puntos: 1 punto por detalle y adecuación, 1 punto si el equipo de reversión es >5 personas). 2.1 Propuesta organizativa y descripción del equipo de trabajo con características adicionales a las requeridas en la fase de solvencia (0-4 puntos: mayor detalle, más recursos y menor precio, mayor puntuación; 4 puntos por propuesta con correcto nivel de detalle y adecuación). 2.2 Incremento de horas ofrecidas sobre las necesidades estimadas (0-7 puntos: 5 puntos mejor oferta, puntuación proporcional al resto; 2 puntos adicionales a mayor número de mejoras). | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.84-86 |\n| Criterios de adjudicación: juicio de valor, fórmula de normalización | La puntuación técnica de la oferta estará constituida por la suma de las puntuaciones finales asignadas a cada uno de los bloques de criterios técnicos, con un máximo de 27 puntos. Una vez obtenida la valoración técnica de las “n” ofertas, se obtiene la Puntuación Técnica (PT) a partir de la siguiente expresión: PTn = PTm × VTn / VTm, donde PTm=27, VTn=valoración técnica de la oferta n, VTm=valoración técnica más alta. Redondeo al segundo decimal. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86 |\n| Criterios de adjudicación: criterios automáticos técnicos | Criterios técnicos automáticos: máximo 3 puntos. Subcriterio: Acuerdo de Niveles de Servicio (ANS): mejora en los Niveles de Servicio solicitados en el Anexo XVII – Evaluación de Proveedores. Se obtendrá 0,5 puntos por cada indicador mejorado hasta un máximo de 3 puntos. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87 |\n| Criterios de adjudicación: criterio económico | Criterio económico: máximo 70 puntos. La puntuación económica se obtiene de acuerdo con el criterio de proporcionalidad variable en función del rango de descuento. Fórmula: DtoN = (PL - POn) / PL × 100, donde PL=Presupuesto de licitación, POn=Presupuesto Oferta n, DtoN=Descuento de la Oferta N. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87-88 |\n| Criterios de adjudicación: criterio económico, tramos y fórmula | Rango de descuento y fórmula de puntuación económica: Dto1=10%, Dto2=25%, Dto3=30%, PE1=50, PE2=70, PE3=0. Fórmulas: 1) DtoN ≥ 0 y DtoN ≤ 10: PEn = DtoN × 50 / 10; 2) DtoN > 10 y DtoN ≤ 25: PEn = (DtoN - 10) × 20 / 15 + 50; 3) DtoN > 25 y DtoN ≤ 30: PEn = (DtoN - 25) × -70 / 5 + 70; 4) DtoN > 30: PEn = 0. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.88 |\n| Criterios de adjudicación: criterio económico, comprobación de extremos | Cálculo derivado: la puntuación máxima (70 puntos) se alcanza con un descuento del 25%. Para descuentos superiores al 25% y hasta el 30%, la puntuación decrece linealmente hasta 0. Para descuentos superiores al 30%, la puntuación es 0. Para descuentos entre 0% y 10%, la puntuación crece linealmente de 0 a 50. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.88 (cálculo derivado) |\n| Criterios de adjudicación: criterio económico, redondeo | Los importes totales estarán expresados en Euros y constarán de 2 decimales. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87 |\n| Criterios de adjudicación: mejoras puntuables | En el subcriterio 2.2 de juicio de valor, se otorgan hasta 2 puntos adicionales a mayor número de mejoras propuestas sobre el pliego. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86 |\n| Criterios de adjudicación: reglas de desempate | En caso de empate tras la aplicación de los criterios de adjudicación, se acudirá a lo dispuesto en el artículo 66.11 del Real Decreto Ley 3/2020. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.11 |\n| Criterios de adjudicación: exclusión de ofertas | La inclusión de cualquier documentación y/o información en el SOBRE 2 que debiera incluirse en el SOBRE 3 supondrá la exclusión del licitador. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.12 |\n| Criterios de adjudicación: anormalidad de ofertas | Se considerará que una proposición económica es anormalmente baja cuando incluya un porcentaje de baja que, respecto de la media aritmética de los porcentajes de baja de todas las ofertas admitidas, o del presupuesto de licitación en caso de licitador único, exceda de diez unidades porcentuales. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.16 |\n| Criterios de adjudicación: anormalidad, justificación y plazo | En caso de oferta anormalmente baja, se solicitará al licitador su justificación por escrito de forma razonada y detallada, en un plazo de 5 días hábiles. Si no se recibe justificación en plazo, se entenderá retirada la oferta. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.16 |\n| Criterios de adjudicación: anormalidad, consecuencias | Si la justificación no es aceptada, se propondrá la adjudicación en favor del siguiente mejor, sin nueva clasificación. Si la oferta anormalmente baja resulta adjudicataria, el licitador deberá constituir una garantía complementaria si así se hubiera contemplado. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.16, 19 |\n| Criterios de adjudicación: documentación de oferta | Sobre 2: oferta técnica y criterios de adjudicación cuya evaluación depende de un juicio de valor, según Anexo IX. Sobre 3: proposición económica y criterios de adjudicación de evaluación automática, según Anexo X. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.12 |\n| Criterios de adjudicación: presentación y exclusión | No se aceptarán ofertas con omisiones o errores que impidan conocer claramente sus términos esenciales. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.12 |\n| Criterios de adjudicación: negociación | Se realizará una única ronda de negociación técnica y económica. Los aspectos técnicos que pueden ser mejorados en la negociación técnica son los ANSs indicados en el Anexo XVII. La oferta económica mejorada debe suponer una reducción del importe de la oferta inicial. Si la oferta definitiva iguala o supera la inicial, el licitador será excluido. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.13-15 |\n| Criterios de adjudicación: criterios negociables | No serán objeto de negociación los requisitos mínimos de la prestación objeto del contrato ni los criterios de adjudicación. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.15 |\n| Criterios de adjudicación: criterios automáticos negociados | Criterios Técnicos Mejorados en negociación: máximo 3 puntos, 0,5 puntos por cada indicador ANS mejorado, hasta 3 puntos. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.13, Anexo X, p.87 |\n| Criterios de adjudicación: fórmula de puntuación técnica negociada | La puntuación técnica mejorada se valorará con un máximo de 3 puntos, 0,5 puntos por cada indicador ANS mejorado, hasta 3 puntos. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.13, Anexo X, p.87 |\n| Criterios de adjudicación: fórmula de puntuación económica negociada | La puntuación económica mejorada se obtiene con la misma fórmula de proporcionalidad variable en función del rango de descuento. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.13-14, Anexo X, p.88 |\n| Criterios de adjudicación: redondeo de puntuaciones | Todas las puntuaciones serán redondeadas al segundo decimal. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86 |\n| Criterios de adjudicación: exclusión por error en oferta final | Si la oferta definitiva, negociada o final iguala o supera la oferta inicial, el licitador será excluido. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.15 |\n| Criterios de adjudicación: exclusión por error en sobres | La inclusión de información económica en el sobre técnico (sobre 2) supondrá la exclusión del licitador. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.12 |\n| Criterios de adjudicación: exclusión por omisión | No se aceptarán ofertas con omisiones o errores que impidan conocer claramente sus términos esenciales. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.12 |\n| Criterios de adjudicación: exclusión por incumplimiento de reducción en negociación | Si la oferta definitiva, negociada o final iguala o supera la oferta inicial, el licitador será excluido. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.15 |\n| Criterios de adjudicación: exclusión por documentación | No se aceptarán ofertas con omisiones o errores que impidan conocer claramente sus términos esenciales. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.12 |\n| Criterios de adjudicación: exclusión por documentación en sobre incorrecto | La inclusión de cualquier documentación y/o información en el SOBRE 2 que debiera incluirse en el SOBRE 3 supondrá la exclusión del licitador. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.12 |\n| Criterios de adjudicación: exclusión por incumplimiento de requisitos mínimos | Las ofertas presentadas se considerarán aptas o no en virtud de que cumplan con todos los requisitos exigidos en el pliego. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.15 |\n| Criterios de adjudicación: exclusión por incumplimiento de requisitos técnicos | Las ofertas técnicamente inadecuadas o que no garanticen adecuadamente la correcta ejecución del contrato podrán ser desechadas. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.15 |\n| Criterios de adjudicación: exclusión por incumplimiento de requisitos económicos | Las ofertas que no aporten ventaja económica alguna a Correos serán excluidas. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.15 |\n| Criterios de adjudicación: exclusión por incumplimiento de requisitos de solvencia | Las ofertas que no cumplan los requisitos de solvencia serán excluidas. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.15 |\n| Criterios de adjudicación: exclusión por incumplimiento de requisitos de adscripción de medios | El compromiso de adscripción de medios es obligatorio y su incumplimiento es causa de exclusión. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.8, 22, Anexo XIX |\n| Criterios de adjudicación: exclusión por incumplimiento de condiciones especiales de ejecución | El incumplimiento de condiciones especiales de ejecución puede dar lugar a la imposición de penalidad o resolución del contrato. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.23-24 |\n| Criterios de adjudicación: exclusión por incumplimiento de obligaciones esenciales | El incumplimiento de obligaciones esenciales del contrato es causa de resolución. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.22, 28 |\n| Criterios de adjudicación: exclusión por incumplimiento de protección de datos | El sometimiento a la normativa nacional y de la Unión Europea en materia de protección de datos es obligación esencial; su incumplimiento es causa de resolución. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.22, 30 |\n| Criterios de adjudicación: exclusión por incumplimiento de plan de igualdad | La declaración responsable sobre la implantación del plan de igualdad es obligatoria; su incumplimiento puede ser causa de exclusión. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XVIII, p.119 |\n| Criterios de adjudicación: exclusión por incumplimiento de subrogación | El incumplimiento de la obligación de proporcionar información sobre subrogación de contratos de trabajo puede ser penalizado hasta un 6% del precio del contrato. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, p.97 |\n| Criterios de adjudicación: exclusión por incumplimiento de subcontratación | El incumplimiento de las condiciones de subcontratación puede ser penalizado hasta un 50% del importe del subcontrato. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, p.97 |\n| Criterios de adjudicación: exclusión por incumplimiento de convenio colectivo | El incumplimiento del convenio colectivo aplicable supondrá una penalización del 10% del precio de adjudicación del contrato. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, p.98 |\n| Criterios de adjudicación: exclusión por incumplimiento de condiciones especiales de ejecución | El incumplimiento de condiciones especiales de ejecución puede ser penalizado hasta el 10% del precio del contrato. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, p.98 |\n| Criterios de adjudicación: exclusión por reincidencia | La comisión de una tercera infracción grave en el plazo de un año puede ser penalizada hasta el 10% del precio del contrato. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, p.98 |\n| Criterios de adjudicación: exclusión por incumplimiento de plazos | El incumplimiento de los plazos de ejecución puede ser penalizado hasta el 10% del precio del contrato. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV, p.98 |\n| Criterios de adjudicación: exclusión por incumplimiento de condiciones de confidencialidad | El incumplimiento de las condiciones de confidencialidad puede ser causa de resolución del contrato. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.24 |\n| Criterios de adjudicación: exclusión por incumplimiento de condiciones de protección de datos | El incumplimiento de las condiciones de protección de datos puede ser causa de resolución del contrato. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.22, 30 |\n| Criterios de adjudicación: exclusión por incumplimiento de condiciones de igualdad | El incumplimiento de las condiciones de igualdad puede ser causa de resolución del contrato. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XVIII, p.119 |\n| Criterios de adjudicación: exclusión por incumplimiento de condiciones de subrogación | El incumplimiento de las condiciones de subrogación puede ser causa de resolución del contrato. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XIII, p.93 |\n| Criterios de adjudicación: exclusión por incumplimiento de condiciones de subcontratación | El incumplimiento de las condiciones de subcontratación puede ser causa de resolución del contrato. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.25 |\n| Criterios de adjudicación: exclusión por incumplimiento de condiciones de adscripción de medios | El incumplimiento de las condiciones de adscripción de medios puede ser causa de resolución del contrato. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.22, Anexo XIX |\n| Criterios de adjudicación: exclusión por incumplimiento de condiciones de ejecución | El incumplimiento de las condiciones de ejecución puede ser causa de resolución del contrato. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.28 |\n| Criterios de adjudicación: exclusión por incumplimiento de condiciones de reversión | El incumplimiento de las condiciones de reversión puede ser causa de resolución del contrato. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.28 |\n| Criterios de adjudicación: exclusión por incumplimiento de condiciones de transición | El incumplimiento de las condiciones de transición puede ser causa de resolución del contrato. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.28 |\n| Criterios de adjudicación: exclusión por incumplimiento de condiciones de prestación del servicio | El incumplimiento de las condiciones de prestación del servicio puede ser causa de resolución del contrato. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.28 |\n\n---\n\n## Discrepancias y pendientes de aclaración\n\n- No se han identificado discrepancias en la documentación revisada entre los criterios de adjudicación, fórmulas, pesos, tramos, reglas de exclusión y anormalidad, ni entre los anexos y el cuerpo principal del pliego. Las sumas de puntos y porcentajes coinciden con los valores declarados. No se han localizado criterios de adjudicación adicionales fuera de los desarrollados en los Anexos IX y X y el cuerpo principal del pliego.\n- No consta baremo de subcriterios adicionales ni fórmulas alternativas para la valoración técnica o económica fuera de las recogidas en los anexos citados.\n- No consta en la documentación revisada la existencia de criterios de adjudicación automáticos distintos a los expresamente desarrollados (precio y mejoras ANS).\n- No consta en la documentación revisada la existencia de criterios de adjudicación por experiencia, formación, certificaciones o referencias fuera de los mínimos de solvencia y los subcriterios técnicos de juicio de valor.\n- No consta en la documentación revisada la existencia de reglas de redondeo distintas a las expresamente indicadas (segundo decimal).\n- No consta en la documentación revisada la existencia de reglas de desempate adicionales a la remisión al artículo 66.11 del Real Decreto Ley 3/2020.\n- No consta en la documentación revisada la existencia de fórmulas de normalización alternativas ni de ponderaciones distintas a las indicadas.\n- No consta en la documentación revisada la existencia de criterios de adjudicación por lotes, ya que el contrato no se divide en lotes.\n- No consta en la documentación revisada la existencia de criterios de adjudicación por variantes, alternativas o mejoras automáticas fuera de las expresamente puntuables.\n- No consta en la documentación revisada la existencia de criterios de adjudicación por subcontratación, adscripción de medios, plan de igualdad, protección de datos o condiciones sociales fuera de los mínimos obligatorios y penalizaciones.\n\n---",
+    "registro_completo_estructura": true
+  },
+  "ejecucion": "bc87aa8230af46ee8ab41c63270d2ec3",
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "ANEXO I.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 109403,
+        "caracteres_enviados_al_agente": 109403,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Anuncio.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 8853,
+        "caracteres_enviados_al_agente": 8853,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 330809,
+        "caracteres_enviados_al_agente": 330809,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 4,
+        "nombre": "DOC_CD2024-000901195.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 8376,
+        "caracteres_enviados_al_agente": 8376,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 5,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "Anuncio.pdf",
+        "caracteres_extraidos": 5053,
+        "caracteres_enviados_al_agente": 5053,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 6,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "Anuncio.pdf",
+        "caracteres_extraidos": 3234,
+        "caracteres_enviados_al_agente": 3234,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 7,
+        "nombre": "CORREOS-Codigo-General-de-Conducta.pdf",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 0,
+        "caracteres_enviados_al_agente": 0,
+        "texto_compactado": false,
+        "error": "404 Client Error: The specified blob does not exist. for url: https://cswetwebcorsta01.blob.core.windows.net/uploads/2022/01/CORREOS-Codigo-General-de-Conducta.pdf"
+      },
+      {
+        "numero": 8,
+        "nombre": "perfil-contratante",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 84908,
+        "caracteres_enviados_al_agente": 84908,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 9,
+        "nombre": "PoliticaProteccionDatosCanalEticoClientesyProveedores--ES.pdf",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 13833,
+        "caracteres_enviados_al_agente": 13833,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Documento no leido: CORREOS-Codigo-General-de-Conducta.pdf: 404 Client Error: The specified blob does not exist. for url: https://cswetwebcorsta01.blob.core.windows.net/uploads/2022/01/CORREOS-Codigo-General-de-Conducta.pdf",
+      "Se omitieron 22 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  },
+  "puntos_revision": [
+    {
+      "id": "REV-001",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Admisión, solvencia y acreditaciones",
+      "prioridad": "alta",
+      "detalle": "Revisar admisión, solvencia y acreditaciones: 2 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-001.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No se han identificado discrepancias en la documentación revisada entre los criterios de adjudicación, fórmulas, pesos, tramos, reglas de exclusión y anormalidad, ni entre los anexos y el cuerpo principal del pliego. Las sumas de puntos y porcentajes coinciden con los valores declarados. No se han localizado criterios de adjudicación adicionales fuera de los desarrollados en los Anexos IX y X y el cuerpo principal del pliego.",
+          "evidencia": "- No se han identificado discrepancias en la documentación revisada entre los criterios de adjudicación, fórmulas, pesos, tramos, reglas de exclusión y anormalidad, ni entre los anexos y el cuerpo principal del pliego. Las sumas de puntos y porcentajes coinciden con los valores declarados. No se han localizado criterios de adjudicación adicionales fuera de los desarrollados en los Anexos IX y X y el cuerpo principal del pliego.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No consta en la documentación revisada la existencia de criterios de adjudicación por experiencia, formación, certificaciones o referencias fuera de los mínimos de solvencia y los subcriterios técnicos de juicio de valor.",
+          "evidencia": "- No consta en la documentación revisada la existencia de criterios de adjudicación por experiencia, formación, certificaciones o referencias fuera de los mínimos de solvencia y los subcriterios técnicos de juicio de valor.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-002",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Condiciones económicas y adjudicación",
+      "prioridad": "alta",
+      "detalle": "Revisar condiciones económicas y adjudicación: 5 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-002.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No consta en la documentación revisada la existencia de criterios de adjudicación por subcontratación, adscripción de medios, plan de igualdad, protección de datos o condiciones sociales fuera de los mínimos obligatorios y penalizaciones.",
+          "evidencia": "- No consta en la documentación revisada la existencia de criterios de adjudicación por subcontratación, adscripción de medios, plan de igualdad, protección de datos o condiciones sociales fuera de los mínimos obligatorios y penalizaciones.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No consta baremo de subcriterios adicionales ni fórmulas alternativas para la valoración técnica o económica fuera de las recogidas en los anexos citados.",
+          "evidencia": "- No consta baremo de subcriterios adicionales ni fórmulas alternativas para la valoración técnica o económica fuera de las recogidas en los anexos citados.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.03",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No consta en la documentación revisada la existencia de criterios de adjudicación automáticos distintos a los expresamente desarrollados (precio y mejoras ANS).",
+          "evidencia": "- No consta en la documentación revisada la existencia de criterios de adjudicación automáticos distintos a los expresamente desarrollados (precio y mejoras ANS).",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.04",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No consta en la documentación revisada la existencia de criterios de adjudicación por variantes, alternativas o mejoras automáticas fuera de las expresamente puntuables.",
+          "evidencia": "- No consta en la documentación revisada la existencia de criterios de adjudicación por variantes, alternativas o mejoras automáticas fuera de las expresamente puntuables.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.05",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No consta en la documentación revisada la existencia de reglas de redondeo distintas a las expresamente indicadas (segundo decimal).",
+          "evidencia": "- No consta en la documentación revisada la existencia de reglas de redondeo distintas a las expresamente indicadas (segundo decimal).",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-003",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Documentación y otras condiciones pendientes",
+      "prioridad": "media",
+      "detalle": "Revisar documentación y otras condiciones pendientes: 3 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-003.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No consta en la documentación revisada la existencia de reglas de desempate adicionales a la remisión al artículo 66.11 del Real Decreto Ley 3/2020.",
+          "evidencia": "- No consta en la documentación revisada la existencia de reglas de desempate adicionales a la remisión al artículo 66.11 del Real Decreto Ley 3/2020.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-003.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No consta en la documentación revisada la existencia de fórmulas de normalización alternativas ni de ponderaciones distintas a las indicadas.",
+          "evidencia": "- No consta en la documentación revisada la existencia de fórmulas de normalización alternativas ni de ponderaciones distintas a las indicadas.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-003.03",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No consta en la documentación revisada la existencia de criterios de adjudicación por lotes, ya que el contrato no se divide en lotes.",
+          "evidencia": "- No consta en la documentación revisada la existencia de criterios de adjudicación por lotes, ya que el contrato no se divide en lotes.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    }
+  ],
+  "recomendaciones": [],
+  "estado_recomendaciones": "no_generadas"
+}

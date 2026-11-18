@@ -1,0 +1,59 @@
+PLIEGO ADMINISTRATIVO FICTICIO OPP-SW-010
+Contrato de modernizacion de data lake y analitica predictiva.
+
+Procedimiento: abierto.
+Presupuesto base de licitacion: 750.200 EUR IVA incluido.
+Valor estimado: 620.000 EUR.
+Duracion: 12 meses.
+Plazo de presentacion: 20/10/2026 a las 14:00.
+
+Documentacion:
+- Arquitectura objetivo.
+- Plan de gobierno de datos.
+- Estrategia de calidad y retencion.
+- Modelo de explotacion.
+- Equipo adscrito y oferta economica.
+
+Condiciones:
+La solucion debera mantener trazabilidad de linaje y cumplir controles de seguridad sobre datos sensibles.
+
+Condiciones de participacion:
+Se admiten empresas con capacidad de obrar, UTEs y empresas europeas equivalentes. Debera acreditarse estar al corriente con Hacienda y Seguridad Social y no tener prohibiciones de contratar.
+
+Solvencia economica:
+Facturacion minima de 1.500.000 EUR en el mejor ejercicio de los tres ultimos y patrimonio neto positivo superior a 500.000 EUR. Seguro de responsabilidad civil minimo de 1.000.000 EUR.
+
+Certificaciones y obligaciones legales:
+Obligatorias ISO 27001, ISO 9001 y ENS categoria alta. Cumplimiento RGPD, designacion de delegado de proteccion de datos, plan de retencion, confidencialidad de 6 anos y propiedad intelectual de modelos entrenados para la administracion.
+
+Formato, lotes y exclusion:
+No hay lotes. Tres sobres electronicos. La memoria tecnica no podra superar 90 paginas. Se excluira la oferta que no presente plan de gobierno del dato, supere presupuesto maximo o no acredite ENS categoria alta.
+
+Criterios de adjudicacion:
+Total 100 puntos.
+- Gobierno y calidad de datos: 25 puntos. Subcriterios: catalogo 6, linaje 5, calidad 5, seguridad 5, retencion 4.
+- Modelos predictivos: 20 puntos. Subcriterios: metodologia ML 7, validacion 5, explicabilidad 4, monitorizacion 4.
+- Arquitectura data lake/lakehouse: 15 puntos.
+- Precio: 25 puntos. Formula proporcional.
+- Plan de transferencia y formacion: 8 puntos.
+- Certificaciones y seguridad adicional: 7 puntos. ENS alta 4, ISO 27001 2, ISO 9001 1.
+Umbral minimo: 38 puntos sobre los 60 puntos tecnicos de gobierno, modelos y arquitectura.
+
+ANEXO ECONOMICO-FINANCIERO:
+Presupuesto de oferta: 620.000 EUR sin IVA. PBL con IVA 750.200 EUR. Duracion 15 meses, posible prorroga de soporte 12 meses por 120.000 EUR sin IVA.
+Formula economica: precio 25 puntos. P = 25 x oferta_minima / oferta_licitador.
+Oferta anormal: baja superior al 16 por ciento exigira justificar costes de ENS ALTA, cloud, perfiles de datos y seguridad. Baja superior al 20 por ciento se considera no recomendable.
+Facturacion: 20 por ciento arquitectura y gobierno, 25 por ciento ingesta y catalogo, 25 por ciento modelos predictivos, 20 por ciento dashboards y transferencia, 10 por ciento aceptacion.
+Costes obligatorios:
+- Equipo 15 meses: jefe proyecto datos 35 por ciento, ingeniero datos 100 por ciento, especialista IA 70 por ciento, DevOps/cloud 50 por ciento, BI 50 por ciento, seguridad 30 por ciento, DPO/privacidad 10 por ciento.
+- Cloud data lake/lakehouse: almacenamiento, compute, catalogo, pipelines, backup inmutable y logs 24 meses. El pliego no fija precio unitario; estimacion interna 5.200 EUR/mes mas 35 por ciento de preproduccion.
+- ENS ALTA: la empresa ficticia no dispone de ENS ALTA. Se requiere partner o ampliacion de certificacion antes de adjudicacion provisional.
+- DLP, SIEM, pentest, auditoria ENS, EIPD y pruebas de restauracion semestrales incluidas en precio.
+- Formacion y transferencia: 24 horas a perfiles tecnicos y 12 horas a usuarios de negocio.
+Revision de precios: no prevista para fase inicial; la prorroga de soporte mantiene precio fijo. Riesgo por cloud y perfiles especializados.
+Riesgo economico: alto si no se consigue partner ENS ALTA con coste cerrado antes de ofertar.
+Penalizaciones: incumplimiento de hitos de catalogo/modelos hasta 8 por ciento del hito; brecha de datos o transferencia no autorizada hasta 10 por ciento del contrato.
+
+ANEXO COMPRAS / PARTNERS:
+Se requiere data lake en Azure con almacenamiento cifrado, catalogo de datos, herramienta de calidad, notebooks, monitorizacion, backup, retencion de logs 24 meses y posible servicio de IA. El cliente no aporta licencias cloud ni herramientas de gobierno; deben incluirse por el adjudicatario.
+ENS ALTA es requisito de ejecucion para sistemas que traten datos sensibles. La empresa solo dispone de ENS media, por lo que debe buscar partner o arquitectura que cubra el alcance exigido. Se recomienda Cloud Partner Ficticio S.A. para Azure, SOC Azul 24x7 S.L. para monitorizacion y buscar mercado para ENS ALTA si el pliego no permite obtenerlo durante ejecucion.

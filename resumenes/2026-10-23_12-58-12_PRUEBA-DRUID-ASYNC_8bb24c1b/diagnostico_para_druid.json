@@ -1,0 +1,112 @@
+{
+  "problema": "Misma acción y mensaje: respuesta síncrona correcta; ID asíncrono sin resultado recuperable.",
+  "botId": "8805a55b-9947-47b5-d511-08de9ea71a4f",
+  "integrationId": "7a7e7161-2347-47d9-8134-b869a15c5210",
+  "entityName": "GPT",
+  "invocationId": "8282ecab-8e90-4e63-b8ce-d22ef5f401d1",
+  "start_url": "https://druidendpoints.druidplatform.com/api/Druid/8805a55b-9947-47b5-d511-08de9ea71a4f/GPT/7a7e7161-2347-47d9-8134-b869a15c5210/GenericIntegration",
+  "poll_url": "https://druidendpoints.druidplatform.com/api/Druid/8805a55b-9947-47b5-d511-08de9ea71a4f/GetGenericIntegrationResponse",
+  "request": {
+    "$entityTypeName$": "GPT",
+    "ChatResponse": null,
+    "FollowupQuestion": null,
+    "SourceURL": null,
+    "Confidence": null,
+    "Messages": {
+      "$entityTypeName$": "GPTChatMessage_Collection",
+      "items": [
+        {
+          "$entityTypeName$": "GPTChatMessage",
+          "Content": "Responde exclusivamente PRUEBA_ASYNC_OK.",
+          "Role": "system"
+        },
+        {
+          "$entityTypeName$": "GPTChatMessage",
+          "Content": "Prueba de transporte asíncrono, sin documentos ni análisis de licitación.",
+          "Role": "user"
+        }
+      ]
+    },
+    "toolsJSON": [
+      {
+        "type": "function",
+        "function": {
+          "name": "KB_response",
+          "description": "Respond to the user question.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "Response": {
+                "type": "string",
+                "description": "The response to be sent to the user."
+              }
+            },
+            "required": [
+              "Response"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "async_start": {
+    "http_status": 200,
+    "seconds": 0.178,
+    "body": "8282ecab-8e90-4e63-b8ce-d22ef5f401d1"
+  },
+  "async_last_poll": {
+    "http_status": 404,
+    "seconds": 0.141,
+    "body": "No response found for invocationId 8282ecab-8e90-4e63-b8ce-d22ef5f401d1"
+  },
+  "async_plain_text_poll": {
+    "http_status": 404,
+    "seconds": 0.177,
+    "body": "No response found for invocationId 8282ecab-8e90-4e63-b8ce-d22ef5f401d1"
+  },
+  "sync_response": {
+    "http_status": 200,
+    "seconds": 2.543,
+    "body": {
+      "DataSource": {
+        "finish_reason": "tool_calls",
+        "responseJSON": {
+          "annotations": [],
+          "content": null,
+          "refusal": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"Response\":\"PRUEBA_ASYNC_OK\"}",
+                "name": "KB_response"
+              },
+              "id": "call_RT4AVlc257ZVyABZVG5TR6lZ",
+              "type": "function"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "parameters": {
+    "async_start": {
+      "asyncResponse": "true",
+      "responseContentType": "application/json"
+    },
+    "sync_start": {
+      "asyncResponse": "false",
+      "responseContentType": "application/json"
+    },
+    "poll": {
+      "invocationId": "8282ecab-8e90-4e63-b8ce-d22ef5f401d1",
+      "responseContentType": "application/json"
+    }
+  },
+  "secrets": "No se incluyen tokens ni cabeceras de autenticación.",
+  "pending_checks": [
+    "Comprobar ejecución del trabajo asíncrono en el servicio de Webhooks de este tenant.",
+    "Verificar dónde se guarda ResponseBody y por qué el GET no encuentra la invocación.",
+    "Confirmar versión y configuración de soporte para GenericIntegration asyncResponse=true."
+  ]
+}

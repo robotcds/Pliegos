@@ -1,0 +1,71 @@
+{
+  "as_of": "2026-10-28",
+  "scope": "complete --capa 1: eight extractors, draft and review; no capa2",
+  "currency": "USD",
+  "taxes_included": false,
+  "cache_discount": false,
+  "batch_discount": false,
+  "planning_reserve_is_not_a_maximum": true,
+  "models": [
+    {
+      "model": "gpt-4.1",
+      "input_usd_per_million": 2,
+      "output_usd_per_million": 8,
+      "baseline_usd": 2.9397,
+      "planning_reserve_50_percent_usd": 4.4096,
+      "hundred_runs_reserve_usd": 440.96,
+      "extra_100000_reasoning_short_context_usd": 0.8,
+      "source": "https://developers.openai.com/api/docs/models/gpt-4.1"
+    },
+    {
+      "model": "gpt-5.1",
+      "input_usd_per_million": 1.25,
+      "output_usd_per_million": 10,
+      "baseline_usd": 2.0049,
+      "planning_reserve_50_percent_usd": 3.0073,
+      "hundred_runs_reserve_usd": 300.73,
+      "extra_100000_reasoning_short_context_usd": 1.0,
+      "source": "https://developers.openai.com/api/docs/models/gpt-5.1"
+    },
+    {
+      "model": "gpt-6-luna",
+      "input_usd_per_million": 0.1,
+      "output_usd_per_million": 0.5,
+      "baseline_usd": 0.1503,
+      "planning_reserve_50_percent_usd": 0.2255,
+      "hundred_runs_reserve_usd": 22.55,
+      "extra_100000_reasoning_short_context_usd": 0.05,
+      "source": "https://developers.openai.com/api/docs/models/gpt-6-luna"
+    },
+    {
+      "model": "gpt-6.1-terra",
+      "input_usd_per_million": 1,
+      "output_usd_per_million": 5,
+      "baseline_usd": 1.5034,
+      "planning_reserve_50_percent_usd": 2.2551,
+      "hundred_runs_reserve_usd": 225.51,
+      "extra_100000_reasoning_short_context_usd": 0.5,
+      "source": "https://developers.openai.com/api/docs/models/gpt-6.1-terra"
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "input_usd_per_million": 2,
+      "output_usd_per_million": 10,
+      "baseline_usd": 3.0068,
+      "planning_reserve_50_percent_usd": 4.5101,
+      "hundred_runs_reserve_usd": 451.01,
+      "extra_100000_reasoning_short_context_usd": 1.0,
+      "source": "https://developers.openai.com/api/docs/models/gpt-6.1-sol"
+    },
+    {
+      "model": "gpt-6-astra",
+      "input_usd_per_million": 10,
+      "output_usd_per_million": 50,
+      "baseline_usd": 15.0338,
+      "planning_reserve_50_percent_usd": 22.5507,
+      "hundred_runs_reserve_usd": 2255.07,
+      "extra_100000_reasoning_short_context_usd": 5.0,
+      "source": "https://developers.openai.com/api/docs/models/gpt-6-astra"
+    }
+  ]
+}

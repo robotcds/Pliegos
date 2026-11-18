@@ -1,0 +1,815 @@
+{
+  "orden": 6,
+  "id": "A8",
+  "nombre": "Perfiles y equipo",
+  "tipo": "extraccion",
+  "ejecucion": "fe1a5c40b430480181ab575cce744c91",
+  "estado": "completado",
+  "contenido": {
+    "salida_original": "# REGISTRO DOCUMENTAL DE REQUISITOS DE PERFILES Y EQUIPO\n\n## 1. Estructura y equipo mínimo exigido\n\n- El servicio se estructura en los siguientes módulos, cada uno con mínimos de recursos dedicados diferenciados:\n  - Servicio de Virtualización: al menos 3 recursos dedicados diferenciados para el día a día de Correos y 1 recurso dedicado diferenciado para el día a día de CEX. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63; ANEXO I.pdf, pág. 2]\n  - Servicio de Puesto de Trabajo: al menos 3 recursos dedicados diferenciados para el día a día de Correos. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63; ANEXO I.pdf, pág. 2]\n  - Servicio de Movilidad: al menos 1 recurso dedicado diferenciado para el día a día de Correos y 1 recurso dedicado diferenciado para el día a día de CEX. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63; ANEXO I.pdf, pág. 2]\n  - Servicio de Proyectos Especiales Correos: sin mínimo definido, bolsa bajo demanda. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63]\n  - Servicio de Proyectos Especiales CEX: sin mínimo definido, bolsa bajo demanda. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63]\n  - Gestión y Seguimiento de los servicios: al menos 1 recurso dedicado para Correos/CEX. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63]\n\n- El cuadro de horas estimadas para 24 meses es:\n  - Gobierno-Gestión de los Servicios (Coordinador): 3.600 horas (al menos 1 recurso dedicado para Correos/CEX)\n  - Administrador de Sistemas Virtualizados: 14.400 horas (al menos 3 recursos dedicados/diferenciados para Correos y 1 para CEX)\n  - Administrador de NetApp: 480 horas (sin definir número de recursos)\n  - Administrador de Comunicaciones Cisco: 480 horas (sin definir número de recursos)\n  - Administrador de BBDD SQL: 480 horas (sin definir número de recursos)\n  - Servicio del Puesto de Trabajo (Administrador de Sistemas): 10.800 horas (al menos 3 recursos dedicados para Correos)\n  - Servicio de Movilidad (Administrador de Sistemas de Movilidad): 7.200 horas (al menos 1 recurso dedicado/diferenciado para Correos y 1 para CEX)\n  [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 73]\n\n- Los recursos pueden ser compartidos entre Correos y CEX o diferenciados y dedicados según el módulo. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63]\n\n- El equipo debe cubrir conjuntamente todo el entorno tecnológico de los sistemas, con experiencia y conocimientos suficientes para trabajar de forma autónoma, sin requerir apoyo de técnicos de Correos/CEX. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 64]\n\n## 2. Titulaciones, colegiación, certificaciones, habilitaciones y equivalencias admitidas\n\n- No se exige titulación universitaria ni colegiación obligatoria para ningún perfil. [NO CONSTA EN LA DOCUMENTACION REVISADA]\n- Certificaciones deseables (no obligatorias) para algunos perfiles:\n  - Administrador de Sistemas Virtualizados: Certificaciones Citrix, Microsoft, CCNA/CCNP (Cisco), JNCIA/JNCIS (Juniper), CTN (Teldat). [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 65]\n  - Administrador de NetApp: Certificaciones NetApp. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 66]\n  - Administrador de Comunicaciones: Certificación Cisco CCNA, CCNP Routing & Switching o equivalentes. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 68]\n  - Administrador de Sistemas: Certificaciones Microsoft, CCNA (Cisco), JNCIA (Juniper), CTN (Teldat). [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 69]\n  - Administrador de Sistemas de Movilidad: Certificaciones en WSO UEM/AirWatch, SOTI, Ivanti (MobileIron), Afaria u otros, Microsoft, CCNA/CCNP (Cisco), JNCIA/JNCIS (Juniper), CTN (Teldat). [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 70]\n- No se establecen equivalencias formales ni exenciones expresas. [NO CONSTA EN LA DOCUMENTACION REVISADA]\n\n## 3. Experiencia exigida: años, tipo, sector, tecnología, funciones y periodos de referencia\n\n### Responsable de Gestión y Seguimiento del Servicio\n- Experiencia mínima de 5 años como responsable de servicios similares a los ofertados. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 64]\n\n### Administrador de Sistemas Virtualizados\n- Experiencia mínima de 3 años en hipervisores (Hyper-V, ESXI), Citrix Xenapp, SCVMM, administración de SO Windows Server, scripting, AD y GPOs, seguridad y parcheado, administración de servicios en cluster, gestión de SO clientes Linux y Windows, redes WAN/LAN/UMTS, herramientas Citrix de valor añadido. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 65]\n\n### Administrador de NetApp\n- Experiencia mínima de 3 años en administración SAN/NAS con ONTAP, clustered Data ONTAP, alta disponibilidad, protección de datos, NFS, CIFS, WAFL, scripting. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 66]\n\n### Administrador de BBDD SQL\n- Experiencia mínima de 3 años en administración de bases de datos MS SQL Server sobre Unix/Windows, migraciones, parcheos, optimización, alta disponibilidad, creación y optimización de consultas. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 67]\n\n### Administrador de Comunicaciones Cisco\n- Experiencia mínima de 5 años en routers y switches Cisco Catalyst y Nexus, routing & switching, protocolos IP, TCP, UDP, Spanning-Tree, BGP, STP, EIGRP, OSPF, FHRP. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 68]\n\n### Administrador de Sistemas (Puesto de Trabajo)\n- Experiencia mínima de 3 años en SCCM, MDT, MDM Workspace One UEM, INTUNE, HPDM, administración de SO Windows Server, scripting, instalación y administración de servicios, redes WAN/LAN/UMTS, AD y GPOs, seguridad y parcheado, gestión de SO clientes Linux, Mac y Windows. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 69]\n\n### Administrador de Sistemas de Movilidad\n- Experiencia mínima de 3 años en entornos Android (>v4), iOS (>v7), herramientas EMM (especialmente Workspace One UEM), administración de dispositivos móviles (MDM, MAM, MCM), análisis de aplicaciones corporativas, homologación de terminales, administración de máquinas virtuales Windows Server y ESXI/vCenter/vSphere, gestión y parcheo de MDM Workspace One UEM, scripting, administración de SO Windows Server, redes WAN/LAN/UMTS, AD y GPOs, APIs de Android y fabricantes, API de MDM Workspace One UEM. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 70]\n\n### Expertos para Proyectos Especiales\n- Experiencia mínima de 5 años en la tecnología requerida, capacidad de respuesta inmediata. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 71]\n\n## 4. Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones\n\n- Jornada y horario de servicio:\n  - Presencial/remoto, de lunes a viernes en horario laboral de 07:00 a 18:30, incluidos todos los festivos no nacionales, con mínimo un recurso presencial en las oficinas de Correos y otro en las oficinas de CEX, de lunes a viernes de 09:00 a 18:30. Si las circunstancias lo requieren, el trabajo puede ser en remoto. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 40, 44, 50]\n  - Servicio 24x7: fuera del horario laboral habitual, en periodos nocturnos, fines de semana y/o festivos, en modo de guardia, para soporte a incidencias relevantes o actividades programadas que no puedan realizarse en horario laboral. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 40, 44, 50]\n- Disponibilidad mixta: tanto in situ como en remoto, totalmente intercambiables. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 72]\n- El adjudicatario debe proveer los medios técnicos para ambas modalidades (ordenador portátil mínimo i5 9ª gen, SSD, 8GB RAM, software de comunicaciones, conexión a internet, teléfono directo, medios para reuniones virtuales). [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 72]\n- Idioma: conocimiento de inglés a nivel conversación y lectura técnica para todos los perfiles técnicos, para seguimiento de casos con fabricantes y análisis de documentación técnica. [DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 66, 67, 68, 69, 70]\n- Sustituciones:\n  - Cualquier cambio de perfil dedicado/diferenciado solicitado por Correos/CEX o realizado por el adjudicatario debe ser cubierto en un plazo máximo de 15 días naturales por otro técnico de iguales características, con al menos 5 días laborales de traspaso de conocimiento. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 112]\n  - Penalización del 25% de la facturación mensual del servicio si no se cubre en plazo; si supera 30 días, penalización del 100%. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 112]\n  - Indisponibilidad temporal mayor a 3 días laborables, no sustituida por perfil equivalente en 3 días, penalización del 20% de la facturación mensual del servicio por cada perfil. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 113]\n- Cobertura de ausencias, vacaciones y bajas: obligación de continuidad, sin número de suplentes especificado. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63, 112-113]\n- Tasa de renovación de equipos: más de una rotación por año y servicio, penalización del 20% de la facturación mensual de todos los servicios. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 113]\n\n## 5. Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa\n\n- Compromiso de adscripción de medios personales: obligatorio presentar con la oferta, indicando el personal u organismos técnicos que se compromete a adscribir al contrato. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 8; Anexo XIX, pág. 120]\n- Declaración del licitador de que dispone del equipo técnico para la ejecución de los servicios requeridos, más certificado que demuestre que los recursos presentados tienen al menos 1 año de experiencia en puesto similar al solicitado. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 8]\n- Este compromiso de adscripción es obligación esencial del contrato. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 8, 22]\n- Forma de acreditación de experiencia: certificado de correcta ejecución de servicios, certificado de cumplimiento de normas ISO 27001 e ISO 20000 o equivalente. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 79]\n- En cualquier momento durante la vida del contrato, Correos podrá exigir documentación que respalde la disponibilidad de los medios personales necesarios (listas de personal asignado, contratos laborales, certificados de capacitación). [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 23]\n\n## 6. Criterios de adjudicación vinculados a perfiles (criterios puntuables)\n\n- Criterios sujetos a juicio de valor (máximo 27 puntos):\n  - Características y conocimientos del equipo de trabajo asociados a la prestación del servicio (hasta 11 puntos):\n    - Propuesta organizativa y descripción del equipo de trabajo con características adicionales a las requeridas en la fase de solvencia (hasta 4 puntos): mayor detalle, mayor número de recursos asignados y menor precio, mayor puntuación. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 86]\n    - Incremento de horas ofrecidas sobre las necesidades estimadas en el cuadro de horas (hasta 5 puntos, puntuación proporcional al resto de ofertas; 2 puntos adicionales a mayor número de mejoras). [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 86]\n- Criterios automáticos (máximo 3 puntos):\n  - Mejora en los Niveles de Servicio solicitados en el Anexo XVII – Evaluación de Proveedores (0,5 puntos por cada indicador mejorado, hasta 3 puntos). [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 87]\n\n## 7. Requisitos de experiencia de empresa/proyectos previos (no personales)\n\n- Haber realizado 3 servicios de igual o similar naturaleza que los que constituyen el objeto del contrato en los tres últimos años, cuyo importe anual acumulado en el año de mayor ejecución sea igual o superior a 1.190.000,00 €. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 7]\n- Volumen anual de negocios en el ámbito al que se refiere el contrato, referido al mejor ejercicio de los tres últimos, de al menos 1.190.000,00 €. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 7]\n\n## 8. Incorporación, transición y cobertura de la continuidad\n\n- Fase de transición del servicio: 1 mes desde la firma del contrato, con periodo de solapamiento entre equipo saliente y entrante. El coste de los recursos propios durante este solapamiento es a cargo del adjudicatario entrante y no facturable a Correos/CEX. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 57-59]\n- El equipo de trabajo debe ser mixto durante la transición y la reversión, formado por integrantes del equipo técnico del adjudicatario saliente y del entrante. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 57, 62]\n- En la fase de reversión, el adjudicatario debe poner a disposición de Correos/CEX un equipo de personas clave para garantizar el traspaso de conocimiento al nuevo proveedor, con un mínimo de 5 personas en sus instalaciones para la reversión. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 62]\n\n## 9. Otras condiciones sobre el equipo\n\n- El personal aportado por el adjudicatario no tendrá vinculación alguna con Correos/CEX. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63]\n- Convenio laboral de referencia: XVIII Convenio Colectivo Estatal de Empresas de Consultoría de Sistemas de Información y Estudios de Mercado y de la Opinión Pública (BOE 13/07/2023). [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 64]\n- Emplear en la ejecución del contrato un porcentaje de trabajadores indefinidos igual o superior al 20%. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 24]\n\n## 10. Discrepancias y pendientes de aclaración\n\n- No se han identificado discrepancias en la documentación revisada.\n- No consta exigencia de titulaciones universitarias, colegiación, ni número de suplentes para cobertura de ausencias.\n- No consta exigencia de CV detallado ni vida laboral en la fase de presentación de oferta, salvo declaración y certificado de experiencia mínima de 1 año en puesto similar. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 8]\n- No consta exigencia de idiomas distintos al inglés técnico/conversación para perfiles técnicos.\n- No consta exigencia de acreditación documental de titulaciones/certificaciones en la fase de presentación de oferta, salvo declaración y certificado de experiencia.\n\n---\n\n# FIN DEL REGISTRO DE REQUISITOS DE PERFILES Y EQUIPO",
+    "registro_completo_estructura": true,
+    "requisitos_documentales": [
+      {
+        "id": "A8-S0001",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Estructura y equipo mínimo exigido",
+        "detalle": "1. Estructura y equipo mínimo exigido: [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 73]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 73",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0002",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Estructura y equipo mínimo exigido",
+        "detalle": "1. Estructura y equipo mínimo exigido: El servicio se estructura en los siguientes módulos, cada uno con mínimos de recursos dedicados diferenciados:",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A8-S0003",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Estructura y equipo mínimo exigido",
+        "detalle": "1. Estructura y equipo mínimo exigido: Servicio de Virtualización: al menos 3 recursos dedicados diferenciados para el día a día de Correos y 1 recurso dedicado diferenciado para el día a día de CEX. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63; ANEXO I.pdf, pág. 2]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63; ANEXO I.pdf, pág. 2",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0004",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Estructura y equipo mínimo exigido",
+        "detalle": "1. Estructura y equipo mínimo exigido: Servicio de Puesto de Trabajo: al menos 3 recursos dedicados diferenciados para el día a día de Correos. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63; ANEXO I.pdf, pág. 2]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63; ANEXO I.pdf, pág. 2",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0005",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Estructura y equipo mínimo exigido",
+        "detalle": "1. Estructura y equipo mínimo exigido: Servicio de Movilidad: al menos 1 recurso dedicado diferenciado para el día a día de Correos y 1 recurso dedicado diferenciado para el día a día de CEX. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63; ANEXO I.pdf, pág. 2]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63; ANEXO I.pdf, pág. 2",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0006",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Estructura y equipo mínimo exigido",
+        "detalle": "1. Estructura y equipo mínimo exigido: Servicio de Proyectos Especiales Correos: sin mínimo definido, bolsa bajo demanda. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0007",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Estructura y equipo mínimo exigido",
+        "detalle": "1. Estructura y equipo mínimo exigido: Servicio de Proyectos Especiales CEX: sin mínimo definido, bolsa bajo demanda. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0008",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Estructura y equipo mínimo exigido",
+        "detalle": "1. Estructura y equipo mínimo exigido: Gestión y Seguimiento de los servicios: al menos 1 recurso dedicado para Correos/CEX. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0009",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Estructura y equipo mínimo exigido",
+        "detalle": "1. Estructura y equipo mínimo exigido: El cuadro de horas estimadas para 24 meses es:",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A8-S0010",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Estructura y equipo mínimo exigido",
+        "detalle": "1. Estructura y equipo mínimo exigido: Gobierno-Gestión de los Servicios (Coordinador): 3.600 horas (al menos 1 recurso dedicado para Correos/CEX)",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A8-S0011",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Estructura y equipo mínimo exigido",
+        "detalle": "1. Estructura y equipo mínimo exigido: Administrador de Sistemas Virtualizados: 14.400 horas (al menos 3 recursos dedicados/diferenciados para Correos y 1 para CEX)",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A8-S0012",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Estructura y equipo mínimo exigido",
+        "detalle": "1. Estructura y equipo mínimo exigido: Administrador de NetApp: 480 horas (sin definir número de recursos)",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A8-S0013",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Estructura y equipo mínimo exigido",
+        "detalle": "1. Estructura y equipo mínimo exigido: Administrador de Comunicaciones Cisco: 480 horas (sin definir número de recursos)",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A8-S0014",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Estructura y equipo mínimo exigido",
+        "detalle": "1. Estructura y equipo mínimo exigido: Administrador de BBDD SQL: 480 horas (sin definir número de recursos)",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A8-S0015",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Estructura y equipo mínimo exigido",
+        "detalle": "1. Estructura y equipo mínimo exigido: Servicio del Puesto de Trabajo (Administrador de Sistemas): 10.800 horas (al menos 3 recursos dedicados para Correos)",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A8-S0016",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Estructura y equipo mínimo exigido",
+        "detalle": "1. Estructura y equipo mínimo exigido: Servicio de Movilidad (Administrador de Sistemas de Movilidad): 7.200 horas (al menos 1 recurso dedicado/diferenciado para Correos y 1 para CEX)",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A8-S0017",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Estructura y equipo mínimo exigido",
+        "detalle": "1. Estructura y equipo mínimo exigido: Los recursos pueden ser compartidos entre Correos y CEX o diferenciados y dedicados según el módulo. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0018",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Estructura y equipo mínimo exigido",
+        "detalle": "1. Estructura y equipo mínimo exigido: El equipo debe cubrir conjuntamente todo el entorno tecnológico de los sistemas, con experiencia y conocimientos suficientes para trabajar de forma autónoma, sin requerir apoyo de técnicos de Correos/CEX. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 64]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 64",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0019",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Titulaciones, colegiación, certificaciones, habilitaciones y equivalencias admitidas",
+        "detalle": "2. Titulaciones, colegiación, certificaciones, habilitaciones y equivalencias admitidas: No se exige titulación universitaria ni colegiación obligatoria para ningún perfil. [NO CONSTA EN LA DOCUMENTACION REVISADA]",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A8-S0020",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Titulaciones, colegiación, certificaciones, habilitaciones y equivalencias admitidas",
+        "detalle": "2. Titulaciones, colegiación, certificaciones, habilitaciones y equivalencias admitidas: Certificaciones deseables (no obligatorias) para algunos perfiles:",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A8-S0021",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Titulaciones, colegiación, certificaciones, habilitaciones y equivalencias admitidas",
+        "detalle": "2. Titulaciones, colegiación, certificaciones, habilitaciones y equivalencias admitidas: Administrador de Sistemas Virtualizados: Certificaciones Citrix, Microsoft, CCNA/CCNP (Cisco), JNCIA/JNCIS (Juniper), CTN (Teldat). [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 65]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 65",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0022",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Titulaciones, colegiación, certificaciones, habilitaciones y equivalencias admitidas",
+        "detalle": "2. Titulaciones, colegiación, certificaciones, habilitaciones y equivalencias admitidas: Administrador de NetApp: Certificaciones NetApp. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 66]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 66",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0023",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Titulaciones, colegiación, certificaciones, habilitaciones y equivalencias admitidas",
+        "detalle": "2. Titulaciones, colegiación, certificaciones, habilitaciones y equivalencias admitidas: Administrador de Comunicaciones: Certificación Cisco CCNA, CCNP Routing & Switching o equivalentes. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 68]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 68",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0024",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Titulaciones, colegiación, certificaciones, habilitaciones y equivalencias admitidas",
+        "detalle": "2. Titulaciones, colegiación, certificaciones, habilitaciones y equivalencias admitidas: Administrador de Sistemas: Certificaciones Microsoft, CCNA (Cisco), JNCIA (Juniper), CTN (Teldat). [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 69]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 69",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0025",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Titulaciones, colegiación, certificaciones, habilitaciones y equivalencias admitidas",
+        "detalle": "2. Titulaciones, colegiación, certificaciones, habilitaciones y equivalencias admitidas: Administrador de Sistemas de Movilidad: Certificaciones en WSO UEM/AirWatch, SOTI, Ivanti (MobileIron), Afaria u otros, Microsoft, CCNA/CCNP (Cisco), JNCIA/JNCIS (Juniper), CTN (Teldat). [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 70]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 70",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0026",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Titulaciones, colegiación, certificaciones, habilitaciones y equivalencias admitidas",
+        "detalle": "2. Titulaciones, colegiación, certificaciones, habilitaciones y equivalencias admitidas: No se establecen equivalencias formales ni exenciones expresas. [NO CONSTA EN LA DOCUMENTACION REVISADA]",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A8-S0027",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Responsable de Gestión y Seguimiento del Servicio",
+        "detalle": "Responsable de Gestión y Seguimiento del Servicio: Experiencia mínima de 5 años como responsable de servicios similares a los ofertados. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 64]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 64",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0028",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Administrador de Sistemas Virtualizados",
+        "detalle": "Administrador de Sistemas Virtualizados: Experiencia mínima de 3 años en hipervisores (Hyper-V, ESXI), Citrix Xenapp, SCVMM, administración de SO Windows Server, scripting, AD y GPOs, seguridad y parcheado, administración de servicios en cluster, gestión de SO clientes Linux y Windows, redes WAN/LAN/UMTS, herramientas Citrix de valor añadido. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 65]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 65",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0029",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Administrador de NetApp",
+        "detalle": "Administrador de NetApp: Experiencia mínima de 3 años en administración SAN/NAS con ONTAP, clustered Data ONTAP, alta disponibilidad, protección de datos, NFS, CIFS, WAFL, scripting. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 66]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 66",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0030",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Administrador de BBDD SQL",
+        "detalle": "Administrador de BBDD SQL: Experiencia mínima de 3 años en administración de bases de datos MS SQL Server sobre Unix/Windows, migraciones, parcheos, optimización, alta disponibilidad, creación y optimización de consultas. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 67]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 67",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0031",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Administrador de Comunicaciones Cisco",
+        "detalle": "Administrador de Comunicaciones Cisco: Experiencia mínima de 5 años en routers y switches Cisco Catalyst y Nexus, routing & switching, protocolos IP, TCP, UDP, Spanning-Tree, BGP, STP, EIGRP, OSPF, FHRP. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 68]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 68",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0032",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Administrador de Sistemas (Puesto de Trabajo)",
+        "detalle": "Administrador de Sistemas (Puesto de Trabajo): Experiencia mínima de 3 años en SCCM, MDT, MDM Workspace One UEM, INTUNE, HPDM, administración de SO Windows Server, scripting, instalación y administración de servicios, redes WAN/LAN/UMTS, AD y GPOs, seguridad y parcheado, gestión de SO clientes Linux, Mac y Windows. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 69]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 69",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0033",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Administrador de Sistemas de Movilidad",
+        "detalle": "Administrador de Sistemas de Movilidad: Experiencia mínima de 3 años en entornos Android (>v4), iOS (>v7), herramientas EMM (especialmente Workspace One UEM), administración de dispositivos móviles (MDM, MAM, MCM), análisis de aplicaciones corporativas, homologación de terminales, administración de máquinas virtuales Windows Server y ESXI/vCenter/vSphere, gestión y parcheo de MDM Workspace One UEM, scripting, administración de SO Windows Server, redes WAN/LAN/UMTS, AD y GPOs, APIs de Android y fabricantes, API de MDM Workspace One UEM. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 70]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 70",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0034",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Expertos para Proyectos Especiales",
+        "detalle": "Expertos para Proyectos Especiales: Experiencia mínima de 5 años en la tecnología requerida, capacidad de respuesta inmediata. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 71]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 71",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0035",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones",
+        "detalle": "4. Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones: Jornada y horario de servicio:",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A8-S0036",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones",
+        "detalle": "4. Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones: Presencial/remoto, de lunes a viernes en horario laboral de 07:00 a 18:30, incluidos todos los festivos no nacionales, con mínimo un recurso presencial en las oficinas de Correos y otro en las oficinas de CEX, de lunes a viernes de 09:00 a 18:30. Si las circunstancias lo requieren, el trabajo puede ser en remoto. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 40, 44, 50]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 40, 44, 50",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0037",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones",
+        "detalle": "4. Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones: Servicio 24x7: fuera del horario laboral habitual, en periodos nocturnos, fines de semana y/o festivos, en modo de guardia, para soporte a incidencias relevantes o actividades programadas que no puedan realizarse en horario laboral. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 40, 44, 50]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 40, 44, 50",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0038",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones",
+        "detalle": "4. Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones: Disponibilidad mixta: tanto in situ como en remoto, totalmente intercambiables. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 72]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 72",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0039",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones",
+        "detalle": "4. Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones: El adjudicatario debe proveer los medios técnicos para ambas modalidades (ordenador portátil mínimo i5 9ª gen, SSD, 8GB RAM, software de comunicaciones, conexión a internet, teléfono directo, medios para reuniones virtuales). [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 72]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 72",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0040",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones",
+        "detalle": "4. Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones: Idioma: conocimiento de inglés a nivel conversación y lectura técnica para todos los perfiles técnicos, para seguimiento de casos con fabricantes y análisis de documentación técnica. [DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 66, 67, 68, 69, 70]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 66, 67, 68, 69, 70",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0041",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones",
+        "detalle": "4. Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones: Sustituciones:",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A8-S0042",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones",
+        "detalle": "4. Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones: Cualquier cambio de perfil dedicado/diferenciado solicitado por Correos/CEX o realizado por el adjudicatario debe ser cubierto en un plazo máximo de 15 días naturales por otro técnico de iguales características, con al menos 5 días laborales de traspaso de conocimiento. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 112]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 112",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0043",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones",
+        "detalle": "4. Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones: Penalización del 25% de la facturación mensual del servicio si no se cubre en plazo; si supera 30 días, penalización del 100%. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 112]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 112",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0044",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones",
+        "detalle": "4. Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones: Indisponibilidad temporal mayor a 3 días laborables, no sustituida por perfil equivalente en 3 días, penalización del 20% de la facturación mensual del servicio por cada perfil. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 113]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 113",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0045",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones",
+        "detalle": "4. Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones: Cobertura de ausencias, vacaciones y bajas: obligación de continuidad, sin número de suplentes especificado. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63, 112-113]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63, 112-113",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0046",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones",
+        "detalle": "4. Dedicaciones, jornadas, disponibilidad, guardias, presencialidad, ubicación, idiomas y sustituciones: Tasa de renovación de equipos: más de una rotación por año y servicio, penalización del 20% de la facturación mensual de todos los servicios. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 113]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 113",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0047",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa",
+        "detalle": "5. Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa: Compromiso de adscripción de medios personales: obligatorio presentar con la oferta, indicando el personal u organismos técnicos que se compromete a adscribir al contrato. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 8; Anexo XIX, pág. 120]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 8; Anexo XIX, pág. 120",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0048",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa",
+        "detalle": "5. Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa: Declaración del licitador de que dispone del equipo técnico para la ejecución de los servicios requeridos, más certificado que demuestre que los recursos presentados tienen al menos 1 año de experiencia en puesto similar al solicitado. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 8]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 8",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0049",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa",
+        "detalle": "5. Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa: Este compromiso de adscripción es obligación esencial del contrato. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 8, 22]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 8, 22",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0050",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa",
+        "detalle": "5. Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa: Forma de acreditación de experiencia: certificado de correcta ejecución de servicios, certificado de cumplimiento de normas ISO 27001 e ISO 20000 o equivalente. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 79]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 79",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0051",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa",
+        "detalle": "5. Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa: En cualquier momento durante la vida del contrato, Correos podrá exigir documentación que respalde la disponibilidad de los medios personales necesarios (listas de personal asignado, contratos laborales, certificados de capacitación). [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 23]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 23",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0052",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Criterios de adjudicación vinculados a perfiles (criterios puntuables)",
+        "detalle": "6. Criterios de adjudicación vinculados a perfiles (criterios puntuables): Criterios sujetos a juicio de valor (máximo 27 puntos):",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A8-S0053",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Criterios de adjudicación vinculados a perfiles (criterios puntuables)",
+        "detalle": "6. Criterios de adjudicación vinculados a perfiles (criterios puntuables): Características y conocimientos del equipo de trabajo asociados a la prestación del servicio (hasta 11 puntos):",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A8-S0054",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Criterios de adjudicación vinculados a perfiles (criterios puntuables)",
+        "detalle": "6. Criterios de adjudicación vinculados a perfiles (criterios puntuables): Propuesta organizativa y descripción del equipo de trabajo con características adicionales a las requeridas en la fase de solvencia (hasta 4 puntos): mayor detalle, mayor número de recursos asignados y menor precio, mayor puntuación. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 86]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 86",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0055",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Criterios de adjudicación vinculados a perfiles (criterios puntuables)",
+        "detalle": "6. Criterios de adjudicación vinculados a perfiles (criterios puntuables): Incremento de horas ofrecidas sobre las necesidades estimadas en el cuadro de horas (hasta 5 puntos, puntuación proporcional al resto de ofertas; 2 puntos adicionales a mayor número de mejoras). [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 86]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 86",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0056",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Criterios de adjudicación vinculados a perfiles (criterios puntuables)",
+        "detalle": "6. Criterios de adjudicación vinculados a perfiles (criterios puntuables): Criterios automáticos (máximo 3 puntos):",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A8-S0057",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Criterios de adjudicación vinculados a perfiles (criterios puntuables)",
+        "detalle": "6. Criterios de adjudicación vinculados a perfiles (criterios puntuables): Mejora en los Niveles de Servicio solicitados en el Anexo XVII – Evaluación de Proveedores (0,5 puntos por cada indicador mejorado, hasta 3 puntos). [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 87]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 87",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0058",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Requisitos de experiencia de empresa/proyectos previos (no personales)",
+        "detalle": "7. Requisitos de experiencia de empresa/proyectos previos (no personales): Haber realizado 3 servicios de igual o similar naturaleza que los que constituyen el objeto del contrato en los tres últimos años, cuyo importe anual acumulado en el año de mayor ejecución sea igual o superior a 1.190.000,00 €. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 7]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 7",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0059",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Requisitos de experiencia de empresa/proyectos previos (no personales)",
+        "detalle": "7. Requisitos de experiencia de empresa/proyectos previos (no personales): Volumen anual de negocios en el ámbito al que se refiere el contrato, referido al mejor ejercicio de los tres últimos, de al menos 1.190.000,00 €. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 7]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 7",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0060",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Incorporación, transición y cobertura de la continuidad",
+        "detalle": "8. Incorporación, transición y cobertura de la continuidad: Fase de transición del servicio: 1 mes desde la firma del contrato, con periodo de solapamiento entre equipo saliente y entrante. El coste de los recursos propios durante este solapamiento es a cargo del adjudicatario entrante y no facturable a Correos/CEX. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 57-59]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 57-59",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0061",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Incorporación, transición y cobertura de la continuidad",
+        "detalle": "8. Incorporación, transición y cobertura de la continuidad: El equipo de trabajo debe ser mixto durante la transición y la reversión, formado por integrantes del equipo técnico del adjudicatario saliente y del entrante. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 57, 62]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 57, 62",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0062",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Incorporación, transición y cobertura de la continuidad",
+        "detalle": "8. Incorporación, transición y cobertura de la continuidad: En la fase de reversión, el adjudicatario debe poner a disposición de Correos/CEX un equipo de personas clave para garantizar el traspaso de conocimiento al nuevo proveedor, con un mínimo de 5 personas en sus instalaciones para la reversión. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 62]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 62",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0063",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Otras condiciones sobre el equipo",
+        "detalle": "9. Otras condiciones sobre el equipo: El personal aportado por el adjudicatario no tendrá vinculación alguna con Correos/CEX. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 63",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0064",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Otras condiciones sobre el equipo",
+        "detalle": "9. Otras condiciones sobre el equipo: Convenio laboral de referencia: XVIII Convenio Colectivo Estatal de Empresas de Consultoría de Sistemas de Información y Estudios de Mercado y de la Opinión Pública (BOE 13/07/2023). [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 64]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 64",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0065",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Otras condiciones sobre el equipo",
+        "detalle": "9. Otras condiciones sobre el equipo: Emplear en la ejecución del contrato un porcentaje de trabajadores indefinidos igual o superior al 20%. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 24]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 24",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0066",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "10. Discrepancias y pendientes de aclaración: No se han identificado discrepancias en la documentación revisada.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A8-S0067",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "10. Discrepancias y pendientes de aclaración: No consta exigencia de titulaciones universitarias, colegiación, ni número de suplentes para cobertura de ausencias.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A8-S0068",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "10. Discrepancias y pendientes de aclaración: No consta exigencia de CV detallado ni vida laboral en la fase de presentación de oferta, salvo declaración y certificado de experiencia mínima de 1 año en puesto similar. [DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 8]",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 8",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A8-S0069",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "10. Discrepancias y pendientes de aclaración: No consta exigencia de idiomas distintos al inglés técnico/conversación para perfiles técnicos.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A8-S0070",
+        "seccion": "Equipo y continuidad",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "10. Discrepancias y pendientes de aclaración: No consta exigencia de acreditación documental de titulaciones/certificaciones en la fase de presentación de oferta, salvo declaración y certificado de experiencia.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A8",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      }
+    ]
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "ANEXO I.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 109403,
+        "caracteres_enviados_al_agente": 109403,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Anuncio.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 8853,
+        "caracteres_enviados_al_agente": 8853,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 330809,
+        "caracteres_enviados_al_agente": 330809,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 4,
+        "nombre": "DOC_CD2024-000901195.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 8376,
+        "caracteres_enviados_al_agente": 8376,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 5,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "Anuncio.pdf",
+        "caracteres_extraidos": 5053,
+        "caracteres_enviados_al_agente": 5053,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 6,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "Anuncio.pdf",
+        "caracteres_extraidos": 3234,
+        "caracteres_enviados_al_agente": 3234,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 7,
+        "nombre": "CORREOS-Codigo-General-de-Conducta.pdf",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 0,
+        "caracteres_enviados_al_agente": 0,
+        "texto_compactado": false,
+        "error": "404 Client Error: The specified blob does not exist. for url: https://cswetwebcorsta01.blob.core.windows.net/uploads/2022/01/CORREOS-Codigo-General-de-Conducta.pdf"
+      },
+      {
+        "numero": 8,
+        "nombre": "perfil-contratante",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 84908,
+        "caracteres_enviados_al_agente": 84908,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 9,
+        "nombre": "PoliticaProteccionDatosCanalEticoClientesyProveedores--ES.pdf",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 13833,
+        "caracteres_enviados_al_agente": 13833,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Documento no leido: CORREOS-Codigo-General-de-Conducta.pdf: 404 Client Error: The specified blob does not exist. for url: https://cswetwebcorsta01.blob.core.windows.net/uploads/2022/01/CORREOS-Codigo-General-de-Conducta.pdf",
+      "Se omitieron 22 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  }
+}

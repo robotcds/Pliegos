@@ -1,0 +1,47 @@
+{
+  "respuesta_original": "{\"correcciones\":[{\"buscar\":\"No se han identificado discrepancias documentales relevantes, aunque existen limitaciones en cuanto a la exigencia de certificaciones, seguros y detalles de algunos medios materiales.\",\"reemplazar\":\"No se han identificado discrepancias documentales relevantes. Existen limitaciones en cuanto a la exigencia de certificaciones, seguros y detalles de algunos medios materiales, y no consta la exigencia de patrimonio neto, ratios financieros, ni fórmula de cálculo para solvencia económica.\"},{\"buscar\":\"No se establecen SLA/KPI adicionales ni acuerdos de nivel de servicio (ANS) específicos. El incumplimiento de plazos de entrega de informes conlleva penalización económica.\",\"reemplazar\":\"No se establecen SLA/KPI adicionales ni acuerdos de nivel de servicio (ANS) específicos. El incumplimiento de plazos de entrega de informes conlleva penalización económica. Se recoge expresamente la obligación de confirmar la recepción de solicitudes en menos de 24 horas, aunque no se detalla penalización asociada a este plazo. Referencia: LIC10484 PPT.pdf, p.10.\"},{\"buscar\":\"No se han identificado discrepancias en la documentación revisada.\",\"reemplazar\":\"No se han identificado discrepancias en la documentación revisada. El régimen de ofertas anormalmente bajas se remite a la LCSP, sin porcentajes específicos adicionales ni reglas propias en el pliego. Referencia: LIC10484 PCP CLAUS.pdf, 16-17/17.\"}],\"anadidos\":[{\"seccion\":\"Plazos y niveles de servicio\",\"bloque\":{\"tipo\":\"tabla\",\"columnas\":[\"Actividad\",\"Plazo/objetivo\",\"Penalización\"],\"filas\":[[\"Confirmación de recepción de solicitud\",\"<24h\",\"NO CONSTA\"]]}},{\"seccion\":\"Criterios de adjudicación y valoración\",\"bloque\":{\"tipo\":\"parrafo\",\"texto\":\"El régimen de ofertas anormalmente bajas se remite a la LCSP, sin porcentajes específicos adicionales ni reglas propias en el pliego. Referencia: LIC10484 PCP CLAUS.pdf, 16-17/17.\"}}],\"secciones_nuevas\":[]}",
+  "json": {
+    "correcciones": [
+      {
+        "buscar": "No se han identificado discrepancias documentales relevantes, aunque existen limitaciones en cuanto a la exigencia de certificaciones, seguros y detalles de algunos medios materiales.",
+        "reemplazar": "No se han identificado discrepancias documentales relevantes. Existen limitaciones en cuanto a la exigencia de certificaciones, seguros y detalles de algunos medios materiales, y no consta la exigencia de patrimonio neto, ratios financieros, ni fórmula de cálculo para solvencia económica."
+      },
+      {
+        "buscar": "No se establecen SLA/KPI adicionales ni acuerdos de nivel de servicio (ANS) específicos. El incumplimiento de plazos de entrega de informes conlleva penalización económica.",
+        "reemplazar": "No se establecen SLA/KPI adicionales ni acuerdos de nivel de servicio (ANS) específicos. El incumplimiento de plazos de entrega de informes conlleva penalización económica. Se recoge expresamente la obligación de confirmar la recepción de solicitudes en menos de 24 horas, aunque no se detalla penalización asociada a este plazo. Referencia: LIC10484 PPT.pdf, p.10."
+      },
+      {
+        "buscar": "No se han identificado discrepancias en la documentación revisada.",
+        "reemplazar": "No se han identificado discrepancias en la documentación revisada. El régimen de ofertas anormalmente bajas se remite a la LCSP, sin porcentajes específicos adicionales ni reglas propias en el pliego. Referencia: LIC10484 PCP CLAUS.pdf, 16-17/17."
+      }
+    ],
+    "anadidos": [
+      {
+        "seccion": "Plazos y niveles de servicio",
+        "bloque": {
+          "tipo": "tabla",
+          "columnas": [
+            "Actividad",
+            "Plazo/objetivo",
+            "Penalización"
+          ],
+          "filas": [
+            [
+              "Confirmación de recepción de solicitud",
+              "<24h",
+              "NO CONSTA"
+            ]
+          ]
+        }
+      },
+      {
+        "seccion": "Criterios de adjudicación y valoración",
+        "bloque": {
+          "tipo": "parrafo",
+          "texto": "El régimen de ofertas anormalmente bajas se remite a la LCSP, sin porcentajes específicos adicionales ni reglas propias en el pliego. Referencia: LIC10484 PCP CLAUS.pdf, 16-17/17."
+        }
+      }
+    ],
+    "secciones_nuevas": []
+  }
+}

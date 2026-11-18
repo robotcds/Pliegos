@@ -1,0 +1,2753 @@
+{
+  "expediente": "OPP-SW-004",
+  "agentes_revisados": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A6",
+    "A8",
+    "A9",
+    "A10"
+  ],
+  "introduccion": [
+    "El expediente OPP-SW-004, promovido por la Diputación Ficticia del Norte, tiene por objeto el mantenimiento evolutivo de aplicaciones Java legacy, incluyendo soporte L2/L3, pequeñas evoluciones y gestión de tickets para entornos corporativos. El contrato abarca la atención a 900 usuarios internos en tres sedes, con un volumen estimado de 180 tickets mensuales y la cobertura de necesidades correctivas, evolutivas y de soporte, así como la actualización documental y la gestión de cambios. La documentación revisada incluye pliegos administrativo y técnico, así como un anexo de solvencia, que detallan los requisitos funcionales, económicos y de equipo, así como los criterios de adjudicación y las condiciones de ejecución.",
+    "La duración del contrato es de 24 meses, con un presupuesto base de 435.600 EUR (IVA incluido) y un valor estimado de 360.000 EUR (sin IVA). No se prevé prórroga obligatoria, aunque se contempla la posible continuidad mediante un nuevo contrato. Entre los condicionantes más relevantes para la participación destacan la exigencia de un equipo mínimo de tres desarrolladores Java, un soporte L2 y un jefe de servicio, la acreditación de experiencia en contratos similares y la presentación de un seguro de responsabilidad civil de 300.000 EUR. El plazo de presentación de ofertas finaliza el 5 de octubre de 2026 a las 12:00.",
+    "El modelo de prestación es un servicio gestionado, con el adjudicatario asumiendo la responsabilidad de la operación diaria, la gestión de incidencias y la mejora continua bajo un marco de SLA exigente. Se establecen penalizaciones por incumplimiento de niveles de servicio, requisitos de seguridad y confidencialidad, y obligaciones de reversibilidad y transferencia de conocimiento. Existen discrepancias menores en los límites de subcontratación y penalizaciones por SLA entre los pliegos administrativo y técnico, así como ausencias documentales sobre la plataforma de presentación, formato de archivos y condiciones de UTE, que se señalan en las secciones correspondientes. [Pliegos y anexo de solvencia]"
+  ],
+  "secciones": [
+    {
+      "titulo": "Datos principales de la licitación",
+      "bloques": [
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Concepto",
+            "Información"
+          ],
+          "filas": [
+            [
+              "Expediente",
+              "OPP-SW-004"
+            ],
+            [
+              "Órgano de contratación",
+              "Diputación Ficticia del Norte"
+            ],
+            [
+              "Objeto",
+              "Mantenimiento evolutivo de aplicaciones Java legacy, soporte L2/L3 y pequeñas evoluciones"
+            ],
+            [
+              "Presupuesto base (sin IVA)",
+              "360.000 EUR"
+            ],
+            [
+              "Presupuesto total (con IVA)",
+              "435.600 EUR"
+            ],
+            [
+              "Valor estimado",
+              "360.000 EUR"
+            ],
+            [
+              "Duración inicial",
+              "24 meses"
+            ],
+            [
+              "Prórrogas",
+              "No obligatoria; posible continuidad por nuevo contrato"
+            ],
+            [
+              "CPV",
+              "72267100"
+            ],
+            [
+              "Ubicación",
+              "País Vasco"
+            ],
+            [
+              "Lotes",
+              "No hay lotes (contrato único)"
+            ],
+            [
+              "Procedimiento",
+              "Abierto"
+            ],
+            [
+              "Fecha límite de presentación",
+              "2026-10-05 12:00"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Desglose económico y fases",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Presupuesto base de licitación: 435.600 EUR IVA incluido; valor estimado: 360.000 EUR sin IVA; duración: 24 meses; sin prórroga obligatoria; posible continuidad por nuevo contrato."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Facturación mensual fija tras certificación del servicio; no hay pago inicial; bolsa mínima correctiva y evolutiva incluida: 900 horas anuales; bolsa adicional ofertable máximo 100 horas; guardias puntuales para despliegues: 2 noches al mes incluidas; transición 6 semanas sin facturación adicional y reversibilidad 4 semanas al final del contrato."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Costes obligatorios: equipo recurrente 24 meses: jefe de servicio 25 %, tres desarrolladores Java 70 %, soporte L2 100 %, QA 20 %."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Herramientas ITSM: 5 agentes Jira Service Management o equivalente, cuadro de mando mensual y repositorio documental."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El servicio de mantenimiento usa herramientas ITSM del cliente; el adjudicatario debe aportar entorno de pruebas, herramientas de calidad de código, monitorización aplicacional y soporte de DBA experto para incidencias Oracle puntuales."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No existe umbral técnico mínimo, pero las ofertas que no alcancen 8 puntos en modelo de servicio podrán recibir valoración técnica muy baja."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Oferta anormal: oferta inferior al 85 % del presupuesto de licitación o desviación relevante respecto a la media requerirá justificación."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Revisión de precios: no prevista durante 24 meses."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Penalización por incumplimiento de SLA crítico hasta 4 % de factura mensual; acumulado máximo 12 % mensual."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Penalización por incumplimiento de SLA bajo 95 %: 2 % mensual por cada SLA bajo 95 %, máximo 10 %."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "SLA: P1 respuesta <= 1 hora y resolución <= 8 horas en 8x5; P2 respuesta <= 4 horas y resolución <= 2 días; P3 resolución <= 5 días; cambios menores <= 10 días; cumplimiento objetivo 95 %."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Go-live operativo en 30 días naturales desde formalización."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El equipo mínimo debe cubrir vacaciones y bajas sin reducir SLA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dependencia del proveedor saliente: transferencia de conocimiento de 5 jornadas, documentación técnica actualizada y listado de jobs batch."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Subcontratación permitida hasta el 30 % para tareas especializadas; para DBA especializado y pruebas de rendimiento hasta el 20 %, declarando proveedor si supera el 10 %."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Subcontratación permitida solo para tareas especializadas previa autorización; el soporte L2/L3 principal no podrá desplazarse a proveedores fuera de la UE."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No hay lotes; el contrato es único."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        }
+      ]
+    },
+    {
+      "titulo": "Procedimiento y tramitación",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Procedimiento abierto; plazo de presentación: 05/10/2026 a las 12:00."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Tres sobres: oferta técnica, oferta económica y documentación administrativa."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La oferta técnica no podrá incluir descuentos, precios unitarios ni información económica."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se excluye a quien altere el modelo de oferta económica o no acepte los SLA mínimos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Documentación administrativa: DEUC, declaración responsable, poderes de representación, certificados de Hacienda y Seguridad Social, compromiso de adscripción del equipo, declaración de cumplimiento laboral y PRL."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Modelo de servicio, plan de transición, matriz de SLAs, equipo adscrito y dedicación, oferta económica."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Criterios de adjudicación: precio 55 puntos, mejoras SLA automáticas 18 puntos, modelo de servicio 15 puntos, plan de transición 7 puntos, bolsa de horas adicional 5 puntos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Fórmula económica por rangos de descuento: DtoN = (PL - POn) / PL x 100. Dto1=8 %, Dto2=15 %, Dto3=22 %, PE1=35, PE2=55, PE3=0. Si 0 <= DtoN <= 8, PEn = DtoN x 35 / 8; si 8 < DtoN <= 15, PEn = (DtoN - 8) x 20 / 7 + 35; si 15 < DtoN <= 22, PEn = (DtoN - 15) x -55 / 7 + 55; si DtoN > 22, PEn = 0."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La oferta con 15 % de baja alcanza la máxima puntuación económica de 55 puntos; a partir de ese punto la puntuación decrece y con descuentos superiores al 22 % se obtiene 0 en el criterio económico."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Ofertas anormalmente bajas: inferior al 85 % del presupuesto de licitación o desviación relevante respecto a la media requerirá justificación."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        }
+      ]
+    },
+    {
+      "titulo": "Condiciones de participación",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Pueden licitar empresas de servicios informáticos con capacidad de obrar, no incursas en prohibiciones para contratar y al corriente de obligaciones tributarias y con Seguridad Social."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Solvencia económica: facturación mínima de 500.000 EUR en servicios de mantenimiento aplicacional y seguro de responsabilidad civil de 300.000 EUR."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Solvencia técnica: dos contratos de mantenimiento aplicacional superiores a 150.000 EUR ejecutados en los últimos tres años, cada uno con duración mínima de 12 meses, incluyendo soporte L2 o L3 y mantenimiento evolutivo sobre aplicaciones Java o SQL."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Anexo solvencia OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Equipo mínimo: tres desarrolladores Java con 4 años de experiencia en Spring, SQL y mantenimiento; soporte L2 con 2 años en ITIL, SLA y gestión de incidencias; jefe de servicio con 5 años coordinando servicios de mantenimiento."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Anexo solvencia OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "ITIL Foundation requerido para el coordinador del servicio."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Declaración de conformidad ENS básica para el servicio de soporte y mantenimiento; no se exige certificación formal."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se permite UTE."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        }
+      ]
+    },
+    {
+      "titulo": "Documentación administrativa",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Referencias de contratos: dos contratos de mantenimiento aplicacional superiores a 150.000 EUR ejecutados en los últimos tres años, cada uno con duración mínima de 12 meses, incluyendo soporte L2 o L3 y mantenimiento evolutivo sobre aplicaciones Java o SQL."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Anexo solvencia OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Acreditación de experiencia del equipo mínimo: tres desarrolladores Java con 4 años de experiencia en Spring, SQL y mantenimiento; soporte L2 con 2 años en ITIL, SLA y gestión de incidencias; jefe de servicio con 5 años coordinando servicios de mantenimiento."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Anexo solvencia OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Declaración de cumplimiento de medidas de seguridad y confidencialidad."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        }
+      ]
+    },
+    {
+      "titulo": "Requisitos formales de presentación",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Exclusión de quien altere el modelo de oferta económica o no acepte los SLA mínimos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Presentación en castellano."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Firma electrónica."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Plataforma de presentación."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Formato y extensión de los documentos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Nomenclatura de los archivos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Fecha límite: 05/10/2026 a las 12:00."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        }
+      ]
+    },
+    {
+      "titulo": "Causas o condiciones de exclusión",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Oferta técnica que incluya descuentos, precios unitarios o información económica será excluida."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Ofertas anormalmente bajas: inferior al 85 % del presupuesto de licitación o desviación relevante respecto a la media requerirá justificación; en caso de no justificar, exclusión."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        }
+      ]
+    },
+    {
+      "titulo": "Garantías, seguros y penalizaciones",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "No se prevé revisión de precios durante los 24 meses de contrato."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se prevé anticipo ni pago inicial."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA garantía provisional ni definitiva."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA garantía complementaria."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA seguro de caución."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA retención de garantía técnica tras la recepción."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        }
+      ]
+    },
+    {
+      "titulo": "Condiciones especiales de ejecución",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Medidas obligatorias: acceso remoto por VPN corporativa, cuentas nominativas, MFA, segregación de funciones, registro de cambios, trazabilidad de accesos a BBDD, cifrado de backups y confidencialidad de todo el personal."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Incidentes y brechas: comunicación al cliente <= 4 horas; brechas de datos personales <= 2 horas. Logs de soporte y cambios retenidos 12 meses."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La documentación será propiedad del cliente."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe demostrar backup operativo para Java y DBA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario actuará como encargado del tratamiento cuando acceda a datos personales para resolver incidencias."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Vulnerabilidades y parches: parches críticos de aplicaciones legacy en <= 5 días si hay versión compatible. Sistemas EOL/EOS deberán registrarse como excepción de riesgo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Gobierno: comité operativo semanal, seguimiento mensual y dirección trimestral. Informe mensual de SLA, aging, backlog, problemas recurrentes y plan de mejora."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Conocimiento: KEDB, runbooks, FAQ y manuales actualizados mensualmente."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe cumplir con la transferencia de conocimiento de 5 jornadas, documentación técnica actualizada y listado de jobs batch en la transición."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe ejecutar discovery intensivo y revisar el plan de go-live si el proveedor saliente no colabora."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe cumplir con la actualización mensual del cuadro de mando del servicio."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe cumplir con la actualización mensual de la documentación y manuales."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe cumplir con la retención de logs de soporte y cambios durante 12 meses."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe cumplir con la comunicación de incidentes y brechas en los plazos establecidos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe cumplir con la segregación de funciones y trazabilidad de accesos a BBDD."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe cumplir con el cifrado de backups."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe cumplir con la confidencialidad de todo el personal."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe cumplir con la declaración de cumplimiento de medidas de seguridad y confidencialidad."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe cumplir con la declaración de cumplimiento laboral y PRL."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe cumplir con la cobertura de soporte en horario laboral y bolsa de 200 horas anuales para actuaciones urgentes."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe cumplir con el dimensionamiento estimado: 180 tickets/mes, 8 cambios menores/mes, 3 despliegues mensuales y picos de cierre trimestral con +30 % de demanda."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe cumplir con el modelo exigido: Service Desk N1 del cliente, adjudicatario como N2/N3 aplicacional."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe cumplir con la gestión de incidencias, peticiones, problemas, cambios, conocimiento y niveles de servicio."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        }
+      ]
+    },
+    {
+      "titulo": "Lotes, incompatibilidades y limitaciones",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Incompatibilidad: el soporte L2/L3 principal no podrá desplazarse a proveedores fuera de la UE."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Limitación de subcontratación: hasta el 30 % para tareas especializadas; para DBA especializado y pruebas de rendimiento hasta el 20 %, declarando proveedor si supera el 10 %."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, texto extraído]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Subcontratación permitida solo para tareas especializadas previa autorización."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, texto extraído]"
+        }
+      ]
+    },
+    {
+      "titulo": "Procedimiento, economía y obligaciones",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Discrepancias y pendientes de aclaración"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se han identificado discrepancias en la documentación revisada."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Discrepancias y pendientes de aclaración"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No consta en la documentación revisada: plataforma de presentación, formato y extensión de los documentos, nomenclatura de los archivos, idioma de presentación, firma electrónica, existencia de lotes, autorización de UTE, garantías provisional, definitiva o complementaria, seguro de caución, retención de garantía técnica tras la recepción."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        }
+      ]
+    },
+    {
+      "titulo": "Solvencia económica",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige facturación mínima de 500.000 EUR en servicios de mantenimiento aplicacional."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, apartado \"Solvencia económica\"]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El seguro de responsabilidad civil debe tener una cobertura mínima de 300.000 EUR."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, apartado \"Solvencia económica\"]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La acreditación de la solvencia económica se realizará mediante la presentación de la documentación administrativa exigida (DEUC, declaración responsable, poderes de representación, certificados de Hacienda y Seguridad Social)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, apartado \"Documentación administrativa\"]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se exige patrimonio neto mínimo ni ratios financieros específicos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se exige clasificación empresarial ni inscripción en ROLECE como requisito de solvencia."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se establecen reglas de acumulación de solvencia en UTE ni medios externos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        }
+      ]
+    },
+    {
+      "titulo": "Solvencia técnica",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige la presentación de dos contratos de mantenimiento aplicacional superiores a 150.000 EUR ejecutados en los últimos tres años."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Anexo solvencia OPP-SW-004 mantenimiento Java, apartado \"Referencias\"]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Cada contrato de referencia debe tener una duración mínima de 12 meses, incluir soporte L2 o L3 y mantenimiento evolutivo sobre aplicaciones Java o SQL."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Anexo solvencia OPP-SW-004 mantenimiento Java, apartado \"Referencias\"]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La acreditación de la solvencia técnica se realizará mediante la presentación de la relación de contratos ejecutados, con indicación de importe, fechas y destinatario público o privado."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Anexo solvencia OPP-SW-004 mantenimiento Java, apartado \"Referencias\"]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se exige certificado de buena ejecución, pero sí la relación de contratos con los datos indicados."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Anexo solvencia OPP-SW-004 mantenimiento Java, apartado \"Referencias\"]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El objeto de los contratos de referencia debe ser mantenimiento aplicacional con soporte L2 o L3 y mantenimiento evolutivo sobre aplicaciones Java o SQL."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Anexo solvencia OPP-SW-004 mantenimiento Java, apartado \"Referencias\"]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El periodo de ejecución de los contratos de referencia debe estar comprendido dentro de los últimos tres años."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Anexo solvencia OPP-SW-004 mantenimiento Java, apartado \"Referencias\"]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se exige CPV específico, pero el objeto debe ser mantenimiento aplicacional sobre Java o SQL."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Anexo solvencia OPP-SW-004 mantenimiento Java, apartado \"Referencias\"]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se establecen reglas específicas para empresas de nueva creación."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Anexo solvencia OPP-SW-004 mantenimiento Java, apartado \"Referencias\"]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se exige duración mínima superior a 12 meses para los contratos de referencia."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Anexo solvencia OPP-SW-004 mantenimiento Java, apartado \"Referencias\"]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se exige certificado ISO ni ENS, pero se valorará la presentación de ISO 27001 como evidencia adicional."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado \"Seguridad / DPO / ENS\"]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige declaración de conformidad ENS básica para el servicio de soporte y mantenimiento; no se exige certificación formal."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado \"Seguridad / DPO / ENS\"]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se exige carta de fabricante, partnership ni compromiso de terceros para la acreditación de solvencia técnica."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se exige importe anual acumulado en el año de mayor ejecución, sino importe total por contrato de referencia."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Anexo solvencia OPP-SW-004 mantenimiento Java, apartado \"Referencias\"]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se exige destinatario público específico; se admiten contratos con destinatario público o privado."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Anexo solvencia OPP-SW-004 mantenimiento Java, apartado \"Referencias\"]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se exige relación de trabajos adicionales ni número de referencias superior a dos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Anexo solvencia OPP-SW-004 mantenimiento Java, apartado \"Referencias\"]"
+        }
+      ]
+    },
+    {
+      "titulo": "Solvencia y acreditación",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Contenido inicial"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Registro documental de preventa"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Contenido inicial"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Discrepancias y pendientes de aclaración:"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        }
+      ]
+    },
+    {
+      "titulo": "Criterios de adjudicación",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "El total de puntos de los criterios de adjudicación es 100 puntos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, apartado \"Criterios de adjudicación\"]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Criterio: Precio. Peso: 55 puntos. La puntuación económica se obtiene mediante proporcionalidad variable en función del rango de descuento. Fórmula: DtoN = (PL - POn) / PL x 100, donde PL es el presupuesto de licitación y POn es el presupuesto de la oferta n. Para este expediente se establecen los rangos Dto1=8%, Dto2=15%, Dto3=22%, PE1=35, PE2=55, PE3=0. Reglas: si 0 <= DtoN <= 8, PEn = DtoN x 35 / 8; si 8 < DtoN <= 15, PEn = (DtoN - 8) x 20 / 7 + 35; si 15 < DtoN <= 22, PEn = (DtoN - 15) x -55 / 7 + 55; si DtoN > 22, PEn = 0."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, apartado \"Criterios de adjudicación\" y \"Anexo económico-financiero\"]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Criterio: Mejoras SLA automáticas. Peso: 18 puntos. Subcriterios: Respuesta crítica en 2 horas (6 puntos), resolución crítica en 24 horas (6 puntos), seguimiento semanal de incidencias (3 puntos), cuadro de mando mensual (3 puntos). Dentro del subapartado ANS mejorados se obtendrá 0,5 puntos por cada indicador mejorado hasta un máximo de 3 puntos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, apartado \"Criterios de adjudicación\"]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Criterio: Modelo de servicio. Peso: 15 puntos. Se valoran organización, escalado, gobierno del servicio, gestión documental y calidad. No existe umbral técnico mínimo, pero las ofertas que no alcancen 8 puntos en modelo de servicio podrán recibir valoración técnica muy baja."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, apartado \"Criterios de adjudicación\"]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Criterio: Plan de transición. Peso: 7 puntos. Se valoran toma de control, transferencia, riesgos y continuidad."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, apartado \"Criterios de adjudicación\"]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Criterio: Bolsa de horas adicional. Peso: 5 puntos. Se otorga 1 punto por cada 20 horas adicionales ofertadas, hasta un máximo de 100 horas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, apartado \"Criterios de adjudicación\"]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La suma de los pesos de los criterios es 100 puntos (cálculo derivado: 55+18+15+7+5=100)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, apartado \"Criterios de adjudicación\"]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Régimen de ofertas anormalmente bajas: oferta inferior al 85% del presupuesto de licitación o desviación relevante respecto a la media requerirá justificación."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, \"Anexo económico-financiero\"]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los criterios de adjudicación aplicables son los definidos en el pliego administrativo y en el anexo económico-financiero: precio 55 puntos, mejoras SLA automáticas 18 puntos, modelo de servicio 15 puntos, plan de transición 7 puntos y bolsa de horas adicional 5 puntos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado \"Criterios\"]"
+        }
+      ]
+    },
+    {
+      "titulo": "Alcance del servicio",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "El servicio comprende mantenimiento correctivo, evolutivo y soporte L2/L3 para 12 aplicaciones Java legacy, con gestión de tickets, pequeñas evoluciones, actualización documental, pruebas de regresión y soporte a usuarios internos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004, Objeto]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El servicio cubre 900 usuarios internos y 3 sedes, con un volumen estimado de 180 tickets mensuales (20% incidencias, 60% peticiones, 20% cambios menores)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004, Objeto]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El servicio tiene una duración de 24 meses, sin prórroga obligatoria, con posible continuidad por nuevo contrato."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004, Duración]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Cobertura de soporte en horario laboral y bolsa de 200 horas anuales para actuaciones urgentes."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004, Solvencia técnica y equipo mínimo]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Guardias puntuales para despliegues: 2 noches al mes incluidas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004, ANEXO ECONÓMICO-FINANCIERO]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Bolsa mínima correctiva y evolutiva incluida: 900 horas anuales. Bolsa adicional ofertable máximo 100 horas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004, ANEXO ECONÓMICO-FINANCIERO]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Modalidad: servicio gestionado de mantenimiento aplicacional."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004, Service Design / ITIL]"
+        }
+      ]
+    },
+    {
+      "titulo": "Modelo de servicio",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "El modelo exige Service Desk N1 del cliente y adjudicatario como N2/N3 aplicacional."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004, Service Design / ITIL]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe aportar entorno de pruebas, herramientas de calidad de código, monitorización aplicacional y soporte de DBA experto para incidencias Oracle puntuales."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004, ANEXO COMPRAS / PARTNERS]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe demostrar backup operativo para Java y DBA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004, Delivery / Operación]"
+        }
+      ]
+    },
+    {
+      "titulo": "Procesos ITIL citados",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige gestión de incidencias, peticiones, problemas, cambios, conocimiento y niveles de servicio. ITIL Foundation requerido para el coordinador del servicio."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004, Service Design / ITIL]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El soporte L2 debe tener experiencia mínima de 2 años en ITIL, SLA y gestión de incidencias."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004, Solvencia técnica y equipo mínimo]"
+        }
+      ]
+    },
+    {
+      "titulo": "SLA/KPI",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "SLA de primera respuesta inferior a 4 horas, resolución de incidencias críticas en 24 horas y actualización mensual del cuadro de mando del servicio."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004, Indicadores]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "SLA: P1 respuesta <= 1 hora y resolución <= 8 horas en 8x5; P2 respuesta <= 4 horas y resolución <= 2 días; P3 resolución <= 5 días; cambios menores <= 10 días. Cumplimiento objetivo 95%."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004, Service Design / ITIL]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Penalización 2% mensual por cada SLA bajo 95%, máximo 10%."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004, Service Design / ITIL]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Penalización por incumplimiento de SLA crítico hasta 4% de factura mensual; acumulado máximo 12% mensual."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004, Penalidades]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Mejoras SLA automáticas: respuesta crítica en 2 horas 6 puntos, resolución crítica en 24 horas 6 puntos, seguimiento semanal de incidencias 3 puntos, cuadro de mando mensual 3 puntos. Dentro del subapartado ANS mejorados se obtendrá 0,5 puntos por cada indicador mejorado hasta un máximo de 3 puntos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004, Criterios de adjudicación]"
+        }
+      ]
+    },
+    {
+      "titulo": "Reglas de priorización",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Priorización: prioridad = impacto x urgencia, con P1 cuando afecta a más de 300 usuarios o bloquea proceso crítico. Backlog máximo: 25 tickets envejecidos más de 30 días."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004, Service Design / ITIL]"
+        }
+      ]
+    },
+    {
+      "titulo": "Organización",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Equipo mínimo: tres desarrolladores Java con al menos 4 años de experiencia cada uno en Spring, SQL y mantenimiento de aplicaciones corporativas; un perfil de soporte L2 con experiencia mínima de 2 años en ITIL, SLA y gestión de incidencias; jefe de servicio con al menos 5 años coordinando servicios de mantenimiento."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004, Solvencia técnica y equipo mínimo; Anexo solvencia OPP-SW-004]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Recursos mínimos de operación: jefe de servicio 25%, tres desarrolladores Java 70%, soporte L2 100%, QA 20% y soporte DBA Oracle puntual para incidencias críticas. El equipo mínimo debe cubrir vacaciones y bajas sin reducir SLA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004, Delivery / Operación]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El soporte L2/L3 principal no podrá desplazarse a proveedores fuera de la UE."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004, Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se permite subcontratación de tareas especializadas hasta el 30% (pliego administrativo); hasta el 20% para DBA especializado y pruebas de rendimiento, declarando proveedor si supera el 10% (anexo compras/partners)."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004, Condiciones de participación; ANEXO COMPRAS / PARTNERS]"
+        }
+      ]
+    },
+    {
+      "titulo": "Herramientas ITSM, CMDB, inventario, monitorización",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Herramientas ITSM del cliente, 5 agentes Jira Service Management o equivalente, cuadro de mando mensual y repositorio documental."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004, ANEXO ECONÓMICO-FINANCIERO]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe aportar entorno de pruebas, herramientas de calidad de código, monitorización aplicacional."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004, ANEXO COMPRAS / PARTNERS]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Repositorio Git del cliente, entorno PRE y monitorización aplicacional aportada por adjudicatario."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004, Delivery / Operación]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Conocimiento: KEDB, runbooks, FAQ y manuales actualizados mensualmente. La documentación será propiedad del cliente."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004, Service Design / ITIL]"
+        }
+      ]
+    },
+    {
+      "titulo": "Transición y toma de control",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Go-live operativo en 30 días naturales desde formalización. La toma de control incluye inventario de 12 aplicaciones, migración de cola viva de tickets, configuración de SLA, runbooks por aplicación y war room durante las 2 primeras semanas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004, Delivery / Operación]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dependencia del proveedor saliente: transferencia de conocimiento de 5 jornadas, documentación técnica actualizada y listado de jobs batch. Si no colabora, el adjudicatario deberá ejecutar discovery intensivo y revisar el plan de go-live."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004, Delivery / Operación]"
+        }
+      ]
+    },
+    {
+      "titulo": "Automatización/self-service",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA]"
+        }
+      ]
+    },
+    {
+      "titulo": "Alcance y ejecución del servicio",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Discrepancias y pendientes de aclaración"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "En subcontratación, el pliego administrativo permite hasta el 30% para tareas especializadas, mientras que el anexo compras/partners limita al 20% para DBA especializado y pruebas de rendimiento, declarando proveedor si supera el 10%. Ámbito: subcontratación, efecto: límite aplicable y declaración de proveedor. Fuentes: Pliego administrativo OPP-SW-004, Condiciones de participación; Pliego administrativo OPP-SW-004, ANEXO COMPRAS / PARTNERS."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Discrepancias y pendientes de aclaración"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Penalizaciones por SLA: el pliego técnico establece penalización 2% mensual por cada SLA bajo 95%, máximo 10%, mientras que el pliego administrativo indica penalización por incumplimiento de SLA crítico hasta 4% de factura mensual, acumulado máximo 12% mensual. Ámbito: penalizaciones por SLA, efecto: base y acumulación máxima. Fuentes: Pliego técnico OPP-SW-004, Service Design / ITIL; Pliego administrativo OPP-SW-004, Penalidades."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Discrepancias y pendientes de aclaración"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Automatización/self-service: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Discrepancias y pendientes de aclaración"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se han identificado otras discrepancias en la documentación revisada."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        }
+      ]
+    },
+    {
+      "titulo": "Equipo y continuidad",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Equipo mínimo y estructura exigida"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Equipo mínimo y estructura exigida: El equipo mínimo exigido es: tres desarrolladores Java, un soporte L2 y un jefe de servicio [Pliego administrativo OPP-SW-004 mantenimiento Java, \"Equipo recurrente 24 meses\", Anexo económico-financiero; Pliego técnico OPP-SW-004 mantenimiento Java, \"Solvencia técnica y equipo mínimo\"; Anexo solvencia OPP-SW-004 mantenimiento Java, \"Equipo mínimo\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Equipo mínimo y estructura exigida"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Equipo mínimo y estructura exigida: Se menciona adicionalmente un perfil QA al 20% y soporte DBA Oracle puntual para incidencias críticas, pero no se exige como parte del equipo mínimo recurrente [Pliego administrativo OPP-SW-004 mantenimiento Java, \"Costes obligatorios\"; Pliego técnico OPP-SW-004 mantenimiento Java, \"Recursos mínimos de operación\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Desarrollador Java"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Desarrollador Java: Número: Tres personas [Pliego técnico OPP-SW-004 mantenimiento Java, \"Solvencia técnica y equipo mínimo\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Desarrollador Java"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Desarrollador Java: Experiencia mínima: 4 años en Spring, SQL y mantenimiento de aplicaciones corporativas [Pliego técnico OPP-SW-004 mantenimiento Java, \"Solvencia técnica y equipo mínimo\"; Anexo solvencia OPP-SW-004 mantenimiento Java, \"Equipo mínimo\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Desarrollador Java"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Desarrollador Java: Funciones: Mantenimiento correctivo y evolutivo, gestión de tickets, pequeñas evoluciones, actualización documental, pruebas de regresión, soporte a usuarios internos [Pliego técnico OPP-SW-004 mantenimiento Java, \"Objeto\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Desarrollador Java"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Desarrollador Java: Titulación: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Desarrollador Java"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Desarrollador Java: Certificaciones: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Desarrollador Java"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Desarrollador Java: Idiomas: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Desarrollador Java"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Desarrollador Java: Presencialidad/ubicación: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Soporte L2"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Soporte L2: Número: Una persona [Pliego técnico OPP-SW-004 mantenimiento Java, \"Solvencia técnica y equipo mínimo\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Soporte L2"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Soporte L2: Experiencia mínima: 2 años en ITIL, SLA y gestión de incidencias [Pliego técnico OPP-SW-004 mantenimiento Java, \"Solvencia técnica y equipo mínimo\"; Anexo solvencia OPP-SW-004 mantenimiento Java, \"Equipo mínimo\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Soporte L2"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Funciones: Soporte L2/L3, gestión de incidencias, peticiones, problemas, cambios, conocimiento y niveles de servicio [Pliego técnico OPP-SW-004 mantenimiento Java, \"Service Design / ITIL\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Soporte L2"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Soporte L2: Titulación: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Soporte L2"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Soporte L2: Certificaciones: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Soporte L2"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Soporte L2: Idiomas: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Soporte L2"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Soporte L2: Presencialidad/ubicación: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Jefe de servicio"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Jefe de servicio: Número: Una persona [Pliego técnico OPP-SW-004 mantenimiento Java, \"Solvencia técnica y equipo mínimo\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Jefe de servicio"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Jefe de servicio: Experiencia mínima: 5 años coordinando servicios de mantenimiento [Pliego técnico OPP-SW-004 mantenimiento Java, \"Solvencia técnica y equipo mínimo\"; Anexo solvencia OPP-SW-004 mantenimiento Java, \"Equipo mínimo\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Jefe de servicio"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Jefe de servicio: Funciones: Coordinación del servicio, gobierno del servicio, gestión documental y calidad, comité operativo semanal, seguimiento mensual y dirección trimestral [Pliego técnico OPP-SW-004 mantenimiento Java, \"Gobierno\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Jefe de servicio"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Jefe de servicio: Certificación: ITIL Foundation requerido para el coordinador del servicio [Pliego técnico OPP-SW-004 mantenimiento Java, \"Service Design / ITIL\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Jefe de servicio"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Jefe de servicio: Titulación: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Jefe de servicio"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Jefe de servicio: Idiomas: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Jefe de servicio"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Jefe de servicio: Presencialidad/ubicación: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "QA (no mínimo obligatorio)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "QA (no mínimo obligatorio): Dedicación: 20% [Pliego administrativo OPP-SW-004 mantenimiento Java, \"Costes obligatorios\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "QA (no mínimo obligatorio)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "QA (no mínimo obligatorio): Funciones: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "QA (no mínimo obligatorio)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "QA (no mínimo obligatorio): Requisito: NO CONSTA EN LA DOCUMENTACION REVISADA como mínimo obligatorio."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Soporte DBA Oracle (no mínimo obligatorio)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Soporte DBA Oracle (no mínimo obligatorio): Dedicación: Puntual para incidencias críticas [Pliego administrativo OPP-SW-004 mantenimiento Java, \"Costes obligatorios\"; Pliego técnico OPP-SW-004 mantenimiento Java, \"Recursos mínimos de operación\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Soporte DBA Oracle (no mínimo obligatorio)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Soporte DBA Oracle (no mínimo obligatorio): Funciones: Soporte para incidencias críticas Oracle/PostgreSQL [Pliego administrativo OPP-SW-004 mantenimiento Java, \"Anexo compras / partners\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Soporte DBA Oracle (no mínimo obligatorio)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Soporte DBA Oracle (no mínimo obligatorio): Requisito: NO CONSTA EN LA DOCUMENTACION REVISADA como mínimo obligatorio."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Dedicaciones, jornadas y cobertura"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dedicaciones, jornadas y cobertura: Jefe de servicio: 25% de dedicación [Pliego administrativo OPP-SW-004 mantenimiento Java, \"Costes obligatorios\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Dedicaciones, jornadas y cobertura"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dedicaciones, jornadas y cobertura: Tres desarrolladores Java: 70% de dedicación (no se especifica si es por persona o conjunto) [Pliego administrativo OPP-SW-004 mantenimiento Java, \"Costes obligatorios\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Dedicaciones, jornadas y cobertura"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dedicaciones, jornadas y cobertura: Soporte L2: 100% de dedicación [Pliego administrativo OPP-SW-004 mantenimiento Java, \"Costes obligatorios\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Dedicaciones, jornadas y cobertura"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dedicaciones, jornadas y cobertura: QA: 20% de dedicación (no mínimo obligatorio) [Pliego administrativo OPP-SW-004 mantenimiento Java, \"Costes obligatorios\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Dedicaciones, jornadas y cobertura"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dedicaciones, jornadas y cobertura: Cobertura de soporte en horario laboral y bolsa de 200 horas anuales para actuaciones urgentes [Pliego técnico OPP-SW-004 mantenimiento Java, \"Solvencia técnica y equipo mínimo\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Dedicaciones, jornadas y cobertura"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dedicaciones, jornadas y cobertura: Guardias puntuales para despliegues: 2 noches al mes incluidas [Pliego administrativo OPP-SW-004 mantenimiento Java, \"Costes obligatorios\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Dedicaciones, jornadas y cobertura"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dedicaciones, jornadas y cobertura: El equipo mínimo debe cubrir vacaciones y bajas sin reducir SLA [Pliego técnico OPP-SW-004 mantenimiento Java, \"Delivery / Operación\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Dedicaciones, jornadas y cobertura"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dedicaciones, jornadas y cobertura: El adjudicatario debe demostrar backup operativo para Java y DBA [Pliego técnico OPP-SW-004 mantenimiento Java, \"Recursos mínimos de operación\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Dedicaciones, jornadas y cobertura"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dedicaciones, jornadas y cobertura: El soporte L2/L3 principal no podrá desplazarse a proveedores fuera de la UE [Pliego técnico OPP-SW-004 mantenimiento Java, \"Subcontratación\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa: Compromiso de adscripción del equipo: debe presentarse en la documentación administrativa [Pliego administrativo OPP-SW-004 mantenimiento Java, \"Documentación administrativa\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa: El equipo debe estar disponible desde el go-live operativo en 30 días naturales desde la formalización [Pliego técnico OPP-SW-004 mantenimiento Java, \"Delivery / Operación\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa: El adjudicatario debe demostrar backup operativo para Java y DBA, pero no se especifica número ni condiciones de suplentes [Pliego técnico OPP-SW-004 mantenimiento Java, \"Recursos mínimos de operación\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa: El equipo mínimo debe cubrir vacaciones y bajas sin reducir SLA; no se cuantifica número de suplentes ni condiciones de solapamiento [Pliego técnico OPP-SW-004 mantenimiento Java, \"Delivery / Operación\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa: Declaración responsable de cumplimiento laboral y PRL exigida en la documentación administrativa [Pliego administrativo OPP-SW-004 mantenimiento Java, \"Documentación administrativa\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Compromisos de adscripción, permanencia, reemplazo y documentación acreditativa: No se especifica la exigencia de CV, títulos, vida laboral ni vínculo contractual concreto en la fase de presentación de ofertas; NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Sustituciones y continuidad"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Sustituciones y continuidad: El equipo mínimo debe cubrir vacaciones y bajas sin reducir SLA [Pliego técnico OPP-SW-004 mantenimiento Java, \"Delivery / Operación\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Sustituciones y continuidad"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Sustituciones y continuidad: El adjudicatario debe demostrar backup operativo para Java y DBA [Pliego técnico OPP-SW-004 mantenimiento Java, \"Recursos mínimos de operación\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Sustituciones y continuidad"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Sustituciones y continuidad: No se especifican causas, preaviso, autorización, equivalencia/cualificación, plazo ni transferencia de conocimiento para sustituciones; NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Presencialidad, ubicación e idiomas"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Presencialidad, ubicación e idiomas: Presencialidad: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Presencialidad, ubicación e idiomas"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Presencialidad, ubicación e idiomas: Ubicación: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Presencialidad, ubicación e idiomas"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Presencialidad, ubicación e idiomas: Idiomas: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Certificaciones, titulaciones y habilitaciones"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Certificaciones, titulaciones y habilitaciones: ITIL Foundation requerido para el coordinador del servicio (jefe de servicio) [Pliego técnico OPP-SW-004 mantenimiento Java, \"Service Design / ITIL\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Certificaciones, titulaciones y habilitaciones"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Certificaciones, titulaciones y habilitaciones: Declaración de conformidad ENS básica exigida para el servicio de soporte y mantenimiento; no se exige certificación formal [Pliego técnico OPP-SW-004 mantenimiento Java, \"Seguridad / DPO / ENS\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Certificaciones, titulaciones y habilitaciones"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Certificaciones, titulaciones y habilitaciones: ISO 27001 se valorará como evidencia, pero no es obligatoria [Pliego técnico OPP-SW-004 mantenimiento Java, \"Seguridad / DPO / ENS\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Certificaciones, titulaciones y habilitaciones"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Certificaciones, titulaciones y habilitaciones: Titulación académica: NO CONSTA EN LA DOCUMENTACION REVISADA para ningún perfil."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Certificaciones, titulaciones y habilitaciones"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Certificaciones, titulaciones y habilitaciones: Colegiación: NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Criterios de adjudicación vinculados a perfiles"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Criterios de adjudicación vinculados a perfiles: No existen criterios de adjudicación que puntúen expresamente titulaciones, experiencia o certificaciones individuales de los perfiles. Los criterios técnicos valoran el modelo de servicio, plan de transición, mejoras SLA y bolsa de horas adicional, pero no puntúan perfiles concretos [Pliego administrativo OPP-SW-004 mantenimiento Java, \"Criterios de adjudicación\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Horas, periodos y cobertura"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Horas, periodos y cobertura: Bolsa mínima correctiva y evolutiva incluida: 900 horas anuales [Pliego administrativo OPP-SW-004 mantenimiento Java, \"Costes obligatorios\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Horas, periodos y cobertura"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Horas, periodos y cobertura: Bolsa adicional ofertable máximo 100 horas (criterio puntuable: 1 punto por cada 20 horas adicionales, máximo 5 puntos) [Pliego administrativo OPP-SW-004 mantenimiento Java, \"Criterios de adjudicación\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Horas, periodos y cobertura"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Horas, periodos y cobertura: Bolsa de 200 horas anuales para actuaciones urgentes [Pliego técnico OPP-SW-004 mantenimiento Java, \"Solvencia técnica y equipo mínimo\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Horas, periodos y cobertura"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Horas, periodos y cobertura: Guardias puntuales para despliegues: 2 noches al mes incluidas [Pliego administrativo OPP-SW-004 mantenimiento Java, \"Costes obligatorios\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Incorporación y transición"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Incorporación y transición: Go-live operativo en 30 días naturales desde la formalización del contrato [Pliego técnico OPP-SW-004 mantenimiento Java, \"Delivery / Operación\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Incorporación y transición"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Incorporación y transición: Toma de control incluye inventario de aplicaciones, migración de tickets, configuración de SLA, runbooks y war room durante las 2 primeras semanas [Pliego técnico OPP-SW-004 mantenimiento Java, \"Delivery / Operación\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Incorporación y transición"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Incorporación y transición: Transición de 6 semanas sin facturación adicional y reversibilidad de 4 semanas al final del contrato [Pliego administrativo OPP-SW-004 mantenimiento Java, \"Costes obligatorios\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Documentación acreditativa y fases de presentación"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Documentación acreditativa y fases de presentación: Compromiso de adscripción del equipo: a presentar en la documentación administrativa (fase de presentación de ofertas) [Pliego administrativo OPP-SW-004 mantenimiento Java, \"Documentación administrativa\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Documentación acreditativa y fases de presentación"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Documentación acreditativa y fases de presentación: No se exige la presentación de CV, títulos, vida laboral ni vínculo contractual concreto en la fase de presentación de ofertas; NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Documentación acreditativa y fases de presentación"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Documentación acreditativa y fases de presentación: Declaración responsable de cumplimiento laboral y PRL: a presentar en la documentación administrativa [Pliego administrativo OPP-SW-004 mantenimiento Java, \"Documentación administrativa\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Otras condiciones relevantes"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Otras condiciones relevantes: El adjudicatario debe aportar entorno de pruebas, herramientas de calidad de código, monitorización aplicacional y soporte de DBA experto para incidencias Oracle puntuales [Pliego administrativo OPP-SW-004 mantenimiento Java, \"Anexo compras / partners\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Otras condiciones relevantes"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Otras condiciones relevantes: El adjudicatario debe demostrar backup operativo para Java y DBA, pero no se especifica número ni condiciones de suplentes [Pliego técnico OPP-SW-004 mantenimiento Java, \"Recursos mínimos de operación\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Otras condiciones relevantes"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Otras condiciones relevantes: El soporte L2/L3 principal no podrá desplazarse a proveedores fuera de la UE [Pliego técnico OPP-SW-004 mantenimiento Java, \"Subcontratación\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Discrepancias y pendientes de aclaración"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Discrepancias y pendientes de aclaración: No se han identificado discrepancias en la documentación revisada."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Discrepancias y pendientes de aclaración"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Discrepancias y pendientes de aclaración: No se especifica titulación académica mínima para ningún perfil; NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Discrepancias y pendientes de aclaración"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Discrepancias y pendientes de aclaración: No se especifican condiciones de presencialidad, ubicación ni idiomas; NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Discrepancias y pendientes de aclaración"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Discrepancias y pendientes de aclaración: No se cuantifican suplentes ni condiciones de solapamiento para cobertura de bajas y vacaciones; solo se exige que el equipo mínimo cubra sin reducir SLA [Pliego técnico OPP-SW-004 mantenimiento Java, \"Delivery / Operación\"]."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Discrepancias y pendientes de aclaración"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Discrepancias y pendientes de aclaración: No se exige la presentación de CV, títulos, vida laboral ni vínculo contractual concreto en la fase de presentación de ofertas; NO CONSTA EN LA DOCUMENTACION REVISADA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Fuente no individualizada en la extracción; pendiente de verificación.]"
+        }
+      ]
+    },
+    {
+      "titulo": "Seguridad y ENS",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe presentar declaración de conformidad ENS BASICA para el servicio de soporte y mantenimiento; no se exige certificación formal ENS."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se valorará como evidencia la certificación ISO 27001, pero no es obligatoria."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El servicio de mantenimiento accede a datos de empleados, expedientes internos, logs de aplicaciones y bases de datos legacy."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Acceso remoto al entorno del cliente solo por VPN corporativa."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Las cuentas de acceso deben ser nominativas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Es obligatorio el uso de autenticación multifactor (MFA) para el acceso remoto."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Debe existir segregación de funciones en el equipo de soporte y desarrollo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Es obligatorio el registro de cambios realizados en los sistemas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Debe garantizarse la trazabilidad de accesos a bases de datos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los backups deben estar cifrados."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Todo el personal del adjudicatario debe mantener la confidencialidad sobre la información a la que acceda."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los parches críticos de aplicaciones legacy deben aplicarse en un plazo máximo de 5 días si existe versión compatible."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los sistemas EOL/EOS (End of Life/End of Support) deberán registrarse como excepción de riesgo."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La comunicación de incidentes al cliente debe realizarse en un plazo máximo de 4 horas desde su detección."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La comunicación de brechas de datos personales debe realizarse en un plazo máximo de 2 horas desde su detección."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Los logs de soporte y cambios deben conservarse durante 12 meses."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La subcontratación está permitida solo para tareas especializadas y requiere autorización previa; el soporte L2/L3 principal no podrá desplazarse a proveedores fuera de la UE."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El acceso a ITSM y repositorios del cliente es necesario para la operación; la ausencia de acceso en la primera semana se considera de alto riesgo para el arranque."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado Delivery / Operación]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe aportar entorno de pruebas, herramientas de calidad de código y monitorización aplicacional."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, Anexo compras/partners]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La documentación generada será propiedad del cliente."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado Conocimiento]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Penalización por pérdida de documentación y falta de trazabilidad en tickets."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, Penalidades]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Penalización por incumplimiento de SLA crítico hasta el 4% de la factura mensual, acumulado máximo 12% mensual."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, Penalidades]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Penalización del 2% mensual por cada SLA bajo el 95%, máximo 10%."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado SLA]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El equipo mínimo debe cubrir vacaciones y bajas sin reducir el cumplimiento de SLA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado Delivery / Operación]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe mantener actualizados mensualmente los manuales, runbooks y FAQ."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado Conocimiento]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe realizar transferencia de conocimiento de 5 jornadas y actualizar la documentación técnica."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado Delivery / Operación]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Si el proveedor saliente no colabora, el adjudicatario debe ejecutar discovery intensivo y revisar el plan de go-live."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, apartado Delivery / Operación]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA: contenido exigido del acuerdo de encargado/subencargado."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA: reglas sobre localización de datos y transferencias internacionales, salvo la prohibición de desplazar soporte L2/L3 fuera de la UE."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA: medidas técnicas específicas sobre RBAC, PAM, bastionado, segmentación, EDR/XDR, WAF, SIEM, DLP, backups incrementales, logs avanzados, SOC, continuidad, DR, RTO/RPO, pruebas de recuperación, SDLC, DevSecOps, SAST, DAST, SCA, secretos, OWASP, CI/CD, SBOM, seguridad del personal, DPO/DPD designado, EIPD, auditorías, borrado seguro, devolución de datos y plazos de confidencialidad tras el contrato."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        }
+      ]
+    },
+    {
+      "titulo": "Compras y suministros",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "El servicio de mantenimiento usa herramientas ITSM del cliente, por lo que no se compran licencias ITSM salvo conectores o usuarios adicionales."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, Anexo Compras/Partners]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe aportar entorno PRE y monitorización aplicacional para la operación del servicio."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, Delivery/Operación]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe aportar herramientas de calidad de código para la operación del servicio."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, Delivery/Operación]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe aportar soporte DBA Oracle puntual para incidencias críticas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, Delivery/Operación]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe aportar recursos mínimos de operación: jefe de servicio 25 %, tres desarrolladores Java 70 %, soporte L2 100 %, QA 20 %, soporte DBA Oracle puntual."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, Delivery/Operación]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe aportar herramientas ITSM equivalentes a Jira Service Management para 5 agentes si no se dispone de acceso a la herramienta del cliente."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, Anexo económico-financiero]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe aportar cuadro de mando mensual y repositorio documental si no se dispone de acceso a los del cliente."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, Anexo económico-financiero]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe aportar bolsa mínima correctiva y evolutiva de 900 horas anuales."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, Anexo económico-financiero]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe aportar bolsa adicional ofertable de hasta 100 horas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, Anexo económico-financiero]"
+        }
+      ]
+    },
+    {
+      "titulo": "Fabricantes y equivalencias",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "No se exige fabricante nominal para herramientas de calidad de código, monitorización o ITSM, pero se permite Jira Service Management o equivalente."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, Anexo económico-financiero]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se establecen requisitos mínimos de equivalencia técnica para herramientas de calidad de código, monitorización o ITSM, salvo la funcionalidad equivalente a Jira Service Management para 5 agentes."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, Anexo económico-financiero]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, partnership, autorizaciones de canal o compromisos de fabricante."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        }
+      ]
+    },
+    {
+      "titulo": "Subcontratación y medios externos",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Se permite la subcontratación de tareas especializadas hasta el 30 % del importe del contrato."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, Condiciones de participación]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se admite subcontratación hasta el 20 % para DBA especializado y pruebas de rendimiento, debiendo declarar el proveedor si supera el 10 %."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego administrativo OPP-SW-004 mantenimiento Java, Anexo Compras/Partners]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Subcontratación permitida solo para tareas especializadas previa autorización; el soporte L2/L3 principal no podrá desplazarse a proveedores fuera de la UE."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, Seguridad/DPO/ENS]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe demostrar backup operativo para Java y DBA, pudiendo ser interno o subcontratado."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, Delivery/Operación]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia, prohibición o limitación de UTE, alianzas o consorcios."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        }
+      ]
+    },
+    {
+      "titulo": "Cadena de suministro",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna descripción o condicionamiento contractual expreso de la cadena de suministro."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        }
+      ]
+    },
+    {
+      "titulo": "Plazos de suministro, stock, garantías y soporte",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Go-live operativo en 30 días naturales desde la formalización del contrato."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, Delivery/Operación]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe aportar recursos mínimos de operación desde el inicio del servicio, cubriendo vacaciones y bajas sin reducir SLA."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[Pliego técnico OPP-SW-004 mantenimiento Java, Delivery/Operación]"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de stock, lead time, EOL/EOS, homologaciones, sostenibilidad, logística, staging, retirada o destrucción de equipos o software."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        }
+      ]
+    },
+    {
+      "titulo": "SLA de terceros y back-to-back",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de SLA de terceros o back-to-back contractual con fabricantes o proveedores externos."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "[NO CONSTA EN LA DOCUMENTACION REVISADA]"
+        }
+      ]
+    }
+  ],
+  "conclusion": [
+    "**DOCUMENTALMENTE ESTABLECIDO:** El contrato abarca el mantenimiento evolutivo y soporte L2/L3 de aplicaciones Java legacy, con cobertura a 900 usuarios internos, 12 aplicaciones y tres sedes, bajo un modelo gestionado y con exigencias de equipo mínimo, experiencia y solvencia económica y técnica.",
+    "**PUNTO CRÍTICO DE ADJUDICACIÓN:** La valoración económica (55 puntos) y las mejoras automáticas en SLA (18 puntos) son los factores decisivos, junto con el modelo de servicio (15 puntos), el plan de transición (7 puntos) y la bolsa de horas adicional (5 puntos).",
+    "**PUNTO RELEVANTE:** El equipo mínimo debe estar disponible desde el go-live en 30 días, cubrir vacaciones y bajas sin reducir SLA, y acreditar experiencia y certificación ITIL Foundation para el jefe de servicio. La subcontratación está permitida solo para tareas especializadas, con límites y declaración de proveedor según el tipo de tarea.",
+    "**PUNTO RELEVANTE:** El adjudicatario debe aportar entorno de pruebas, herramientas de calidad de código, monitorización aplicacional y soporte DBA Oracle puntual, además de cumplir con estrictas medidas de seguridad, confidencialidad y trazabilidad, y mantener la documentación y manuales actualizados mensualmente.",
+    "**CONTRADICCIÓN / AMBIGÜEDAD:** Existen discrepancias entre los pliegos administrativo y técnico en los límites de subcontratación (30% general vs. 20% para DBA/pruebas de rendimiento) y en las penalizaciones por SLA (2% mensual por SLA bajo 95% hasta 10% vs. 4% por SLA crítico hasta 12%).",
+    "**NO LOCALIZADO:** No consta en la documentación revisada la plataforma de presentación, formato y extensión de los documentos, nomenclatura de archivos, idioma de presentación, firma electrónica, autorización de UTE, garantías provisional, definitiva o complementaria, seguro de caución, retención de garantía técnica, ni condiciones de cadena de suministro o SLA de terceros.",
+    "**NO EXIGIDO EXPRESAMENTE:** No se exige certificado ISO ni ENS formal, ni carta de fabricante, partnership, clasificación empresarial, patrimonio neto mínimo, ratios financieros, ni requisitos de CPV específico o destinatario público para la solvencia técnica.",
+    "**DECISIÓN INTERNA REQUERIDA:** Se recomienda aclarar con el órgano de contratación los límites de subcontratación aplicables y la base de cálculo de penalizaciones por SLA, así como confirmar los requisitos formales de presentación y la admisión de UTE si se prevé concurrir en consorcio.",
+    "**AVISO DE PROCESAMIENTO:** El informe se ha elaborado exclusivamente a partir de los documentos y registros extraídos en la ejecución indicada, sin certificar la exhaustividad de la revisión documental ni la validez de ejecuciones anteriores."
+  ]
+}

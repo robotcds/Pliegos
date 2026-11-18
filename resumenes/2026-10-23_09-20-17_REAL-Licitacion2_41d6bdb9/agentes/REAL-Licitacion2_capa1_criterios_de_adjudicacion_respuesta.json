@@ -1,0 +1,843 @@
+{
+  "expediente": "REAL-Licitacion2",
+  "id": "A4",
+  "nombre": "Criterios de adjudicación",
+  "capa": 1,
+  "contenido": {
+    "requisitos_documentales": [
+      {
+        "id": "R0001",
+        "seccion": "Criterios de adjudicación: estructura general",
+        "detalle": "La adjudicación se realiza por pluralidad de criterios: 70% económico (precio), 27% técnico por juicio de valor, 3% técnico automático. Suma total: 100%.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.10-11, Anexo IX-X",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0002",
+        "seccion": "Criterios de adjudicación: bloques y pesos",
+        "detalle": "Criterios sujetos a juicio de valor: 27 puntos (27%). Criterios evaluables automáticamente: 3 puntos (3%). Criterio económico: 70 puntos (70%). Suma comprobada: 100 puntos (100%).",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.10-11, Anexo IX-X",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0003",
+        "seccion": "Criterios de adjudicación: juicio de valor",
+        "detalle": "Criterios técnicos evaluables mediante juicio de valor (máx. 27 puntos): 1) Solución técnica del servicio (0-16 puntos), 2) Características y conocimientos del equipo de trabajo asociados a la prestación del servicio (0-11 puntos).",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.84-85",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0004",
+        "seccion": "Subcriterios juicio de valor: Solución técnica",
+        "detalle": "1.1 Descripción y detalle del alcance completo de los servicios solicitados en el pliego (0-9 puntos, con desglose: 3 por detalle y adecuación, 1 por modelo relación cliente-proveedor, 2 por optimización y mejora continua, 2 por plan de subcontratación, 1 por gestión del conocimiento). 1.2 Descripción del modelo de gobierno de entrega del servicio (0-3 puntos, 1 por cada aspecto detallado). 1.3 Plan propuesto para la transición del servicio (0-2 puntos, 1.5 por detalle y adecuación, 0.5 si el tiempo es inferior a 30 días naturales). 1.4 Plan propuesto para la reversión del servicio (0-2 puntos, 1 por detalle y adecuación, 1 si el equipo de reversión es >5 personas).",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.84-85",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0005",
+        "seccion": "Subcriterios juicio de valor: Equipo de trabajo",
+        "detalle": "2.1 Propuesta organizativa y descripción del equipo de trabajo con características adicionales a las requeridas en la fase de solvencia (0-4 puntos; mayor detalle, más recursos y menor precio, mayor puntuación; 4 puntos si se proporciona propuesta con correcto nivel de detalle y se adecua a los requisitos). 2.2 Incremento de horas ofrecidas sobre las necesidades estimadas (0-7 puntos; 5 puntos a la mejor oferta, puntuación proporcional al resto; 2 puntos adicionales a mayor número de mejoras).",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.85-86",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0006",
+        "seccion": "Regla de normalización técnica",
+        "detalle": "La puntuación técnica de la oferta estará constituida por la suma de las puntuaciones finales asignadas a cada uno de los bloques de criterios técnicos, con un máximo de 27 puntos. La puntuación técnica (PT) se normaliza: PTn = PTm × VTn / VTm, donde PTm=27, VTn=valoración técnica de la oferta n, VTm=valoración técnica más alta. Redondeo al segundo decimal.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0007",
+        "seccion": "Criterios de adjudicación: automáticos técnicos",
+        "detalle": "Criterio técnico automático: Acuerdo de Niveles de Servicio (ANS), mejora en los Niveles de Servicio solicitados en el Anexo XVII – Evaluación de Proveedores. Se obtendrá 0,5 puntos por cada indicador mejorado hasta un máximo de 3 puntos.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0008",
+        "seccion": "Criterios de adjudicación: económicos",
+        "detalle": "Criterio económico: hasta 70 puntos. Fórmula de puntuación económica basada en el descuento ofertado respecto al presupuesto de licitación (DtoN).",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87-88",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0009",
+        "seccion": "Fórmula de puntuación económica",
+        "detalle": "DtoN = (PL - POn) / PL × 100, donde PL=Presupuesto de licitación, POn=Presupuesto Oferta n, DtoN=Descuento de la Oferta N. PEn (puntuación económica de la oferta n) según tramos: DtoN ≥ 0 y DtoN ≤ 10: PEn = DtoN × 50 / 10; DtoN > 10 y DtoN ≤ 25: PEn = (DtoN - 10) × 20 / 15 + 50; DtoN > 25 y DtoN ≤ 30: PEn = (DtoN - 25) × -70 / 5 + 70; DtoN > 30: PEn = 0.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.88",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0010",
+        "seccion": "Tramos y extremos de la fórmula económica",
+        "detalle": "Tramos: 0-10% descuento (lineal hasta 50 puntos), 10-25% (lineal hasta 70 puntos), 25-30% (decreciente hasta 0 puntos), >30% (0 puntos). Cálculo: el máximo de 70 puntos se alcanza en 25% de descuento; a partir de ahí, la puntuación decrece hasta 0 en 30%.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.88",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0011",
+        "seccion": "Redondeo de puntuaciones",
+        "detalle": "Todas las puntuaciones serán redondeadas al segundo decimal.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0012",
+        "seccion": "Documentos de oferta requeridos",
+        "detalle": "Sobre 2: oferta técnica y criterios de adjudicación cuya evaluación depende de un juicio de valor (Anexo IX). Sobre 3: proposición económica y criterios de adjudicación de evaluación automática (Anexo X).",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0013",
+        "seccion": "Mejoras puntuables",
+        "detalle": "Mejoras en los ANS (criterio técnico automático, 0,5 puntos por cada indicador mejorado hasta 3 puntos). Mejoras y valores adicionales propuestos en el pliego (criterio juicio de valor, hasta 2 puntos adicionales en 2.2).",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX-X, p.85-87",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0014",
+        "seccion": "Umbrales y topes",
+        "detalle": "Máximo total: 100 puntos. Máximo técnico (juicio de valor): 27 puntos. Máximo técnico automático: 3 puntos. Máximo económico: 70 puntos.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX-X, p.84-88",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0015",
+        "seccion": "Reglas de desempate",
+        "detalle": "En caso de empate tras la aplicación de los criterios de adjudicación, se acudirá a lo dispuesto en el artículo 66.11 del Real Decreto Ley 3/2020.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.11",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0016",
+        "seccion": "Régimen de ofertas anormalmente bajas",
+        "detalle": "Se considerará anormalmente baja una proposición económica que incluya un porcentaje de baja que, respecto de la media aritmética de los porcentajes de baja de todas las ofertas admitidas, o del presupuesto de licitación en caso de licitador único, exceda de diez unidades porcentuales. En tal caso, se solicitará justificación por escrito en 5 días hábiles. Si no se recibe, se entiende retirada la oferta. Si la justificación no es aceptada, se adjudica al siguiente mejor. Si resulta adjudicataria, se exigirá garantía complementaria del 5%.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.16, 18",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0017",
+        "seccion": "Criterios afectados por anormalidad",
+        "detalle": "El régimen de anormalidad afecta al criterio económico (precio).",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.16",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0018",
+        "seccion": "Documentos de justificación de anormalidad",
+        "detalle": "Justificación por escrito, razonada y detallada, en 5 días hábiles desde el requerimiento.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.16",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0019",
+        "seccion": "Consecuencias de no justificar anormalidad",
+        "detalle": "Si no se justifica en plazo, se entiende retirada la oferta. Si la justificación no es aceptada, se adjudica al siguiente mejor.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.16",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0020",
+        "seccion": "Garantía complementaria por anormalidad",
+        "detalle": "Si una oferta anormalmente baja resulta adjudicataria, se exigirá garantía complementaria del 5% del importe de adjudicación (IVA excluido).",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.18",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0021",
+        "seccion": "Exclusiones y penalizaciones",
+        "detalle": "No se han identificado exclusiones automáticas adicionales ni penalizaciones específicas en la valoración de criterios de adjudicación, más allá de las reglas de anormalidad y las penalizaciones por incumplimiento de ANS (ver Anexo XVII).",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV-XVII",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0022",
+        "seccion": "Criterios de selección (no puntuables)",
+        "detalle": "Solvencia económica: volumen anual de negocios en el ámbito del contrato, mejor ejercicio de los tres últimos, al menos 1.190.000 €. Solvencia técnica: haber realizado 3 servicios de igual o similar naturaleza en los tres últimos años, importe anual acumulado en el año de mayor ejecución igual o superior a 1.190.000 €. Certificados ISO 27001 e ISO 20000 o equivalentes. Compromiso de adscripción de medios personales o materiales.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.7-8, Anexo V",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0023",
+        "seccion": "Criterios de adjudicación: exclusión de mínimos",
+        "detalle": "Los requisitos mínimos de la prestación objeto del contrato no son objeto de negociación ni de valoración como criterios de adjudicación.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.15",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0024",
+        "seccion": "Criterios de adjudicación: condiciones de presentación",
+        "detalle": "La inclusión de cualquier documentación y/o información en el SOBRE 2 que debiera incluirse en el SOBRE 3 supondrá la exclusión del licitador.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "A4-S0025",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "Si se requiere el desarrollo de los ANS o penalizaciones asociadas, consultar el Anexo XVII del pliego.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0026",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No se han identificado discrepancias en la documentación revisada entre los criterios de adjudicación, fórmulas, pesos, tramos y reglas de valoración. Las sumas de puntos y porcentajes coinciden en todos los apartados y anexos.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0027",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No consta baremo alternativo ni contradicción entre el pliego y los anexos.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0028",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No se han localizado criterios de adjudicación adicionales fuera de los desarrollados en los Anexos IX y X.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0029",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No se han localizado reglas de redondeo distintas a la indicada (segundo decimal).",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0030",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No se han localizado reglas de exclusión o penalización adicionales en la valoración de criterios de adjudicación.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0031",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No se han localizado criterios de adjudicación automáticos adicionales a los expresamente indicados.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0032",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No se han localizado reglas de normalización distintas a la expresada para la puntuación técnica.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0033",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No se han localizado reglas de desempate adicionales a la remisión al artículo 66.11 del RDL 3/2020.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0034",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No se han localizado reglas de anormalidad distintas a las expresadas.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      }
+    ],
+    "resumen": [
+      "No se han identificado discrepancias en la documentación revisada entre los criterios de adjudicación, fórmulas, pesos, tramos y reglas de valoración. Las sumas de puntos y porcentajes coinciden en todos los apartados y anexos.",
+      "No consta baremo alternativo ni contradicción entre el pliego y los anexos.",
+      "No se han localizado criterios de adjudicación adicionales fuera de los desarrollados en los Anexos IX y X.",
+      "No se han localizado reglas de redondeo distintas a la indicada (segundo decimal).",
+      "No se han localizado reglas de exclusión o penalización adicionales en la valoración de criterios de adjudicación.",
+      "No se han localizado criterios de adjudicación automáticos adicionales a los expresamente indicados.",
+      "No se han localizado reglas de normalización distintas a la expresada para la puntuación técnica.",
+      "No se han localizado reglas de desempate adicionales a la remisión al artículo 66.11 del RDL 3/2020.",
+      "No se han localizado reglas de anormalidad distintas a las expresadas.",
+      "Si se requiere el desarrollo de los ANS o penalizaciones asociadas, consultar el Anexo XVII del pliego."
+    ],
+    "secciones": [
+      {
+        "titulo": "Registro documental de preventa",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Materia",
+              "Requisito completo",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Materia": "Criterios de adjudicación: estructura general",
+                "Requisito completo": "La adjudicación se realiza por pluralidad de criterios: 70% económico (precio), 27% técnico por juicio de valor, 3% técnico automático. Suma total: 100%.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.10-11, Anexo IX-X"
+              },
+              {
+                "Materia": "Criterios de adjudicación: bloques y pesos",
+                "Requisito completo": "Criterios sujetos a juicio de valor: 27 puntos (27%). Criterios evaluables automáticamente: 3 puntos (3%). Criterio económico: 70 puntos (70%). Suma comprobada: 100 puntos (100%).",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.10-11, Anexo IX-X"
+              },
+              {
+                "Materia": "Criterios de adjudicación: juicio de valor",
+                "Requisito completo": "Criterios técnicos evaluables mediante juicio de valor (máx. 27 puntos): 1) Solución técnica del servicio (0-16 puntos), 2) Características y conocimientos del equipo de trabajo asociados a la prestación del servicio (0-11 puntos).",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.84-85"
+              },
+              {
+                "Materia": "Subcriterios juicio de valor: Solución técnica",
+                "Requisito completo": "1.1 Descripción y detalle del alcance completo de los servicios solicitados en el pliego (0-9 puntos, con desglose: 3 por detalle y adecuación, 1 por modelo relación cliente-proveedor, 2 por optimización y mejora continua, 2 por plan de subcontratación, 1 por gestión del conocimiento). 1.2 Descripción del modelo de gobierno de entrega del servicio (0-3 puntos, 1 por cada aspecto detallado). 1.3 Plan propuesto para la transición del servicio (0-2 puntos, 1.5 por detalle y adecuación, 0.5 si el tiempo es inferior a 30 días naturales). 1.4 Plan propuesto para la reversión del servicio (0-2 puntos, 1 por detalle y adecuación, 1 si el equipo de reversión es >5 personas).",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.84-85"
+              },
+              {
+                "Materia": "Subcriterios juicio de valor: Equipo de trabajo",
+                "Requisito completo": "2.1 Propuesta organizativa y descripción del equipo de trabajo con características adicionales a las requeridas en la fase de solvencia (0-4 puntos; mayor detalle, más recursos y menor precio, mayor puntuación; 4 puntos si se proporciona propuesta con correcto nivel de detalle y se adecua a los requisitos). 2.2 Incremento de horas ofrecidas sobre las necesidades estimadas (0-7 puntos; 5 puntos a la mejor oferta, puntuación proporcional al resto; 2 puntos adicionales a mayor número de mejoras).",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.85-86"
+              },
+              {
+                "Materia": "Regla de normalización técnica",
+                "Requisito completo": "La puntuación técnica de la oferta estará constituida por la suma de las puntuaciones finales asignadas a cada uno de los bloques de criterios técnicos, con un máximo de 27 puntos. La puntuación técnica (PT) se normaliza: PTn = PTm × VTn / VTm, donde PTm=27, VTn=valoración técnica de la oferta n, VTm=valoración técnica más alta. Redondeo al segundo decimal.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86"
+              },
+              {
+                "Materia": "Criterios de adjudicación: automáticos técnicos",
+                "Requisito completo": "Criterio técnico automático: Acuerdo de Niveles de Servicio (ANS), mejora en los Niveles de Servicio solicitados en el Anexo XVII – Evaluación de Proveedores. Se obtendrá 0,5 puntos por cada indicador mejorado hasta un máximo de 3 puntos.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87"
+              },
+              {
+                "Materia": "Criterios de adjudicación: económicos",
+                "Requisito completo": "Criterio económico: hasta 70 puntos. Fórmula de puntuación económica basada en el descuento ofertado respecto al presupuesto de licitación (DtoN).",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87-88"
+              },
+              {
+                "Materia": "Fórmula de puntuación económica",
+                "Requisito completo": "DtoN = (PL - POn) / PL × 100, donde PL=Presupuesto de licitación, POn=Presupuesto Oferta n, DtoN=Descuento de la Oferta N. PEn (puntuación económica de la oferta n) según tramos: DtoN ≥ 0 y DtoN ≤ 10: PEn = DtoN × 50 / 10; DtoN > 10 y DtoN ≤ 25: PEn = (DtoN - 10) × 20 / 15 + 50; DtoN > 25 y DtoN ≤ 30: PEn = (DtoN - 25) × -70 / 5 + 70; DtoN > 30: PEn = 0.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.88"
+              },
+              {
+                "Materia": "Tramos y extremos de la fórmula económica",
+                "Requisito completo": "Tramos: 0-10% descuento (lineal hasta 50 puntos), 10-25% (lineal hasta 70 puntos), 25-30% (decreciente hasta 0 puntos), >30% (0 puntos). Cálculo: el máximo de 70 puntos se alcanza en 25% de descuento; a partir de ahí, la puntuación decrece hasta 0 en 30%.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.88"
+              },
+              {
+                "Materia": "Redondeo de puntuaciones",
+                "Requisito completo": "Todas las puntuaciones serán redondeadas al segundo decimal.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86"
+              },
+              {
+                "Materia": "Documentos de oferta requeridos",
+                "Requisito completo": "Sobre 2: oferta técnica y criterios de adjudicación cuya evaluación depende de un juicio de valor (Anexo IX). Sobre 3: proposición económica y criterios de adjudicación de evaluación automática (Anexo X).",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12"
+              },
+              {
+                "Materia": "Mejoras puntuables",
+                "Requisito completo": "Mejoras en los ANS (criterio técnico automático, 0,5 puntos por cada indicador mejorado hasta 3 puntos). Mejoras y valores adicionales propuestos en el pliego (criterio juicio de valor, hasta 2 puntos adicionales en 2.2).",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX-X, p.85-87"
+              },
+              {
+                "Materia": "Umbrales y topes",
+                "Requisito completo": "Máximo total: 100 puntos. Máximo técnico (juicio de valor): 27 puntos. Máximo técnico automático: 3 puntos. Máximo económico: 70 puntos.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX-X, p.84-88"
+              },
+              {
+                "Materia": "Reglas de desempate",
+                "Requisito completo": "En caso de empate tras la aplicación de los criterios de adjudicación, se acudirá a lo dispuesto en el artículo 66.11 del Real Decreto Ley 3/2020.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.11"
+              },
+              {
+                "Materia": "Régimen de ofertas anormalmente bajas",
+                "Requisito completo": "Se considerará anormalmente baja una proposición económica que incluya un porcentaje de baja que, respecto de la media aritmética de los porcentajes de baja de todas las ofertas admitidas, o del presupuesto de licitación en caso de licitador único, exceda de diez unidades porcentuales. En tal caso, se solicitará justificación por escrito en 5 días hábiles. Si no se recibe, se entiende retirada la oferta. Si la justificación no es aceptada, se adjudica al siguiente mejor. Si resulta adjudicataria, se exigirá garantía complementaria del 5%.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.16, 18"
+              },
+              {
+                "Materia": "Criterios afectados por anormalidad",
+                "Requisito completo": "El régimen de anormalidad afecta al criterio económico (precio).",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.16"
+              },
+              {
+                "Materia": "Documentos de justificación de anormalidad",
+                "Requisito completo": "Justificación por escrito, razonada y detallada, en 5 días hábiles desde el requerimiento.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.16"
+              },
+              {
+                "Materia": "Consecuencias de no justificar anormalidad",
+                "Requisito completo": "Si no se justifica en plazo, se entiende retirada la oferta. Si la justificación no es aceptada, se adjudica al siguiente mejor.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.16"
+              },
+              {
+                "Materia": "Garantía complementaria por anormalidad",
+                "Requisito completo": "Si una oferta anormalmente baja resulta adjudicataria, se exigirá garantía complementaria del 5% del importe de adjudicación (IVA excluido).",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.18"
+              },
+              {
+                "Materia": "Exclusiones y penalizaciones",
+                "Requisito completo": "No se han identificado exclusiones automáticas adicionales ni penalizaciones específicas en la valoración de criterios de adjudicación, más allá de las reglas de anormalidad y las penalizaciones por incumplimiento de ANS (ver Anexo XVII).",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV-XVII"
+              },
+              {
+                "Materia": "Criterios de selección (no puntuables)",
+                "Requisito completo": "Solvencia económica: volumen anual de negocios en el ámbito del contrato, mejor ejercicio de los tres últimos, al menos 1.190.000 €. Solvencia técnica: haber realizado 3 servicios de igual o similar naturaleza en los tres últimos años, importe anual acumulado en el año de mayor ejecución igual o superior a 1.190.000 €. Certificados ISO 27001 e ISO 20000 o equivalentes. Compromiso de adscripción de medios personales o materiales.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.7-8, Anexo V"
+              },
+              {
+                "Materia": "Criterios de adjudicación: exclusión de mínimos",
+                "Requisito completo": "Los requisitos mínimos de la prestación objeto del contrato no son objeto de negociación ni de valoración como criterios de adjudicación.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.15"
+              },
+              {
+                "Materia": "Criterios de adjudicación: condiciones de presentación",
+                "Requisito completo": "La inclusión de cualquier documentación y/o información en el SOBRE 2 que debiera incluirse en el SOBRE 3 supondrá la exclusión del licitador.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "parrafos": [
+          "Si se requiere el desarrollo de los ANS o penalizaciones asociadas, consultar el Anexo XVII del pliego."
+        ],
+        "elementos": [
+          "No se han identificado discrepancias en la documentación revisada entre los criterios de adjudicación, fórmulas, pesos, tramos y reglas de valoración. Las sumas de puntos y porcentajes coinciden en todos los apartados y anexos.",
+          "No consta baremo alternativo ni contradicción entre el pliego y los anexos.",
+          "No se han localizado criterios de adjudicación adicionales fuera de los desarrollados en los Anexos IX y X.",
+          "No se han localizado reglas de redondeo distintas a la indicada (segundo decimal).",
+          "No se han localizado reglas de exclusión o penalización adicionales en la valoración de criterios de adjudicación.",
+          "No se han localizado criterios de adjudicación automáticos adicionales a los expresamente indicados.",
+          "No se han localizado reglas de normalización distintas a la expresada para la puntuación técnica.",
+          "No se han localizado reglas de desempate adicionales a la remisión al artículo 66.11 del RDL 3/2020.",
+          "No se han localizado reglas de anormalidad distintas a las expresadas."
+        ],
+        "tablas": []
+      }
+    ],
+    "pendientes_y_no_localizados": [
+      {
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "parrafos": [
+          "Si se requiere el desarrollo de los ANS o penalizaciones asociadas, consultar el Anexo XVII del pliego."
+        ],
+        "elementos": [
+          "No se han identificado discrepancias en la documentación revisada entre los criterios de adjudicación, fórmulas, pesos, tramos y reglas de valoración. Las sumas de puntos y porcentajes coinciden en todos los apartados y anexos.",
+          "No consta baremo alternativo ni contradicción entre el pliego y los anexos.",
+          "No se han localizado criterios de adjudicación adicionales fuera de los desarrollados en los Anexos IX y X.",
+          "No se han localizado reglas de redondeo distintas a la indicada (segundo decimal).",
+          "No se han localizado reglas de exclusión o penalización adicionales en la valoración de criterios de adjudicación.",
+          "No se han localizado criterios de adjudicación automáticos adicionales a los expresamente indicados.",
+          "No se han localizado reglas de normalización distintas a la expresada para la puntuación técnica.",
+          "No se han localizado reglas de desempate adicionales a la remisión al artículo 66.11 del RDL 3/2020.",
+          "No se han localizado reglas de anormalidad distintas a las expresadas."
+        ],
+        "tablas": []
+      }
+    ],
+    "trazabilidad": [
+      {
+        "Materia": "Criterios de adjudicación: estructura general",
+        "Requisito completo": "La adjudicación se realiza por pluralidad de criterios: 70% económico (precio), 27% técnico por juicio de valor, 3% técnico automático. Suma total: 100%.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.10-11, Anexo IX-X"
+      },
+      {
+        "Materia": "Criterios de adjudicación: bloques y pesos",
+        "Requisito completo": "Criterios sujetos a juicio de valor: 27 puntos (27%). Criterios evaluables automáticamente: 3 puntos (3%). Criterio económico: 70 puntos (70%). Suma comprobada: 100 puntos (100%).",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.10-11, Anexo IX-X"
+      },
+      {
+        "Materia": "Criterios de adjudicación: juicio de valor",
+        "Requisito completo": "Criterios técnicos evaluables mediante juicio de valor (máx. 27 puntos): 1) Solución técnica del servicio (0-16 puntos), 2) Características y conocimientos del equipo de trabajo asociados a la prestación del servicio (0-11 puntos).",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.84-85"
+      },
+      {
+        "Materia": "Subcriterios juicio de valor: Solución técnica",
+        "Requisito completo": "1.1 Descripción y detalle del alcance completo de los servicios solicitados en el pliego (0-9 puntos, con desglose: 3 por detalle y adecuación, 1 por modelo relación cliente-proveedor, 2 por optimización y mejora continua, 2 por plan de subcontratación, 1 por gestión del conocimiento). 1.2 Descripción del modelo de gobierno de entrega del servicio (0-3 puntos, 1 por cada aspecto detallado). 1.3 Plan propuesto para la transición del servicio (0-2 puntos, 1.5 por detalle y adecuación, 0.5 si el tiempo es inferior a 30 días naturales). 1.4 Plan propuesto para la reversión del servicio (0-2 puntos, 1 por detalle y adecuación, 1 si el equipo de reversión es >5 personas).",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.84-85"
+      },
+      {
+        "Materia": "Subcriterios juicio de valor: Equipo de trabajo",
+        "Requisito completo": "2.1 Propuesta organizativa y descripción del equipo de trabajo con características adicionales a las requeridas en la fase de solvencia (0-4 puntos; mayor detalle, más recursos y menor precio, mayor puntuación; 4 puntos si se proporciona propuesta con correcto nivel de detalle y se adecua a los requisitos). 2.2 Incremento de horas ofrecidas sobre las necesidades estimadas (0-7 puntos; 5 puntos a la mejor oferta, puntuación proporcional al resto; 2 puntos adicionales a mayor número de mejoras).",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.85-86"
+      },
+      {
+        "Materia": "Regla de normalización técnica",
+        "Requisito completo": "La puntuación técnica de la oferta estará constituida por la suma de las puntuaciones finales asignadas a cada uno de los bloques de criterios técnicos, con un máximo de 27 puntos. La puntuación técnica (PT) se normaliza: PTn = PTm × VTn / VTm, donde PTm=27, VTn=valoración técnica de la oferta n, VTm=valoración técnica más alta. Redondeo al segundo decimal.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86"
+      },
+      {
+        "Materia": "Criterios de adjudicación: automáticos técnicos",
+        "Requisito completo": "Criterio técnico automático: Acuerdo de Niveles de Servicio (ANS), mejora en los Niveles de Servicio solicitados en el Anexo XVII – Evaluación de Proveedores. Se obtendrá 0,5 puntos por cada indicador mejorado hasta un máximo de 3 puntos.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87"
+      },
+      {
+        "Materia": "Criterios de adjudicación: económicos",
+        "Requisito completo": "Criterio económico: hasta 70 puntos. Fórmula de puntuación económica basada en el descuento ofertado respecto al presupuesto de licitación (DtoN).",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87-88"
+      },
+      {
+        "Materia": "Fórmula de puntuación económica",
+        "Requisito completo": "DtoN = (PL - POn) / PL × 100, donde PL=Presupuesto de licitación, POn=Presupuesto Oferta n, DtoN=Descuento de la Oferta N. PEn (puntuación económica de la oferta n) según tramos: DtoN ≥ 0 y DtoN ≤ 10: PEn = DtoN × 50 / 10; DtoN > 10 y DtoN ≤ 25: PEn = (DtoN - 10) × 20 / 15 + 50; DtoN > 25 y DtoN ≤ 30: PEn = (DtoN - 25) × -70 / 5 + 70; DtoN > 30: PEn = 0.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.88"
+      },
+      {
+        "Materia": "Tramos y extremos de la fórmula económica",
+        "Requisito completo": "Tramos: 0-10% descuento (lineal hasta 50 puntos), 10-25% (lineal hasta 70 puntos), 25-30% (decreciente hasta 0 puntos), >30% (0 puntos). Cálculo: el máximo de 70 puntos se alcanza en 25% de descuento; a partir de ahí, la puntuación decrece hasta 0 en 30%.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.88"
+      },
+      {
+        "Materia": "Redondeo de puntuaciones",
+        "Requisito completo": "Todas las puntuaciones serán redondeadas al segundo decimal.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86"
+      },
+      {
+        "Materia": "Documentos de oferta requeridos",
+        "Requisito completo": "Sobre 2: oferta técnica y criterios de adjudicación cuya evaluación depende de un juicio de valor (Anexo IX). Sobre 3: proposición económica y criterios de adjudicación de evaluación automática (Anexo X).",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12"
+      },
+      {
+        "Materia": "Mejoras puntuables",
+        "Requisito completo": "Mejoras en los ANS (criterio técnico automático, 0,5 puntos por cada indicador mejorado hasta 3 puntos). Mejoras y valores adicionales propuestos en el pliego (criterio juicio de valor, hasta 2 puntos adicionales en 2.2).",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX-X, p.85-87"
+      },
+      {
+        "Materia": "Umbrales y topes",
+        "Requisito completo": "Máximo total: 100 puntos. Máximo técnico (juicio de valor): 27 puntos. Máximo técnico automático: 3 puntos. Máximo económico: 70 puntos.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX-X, p.84-88"
+      },
+      {
+        "Materia": "Reglas de desempate",
+        "Requisito completo": "En caso de empate tras la aplicación de los criterios de adjudicación, se acudirá a lo dispuesto en el artículo 66.11 del Real Decreto Ley 3/2020.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.11"
+      },
+      {
+        "Materia": "Régimen de ofertas anormalmente bajas",
+        "Requisito completo": "Se considerará anormalmente baja una proposición económica que incluya un porcentaje de baja que, respecto de la media aritmética de los porcentajes de baja de todas las ofertas admitidas, o del presupuesto de licitación en caso de licitador único, exceda de diez unidades porcentuales. En tal caso, se solicitará justificación por escrito en 5 días hábiles. Si no se recibe, se entiende retirada la oferta. Si la justificación no es aceptada, se adjudica al siguiente mejor. Si resulta adjudicataria, se exigirá garantía complementaria del 5%.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.16, 18"
+      },
+      {
+        "Materia": "Criterios afectados por anormalidad",
+        "Requisito completo": "El régimen de anormalidad afecta al criterio económico (precio).",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.16"
+      },
+      {
+        "Materia": "Documentos de justificación de anormalidad",
+        "Requisito completo": "Justificación por escrito, razonada y detallada, en 5 días hábiles desde el requerimiento.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.16"
+      },
+      {
+        "Materia": "Consecuencias de no justificar anormalidad",
+        "Requisito completo": "Si no se justifica en plazo, se entiende retirada la oferta. Si la justificación no es aceptada, se adjudica al siguiente mejor.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.16"
+      },
+      {
+        "Materia": "Garantía complementaria por anormalidad",
+        "Requisito completo": "Si una oferta anormalmente baja resulta adjudicataria, se exigirá garantía complementaria del 5% del importe de adjudicación (IVA excluido).",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.18"
+      },
+      {
+        "Materia": "Exclusiones y penalizaciones",
+        "Requisito completo": "No se han identificado exclusiones automáticas adicionales ni penalizaciones específicas en la valoración de criterios de adjudicación, más allá de las reglas de anormalidad y las penalizaciones por incumplimiento de ANS (ver Anexo XVII).",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV-XVII"
+      },
+      {
+        "Materia": "Criterios de selección (no puntuables)",
+        "Requisito completo": "Solvencia económica: volumen anual de negocios en el ámbito del contrato, mejor ejercicio de los tres últimos, al menos 1.190.000 €. Solvencia técnica: haber realizado 3 servicios de igual o similar naturaleza en los tres últimos años, importe anual acumulado en el año de mayor ejecución igual o superior a 1.190.000 €. Certificados ISO 27001 e ISO 20000 o equivalentes. Compromiso de adscripción de medios personales o materiales.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.7-8, Anexo V"
+      },
+      {
+        "Materia": "Criterios de adjudicación: exclusión de mínimos",
+        "Requisito completo": "Los requisitos mínimos de la prestación objeto del contrato no son objeto de negociación ni de valoración como criterios de adjudicación.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.15"
+      },
+      {
+        "Materia": "Criterios de adjudicación: condiciones de presentación",
+        "Requisito completo": "La inclusión de cualquier documentación y/o información en el SOBRE 2 que debiera incluirse en el SOBRE 3 supondrá la exclusión del licitador.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p.12"
+      }
+    ],
+    "salida_original": "# Registro documental de preventa\n\n| Materia | Requisito completo | Fuente |\n|---|---|---|\n| Criterios de adjudicación: estructura general | La adjudicación se realiza por pluralidad de criterios: 70% económico (precio), 27% técnico por juicio de valor, 3% técnico automático. Suma total: 100%. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.10-11, Anexo IX-X |\n| Criterios de adjudicación: bloques y pesos | Criterios sujetos a juicio de valor: 27 puntos (27%). Criterios evaluables automáticamente: 3 puntos (3%). Criterio económico: 70 puntos (70%). Suma comprobada: 100 puntos (100%). | DOC20240806095753Pliegodefinitivofirmado.pdf, p.10-11, Anexo IX-X |\n| Criterios de adjudicación: juicio de valor | Criterios técnicos evaluables mediante juicio de valor (máx. 27 puntos): 1) Solución técnica del servicio (0-16 puntos), 2) Características y conocimientos del equipo de trabajo asociados a la prestación del servicio (0-11 puntos). | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.84-85 |\n| Subcriterios juicio de valor: Solución técnica | 1.1 Descripción y detalle del alcance completo de los servicios solicitados en el pliego (0-9 puntos, con desglose: 3 por detalle y adecuación, 1 por modelo relación cliente-proveedor, 2 por optimización y mejora continua, 2 por plan de subcontratación, 1 por gestión del conocimiento). 1.2 Descripción del modelo de gobierno de entrega del servicio (0-3 puntos, 1 por cada aspecto detallado). 1.3 Plan propuesto para la transición del servicio (0-2 puntos, 1.5 por detalle y adecuación, 0.5 si el tiempo es inferior a 30 días naturales). 1.4 Plan propuesto para la reversión del servicio (0-2 puntos, 1 por detalle y adecuación, 1 si el equipo de reversión es >5 personas). | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.84-85 |\n| Subcriterios juicio de valor: Equipo de trabajo | 2.1 Propuesta organizativa y descripción del equipo de trabajo con características adicionales a las requeridas en la fase de solvencia (0-4 puntos; mayor detalle, más recursos y menor precio, mayor puntuación; 4 puntos si se proporciona propuesta con correcto nivel de detalle y se adecua a los requisitos). 2.2 Incremento de horas ofrecidas sobre las necesidades estimadas (0-7 puntos; 5 puntos a la mejor oferta, puntuación proporcional al resto; 2 puntos adicionales a mayor número de mejoras). | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.85-86 |\n| Regla de normalización técnica | La puntuación técnica de la oferta estará constituida por la suma de las puntuaciones finales asignadas a cada uno de los bloques de criterios técnicos, con un máximo de 27 puntos. La puntuación técnica (PT) se normaliza: PTn = PTm × VTn / VTm, donde PTm=27, VTn=valoración técnica de la oferta n, VTm=valoración técnica más alta. Redondeo al segundo decimal. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86 |\n| Criterios de adjudicación: automáticos técnicos | Criterio técnico automático: Acuerdo de Niveles de Servicio (ANS), mejora en los Niveles de Servicio solicitados en el Anexo XVII – Evaluación de Proveedores. Se obtendrá 0,5 puntos por cada indicador mejorado hasta un máximo de 3 puntos. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87 |\n| Criterios de adjudicación: económicos | Criterio económico: hasta 70 puntos. Fórmula de puntuación económica basada en el descuento ofertado respecto al presupuesto de licitación (DtoN). | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.87-88 |\n| Fórmula de puntuación económica | DtoN = (PL - POn) / PL × 100, donde PL=Presupuesto de licitación, POn=Presupuesto Oferta n, DtoN=Descuento de la Oferta N. PEn (puntuación económica de la oferta n) según tramos: DtoN ≥ 0 y DtoN ≤ 10: PEn = DtoN × 50 / 10; DtoN > 10 y DtoN ≤ 25: PEn = (DtoN - 10) × 20 / 15 + 50; DtoN > 25 y DtoN ≤ 30: PEn = (DtoN - 25) × -70 / 5 + 70; DtoN > 30: PEn = 0. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.88 |\n| Tramos y extremos de la fórmula económica | Tramos: 0-10% descuento (lineal hasta 50 puntos), 10-25% (lineal hasta 70 puntos), 25-30% (decreciente hasta 0 puntos), >30% (0 puntos). Cálculo: el máximo de 70 puntos se alcanza en 25% de descuento; a partir de ahí, la puntuación decrece hasta 0 en 30%. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo X, p.88 |\n| Redondeo de puntuaciones | Todas las puntuaciones serán redondeadas al segundo decimal. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX, p.86 |\n| Documentos de oferta requeridos | Sobre 2: oferta técnica y criterios de adjudicación cuya evaluación depende de un juicio de valor (Anexo IX). Sobre 3: proposición económica y criterios de adjudicación de evaluación automática (Anexo X). | DOC20240806095753Pliegodefinitivofirmado.pdf, p.12 |\n| Mejoras puntuables | Mejoras en los ANS (criterio técnico automático, 0,5 puntos por cada indicador mejorado hasta 3 puntos). Mejoras y valores adicionales propuestos en el pliego (criterio juicio de valor, hasta 2 puntos adicionales en 2.2). | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX-X, p.85-87 |\n| Umbrales y topes | Máximo total: 100 puntos. Máximo técnico (juicio de valor): 27 puntos. Máximo técnico automático: 3 puntos. Máximo económico: 70 puntos. | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo IX-X, p.84-88 |\n| Reglas de desempate | En caso de empate tras la aplicación de los criterios de adjudicación, se acudirá a lo dispuesto en el artículo 66.11 del Real Decreto Ley 3/2020. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.11 |\n| Régimen de ofertas anormalmente bajas | Se considerará anormalmente baja una proposición económica que incluya un porcentaje de baja que, respecto de la media aritmética de los porcentajes de baja de todas las ofertas admitidas, o del presupuesto de licitación en caso de licitador único, exceda de diez unidades porcentuales. En tal caso, se solicitará justificación por escrito en 5 días hábiles. Si no se recibe, se entiende retirada la oferta. Si la justificación no es aceptada, se adjudica al siguiente mejor. Si resulta adjudicataria, se exigirá garantía complementaria del 5%. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.16, 18 |\n| Criterios afectados por anormalidad | El régimen de anormalidad afecta al criterio económico (precio). | DOC20240806095753Pliegodefinitivofirmado.pdf, p.16 |\n| Documentos de justificación de anormalidad | Justificación por escrito, razonada y detallada, en 5 días hábiles desde el requerimiento. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.16 |\n| Consecuencias de no justificar anormalidad | Si no se justifica en plazo, se entiende retirada la oferta. Si la justificación no es aceptada, se adjudica al siguiente mejor. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.16 |\n| Garantía complementaria por anormalidad | Si una oferta anormalmente baja resulta adjudicataria, se exigirá garantía complementaria del 5% del importe de adjudicación (IVA excluido). | DOC20240806095753Pliegodefinitivofirmado.pdf, p.18 |\n| Exclusiones y penalizaciones | No se han identificado exclusiones automáticas adicionales ni penalizaciones específicas en la valoración de criterios de adjudicación, más allá de las reglas de anormalidad y las penalizaciones por incumplimiento de ANS (ver Anexo XVII). | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV-XVII |\n| Criterios de selección (no puntuables) | Solvencia económica: volumen anual de negocios en el ámbito del contrato, mejor ejercicio de los tres últimos, al menos 1.190.000 €. Solvencia técnica: haber realizado 3 servicios de igual o similar naturaleza en los tres últimos años, importe anual acumulado en el año de mayor ejecución igual o superior a 1.190.000 €. Certificados ISO 27001 e ISO 20000 o equivalentes. Compromiso de adscripción de medios personales o materiales. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.7-8, Anexo V |\n| Criterios de adjudicación: exclusión de mínimos | Los requisitos mínimos de la prestación objeto del contrato no son objeto de negociación ni de valoración como criterios de adjudicación. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.15 |\n| Criterios de adjudicación: condiciones de presentación | La inclusión de cualquier documentación y/o información en el SOBRE 2 que debiera incluirse en el SOBRE 3 supondrá la exclusión del licitador. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.12 |\n\n# Discrepancias y pendientes de aclaración\n\n- No se han identificado discrepancias en la documentación revisada entre los criterios de adjudicación, fórmulas, pesos, tramos y reglas de valoración. Las sumas de puntos y porcentajes coinciden en todos los apartados y anexos.\n- No consta baremo alternativo ni contradicción entre el pliego y los anexos.\n- No se han localizado criterios de adjudicación adicionales fuera de los desarrollados en los Anexos IX y X.\n- No se han localizado reglas de redondeo distintas a la indicada (segundo decimal).\n- No se han localizado reglas de exclusión o penalización adicionales en la valoración de criterios de adjudicación.\n- No se han localizado criterios de adjudicación automáticos adicionales a los expresamente indicados.\n- No se han localizado reglas de normalización distintas a la expresada para la puntuación técnica.\n- No se han localizado reglas de desempate adicionales a la remisión al artículo 66.11 del RDL 3/2020.\n- No se han localizado reglas de anormalidad distintas a las expresadas.\n\nSi se requiere el desarrollo de los ANS o penalizaciones asociadas, consultar el Anexo XVII del pliego.",
+    "registro_completo_estructura": true
+  },
+  "ejecucion": "41d6bdb93ea4461088a46cec9b81478b",
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "ANEXO I.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 109403,
+        "caracteres_enviados_al_agente": 109403,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Anuncio.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 8853,
+        "caracteres_enviados_al_agente": 8853,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 330809,
+        "caracteres_enviados_al_agente": 330809,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 4,
+        "nombre": "DOC_CD2024-000901195.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 8376,
+        "caracteres_enviados_al_agente": 8376,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 5,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "Anuncio.pdf",
+        "caracteres_extraidos": 5053,
+        "caracteres_enviados_al_agente": 5053,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 6,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "Anuncio.pdf",
+        "caracteres_extraidos": 3234,
+        "caracteres_enviados_al_agente": 3234,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 7,
+        "nombre": "CORREOS-Codigo-General-de-Conducta.pdf",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 0,
+        "caracteres_enviados_al_agente": 0,
+        "texto_compactado": false,
+        "error": "404 Client Error: The specified blob does not exist. for url: https://cswetwebcorsta01.blob.core.windows.net/uploads/2022/01/CORREOS-Codigo-General-de-Conducta.pdf"
+      },
+      {
+        "numero": 8,
+        "nombre": "perfil-contratante",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 84908,
+        "caracteres_enviados_al_agente": 84908,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 9,
+        "nombre": "PoliticaProteccionDatosCanalEticoClientesyProveedores--ES.pdf",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 13833,
+        "caracteres_enviados_al_agente": 13833,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Documento no leido: CORREOS-Codigo-General-de-Conducta.pdf: 404 Client Error: The specified blob does not exist. for url: https://cswetwebcorsta01.blob.core.windows.net/uploads/2022/01/CORREOS-Codigo-General-de-Conducta.pdf",
+      "Se omitieron 22 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  },
+  "puntos_revision": [
+    {
+      "id": "REV-001",
+      "tipo": "ambiguedad_o_discrepancia",
+      "estado": "pendiente_de_revision",
+      "titulo": "Condiciones económicas y adjudicación",
+      "prioridad": "alta",
+      "detalle": "Revisar condiciones económicas y adjudicación: 3 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-001.01",
+          "tipo": "ambiguedad_o_discrepancia",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No consta baremo alternativo ni contradicción entre el pliego y los anexos.",
+          "evidencia": "- No consta baremo alternativo ni contradicción entre el pliego y los anexos.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No se han localizado reglas de normalización distintas a la expresada para la puntuación técnica.",
+          "evidencia": "- No se han localizado reglas de normalización distintas a la expresada para la puntuación técnica.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.03",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No se han localizado reglas de redondeo distintas a la indicada (segundo decimal).",
+          "evidencia": "- No se han localizado reglas de redondeo distintas a la indicada (segundo decimal).",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-002",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Admisión, solvencia y acreditaciones",
+      "prioridad": "alta",
+      "detalle": "Revisar admisión, solvencia y acreditaciones: 2 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-002.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Exclusiones y penalizaciones; Requisito completo: No se han identificado exclusiones automáticas adicionales ni penalizaciones específicas en la valoración de criterios de adjudicación, más allá de las reglas de anormalidad y las penalizaciones por incumplimiento de ANS (ver Anexo XVII).; Fuente: DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV-XVII",
+          "evidencia": "| Exclusiones y penalizaciones | No se han identificado exclusiones automáticas adicionales ni penalizaciones específicas en la valoración de criterios de adjudicación, más allá de las reglas de anormalidad y las penalizaciones por incumplimiento de ANS (ver Anexo XVII). | DOC20240806095753Pliegodefinitivofirmado.pdf, Anexo XV-XVII |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No se han localizado reglas de exclusión o penalización adicionales en la valoración de criterios de adjudicación.",
+          "evidencia": "- No se han localizado reglas de exclusión o penalización adicionales en la valoración de criterios de adjudicación.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-003",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Documentación y otras condiciones pendientes",
+      "prioridad": "media",
+      "detalle": "Revisar documentación y otras condiciones pendientes: 5 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-003.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No se han identificado discrepancias en la documentación revisada entre los criterios de adjudicación, fórmulas, pesos, tramos y reglas de valoración. Las sumas de puntos y porcentajes coinciden en todos los apartados y anexos.",
+          "evidencia": "- No se han identificado discrepancias en la documentación revisada entre los criterios de adjudicación, fórmulas, pesos, tramos y reglas de valoración. Las sumas de puntos y porcentajes coinciden en todos los apartados y anexos.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-003.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No se han localizado criterios de adjudicación adicionales fuera de los desarrollados en los Anexos IX y X.",
+          "evidencia": "- No se han localizado criterios de adjudicación adicionales fuera de los desarrollados en los Anexos IX y X.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-003.03",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No se han localizado criterios de adjudicación automáticos adicionales a los expresamente indicados.",
+          "evidencia": "- No se han localizado criterios de adjudicación automáticos adicionales a los expresamente indicados.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-003.04",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No se han localizado reglas de desempate adicionales a la remisión al artículo 66.11 del RDL 3/2020.",
+          "evidencia": "- No se han localizado reglas de desempate adicionales a la remisión al artículo 66.11 del RDL 3/2020.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-003.05",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No se han localizado reglas de anormalidad distintas a las expresadas.",
+          "evidencia": "- No se han localizado reglas de anormalidad distintas a las expresadas.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    }
+  ],
+  "recomendaciones": [],
+  "estado_recomendaciones": "no_generadas"
+}

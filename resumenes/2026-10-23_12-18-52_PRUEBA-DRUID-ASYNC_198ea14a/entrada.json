@@ -1,0 +1,43 @@
+{
+  "$entityTypeName$": "GPT",
+  "ChatResponse": null,
+  "FollowupQuestion": null,
+  "SourceURL": null,
+  "Confidence": null,
+  "Messages": {
+    "$entityTypeName$": "GPTChatMessage_Collection",
+    "items": [
+      {
+        "$entityTypeName$": "GPTChatMessage",
+        "Content": "Responde exclusivamente PRUEBA_ASYNC_OK.",
+        "Role": "system"
+      },
+      {
+        "$entityTypeName$": "GPTChatMessage",
+        "Content": "Prueba de transporte asíncrono, sin documentos ni análisis de licitación.",
+        "Role": "user"
+      }
+    ]
+  },
+  "toolsJSON": [
+    {
+      "type": "function",
+      "function": {
+        "name": "KB_response",
+        "description": "Respond to the user question.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "Response": {
+              "type": "string",
+              "description": "The response to be sent to the user."
+            }
+          },
+          "required": [
+            "Response"
+          ]
+        }
+      }
+    }
+  ]
+}

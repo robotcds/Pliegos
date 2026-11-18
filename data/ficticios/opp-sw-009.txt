@@ -1,0 +1,43 @@
+PLIEGO TECNICO FICTICIO OPP-SW-009
+Proyecto: Sistema IoT smart city para sensores urbanos.
+
+Objeto:
+Plataforma para recibir datos de sensores de ruido, calidad del aire, ocupacion y alumbrado. Incluye ingesta en tiempo real, reglas de alerta, mapa GIS, dashboard operativo, API para terceros y despliegue cloud escalable.
+
+Solvencia tecnica y equipo minimo:
+- Arquitecto IoT con al menos 6 anos en MQTT, gateways, protocolos de sensores y plataformas de telemetria.
+- Desarrollador Node.js tiempo real con al menos 5 anos en WebSockets, colas de mensajes y procesamiento streaming.
+- Especialista GIS con al menos 4 anos en mapas urbanos, capas geoespaciales y servicios WMS/WFS.
+- DevOps con al menos 4 anos en cloud, contenedores y observabilidad.
+- Experiencia previa en al menos dos proyectos smart city con sensores fisicos.
+
+Condiciones:
+La plataforma debe procesar 5.000 mensajes por minuto, conservar historicos durante 36 meses y generar alertas en menos de 30 segundos.
+
+Service Design / ITIL:
+Servicio gestionado IoT 24x7 durante 16 meses. Alcance: 1.500 sensores, 12 gateways, plataforma de ingesta, dashboard GIS, API de terceros y alertas operativas. Cobertura en 8 distritos urbanos.
+Modelo exigido: monitorizacion 24x7, N1 de operacion, N2 IoT/GIS, N3 plataforma y guardias. Service Desk obligatorio con integracion a herramienta municipal. ITIL formal requerido para Incident, Event, Change, Configuration, Availability y Continuity Management.
+SLA: P1 perdida de ingesta masiva respuesta <= 15 minutos y resolucion <= 2 horas 24x7; P2 perdida parcial de distrito respuesta <= 30 minutos y resolucion <= 4 horas; alertas generadas en menos de 30 segundos el 98 %. Disponibilidad 99,9 %. Penalizacion 4 % mensual por P1 incumplido y maximo 15 % mensual.
+CMDB: obligatoria con sensores, gateways, APIs, dashboards, CIs cloud, relaciones, ubicacion GIS, propietario y estado. Descubrimiento automatico y reconciliacion semanal.
+Continuidad: RTO 2 horas, RPO 15 minutos, backup diario y prueba trimestral. Reversibilidad de 8 semanas con exportacion historica, CMDB, reglas de alerta, dashboards y documentacion.
+Dependencias: conectividad de sensores, fabricantes, GIS municipal y licencias de plataforma. Riesgo alto de dimensionamiento.
+
+Delivery / Operacion:
+Go-live en 10 semanas desde formalizacion, con piloto en 2 distritos durante 3 semanas y despliegue progresivo al resto. La operacion completa no puede iniciarse sin sensores instalados, gateways aprovisionados, SIM activas, SIEM/SOC integrado, CMDB cargada y NOC/SOC 24x7 probado.
+Dimensionamiento operativo minimo: cobertura continua para monitorizacion 24x7, al menos 1 coordinador de operacion, 1 responsable IoT/GIS, 1 DevOps cloud, 1 recurso N2 de plataforma, partner SOC y equipo logistico de sustitucion. Se exige bus factor minimo 2 para IoT/GIS y cloud.
+Volumetria prevista: 5.000 mensajes/minuto, 1.500 sensores, 12 gateways, 8 distritos, 250 alertas/mes y 40 incidencias tecnicas/mes con picos meteorologicos o eventos ciudadanos. Debe dimensionarse al 130 % del volumen medio.
+Cobertura geografica: visitas onsite a gateways criticos en menos de 4 horas en 8 distritos urbanos. Si el partner logistico no confirma SLA 4h y stock regional del 8 %, la operacion es no viable.
+Dependencias criticas de terceros: fabricante sensores, proveedor SIM M2M, SOC Azul 24x7 S.L., Logistica Iberica TI S.L., Cloud Partner Ficticio S.A. y autonomo Diego Santos para IoT/GIS. Todos deben estar comprometidos antes de oferta.
+Escalados: N1 monitorizacion, N2 IoT/GIS, N3 plataforma/cloud, SOC seguridad y fabricante sensores. Deben existir playbooks P1 y simulacro antes de go-live.
+
+Seguridad / DPO / ENS:
+El sistema IoT tratara telemetria urbana, ubicaciones de sensores, logs de gateways, direcciones IP, usuarios operadores y posibles imagenes o datos indirectamente asociados a ciudadanos si se incorporan sensores avanzados.
+ENS: se exige ENS ALTA para la plataforma IoT, monitorizacion 24x7, API de terceros y gestion de alertas antes de la puesta en produccion. El alcance debe cubrir sensores, gateways, cloud, dashboard GIS, APIs y operacion.
+Medidas obligatorias: certificados por dispositivo, cifrado extremo a extremo, rotacion de claves, segmentacion de red, hardening de gateways, SIEM, SOC 24x7, EDR donde aplique, logs inmutables 24 meses, MFA/PAM para administradores y escaneo continuo de vulnerabilidades.
+Cloud y localizacion: datos, backups, logs y telemetria exclusivamente en la UE. Soporte de fabricantes fuera de UE prohibido si implica acceso a datos o credenciales.
+Incidentes: P1 ciberseguridad comunicacion <= 30 minutos, contencion <= 2 horas, RCA <= 5 dias. Brecha de datos personales <= 1 hora al cliente.
+Cadena de suministro: fabricantes de sensores, proveedor cloud, GIS, plataforma de monitorizacion y subcontratistas deben evaluarse. Se requiere SBOM de software de gateways y APIs.
+Borrado/reversibilidad: exportacion historica, borrado de claves, revocacion de certificados, destruccion segura de credenciales y certificado de borrado.
+
+Criterios:
+Arquitectura IoT 50 puntos, oferta economica 30 puntos y operabilidad 20 puntos.

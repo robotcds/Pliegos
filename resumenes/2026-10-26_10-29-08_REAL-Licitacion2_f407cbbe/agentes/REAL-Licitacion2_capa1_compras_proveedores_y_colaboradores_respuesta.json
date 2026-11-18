@@ -1,0 +1,680 @@
+{
+  "orden": 8,
+  "id": "A10",
+  "nombre": "Compras, proveedores y colaboradores",
+  "tipo": "extraccion",
+  "ejecucion": "f407cbbed6c243e6b56c4a534e04af3f",
+  "estado": "completado",
+  "contenido": {
+    "requisitos_documentales": [
+      {
+        "id": "R0001",
+        "seccion": "Productos físicos y tecnológicos a aportar",
+        "detalle": "El adjudicatario debe administrar y mantener la infraestructura de virtualización y puesto de trabajo, incluyendo más de 12.000 ThinClient HP, 16.000 equipos físicos (68% sobremesa y thinclient, 25% portátiles, 5% dispensadores de turnos, 2% autoservicio, de diferentes fabricantes y sistemas operativos), periféricos (impresoras, pistolas lectoras, tabletas, balanzas, pin-pad, etc.), 34.000 PDA Honeywell EDA52 Android 11, 2.000 PDA Zebra TC56 Android 8.1, 400 PDA Zebra TC57 Android 8.1, 100 PDA Zelenza Android 12, 3.100 smartphones Samsung/Xiaomi/Huawei Android >8, 130 iPhone >11, 100 tablets Samsung TAB A8 LTE Android >8, y cualquier otro dispositivo que Correos/CEX implante durante el contrato. El adjudicatario no está obligado a suministrar estos equipos, sino a administrarlos y mantenerlos.",
+        "fuente": "ANEXO I.pdf, pp. 3-16; DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 34-47",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0002",
+        "seccion": "Software, SaaS y licencias",
+        "detalle": "El adjudicatario debe administrar plataformas y herramientas de software ya existentes o que se implementen durante el contrato, incluyendo Citrix Xenapp, Hyper-V, Windows Virtual Desktop (Azure), NetApp, SQL Server, SCCM, HPDM, MDT, DA, INTUNE, MDM Workspace One UEM (OnPremise y en migración a SaaS), Remedy ITSM, PoST, y aplicaciones móviles corporativas. El adjudicatario debe disponer de las licencias de software necesarias para sus propios medios técnicos (por ejemplo, Microsoft Office, Teams, herramientas colaborativas), pero no se exige la adquisición de licencias de los sistemas de cliente.",
+        "fuente": "ANEXO I.pdf, pp. 3-16, 72; DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 34-47, 72",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0003",
+        "seccion": "Fabricantes obligatorios y equivalencias",
+        "detalle": "Se identifican fabricantes de referencia para la infraestructura gestionada: HP (ThinClient), Cisco (UCS, switches), NetApp (cabinas almacenamiento), Citrix (Xenapp), Microsoft (Windows Server, SQL Server, SCCM, MDT, Intune), VMware (ESXi, Workspace One UEM), Honeywell, Zebra, Zelenza, Samsung, Xiaomi, Huawei, Apple. No se exige la compra de productos de estos fabricantes, pero sí la administración de infraestructuras y dispositivos de estas marcas. No se establecen reglas de equivalencia para sustitución de fabricantes, salvo para la administración de cualquier otro dispositivo que forme parte de la solución.",
+        "fuente": "ANEXO I.pdf, pp. 3-16; DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 34-47",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0004",
+        "seccion": "Certificaciones de fabricante, niveles de partner, autorizaciones de canal y cartas/compromisos",
+        "detalle": "Se consideran \"deseables\" certificaciones de fabricante para los perfiles técnicos (Citrix, Microsoft, NetApp, Cisco, VMware, etc.), pero no se exige la presentación de cartas de fabricante, partnership, ni autorizaciones de canal. No se exige carta de compromiso de fabricante ni de canal en ninguna fase.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 65-70",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0005",
+        "seccion": "Subcontratación, UTE, medios externos",
+        "detalle": "La subcontratación está permitida salvo para la gestión y coordinación del servicio, que se considera tarea crítica y no puede subcontratarse. El adjudicatario debe indicar en la oferta la parte del contrato que prevé subcontratar, su importe y el nombre o perfil empresarial de los subcontratistas. Cualquier subcontratación durante la ejecución debe ser comunicada y justificada, acreditando la aptitud del subcontratista. Si la subcontratación afecta a tratamiento de datos personales, el subcontratista debe firmar contrato de encargo de tratamiento conforme al Anexo XVI.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 24-25",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0006",
+        "seccion": "UTE",
+        "detalle": "Se permite la presentación en UTE. En caso de UTE, debe presentarse compromiso de constitución y cada empresa debe presentar su propio DEUC. La UTE debe formalizarse en escritura pública antes de la formalización del contrato.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 11, 18",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0007",
+        "seccion": "Datos no localizados y límites de lectura",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA una descripción o condicionamiento contractual específico de la cadena de suministro más allá de la obligación de mantener la disponibilidad de recursos y la administración de los activos existentes.",
+        "fuente": "Declaración de ausencia del extractor; no acredita una exención contractual.",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0008",
+        "seccion": "Plazos de suministro, stock, garantías, soporte fabricante, NBD/4h/onsite, lead time, EOL/EOS, homologaciones, sostenibilidad, logística, staging, retirada y destrucción",
+        "detalle": "El adjudicatario debe garantizar la disponibilidad de recursos dedicados y la cobertura de servicios según los ANS definidos (ver Anexo XVII), incluyendo penalizaciones por indisponibilidad, rotación excesiva o falta de cobertura de perfiles. No se exige stock físico ni suministro de hardware/software al cliente. El adjudicatario debe proveer a su equipo de los medios técnicos necesarios (portátil, software, comunicaciones) y mantenerlos durante la ejecución. Garantía general de 3 meses tras la recepción conforme del servicio. No se establecen plazos de suministro, lead time, EOL/EOS, ni requisitos de homologación o sostenibilidad para productos. El adjudicatario debe realizar la retirada y entrega de documentación y conocimiento en la fase de reversión, pero no se exige retirada física de equipos del cliente.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 28, 40, 44, 59-62, 72-73, 111-118",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0009",
+        "seccion": "SLA de terceros o exigencias back-to-back",
+        "detalle": "El adjudicatario debe asegurar el cumplimiento de los ANS definidos en el Anexo XVII, incluyendo tiempos de resolución de incidencias y peticiones, disponibilidad de recursos, y penalizaciones asociadas. No se exige la existencia de SLA back-to-back con fabricantes o terceros, pero el adjudicatario debe involucrar a soportes de fabricantes cuando sea necesario para la resolución de incidencias.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 39, 47, 65-70, 111-118",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0010",
+        "seccion": "Compromiso de adscripción de medios",
+        "detalle": "El licitador debe presentar un compromiso de adscripción de medios personales y materiales, indicando el personal y organismos técnicos que compromete adscribir al contrato, con declaración de experiencia mínima de 1 año en puesto similar. Este compromiso es obligación esencial y debe integrarse en el contrato.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 8, 22, 120-121",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0011",
+        "seccion": "Medios técnicos del adjudicatario",
+        "detalle": "El adjudicatario debe proveer a su equipo de ordenador portátil (mínimo Intel i5 9ª gen, SSD, 8GB RAM, preferible 16GB), software de comunicaciones (Office, Teams, herramientas colaborativas), licencias de software necesarias para estos medios, conexión a Internet, y teléfono fijo o móvil directo para cada técnico.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p. 72",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0012",
+        "seccion": "Responsabilidad sobre soporte de fabricantes",
+        "detalle": "El adjudicatario debe disponer de soporte de fabricantes (Microsoft, NetApp, Cisco, Citrix, etc.) para los técnicos asignados cuando se requiera conocimiento muy específico. El adjudicatario debe poner a disposición un panel de expertos y, si no dispone de expertos internos, recurrir a subcontratar técnicos expertos del fabricante.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 63, 65-71",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0013",
+        "seccion": "Penalizaciones por incumplimiento de suministro o soporte",
+        "detalle": "Penalizaciones económicas por incumplimiento de ANS, indisponibilidad de recursos, rotación excesiva, falta de cobertura de perfiles, incumplimiento de plazos de resolución de incidencias/peticiones, y no realización del plan de parcheo/actualización. Las penalizaciones pueden llegar al 100% de la facturación mensual del servicio afectado.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 96-118",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0014",
+        "seccion": "Facturación y cobro",
+        "detalle": "Facturación mensual por servicios, con porcentajes definidos para cada servicio y empresa. Facturación de proyectos especiales por hitos acordados, con bolsa económica fija no reducible. Facturación electrónica obligatoria.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 90-91",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0015",
+        "seccion": "Garantía definitiva",
+        "detalle": "El adjudicatario debe constituir garantía definitiva del 5% del importe de adjudicación (IVA excluido), y garantía complementaria del 5% en caso de oferta temeraria.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p. 18",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0016",
+        "seccion": "Condiciones de pago",
+        "detalle": "Pago por transferencia bancaria o confirming, en 60 días naturales desde la recepción de la factura.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p. 27",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0017",
+        "seccion": "Condiciones de ejecución para subcontratistas",
+        "detalle": "Todas las condiciones especiales de ejecución serán exigidas igualmente a los subcontratistas, respondiendo el contratista principal en caso de incumplimiento.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p. 24",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0018",
+        "seccion": "Proyectos especiales y bolsa de expertos",
+        "detalle": "El adjudicatario debe proveer una bolsa de expertos en tecnologías actuales o futuras, recurriendo a subcontratación de técnicos expertos del fabricante si no dispone de ellos. El coste de estos expertos se factura solo cuando se consume, bajo demanda de Correos/CEX.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 71, 75-76",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0019",
+        "seccion": "Datos no localizados y límites de lectura",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna restricción específica de canal, reposición, stock, logística, staging, retirada o destrucción de equipos o materiales, más allá de la obligación de mantener la disponibilidad de recursos y la entrega de documentación y conocimiento en la reversión del servicio.",
+        "fuente": "Declaración de ausencia del extractor; no acredita una exención contractual.",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0020",
+        "seccion": "Datos no localizados y límites de lectura",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna regla de equivalencia para sustitución de productos o fabricantes, salvo la administración de cualquier otro dispositivo que forme parte de la solución.",
+        "fuente": "Declaración de ausencia del extractor; no acredita una exención contractual.",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0021",
+        "seccion": "Datos no localizados y límites de lectura",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, partnership o autorizaciones de canal en ninguna fase.",
+        "fuente": "Declaración de ausencia del extractor; no acredita una exención contractual.",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0022",
+        "seccion": "Datos no localizados y límites de lectura",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de SLA de terceros o soporte back-to-back formalizado contractualmente.",
+        "fuente": "Declaración de ausencia del extractor; no acredita una exención contractual.",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0023",
+        "seccion": "Datos no localizados y límites de lectura",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA una descripción o condicionamiento contractual específico de la cadena de suministro.",
+        "fuente": "Declaración de ausencia del extractor; no acredita una exención contractual.",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "A10-S0024",
+        "seccion": "Medios, licencias y proveedores",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No se han identificado discrepancias en la documentación revisada.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A10",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      }
+    ],
+    "resumen": [
+      "No se han identificado discrepancias en la documentación revisada."
+    ],
+    "secciones": [
+      {
+        "titulo": "Registro documental de preventa",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Materia",
+              "Requisito completo",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Materia": "Productos físicos y tecnológicos a aportar",
+                "Requisito completo": "El adjudicatario debe administrar y mantener la infraestructura de virtualización y puesto de trabajo, incluyendo más de 12.000 ThinClient HP, 16.000 equipos físicos (68% sobremesa y thinclient, 25% portátiles, 5% dispensadores de turnos, 2% autoservicio, de diferentes fabricantes y sistemas operativos), periféricos (impresoras, pistolas lectoras, tabletas, balanzas, pin-pad, etc.), 34.000 PDA Honeywell EDA52 Android 11, 2.000 PDA Zebra TC56 Android 8.1, 400 PDA Zebra TC57 Android 8.1, 100 PDA Zelenza Android 12, 3.100 smartphones Samsung/Xiaomi/Huawei Android >8, 130 iPhone >11, 100 tablets Samsung TAB A8 LTE Android >8, y cualquier otro dispositivo que Correos/CEX implante durante el contrato. El adjudicatario no está obligado a suministrar estos equipos, sino a administrarlos y mantenerlos.",
+                "Fuente": "ANEXO I.pdf, pp. 3-16; DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 34-47"
+              },
+              {
+                "Materia": "Software, SaaS y licencias",
+                "Requisito completo": "El adjudicatario debe administrar plataformas y herramientas de software ya existentes o que se implementen durante el contrato, incluyendo Citrix Xenapp, Hyper-V, Windows Virtual Desktop (Azure), NetApp, SQL Server, SCCM, HPDM, MDT, DA, INTUNE, MDM Workspace One UEM (OnPremise y en migración a SaaS), Remedy ITSM, PoST, y aplicaciones móviles corporativas. El adjudicatario debe disponer de las licencias de software necesarias para sus propios medios técnicos (por ejemplo, Microsoft Office, Teams, herramientas colaborativas), pero no se exige la adquisición de licencias de los sistemas de cliente.",
+                "Fuente": "ANEXO I.pdf, pp. 3-16, 72; DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 34-47, 72"
+              },
+              {
+                "Materia": "Fabricantes obligatorios y equivalencias",
+                "Requisito completo": "Se identifican fabricantes de referencia para la infraestructura gestionada: HP (ThinClient), Cisco (UCS, switches), NetApp (cabinas almacenamiento), Citrix (Xenapp), Microsoft (Windows Server, SQL Server, SCCM, MDT, Intune), VMware (ESXi, Workspace One UEM), Honeywell, Zebra, Zelenza, Samsung, Xiaomi, Huawei, Apple. No se exige la compra de productos de estos fabricantes, pero sí la administración de infraestructuras y dispositivos de estas marcas. No se establecen reglas de equivalencia para sustitución de fabricantes, salvo para la administración de cualquier otro dispositivo que forme parte de la solución.",
+                "Fuente": "ANEXO I.pdf, pp. 3-16; DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 34-47"
+              },
+              {
+                "Materia": "Certificaciones de fabricante, niveles de partner, autorizaciones de canal y cartas/compromisos",
+                "Requisito completo": "Se consideran \"deseables\" certificaciones de fabricante para los perfiles técnicos (Citrix, Microsoft, NetApp, Cisco, VMware, etc.), pero no se exige la presentación de cartas de fabricante, partnership, ni autorizaciones de canal. No se exige carta de compromiso de fabricante ni de canal en ninguna fase.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 65-70"
+              },
+              {
+                "Materia": "Subcontratación, UTE, medios externos",
+                "Requisito completo": "La subcontratación está permitida salvo para la gestión y coordinación del servicio, que se considera tarea crítica y no puede subcontratarse. El adjudicatario debe indicar en la oferta la parte del contrato que prevé subcontratar, su importe y el nombre o perfil empresarial de los subcontratistas. Cualquier subcontratación durante la ejecución debe ser comunicada y justificada, acreditando la aptitud del subcontratista. Si la subcontratación afecta a tratamiento de datos personales, el subcontratista debe firmar contrato de encargo de tratamiento conforme al Anexo XVI.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 24-25"
+              },
+              {
+                "Materia": "UTE",
+                "Requisito completo": "Se permite la presentación en UTE. En caso de UTE, debe presentarse compromiso de constitución y cada empresa debe presentar su propio DEUC. La UTE debe formalizarse en escritura pública antes de la formalización del contrato.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 11, 18"
+              },
+              {
+                "Materia": "Cadena de suministro",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA una descripción o condicionamiento contractual específico de la cadena de suministro más allá de la obligación de mantener la disponibilidad de recursos y la administración de los activos existentes.",
+                "Fuente": ""
+              },
+              {
+                "Materia": "Plazos de suministro, stock, garantías, soporte fabricante, NBD/4h/onsite, lead time, EOL/EOS, homologaciones, sostenibilidad, logística, staging, retirada y destrucción",
+                "Requisito completo": "El adjudicatario debe garantizar la disponibilidad de recursos dedicados y la cobertura de servicios según los ANS definidos (ver Anexo XVII), incluyendo penalizaciones por indisponibilidad, rotación excesiva o falta de cobertura de perfiles. No se exige stock físico ni suministro de hardware/software al cliente. El adjudicatario debe proveer a su equipo de los medios técnicos necesarios (portátil, software, comunicaciones) y mantenerlos durante la ejecución. Garantía general de 3 meses tras la recepción conforme del servicio. No se establecen plazos de suministro, lead time, EOL/EOS, ni requisitos de homologación o sostenibilidad para productos. El adjudicatario debe realizar la retirada y entrega de documentación y conocimiento en la fase de reversión, pero no se exige retirada física de equipos del cliente.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 28, 40, 44, 59-62, 72-73, 111-118"
+              },
+              {
+                "Materia": "SLA de terceros o exigencias back-to-back",
+                "Requisito completo": "El adjudicatario debe asegurar el cumplimiento de los ANS definidos en el Anexo XVII, incluyendo tiempos de resolución de incidencias y peticiones, disponibilidad de recursos, y penalizaciones asociadas. No se exige la existencia de SLA back-to-back con fabricantes o terceros, pero el adjudicatario debe involucrar a soportes de fabricantes cuando sea necesario para la resolución de incidencias.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 39, 47, 65-70, 111-118"
+              },
+              {
+                "Materia": "Compromiso de adscripción de medios",
+                "Requisito completo": "El licitador debe presentar un compromiso de adscripción de medios personales y materiales, indicando el personal y organismos técnicos que compromete adscribir al contrato, con declaración de experiencia mínima de 1 año en puesto similar. Este compromiso es obligación esencial y debe integrarse en el contrato.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 8, 22, 120-121"
+              },
+              {
+                "Materia": "Medios técnicos del adjudicatario",
+                "Requisito completo": "El adjudicatario debe proveer a su equipo de ordenador portátil (mínimo Intel i5 9ª gen, SSD, 8GB RAM, preferible 16GB), software de comunicaciones (Office, Teams, herramientas colaborativas), licencias de software necesarias para estos medios, conexión a Internet, y teléfono fijo o móvil directo para cada técnico.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p. 72"
+              },
+              {
+                "Materia": "Responsabilidad sobre soporte de fabricantes",
+                "Requisito completo": "El adjudicatario debe disponer de soporte de fabricantes (Microsoft, NetApp, Cisco, Citrix, etc.) para los técnicos asignados cuando se requiera conocimiento muy específico. El adjudicatario debe poner a disposición un panel de expertos y, si no dispone de expertos internos, recurrir a subcontratar técnicos expertos del fabricante.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 63, 65-71"
+              },
+              {
+                "Materia": "Penalizaciones por incumplimiento de suministro o soporte",
+                "Requisito completo": "Penalizaciones económicas por incumplimiento de ANS, indisponibilidad de recursos, rotación excesiva, falta de cobertura de perfiles, incumplimiento de plazos de resolución de incidencias/peticiones, y no realización del plan de parcheo/actualización. Las penalizaciones pueden llegar al 100% de la facturación mensual del servicio afectado.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 96-118"
+              },
+              {
+                "Materia": "Facturación y cobro",
+                "Requisito completo": "Facturación mensual por servicios, con porcentajes definidos para cada servicio y empresa. Facturación de proyectos especiales por hitos acordados, con bolsa económica fija no reducible. Facturación electrónica obligatoria.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 90-91"
+              },
+              {
+                "Materia": "Garantía definitiva",
+                "Requisito completo": "El adjudicatario debe constituir garantía definitiva del 5% del importe de adjudicación (IVA excluido), y garantía complementaria del 5% en caso de oferta temeraria.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p. 18"
+              },
+              {
+                "Materia": "Condiciones de pago",
+                "Requisito completo": "Pago por transferencia bancaria o confirming, en 60 días naturales desde la recepción de la factura.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p. 27"
+              },
+              {
+                "Materia": "Condiciones de ejecución para subcontratistas",
+                "Requisito completo": "Todas las condiciones especiales de ejecución serán exigidas igualmente a los subcontratistas, respondiendo el contratista principal en caso de incumplimiento.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p. 24"
+              },
+              {
+                "Materia": "Proyectos especiales y bolsa de expertos",
+                "Requisito completo": "El adjudicatario debe proveer una bolsa de expertos en tecnologías actuales o futuras, recurriendo a subcontratación de técnicos expertos del fabricante si no dispone de ellos. El coste de estos expertos se factura solo cuando se consume, bajo demanda de Correos/CEX.",
+                "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 71, 75-76"
+              },
+              {
+                "Materia": "Restricciones de canal, reposición, stock, logística, staging, retirada y destrucción",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna restricción específica de canal, reposición, stock, logística, staging, retirada o destrucción de equipos o materiales, más allá de la obligación de mantener la disponibilidad de recursos y la entrega de documentación y conocimiento en la reversión del servicio.",
+                "Fuente": ""
+              },
+              {
+                "Materia": "Reglas de equivalencia para productos o fabricantes",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna regla de equivalencia para sustitución de productos o fabricantes, salvo la administración de cualquier otro dispositivo que forme parte de la solución.",
+                "Fuente": ""
+              },
+              {
+                "Materia": "Cartas de fabricante, partnership, autorizaciones de canal",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, partnership o autorizaciones de canal en ninguna fase.",
+                "Fuente": ""
+              },
+              {
+                "Materia": "SLA de terceros, soporte back-to-back",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de SLA de terceros o soporte back-to-back formalizado contractualmente.",
+                "Fuente": ""
+              },
+              {
+                "Materia": "Cadena de suministro",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA una descripción o condicionamiento contractual específico de la cadena de suministro.",
+                "Fuente": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "parrafos": [
+          "No se han identificado discrepancias en la documentación revisada."
+        ],
+        "elementos": [],
+        "tablas": []
+      }
+    ],
+    "pendientes_y_no_localizados": [
+      {
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "parrafos": [
+          "No se han identificado discrepancias en la documentación revisada."
+        ],
+        "elementos": [],
+        "tablas": []
+      }
+    ],
+    "trazabilidad": [
+      {
+        "Materia": "Productos físicos y tecnológicos a aportar",
+        "Requisito completo": "El adjudicatario debe administrar y mantener la infraestructura de virtualización y puesto de trabajo, incluyendo más de 12.000 ThinClient HP, 16.000 equipos físicos (68% sobremesa y thinclient, 25% portátiles, 5% dispensadores de turnos, 2% autoservicio, de diferentes fabricantes y sistemas operativos), periféricos (impresoras, pistolas lectoras, tabletas, balanzas, pin-pad, etc.), 34.000 PDA Honeywell EDA52 Android 11, 2.000 PDA Zebra TC56 Android 8.1, 400 PDA Zebra TC57 Android 8.1, 100 PDA Zelenza Android 12, 3.100 smartphones Samsung/Xiaomi/Huawei Android >8, 130 iPhone >11, 100 tablets Samsung TAB A8 LTE Android >8, y cualquier otro dispositivo que Correos/CEX implante durante el contrato. El adjudicatario no está obligado a suministrar estos equipos, sino a administrarlos y mantenerlos.",
+        "Fuente": "ANEXO I.pdf, pp. 3-16; DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 34-47"
+      },
+      {
+        "Materia": "Software, SaaS y licencias",
+        "Requisito completo": "El adjudicatario debe administrar plataformas y herramientas de software ya existentes o que se implementen durante el contrato, incluyendo Citrix Xenapp, Hyper-V, Windows Virtual Desktop (Azure), NetApp, SQL Server, SCCM, HPDM, MDT, DA, INTUNE, MDM Workspace One UEM (OnPremise y en migración a SaaS), Remedy ITSM, PoST, y aplicaciones móviles corporativas. El adjudicatario debe disponer de las licencias de software necesarias para sus propios medios técnicos (por ejemplo, Microsoft Office, Teams, herramientas colaborativas), pero no se exige la adquisición de licencias de los sistemas de cliente.",
+        "Fuente": "ANEXO I.pdf, pp. 3-16, 72; DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 34-47, 72"
+      },
+      {
+        "Materia": "Fabricantes obligatorios y equivalencias",
+        "Requisito completo": "Se identifican fabricantes de referencia para la infraestructura gestionada: HP (ThinClient), Cisco (UCS, switches), NetApp (cabinas almacenamiento), Citrix (Xenapp), Microsoft (Windows Server, SQL Server, SCCM, MDT, Intune), VMware (ESXi, Workspace One UEM), Honeywell, Zebra, Zelenza, Samsung, Xiaomi, Huawei, Apple. No se exige la compra de productos de estos fabricantes, pero sí la administración de infraestructuras y dispositivos de estas marcas. No se establecen reglas de equivalencia para sustitución de fabricantes, salvo para la administración de cualquier otro dispositivo que forme parte de la solución.",
+        "Fuente": "ANEXO I.pdf, pp. 3-16; DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 34-47"
+      },
+      {
+        "Materia": "Certificaciones de fabricante, niveles de partner, autorizaciones de canal y cartas/compromisos",
+        "Requisito completo": "Se consideran \"deseables\" certificaciones de fabricante para los perfiles técnicos (Citrix, Microsoft, NetApp, Cisco, VMware, etc.), pero no se exige la presentación de cartas de fabricante, partnership, ni autorizaciones de canal. No se exige carta de compromiso de fabricante ni de canal en ninguna fase.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 65-70"
+      },
+      {
+        "Materia": "Subcontratación, UTE, medios externos",
+        "Requisito completo": "La subcontratación está permitida salvo para la gestión y coordinación del servicio, que se considera tarea crítica y no puede subcontratarse. El adjudicatario debe indicar en la oferta la parte del contrato que prevé subcontratar, su importe y el nombre o perfil empresarial de los subcontratistas. Cualquier subcontratación durante la ejecución debe ser comunicada y justificada, acreditando la aptitud del subcontratista. Si la subcontratación afecta a tratamiento de datos personales, el subcontratista debe firmar contrato de encargo de tratamiento conforme al Anexo XVI.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 24-25"
+      },
+      {
+        "Materia": "UTE",
+        "Requisito completo": "Se permite la presentación en UTE. En caso de UTE, debe presentarse compromiso de constitución y cada empresa debe presentar su propio DEUC. La UTE debe formalizarse en escritura pública antes de la formalización del contrato.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 11, 18"
+      },
+      {
+        "Materia": "Cadena de suministro",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA una descripción o condicionamiento contractual específico de la cadena de suministro más allá de la obligación de mantener la disponibilidad de recursos y la administración de los activos existentes.",
+        "Fuente": ""
+      },
+      {
+        "Materia": "Plazos de suministro, stock, garantías, soporte fabricante, NBD/4h/onsite, lead time, EOL/EOS, homologaciones, sostenibilidad, logística, staging, retirada y destrucción",
+        "Requisito completo": "El adjudicatario debe garantizar la disponibilidad de recursos dedicados y la cobertura de servicios según los ANS definidos (ver Anexo XVII), incluyendo penalizaciones por indisponibilidad, rotación excesiva o falta de cobertura de perfiles. No se exige stock físico ni suministro de hardware/software al cliente. El adjudicatario debe proveer a su equipo de los medios técnicos necesarios (portátil, software, comunicaciones) y mantenerlos durante la ejecución. Garantía general de 3 meses tras la recepción conforme del servicio. No se establecen plazos de suministro, lead time, EOL/EOS, ni requisitos de homologación o sostenibilidad para productos. El adjudicatario debe realizar la retirada y entrega de documentación y conocimiento en la fase de reversión, pero no se exige retirada física de equipos del cliente.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 28, 40, 44, 59-62, 72-73, 111-118"
+      },
+      {
+        "Materia": "SLA de terceros o exigencias back-to-back",
+        "Requisito completo": "El adjudicatario debe asegurar el cumplimiento de los ANS definidos en el Anexo XVII, incluyendo tiempos de resolución de incidencias y peticiones, disponibilidad de recursos, y penalizaciones asociadas. No se exige la existencia de SLA back-to-back con fabricantes o terceros, pero el adjudicatario debe involucrar a soportes de fabricantes cuando sea necesario para la resolución de incidencias.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 39, 47, 65-70, 111-118"
+      },
+      {
+        "Materia": "Compromiso de adscripción de medios",
+        "Requisito completo": "El licitador debe presentar un compromiso de adscripción de medios personales y materiales, indicando el personal y organismos técnicos que compromete adscribir al contrato, con declaración de experiencia mínima de 1 año en puesto similar. Este compromiso es obligación esencial y debe integrarse en el contrato.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 8, 22, 120-121"
+      },
+      {
+        "Materia": "Medios técnicos del adjudicatario",
+        "Requisito completo": "El adjudicatario debe proveer a su equipo de ordenador portátil (mínimo Intel i5 9ª gen, SSD, 8GB RAM, preferible 16GB), software de comunicaciones (Office, Teams, herramientas colaborativas), licencias de software necesarias para estos medios, conexión a Internet, y teléfono fijo o móvil directo para cada técnico.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p. 72"
+      },
+      {
+        "Materia": "Responsabilidad sobre soporte de fabricantes",
+        "Requisito completo": "El adjudicatario debe disponer de soporte de fabricantes (Microsoft, NetApp, Cisco, Citrix, etc.) para los técnicos asignados cuando se requiera conocimiento muy específico. El adjudicatario debe poner a disposición un panel de expertos y, si no dispone de expertos internos, recurrir a subcontratar técnicos expertos del fabricante.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 63, 65-71"
+      },
+      {
+        "Materia": "Penalizaciones por incumplimiento de suministro o soporte",
+        "Requisito completo": "Penalizaciones económicas por incumplimiento de ANS, indisponibilidad de recursos, rotación excesiva, falta de cobertura de perfiles, incumplimiento de plazos de resolución de incidencias/peticiones, y no realización del plan de parcheo/actualización. Las penalizaciones pueden llegar al 100% de la facturación mensual del servicio afectado.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 96-118"
+      },
+      {
+        "Materia": "Facturación y cobro",
+        "Requisito completo": "Facturación mensual por servicios, con porcentajes definidos para cada servicio y empresa. Facturación de proyectos especiales por hitos acordados, con bolsa económica fija no reducible. Facturación electrónica obligatoria.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 90-91"
+      },
+      {
+        "Materia": "Garantía definitiva",
+        "Requisito completo": "El adjudicatario debe constituir garantía definitiva del 5% del importe de adjudicación (IVA excluido), y garantía complementaria del 5% en caso de oferta temeraria.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p. 18"
+      },
+      {
+        "Materia": "Condiciones de pago",
+        "Requisito completo": "Pago por transferencia bancaria o confirming, en 60 días naturales desde la recepción de la factura.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p. 27"
+      },
+      {
+        "Materia": "Condiciones de ejecución para subcontratistas",
+        "Requisito completo": "Todas las condiciones especiales de ejecución serán exigidas igualmente a los subcontratistas, respondiendo el contratista principal en caso de incumplimiento.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, p. 24"
+      },
+      {
+        "Materia": "Proyectos especiales y bolsa de expertos",
+        "Requisito completo": "El adjudicatario debe proveer una bolsa de expertos en tecnologías actuales o futuras, recurriendo a subcontratación de técnicos expertos del fabricante si no dispone de ellos. El coste de estos expertos se factura solo cuando se consume, bajo demanda de Correos/CEX.",
+        "Fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 71, 75-76"
+      },
+      {
+        "Materia": "Restricciones de canal, reposición, stock, logística, staging, retirada y destrucción",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna restricción específica de canal, reposición, stock, logística, staging, retirada o destrucción de equipos o materiales, más allá de la obligación de mantener la disponibilidad de recursos y la entrega de documentación y conocimiento en la reversión del servicio.",
+        "Fuente": ""
+      },
+      {
+        "Materia": "Reglas de equivalencia para productos o fabricantes",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA ninguna regla de equivalencia para sustitución de productos o fabricantes, salvo la administración de cualquier otro dispositivo que forme parte de la solución.",
+        "Fuente": ""
+      },
+      {
+        "Materia": "Cartas de fabricante, partnership, autorizaciones de canal",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, partnership o autorizaciones de canal en ninguna fase.",
+        "Fuente": ""
+      },
+      {
+        "Materia": "SLA de terceros, soporte back-to-back",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de SLA de terceros o soporte back-to-back formalizado contractualmente.",
+        "Fuente": ""
+      },
+      {
+        "Materia": "Cadena de suministro",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA una descripción o condicionamiento contractual específico de la cadena de suministro.",
+        "Fuente": ""
+      }
+    ],
+    "salida_original": "# Registro documental de preventa\n\n| Materia | Requisito completo | Fuente |\n|---|---|---|\n| Productos físicos y tecnológicos a aportar | El adjudicatario debe administrar y mantener la infraestructura de virtualización y puesto de trabajo, incluyendo más de 12.000 ThinClient HP, 16.000 equipos físicos (68% sobremesa y thinclient, 25% portátiles, 5% dispensadores de turnos, 2% autoservicio, de diferentes fabricantes y sistemas operativos), periféricos (impresoras, pistolas lectoras, tabletas, balanzas, pin-pad, etc.), 34.000 PDA Honeywell EDA52 Android 11, 2.000 PDA Zebra TC56 Android 8.1, 400 PDA Zebra TC57 Android 8.1, 100 PDA Zelenza Android 12, 3.100 smartphones Samsung/Xiaomi/Huawei Android >8, 130 iPhone >11, 100 tablets Samsung TAB A8 LTE Android >8, y cualquier otro dispositivo que Correos/CEX implante durante el contrato. El adjudicatario no está obligado a suministrar estos equipos, sino a administrarlos y mantenerlos. | ANEXO I.pdf, pp. 3-16; DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 34-47 |\n| Software, SaaS y licencias | El adjudicatario debe administrar plataformas y herramientas de software ya existentes o que se implementen durante el contrato, incluyendo Citrix Xenapp, Hyper-V, Windows Virtual Desktop (Azure), NetApp, SQL Server, SCCM, HPDM, MDT, DA, INTUNE, MDM Workspace One UEM (OnPremise y en migración a SaaS), Remedy ITSM, PoST, y aplicaciones móviles corporativas. El adjudicatario debe disponer de las licencias de software necesarias para sus propios medios técnicos (por ejemplo, Microsoft Office, Teams, herramientas colaborativas), pero no se exige la adquisición de licencias de los sistemas de cliente. | ANEXO I.pdf, pp. 3-16, 72; DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 34-47, 72 |\n| Fabricantes obligatorios y equivalencias | Se identifican fabricantes de referencia para la infraestructura gestionada: HP (ThinClient), Cisco (UCS, switches), NetApp (cabinas almacenamiento), Citrix (Xenapp), Microsoft (Windows Server, SQL Server, SCCM, MDT, Intune), VMware (ESXi, Workspace One UEM), Honeywell, Zebra, Zelenza, Samsung, Xiaomi, Huawei, Apple. No se exige la compra de productos de estos fabricantes, pero sí la administración de infraestructuras y dispositivos de estas marcas. No se establecen reglas de equivalencia para sustitución de fabricantes, salvo para la administración de cualquier otro dispositivo que forme parte de la solución. | ANEXO I.pdf, pp. 3-16; DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 34-47 |\n| Certificaciones de fabricante, niveles de partner, autorizaciones de canal y cartas/compromisos | Se consideran \"deseables\" certificaciones de fabricante para los perfiles técnicos (Citrix, Microsoft, NetApp, Cisco, VMware, etc.), pero no se exige la presentación de cartas de fabricante, partnership, ni autorizaciones de canal. No se exige carta de compromiso de fabricante ni de canal en ninguna fase. | DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 65-70 |\n| Subcontratación, UTE, medios externos | La subcontratación está permitida salvo para la gestión y coordinación del servicio, que se considera tarea crítica y no puede subcontratarse. El adjudicatario debe indicar en la oferta la parte del contrato que prevé subcontratar, su importe y el nombre o perfil empresarial de los subcontratistas. Cualquier subcontratación durante la ejecución debe ser comunicada y justificada, acreditando la aptitud del subcontratista. Si la subcontratación afecta a tratamiento de datos personales, el subcontratista debe firmar contrato de encargo de tratamiento conforme al Anexo XVI. | DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 24-25 |\n| UTE | Se permite la presentación en UTE. En caso de UTE, debe presentarse compromiso de constitución y cada empresa debe presentar su propio DEUC. La UTE debe formalizarse en escritura pública antes de la formalización del contrato. | DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 11, 18 |\n| Cadena de suministro | NO CONSTA EN LA DOCUMENTACION REVISADA una descripción o condicionamiento contractual específico de la cadena de suministro más allá de la obligación de mantener la disponibilidad de recursos y la administración de los activos existentes. |\n| Plazos de suministro, stock, garantías, soporte fabricante, NBD/4h/onsite, lead time, EOL/EOS, homologaciones, sostenibilidad, logística, staging, retirada y destrucción | El adjudicatario debe garantizar la disponibilidad de recursos dedicados y la cobertura de servicios según los ANS definidos (ver Anexo XVII), incluyendo penalizaciones por indisponibilidad, rotación excesiva o falta de cobertura de perfiles. No se exige stock físico ni suministro de hardware/software al cliente. El adjudicatario debe proveer a su equipo de los medios técnicos necesarios (portátil, software, comunicaciones) y mantenerlos durante la ejecución. Garantía general de 3 meses tras la recepción conforme del servicio. No se establecen plazos de suministro, lead time, EOL/EOS, ni requisitos de homologación o sostenibilidad para productos. El adjudicatario debe realizar la retirada y entrega de documentación y conocimiento en la fase de reversión, pero no se exige retirada física de equipos del cliente. | DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 28, 40, 44, 59-62, 72-73, 111-118 |\n| SLA de terceros o exigencias back-to-back | El adjudicatario debe asegurar el cumplimiento de los ANS definidos en el Anexo XVII, incluyendo tiempos de resolución de incidencias y peticiones, disponibilidad de recursos, y penalizaciones asociadas. No se exige la existencia de SLA back-to-back con fabricantes o terceros, pero el adjudicatario debe involucrar a soportes de fabricantes cuando sea necesario para la resolución de incidencias. | DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 39, 47, 65-70, 111-118 |\n| Compromiso de adscripción de medios | El licitador debe presentar un compromiso de adscripción de medios personales y materiales, indicando el personal y organismos técnicos que compromete adscribir al contrato, con declaración de experiencia mínima de 1 año en puesto similar. Este compromiso es obligación esencial y debe integrarse en el contrato. | DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 8, 22, 120-121 |\n| Medios técnicos del adjudicatario | El adjudicatario debe proveer a su equipo de ordenador portátil (mínimo Intel i5 9ª gen, SSD, 8GB RAM, preferible 16GB), software de comunicaciones (Office, Teams, herramientas colaborativas), licencias de software necesarias para estos medios, conexión a Internet, y teléfono fijo o móvil directo para cada técnico. | DOC20240806095753Pliegodefinitivofirmado.pdf, p. 72 |\n| Responsabilidad sobre soporte de fabricantes | El adjudicatario debe disponer de soporte de fabricantes (Microsoft, NetApp, Cisco, Citrix, etc.) para los técnicos asignados cuando se requiera conocimiento muy específico. El adjudicatario debe poner a disposición un panel de expertos y, si no dispone de expertos internos, recurrir a subcontratar técnicos expertos del fabricante. | DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 63, 65-71 |\n| Penalizaciones por incumplimiento de suministro o soporte | Penalizaciones económicas por incumplimiento de ANS, indisponibilidad de recursos, rotación excesiva, falta de cobertura de perfiles, incumplimiento de plazos de resolución de incidencias/peticiones, y no realización del plan de parcheo/actualización. Las penalizaciones pueden llegar al 100% de la facturación mensual del servicio afectado. | DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 96-118 |\n| Facturación y cobro | Facturación mensual por servicios, con porcentajes definidos para cada servicio y empresa. Facturación de proyectos especiales por hitos acordados, con bolsa económica fija no reducible. Facturación electrónica obligatoria. | DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 90-91 |\n| Garantía definitiva | El adjudicatario debe constituir garantía definitiva del 5% del importe de adjudicación (IVA excluido), y garantía complementaria del 5% en caso de oferta temeraria. | DOC20240806095753Pliegodefinitivofirmado.pdf, p. 18 |\n| Condiciones de pago | Pago por transferencia bancaria o confirming, en 60 días naturales desde la recepción de la factura. | DOC20240806095753Pliegodefinitivofirmado.pdf, p. 27 |\n| Condiciones de ejecución para subcontratistas | Todas las condiciones especiales de ejecución serán exigidas igualmente a los subcontratistas, respondiendo el contratista principal en caso de incumplimiento. | DOC20240806095753Pliegodefinitivofirmado.pdf, p. 24 |\n| Proyectos especiales y bolsa de expertos | El adjudicatario debe proveer una bolsa de expertos en tecnologías actuales o futuras, recurriendo a subcontratación de técnicos expertos del fabricante si no dispone de ellos. El coste de estos expertos se factura solo cuando se consume, bajo demanda de Correos/CEX. | DOC20240806095753Pliegodefinitivofirmado.pdf, pp. 71, 75-76 |\n| Restricciones de canal, reposición, stock, logística, staging, retirada y destrucción | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna restricción específica de canal, reposición, stock, logística, staging, retirada o destrucción de equipos o materiales, más allá de la obligación de mantener la disponibilidad de recursos y la entrega de documentación y conocimiento en la reversión del servicio. |\n| Reglas de equivalencia para productos o fabricantes | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna regla de equivalencia para sustitución de productos o fabricantes, salvo la administración de cualquier otro dispositivo que forme parte de la solución. |\n| Cartas de fabricante, partnership, autorizaciones de canal | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, partnership o autorizaciones de canal en ninguna fase. |\n| SLA de terceros, soporte back-to-back | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de SLA de terceros o soporte back-to-back formalizado contractualmente. |\n| Cadena de suministro | NO CONSTA EN LA DOCUMENTACION REVISADA una descripción o condicionamiento contractual específico de la cadena de suministro. |\n\n# Discrepancias y pendientes de aclaración\n\nNo se han identificado discrepancias en la documentación revisada.",
+    "registro_completo_estructura": true
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "ANEXO I.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 109403,
+        "caracteres_enviados_al_agente": 109403,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Anuncio.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 8853,
+        "caracteres_enviados_al_agente": 8853,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 330809,
+        "caracteres_enviados_al_agente": 330809,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 4,
+        "nombre": "DOC_CD2024-000901195.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 8376,
+        "caracteres_enviados_al_agente": 8376,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 5,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "Anuncio.pdf",
+        "caracteres_extraidos": 5053,
+        "caracteres_enviados_al_agente": 5053,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 6,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "Anuncio.pdf",
+        "caracteres_extraidos": 3234,
+        "caracteres_enviados_al_agente": 3234,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 7,
+        "nombre": "CORREOS-Codigo-General-de-Conducta.pdf",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 0,
+        "caracteres_enviados_al_agente": 0,
+        "texto_compactado": false,
+        "error": "404 Client Error: The specified blob does not exist. for url: https://cswetwebcorsta01.blob.core.windows.net/uploads/2022/01/CORREOS-Codigo-General-de-Conducta.pdf"
+      },
+      {
+        "numero": 8,
+        "nombre": "perfil-contratante",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 84908,
+        "caracteres_enviados_al_agente": 84908,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 9,
+        "nombre": "PoliticaProteccionDatosCanalEticoClientesyProveedores--ES.pdf",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 13833,
+        "caracteres_enviados_al_agente": 13833,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Documento no leido: CORREOS-Codigo-General-de-Conducta.pdf: 404 Client Error: The specified blob does not exist. for url: https://cswetwebcorsta01.blob.core.windows.net/uploads/2022/01/CORREOS-Codigo-General-de-Conducta.pdf",
+      "Se omitieron 22 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  },
+  "puntos_revision": [
+    {
+      "id": "REV-001",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Equipo, medios y ejecución del servicio",
+      "prioridad": "media",
+      "detalle": "Revisar equipo, medios y ejecución del servicio: 4 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-001.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Restricciones de canal, reposición, stock, logística, staging, retirada y destrucción; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA ninguna restricción específica de canal, reposición, stock, logística, staging, retirada o destrucción de equipos o materiales, más allá de la obligación de mantener la disponibilidad de recursos y la entrega de documentación y conocimiento en la reversión del servicio.",
+          "evidencia": "| Restricciones de canal, reposición, stock, logística, staging, retirada y destrucción | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna restricción específica de canal, reposición, stock, logística, staging, retirada o destrucción de equipos o materiales, más allá de la obligación de mantener la disponibilidad de recursos y la entrega de documentación y conocimiento en la reversión del servicio. |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: SLA de terceros, soporte back-to-back; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de SLA de terceros o soporte back-to-back formalizado contractualmente.",
+          "evidencia": "| SLA de terceros, soporte back-to-back | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de SLA de terceros o soporte back-to-back formalizado contractualmente. |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.03",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Cadena de suministro; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA una descripción o condicionamiento contractual específico de la cadena de suministro más allá de la obligación de mantener la disponibilidad de recursos y la administración de los activos existentes.",
+          "evidencia": "| Cadena de suministro | NO CONSTA EN LA DOCUMENTACION REVISADA una descripción o condicionamiento contractual específico de la cadena de suministro más allá de la obligación de mantener la disponibilidad de recursos y la administración de los activos existentes. |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.04",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Cadena de suministro; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA una descripción o condicionamiento contractual específico de la cadena de suministro.",
+          "evidencia": "| Cadena de suministro | NO CONSTA EN LA DOCUMENTACION REVISADA una descripción o condicionamiento contractual específico de la cadena de suministro. |",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-002",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Admisión, solvencia y acreditaciones",
+      "prioridad": "media",
+      "detalle": "Revisar admisión, solvencia y acreditaciones: 2 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-002.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Reglas de equivalencia para productos o fabricantes; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA ninguna regla de equivalencia para sustitución de productos o fabricantes, salvo la administración de cualquier otro dispositivo que forme parte de la solución.",
+          "evidencia": "| Reglas de equivalencia para productos o fabricantes | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna regla de equivalencia para sustitución de productos o fabricantes, salvo la administración de cualquier otro dispositivo que forme parte de la solución. |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-002.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Cartas de fabricante, partnership, autorizaciones de canal; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, partnership o autorizaciones de canal en ninguna fase.",
+          "evidencia": "| Cartas de fabricante, partnership, autorizaciones de canal | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de cartas de fabricante, partnership o autorizaciones de canal en ninguna fase. |",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-003",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Documentación y otras condiciones pendientes",
+      "prioridad": "media",
+      "detalle": "Revisar documentación y otras condiciones pendientes: 1 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-003.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No se han identificado discrepancias en la documentación revisada.",
+          "evidencia": "No se han identificado discrepancias en la documentación revisada.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    }
+  ],
+  "recomendaciones": [],
+  "estado_recomendaciones": "no_generadas"
+}

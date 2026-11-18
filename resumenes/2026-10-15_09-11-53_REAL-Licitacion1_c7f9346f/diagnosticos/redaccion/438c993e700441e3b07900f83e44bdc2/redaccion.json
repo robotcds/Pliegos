@@ -1,0 +1,636 @@
+{
+  "expediente": "REAL-Licitacion1",
+  "agentes_revisados": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A6",
+    "A8",
+    "A9",
+    "A10"
+  ],
+  "introduccion": [
+    "He revisado de forma conjunta la información extraída en el JSON del expediente REAL-Licitacion1, incluyendo los apartados de datos principales, presentación de la oferta, alcance y volumetría, actividades y procesos, equipo y perfiles, solvencia, criterios de adjudicación, condiciones económicas, subcontratación y UTE, condiciones especiales, seguridad y protección de datos, y cadena de suministro. La revisión se ha realizado sobre los documentos ID_188_1.PDF, ID_188_2.PDF, ID_188_3.PDF y varios documentos enlazados, con la salvedad de que el documento 147409-2026 está pendiente de lectura/OCR y algunos enlaces internos no han sido procesados.",
+    "El objeto del contrato es la prestación de servicios para el diseño, desarrollo, implantación, mantenimiento y evolución tecnológica de un asistente virtual SaaS para Decide Madrid, con IA generativa y tradicional. El contrato tiene un presupuesto base de 181.595,44 € (sin IVA), un valor estimado de 408.918,11 €, una duración inicial de 24 meses y posibilidad de prórrogas hasta 60 meses. Se exige un equipo mínimo de siete perfiles profesionales, cumplimiento de condiciones especiales de ejecución, y se establecen criterios de adjudicación con baremos completos y penalizaciones detalladas. Existen limitaciones y condiciones específicas en subcontratación, UTE, garantías, facturación, seguridad y protección de datos, y cadena de suministro cloud.",
+    "El modelo de prestación es en modalidad SaaS, con el adjudicatario responsable de la gestión y operación de la solución, salvo la infraestructura MultiCloud corporativa que aporta el Ayuntamiento. El servicio incluye panel de control, soporte, formación, bolsa de horas de evolución tecnológica y cumplimiento de requisitos de seguridad, accesibilidad y normativa IA. Las referencias y fuentes documentales se encuentran en los apartados y tablas de cada sección, con indicación expresa de los datos no localizados o pendientes de verificación."
+  ],
+  "secciones": [
+    {
+      "titulo": "Datos principales de la licitación",
+      "bloques": [
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Concepto",
+            "Información"
+          ],
+          "filas": [
+            [
+              "Expediente",
+              "REAL-Licitacion1"
+            ],
+            [
+              "Órgano de contratación",
+              "Área de Gobierno de Vicealcaldía, Portavoz, Seguridad y Emergencias del Ayuntamiento de Madrid"
+            ],
+            [
+              "Objeto",
+              "Servicios para diseño, desarrollo, implantación, mantenimiento y evolución tecnológica de un asistente virtual SaaS para Decide Madrid, con IA generativa y tradicional"
+            ],
+            [
+              "Presupuesto base (sin IVA)",
+              "181.595,44 €"
+            ],
+            [
+              "Presupuesto base (con IVA 21%)",
+              "219.730,48 €"
+            ],
+            [
+              "Valor estimado",
+              "408.918,11 €"
+            ],
+            [
+              "Duración inicial",
+              "24 meses desde 01/09/2026 o formalización"
+            ],
+            [
+              "Prórrogas",
+              "Hasta 60 meses (24+24+12)"
+            ],
+            [
+              "Duración máxima",
+              "60 meses"
+            ],
+            [
+              "CPV",
+              "72000000 (Servicios de informática)"
+            ],
+            [
+              "Lotes",
+              "No hay lotes"
+            ],
+            [
+              "Procedimiento",
+              "Abierto, tramitación ordinaria, sujeto a regulación armonizada"
+            ],
+            [
+              "Presentación de ofertas",
+              "Electrónica, a través de la Plataforma de Contratación del Sector Público (PLACSP)"
+            ],
+            [
+              "Fecha límite de presentación",
+              "16/06/2026 a las 23:59"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Presentación de la oferta",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "La oferta debe presentarse electrónicamente a través de la Plataforma de Contratación del Sector Público (PLACSP), en tres sobres electrónicos diferenciados, cada uno con documentación específica y requisitos formales. La presentación fuera de plazo o forma, la omisión de datos esenciales o la presentación de varias ofertas por el mismo licitador o grupo son causas expresas de exclusión."
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Sobre A: Documentación administrativa (DEUC, Anexo VI, Anexo X, compromisos UTE/medios externos, declaraciones grupo/discapacidad/igualdad, etc.)",
+            "Sobre B: Oferta técnica (máx. 40 páginas, requisitos formales, sin incluir criterios valorables en cifras o porcentajes)",
+            "Sobre C: Oferta económica (modelo Anexo II, desglose costes fijos/variables, precio unitario hora, IVA diferenciado)"
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Toda la documentación debe estar redactada en castellano, firmada electrónicamente y ajustada a los modelos y formatos exigidos en el pliego. El plazo de validez de la oferta es de 2 meses desde la presentación."
+        }
+      ]
+    },
+    {
+      "titulo": "Alcance y volumetría del servicio",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "El contrato abarca el diseño, desarrollo, implantación, mantenimiento y evolución tecnológica de un asistente virtual conversacional con IA generativa y tradicional, integrado en Decide Madrid. El servicio se presta en modalidad SaaS, con el adjudicatario responsable de la gestión y operación de todos los elementos de la solución, salvo la infraestructura MultiCloud corporativa (Google Cloud Platform, Microsoft Azure, Amazon AWS) proporcionada por el Ayuntamiento."
+        },
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Dato",
+            "Valor"
+          ],
+          "filas": [
+            [
+              "Usuarios registrados Decide Madrid",
+              "555.318"
+            ],
+            [
+              "Debates",
+              "8.220"
+            ],
+            [
+              "Propuestas",
+              "36.124"
+            ],
+            [
+              "Consultas públicas",
+              "150"
+            ],
+            [
+              "Personas atendidas por asistente 2023",
+              "6.246"
+            ],
+            [
+              "Personas atendidas por asistente 2024",
+              "4.490"
+            ],
+            [
+              "Personas atendidas por asistente 2025",
+              "2.552 (hasta 30/11)"
+            ],
+            [
+              "Mensajes intercambiados 2023",
+              "27.083"
+            ],
+            [
+              "Mensajes intercambiados 2024",
+              "46.723"
+            ],
+            [
+              "Mensajes intercambiados 2025",
+              "26.784 (hasta 30/11)"
+            ],
+            [
+              "Capacidad mínima de conversaciones simultáneas",
+              "50"
+            ],
+            [
+              "Tráfico mínimo de mensajes",
+              "15.000 mensajes/mes"
+            ],
+            [
+              "Horario de atención primer nivel",
+              "11:00-14:00 días laborables"
+            ],
+            [
+              "Horario de operación asistente virtual",
+              "24x7x365"
+            ],
+            [
+              "Bolsa de horas evolución tecnológica",
+              "600 horas (ampliable)"
+            ],
+            [
+              "Formación",
+              "20 horas, máx. 20 asistentes"
+            ],
+            [
+              "Plazo de ejecución",
+              "24 meses (+prórrogas)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Actividades y procesos del servicio",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe ejecutar todas las actividades necesarias para el correcto funcionamiento del asistente virtual, incluyendo gestión de incidencias, monitorización y supervisión diaria, gestión de cambios y configuración, transferencia de conocimiento, gestión de la seguridad, continuidad, formación, gestión documental y de datos, accesibilidad, transparencia y privacidad. Todas las actividades deben documentarse y reportarse conforme a los procedimientos establecidos por el Ayuntamiento."
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Gestión de incidencias: mantenimiento correctivo, soporte técnico, resolución de incidencias y reporte ágil.",
+            "Monitorización y supervisión diaria de calidad de respuestas y mejora continua.",
+            "Gestión de cambios en arquitectura, sujetos a aprobación municipal y documentación de cambios.",
+            "Transferencia de conocimiento y entrega de información al cierre del contrato.",
+            "Gestión de configuración: documentación de arquitectura, código fuente, parametrizaciones y entregas.",
+            "Gestión de la seguridad: cumplimiento ENS nivel básico, análisis de riesgos, configuración segura, auditorías.",
+            "Gestión de la continuidad: resiliencia, backup, recuperación, colaboración con IAM.",
+            "Gestión de la formación: formación inicial y continua, materiales actualizables, sesiones presenciales/online.",
+            "Gestión documental y de datos: entrega de bases de datos, documentación, formatos abiertos, API, metadatos.",
+            "Gestión de la accesibilidad: cumplimiento UNE 139803:2012, declaración responsable.",
+            "Gestión de la transparencia: entrega de información para transparencia, acceso público, formatos abiertos.",
+            "Gestión de la privacidad: anonimización de datos, cumplimiento RGPD, entrega de documentación."
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Equipo y perfiles profesionales",
+      "bloques": [
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Perfil",
+            "Cantidad",
+            "Titulación",
+            "Experiencia mínima"
+          ],
+          "filas": [
+            [
+              "Jefe/a de Proyecto",
+              "2",
+              "Titulación universitaria de grado o equivalente",
+              "5 años en dirección de proyectos de administración electrónica; 3 años en asistentes virtuales"
+            ],
+            [
+              "Técnico/a experto/a nube",
+              "1",
+              "Titulación universitaria de grado o equivalente",
+              "3 años en funciones propias del perfil; 2 años en asistentes virtuales"
+            ],
+            [
+              "Analista programador",
+              "1",
+              "Titulación universitaria de grado o equivalente",
+              "3 años en funciones propias del perfil; 2 años en asistentes virtuales"
+            ],
+            [
+              "Experto en IA y análisis de datos",
+              "1",
+              "Titulación universitaria de grado o equivalente",
+              "3 años en funciones propias del perfil; 2 años en asistentes virtuales"
+            ],
+            [
+              "Lingüista computacional",
+              "1",
+              "Titulación universitaria de grado o equivalente",
+              "3 años en funciones propias del perfil; 2 años en asistentes virtuales"
+            ],
+            [
+              "Agente primer nivel de atención",
+              "2",
+              "Titulación oficial de Educación Secundaria",
+              "3 años en atención a la ciudadanía en castellano"
+            ],
+            [
+              "Consultor evolución tecnológica",
+              "1",
+              "Titulación universitaria de grado o equivalente",
+              "5 años en funciones propias del perfil; 3 años en análisis de proyectos de administración electrónica; 3 años en asistentes virtuales"
+            ]
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La adscripción de medios personales y materiales es condición esencial del contrato. El adjudicatario debe mantener inalterado el personal adscrito, cubrir ausencias y bajas en un plazo máximo de 7 días, y acreditar la experiencia y titulación mediante declaración responsable, currículum, vida laboral y títulos oficiales. La cobertura de ausencias y la continuidad del servicio son responsabilidad del adjudicatario, sin cuantificación de suplentes. La presencialidad es mayoritariamente en dependencias de la adjudicataria, salvo necesidad y conformidad expresa del Ayuntamiento. El idioma de trabajo es el castellano."
+        }
+      ]
+    },
+    {
+      "titulo": "Solvencia económica y técnica",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Solvencia económica"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige un volumen anual de negocios igual o superior a 181.595,44 € (presupuesto base sin IVA), referido al mejor ejercicio de los tres últimos disponibles (2023, 2024, 2025). Se acredita mediante declaración responsable firmada por el representante legal o inscripción en el ROLECE. No se exige patrimonio neto mínimo ni ratios financieros específicos. No se exige seguro de responsabilidad civil profesional. No se exige certificado de buena ejecución diferenciado, pero sí la relación de servicios similares realizados en los tres últimos años, indicando importe, fecha y destinatario, como parte de la acreditación de solvencia técnica (ID_188_2.PDF, Anexo I-11, pág. 64)."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Solvencia técnica"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Se exige haber realizado trabajos de igual o similar naturaleza al objeto del contrato (coincidencia en los tres primeros dígitos del CPV), en los tres últimos años naturales desde la fecha final del plazo de presentación de ofertas, por importe igual o superior al presupuesto del contrato sin IVA (181.595,44 €). Se acredita mediante relación de servicios, indicando importe, fecha y destinatario. Para empresas de nueva creación (antigüedad inferior a cinco años), la solvencia técnica se acredita por descripción de instalaciones técnicas y títulos académicos/profesionales del empresario/directivos/técnicos responsables."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Otros requisitos y alternativas"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se exige clasificación obligatoria, pero puede acreditarse la solvencia mediante clasificación en el grupo/subgrupo/categoría correspondiente. Se permite la integración de solvencia con medios externos y acumulación en UTE. No se exige habilitación empresarial ni profesional, ni certificados ISO, ENS, cartas de fabricante o partnerships. La inscripción en el ROLECE acredita la solvencia a tenor de lo reflejado en él. No se exige seguro obligatorio de RC ni otros seguros profesionales."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "En cuanto a los certificados de buena ejecución, el pliego no exige un certificado específico como requisito diferenciado, pero sí la relación de servicios similares realizados en los tres últimos años, indicando importe, fecha y destinatario, como parte de la acreditación de solvencia técnica. Esta relación debe presentarse conforme al artículo 90.1.a) de la LCSP. (ID_188_2.PDF, Anexo I-11, pág. 64)."
+        }
+      ]
+    },
+    {
+      "titulo": "Criterios de adjudicación",
+      "bloques": [
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Criterio",
+            "Puntos máximos",
+            "Peso",
+            "Tipo de evaluación"
+          ],
+          "filas": [
+            [
+              "A.1 Proyecto técnico (grado de detalle, adecuación, planificación)",
+              "45",
+              "45%",
+              "Juicio de valor"
+            ],
+            [
+              "B.1 Oferta económica",
+              "35",
+              "35%",
+              "Automático (fórmula)"
+            ],
+            [
+              "B.2.1 Ampliación horario primer nivel de atención",
+              "10",
+              "10%",
+              "Automático"
+            ],
+            [
+              "B.2.2 Ampliación bolsa de horas evolución tecnológica",
+              "10",
+              "10%",
+              "Automático"
+            ]
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El criterio A.1 (proyecto técnico) se valora mediante juicio de valor, con baremo de calidad (excelente, alta, media, baja, muy baja, insuficiente) y un umbral mínimo de 22,5 puntos sobre 45 para no ser excluido. Los criterios B.1 y B.2 son automáticos, con fórmulas y reglas explícitas. El total de puntos es 100, distribuidos en 45% criterios cualitativos y 55% cuantitativos."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Baremo de calidad para criterios de juicio de valor"
+        },
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Nivel de calidad",
+            "% de la puntuación del subcriterio"
+          ],
+          "filas": [
+            [
+              "EXCELENTE",
+              "100%"
+            ],
+            [
+              "ALTA",
+              "80%"
+            ],
+            [
+              "MEDIA",
+              "60%"
+            ],
+            [
+              "BAJA",
+              "40%"
+            ],
+            [
+              "MUY BAJA",
+              "20%"
+            ],
+            [
+              "INSUFICIENTE",
+              "0%"
+            ]
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Cada subcriterio del proyecto técnico se valora según este baremo, asignando el porcentaje correspondiente de los puntos máximos del subcriterio. El umbral mínimo de 22,5 puntos en criterios cualitativos es causa de exclusión si no se alcanza."
+        }
+      ]
+    },
+    {
+      "titulo": "Oferta económica y fórmula de valoración",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "La oferta económica se valora mediante la fórmula: Y = 35 × (importe oferta más económica / importe oferta a valorar), donde Y es la puntuación obtenida. La oferta más económica obtiene 35 puntos y el resto proporcionalmente. No se especifica regla de redondeo. El importe a considerar es la suma de costes fijos y variables ofertados. El régimen de ofertas anormalmente bajas se aplica según el número de licitadores, con umbrales del 20%, 15% o 10% respecto al presupuesto base, la otra oferta o la media aritmética, respectivamente. El plazo para justificar la anormalidad es de 3 días."
+        }
+      ]
+    },
+    {
+      "titulo": "Mejoras puntuables y baremos",
+      "bloques": [
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Mejora",
+            "Unidad/condición",
+            "Puntos por unidad",
+            "Tope"
+          ],
+          "filas": [
+            [
+              "Ampliación horario primer nivel de atención",
+              "1 hora diaria adicional (de 3h a 4h/día)",
+              "10",
+              "10"
+            ],
+            [
+              "Ampliación bolsa de horas evolución tecnológica",
+              "100 horas adicionales (sin coste)",
+              "5 por 100h, 10 por 200h",
+              "10"
+            ]
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Las mejoras puntuables son automáticas: se otorgan 10 puntos si se oferta una hora diaria adicional de atención (de 3h a 4h/día), y hasta 10 puntos por ampliar la bolsa de horas de evolución tecnológica (5 puntos por 100 horas adicionales, 10 puntos por 200 horas adicionales, sin coste). No existen criterios puntuables vinculados a la cualificación, experiencia o certificaciones adicionales de los perfiles."
+        }
+      ]
+    },
+    {
+      "titulo": "Garantías y condiciones económicas",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Garantías"
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Garantía provisional: no exigida.",
+            "Garantía definitiva: 5% del precio final ofertado sin IVA, a constituir tras requerimiento al adjudicatario.",
+            "Garantía complementaria: 1% en caso de ofertas anormalmente bajas."
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Facturación y pago"
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "20% de los costes fijos tras implantación.",
+            "Resto mensual, variables según consumo, memoria justificativa.",
+            "Factura electrónica, conformidad responsable del contrato.",
+            "Plazo de pago: 30 días desde conformidad."
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se prevén revisiones de precios ni modificaciones contractuales. No se admiten anticipos. La facturación está condicionada a la presentación y validación de informes mensuales de seguimiento."
+        }
+      ]
+    },
+    {
+      "titulo": "UTE, subcontratación y cesión",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "Se permite la participación en UTE, con compromiso en la oferta y escritura pública tras adjudicación. Se permite la subcontratación, salvo tareas críticas de implantación y jefe/a de proyecto, debiendo declarar en la oferta la parte a subcontratar, importe y nombre/perfil del subcontratista. No se admite la cesión del contrato. La integración de solvencia con medios externos es posible mediante compromiso y documentación de la entidad externa."
+        }
+      ]
+    },
+    {
+      "titulo": "Condiciones especiales de ejecución y obligaciones esenciales",
+      "bloques": [
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Informe de impacto de género antes de la finalización del contrato.",
+            "No minorar unilateralmente condiciones laborales y salariales.",
+            "Medidas de conciliación (flexibilidad horaria, teletrabajo).",
+            "Adscripción de medios personales y materiales durante toda la vigencia.",
+            "Designación y permanencia de interlocutor único.",
+            "Impartición de formación requerida.",
+            "Cumplimiento de la Ley de Igualdad y uso no sexista del lenguaje.",
+            "Cumplimiento de normativa de prevención de riesgos laborales y entrega de EPIs.",
+            "Cumplimiento de normativa medioambiental aplicable."
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El incumplimiento de las condiciones especiales de ejecución es causa de penalización (5% del precio del contrato) y puede dar lugar a la resolución del contrato en caso de reiteración o gravedad."
+        }
+      ]
+    },
+    {
+      "titulo": "Seguridad, protección de datos y ENS",
+      "bloques": [
+        {
+          "tipo": "subtitulo",
+          "texto": "Medidas de seguridad y ENS"
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Cumplimiento del Esquema Nacional de Seguridad (ENS) nivel básico para todos los servicios y sistemas desarrollados, desplegados o mantenidos.",
+            "Aplicación de las medidas del Anexo II del ENS nivel básico y justificación documental de su aplicación.",
+            "Análisis de riesgos conforme a ENS, plan de tratamiento, configuración segura, cifrado de información no pública en tránsito.",
+            "Designación de un Punto o Persona de Contacto (POC) para seguridad de la información.",
+            "Gestión de identidades y accesos, control de privilegios, logging, gestión de vulnerabilidades, incidentes, desarrollo seguro, auditoría, borrado seguro y confidencialidad.",
+            "Despliegue cloud exclusivamente en plataformas MultiCloud corporativas del Ayuntamiento (Azure, AWS, GCP) en regiones del Espacio Económico Europeo.",
+            "Borrado seguro de datos al finalizar el contrato, con certificado de destrucción."
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Protección de datos y RGPD"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "No se exige tratamiento de datos personales por cuenta del Ayuntamiento ni acuerdo de encargado de tratamiento. El adjudicatario no asume el rol de encargado de tratamiento de datos personales del Ayuntamiento. Se exige cumplimiento de la normativa de protección de datos (LOPDGDD, RGPD) para los datos tratados en la contratación municipal, pero no para el servicio objeto del contrato."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Penalizaciones y consecuencias"
+        },
+        {
+          "tipo": "lista",
+          "elementos": [
+            "Penalidad del 5% del precio del contrato por destrucción, pérdida o alteración de datos que generen daños al Ayuntamiento, indisponibilidad del asistente virtual superior a 48 horas, incumplimiento de órdenes del responsable del contrato, no presentación de informes, etc.",
+            "Penalidad del 10% del precio del contrato por incumplimientos muy graves (reiteración, indisponibilidad superior a 5 días, etc.).",
+            "Resolución del contrato por reiteración de incumplimientos muy graves, destrucción de datos con dolo o reincidencia, etc."
+          ]
+        }
+      ]
+    },
+    {
+      "titulo": "Productos, cadena de suministro y licencias",
+      "bloques": [
+        {
+          "tipo": "parrafo",
+          "texto": "El adjudicatario debe aportar y gestionar una solución tecnológica en modalidad SaaS, incluyendo todos los elementos de software, licencias, servicios cloud (salvo la infraestructura MultiCloud corporativa que aporta el Ayuntamiento), y medios materiales y personales necesarios para la ejecución del contrato. No se exige ningún fabricante concreto ni cartas de canal o partnership, pero sí se establecen restricciones de despliegue en cloud y obligaciones de soporte, mantenimiento, formación y destrucción de datos. No se localizan requisitos de hardware físico a suministrar al cliente ni obligaciones de stock, staging o logística física. No se exigen certificaciones de fabricante, ISO ni ENS. No se identifican SLA back-to-back con terceros ni garantías de fabricante."
+        },
+        {
+          "tipo": "tabla",
+          "columnas": [
+            "Elemento/necesidad",
+            "Tipo",
+            "Cantidad/volumen",
+            "Quién debe aportarlo"
+          ],
+          "filas": [
+            [
+              "Solución Asistente Virtual",
+              "SaaS",
+              "1",
+              "Adjudicatario"
+            ],
+            [
+              "Panel de control",
+              "SaaS",
+              "1",
+              "Adjudicatario"
+            ],
+            [
+              "Licencias software y herramientas",
+              "Software/licencias",
+              "Todas necesarias",
+              "Adjudicatario"
+            ],
+            [
+              "Infraestructura MultiCloud (tenant, landing zone, servicios comunes)",
+              "Cloud infra",
+              "-",
+              "Ayuntamiento"
+            ],
+            [
+              "Recursos cloud (SaaS/PaaS/IaaS) para la solución",
+              "Cloud servicios",
+              "Todos necesarios",
+              "Adjudicatario"
+            ],
+            [
+              "Personal técnico y agentes",
+              "Recursos humanos",
+              "Según perfiles mínimos",
+              "Adjudicatario"
+            ],
+            [
+              "Equipos de protección individual",
+              "Material",
+              "Según necesidad",
+              "Adjudicatario"
+            ],
+            [
+              "Formación a usuarios DGPC",
+              "Servicio",
+              "20h mínimo, 20 asistentes",
+              "Adjudicatario"
+            ],
+            [
+              "Destrucción de datos y documentación",
+              "Servicio",
+              "Al cierre",
+              "Adjudicatario"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": [
+    "**DOCUMENTALMENTE ESTABLECIDO:** El contrato abarca el diseño, desarrollo, implantación, mantenimiento y evolución tecnológica de un asistente virtual SaaS para Decide Madrid, con IA generativa y tradicional, en modalidad SaaS, con el adjudicatario responsable de la gestión y operación de la solución, salvo la infraestructura MultiCloud corporativa que aporta el Ayuntamiento.",
+    "**DOCUMENTALMENTE ESTABLECIDO:** El presupuesto base es de 181.595,44 € (sin IVA), el valor estimado asciende a 408.918,11 €, la duración inicial es de 24 meses y la máxima de 60 meses, con posibilidad de prórrogas. El equipo mínimo exigido consta de siete perfiles profesionales con requisitos específicos de titulación y experiencia.",
+    "**PUNTO CRÍTICO DE ADJUDICACIÓN:** La adjudicación se realiza mediante pluralidad de criterios, con 45 puntos para el proyecto técnico (juicio de valor, umbral mínimo de 22,5 puntos), 35 puntos para la oferta económica (fórmula proporcional), y 20 puntos para mejoras automáticas (ampliación de horario y bolsa de horas de evolución tecnológica).",
+    "**PUNTO RELEVANTE:** La adscripción de medios personales y materiales es condición esencial del contrato. El adjudicatario debe mantener inalterado el personal adscrito, cubrir ausencias y bajas en un plazo máximo de 7 días, y acreditar la experiencia y titulación mediante declaración responsable, currículum, vida laboral y títulos oficiales.",
+    "**PUNTO RELEVANTE:** Se permite la participación en UTE, la subcontratación (salvo tareas críticas), y la integración de solvencia con medios externos. No se admite la cesión del contrato. No se exige clasificación obligatoria, habilitación profesional, seguro RC, certificados ISO/ENS, ni cartas de fabricante.",
+    "**PUNTO RELEVANTE:** El adjudicatario debe aportar y gestionar todos los elementos de software, licencias y servicios cloud necesarios, salvo la infraestructura MultiCloud corporativa. No se exige fabricante concreto, ni stock, ni logística física. No se identifican SLA back-to-back ni garantías de fabricante.",
+    "**PUNTO RELEVANTE:** Se exige cumplimiento del ENS nivel básico, medidas de seguridad, análisis de riesgos, configuración segura, cifrado, logging, gestión de incidentes, borrado seguro y confidencialidad. No se exige tratamiento de datos personales por cuenta del Ayuntamiento ni acuerdo de encargado de tratamiento.",
+    "**NO LOCALIZADO:** No se han localizado requisitos de patrimonio neto, ratios financieros, seguro RC, certificaciones ISO/ENS, partnerships, colegiación, idiomas adicionales, experiencia internacional, formación continua obligatoria, ni número de suplentes o reglas de solapamiento.",
+    "**PENDIENTE DE VERIFICAR:** El documento 147409-2026 está pendiente de lectura/OCR; no se ha podido verificar si contiene requisitos adicionales o diferentes. No se han identificado discrepancias internas relevantes en la documentación revisada."
+  ]
+}

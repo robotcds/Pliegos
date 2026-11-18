@@ -1,0 +1,21 @@
+# Registro documental de preventa
+
+| Materia                        | Requisito completo                                                                                                                                                                                                                 | Fuente                                                                                 |
+|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| Criterios de adjudicación      | El criterio "Oferta económica" se valora con un máximo de 70 puntos.                                                                                                                        | Metadatos XML, campo "criterios_adjudicacion_xml"; Detalle_Licitacion, resumen tabla. |
+| Criterios de adjudicación      | El criterio "Oferta técnica, criterios evaluables automáticamente" se valora con un máximo de 3 puntos.                                                                                     | Metadatos XML, campo "criterios_adjudicacion_xml"; Detalle_Licitacion, resumen tabla. |
+| Criterios de adjudicación      | El criterio "Oferta técnica" (resto de criterios técnicos, sujetos a juicio de valor) se valora con un máximo de 27 puntos.                                                                | Metadatos XML, campo "criterios_adjudicacion_xml"; Detalle_Licitacion, resumen tabla. |
+| Criterios de adjudicación      | Suma total de puntos de criterios de adjudicación: 100 puntos (cálculo derivado: 70+3+27=100).                                                                                              | Metadatos XML, campo "criterios_adjudicacion_xml".                                    |
+| Criterios de adjudicación      | No consta en la documentación revisada la fórmula exacta de valoración para el criterio de oferta económica, ni para los criterios técnicos automáticos o de juicio de valor.              | NO CONSTA EN LA DOCUMENTACION REVISADA.                                                |
+| Criterios de adjudicación      | No consta en la documentación revisada el detalle de subcriterios, variables, umbrales, topes, reglas de redondeo, ni mejoras puntuables para ninguno de los criterios.                     | NO CONSTA EN LA DOCUMENTACION REVISADA.                                                |
+| Criterios de adjudicación      | No consta en la documentación revisada el régimen de ofertas anormalmente bajas, ni reglas de desempate, ni documentación de oferta necesaria para cada criterio.                           | NO CONSTA EN LA DOCUMENTACION REVISADA.                                                |
+| Solvencia y requisitos mínimos | Los requisitos de capacidad de obrar, no prohibición para contratar, no estar incurso en incompatibilidades, cumplimiento de obligaciones con la seguridad social y tributarias son mínimos. | Metadatos XML, campo "requisitos_xml".                                                |
+| Solvencia y requisitos mínimos | No consta en la documentación revisada el detalle de acreditación, plazos, fases de presentación ni consecuencias expresas de no aportación para los requisitos mínimos.                     | NO CONSTA EN LA DOCUMENTACION REVISADA.                                                |
+
+# Discrepancias y pendientes de aclaración
+
+- No se han identificado discrepancias internas entre los datos disponibles en los metadatos XML y el documento adicional "Detalle_Licitacion".
+- No se dispone del texto completo de los pliegos administrativo y técnico, por lo que quedan pendientes de verificar:
+    - Fórmulas de valoración, subcriterios, variables, umbrales, topes, reglas de redondeo, mejoras puntuables, régimen de anormalidad, reglas de desempate y documentación de oferta necesaria.
+    - Detalle de acreditación, plazos y consecuencias de no aportación para los requisitos mínimos.
+- La ausencia de estos datos se debe a la imposibilidad de acceso al contenido de los documentos PDF extraídos, según el estado de lectura registrado.

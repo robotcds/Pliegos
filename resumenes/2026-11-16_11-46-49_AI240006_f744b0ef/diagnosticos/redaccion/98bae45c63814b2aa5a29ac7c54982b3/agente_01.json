@@ -1,0 +1,39 @@
+{
+  "orden": 1,
+  "id": "A1",
+  "nombre": "Resumen breve",
+  "tipo": "referencia",
+  "ejecucion": "f744b0efaff245c29cca2ab5fa84667c",
+  "estado": "completado",
+  "contenido": {
+    "salida_original": "• Expediente AI240006, órgano: Consejo de Administración-Comité de Inversiones de la Sociedad Estatal Correos y Telégrafos S.A. (fuente: metadatos XML).\n• Objeto: Contratación del servicio de Administración Workplace (fuente: metadatos XML).\n• Presupuesto estimado: 2.591.500 EUR; importe total: 1.718.200 EUR (fuente: metadatos XML; no consta si con/sin IVA).\n• Duración prevista: 24 meses (fuente: metadatos XML).\n• Plazo de presentación de ofertas: NO CONSTA EN LA DOCUMENTACION REVISADA; documentos principales no accesibles por error de lectura."
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "Pliegodefinitivofirmado.pdf",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 118,
+        "caracteres_enviados_al_agente": 118,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Pliegodefinitivofirmado.pdf",
+        "tipo": "Pliego tecnico",
+        "fuente": "XML",
+        "caracteres_extraidos": 118,
+        "caracteres_enviados_al_agente": 118,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": []
+  }
+}

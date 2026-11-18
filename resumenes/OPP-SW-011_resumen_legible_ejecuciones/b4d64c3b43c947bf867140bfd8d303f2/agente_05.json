@@ -1,0 +1,434 @@
+{
+  "orden": 5,
+  "id": "A6",
+  "nombre": "Requisitos del servicio",
+  "tipo": "extraccion",
+  "estado": "completado",
+  "contenido": {
+    "resumen": [
+      "RESUMEN FACTUAL DEL SERVICIO REQUERIDO",
+      "ALCANCE Y VOLUMETRÍAS",
+      "Portal web accesible | 1 portal | 12 meses | PPT OPP-SW-011 T1",
+      "Usuarios internos | 150 usuarios | 12 meses | PPT OPP-SW-011 T2",
+      "Ciudadanos usuarios | 10.000 usuarios | 12 meses | PPT OPP-SW-011 T2",
+      "API REST y base de datos PostgreSQL | 1 sistema | 12 meses | PPT OPP-SW-011 T1",
+      "Soporte N2 | 8x5 | 12 meses | PPT OPP-SW-011 T2",
+      "Copias de seguridad diarias, restauración mensual, registros 12 meses | 12 meses | PPT OPP-SW-011 T3",
+      "Sede: NO CONSTA EN LA DOCUMENTACION REVISADA",
+      "MODELO DE SERVICIO EXIGIDO",
+      "Soporte N2 8x5 para usuarios internos y ciudadanos (PPT OPP-SW-011 T2)",
+      "Gestión de incidencias, cambios y conocimiento (PPT OPP-SW-011 T2)"
+    ],
+    "secciones": [
+      {
+        "titulo": "Contenido inicial",
+        "parrafos": [
+          "Desarrollo de un portal ciudadano accesible, integración con registro, notificaciones, API REST y base de datos PostgreSQL, alojamiento en la nube, operación y soporte IT para 150 usuarios internos y 10.000 ciudadanos, incluyendo gestión de incidencias, cambios y conocimiento, con exigencias de certificaciones ISO y ENS, y cumplimiento de requisitos de seguridad, reversibilidad y transición.",
+          "TABLA DE TRAZABILIDAD"
+        ],
+        "elementos": [
+          "RESUMEN FACTUAL DEL SERVICIO REQUERIDO",
+          "ALCANCE Y VOLUMETRÍAS",
+          "Portal web accesible | 1 portal | 12 meses | PPT OPP-SW-011 T1",
+          "Usuarios internos | 150 usuarios | 12 meses | PPT OPP-SW-011 T2",
+          "Ciudadanos usuarios | 10.000 usuarios | 12 meses | PPT OPP-SW-011 T2",
+          "API REST y base de datos PostgreSQL | 1 sistema | 12 meses | PPT OPP-SW-011 T1",
+          "Soporte N2 | 8x5 | 12 meses | PPT OPP-SW-011 T2",
+          "Copias de seguridad diarias, restauración mensual, registros 12 meses | 12 meses | PPT OPP-SW-011 T3",
+          "Sede: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "MODELO DE SERVICIO EXIGIDO",
+          "Soporte N2 8x5 para usuarios internos y ciudadanos (PPT OPP-SW-011 T2)",
+          "Gestión de incidencias, cambios y conocimiento (PPT OPP-SW-011 T2)",
+          "Transición inicial de 4 semanas (PPT OPP-SW-011 T2)",
+          "Reversibilidad de 2 semanas (PPT OPP-SW-011 T2)",
+          "Alojamiento en la nube con certificaciones (PPT OPP-SW-011 T3)",
+          "N1/N3: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "Service Desk: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "PROCESOS Y ACTIVIDADES",
+          "SLA/KPI/PENALIZACIONES",
+          "ORGANIZACIÓN Y ROLES EXIGIDOS",
+          "Jefatura: titulación universitaria en Informática, 8 años experiencia sectorial IT, 5 años dirigiendo proyectos similares, PMP vigente, dedicación 50% (PPT OPP-SW-011 T1)",
+          "Backend: titulación universitaria en Informática, 5 años experiencia sectorial, AWS Developer Associate vigente, dedicación 100% (PPT OPP-SW-011 T1)",
+          "Dos desarrolladores adicionales (PPT OPP-SW-011 T2)",
+          "QA al 50% (PPT OPP-SW-011 T2)",
+          "Soporte N2 (PPT OPP-SW-011 T2)",
+          "Guardias, sustituciones, presencialidad, idiomas: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "GOBIERNO Y REPORTING EXIGIDOS",
+          "Aceptación funcional y de accesibilidad en transición inicial (PPT OPP-SW-011 T2)",
+          "Informes, comités, periodicidad, escalados: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "HERRAMIENTAS ITSM, CMDB, MONITORIZACIÓN E INTEGRACIONES EXIGIDAS",
+          "Herramientas ITSM, CMDB, inventario, portal, integraciones, reporting: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "Monitorización: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "TRANSICIÓN, CONTINUIDAD Y REVERSIBILIDAD EXIGIDAS",
+          "Transición inicial: 4 semanas (PPT OPP-SW-011 T2)",
+          "Reversibilidad: 2 semanas dentro del plazo contratado (PPT OPP-SW-011 T2)",
+          "Continuidad: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "Disponibilidad: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "Dependencias técnicas: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "AUTOMATIZACIÓN, SELF-SERVICE Y GESTIÓN DEL CONOCIMIENTO",
+          "Automatización/self-service: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "Gestión del conocimiento: Exigida funcionalmente, ITIL NO CITADO EXPRESAMENTE (PPT OPP-SW-011 T2)",
+          "DATOS NO LOCALIZADOS O AMBIGUOS",
+          "Sede física, guardias, sustituciones, presencialidad, idiomas, herramientas ITSM, CMDB, inventario, portal, integraciones, reporting, monitorización, continuidad, disponibilidad, dependencias técnicas, automatización/self-service, penalizaciones: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "DOCUMENTOS REVISADOS",
+          "PCAP OPP-SW-011 (Pliego administrativo)",
+          "PPT OPP-SW-011 (Pliego técnico)"
+        ],
+        "tablas": [
+          {
+            "columnas": [
+              "Proceso/actividad",
+              "Expreso en pliego",
+              "Exigencia descrita",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Proceso/actividad": "Gestión de incidencias",
+                "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+                "Exigencia descrita": "Sí",
+                "Fuente": "PPT OPP-SW-011 T2"
+              },
+              {
+                "Proceso/actividad": "Gestión de cambios",
+                "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+                "Exigencia descrita": "Sí",
+                "Fuente": "PPT OPP-SW-011 T2"
+              },
+              {
+                "Proceso/actividad": "Gestión del conocimiento",
+                "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+                "Exigencia descrita": "Sí",
+                "Fuente": "PPT OPP-SW-011 T2"
+              }
+            ]
+          },
+          {
+            "columnas": [
+              "Servicio",
+              "Prioridad",
+              "Respuesta",
+              "Resolución",
+              "Horario",
+              "Objetivo",
+              "Penalización",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Servicio": "Soporte N2",
+                "Prioridad": "Crítica",
+                "Respuesta": "1 hora",
+                "Resolución": "8 horas laborables",
+                "Horario": "8x5",
+                "Objetivo": "NO CONSTA",
+                "Penalización": "NO CONSTA",
+                "Fuente": "PPT OPP-SW-011 T2"
+              }
+            ]
+          },
+          {
+            "columnas": [
+              "Requisito/dato",
+              "Tipo",
+              "Valor/condición",
+              "Documento",
+              "Apartado/página",
+              "Estado lectura"
+            ],
+            "filas": [
+              {
+                "Requisito/dato": "Portal web accesible",
+                "Tipo": "Alcance",
+                "Valor/condición": "1 portal, 12 meses",
+                "Documento": "PPT OPP-SW-011",
+                "Apartado/página": "T1",
+                "Estado lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Usuarios internos",
+                "Tipo": "Alcance",
+                "Valor/condición": "150 usuarios, 12 meses",
+                "Documento": "PPT OPP-SW-011",
+                "Apartado/página": "T2",
+                "Estado lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Ciudadanos usuarios",
+                "Tipo": "Alcance",
+                "Valor/condición": "10.000 usuarios, 12 meses",
+                "Documento": "PPT OPP-SW-011",
+                "Apartado/página": "T2",
+                "Estado lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Soporte N2",
+                "Tipo": "Modelo",
+                "Valor/condición": "8x5, 12 meses",
+                "Documento": "PPT OPP-SW-011",
+                "Apartado/página": "T2",
+                "Estado lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Gestión de incidencias",
+                "Tipo": "Proceso",
+                "Valor/condición": "Exigida, ITIL NO CITADO EXPRESAMENTE",
+                "Documento": "PPT OPP-SW-011",
+                "Apartado/página": "T2",
+                "Estado lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Gestión de cambios",
+                "Tipo": "Proceso",
+                "Valor/condición": "Exigida, ITIL NO CITADO EXPRESAMENTE",
+                "Documento": "PPT OPP-SW-011",
+                "Apartado/página": "T2",
+                "Estado lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Gestión del conocimiento",
+                "Tipo": "Proceso",
+                "Valor/condición": "Exigida, ITIL NO CITADO EXPRESAMENTE",
+                "Documento": "PPT OPP-SW-011",
+                "Apartado/página": "T2",
+                "Estado lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "SLA soporte N2 crítica",
+                "Tipo": "SLA/KPI",
+                "Valor/condición": "Respuesta 1h, resolución 8h laborables",
+                "Documento": "PPT OPP-SW-011",
+                "Apartado/página": "T2",
+                "Estado lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Jefatura requisitos",
+                "Tipo": "Organización",
+                "Valor/condición": "Titulación, experiencia, PMP, 50% ded.",
+                "Documento": "PPT OPP-SW-011",
+                "Apartado/página": "T1",
+                "Estado lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Backend requisitos",
+                "Tipo": "Organización",
+                "Valor/condición": "Titulación, experiencia, AWS, 100% ded.",
+                "Documento": "PPT OPP-SW-011",
+                "Apartado/página": "T1",
+                "Estado lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "QA, desarrolladores adicionales",
+                "Tipo": "Organización",
+                "Valor/condición": "QA 50%, 2 desarrolladores",
+                "Documento": "PPT OPP-SW-011",
+                "Apartado/página": "T2",
+                "Estado lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Transición inicial",
+                "Tipo": "Transición",
+                "Valor/condición": "4 semanas",
+                "Documento": "PPT OPP-SW-011",
+                "Apartado/página": "T2",
+                "Estado lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Reversibilidad",
+                "Tipo": "Reversibilidad",
+                "Valor/condición": "2 semanas dentro del plazo",
+                "Documento": "PPT OPP-SW-011",
+                "Apartado/página": "T2",
+                "Estado lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Certificaciones ISO/ENS",
+                "Tipo": "Requisito",
+                "Valor/condición": "ISO 20000-1, 27001, ENS MEDIA, etc.",
+                "Documento": "PCAP/PPT OPP-SW-011",
+                "Apartado/página": "A4/T3",
+                "Estado lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Automatización/self-service",
+                "Tipo": "Automatización",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "-",
+                "Apartado/página": "-",
+                "Estado lectura": "-"
+              },
+              {
+                "Requisito/dato": "Herramientas ITSM, CMDB, monitorización",
+                "Tipo": "Herramientas",
+                "Valor/condición": "NO CONSTA",
+                "Documento": "-",
+                "Apartado/página": "-",
+                "Estado lectura": "-"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pendientes_y_no_localizados": [],
+    "trazabilidad": [
+      {
+        "Proceso/actividad": "Gestión de incidencias",
+        "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+        "Exigencia descrita": "Sí",
+        "Fuente": "PPT OPP-SW-011 T2"
+      },
+      {
+        "Proceso/actividad": "Gestión de cambios",
+        "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+        "Exigencia descrita": "Sí",
+        "Fuente": "PPT OPP-SW-011 T2"
+      },
+      {
+        "Proceso/actividad": "Gestión del conocimiento",
+        "Expreso en pliego": "ITIL NO CITADO EXPRESAMENTE",
+        "Exigencia descrita": "Sí",
+        "Fuente": "PPT OPP-SW-011 T2"
+      },
+      {
+        "Servicio": "Soporte N2",
+        "Prioridad": "Crítica",
+        "Respuesta": "1 hora",
+        "Resolución": "8 horas laborables",
+        "Horario": "8x5",
+        "Objetivo": "NO CONSTA",
+        "Penalización": "NO CONSTA",
+        "Fuente": "PPT OPP-SW-011 T2"
+      },
+      {
+        "Requisito/dato": "Portal web accesible",
+        "Tipo": "Alcance",
+        "Valor/condición": "1 portal, 12 meses",
+        "Documento": "PPT OPP-SW-011",
+        "Apartado/página": "T1",
+        "Estado lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Usuarios internos",
+        "Tipo": "Alcance",
+        "Valor/condición": "150 usuarios, 12 meses",
+        "Documento": "PPT OPP-SW-011",
+        "Apartado/página": "T2",
+        "Estado lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Ciudadanos usuarios",
+        "Tipo": "Alcance",
+        "Valor/condición": "10.000 usuarios, 12 meses",
+        "Documento": "PPT OPP-SW-011",
+        "Apartado/página": "T2",
+        "Estado lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Soporte N2",
+        "Tipo": "Modelo",
+        "Valor/condición": "8x5, 12 meses",
+        "Documento": "PPT OPP-SW-011",
+        "Apartado/página": "T2",
+        "Estado lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Gestión de incidencias",
+        "Tipo": "Proceso",
+        "Valor/condición": "Exigida, ITIL NO CITADO EXPRESAMENTE",
+        "Documento": "PPT OPP-SW-011",
+        "Apartado/página": "T2",
+        "Estado lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Gestión de cambios",
+        "Tipo": "Proceso",
+        "Valor/condición": "Exigida, ITIL NO CITADO EXPRESAMENTE",
+        "Documento": "PPT OPP-SW-011",
+        "Apartado/página": "T2",
+        "Estado lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Gestión del conocimiento",
+        "Tipo": "Proceso",
+        "Valor/condición": "Exigida, ITIL NO CITADO EXPRESAMENTE",
+        "Documento": "PPT OPP-SW-011",
+        "Apartado/página": "T2",
+        "Estado lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "SLA soporte N2 crítica",
+        "Tipo": "SLA/KPI",
+        "Valor/condición": "Respuesta 1h, resolución 8h laborables",
+        "Documento": "PPT OPP-SW-011",
+        "Apartado/página": "T2",
+        "Estado lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Jefatura requisitos",
+        "Tipo": "Organización",
+        "Valor/condición": "Titulación, experiencia, PMP, 50% ded.",
+        "Documento": "PPT OPP-SW-011",
+        "Apartado/página": "T1",
+        "Estado lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Backend requisitos",
+        "Tipo": "Organización",
+        "Valor/condición": "Titulación, experiencia, AWS, 100% ded.",
+        "Documento": "PPT OPP-SW-011",
+        "Apartado/página": "T1",
+        "Estado lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "QA, desarrolladores adicionales",
+        "Tipo": "Organización",
+        "Valor/condición": "QA 50%, 2 desarrolladores",
+        "Documento": "PPT OPP-SW-011",
+        "Apartado/página": "T2",
+        "Estado lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Transición inicial",
+        "Tipo": "Transición",
+        "Valor/condición": "4 semanas",
+        "Documento": "PPT OPP-SW-011",
+        "Apartado/página": "T2",
+        "Estado lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Reversibilidad",
+        "Tipo": "Reversibilidad",
+        "Valor/condición": "2 semanas dentro del plazo",
+        "Documento": "PPT OPP-SW-011",
+        "Apartado/página": "T2",
+        "Estado lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Certificaciones ISO/ENS",
+        "Tipo": "Requisito",
+        "Valor/condición": "ISO 20000-1, 27001, ENS MEDIA, etc.",
+        "Documento": "PCAP/PPT OPP-SW-011",
+        "Apartado/página": "A4/T3",
+        "Estado lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Automatización/self-service",
+        "Tipo": "Automatización",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "-",
+        "Apartado/página": "-",
+        "Estado lectura": "-"
+      },
+      {
+        "Requisito/dato": "Herramientas ITSM, CMDB, monitorización",
+        "Tipo": "Herramientas",
+        "Valor/condición": "NO CONSTA",
+        "Documento": "-",
+        "Apartado/página": "-",
+        "Estado lectura": "-"
+      }
+    ],
+    "salida_original": "1. RESUMEN FACTUAL DEL SERVICIO REQUERIDO\nDesarrollo de un portal ciudadano accesible, integración con registro, notificaciones, API REST y base de datos PostgreSQL, alojamiento en la nube, operación y soporte IT para 150 usuarios internos y 10.000 ciudadanos, incluyendo gestión de incidencias, cambios y conocimiento, con exigencias de certificaciones ISO y ENS, y cumplimiento de requisitos de seguridad, reversibilidad y transición.\n\n2. ALCANCE Y VOLUMETRÍAS\n- Portal web accesible | 1 portal | 12 meses | PPT OPP-SW-011 T1\n- Usuarios internos | 150 usuarios | 12 meses | PPT OPP-SW-011 T2\n- Ciudadanos usuarios | 10.000 usuarios | 12 meses | PPT OPP-SW-011 T2\n- API REST y base de datos PostgreSQL | 1 sistema | 12 meses | PPT OPP-SW-011 T1\n- Soporte N2 | 8x5 | 12 meses | PPT OPP-SW-011 T2\n- Copias de seguridad diarias, restauración mensual, registros 12 meses | 12 meses | PPT OPP-SW-011 T3\n- Sede: NO CONSTA EN LA DOCUMENTACION REVISADA\n\n3. MODELO DE SERVICIO EXIGIDO\n- Soporte N2 8x5 para usuarios internos y ciudadanos (PPT OPP-SW-011 T2)\n- Gestión de incidencias, cambios y conocimiento (PPT OPP-SW-011 T2)\n- Transición inicial de 4 semanas (PPT OPP-SW-011 T2)\n- Reversibilidad de 2 semanas (PPT OPP-SW-011 T2)\n- Alojamiento en la nube con certificaciones (PPT OPP-SW-011 T3)\n- N1/N3: NO CONSTA EN LA DOCUMENTACION REVISADA\n- Service Desk: NO CONSTA EN LA DOCUMENTACION REVISADA\n\n4. PROCESOS Y ACTIVIDADES\n| Proceso/actividad         | Expreso en pliego | Exigencia descrita | Fuente                |\n|--------------------------|-------------------|--------------------|-----------------------|\n| Gestión de incidencias   | ITIL NO CITADO EXPRESAMENTE | Sí | PPT OPP-SW-011 T2 |\n| Gestión de cambios       | ITIL NO CITADO EXPRESAMENTE | Sí | PPT OPP-SW-011 T2 |\n| Gestión del conocimiento | ITIL NO CITADO EXPRESAMENTE | Sí | PPT OPP-SW-011 T2 |\n\n5. SLA/KPI/PENALIZACIONES\n| Servicio   | Prioridad | Respuesta | Resolución | Horario | Objetivo | Penalización | Fuente |\n|------------|----------|-----------|------------|---------|----------|-------------|--------|\n| Soporte N2 | Crítica  | 1 hora    | 8 horas laborables | 8x5 | NO CONSTA | NO CONSTA | PPT OPP-SW-011 T2 |\n\n6. ORGANIZACIÓN Y ROLES EXIGIDOS\n- Jefatura: titulación universitaria en Informática, 8 años experiencia sectorial IT, 5 años dirigiendo proyectos similares, PMP vigente, dedicación 50% (PPT OPP-SW-011 T1)\n- Backend: titulación universitaria en Informática, 5 años experiencia sectorial, AWS Developer Associate vigente, dedicación 100% (PPT OPP-SW-011 T1)\n- Dos desarrolladores adicionales (PPT OPP-SW-011 T2)\n- QA al 50% (PPT OPP-SW-011 T2)\n- Soporte N2 (PPT OPP-SW-011 T2)\n- Guardias, sustituciones, presencialidad, idiomas: NO CONSTA EN LA DOCUMENTACION REVISADA\n\n7. GOBIERNO Y REPORTING EXIGIDOS\n- Aceptación funcional y de accesibilidad en transición inicial (PPT OPP-SW-011 T2)\n- Informes, comités, periodicidad, escalados: NO CONSTA EN LA DOCUMENTACION REVISADA\n\n8. HERRAMIENTAS ITSM, CMDB, MONITORIZACIÓN E INTEGRACIONES EXIGIDAS\n- Herramientas ITSM, CMDB, inventario, portal, integraciones, reporting: NO CONSTA EN LA DOCUMENTACION REVISADA\n- Monitorización: NO CONSTA EN LA DOCUMENTACION REVISADA\n\n9. TRANSICIÓN, CONTINUIDAD Y REVERSIBILIDAD EXIGIDAS\n- Transición inicial: 4 semanas (PPT OPP-SW-011 T2)\n- Reversibilidad: 2 semanas dentro del plazo contratado (PPT OPP-SW-011 T2)\n- Continuidad: NO CONSTA EN LA DOCUMENTACION REVISADA\n- Disponibilidad: NO CONSTA EN LA DOCUMENTACION REVISADA\n- Dependencias técnicas: NO CONSTA EN LA DOCUMENTACION REVISADA\n\n10. AUTOMATIZACIÓN, SELF-SERVICE Y GESTIÓN DEL CONOCIMIENTO\n- Automatización/self-service: NO CONSTA EN LA DOCUMENTACION REVISADA\n- Gestión del conocimiento: Exigida funcionalmente, ITIL NO CITADO EXPRESAMENTE (PPT OPP-SW-011 T2)\n\n11. DATOS NO LOCALIZADOS O AMBIGUOS\n- Sede física, guardias, sustituciones, presencialidad, idiomas, herramientas ITSM, CMDB, inventario, portal, integraciones, reporting, monitorización, continuidad, disponibilidad, dependencias técnicas, automatización/self-service, penalizaciones: NO CONSTA EN LA DOCUMENTACION REVISADA\n\n12. DOCUMENTOS REVISADOS\n- PCAP OPP-SW-011 (Pliego administrativo)\n- PPT OPP-SW-011 (Pliego técnico)\n\nTABLA DE TRAZABILIDAD\n| Requisito/dato                        | Tipo         | Valor/condición                        | Documento         | Apartado/página | Estado lectura |\n|----------------------------------------|--------------|----------------------------------------|-------------------|-----------------|---------------|\n| Portal web accesible                   | Alcance      | 1 portal, 12 meses                     | PPT OPP-SW-011    | T1              | Leído         |\n| Usuarios internos                      | Alcance      | 150 usuarios, 12 meses                 | PPT OPP-SW-011    | T2              | Leído         |\n| Ciudadanos usuarios                    | Alcance      | 10.000 usuarios, 12 meses              | PPT OPP-SW-011    | T2              | Leído         |\n| Soporte N2                             | Modelo       | 8x5, 12 meses                          | PPT OPP-SW-011    | T2              | Leído         |\n| Gestión de incidencias                 | Proceso      | Exigida, ITIL NO CITADO EXPRESAMENTE   | PPT OPP-SW-011    | T2              | Leído         |\n| Gestión de cambios                     | Proceso      | Exigida, ITIL NO CITADO EXPRESAMENTE   | PPT OPP-SW-011    | T2              | Leído         |\n| Gestión del conocimiento               | Proceso      | Exigida, ITIL NO CITADO EXPRESAMENTE   | PPT OPP-SW-011    | T2              | Leído         |\n| SLA soporte N2 crítica                 | SLA/KPI      | Respuesta 1h, resolución 8h laborables | PPT OPP-SW-011    | T2              | Leído         |\n| Jefatura requisitos                    | Organización | Titulación, experiencia, PMP, 50% ded. | PPT OPP-SW-011    | T1              | Leído         |\n| Backend requisitos                     | Organización | Titulación, experiencia, AWS, 100% ded.| PPT OPP-SW-011    | T1              | Leído         |\n| QA, desarrolladores adicionales        | Organización | QA 50%, 2 desarrolladores              | PPT OPP-SW-011    | T2              | Leído         |\n| Transición inicial                     | Transición   | 4 semanas                              | PPT OPP-SW-011    | T2              | Leído         |\n| Reversibilidad                         | Reversibilidad| 2 semanas dentro del plazo             | PPT OPP-SW-011    | T2              | Leído         |\n| Certificaciones ISO/ENS                | Requisito    | ISO 20000-1, 27001, ENS MEDIA, etc.    | PCAP/PPT OPP-SW-011| A4/T3           | Leído         |\n| Automatización/self-service            | Automatización| NO CONSTA                              | -                 | -               | -             |\n| Herramientas ITSM, CMDB, monitorización| Herramientas | NO CONSTA                              | -                 | -               | -             |"
+  }
+}

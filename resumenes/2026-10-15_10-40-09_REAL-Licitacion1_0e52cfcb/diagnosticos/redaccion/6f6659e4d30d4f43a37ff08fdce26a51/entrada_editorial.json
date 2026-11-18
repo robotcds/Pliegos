@@ -1,0 +1,922 @@
+{
+  "schema": "oportunidades.capa1.v1",
+  "ejecucion": "0e52cfcb86724bd8838298d4c69496f4",
+  "version": 1,
+  "capa": 1,
+  "tipo_salida": "extraccion_documental",
+  "expediente": "REAL-Licitacion1",
+  "numero": 11,
+  "titulo": "Licitacion real: Licitacion1",
+  "organo_contratacion": "No localizado en XML",
+  "metadatos": {
+    "resumen_xml": "Licitacion real cargada desde la carpeta local C:\\Users\\JUAN CARTAGENA\\Desktop\\Oportunidades.v3.Preventa\\Oportunidades.v2\\Examples\\Licitacion1",
+    "estado": "LOCAL",
+    "importe_estimado": "",
+    "importe_total": "",
+    "cpv": "",
+    "ubicacion": "",
+    "duracion": "",
+    "plazo_presentacion": "",
+    "nota_plazo": "",
+    "criterios_adjudicacion_xml": [],
+    "requisitos_xml": [],
+    "condiciones_ejecucion_xml": [],
+    "enlace_detalle": "C:\\Users\\JUAN CARTAGENA\\Desktop\\Oportunidades.v3.Preventa\\Oportunidades.v2\\Examples\\Licitacion1"
+  },
+  "documentos_fuente": [
+    {
+      "orden": 1,
+      "nombre": "ID_188_1.PDF",
+      "tipo": "Documento licitacion real",
+      "fuente": "Carpeta licitacion real",
+      "url": "C:\\Users\\JUAN CARTAGENA\\Desktop\\Oportunidades.v3.Preventa\\Oportunidades.v2\\Examples\\Licitacion1\\ID_188_1.PDF",
+      "caracteres_extraidos": 14915,
+      "estado_lectura": "texto_extraido"
+    },
+    {
+      "orden": 2,
+      "nombre": "ID_188_2.PDF",
+      "tipo": "Documento licitacion real",
+      "fuente": "Carpeta licitacion real",
+      "url": "C:\\Users\\JUAN CARTAGENA\\Desktop\\Oportunidades.v3.Preventa\\Oportunidades.v2\\Examples\\Licitacion1\\ID_188_2.PDF",
+      "caracteres_extraidos": 224684,
+      "estado_lectura": "texto_extraido"
+    },
+    {
+      "orden": 3,
+      "nombre": "ID_188_3.PDF",
+      "tipo": "Documento licitacion real",
+      "fuente": "Carpeta licitacion real",
+      "url": "C:\\Users\\JUAN CARTAGENA\\Desktop\\Oportunidades.v3.Preventa\\Oportunidades.v2\\Examples\\Licitacion1\\ID_188_3.PDF",
+      "caracteres_extraidos": 186976,
+      "estado_lectura": "texto_extraido"
+    },
+    {
+      "orden": 4,
+      "nombre": "poc",
+      "tipo": "Documento enlazado",
+      "fuente": "ID_188_1.PDF",
+      "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Qgp%2F5sTB2J16nTs9LZ9RhQ%3D%3D",
+      "caracteres_extraidos": 5923,
+      "estado_lectura": "texto_extraido"
+    },
+    {
+      "orden": 5,
+      "nombre": "poc",
+      "tipo": "Documento enlazado",
+      "fuente": "ID_188_1.PDF",
+      "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:perfilContratante&idBp=ykTr%2BAkeChI%2Fb",
+      "caracteres_extraidos": 2659,
+      "estado_lectura": "texto_extraido"
+    },
+    {
+      "orden": 6,
+      "nombre": "poc",
+      "tipo": "Documento enlazado",
+      "fuente": "ID_188_1.PDF",
+      "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:perfilContratante&idBp=ykTr%2BAkeChI%2FbjW6njtWLw%3D%3D",
+      "caracteres_extraidos": 3127,
+      "estado_lectura": "texto_extraido"
+    },
+    {
+      "orden": 7,
+      "nombre": "147409-2026",
+      "tipo": "Documento enlazado",
+      "fuente": "ID_188_1.PDF",
+      "url": "https://ted.europa.eu/es/notice/-/detail/147409-2026",
+      "caracteres_extraidos": 0,
+      "estado_lectura": "Sin texto extraible; documento pendiente de lectura/OCR"
+    },
+    {
+      "orden": 8,
+      "nombre": "perfilContratante",
+      "tipo": "Documento enlazado",
+      "fuente": "ID_188_2.PDF",
+      "url": "https://contrataciondelestado.es/wps/portal/perfilContratante",
+      "caracteres_extraidos": 2690,
+      "estado_lectura": "texto_extraido"
+    }
+  ],
+  "avisos_procesamiento": [
+    "Documento no leido: 147409-2026: Sin texto extraible; documento pendiente de lectura/OCR",
+    "Se omitieron 22 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+  ],
+  "agentes": [
+    {
+      "orden": 1,
+      "id": "A1",
+      "nombre": "Resumen breve",
+      "tipo": "referencia",
+      "ejecucion": "0e52cfcb86724bd8838298d4c69496f4",
+      "estado": "completado",
+      "contenido": {
+        "salida_original": "• Expediente: 300/2026/00009. Órgano: Área de Gobierno de Vicealcaldía, Portavoz, Seguridad y Emergencias del Ayuntamiento de Madrid (ID_188_1.PDF, ID_188_2.PDF, poc).\n• Objeto: Servicios para diseño, desarrollo, implantación, mantenimiento y evolución de un asistente virtual SaaS para Decide Madrid, con IA generativa y tradicional (ID_188_3.PDF).\n• Presupuesto: 219.730,48 € (IVA incluido), 181.595,44 € (sin IVA). Valor estimado: 408.918,11 € (ID_188_1.PDF, poc).\n• Duración: 24 meses desde 01/09/2026 o formalización; prórrogas hasta 60 meses (ID_188_1.PDF, ID_188_2.PDF, ID_188_3.PDF).\n• Plazo presentación: hasta 16/06/2026 a las 23:59 (ID_188_1.PDF, poc). Documento 147409-2026 pendiente de lectura/OCR."
+      },
+      "registro_procesamiento": {
+        "origen": "registro_local_de_esta_extraccion",
+        "modo": "prompt_unico_documentos_completos",
+        "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+        "documentos": [
+          {
+            "numero": 1,
+            "nombre": "ID_188_1.PDF",
+            "tipo": "Documento licitacion real",
+            "fuente": "Carpeta licitacion real",
+            "caracteres_extraidos": 14915,
+            "caracteres_enviados_al_agente": 14915,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 2,
+            "nombre": "ID_188_2.PDF",
+            "tipo": "Documento licitacion real",
+            "fuente": "Carpeta licitacion real",
+            "caracteres_extraidos": 224684,
+            "caracteres_enviados_al_agente": 224684,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 3,
+            "nombre": "ID_188_3.PDF",
+            "tipo": "Documento licitacion real",
+            "fuente": "Carpeta licitacion real",
+            "caracteres_extraidos": 186976,
+            "caracteres_enviados_al_agente": 186976,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 4,
+            "nombre": "poc",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 5923,
+            "caracteres_enviados_al_agente": 5923,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 5,
+            "nombre": "poc",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 2659,
+            "caracteres_enviados_al_agente": 2659,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 6,
+            "nombre": "poc",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 3127,
+            "caracteres_enviados_al_agente": 3127,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 7,
+            "nombre": "147409-2026",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 0,
+            "caracteres_enviados_al_agente": 0,
+            "texto_compactado": false,
+            "error": "Sin texto extraible; documento pendiente de lectura/OCR"
+          },
+          {
+            "numero": 8,
+            "nombre": "perfilContratante",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_2.PDF",
+            "caracteres_extraidos": 2690,
+            "caracteres_enviados_al_agente": 2690,
+            "texto_compactado": false,
+            "error": ""
+          }
+        ],
+        "avisos": [
+          "Documento no leido: 147409-2026: Sin texto extraible; documento pendiente de lectura/OCR",
+          "Se omitieron 22 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+        ]
+      }
+    },
+    {
+      "orden": 2,
+      "id": "A2",
+      "nombre": "Administrativo-legal",
+      "tipo": "extraccion",
+      "ejecucion": "0e52cfcb86724bd8838298d4c69496f4",
+      "estado": "completado",
+      "contenido": {
+        "salida_original": "# 1. Resumen factual administrativo/legal\n\nLa licitación \"Asistente Virtual de Participación Ciudadana del Ayuntamiento de Madrid\" (Expediente 300/2026/00009) es un contrato de servicios de informática (CPV 72000000), procedimiento abierto, tramitación ordinaria, sujeto a regulación armonizada, sin división en lotes, con presentación electrónica de ofertas a través de la Plataforma de Contratación del Sector Público (PLACSP). El valor estimado del contrato es 408.918,11 € (sin IVA), el presupuesto base de licitación es 181.595,44 € (sin IVA) y 219.730,48 € (con IVA 21%). El plazo de ejecución es de 24 meses desde el 01/09/2026 o la fecha de formalización, con posibilidad de prórrogas sucesivas hasta un máximo de 60 meses (5 años). No se exige garantía provisional, pero sí definitiva (5% del precio ofertado sin IVA) y complementaria (1% en caso de ofertas anormalmente bajas). No se exige seguro obligatorio. Se permite la subcontratación con limitaciones y se prohíbe la cesión del contrato. Se establecen condiciones especiales de ejecución de tipo social, laboral y de igualdad, así como obligaciones de confidencialidad, protección de datos, propiedad intelectual y cumplimiento de normativa de seguridad de la información. La oferta debe presentarse en tres sobres electrónicos diferenciados (documentación administrativa, oferta técnica y oferta económica), con requisitos formales estrictos de formato, firma y contenido. Se establecen causas expresas de exclusión y penalizaciones por incumplimiento. No se admiten variantes ni lotes. No se exige clasificación ni habilitación empresarial específica. El contrato no implica subrogación de personal ni tratamiento de datos personales por cuenta del Ayuntamiento.\n\n# 2. Tabla de extracción\n\n| Materia | Requisito/condición | Obligatorio/condicionado/informativo | Momento/plazo | Documento/apartado | Evidencia breve |\n|---|---|---|---|---|---|\n| Capacidad de obrar | Personas físicas/jurídicas con plena capacidad de obrar | Obligatorio | Presentación oferta | ID_188_2.PDF, Cláusula 13, Anexo I | \"Podrán optar a la adjudicación... que tengan plena capacidad de obrar\" |\n| Prohibición de contratar | No estar incurso en prohibición de contratar | Obligatorio | Presentación oferta | ID_188_2.PDF, Cláusula 13, Anexo I | \"...que no estén incursas en alguna prohibición de contratar...\" |\n| Solvencia económica | Volumen anual de negocios ≥ 181.595,44 € (mejor ejercicio últimos 3 años) | Obligatorio | Presentación oferta | ID_188_2.PDF, Anexo I, 11 | \"...volumen anual de negocios... igual o superior al presupuesto base de licitación sin IVA...\" |\n| Solvencia técnica | Trabajos de igual/similar naturaleza ≥ 181.595,44 € en últimos 3 años | Obligatorio | Presentación oferta | ID_188_2.PDF, Anexo I, 11 | \"...haber realizado trabajos de igual o similar naturaleza... por importe igual o superior...\" |\n| Clasificación | No exigida | No exigido expresamente | - | ID_188_2.PDF, Cláusula 14, Anexo I | \"Para los contratos de servicios no será exigible la clasificación...\" |\n| Habilitación empresarial | No exigida | No exigido expresamente | - | ID_188_2.PDF, Anexo I, 13 | \"Procede: NO\" |\n| UTE | Permitida, con compromiso y escritura pública si adjudicataria | Condicionado | Presentación oferta y adjudicación | ID_188_2.PDF, Cláusula 25, Anexo I | \"...compromiso de constituir la unión temporal...\" |\n| Subcontratación | Permitida, salvo tareas críticas; indicar parte, importe y subcontratista | Condicionado | Presentación oferta y ejecución | ID_188_2.PDF, Anexo I, 26 | \"...deberán indicar en la oferta la parte del contrato a subcontratar...\" |\n| Cesión del contrato | Prohibida | Obligatorio | Ejecución | ID_188_2.PDF, Anexo I, 27 | \"NO, ya que la cesión no es posible...\" |\n| DEUC | Declaración responsable (modelo UE) | Obligatorio | Presentación oferta, Sobre A | ID_188_2.PDF, Cláusula 25 | \"...documento europeo único de contratación (DEUC)...\" |\n| Declaración compromiso adscripción medios | Obligatorio | Presentación oferta, Sobre A | ID_188_2.PDF, Anexo I, 12, 18; Anexo X | \"...comprometiéndose a adscribir a la ejecución del contrato, los medios descritos...\" |\n| Declaración cumplimiento obligaciones sociales/laborales/igualdad | Obligatorio | Presentación oferta, Sobre A | ID_188_2.PDF, Cláusula 25, Anexo VI | \"...declaración responsable relativa al cumplimiento...\" |\n| Garantía provisional | No exigida | No exigido expresamente | - | ID_188_2.PDF, Anexo I, 14 | \"Procede: NO\" |\n| Garantía definitiva | 5% del precio ofertado sin IVA | Obligatorio | Adjudicación | ID_188_2.PDF, Anexo I, 15 | \"Procede: SÍ 5 por 100 del precio final ofertado, excluido el IVA\" |\n| Garantía complementaria | 1% en caso de ofertas anormalmente bajas | Condicionado | Adjudicación | ID_188_2.PDF, Anexo I, 16 | \"Procede: SÍ Por ofertas inicialmente incursas en presunción de anormalidad: 1%...\" |\n| Seguro RC | No exigido | No exigido expresamente | - | ID_188_2.PDF, Anexo I, 17 | \"Procede: NO\" |\n| Presentación oferta | Electrónica, PLACSP, 3 sobres (A, B, C), firma electrónica | Obligatorio | Hasta 16/06/2026 23:59 | ID_188_2.PDF, Anexo I, 18; Cláusula 23 | \"Las proposiciones deberán presentarse en tres sobres...\" |\n| Idioma | Español | Obligatorio | Toda la documentación | ID_188_2.PDF, Anexo I, 18 | \"...toda la documentación aportada deberá estar redactada en castellano\" |\n| Formato oferta técnica | Máx. 40 páginas, márgenes 2 cm, interlineado sencillo, fuente ≥11 pt | Obligatorio | Presentación oferta, Sobre B | ID_188_2.PDF, Anexo I, 18, 22 | \"Extensión máxima: 40 páginas...\" |\n| Vigencia oferta | 2 meses | Obligatorio | Desde presentación | ID_188_1.PDF, pág. 7 | \"Plazo de Validez de la Oferta 2 Mes(es)\" |\n| Causas de exclusión | No cumplir solvencia, prohibición de contratar, no alcanzar umbral técnico, presentación fuera de plazo, documentación incompleta, etc. | Obligatorio | Evaluación | ID_188_2.PDF, Cláusula 28, Anexo I | \"...serán excluidos del procedimiento...\" |\n| Penalizaciones | Por demora, incumplimiento grave/muy grave, condiciones especiales, subcontratación no permitida, etc. | Obligatorio | Ejecución | ID_188_2.PDF, Anexo I, 30 | \"...penalidad del 5%... 10%...\" |\n| Revisión de precios | No procede | No exigido expresamente | - | ID_188_2.PDF, Anexo I, 6 | \"Procede: NO\" |\n| Modificaciones | No previstas | No exigido expresamente | - | ID_188_2.PDF, Anexo I, 28 | \"Procede: NO\" |\n| Lotes | No hay | No exigido expresamente | - | ID_188_2.PDF, Anexo I, 1.4 | \"División en lotes: NO\" |\n| Incompatibilidades | Empresas de terceros países sin acuerdo internacional no pueden participar | Obligatorio | Presentación oferta | ID_188_2.PDF, Anexo I, 1.9 | \"NO tienen derecho a participar en la licitación...\" |\n| Condiciones especiales de ejecución | Informe de impacto de género, no minorar condiciones laborales, medidas de conciliación, designación de interlocutor, formación, adscripción de medios | Obligatorio/Esencial | Ejecución | ID_188_2.PDF, Anexo I, 24; ID_188_3.PDF, 13 | \"...condición especial de ejecución...\" |\n| Confidencialidad | 5 años desde conocimiento | Obligatorio | Ejecución y tras finalización | ID_188_2.PDF, Anexo I, 33 | \"Duración: 5 años desde el conocimiento...\" |\n| Propiedad intelectual | Titularidad Ayuntamiento, cesión de derechos, uso restringido | Obligatorio | Ejecución y cierre | ID_188_2.PDF, Cláusula 54; ID_188_3.PDF, 16 | \"...serán propiedad del Ayuntamiento de Madrid...\" |\n| Protección de datos | No implica tratamiento por cuenta del Ayuntamiento | Informativo | Ejecución | ID_188_2.PDF, Anexo I, 1.8; ID_188_3.PDF, 11.18 | \"NO precisa cláusulas de protección de datos...\" |\n| PRL y laboral | Cumplimiento de normativa, entrega de EPIs, declaración responsable | Obligatorio | Ejecución | ID_188_3.PDF, 6, 12 | \"...obligación de proveer de Equipos de Protección Individual...\" |\n| Igualdad | Cumplimiento de Ley Orgánica 3/2007, informe de impacto de género | Obligatorio | Ejecución | ID_188_3.PDF, 12, 13 | \"...elaborar un informe de impacto de género...\" |\n| Medioambiente | Cumplimiento de normativa | Obligatorio | Ejecución | ID_188_2.PDF, Anexo V | \"...obligaciones generales relativas a protección del medio ambiente...\" |\n| Plazo de garantía | 12 meses desde recepción | Obligatorio | Ejecución y cierre | ID_188_2.PDF, Anexo I, 32 | \"Duración:12 meses\" |\n\n# 3. Forma de presentación y estructura documental de la oferta\n\n- Presentación electrónica a través de PLACSP.\n- Tres sobres electrónicos:\n  - Sobre A: Documentación administrativa (DEUC, declaración compromiso adscripción medios, declaración cumplimiento obligaciones sociales/laborales/igualdad, compromiso UTE si aplica, integración de solvencia externa si aplica, declaración grupo de empresas si aplica, dirección de correo electrónico habilitada).\n  - Sobre B: Oferta técnica (máx. 40 páginas, formato especificado, sin datos económicos ni identificativos, documento técnico según criterios de juicio de valor).\n  - Sobre C: Oferta económica (modelo Anexo II, desglose costes fijos/variables, precio unitario hora evolución tecnológica, IVA desglosado, mejoras técnicas si aplica).\n- Firma electrónica obligatoria.\n- Idioma: español.\n- Plazo de presentación: hasta 16/06/2026 a las 23:59.\n- Vigencia de la oferta: 2 meses.\n\n# 4. Garantías, seguros y obligaciones administrativas/económicas\n\n- Garantía provisional: No exigida.\n- Garantía definitiva: 5% del precio ofertado sin IVA, a constituir en 10 días hábiles tras requerimiento.\n- Garantía complementaria: 1% del precio ofertado sin IVA para ofertas anormalmente bajas.\n- Seguro RC: No exigido.\n- Facturación: Fase de implantación (20% costes fijos tras finalización), fase de operación (mensual, 80% costes fijos prorrateados + variables según horas consumidas), memoria justificativa con cada factura.\n- Plazo de pago: 30 días desde aprobación de conformidad.\n- No procede revisión de precios.\n- No se prevén modificaciones.\n- Penalizaciones: Por demora (5%/10%), incumplimiento grave/muy grave, condiciones especiales, subcontratación no permitida, etc.\n\n# 5. Lotes, UTE, subcontratación, cesión y limitaciones\n\n- Lotes: No hay, justificación expresa de no división.\n- UTE: Permitida, compromiso de constitución y escritura pública si adjudicataria.\n- Subcontratación: Permitida salvo tareas críticas (fase de implantación y jefe/a de proyecto), indicar parte, importe y subcontratista en oferta, comunicación y justificación durante ejecución.\n- Cesión: Prohibida, cualidades técnicas/personales determinantes de la adjudicación.\n- Incompatibilidades: Empresas de terceros países sin acuerdo internacional no pueden participar.\n\n# 6. Causas de exclusión o rechazo expresamente recogidas\n\n- No cumplir solvencia económica/técnica.\n- Incurrir en prohibición de contratar.\n- No alcanzar umbral mínimo de 22,5 puntos en criterios técnicos.\n- Presentación fuera de plazo o por medios no admitidos.\n- Documentación incompleta, errónea o no subsanada en plazo.\n- Presentar más de una proposición individual o en UTE.\n- Incluir datos económicos en oferta técnica.\n- No cumplir requisitos formales de formato, idioma, firma, etc.\n- Subcontratación de tareas críticas.\n- Cesión del contrato.\n- Empresas de terceros países sin acuerdo internacional.\n\n# 7. Condiciones jurídicas y especiales de ejecución\n\n- Condiciones especiales de ejecución (obligaciones esenciales):\n  - Informe de impacto de género antes de finalización del contrato.\n  - No minorar condiciones laborales de jornada y salario.\n  - Medidas de conciliación (flexibilidad horaria, teletrabajo).\n  - Designación y permanencia de interlocutor único.\n  - Impartición de formación requerida.\n  - Cumplimiento de compromisos de adscripción de medios personales y materiales.\n- Confidencialidad: 5 años desde conocimiento de la información.\n- Propiedad intelectual: Titularidad Ayuntamiento, cesión de derechos, uso restringido.\n- Protección de datos: No implica tratamiento por cuenta del Ayuntamiento.\n- PRL: Cumplimiento de normativa, entrega de EPIs, declaración responsable.\n- Igualdad: Cumplimiento de Ley Orgánica 3/2007, informe de impacto de género.\n- Medioambiente: Cumplimiento de normativa.\n- Seguridad de la información: Nivel básico ENS, medidas específicas detalladas.\n\n# 8. Datos no localizados o pendientes por lectura parcial/no disponible\n\n- Documento 7 (147409-2026): Sin texto extraíble; documento pendiente de lectura/OCR.\n- No consta exigencia de patrimonio neto/ratios financieros.\n- No consta exigencia de ISO/ENS como requisito de solvencia (solo cumplimiento ENS nivel básico como obligación de ejecución).\n- No consta exigencia de fabricantes/partnerships.\n- No consta exigencia de certificados de buena ejecución (solo relación de trabajos similares).\n- No consta exigencia de habilitación empresarial específica.\n- No consta exigencia de ROLECE como requisito obligatorio (solo como medio alternativo de acreditación de solvencia).\n- No consta exigencia de colegiación profesional.\n- No consta exigencia de idiomas distintos al castellano.\n- No consta exigencia de seguro obligatorio.\n\n# 9. Documentos revisados\n\n1. ID_188_1.PDF (Documento licitación real)\n2. ID_188_2.PDF (Pliego de Cláusulas Administrativas Particulares y Anexos)\n3. ID_188_3.PDF (Pliego de Prescripciones Técnicas Particulares)\n4. poc (Documento enlazado, detalle licitación, texto extraído)\n5. poc (Documento enlazado, perfil contratante, texto extraído)\n6. poc (Documento enlazado, perfil contratante, texto extraído)\n7. 147409-2026 (Documento enlazado, sin texto extraíble; pendiente de lectura/OCR)\n8. perfilContratante (Documento enlazado, texto extraído)\n\n# Tabla de trazabilidad\n\n| Requisito/dato | Tipo | Valor/condición | Documento | Página/apartado | Estado de lectura |\n|---|---|---|---|---|---|\n| Volumen anual de negocios | Solvencia económica | ≥181.595,44 € (mejor ejercicio últimos 3 años) | ID_188_2.PDF | Anexo I, 11 | ENCONTRADO EN EL PLIEGO |\n| Patrimonio neto/ratios | Solvencia económica | NO CONSTA EN LA DOCUMENTACION REVISADA | - | - | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Seguro RC | Solvencia/ejecución | NO EXIGIDO EXPRESAMENTE | ID_188_2.PDF | Anexo I, 17 | ENCONTRADO EN EL PLIEGO |\n| Certificados buena ejecución | Solvencia técnica | Relación de trabajos similares, no certificados | ID_188_2.PDF | Anexo I, 11 | ENCONTRADO EN EL PLIEGO |\n| ISO/ENS | Solvencia/ejecución | NO EXIGIDO EXPRESAMENTE (solo ENS nivel básico como obligación de ejecución) | ID_188_3.PDF | 11.1, 11.5 | ENCONTRADO EN EL PLIEGO |\n| Fabricantes/partnerships | Solvencia | NO CONSTA EN LA DOCUMENTACION REVISADA | - | - | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Perfiles | Ejecución | Detallados por puesto, titulación, experiencia, funciones, sustitución | ID_188_3.PDF | 6.1, 6.2, 6.4 | ENCONTRADO EN EL PLIEGO |\n| ROLECE/clasificación | Solvencia | No exigido, solo como medio alternativo | ID_188_2.PDF | Cláusula 14, Anexo I | ENCONTRADO EN EL PLIEGO |\n\n# Discrepancias y pendientes de aclaración\n\n- Documento 7 (147409-2026): Sin texto extraíble; documento pendiente de lectura/OCR. Pendiente de verificar si contiene condiciones adicionales.\n- No se han identificado discrepancias internas en la documentación revisada.\n- No consta exigencia de patrimonio neto/ratios, ISO/ENS como solvencia, fabricantes/partnerships, certificados de buena ejecución, habilitación empresarial, ROLECE como requisito obligatorio, colegiación profesional, idiomas distintos al castellano, seguro obligatorio.\n\n# Fin de la extracción objetiva administrativa/legal según pliego y anexos revisados."
+      },
+      "registro_procesamiento": {
+        "origen": "registro_local_de_esta_extraccion",
+        "modo": "prompt_unico_documentos_completos",
+        "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+        "documentos": [
+          {
+            "numero": 1,
+            "nombre": "ID_188_1.PDF",
+            "tipo": "Documento licitacion real",
+            "fuente": "Carpeta licitacion real",
+            "caracteres_extraidos": 14915,
+            "caracteres_enviados_al_agente": 14915,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 2,
+            "nombre": "ID_188_2.PDF",
+            "tipo": "Documento licitacion real",
+            "fuente": "Carpeta licitacion real",
+            "caracteres_extraidos": 224684,
+            "caracteres_enviados_al_agente": 224684,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 3,
+            "nombre": "ID_188_3.PDF",
+            "tipo": "Documento licitacion real",
+            "fuente": "Carpeta licitacion real",
+            "caracteres_extraidos": 186976,
+            "caracteres_enviados_al_agente": 186976,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 4,
+            "nombre": "poc",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 5923,
+            "caracteres_enviados_al_agente": 5923,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 5,
+            "nombre": "poc",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 2659,
+            "caracteres_enviados_al_agente": 2659,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 6,
+            "nombre": "poc",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 3127,
+            "caracteres_enviados_al_agente": 3127,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 7,
+            "nombre": "147409-2026",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 0,
+            "caracteres_enviados_al_agente": 0,
+            "texto_compactado": false,
+            "error": "Sin texto extraible; documento pendiente de lectura/OCR"
+          },
+          {
+            "numero": 8,
+            "nombre": "perfilContratante",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_2.PDF",
+            "caracteres_extraidos": 2690,
+            "caracteres_enviados_al_agente": 2690,
+            "texto_compactado": false,
+            "error": ""
+          }
+        ],
+        "avisos": [
+          "Documento no leido: 147409-2026: Sin texto extraible; documento pendiente de lectura/OCR",
+          "Se omitieron 22 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+        ]
+      }
+    },
+    {
+      "orden": 3,
+      "id": "A3",
+      "nombre": "Requisitos de solvencia de la empresa",
+      "tipo": "extraccion",
+      "ejecucion": "0e52cfcb86724bd8838298d4c69496f4",
+      "estado": "completado",
+      "contenido": {
+        "salida_original": "# 1. Resumen factual de solvencia económica y técnica de empresa exigida\n\n## Solvencia económica y financiera\n- Se exige volumen anual de negocios referido al mejor ejercicio dentro de los tres últimos disponibles (2023, 2024, 2025), por importe igual o superior al presupuesto base de licitación sin IVA (181.595,44 €). Acreditación: declaración responsable firmada por la persona que tenga la representación legal de la entidad o declaración de la persona física licitadora. Alternativamente, inscripción en el ROLECE. (ID_188_2.PDF, Anexo I, apartado 11, pág. 63)\n- Medios alternativos: Si no se pueden presentar las referencias solicitadas, se podrá acreditar la solvencia económica y financiera por cualquier otro documento que el poder adjudicador considere apropiado. (ID_188_2.PDF, Anexo I, apartado 11, pág. 63)\n\n## Solvencia técnica o profesional\n- Se exige haber realizado trabajos de igual o similar naturaleza al objeto del contrato, efectuados en los tres últimos años naturales desde la fecha final del plazo de presentación de ofertas, por importe igual o superior al presupuesto del contrato sin IVA (181.595,44 €). Similitud: coincidencia entre los tres primeros dígitos de los códigos CPV. Acreditación: relación de los principales servicios o trabajos realizados, indicando importe, fecha y destinatario, público o privado, conforme al art. 90.1.a) LCSP. (ID_188_2.PDF, Anexo I, apartado 11, pág. 64)\n- Para empresas de nueva creación (antigüedad inferior a cinco años): solvencia técnica mediante descripción de instalaciones técnicas y medidas de calidad, y títulos académicos y profesionales del empresario/directivos/técnicos responsables. (ID_188_2.PDF, Anexo I, apartado 11, pág. 64)\n\n## Alternativas, exenciones y acumulación\n- La solvencia puede acreditarse mediante clasificación en el grupo/subgrupo/categoría correspondiente, o mediante los requisitos específicos de solvencia. (ID_188_2.PDF, Cláusula 14, pág. 10-11)\n- Acumulación de solvencia en UTE: se acumulan las características acreditadas por cada integrante. (ID_188_2.PDF, Cláusula 15, pág. 11; Cláusula 25, pág. 19)\n- Medios externos: posible integración de solvencia y medios de otras entidades, con compromiso de disponibilidad durante toda la ejecución. (ID_188_2.PDF, Cláusula 15, pág. 11; Anexo VII, pág. 92-93)\n\n## Certificados de buena ejecución\n- No se exige expresamente certificado de buena ejecución, pero sí relación de trabajos con importe, fecha y destinatario. (ID_188_2.PDF, Anexo I, apartado 11, pág. 64)\n\n## Seguros\n- No se exige póliza de seguro de responsabilidad civil ni de riesgos profesionales. (ID_188_2.PDF, Anexo I, apartado 17, pág. 66)\n\n## ISO/ENS\n- No se exige ninguna certificación ISO ni ENS. (NO CONSTA EXIGENCIA en Anexo I, apartado 11, 17, ni en PPT)\n\n## Fabricantes/Partnerships\n- NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito de partnership, carta de fabricante ni similar.\n\n## ROLECE/Clasificación\n- No es exigible la clasificación para este contrato de servicios, pero puede usarse como alternativa para acreditar la solvencia. (ID_188_2.PDF, Cláusula 14, pág. 10-11; Anexo I, apartado 11, pág. 63)\n\n## Reglas específicas para trabajos públicos/privados y empresas de nueva creación\n- Se admiten trabajos tanto para destinatarios públicos como privados. (ID_188_2.PDF, Anexo I, apartado 11, pág. 64)\n- Empresas de nueva creación: descripción de instalaciones técnicas y títulos académicos/profesionales. (ID_188_2.PDF, Anexo I, apartado 11, pág. 64)\n\n## Criterios puntuables relacionados con experiencia de empresa\n- NO CONSTA EN LA DOCUMENTACION REVISADA ningún criterio puntuable relacionado con experiencia de empresa más allá del mínimo de solvencia.\n\n## Requisitos de perfiles detectados (no analizados como solvencia de empresa)\n- El PPTP (ID_188_3.PDF, pág. 24-27) detalla perfiles mínimos, titulaciones y experiencia para el equipo técnico, pero estos requisitos no se consideran solvencia de empresa sino de personal adscrito.\n\n## Datos no localizados o pendientes por documento parcial/no leído\n- Documento \"147409-2026\" pendiente de lectura/OCR. (AVISOS DE PROCESAMIENTO)\n\n## Documentos revisados\n1. ID_188_1.PDF (Documento licitación real)\n2. ID_188_2.PDF (Documento licitación real)\n3. ID_188_3.PDF (Pliego de prescripciones técnicas)\n4. poc (enlazado desde ID_188_1.PDF)\n5. poc (enlazado desde ID_188_1.PDF)\n6. poc (enlazado desde ID_188_1.PDF)\n7. 147409-2026 (pendiente de lectura/OCR)\n8. perfilContratante (enlazado desde ID_188_2.PDF)\n\n\n# 2. Tabla de requisitos de solvencia económica y técnica\n\n| Requisito                                    | Numero minimo | Objeto/similitud                                                                 | Importe/umbral         | Periodo/ventana           | Duracion         | Acreditacion exigida                                                                 | Tipo                        | Fuente                                    |\n|----------------------------------------------|---------------|----------------------------------------------------------------------------------|------------------------|---------------------------|------------------|--------------------------------------------------------------------------------------|-----------------------------|-------------------------------------------|\n| Volumen anual de negocios                    | 1             | Global o en el ámbito del contrato                                                | ≥ 181.595,44 € (sin IVA)| Mejor ejercicio de 2023-2025 | 1 año           | Declaración responsable firmada; alternativamente ROLECE                             | Solvencia económica         | ID_188_2.PDF, Anexo I, ap. 11, pág. 63     |\n| Trabajos realizados (servicios similares)    | 1             | Igual o similar naturaleza (3 primeros dígitos CPV: 720)                          | ≥ 181.595,44 € (sin IVA)| 3 últimos años naturales   | NO ESPECIFICADO  | Relación de servicios: importe, fecha, destinatario; art. 90.1.a) LCSP                | Solvencia técnica           | ID_188_2.PDF, Anexo I, ap. 11, pág. 64     |\n| Trabajos públicos/privados                   | 1             | Igual o similar naturaleza (3 primeros dígitos CPV: 720)                          | ≥ 181.595,44 € (sin IVA)| 3 últimos años naturales   | NO ESPECIFICADO  | Relación de servicios: importe, fecha, destinatario                                  | Solvencia técnica           | ID_188_2.PDF, Anexo I, ap. 11, pág. 64     |\n| Empresas de nueva creación                   | NO ESPECIFICADO| Instalaciones técnicas, medidas de calidad, títulos académicos/profesionales       | NO ESPECIFICADO         | NO ESPECIFICADO           | NO ESPECIFICADO  | Declaración responsable y títulos académicos/profesionales                           | Solvencia técnica           | ID_188_2.PDF, Anexo I, ap. 11, pág. 64     |\n| Clasificación alternativa                    | NO ESPECIFICADO| Grupo/subgrupo/categoría correspondiente                                         | NO ESPECIFICADO         | NO ESPECIFICADO           | NO ESPECIFICADO  | Certificado de clasificación                                                      | Alternativa a solvencia      | ID_188_2.PDF, Cláusula 14, pág. 10-11      |\n| Medios externos/UTE                          | NO ESPECIFICADO| Solvencia y medios de otras entidades                                             | NO ESPECIFICADO         | NO ESPECIFICADO           | NO ESPECIFICADO  | Compromiso de disponibilidad (Anexo VII)                                            | Alternativa/acumulación      | ID_188_2.PDF, Cláusula 15, pág. 11; Anexo VII, pág. 92-93 |\n| Seguro RC/riesgos profesionales              | 0             | NO EXIGIDO                                                                       | NO EXIGIDO              | NO EXIGIDO                | NO EXIGIDO       | NO EXIGIDO                                                                         | NO EXIGIDO                  | ID_188_2.PDF, Anexo I, ap. 17, pág. 66     |\n| Certificados de buena ejecución              | 0             | NO EXIGIDO                                                                       | NO EXIGIDO              | NO EXIGIDO                | NO EXIGIDO       | NO EXIGIDO                                                                         | NO EXIGIDO                  | ID_188_2.PDF, Anexo I, ap. 11, pág. 64     |\n| ISO/ENS                                      | 0             | NO EXIGIDO                                                                       | NO EXIGIDO              | NO EXIGIDO                | NO EXIGIDO       | NO EXIGIDO                                                                         | NO EXIGIDO                  | NO CONSTA EN LA DOCUMENTACION REVISADA     |\n| Fabricantes/partnerships                     | 0             | NO EXIGIDO                                                                       | NO EXIGIDO              | NO EXIGIDO                | NO EXIGIDO       | NO EXIGIDO                                                                         | NO EXIGIDO                  | NO CONSTA EN LA DOCUMENTACION REVISADA     |\n\n\n# 3. Reglas específicas para trabajos públicos/privados y empresas de nueva creación\n- Se admiten trabajos para destinatarios públicos o privados. (ID_188_2.PDF, Anexo I, ap. 11, pág. 64)\n- Empresas de nueva creación: descripción de instalaciones técnicas y títulos académicos/profesionales. (ID_188_2.PDF, Anexo I, ap. 11, pág. 64)\n\n# 4. Criterios puntuables relacionados con experiencia de empresa\n- NO CONSTA EN LA DOCUMENTACION REVISADA ningún criterio puntuable relacionado con experiencia de empresa más allá del mínimo de solvencia.\n\n# 5. Requisitos de perfiles detectados (no analizados como solvencia de empresa)\n- El PPTP (ID_188_3.PDF, pág. 24-27) detalla perfiles mínimos, titulaciones y experiencia para el equipo técnico, pero estos requisitos no se consideran solvencia de empresa sino de personal adscrito.\n\n# 6. Datos no localizados o pendientes por documento parcial/no leído\n- Documento \"147409-2026\" pendiente de lectura/OCR. (AVISOS DE PROCESAMIENTO)\n\n# 7. Documentos revisados\n1. ID_188_1.PDF (Documento licitación real)\n2. ID_188_2.PDF (Documento licitación real)\n3. ID_188_3.PDF (Pliego de prescripciones técnicas)\n4. poc (enlazado desde ID_188_1.PDF)\n5. poc (enlazado desde ID_188_1.PDF)\n6. poc (enlazado desde ID_188_1.PDF)\n7. 147409-2026 (pendiente de lectura/OCR)\n8. perfilContratante (enlazado desde ID_188_2.PDF)\n\n# 8. Tabla de trazabilidad\n\n| Requisito/dato                        | Tipo                        | Valor/condición                                                                 | Documento         | Pagina/apartado         | Estado de lectura                  |\n|---------------------------------------|-----------------------------|--------------------------------------------------------------------------------|-------------------|-------------------------|------------------------------------|\n| Volumen anual de negocios             | Solvencia económica         | ≥ 181.595,44 € (sin IVA), mejor ejercicio 2023-2025                             | ID_188_2.PDF      | Anexo I, ap. 11, pág. 63| TEXTO EXTRAIDO                     |\n| Trabajos realizados (servicios)       | Solvencia técnica           | Igual/similar naturaleza (CPV 720), ≥ 181.595,44 € (sin IVA), 3 últimos años     | ID_188_2.PDF      | Anexo I, ap. 11, pág. 64| TEXTO EXTRAIDO                     |\n| Certificados de buena ejecución       | NO EXIGIDO                  | NO EXIGIDO                                                                      | ID_188_2.PDF      | Anexo I, ap. 11, pág. 64| TEXTO EXTRAIDO                     |\n| Seguro RC/riesgos profesionales       | NO EXIGIDO                  | NO EXIGIDO                                                                      | ID_188_2.PDF      | Anexo I, ap. 17, pág. 66| TEXTO EXTRAIDO                     |\n| ISO/ENS                               | NO EXIGIDO                  | NO EXIGIDO                                                                      | NO CONSTA         | NO CONSTA               | NO CONSTA EN LA DOCUMENTACION      |\n| Fabricantes/partnerships              | NO EXIGIDO                  | NO EXIGIDO                                                                      | NO CONSTA         | NO CONSTA               | NO CONSTA EN LA DOCUMENTACION      |\n| Clasificación alternativa             | Alternativa a solvencia     | Grupo/subgrupo/categoría correspondiente                                        | ID_188_2.PDF      | Cláusula 14, pág. 10-11 | TEXTO EXTRAIDO                     |\n| Medios externos/UTE                   | Alternativa/acumulación     | Compromiso de disponibilidad (Anexo VII)                                        | ID_188_2.PDF      | Cláusula 15, pág. 11; Anexo VII, pág. 92-93 | TEXTO EXTRAIDO |\n| Empresas de nueva creación            | Solvencia técnica           | Instalaciones técnicas, medidas de calidad, títulos académicos/profesionales     | ID_188_2.PDF      | Anexo I, ap. 11, pág. 64| TEXTO EXTRAIDO                     |\n| Criterios puntuables experiencia      | NO CONSTA                   | NO CONSTA                                                                       | NO CONSTA         | NO CONSTA               | NO CONSTA EN LA DOCUMENTACION      |\n| Documento 147409-2026                 | PENDIENTE DE VERIFICAR      | Sin texto extraíble; pendiente de lectura/OCR                                   | 147409-2026       | -                       | Sin texto extraíble                |\n\n# 9. Requisitos obligatorios del documento IA - fuentes para proyecto viabilidad\n\n| Parámetro                        | Subcampos pedidos                                                                 | Estado del pliego                | Dato/literal localizado                                                                 | Documento         | Apartado/página         |\n|----------------------------------|-----------------------------------------------------------------------------------|----------------------------------|----------------------------------------------------------------------------------------|-------------------|-------------------------|\n| Volumen anual de negocios        | Umbral, ámbito/línea, mejor ejercicio, ventana, moneda, acreditación               | ENCONTRADO EN EL PLIEGO          | ≥ 181.595,44 € (sin IVA), mejor ejercicio 2023-2025, declaración responsable/ROLECE     | ID_188_2.PDF      | Anexo I, ap. 11, pág. 63|\n| Patrimonio neto/ratios           | Ejercicio, activos, pasivos, fórmula, resultado, umbral, acreditación              | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA EN LA DOCUMENTACION REVISADA                                         | NO CONSTA         | NO CONSTA               |\n| Seguro RC/riesgos profesionales  | Importe, actividad, asegurador, identificador, inicio, fin, vigencia, cobertura    | ENCONTRADO EN EL PLIEGO (NO EXIGIDO) | No se exige póliza de seguro de RC ni riesgos profesionales                      | ID_188_2.PDF      | Anexo I, ap. 17, pág. 66|\n| Certificados de buena ejecución  | Objeto, similitud, importe, fechas, duración, destinatario, prueba                 | ENCONTRADO EN EL PLIEGO (NO EXIGIDO) | No se exige certificado de buena ejecución, solo relación de trabajos            | ID_188_2.PDF      | Anexo I, ap. 11, pág. 64|\n| ISO/ENS                         | Norma, versión, alcance, certificadora, caducidad, acreditación, equivalencias     | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA EN LA DOCUMENTACION REVISADA                                         | NO CONSTA         | NO CONSTA               |\n| Fabricantes/partnerships         | Fabricante, nivel, especializaciones, cartas, expiración, acreditación             | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA EN LA DOCUMENTACION REVISADA                                         | NO CONSTA         | NO CONSTA               |\n| Perfiles                        | Puesto, cantidad, titulación, colegiación, experiencia, sector, certificaciones, etc| ENCONTRADO EN EL PLIEGO (NO SOLVENCIA EMPRESA) | Detallados en PPTP, no como solvencia de empresa                        | ID_188_3.PDF      | pág. 24-27              |\n| ROLECE/Clasificación             | Exigencia/alternativa, grupo, subgrupo, categoría, vigencia, inscripción, acreditación| ENCONTRADO EN EL PLIEGO (ALTERNATIVA) | No exigida, pero puede usarse como alternativa para acreditar solvencia          | ID_188_2.PDF      | Cláusula 14, pág. 10-11 |\n\n# 10. Discrepancias y pendientes de aclaración\n- Documento \"147409-2026\" pendiente de lectura/OCR. No se ha podido verificar si contiene requisitos adicionales o diferentes.\n- No se han identificado discrepancias en la documentación revisada."
+      },
+      "registro_procesamiento": {
+        "origen": "registro_local_de_esta_extraccion",
+        "modo": "prompt_unico_documentos_completos",
+        "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+        "documentos": [
+          {
+            "numero": 1,
+            "nombre": "ID_188_1.PDF",
+            "tipo": "Documento licitacion real",
+            "fuente": "Carpeta licitacion real",
+            "caracteres_extraidos": 14915,
+            "caracteres_enviados_al_agente": 14915,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 2,
+            "nombre": "ID_188_2.PDF",
+            "tipo": "Documento licitacion real",
+            "fuente": "Carpeta licitacion real",
+            "caracteres_extraidos": 224684,
+            "caracteres_enviados_al_agente": 224684,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 3,
+            "nombre": "ID_188_3.PDF",
+            "tipo": "Documento licitacion real",
+            "fuente": "Carpeta licitacion real",
+            "caracteres_extraidos": 186976,
+            "caracteres_enviados_al_agente": 186976,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 4,
+            "nombre": "poc",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 5923,
+            "caracteres_enviados_al_agente": 5923,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 5,
+            "nombre": "poc",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 2659,
+            "caracteres_enviados_al_agente": 2659,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 6,
+            "nombre": "poc",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 3127,
+            "caracteres_enviados_al_agente": 3127,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 7,
+            "nombre": "147409-2026",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 0,
+            "caracteres_enviados_al_agente": 0,
+            "texto_compactado": false,
+            "error": "Sin texto extraible; documento pendiente de lectura/OCR"
+          },
+          {
+            "numero": 8,
+            "nombre": "perfilContratante",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_2.PDF",
+            "caracteres_extraidos": 2690,
+            "caracteres_enviados_al_agente": 2690,
+            "texto_compactado": false,
+            "error": ""
+          }
+        ],
+        "avisos": [
+          "Documento no leido: 147409-2026: Sin texto extraible; documento pendiente de lectura/OCR",
+          "Se omitieron 22 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+        ]
+      }
+    },
+    {
+      "orden": 4,
+      "id": "A4",
+      "nombre": "Criterios de adjudicación",
+      "tipo": "extraccion",
+      "ejecucion": "0e52cfcb86724bd8838298d4c69496f4",
+      "estado": "completado",
+      "contenido": {
+        "salida_original": "# 1. Resumen factual de criterios de adjudicación\n\nLa licitación \"Asistente Virtual de Participación Ciudadana del Ayuntamiento de Madrid\" se adjudica mediante pluralidad de criterios, con un total de 100 puntos, distribuidos en criterios automáticos (valorables en cifras o porcentajes) y criterios sujetos a juicio de valor (no valorables en cifras o porcentajes). Los criterios, subcriterios, puntos, fórmulas, umbrales y reglas de valoración están detallados en el Pliego de Cláusulas Administrativas Particulares (PCAP) y el Pliego de Prescripciones Técnicas (PPTP). Se establecen umbrales mínimos de puntuación para continuar en el proceso y reglas específicas para la valoración de ofertas anormalmente bajas.\n\n# 2. Mapa completo de criterios de adjudicación\n\n| Criterio principal | Subcriterio | Puntos | % total | Tipo | Fórmula/Regla | Umbral | Tope | Fuente |\n|-------------------|-------------|--------|---------|------|---------------|--------|------|--------|\n| A. Criterios no valorables en cifras o porcentajes | A.1 Proyecto técnico | 45 | 45% | Juicio de valor | Ver subcriterios | 22,5 puntos (mínimo para no exclusión) | 45 | PCAP Anexo I, p.68-69 |\n|  | A.1.1 Grado de detalle de la solución técnica propuesta | 10 | 10% | Juicio de valor | Baremo de calidad (ver tabla) | - | 10 | PCAP Anexo I, p.69-70 |\n|  | A.1.2 Adecuación de la solución técnica a necesidades funcionales y técnicas | 30 | 30% | Juicio de valor | Baremo de calidad (ver tabla) | - | 30 | PCAP Anexo I, p.69-70 |\n|  | A.1.3 Planificación del servicio | 5 | 5% | Juicio de valor | Baremo de calidad (ver tabla) | - | 5 | PCAP Anexo I, p.69-70 |\n| B. Criterios valorables en cifras o porcentajes | B.1 Oferta económica | 35 | 35% | Automático | Y = 35 * (importe oferta más económica/importe oferta a valorar) | - | 35 | PCAP Anexo I, p.71 |\n|  | B.2 Mejoras técnicas | 20 | 20% | Automático | Ver subcriterios | - | 20 | PCAP Anexo I, p.71-72 |\n|  | B.2.1 Ampliación de horario del servicio de primer nivel de atención | 10 | 10% | Automático | 10 puntos si se oferta una hora diaria adicional (de 3h a 4h/día) | - | 10 | PCAP Anexo I, p.72 |\n|  | B.2.2 Ampliación de la bolsa de horas de evolución tecnológica | 10 | 10% | Automático | 5 puntos por 100h adicionales, 10 puntos por 200h adicionales (sin coste) | - | 10 | PCAP Anexo I, p.72 |\n\n# 3. Distribución objetiva de la puntuación por bloques\n\n- Criterios no valorables en cifras o porcentajes (Juicio de valor): 45 puntos (45%)\n- Criterios valorables en cifras o porcentajes (Automáticos): 55 puntos (55%)\n  - Oferta económica: 35 puntos (35%)\n  - Mejoras técnicas: 20 puntos (20%)\n\n# 4. Criterios automáticos y fórmulas\n\n## Oferta económica (B.1)\n- Fórmula: Y = 35 * (importe oferta más económica/importe oferta a valorar)\n- Variables:\n  - Y: Puntuación obtenida\n  - Importe oferta más económica: suma de costes fijos y variables de la oferta más baja\n  - Importe oferta a valorar: suma de costes fijos y variables de la oferta evaluada\n- Aplicación: La oferta más económica obtiene 35 puntos. El resto, proporcionalmente.\n- Redondeo: No especificado\n- Fuente: PCAP Anexo I, p.71\n\n## Mejoras técnicas (B.2)\n- B.2.1 Ampliación de horario del servicio de primer nivel de atención:\n  - 10 puntos si se oferta una hora diaria adicional (de 3h a 4h/día, laborables de 11:00 a 14:00 ampliado a 4h consecutivas)\n  - No se otorgan puntos por menos de una hora adicional\n  - Tope: 10 puntos\n  - Fuente: PCAP Anexo I, p.72\n- B.2.2 Ampliación de la bolsa de horas de evolución tecnológica:\n  - 5 puntos por 100 horas adicionales (sin coste)\n  - 10 puntos por 200 horas adicionales (sin coste)\n  - No se otorgan puntos por menos de 100 horas adicionales\n  - Tope: 10 puntos\n  - Fuente: PCAP Anexo I, p.72\n\n# 5. Baremo de precio/descuento\n\n- No existen tramos intermedios documentados para el precio. La fórmula es continua y proporcional según la relación entre la oferta más económica y la oferta evaluada.\n- No se documentan reglas de redondeo específicas.\n- Fuente: PCAP Anexo I, p.71\n\n# 6. Mejoras automáticas\n\n| Unidad/condición | Puntos por unidad | Tope | Fórmula | Fuente |\n|------------------|------------------|------|---------|--------|\n| 1 hora diaria adicional de primer nivel de atención (de 3h a 4h/día) | 10 | 10 | 10 puntos si se oferta una hora diaria adicional | PCAP Anexo I, p.72 |\n| 100 horas adicionales de bolsa de evolución tecnológica (sin coste) | 5 | 10 | 5 puntos por 100h, 10 puntos por 200h | PCAP Anexo I, p.72 |\n\n# 7. Criterios sujetos a juicio de valor\n\n## Proyecto técnico (A.1)\n- Total: 45 puntos\n- Subcriterios:\n  - A.1.1 Grado de detalle de la solución técnica propuesta: hasta 10 puntos\n  - A.1.2 Adecuación de la solución técnica a necesidades funcionales y técnicas: hasta 30 puntos\n  - A.1.3 Planificación del servicio: hasta 5 puntos\n- Baremo de calidad para cada subcriterio:\n  - EXCELENTE: 100% de la puntuación del subcriterio\n  - ALTA: 80%\n  - MEDIA: 60%\n  - BAJA: 40%\n  - MUY BAJA: 20%\n  - INSUFICIENTE: 0%\n- Umbral mínimo: 22,5 puntos en el conjunto de criterios cualitativos para no ser excluido\n- Documentación técnica: máximo 40 páginas, márgenes mínimos, interlineado sencillo, fuente mínimo 11 puntos. El exceso de páginas no se valora.\n- Fuente: PCAP Anexo I, p.68-70\n\n# 8. Umbrales mínimos o causas de exclusión ligadas a criterios\n\n- Umbral mínimo de 22,5 puntos (50% de 45) en la valoración de los criterios no valorables en cifras o porcentajes (criterios cualitativos). Si no se alcanza, el licitador es excluido del procedimiento.\n- Fuente: PCAP Anexo I, p.68, 70\n\n# 9. Datos no calculables o no localizados\n\n- No se localizan reglas de redondeo específicas para la puntuación de la oferta económica.\n- No se localizan fórmulas alternativas para la valoración de mejoras técnicas, más allá de los baremos expresos.\n- No consta desarrollo de subcriterios adicionales para el proyecto técnico fuera de los tres indicados.\n- No consta en la documentación revisada la existencia de criterios de adjudicación adicionales a los aquí recogidos.\n\n# 10. Documentos revisados\n\n1. ID_188_1.PDF (Documento licitación real)\n2. ID_188_2.PDF (PCAP y anexos)\n3. ID_188_3.PDF (PPTP)\n4. poc (detalle licitación, texto extraído)\n5. poc (perfil contratante, texto extraído)\n6. poc (perfil contratante, texto extraído)\n7. 147409-2026 (Sin texto extraíble; pendiente de lectura/OCR)\n8. perfilContratante (texto extraído)\n\n# Tabla de trazabilidad\n\n| Requisito/dato | Tipo | Valor/condición | Documento | Página/apartado | Estado de lectura |\n|----------------|------|----------------|-----------|-----------------|------------------|\n| Criterios de adjudicación | Criterio puntuable | Ver tabla de criterios | ID_188_2.PDF | Anexo I, p.68-72 | Leído |\n| Umbral mínimo criterios cualitativos | Umbral/exclusión | 22,5 puntos sobre 45 | ID_188_2.PDF | Anexo I, p.68, 70 | Leído |\n| Fórmula oferta económica | Fórmula | Y = 35 * (importe oferta más económica/importe oferta a valorar) | ID_188_2.PDF | Anexo I, p.71 | Leído |\n| Mejoras técnicas: horario primer nivel | Mejora automática | 10 puntos por 1h adicional diaria | ID_188_2.PDF | Anexo I, p.72 | Leído |\n| Mejoras técnicas: bolsa de horas | Mejora automática | 5 puntos por 100h, 10 puntos por 200h | ID_188_2.PDF | Anexo I, p.72 | Leído |\n| Baremo de calidad proyecto técnico | Baremo | EXCELENTE-INSUFICIENTE (100%-0%) | ID_188_2.PDF | Anexo I, p.70 | Leído |\n| Documentación técnica: extensión | Requisito formal | Máximo 40 páginas | ID_188_2.PDF | Anexo I, p.68-70 | Leído |\n| Redondeo oferta económica | Regla de cálculo | NO CONSTA | ID_188_2.PDF | Anexo I, p.71 | Leído |\n| Criterios adicionales | NO LOCALIZADO | NO CONSTA | ID_188_2.PDF | - | Leído |\n| Documento DOUE | Documento | Sin texto extraíble | 147409-2026 | - | No leído |\n\n# Discrepancias y pendientes de aclaración\n\n- No se han identificado discrepancias en la documentación revisada.\n- El documento \"147409-2026\" (anuncio DOUE) está pendiente de lectura/OCR, por lo que no se ha podido verificar si contiene criterios adicionales o diferentes.\n- No consta desarrollo de subcriterios adicionales ni reglas de redondeo específicas para la oferta económica en la documentación revisada.\n\n---\n\n**Nota:** Toda la información anterior se ha extraído exclusivamente de los documentos listados y de los apartados citados. No se han realizado interpretaciones, recomendaciones ni simulaciones. Si se requiere el análisis de documentos pendientes de lectura, deberá realizarse una revisión adicional cuando estén disponibles."
+      },
+      "registro_procesamiento": {
+        "origen": "registro_local_de_esta_extraccion",
+        "modo": "prompt_unico_documentos_completos",
+        "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+        "documentos": [
+          {
+            "numero": 1,
+            "nombre": "ID_188_1.PDF",
+            "tipo": "Documento licitacion real",
+            "fuente": "Carpeta licitacion real",
+            "caracteres_extraidos": 14915,
+            "caracteres_enviados_al_agente": 14915,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 2,
+            "nombre": "ID_188_2.PDF",
+            "tipo": "Documento licitacion real",
+            "fuente": "Carpeta licitacion real",
+            "caracteres_extraidos": 224684,
+            "caracteres_enviados_al_agente": 224684,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 3,
+            "nombre": "ID_188_3.PDF",
+            "tipo": "Documento licitacion real",
+            "fuente": "Carpeta licitacion real",
+            "caracteres_extraidos": 186976,
+            "caracteres_enviados_al_agente": 186976,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 4,
+            "nombre": "poc",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 5923,
+            "caracteres_enviados_al_agente": 5923,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 5,
+            "nombre": "poc",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 2659,
+            "caracteres_enviados_al_agente": 2659,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 6,
+            "nombre": "poc",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 3127,
+            "caracteres_enviados_al_agente": 3127,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 7,
+            "nombre": "147409-2026",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 0,
+            "caracteres_enviados_al_agente": 0,
+            "texto_compactado": false,
+            "error": "Sin texto extraible; documento pendiente de lectura/OCR"
+          },
+          {
+            "numero": 8,
+            "nombre": "perfilContratante",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_2.PDF",
+            "caracteres_extraidos": 2690,
+            "caracteres_enviados_al_agente": 2690,
+            "texto_compactado": false,
+            "error": ""
+          }
+        ],
+        "avisos": [
+          "Documento no leido: 147409-2026: Sin texto extraible; documento pendiente de lectura/OCR",
+          "Se omitieron 22 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+        ]
+      }
+    },
+    {
+      "orden": 5,
+      "id": "A6",
+      "nombre": "Requisitos del servicio",
+      "tipo": "extraccion",
+      "ejecucion": "0e52cfcb86724bd8838298d4c69496f4",
+      "estado": "completado",
+      "contenido": {
+        "salida_original": "# 1. Resumen factual del servicio requerido\n\nEl contrato tiene por objeto el diseño, desarrollo, puesta en servicio, mantenimiento y evolución tecnológica de un Asistente Virtual (BOT conversacional con IA tradicional y generativa) integrado en el portal Decide Madrid del Ayuntamiento de Madrid, en modalidad SaaS. Incluye panel de control, servicios de desarrollo, implantación, gestión, mantenimiento, monitorización, soporte de primer nivel, formación, evolución tecnológica y cumplimiento de requisitos de seguridad, accesibilidad, transparencia y protección de datos. El adjudicatario es responsable de la gestión y operación de todos los elementos de la solución, salvo la infraestructura MultiCloud corporativa (Google Cloud Platform, Microsoft Azure, Amazon AWS) proporcionada por el Ayuntamiento. El servicio se presta principalmente en las dependencias del adjudicatario, con posibilidad de prestación en instalaciones municipales en caso de necesidad y conformidad de la DGPC.\n\n# 2. Alcance y volumetrías\n\n| Dato                                    | Valor/Unidad                | Periodo         | Fuente (doc/pág)                |\n|-----------------------------------------|-----------------------------|-----------------|---------------------------------|\n| Usuarios registrados Decide Madrid      | 555.318                     | Histórico       | ID_188_3.PDF, p.3               |\n| Debates                                | 8.220                       | Histórico       | ID_188_3.PDF, p.3               |\n| Propuestas                             | 36.124                      | Histórico       | ID_188_3.PDF, p.3               |\n| Consultas públicas                     | 150                         | Histórico       | ID_188_3.PDF, p.3               |\n| Personas atendidas por asistente 2023  | 6.246                       | Año 2023        | ID_188_3.PDF, p.6               |\n| Personas atendidas por asistente 2024  | 4.490                       | Año 2024        | ID_188_3.PDF, p.6               |\n| Personas atendidas por asistente 2025* | 2.552                       | Hasta 30/11/25  | ID_188_3.PDF, p.6               |\n| Mensajes intercambiados 2023           | 27.083                      | Año 2023        | ID_188_3.PDF, p.6               |\n| Mensajes intercambiados 2024           | 46.723                      | Año 2024        | ID_188_3.PDF, p.6               |\n| Mensajes intercambiados 2025*          | 26.784                      | Hasta 30/11/25  | ID_188_3.PDF, p.6               |\n| Conversaciones simultáneas mínimas      | 50                          | Durante servicio| ID_188_3.PDF, p.13              |\n| Tráfico mínimo asistente                | 15.000 mensajes/mes         | Durante servicio| ID_188_3.PDF, p.13              |\n| Horario de atención N1                  | 11:00-14:00 días laborables | Durante servicio| ID_188_3.PDF, p.16              |\n| Horario asistente virtual               | 24x7x365                    | Durante servicio| ID_188_3.PDF, p.13              |\n| Bolsa de horas evolución tecnológica    | 600 horas (mínimo)          | Vigencia contrato| ID_188_3.PDF, p.17             |\n| Formación                              | 20 horas, máx. 20 asistentes| Vigencia contrato| ID_188_3.PDF, p.16             |\n| Plazo de ejecución                      | 24 meses (+prórrogas)       | Contrato        | ID_188_3.PDF, p.7               |\n| Prórrogas                               | 24+12 meses (máx. 60 meses) | Contrato        | ID_188_3.PDF, p.7               |\n\n# 3. Modelo de servicio exigido\n\n- Modalidad SaaS: adjudicatario responsable de gestión y operación de todos los elementos de la solución, salvo infraestructura MultiCloud corporativa (Google Cloud Platform, Microsoft Azure, Amazon AWS) proporcionada por el Ayuntamiento. (ID_188_3.PDF, p.1, 12, 29-31)\n- Fases: Fase I Implantación (máx. 2 meses), Fase II Operación (resto del contrato). (ID_188_3.PDF, p.8-9)\n- Servicio de primer nivel de atención (N1): presencial/remoto, mínimo 1 agente, horario 11:00-14:00 días laborables. (ID_188_3.PDF, p.16)\n- Monitorización y supervisión diaria de conversaciones (días laborables). (ID_188_3.PDF, p.15-16)\n- Mantenimiento preventivo, correctivo y evolutivo. (ID_188_3.PDF, p.17)\n- Panel de control accesible vía navegador, con funciones de reporting, supervisión, intervención en tiempo real, análisis y exportación de datos. (ID_188_3.PDF, p.14-15)\n- Bolsa de horas de evolución tecnológica (consultoría avanzada). (ID_188_3.PDF, p.17)\n- Formación inicial y continua al personal DGPC. (ID_188_3.PDF, p.16)\n\n# 4. Procesos y actividades\n\n| Proceso/actividad                                 | Expreso en pliego | Exigencia descrita                                                                 | Fuente (doc/pág)         |\n|--------------------------------------------------|-------------------|-----------------------------------------------------------------------------------|--------------------------|\n| Gestión de incidencias (ITIL NO CITADO EXPRESAMENTE) | No                | Mantenimiento correctivo, soporte técnico, resolución de incidencias, reporte ágil  | ID_188_3.PDF, p.17       |\n| Monitorización y supervisión                     | No                | Supervisión diaria de conversaciones, acciones de mejora, reporte a DGPC            | ID_188_3.PDF, p.15-16    |\n| Mantenimiento preventivo/correctivo/evolutivo    | No                | Garantizar funcionamiento óptimo, soporte, resolución de incidencias, adaptaciones  | ID_188_3.PDF, p.17       |\n| Transferencia de conocimiento                    | No                | Actividades de transferencia y entrega de documentación al cierre                   | ID_188_3.PDF, p.9, 43    |\n| Gestión de cambios (ITIL NO CITADO EXPRESAMENTE) | No                | Cambios en arquitectura sujetos a aprobación DGPC/IAM                              | ID_188_3.PDF, p.9, 18    |\n| Reporting mensual                               | No                | Informe mensual de seguimiento, incidencias, acciones, horas empleadas             | ID_188_3.PDF, p.11       |\n| Evaluación de experiencia usuaria                | No                | Encuestas de satisfacción, análisis de resultados                                   | ID_188_3.PDF, p.15       |\n| Formación                                       | No                | Formación inicial y continua a DGPC                                                | ID_188_3.PDF, p.16       |\n| Gestión de datos y transparencia                 | No                | Entrega de datos, informes, cumplimiento de normativa de transparencia              | ID_188_3.PDF, p.20-22, 54|\n| Seguridad de la información                     | No                | Cumplimiento ENS nivel básico, análisis de riesgos, medidas de seguridad            | ID_188_3.PDF, p.45-49    |\n| Accesibilidad                                   | No                | Cumplimiento UNE 139803:2012 nivel AA                                              | ID_188_3.PDF, p.19-20    |\n\n# 5. SLA/KPI/penalizaciones\n\n| Servicio/Actividad                | Prioridad | Respuesta/Resolución | Horario           | Objetivo/Umbral                | Penalización                        | Fuente (doc/pág)         |\n|-----------------------------------|----------|---------------------|--------------------|-------------------------------|-------------------------------------|--------------------------|\n| Fase implantación                 | N/A      | N/A                 | Máx. 2 meses       | Cumplimiento plazo implantación| Penalidad por incumplimiento        | ID_188_3.PDF, p.8-9      |\n| Disponibilidad asistente virtual  | N/A      | N/A                 | 24x7x365           | Indisponibilidad >48h grave, >5d muy grave| 5%/10% precio contrato según gravedad| ID_188_2.PDF, p.75-76    |\n| Servicio N1 (primer nivel)        | N/A      | N/A                 | 11:00-14:00 laborables| Prestación en horario definido | Penalidad por incumplimiento muy grave| ID_188_2.PDF, p.76       |\n| Monitorización y supervisión      | N/A      | N/A                 | Diario laborable   | Prestación diaria              | Penalidad por incumplimiento muy grave| ID_188_2.PDF, p.76       |\n| Mantenimiento                     | N/A      | N/A                 | N/A                | Cumplimiento tareas            | Penalidad por incumplimiento muy grave| ID_188_2.PDF, p.76       |\n| Entrega de informes               | N/A      | N/A                 | Según contrato     | Entrega en plazo               | Penalidad por incumplimiento grave   | ID_188_2.PDF, p.76       |\n| Cumplimiento condiciones especiales| N/A     | N/A                 | N/A                | Cumplimiento                  | Penalidad 5% precio contrato        | ID_188_2.PDF, p.77       |\n\n# 6. Organización y roles exigidos\n\n- Equipo mínimo con los siguientes perfiles y requisitos (ID_188_3.PDF, p.24-26):\n  - Jefe/a de Proyecto: 2 personas, titulación universitaria, 5 años experiencia en proyectos de administración electrónica, 3 años en asistentes virtuales.\n  - Técnico/a experto/a soluciones en la nube: 1 persona, titulación universitaria, 3 años experiencia en funciones del perfil, 2 años en asistentes virtuales.\n  - Analista programador: 1 persona, titulación universitaria, 3 años experiencia en funciones del perfil, 2 años en asistentes virtuales.\n  - Experto en IA y análisis de datos: 1 persona, titulación universitaria, 3 años experiencia en funciones del perfil, 2 años en asistentes virtuales.\n  - Lingüista computacional: 1 persona, titulación universitaria, 3 años experiencia en funciones del perfil, 2 años en asistentes virtuales.\n  - Agente primer nivel de atención: 2 personas, titulación oficial de Educación Secundaria, 3 años experiencia en atención a la ciudadanía en castellano.\n  - Consultor evolución tecnológica: 1 persona, titulación universitaria, 5 años experiencia en funciones del perfil, 3 años en análisis de proyectos de administración electrónica, 3 años en asistentes virtuales.\n- Sustitución de personal: comunicación previa, acreditación de requisitos, plazo 7 días para sustituto, conformidad del responsable municipal. (ID_188_3.PDF, p.28)\n- Cobertura de ausencias, vacaciones, bajas: obligación de garantizar continuidad del servicio. (ID_188_3.PDF, p.23)\n- Idioma: castellano. (ID_188_3.PDF, p.13, 16)\n- Certificaciones: NO CONSTA EN LA DOCUMENTACION REVISADA.\n\n# 7. Gobierno y reporting exigidos\n\n- Responsable del contrato (RC) designado por DGPC: supervisión, control, validación, aceptación, certificación, reuniones, instrucciones, incidencias. (ID_188_3.PDF, p.10)\n- Interlocutor único de la empresa (IE): coordinación técnica, comunicación con RC, suplente designado, localizable en horario 8:00-17:00 laborables. (ID_188_3.PDF, p.10, 24)\n- Reuniones de seguimiento: mensuales o superior, revisión de objetivos, personal, validación de actividades. (ID_188_3.PDF, p.11)\n- Informe mensual de seguimiento: incidencias, acciones, horas empleadas, validación para facturación. (ID_188_3.PDF, p.11)\n- Informes adicionales a requerimiento. (ID_188_3.PDF, p.11)\n- Informe final de proyecto al cierre. (ID_188_3.PDF, p.9)\n- Entrega de información generada, transferencia de conocimiento, borrado seguro de datos al cierre. (ID_188_3.PDF, p.9)\n\n# 8. Herramientas ITSM, CMDB, monitorización e integraciones exigidas\n\n- Panel de control (cuadro de mando): acceso web, reporting, supervisión, intervención en tiempo real, análisis, exportación de datos (.csv, .xlsx, .docx, .pdf), mínimo 5 usuarios DGPC, al menos 2 cuentas con máximas capacidades. (ID_188_3.PDF, p.14-15)\n- Integración con portal Decide Madrid mediante script javascript. (ID_188_3.PDF, p.6, 13)\n- Integración con buscador del portal. (ID_188_3.PDF, p.13)\n- Integración con plataforma MAIA (Madrid Inteligencia Artificial) y MultiCloud corporativa (Google Cloud Platform, Microsoft Azure, Amazon AWS). (ID_188_3.PDF, p.12, 29-31, 42)\n- CMDB: los sistemas desplegados deben figurar en la CMDB corporativa gestionada por IAM. (ID_188_3.PDF, p.33)\n- Monitorización: integración con herramientas de observabilidad y monitorización de IAM si se solicita. (ID_188_3.PDF, p.31)\n- Reporting: generación de informes, exportación, encuestas de satisfacción, análisis de datos. (ID_188_3.PDF, p.14-15)\n- Gestión de logs y registros de actividad. (ID_188_3.PDF, p.38-39, 49)\n- Portal self-service: NO CONSTA EN LA DOCUMENTACION REVISADA.\n- Herramientas ITSM: NO CONSTA EN LA DOCUMENTACION REVISADA.\n\n# 9. Transición, continuidad y reversibilidad exigidas\n\n- Fase de implantación: máx. 2 meses, entrega de solución operativa, validación por DGPC/IAM. (ID_188_3.PDF, p.8-9)\n- Transferencia de conocimiento y entrega de documentación, código, modelos, datos, logs, etc. al cierre. (ID_188_3.PDF, p.9, 43)\n- Eliminación segura de datos al cierre, con certificado de destrucción. (ID_188_3.PDF, p.9)\n- Continuidad: obligación de cobertura de ausencias, vacaciones, bajas, sustituciones. (ID_188_3.PDF, p.23)\n- Garantía técnica: 12 meses desde recepción, subsanación de defectos. (ID_188_2.PDF, p.79)\n- Reversibilidad: entrega de información, bases de datos, documentación, modelo de datos, serie histórica, formato abierto y reutilizable, siguiendo directrices de responsables informáticos. (ID_188_3.PDF, p.22, 56)\n- Colaboración con sucesor: NO CONSTA EN LA DOCUMENTACION REVISADA.\n- Costes de reversibilidad: a cargo del adjudicatario. (ID_188_3.PDF, p.9, 43)\n\n# 10. Automatización, self-service y gestión del conocimiento\n\n- Automatización: se exige que los procesos de extracción de datos puedan programarse y ejecutarse de forma desatendida, con periodicidad configurable. (ID_188_3.PDF, p.22, 56)\n- Self-service: NO CONSTA EN LA DOCUMENTACION REVISADA.\n- Gestión del conocimiento: almacenamiento y análisis de conversaciones anonimizadas, panel de control con acceso a BBDD de respuestas, trazabilidad, análisis de datos, exportación de informes. (ID_188_3.PDF, p.14-15)\n\n# 11. Datos no localizados o ambiguos en la documentación\n\n- No consta exigencia de herramientas ITSM específicas.\n- No consta exigencia de CMDB propia del adjudicatario, salvo alta en la CMDB corporativa IAM.\n- No consta exigencia de portal self-service para usuarios finales.\n- No consta exigencia de integración con sistemas de ticketing externos.\n- No consta exigencia de certificaciones técnicas específicas (más allá de titulaciones y experiencia).\n- No consta exigencia de idiomas adicionales al castellano.\n- No consta detalle de niveles N2/N3 ni escalados técnicos más allá del N1 y monitorización.\n- No consta detalle de RTO/RPO ni de procedimientos de recuperación ante desastres.\n- No consta exigencia de colaboración con proveedor sucesor en la transición de salida.\n\n# 12. Documentos revisados\n\n1. ID_188_1.PDF (Documento licitación real)\n2. ID_188_2.PDF (Pliego de Cláusulas Administrativas Particulares)\n3. ID_188_3.PDF (Pliego de Prescripciones Técnicas)\n4. poc (Documento enlazado, detalle licitación, texto extraído)\n5. poc (Documento enlazado, perfil contratante, texto extraído)\n6. poc (Documento enlazado, perfil contratante, texto extraído)\n7. 147409-2026 (Documento enlazado, sin texto extraíble; pendiente de lectura/OCR)\n8. perfilContratante (Documento enlazado, texto extraído)\n\n# Discrepancias y pendientes de aclaración\n\n- Documento 147409-2026 pendiente de lectura/OCR: no se ha podido verificar si contiene requisitos adicionales o diferentes.\n- No se han identificado discrepancias internas relevantes en la documentación revisada.\n- Algunos apartados remiten a anexos o documentos no incluidos o no legibles; su contenido queda pendiente de verificación.\n\n# Tabla de trazabilidad (extracto)\n\n| Requisito/dato                        | Tipo                  | Valor/condición                                 | Documento      | Página/apartado         | Estado de lectura         |\n|---------------------------------------|-----------------------|------------------------------------------------|---------------|------------------------|--------------------------|\n| Alcance SaaS                         | Obligación esencial   | Gestión y operación de todos los elementos      | ID_188_3.PDF   | p.1, 12, 29-31          | Leído                    |\n| Horario N1                           | Obligación esencial   | 11:00-14:00 laborables                         | ID_188_3.PDF   | p.16                   | Leído                    |\n| Disponibilidad asistente              | Obligación esencial   | 24x7x365                                       | ID_188_3.PDF   | p.13                   | Leído                    |\n| Bolsa de horas evolución tecnológica  | Obligación esencial   | 600 horas mínimo                               | ID_188_3.PDF   | p.17                   | Leído                    |\n| Equipo mínimo y perfiles              | Obligación esencial   | Ver detalle sección 6                           | ID_188_3.PDF   | p.24-26                | Leído                    |\n| Panel de control                      | Obligación esencial   | Acceso web, reporting, supervisión, intervención| ID_188_3.PDF   | p.14-15                | Leído                    |\n| Monitorización diaria                 | Obligación esencial   | Días laborables                                 | ID_188_3.PDF   | p.15-16                | Leído                    |\n| Transferencia de conocimiento         | Obligación esencial   | Al cierre, entrega de documentación, datos      | ID_188_3.PDF   | p.9, 43                | Leído                    |\n| Garantía técnica                      | Obligación esencial   | 12 meses desde recepción                        | ID_188_2.PDF   | p.79                   | Leído                    |\n| Penalizaciones                        | Obligación esencial   | 5%/10% precio contrato según gravedad           | ID_188_2.PDF   | p.75-77                | Leído                    |\n| Automatización extracción de datos    | Obligación esencial   | Procesos programables y desatendidos            | ID_188_3.PDF   | p.22, 56               | Leído                    |\n| CMDB corporativa                      | Obligación esencial   | Alta de sistemas en CMDB IAM                    | ID_188_3.PDF   | p.33                   | Leído                    |\n| ...                                   | ...                   | ...                                            | ...            | ...                    | ...                      |\n\n(La tabla completa se encuentra en el desarrollo anterior)"
+      },
+      "registro_procesamiento": {
+        "origen": "registro_local_de_esta_extraccion",
+        "modo": "prompt_unico_documentos_completos",
+        "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+        "documentos": [
+          {
+            "numero": 1,
+            "nombre": "ID_188_1.PDF",
+            "tipo": "Documento licitacion real",
+            "fuente": "Carpeta licitacion real",
+            "caracteres_extraidos": 14915,
+            "caracteres_enviados_al_agente": 14915,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 2,
+            "nombre": "ID_188_2.PDF",
+            "tipo": "Documento licitacion real",
+            "fuente": "Carpeta licitacion real",
+            "caracteres_extraidos": 224684,
+            "caracteres_enviados_al_agente": 224684,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 3,
+            "nombre": "ID_188_3.PDF",
+            "tipo": "Documento licitacion real",
+            "fuente": "Carpeta licitacion real",
+            "caracteres_extraidos": 186976,
+            "caracteres_enviados_al_agente": 186976,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 4,
+            "nombre": "poc",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 5923,
+            "caracteres_enviados_al_agente": 5923,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 5,
+            "nombre": "poc",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 2659,
+            "caracteres_enviados_al_agente": 2659,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 6,
+            "nombre": "poc",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 3127,
+            "caracteres_enviados_al_agente": 3127,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 7,
+            "nombre": "147409-2026",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 0,
+            "caracteres_enviados_al_agente": 0,
+            "texto_compactado": false,
+            "error": "Sin texto extraible; documento pendiente de lectura/OCR"
+          },
+          {
+            "numero": 8,
+            "nombre": "perfilContratante",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_2.PDF",
+            "caracteres_extraidos": 2690,
+            "caracteres_enviados_al_agente": 2690,
+            "texto_compactado": false,
+            "error": ""
+          }
+        ],
+        "avisos": [
+          "Documento no leido: 147409-2026: Sin texto extraible; documento pendiente de lectura/OCR",
+          "Se omitieron 22 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+        ]
+      }
+    },
+    {
+      "orden": 6,
+      "id": "A8",
+      "nombre": "Perfiles y equipo",
+      "tipo": "extraccion",
+      "ejecucion": "0e52cfcb86724bd8838298d4c69496f4",
+      "estado": "completado",
+      "contenido": {
+        "salida_original": "# 1. Resumen factual de requisitos de perfiles y equipo\n\nLa licitación exige un equipo mínimo para la ejecución del contrato, compuesto por siete perfiles profesionales con requisitos específicos de titulación, experiencia y funciones. Se requiere la adscripción formal de estos medios personales mediante declaración responsable en la oferta, y la acreditación documental de la experiencia y titulación solo por el adjudicatario propuesto, previa a la adjudicación. Existen reglas de sustitución, permanencia y cobertura de ausencias, así como condiciones especiales de ejecución relativas a la adscripción y permanencia del equipo. No se exigen certificaciones específicas (ITIL, PMP, Scrum, fabricante) ni idiomas distintos del castellano. Hay criterios puntuables vinculados a la ampliación de horario del servicio de primer nivel de atención y a la bolsa de horas de evolución tecnológica, pero no a la cualificación o experiencia adicional de los perfiles. No se localizan requisitos de colegiación ni habilitaciones profesionales. La experiencia de empresa en proyectos previos se exige como solvencia técnica, separada de los requisitos personales.\n\n# 2. Tabla: Puesto/perfil | Cantidad | Titulación | Experiencia | Certificaciones | Dedicación/horario | Presencialidad/ubicación | Tipo de requisito | Fuente\n\n| Puesto/perfil                | Cantidad | Titulación                              | Experiencia                                                                                 | Certificaciones         | Dedicación/horario                        | Presencialidad/ubicación                | Tipo de requisito                | Fuente                                      |\n|-----------------------------|----------|-----------------------------------------|--------------------------------------------------------------------------------------------|------------------------|--------------------------------------------|-----------------------------------------|-------------------------------|---------------------------------------------|\n| Jefe/a de Proyecto          | 2        | Titulación universitaria de grado o eq. | 5 años en dirección de proyectos de administración electrónica; 3 años en asistentes virtuales | NO CONSTA EN LA DOCUMENTACION REVISADA | NO ESPECIFICADO (ver nota)                 | NO ESPECIFICADO (ver nota)               | Obligatorio                      | ID_188_3.PDF, p.25-26; ID_188_2.PDF, Anexo I |\n| Técnico/a experto/a nube    | 1        | Titulación universitaria de grado o eq. | 3 años en funciones propias del perfil; 2 años en asistentes virtuales                      | NO CONSTA EN LA DOCUMENTACION REVISADA | NO ESPECIFICADO                             | NO ESPECIFICADO                          | Obligatorio                      | ID_188_3.PDF, p.25-26                        |\n| Analista programador        | 1        | Titulación universitaria de grado o eq. | 3 años en funciones propias del perfil; 2 años en asistentes virtuales                      | NO CONSTA EN LA DOCUMENTACION REVISADA | NO ESPECIFICADO                             | NO ESPECIFICADO                          | Obligatorio                      | ID_188_3.PDF, p.25-26                        |\n| Experto en IA y análisis de datos | 1   | Titulación universitaria de grado o eq. | 3 años en funciones propias del perfil; 2 años en asistentes virtuales                      | NO CONSTA EN LA DOCUMENTACION REVISADA | NO ESPECIFICADO                             | NO ESPECIFICADO                          | Obligatorio                      | ID_188_3.PDF, p.25-26                        |\n| Lingüista computacional     | 1        | Titulación universitaria de grado o eq. | 3 años en funciones propias del perfil; 2 años en asistentes virtuales                      | NO CONSTA EN LA DOCUMENTACION REVISADA | NO ESPECIFICADO                             | NO ESPECIFICADO                          | Obligatorio                      | ID_188_3.PDF, p.25-26                        |\n| Agente primer nivel atención| 2        | Titulación oficial de Educación Secundaria| 3 años en atención a la ciudadanía en castellano                                            | NO CONSTA EN LA DOCUMENTACION REVISADA | Días laborables 11:00-14:00 (mínimo 1 persona)| NO ESPECIFICADO                          | Obligatorio                      | ID_188_3.PDF, p.25-26, p.16                  |\n| Consultor Evolución Tecnológica | 1    | Titulación universitaria de grado o eq. | 5 años en funciones propias del perfil; 3 años en análisis de proyectos de Adm. Electrónica; 3 años en asistentes virtuales | NO CONSTA EN LA DOCUMENTACION REVISADA | NO ESPECIFICADO                             | NO ESPECIFICADO                          | Obligatorio                      | ID_188_3.PDF, p.25-26                        |\n\n**Notas:**\n- Dedicación/horario: Solo se especifica para el agente de primer nivel de atención (mínimo 1 persona en días laborables de 11:00 a 14:00). Para el resto de perfiles, la jornada y dedicación no se cuantifican en horas ni porcentaje, pero se exige cobertura de ausencias y continuidad del servicio.\n- Presencialidad/ubicación: El servicio se prestará en las dependencias de la adjudicataria, salvo necesidad y conformidad de la DGPC para prestar en instalaciones del Ayuntamiento (ID_188_3.PDF, p.53).\n\n# 3. Requisitos de acreditación documental de cada perfil\n- En la oferta: Declaración responsable del representante legal comprometiéndose a adscribir los medios personales descritos en el apartado 6 del PPTP (ID_188_2.PDF, Anexo X, p.97; ID_188_3.PDF, p.28).\n- Solo el adjudicatario propuesto, previa a la adjudicación y a requerimiento: Relación completa del personal asignado, declaración responsable del representante legal acreditando la experiencia exigida, currículum vitae detallado y anonimizado, certificados de vida laboral, títulos oficiales que acrediten la titulación exigida (ID_188_3.PDF, p.28; ID_188_2.PDF, Anexo X, p.97).\n- La documentación debe presentarse en el plazo y forma requeridos por el órgano de contratación; la no presentación puede conllevar la no adjudicación (ID_188_2.PDF, p.26-27).\n\n# 4. Reglas de sustitución, permanencia o adscripción de medios\n- Adscripción: Es obligación contractual esencial adscribir los medios personales descritos en el PPTP durante toda la vigencia del contrato (ID_188_2.PDF, Anexo I, p.66; ID_188_3.PDF, p.28, p.52).\n- Permanencia: La entidad adjudicataria se compromete a mantener inalterado el personal adscrito; la sustitución solo en casos justificados, previa comunicación y aprobación del responsable municipal, acreditando que el sustituto cumple los requisitos de titulación y experiencia. Plazo para presentar sustituto: 7 días desde la comunicación (ID_188_3.PDF, p.28).\n- Cobertura de ausencias: La empresa adjudicataria debe cubrir ausencias por vacaciones u otras eventualidades; los periodos de vacaciones y permisos no eximen del cumplimiento de la prestación (ID_188_3.PDF, p.23).\n- El equipo debe estar constituido en el plazo de 15 días desde la notificación de la adjudicación (ID_188_3.PDF, p.27).\n\n# 5. Criterios puntuables relacionados con perfiles, con puntos/fórmula/umbral si constan\n- Ampliación de horario del servicio de primer nivel de atención: hasta 10 puntos. Se otorgan 10 puntos si se oferta una hora diaria adicional sobre el horario inicialmente requerido (de 11:00 a 14:00), ampliando la franja a 4 horas consecutivas (ID_188_2.PDF, Anexo I, p.71).\n- Ampliación de la bolsa de horas de evolución tecnológica sobre las 600 horas requeridas: hasta 10 puntos. 5 puntos por 100 horas adicionales, 10 puntos por 200 horas adicionales, sin coste adicional para el Ayuntamiento (ID_188_2.PDF, Anexo I, p.72).\n- No se puntúa experiencia, titulaciones, certificaciones ni composición adicional del equipo.\n\n# 6. Requisitos detectados que corresponden a experiencia de empresa y no a personas\n- Solvencia técnica: Haber realizado trabajos de igual o similar naturaleza (CPV coincidente en los tres primeros dígitos) en los tres últimos años naturales, por importe igual o superior al presupuesto del contrato sin IVA. Acreditación: relación de servicios, importe, fecha y destinatario (ID_188_2.PDF, Anexo I, p.64).\n\n# 7. Datos no localizados o no verificables por lectura parcial\n- No se localizan requisitos de colegiación, habilitaciones profesionales, idiomas distintos del castellano, ni certificaciones específicas (ITIL, PMP, Scrum, fabricante) para ningún perfil.\n- No se cuantifica la dedicación horaria ni el porcentaje de jornada para los perfiles, salvo el agente de primer nivel de atención.\n- No se especifica el número de suplentes ni el detalle de solapamientos para cobertura de ausencias.\n- No se localizan requisitos de experiencia mínima en tecnologías concretas, salvo la referencia genérica a \"asistentes virtuales\".\n- No se localizan requisitos de formación continua obligatoria para los perfiles, salvo la obligación de mantener el conocimiento actualizado (ID_188_3.PDF, p.28).\n- No se localizan requisitos de idiomas para la atención, más allá del castellano.\n- No se localizan requisitos de presencia física obligatoria en las instalaciones del Ayuntamiento, salvo en caso de necesidad y conformidad de la DGPC.\n- No se localizan requisitos de número de horas de formación a impartir al personal propio del adjudicatario.\n\n# 8. Documentos revisados: enumera todos los documentos del índice, uno por uno\n1. ID_188_1.PDF (Documento licitación real)\n2. ID_188_2.PDF (Documento licitación real)\n3. ID_188_3.PDF (Documento licitación real)\n4. poc (Documento enlazado, fuente: ID_188_1.PDF)\n5. poc (Documento enlazado, fuente: ID_188_1.PDF)\n6. poc (Documento enlazado, fuente: ID_188_1.PDF)\n7. 147409-2026 (Documento enlazado, fuente: ID_188_1.PDF, sin texto extraíble)\n8. perfilContratante (Documento enlazado, fuente: ID_188_2.PDF)\n\n# 9. Tabla de trazabilidad\n| Requisito/dato                                         | Tipo                        | Valor/condición                                                                                 | Documento      | Página/apartado         | Estado de lectura                  |\n|-------------------------------------------------------|-----------------------------|------------------------------------------------------------------------------------------------|---------------|-------------------------|-------------------------------------|\n| Equipo mínimo: 7 perfiles, funciones y requisitos     | Obligatorio                 | Ver tabla de perfiles arriba                                                                   | ID_188_3.PDF  | p.25-26                 | ENCONTRADO EN EL PLIEGO            |\n| Titulación universitaria de grado o equivalente       | Obligatorio (varios)        | Jefe/a de Proyecto, Técnico/a nube, Analista, IA, Lingüista, Consultor Evolución Tecnológica   | ID_188_3.PDF  | p.25-26                 | ENCONTRADO EN EL PLIEGO            |\n| Titulación oficial de Educación Secundaria            | Obligatorio                 | Agente primer nivel de atención                                                                | ID_188_3.PDF  | p.25-26                 | ENCONTRADO EN EL PLIEGO            |\n| Experiencia mínima (años y sector)                    | Obligatorio (ver tabla)     | Ver tabla de perfiles arriba                                                                   | ID_188_3.PDF  | p.25-26                 | ENCONTRADO EN EL PLIEGO            |\n| Certificaciones específicas (ITIL, PMP, Scrum, etc.)  | NO CONSTA EN LA DOCUMENTACION REVISADA | -                                                                                              | -             | -                       | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Dedicación/horario                                   | Obligatorio (parcial)       | Agente primer nivel: mínimo 1 persona, días laborables 11:00-14:00                             | ID_188_3.PDF  | p.16                    | ENCONTRADO EN EL PLIEGO            |\n| Presencialidad/ubicación                             | Obligatorio                 | Dependencias de la adjudicataria, salvo necesidad y conformidad DGPC                           | ID_188_3.PDF  | p.53                    | ENCONTRADO EN EL PLIEGO            |\n| Adscripción de medios                                | Obligación contractual esencial | Declaración responsable en oferta; acreditación documental solo por adjudicatario propuesto | ID_188_2.PDF  | Anexo X, p.97           | ENCONTRADO EN EL PLIEGO            |\n| Sustitución de personal                              | Obligatorio                 | Solo en casos justificados, previa comunicación y aprobación, sustituto en 7 días               | ID_188_3.PDF  | p.28                    | ENCONTRADO EN EL PLIEGO            |\n| Cobertura de ausencias                               | Obligatorio                 | La empresa debe cubrir ausencias por vacaciones/eventualidades                                 | ID_188_3.PDF  | p.23                    | ENCONTRADO EN EL PLIEGO            |\n| Equipo constituido en 15 días desde adjudicación     | Obligatorio                 | Plazo máximo para constitución del equipo                                                      | ID_188_3.PDF  | p.27                    | ENCONTRADO EN EL PLIEGO            |\n| Criterios puntuables: ampliación horario atención     | Criterio puntuable          | Hasta 10 puntos, 1 hora diaria adicional (4h total)                                            | ID_188_2.PDF  | Anexo I, p.71           | ENCONTRADO EN EL PLIEGO            |\n| Criterios puntuables: bolsa de horas evolución        | Criterio puntuable          | Hasta 10 puntos, 100h/200h adicionales sin coste                                               | ID_188_2.PDF  | Anexo I, p.72           | ENCONTRADO EN EL PLIEGO            |\n| Experiencia empresa en proyectos previos             | Solvencia técnica empresa   | Trabajos igual/similar naturaleza, 3 años, importe igual/superior presupuesto                  | ID_188_2.PDF  | Anexo I, p.64           | ENCONTRADO EN EL PLIEGO            |\n| Certificados, colegiación, idiomas, formación continua| NO CONSTA EN LA DOCUMENTACION REVISADA | -                                                                                              | -             | -                       | NO CONSTA EN LA DOCUMENTACION REVISADA |\n\n# 10. Discrepancias y pendientes de aclaración\n- No se han identificado discrepancias en la documentación revisada.\n- Dedicación y jornada de la mayoría de perfiles: NO ESPECIFICADO, salvo para el agente de primer nivel de atención.\n- Número de suplentes y detalle de solapamientos para cobertura de ausencias: NO ESPECIFICADO.\n- Certificaciones específicas, colegiación, idiomas adicionales: NO CONSTA EN LA DOCUMENTACION REVISADA.\n- Documento 147409-2026 pendiente de lectura/OCR: PENDIENTE DE VERIFICAR."
+      },
+      "registro_procesamiento": {
+        "origen": "registro_local_de_esta_extraccion",
+        "modo": "prompt_unico_documentos_completos",
+        "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+        "documentos": [
+          {
+            "numero": 1,
+            "nombre": "ID_188_1.PDF",
+            "tipo": "Documento licitacion real",
+            "fuente": "Carpeta licitacion real",
+            "caracteres_extraidos": 14915,
+            "caracteres_enviados_al_agente": 14915,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 2,
+            "nombre": "ID_188_2.PDF",
+            "tipo": "Documento licitacion real",
+            "fuente": "Carpeta licitacion real",
+            "caracteres_extraidos": 224684,
+            "caracteres_enviados_al_agente": 224684,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 3,
+            "nombre": "ID_188_3.PDF",
+            "tipo": "Documento licitacion real",
+            "fuente": "Carpeta licitacion real",
+            "caracteres_extraidos": 186976,
+            "caracteres_enviados_al_agente": 186976,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 4,
+            "nombre": "poc",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 5923,
+            "caracteres_enviados_al_agente": 5923,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 5,
+            "nombre": "poc",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 2659,
+            "caracteres_enviados_al_agente": 2659,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 6,
+            "nombre": "poc",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 3127,
+            "caracteres_enviados_al_agente": 3127,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 7,
+            "nombre": "147409-2026",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 0,
+            "caracteres_enviados_al_agente": 0,
+            "texto_compactado": false,
+            "error": "Sin texto extraible; documento pendiente de lectura/OCR"
+          },
+          {
+            "numero": 8,
+            "nombre": "perfilContratante",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_2.PDF",
+            "caracteres_extraidos": 2690,
+            "caracteres_enviados_al_agente": 2690,
+            "texto_compactado": false,
+            "error": ""
+          }
+        ],
+        "avisos": [
+          "Documento no leido: 147409-2026: Sin texto extraible; documento pendiente de lectura/OCR",
+          "Se omitieron 22 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+        ]
+      }
+    },
+    {
+      "orden": 7,
+      "id": "A9",
+      "nombre": "Seguridad y protección de datos",
+      "tipo": "extraccion",
+      "ejecucion": "0e52cfcb86724bd8838298d4c69496f4",
+      "estado": "completado",
+      "contenido": {
+        "salida_original": "# 1. Resumen factual Seguridad / DPO / ENS\n\n**Resumen:**\n- El contrato exige cumplimiento del Esquema Nacional de Seguridad (ENS) nivel BÁSICO para los sistemas y servicios objeto del contrato, con medidas de seguridad del Anexo II del ENS y guías CCN-STIC aplicables. No se exige certificación ENS ni ISO 27001.\n- No se requiere tratamiento de datos personales por cuenta del Ayuntamiento ni acuerdo de encargado de tratamiento, según los pliegos y PPTP.\n- El adjudicatario debe cumplir con la normativa de seguridad de la información vigente, la política de seguridad del Ayuntamiento de Madrid y las instrucciones de IAM y el Centro de Ciberseguridad municipal.\n- Se establecen requisitos detallados para despliegue en cloud pública (Azure, AWS, GCP), localización de datos en el EEE, y prohibición de transferencias internacionales fuera del EEE.\n- Se exige análisis de riesgos, plan de tratamiento, configuración segura, desarrollo seguro, cifrado de información no pública, identificación y autenticación, control de accesos, logging, gestión de vulnerabilidades, gestión de incidentes, auditorías, borrado seguro y confidencialidad.\n- Se establecen penalizaciones económicas y consecuencias contractuales por incumplimiento de obligaciones de seguridad, confidencialidad, subcontratación y otras condiciones esenciales.\n\n# 2. ENS: Requisito | Categoria/nivel | Alcance | Acreditacion | Momento | Fuente\n| Requisito ENS | Categoria/Nivel | Alcance | Acreditación | Momento | Fuente |\n|---|---|---|---|---|---|\n| Cumplimiento ENS | BÁSICO | Servicios objeto del contrato y sistemas desarrollados/desplegados/mantenidos | Descripción de mecanismos de seguridad en la oferta técnica | Presentación de oferta y ejecución | ID_188_3.PDF, pág. 45-46, 11.1, 11.3, 11.4 |\n| Aplicación medidas Anexo II ENS | BÁSICO | Servicios y sistemas objeto del contrato | Supervisión y comprobación por órgano de contratación | Ejecución | ID_188_3.PDF, pág. 46, 11.1 |\n| Guías CCN-STIC | BÁSICO | Configuración de componentes tecnológicos | Configuración conforme a guías CCN-STIC | Ejecución | ID_188_3.PDF, pág. 46-47, 11.4 |\n| Análisis de riesgos ENS | BÁSICO | Servicios y sistemas desarrollados/desplegados/mantenidos | Análisis de riesgos validado por el Ayuntamiento | Inicio de trabajos | ID_188_3.PDF, pág. 46, 11.3 |\n| Designación POC seguridad | BÁSICO | Seguridad de la información tratada y servicio prestado | Designación de punto/persona de contacto | Ejecución | ID_188_3.PDF, pág. 46, 11.2 |\n\n# 3. RGPD/DPO: Datos/rol/obligacion | Condicion | Plazo/retencion | Fuente\n| Datos/rol/obligación | Condición | Plazo/retención | Fuente |\n|---|---|---|---|\n| Tratamiento de datos personales por cuenta del Ayuntamiento | NO requerido | NO APLICA | ID_188_3.PDF, pág. 50, 11.18; ID_188_2.PDF, pág. 54, Anexo I, 1.8 |\n| Acuerdo de encargado de tratamiento | NO requerido | NO APLICA | ID_188_2.PDF, pág. 54, Anexo I, 1.8 |\n| DPO/DPD designado | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | NO CONSTA |\n| Información sobre protección de datos (contratación municipal) | Responsable: Dirección General de Contratación y Servicios | Conservación: mientras sean necesarios para la ejecución del contrato | ID_188_2.PDF, pág. 95, Anexo IX |\n\n# 4. Subencargados, cloud, localización y transferencias\n| Requisito | Condición | Fuente |\n|---|---|---|\n| Subcontratación permitida | Debe indicar parte subcontratada, importe y nombre/perfil del subcontratista; prohibida en tareas críticas (implantación y jefe de proyecto) | ID_188_2.PDF, pág. 75-76, Anexo I, 25-26; ID_188_3.PDF, pág. 29, 6.5 |\n| Cloud pública admitida | Solo Azure, AWS, GCP; recursos en regiones del EEE | ID_188_3.PDF, pág. 29-30, 7 |\n| Localización de datos | Recursos desplegados en regiones del EEE; prohibidas transferencias fuera del EEE | ID_188_3.PDF, pág. 30, 7; pág. 33, Organización de recursos |\n| Transferencias internacionales | Prohibidas fuera del EEE | ID_188_3.PDF, pág. 30, 7; pág. 33 |\n\n# 5. Medidas técnicas: Medida | Obligatoria/valorable/condicionada | Parametro/plazo | Fuente\n| Medida | Obligatoria/Valorable/Condicionada | Parámetro/Plazo | Fuente |\n|---|---|---|---|\n| Análisis de riesgos ENS | Obligatoria | Al inicio de los trabajos | ID_188_3.PDF, pág. 46, 11.3 |\n| Configuración segura (guías CCN-STIC) | Obligatoria | Durante ejecución | ID_188_3.PDF, pág. 46-47, 11.4 |\n| Desarrollo seguro y orientado a la privacidad | Obligatoria | Durante ciclo de vida del proyecto | ID_188_3.PDF, pág. 47, 11.5 |\n| Cifrado de información no pública | Obligatoria | Cuando se transmita por redes ajenas al Ayuntamiento | ID_188_3.PDF, pág. 47, 11.6 |\n| Identificación y autenticación | Obligatoria | Según ENS y normativa municipal | ID_188_3.PDF, pág. 47, 11.7 |\n| Compatibilidad doble factor autenticación | Obligatoria si aplica | Durante ejecución | ID_188_3.PDF, pág. 48, 11.8 |\n| Control de acceso (mínimo privilegio, necesidad de conocer) | Obligatoria | Durante ejecución | ID_188_3.PDF, pág. 48, 11.10 |\n| Logging y registros de actividad | Obligatoria | Durante ejecución; entrega a requerimiento | ID_188_3.PDF, pág. 49, 11.12 |\n| Actualizaciones de seguridad/parcheado | Obligatoria | Periódica y continuada | ID_188_3.PDF, pág. 49, 11.13 |\n| Gestión de incidentes de seguridad | Obligatoria | Notificación inmediata al responsable del contrato | ID_188_3.PDF, pág. 49, 11.14 |\n| Subsanación de vulnerabilidades | Obligatoria | A requerimiento del responsable del contrato | ID_188_3.PDF, pág. 49, 11.15 |\n| Auditorías de seguridad | Obligatoria | A requerimiento del Ayuntamiento | ID_188_3.PDF, pág. 49, 11.16 |\n| Borrado seguro y certificado de destrucción | Obligatoria | Al cierre del contrato | ID_188_3.PDF, pág. 9, Fase II Operación |\n| Confidencialidad | Obligatoria | Durante y después del contrato | ID_188_3.PDF, pág. 53, 15 |\n\n# 6. Identidad, accesos y privilegios\n- Identificación y autenticación: Delegación en plataforma de identidad corporativa para personal municipal y en sistema estatal Cl@VE para ciudadanía. Otros métodos requieren autorización de IAM. (ID_188_3.PDF, pág. 47, 11.7)\n- Control de acceso: Principios de mínimo privilegio y necesidad de conocer. Restricción de roles de administración. (ID_188_3.PDF, pág. 48, 11.10)\n- Acceso remoto: Uso del servicio de acceso remoto para empresas del Ayuntamiento; cumplimiento de condiciones de uso. (ID_188_3.PDF, pág. 48-49, 11.9)\n\n# 7. Vulnerabilidades, parcheado y desarrollo seguro\n- Subsanación de vulnerabilidades: Obligatoria a requerimiento del responsable del contrato. (ID_188_3.PDF, pág. 49, 11.15)\n- Actualizaciones de seguridad/parcheado: Obligatoria, periódica y continuada. Medidas compensatorias si no es posible aplicar una actualización. (ID_188_3.PDF, pág. 49, 11.13)\n- Desarrollo seguro: Metodologías y buenas prácticas verificables de desarrollo seguro durante todo el ciclo de vida. (ID_188_3.PDF, pág. 47, 11.5)\n\n# 8. Incidentes, brechas y plazos de notificación expresamente indicados\n- Gestión de incidentes de seguridad: Obligatoria, conforme a la guía CCN-STIC-817. Notificación inmediata al responsable del contrato y mantenimiento de información hasta cierre del incidente. (ID_188_3.PDF, pág. 49, 11.14)\n- No se especifican plazos concretos en horas/días para la notificación, solo \"tan pronto como tenga conocimiento\".\n\n# 9. Logging, SOC/SIEM, continuidad, backup, RTO/RPO y retención\n- Logging: Registro de actividades de usuarios, retención de información necesaria para monitorizar, analizar, investigar y documentar actividades indebidas o no autorizadas. Entrega de registros a requerimiento. (ID_188_3.PDF, pág. 49, 11.12)\n- Integración con herramientas de observabilidad y monitorización de IAM si se solicita. (ID_188_3.PDF, pág. 31)\n- Copias de seguridad y restauración: Proporcionadas por IAM. (ID_188_3.PDF, pág. 31)\n- RTO/RPO: NO CONSTA EN LA DOCUMENTACION REVISADA.\n- Continuidad: NO CONSTA EN LA DOCUMENTACION REVISADA ningún RTO/RPO ni plan de continuidad específico, salvo la obligación de resiliencia y disponibilidad 24x7 del servicio (ID_188_3.PDF, pág. 13, RAV_8).\n\n# 10. Auditorias, evidencias, certificaciones, seguridad del personal, borrado y confidencialidad\n- Auditorías de seguridad: El Ayuntamiento podrá realizar auditorías de seguridad de los sistemas implantados o utilizados. (ID_188_3.PDF, pág. 49, 11.16)\n- Evidencias/certificados: Certificado de destrucción de datos al cierre del contrato. (ID_188_3.PDF, pág. 9, Fase II Operación)\n- Certificaciones ISO/ENS: NO EXIGIDO EXPRESAMENTE. (ID_188_2.PDF, pág. 65, Anexo I, 5)\n- Seguridad del personal: Obligación de proveer equipos de protección individual y cumplir normativa de prevención de riesgos laborales. (ID_188_3.PDF, pág. 23-24, 6)\n- Borrado seguro: Obligatorio al cierre del contrato, con certificado. (ID_188_3.PDF, pág. 9, Fase II Operación)\n- Confidencialidad: Obligación durante y después del contrato. (ID_188_3.PDF, pág. 53, 15)\n\n# 11. Consecuencias contractuales expresamente asociadas al incumplimiento\n- Penalizaciones económicas del 5% o 10% del precio del contrato por incumplimientos graves o muy graves, incluyendo destrucción, pérdida o alteración de datos, indisponibilidad del servicio, incumplimiento de órdenes, etc. (ID_188_2.PDF, pág. 76-77, Anexo I, 30)\n- Resolución del contrato por reiteración de incumplimientos muy graves. (ID_188_2.PDF, pág. 78, Anexo I, 31)\n- Incumplimiento de confidencialidad: Derecho del Ayuntamiento a ejercer acciones legales. (ID_188_3.PDF, pág. 53, 15)\n\n# 12. Datos no localizados o ambiguos, sin recomendaciones\n- No consta exigencia de certificación ENS ni ISO 27001.\n- No consta exigencia de DPO/DPD para el adjudicatario.\n- No consta exigencia de RTO/RPO ni plan de continuidad específico.\n- No consta exigencia de SIEM/SOC dedicado.\n- No consta exigencia de MFA, RBAC, PAM, VPN, bastionado, EDR/XDR, WAF, DLP, backups gestionados por el adjudicatario, ni SBOM.\n- No consta exigencia de SAST, DAST, SCA, OWASP, CI/CD, ni SDLC formalizado.\n- No consta exigencia de EIPD (Evaluación de Impacto de Protección de Datos).\n- No consta exigencia de acuerdos de subencargado de tratamiento.\n\n# 13. Documentos revisados: enumera todos los documentos del índice, uno por uno\n1. ID_188_1.PDF (Documento licitación real)\n2. ID_188_2.PDF (Documento licitación real)\n3. ID_188_3.PDF (Pliego de Prescripciones Técnicas)\n4. poc (Documento enlazado, detalle licitación)\n5. poc (Documento enlazado, perfil contratante)\n6. poc (Documento enlazado, perfil contratante)\n7. 147409-2026 (Documento enlazado, sin texto extraíble; pendiente de lectura/OCR)\n8. perfilContratante (Documento enlazado)\n\n# Tabla de trazabilidad\n| Requisito/dato | Tipo | Valor/condición | Documento | Página/apartado | Estado de lectura |\n|---|---|---|---|---|---|\n| Cumplimiento ENS | Obligación contractual | Nivel BÁSICO, medidas Anexo II ENS | ID_188_3.PDF | 45-46, 11.1 | Leído |\n| Certificación ENS/ISO 27001 | NO EXIGIDO EXPRESAMENTE | No se exige | ID_188_2.PDF | 65, Anexo I, 5 | Leído |\n| Análisis de riesgos ENS | Obligación contractual | Al inicio de los trabajos | ID_188_3.PDF | 46, 11.3 | Leído |\n| Configuración segura (CCN-STIC) | Obligación contractual | Durante ejecución | ID_188_3.PDF | 46-47, 11.4 | Leído |\n| Desarrollo seguro | Obligación contractual | Buenas prácticas verificables | ID_188_3.PDF | 47, 11.5 | Leído |\n| Cifrado información no pública | Obligación contractual | Cuando se transmita por redes ajenas | ID_188_3.PDF | 47, 11.6 | Leído |\n| Identificación y autenticación | Obligación contractual | Delegación en sistemas corporativos | ID_188_3.PDF | 47, 11.7 | Leído |\n| Control de acceso | Obligación contractual | Mínimo privilegio, necesidad de conocer | ID_188_3.PDF | 48, 11.10 | Leído |\n| Logging y registros de actividad | Obligación contractual | Registro y entrega a requerimiento | ID_188_3.PDF | 49, 11.12 | Leído |\n| Actualizaciones de seguridad | Obligación contractual | Periódica y continuada | ID_188_3.PDF | 49, 11.13 | Leído |\n| Gestión de incidentes | Obligación contractual | Notificación inmediata | ID_188_3.PDF | 49, 11.14 | Leído |\n| Subsanación de vulnerabilidades | Obligación contractual | A requerimiento | ID_188_3.PDF | 49, 11.15 | Leído |\n| Auditorías de seguridad | Obligación contractual | A requerimiento | ID_188_3.PDF | 49, 11.16 | Leído |\n| Borrado seguro y certificado | Obligación contractual | Al cierre del contrato | ID_188_3.PDF | 9, Fase II Operación | Leído |\n| Confidencialidad | Obligación contractual | Durante y después del contrato | ID_188_3.PDF | 53, 15 | Leído |\n| Subcontratación | Permitida con condiciones | Prohibida en tareas críticas | ID_188_2.PDF | 75-76, Anexo I, 25-26 | Leído |\n| Cloud pública | Permitida con condiciones | Solo Azure, AWS, GCP; EEE | ID_188_3.PDF | 29-30, 7 | Leído |\n| Localización de datos | Obligación contractual | Regiones del EEE | ID_188_3.PDF | 30, 7; 33 | Leído |\n| Transferencias internacionales | Prohibidas fuera del EEE | Obligación contractual | ID_188_3.PDF | 30, 7; 33 | Leído |\n| Penalizaciones por incumplimiento | Consecuencia contractual | 5% o 10% del precio del contrato | ID_188_2.PDF | 76-77, Anexo I, 30 | Leído |\n| Resolución por incumplimiento | Consecuencia contractual | Reiteración de muy graves | ID_188_2.PDF | 78, Anexo I, 31 | Leído |\n| DPO/DPD | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n| RTO/RPO | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n| SIEM/SOC | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n| MFA, RBAC, PAM, VPN, bastionado, EDR/XDR, WAF, DLP, SBOM | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n| SAST, DAST, SCA, OWASP, CI/CD, SDLC formalizado | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n| EIPD | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n\n# Discrepancias y pendientes de aclaración\n- Documento 7 (147409-2026) pendiente de lectura/OCR. No se ha podido verificar si contiene requisitos adicionales o contradictorios.\n- No se han identificado discrepancias internas en los documentos revisados.\n- No se han localizado requisitos de seguridad, ENS, DPO, RGPD, medidas técnicas o consecuencias contractuales fuera de los recogidos en este informe."
+      },
+      "registro_procesamiento": {
+        "origen": "registro_local_de_esta_extraccion",
+        "modo": "prompt_unico_documentos_completos",
+        "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+        "documentos": [
+          {
+            "numero": 1,
+            "nombre": "ID_188_1.PDF",
+            "tipo": "Documento licitacion real",
+            "fuente": "Carpeta licitacion real",
+            "caracteres_extraidos": 14915,
+            "caracteres_enviados_al_agente": 14915,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 2,
+            "nombre": "ID_188_2.PDF",
+            "tipo": "Documento licitacion real",
+            "fuente": "Carpeta licitacion real",
+            "caracteres_extraidos": 224684,
+            "caracteres_enviados_al_agente": 224684,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 3,
+            "nombre": "ID_188_3.PDF",
+            "tipo": "Documento licitacion real",
+            "fuente": "Carpeta licitacion real",
+            "caracteres_extraidos": 186976,
+            "caracteres_enviados_al_agente": 186976,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 4,
+            "nombre": "poc",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 5923,
+            "caracteres_enviados_al_agente": 5923,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 5,
+            "nombre": "poc",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 2659,
+            "caracteres_enviados_al_agente": 2659,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 6,
+            "nombre": "poc",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 3127,
+            "caracteres_enviados_al_agente": 3127,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 7,
+            "nombre": "147409-2026",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 0,
+            "caracteres_enviados_al_agente": 0,
+            "texto_compactado": false,
+            "error": "Sin texto extraible; documento pendiente de lectura/OCR"
+          },
+          {
+            "numero": 8,
+            "nombre": "perfilContratante",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_2.PDF",
+            "caracteres_extraidos": 2690,
+            "caracteres_enviados_al_agente": 2690,
+            "texto_compactado": false,
+            "error": ""
+          }
+        ],
+        "avisos": [
+          "Documento no leido: 147409-2026: Sin texto extraible; documento pendiente de lectura/OCR",
+          "Se omitieron 22 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+        ]
+      }
+    },
+    {
+      "orden": 8,
+      "id": "A10",
+      "nombre": "Compras, proveedores y colaboradores",
+      "tipo": "extraccion",
+      "ejecucion": "0e52cfcb86724bd8838298d4c69496f4",
+      "estado": "completado",
+      "contenido": {
+        "salida_original": "# 1. Resumen factual\n\nEl contrato tiene por objeto el diseño, desarrollo, puesta en servicio, mantenimiento y evolución tecnológica de un Asistente Virtual para el portal Decide Madrid, en modalidad SaaS. El adjudicatario es responsable de la gestión y operación de todos los elementos de la solución ofertada, salvo los elementos básicos de la infraestructura MultiCloud corporativa (Google Cloud Platform, Microsoft Azure y Amazon AWS), que serán puestos a disposición por el Ayuntamiento. El adjudicatario debe aportar todas las licencias, software, servicios, medios técnicos y materiales necesarios para la ejecución del contrato, incluyendo soporte y garantía del fabricante. Se permite la subcontratación con límites y condiciones, y se exige la declaración de la parte subcontratada y los subcontratistas. No se exigen fabricantes nominales, partnerships, cartas de canal ni certificaciones de fabricante. No se describen cadenas de suministro específicas ni se establecen SLA back-to-back con terceros. El adjudicatario debe garantizar la retirada y destrucción segura de datos al finalizar el contrato.\n\n# 2. Mapa de suministros y terceros\n\n| Elemento/necesidad                                   | Tipo                | Cantidad/volumen         | Especificación                                                                 | Quién debe aportarlo      | Fuente                                      |\n|-----------------------------------------------------|---------------------|--------------------------|-------------------------------------------------------------------------------|--------------------------|---------------------------------------------|\n| Asistente virtual BOT conversacional                | SaaS/Software       | 1                        | IA generativa y tradicional, integración portal Decide Madrid                  | Adjudicatario            | ID_188_3.PDF, p.1, 5.2                      |\n| Panel de control del asistente                      | SaaS/Software       | 1                        | Accesible en la nube, mínimo 5 usuarios DGPC, funcionalidades descritas        | Adjudicatario            | ID_188_3.PDF, p.14-15                       |\n| Licencias software y servicios para la solución      | Licencias/Software  | Todas necesarias         | Incluye soporte y garantía del fabricante, coste incluido en oferta            | Adjudicatario            | ID_188_3.PDF, p.14, 43                      |\n| Infraestructura MultiCloud (GCP, Azure, AWS)         | Infraestructura     | Según necesidad          | Tenant, landing zone y servicios comunes de seguridad, identidad y redes       | Ayuntamiento             | ID_188_3.PDF, p.29, 42                      |\n| Equipos/materiales para personal adjudicatario      | Hardware/Material   | Suficiente para servicio | Para ejecución de actividades, adquisición, reposición, mantenimiento a cargo  | Adjudicatario            | ID_188_3.PDF, p.23                          |\n| Servicio de primer nivel de atención                | Personal/Servicio   | 1 agente mínimo          | Horario laborables 11:00-14:00, cobertura de ausencias                        | Adjudicatario            | ID_188_3.PDF, p.16                          |\n| Bolsa de horas de evolución tecnológica             | Servicio            | 600 horas (mínimo)       | Consultoría avanzada, ampliable por mejora                                    | Adjudicatario            | ID_188_3.PDF, p.17                          |\n| Formación a personal DGPC                           | Servicio            | 20 horas mínimo          | Formación inicial y de actualización                                          | Adjudicatario            | ID_188_3.PDF, p.17                          |\n| Retirada y destrucción segura de datos              | Servicio            | Al cierre del contrato   | Certificado de destrucción, afecta a todos los sistemas de la solución         | Adjudicatario            | ID_188_3.PDF, p.9                           |\n\n# 3. Productos, hardware y materiales\n\n| Producto/Material                        | Cantidad | Características/Especificación                  | Fabricante/Referencia | Equivalente permitido | Garantía/Soporte | Stock/Plazo | Fuente                |\n|------------------------------------------|----------|------------------------------------------------|----------------------|----------------------|------------------|------------|----------------------|\n| Equipos/materiales para personal         | Suficiente| Para ejecución de actividades, a cargo del adjudicatario | NO CONSTA           | NO CONSTA             | NO CONSTA        | NO CONSTA   | ID_188_3.PDF, p.23   |\n\n# 4. Software, SaaS y licencias\n\n| Producto/Servicio                       | Fabricante         | Métrica/Cantidad         | Entornos         | Duración         | Quién lo aporta   | Fuente                |\n|-----------------------------------------|--------------------|-------------------------|------------------|------------------|-------------------|----------------------|\n| Asistente virtual SaaS                  | NO CONSTA          | 1                       | Producción       | Vigencia contrato| Adjudicatario     | ID_188_3.PDF, p.1, 5.2|\n| Panel de control SaaS                   | NO CONSTA          | 1, 5 usuarios DGPC      | Nube             | Vigencia contrato| Adjudicatario     | ID_188_3.PDF, p.14-15 |\n| Licencias software y servicios asociados| NO CONSTA          | Todas necesarias        | NO CONSTA        | Vigencia contrato| Adjudicatario     | ID_188_3.PDF, p.14, 43|\n\n# 5. Fabricantes, canal y cartas\n\n| Fabricante | Requisito | Nivel/certificación/carta exigida | Momento | Fuente                |\n|------------|-----------|-----------------------------------|---------|----------------------|\n| NO CONSTA  | NO CONSTA | NO CONSTA                         | NO CONSTA| NO CONSTA            |\n\n# 6. Subcontratación, UTE y medios externos\n\n| Regla                                                                 | Límite/condición                                                                 | Declaración/autorización                | Fuente                |\n|-----------------------------------------------------------------------|----------------------------------------------------------------------------------|-----------------------------------------|----------------------|\n| Subcontratación permitida                                             | No pueden subcontratarse tareas críticas (fase implantación y Jefe/a de Proyecto) | Declarar parte, importe y subcontratista| ID_188_2.PDF, p.75-76|\n| UTE permitida                                                         | Debe cumplir requisitos de LCSP y comprometerse a duración coincidente con contrato| Compromiso de constitución en oferta    | ID_188_2.PDF, p.19   |\n| Medios externos para solvencia permitidos                             | Debe acreditarse compromiso y responsabilidad solidaria                           | Compromiso según Anexo VII              | ID_188_2.PDF, p.92-93|\n\n# 7. Cadena de suministro y dependencias contractuales descritas\n\nNo se describe una cadena de suministro específica ni se establecen obligaciones contractuales sobre la misma, más allá de la obligación del adjudicatario de aportar todos los medios, licencias y servicios necesarios para la ejecución del contrato. No se establecen requisitos de trazabilidad, homologación, sostenibilidad o condiciones de reposición/stock.\n\n# 8. SLA de proveedor/fabricante, garantías y soporte exigidos\n\n- El adjudicatario debe aportar soporte y garantía del fabricante para todo el software y licencias necesarios para la solución (ID_188_3.PDF, p.14).\n- No se establecen SLA back-to-back con terceros ni se exigen garantías específicas de fabricante, NBD, 4h, onsite, EOL/EOS, ni condiciones de stock.\n- El plazo de garantía del servicio es de 12 meses desde la recepción (ID_188_2.PDF, p.55).\n\n# 9. Logística, staging, stock, entrega, retirada y destrucción\n\n- El adjudicatario es responsable de la adquisición, reposición, mantenimiento y reparación de los medios técnicos y materiales necesarios (ID_188_3.PDF, p.23).\n- No se establecen requisitos de stock mínimo ni de staging.\n- La retirada y destrucción segura de datos al finalizar el contrato es obligatoria, con certificado de destrucción (ID_188_3.PDF, p.9).\n- No se establecen condiciones de logística, almacenamiento o transporte específicas.\n\n# 10. Ambigüedades y datos no localizados\n\n- No se identifican fabricantes, referencias, equivalencias ni requisitos de canal o partnership obligatorios.\n- No se exige carta de fabricante, partner, ni certificación de canal.\n- No se describen condiciones de stock, lead time, EOL/EOS, homologaciones, ni sostenibilidad de la cadena de suministro.\n- No se establecen SLA de terceros ni condiciones back-to-back.\n- No se localizan requisitos de staging, logística, almacenamiento, ni retirada de hardware.\n- No se exige declaración de sostenibilidad ni condiciones medioambientales específicas para la cadena de suministro.\n- No se exige ISO, ENS ni otras certificaciones de fabricante o proveedor.\n- No se exige declaración de canal autorizado ni nivel de partnership.\n\n# 11. Documentos revisados\n\n1. ID_188_1.PDF\n2. ID_188_2.PDF\n3. ID_188_3.PDF\n4. poc (detalle licitación)\n5. poc (perfil contratante)\n6. poc (perfil contratante)\n7. 147409-2026 (Sin texto extraíble; pendiente de lectura/OCR)\n8. perfilContratante\n\n# Tabla de trazabilidad\n\n| Requisito/dato                                         | Tipo                  | Valor/condición                                                                 | Documento      | Página/apartado         | Estado de lectura                |\n|-------------------------------------------------------|-----------------------|--------------------------------------------------------------------------------|---------------|-------------------------|----------------------------------|\n| Asistente virtual SaaS                                | Producto/servicio     | IA generativa y tradicional, integración portal Decide Madrid                   | ID_188_3.PDF  | p.1, 5.2                | Leído                            |\n| Panel de control SaaS                                 | Producto/servicio     | Accesible en la nube, mínimo 5 usuarios DGPC                                    | ID_188_3.PDF  | p.14-15                 | Leído                            |\n| Licencias software y servicios asociados              | Licencias/servicio    | Todas necesarias, soporte y garantía fabricante, coste incluido                 | ID_188_3.PDF  | p.14, 43                | Leído                            |\n| Infraestructura MultiCloud (GCP, Azure, AWS)          | Infraestructura       | Tenant, landing zone y servicios comunes, a cargo del Ayuntamiento              | ID_188_3.PDF  | p.29, 42                | Leído                            |\n| Equipos/materiales para personal adjudicatario        | Hardware/material     | Suficiente para servicio, adquisición/reposición/mantenimiento a cargo          | ID_188_3.PDF  | p.23                    | Leído                            |\n| Servicio de primer nivel de atención                  | Personal/servicio     | 1 agente mínimo, horario laborables 11:00-14:00                                 | ID_188_3.PDF  | p.16                    | Leído                            |\n| Bolsa de horas de evolución tecnológica               | Servicio              | 600 horas mínimo, ampliable por mejora                                          | ID_188_3.PDF  | p.17                    | Leído                            |\n| Formación a personal DGPC                             | Servicio              | 20 horas mínimo, formación inicial y actualización                              | ID_188_3.PDF  | p.17                    | Leído                            |\n| Retirada y destrucción segura de datos                | Servicio              | Certificado de destrucción, afecta a todos los sistemas de la solución          | ID_188_3.PDF  | p.9                     | Leído                            |\n| Subcontratación permitida                             | Regla                 | No tareas críticas (implantación, Jefe/a de Proyecto), declarar parte e importe | ID_188_2.PDF  | p.75-76                 | Leído                            |\n| UTE permitida                                         | Regla                 | Compromiso de constitución, duración coincidente con contrato                   | ID_188_2.PDF  | p.19                    | Leído                            |\n| Medios externos para solvencia permitidos             | Regla                 | Compromiso y responsabilidad solidaria                                          | ID_188_2.PDF  | p.92-93                 | Leído                            |\n| SLA de soporte y garantía fabricante                  | SLA/garantía          | Obligación de soporte y garantía fabricante para software y licencias            | ID_188_3.PDF  | p.14                    | Leído                            |\n| Plazo de garantía del servicio                        | Garantía              | 12 meses desde la recepción                                                     | ID_188_2.PDF  | p.55                    | Leído                            |\n| Fabricantes, referencias, equivalencias, canal        | Requisito             | NO CONSTA EN LA DOCUMENTACION REVISADA                                         | NO CONSTA     | NO CONSTA               | NO CONSTA                         |\n| SLA de terceros/back-to-back                          | SLA                   | NO CONSTA EN LA DOCUMENTACION REVISADA                                         | NO CONSTA     | NO CONSTA               | NO CONSTA                         |\n| Stock, lead time, EOL/EOS, homologaciones            | Requisito             | NO CONSTA EN LA DOCUMENTACION REVISADA                                         | NO CONSTA     | NO CONSTA               | NO CONSTA                         |\n| Sostenibilidad cadena de suministro                   | Requisito             | NO CONSTA EN LA DOCUMENTACION REVISADA                                         | NO CONSTA     | NO CONSTA               | NO CONSTA                         |\n| ISO/ENS/certificaciones de fabricante                 | Requisito             | NO CONSTA EN LA DOCUMENTACION REVISADA                                         | NO CONSTA     | NO CONSTA               | NO CONSTA                         |\n| Declaración de canal autorizado/partner               | Requisito             | NO CONSTA EN LA DOCUMENTACION REVISADA                                         | NO CONSTA     | NO CONSTA               | NO CONSTA                         |\n\n# 12. Requisitos obligatorios del documento IA - Fuentes para proyecto viabilidad\n\n| Parámetro                        | Subcampos pedidos                                                                 | Estado del pliego                  | Dato/literal localizado                                                                 | Documento      | Apartado/página         |\n|----------------------------------|----------------------------------------------------------------------------------|------------------------------------|----------------------------------------------------------------------------------------|---------------|------------------------|\n| Volumen anual de negocios        | Umbral, ámbito, mejor ejercicio, ventana, moneda, medio de acreditación           | ENCONTRADO EN EL PLIEGO            | 181.595,44 € (mejor ejercicio 2023-2025), declaración responsable                      | ID_188_2.PDF  | p.63                    |\n| Patrimonio neto/ratios           | Ejercicio, activos, pasivos, fórmula, resultado, umbral, medio de acreditación     | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA                                                                             | NO CONSTA     | NO CONSTA               |\n| Seguro RC/riesgos profesionales  | Importe, actividad, asegurador, inicio, fin, vigencia, cobertura, renovación       | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA                                                                             | NO CONSTA     | NO CONSTA               |\n| Certificados de buena ejecución  | Objeto, similitud/CPV, importe, fechas, duración, destinatario, prueba admisible   | ENCONTRADO EN EL PLIEGO            | Trabajos de igual/similar naturaleza, 3 últimos años, importe ≥ presupuesto sin IVA     | ID_188_2.PDF  | p.64                    |\n| ISO/ENS                          | Norma, versión/nivel, alcance, entidad, caducidad, momento, equivalencias         | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA                                                                             | NO CONSTA     | NO CONSTA               |\n| Fabricantes/partnerships         | Fabricante, nivel, especialización, cartas, expiración, momento de acreditación    | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA                                                                             | NO CONSTA     | NO CONSTA               |\n| Perfiles                         | Puesto, cantidad, titulación, experiencia, sector, certificaciones, dedicación     | ENCONTRADO EN EL PLIEGO            | Detallados por perfil, titulación, experiencia, funciones, sustitución                  | ID_188_3.PDF  | p.25-27                 |\n| ROLECE/clasificación             | Exigencia/alternativa, grupo, subgrupo, categoría, vigencia, inscripción, momento  | ENCONTRADO EN EL PLIEGO            | No exigida clasificación, puede acreditarse solvencia por inscripción en ROLECE         | ID_188_2.PDF  | p.63                    |\n\n# Discrepancias y pendientes de aclaración\n\n- No se han identificado discrepancias en la documentación revisada.\n- El documento 147409-2026 está pendiente de lectura/OCR, por lo que no se ha podido verificar si contiene requisitos adicionales o diferentes.\n- No se localizan requisitos de fabricantes, canal, partnership, cartas, equivalencias, stock, lead time, EOL/EOS, homologaciones, sostenibilidad, SLA de terceros, ni condiciones de logística o retirada de hardware."
+      },
+      "registro_procesamiento": {
+        "origen": "registro_local_de_esta_extraccion",
+        "modo": "prompt_unico_documentos_completos",
+        "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+        "documentos": [
+          {
+            "numero": 1,
+            "nombre": "ID_188_1.PDF",
+            "tipo": "Documento licitacion real",
+            "fuente": "Carpeta licitacion real",
+            "caracteres_extraidos": 14915,
+            "caracteres_enviados_al_agente": 14915,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 2,
+            "nombre": "ID_188_2.PDF",
+            "tipo": "Documento licitacion real",
+            "fuente": "Carpeta licitacion real",
+            "caracteres_extraidos": 224684,
+            "caracteres_enviados_al_agente": 224684,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 3,
+            "nombre": "ID_188_3.PDF",
+            "tipo": "Documento licitacion real",
+            "fuente": "Carpeta licitacion real",
+            "caracteres_extraidos": 186976,
+            "caracteres_enviados_al_agente": 186976,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 4,
+            "nombre": "poc",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 5923,
+            "caracteres_enviados_al_agente": 5923,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 5,
+            "nombre": "poc",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 2659,
+            "caracteres_enviados_al_agente": 2659,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 6,
+            "nombre": "poc",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 3127,
+            "caracteres_enviados_al_agente": 3127,
+            "texto_compactado": false,
+            "error": ""
+          },
+          {
+            "numero": 7,
+            "nombre": "147409-2026",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_1.PDF",
+            "caracteres_extraidos": 0,
+            "caracteres_enviados_al_agente": 0,
+            "texto_compactado": false,
+            "error": "Sin texto extraible; documento pendiente de lectura/OCR"
+          },
+          {
+            "numero": 8,
+            "nombre": "perfilContratante",
+            "tipo": "Documento enlazado",
+            "fuente": "ID_188_2.PDF",
+            "caracteres_extraidos": 2690,
+            "caracteres_enviados_al_agente": 2690,
+            "texto_compactado": false,
+            "error": ""
+          }
+        ],
+        "avisos": [
+          "Documento no leido: 147409-2026: Sin texto extraible; documento pendiente de lectura/OCR",
+          "Se omitieron 22 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+        ]
+      }
+    }
+  ]
+}

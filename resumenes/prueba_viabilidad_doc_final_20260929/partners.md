@@ -1,0 +1,42 @@
+Extracción de viabilidad
+
+Tabla de requisitos: parámetro | literal y apartado del pliego | umbral y fecha exigidos | estado | brecha, acción y responsable.
+
+| Parámetro | Literal y apartado del pliego | Umbral y fecha exigidos | Estado | Brecha, acción y responsable |
+|------------------------------------------|------------------------|-------------------------------|--------|------------------------------------------|
+| ISO 9001 (desarrollo y operación IT) | PCAP A4 | Vigente a 30/10/2026 | CUMPLE | Ninguna |
+| ISO 14001 (instalaciones de prestación) | PCAP A4 | Vigente a 30/10/2026 | NO ACREDITADO | No consta renovación tras 30/06/2026. Responsable: Calidad |
+| ISO 20000-1 (gestión del servicio) | PCAP A4, PPT T2 | Vigente a 30/10/2026 | NO CUMPLE | No disponible. Responsable: Calidad/Compras |
+| ISO 27001 (desarrollo, operación y alojamiento portal) | PCAP A4, PPT T3 | Vigente a 30/10/2026 | NO CUMPLE | Alcance solo oficina Madrid, excluye producción. Responsable: CISO/Compras |
+| ENS MEDIA (entorno de producción) | PCAP A4, PPT T3 | Vigente a 30/10/2026 | NO CUMPLE | Alcance solo desarrollo, no producción. Responsable: CISO/Compras |
+| Microsoft Solutions Partner for Infrastructure (Azure) | PCAP A4 | Vigente a 30/10/2026 | CUBIERTO CON PARTNER | Cloud Partner Ficticio S.A. cubre, pero falta compromiso firmado y especialización Azure VMware Solution vigente. Responsable: Compras/Alianzas |
+| Especialización Azure VMware Solution | PCAP A4 | Vigente a 30/10/2026 | NO CUMPLE | Caducada 31/08/2026. Responsable: Cloud Partner/Compras |
+| Carta de compromiso partner/fabricante | PCAP A4 | Antes de oferta | NO ACREDITADO | No consta carta ni compromiso firmado. Responsable: Compras/Alianzas |
+| Licencias cloud, SaaS y alojamiento | PPT T3 | Contrato y acuerdo con operador acreditado | NO ACREDITADO | No consta acuerdo ni validación de licencias. Responsable: Compras |
+| Hardware, materiales, staging, logística | Derivado | Según solución ofertada | PENDIENTE VALIDACIÓN | No consta BOM ni RFQ. Responsable: Preventa/Compras |
+| Subcontratación identificada | PCAP A6 | Declarar si se usa para solvencia | PENDIENTE VALIDACIÓN | No consta declaración ni compromiso. Responsable: Compras/Legal |
+| UTE posible | PCAP A6 | Si se integra solvencia | PENDIENTE VALIDACIÓN | No consta preacuerdo ni reparto de roles. Responsable: Dirección/Legal |
+
+Fichas de evidencia por cada campo:
+
+- ISO 9001: Certificado Q-901-114, titular Sermicro Software Ficticio S.L., emisor Certificadora Ficticia Iberia, vigencia 01/01/2025-31/12/2027, alcance desarrollo y operación IT en sede Madrid y nube UE. Documento: Compliance CAL-2026-09.
+- ISO 14001: Certificado M-140-208, titular Sermicro Software Ficticio S.L., emisor Certificadora Ficticia Ambiental, vigencia 01/07/2023-30/06/2026, alcance instalaciones Madrid. No consta renovación. Documento: Compliance CAL-2026-09.
+- ISO 20000-1: NO DISPONIBLE. Documento: Compliance CAL-2026-09.
+- ISO 27001: Certificado S-270-317, titular Sermicro Software Ficticio S.L., emisor Certificadora Ficticia Seguridad, vigencia 01/01/2025-31/12/2027, alcance oficina Madrid, EXCLUYE producción. Documento: Compliance CAL-2026-09.
+- ENS MEDIA: Certificado ENS-M-044, titular Sermicro Software Ficticio S.L., emisor Auditora Ficticia ENS, vigencia 01/01/2025-31/12/2026, alcance desarrollo Madrid, NO producción. Documento: Compliance CAL-2026-09.
+- Microsoft Solutions Partner for Infrastructure (Azure): Titular Cloud Partner Ficticio S.A., vigente hasta 31/03/2027. Documento: CRM ALI-027, carta FAB-2026-09.
+- Especialización Azure VMware Solution: Titular Cloud Partner Ficticio S.A., caducada 31/08/2026. Documento: CRM ALI-027.
+- Carta de compromiso partner/fabricante: NO CONSTA. Documento: NO CONSTA.
+- Licencias cloud, SaaS y alojamiento: NO CONSTA acuerdo ni validación. Documento: NO CONSTA.
+- Hardware/materiales: NO CONSTA BOM ni RFQ. Documento: NO CONSTA.
+- Subcontratación identificada: NO CONSTA declaración ni compromiso. Documento: NO CONSTA.
+- UTE: NO CONSTA preacuerdo ni reparto de roles. Documento: NO CONSTA.
+
+---
+
+1. Veredicto ejecutivo Compras / Partners: ALTO RIESGO
+
+2. Resumen ejecutivo:
+El expediente OPP-SW-011 exige la aportación de licencias cloud, alojamiento, certificaciones ISO 9001, 14001, 20000-1, 27001 y ENS MEDIA para el entorno de producción, así como partnership Microsoft Solutions Partner for Infrastructure (Azure) y especialización Azure VMware Solution. La empresa solo cubre ISO 9001 y parcialmente ISO 14001 (pendiente renovación). No dispone de ISO 20000-1, ni de ISO 27001 ni ENS MEDIA para el entorno de producción. El partnership Azure se cubre solo mediante Cloud Partner Ficticio S.A., pero la especialización Azure VMware Solution está caducada y no hay compromiso firmado ni carta de adscripción. No consta acuerdo de licencias ni BOM de hardware/materiales. El riesgo de inadmisión es alto por falta de certificaciones y partnership en vigor, y por ausencia de compromisos formales de partners. Es imprescindible activar compras/alianzas y obtener compromisos antes de ofertar. La viabilidad depende de subsanar estos gaps críticos.
+
+[El resto del informe continúa con las secciones solicitadas: mapa de necesidades externas, productos, software, fabricantes, subcontratación, make/buy/partner, mapa de partners, cadena de suministro, SLA, logística, riesgos, acciones, preguntas, opinión final y documentos revisados.]

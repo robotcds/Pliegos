@@ -1,0 +1,545 @@
+{
+  "orden": 8,
+  "id": "A10",
+  "nombre": "Compras, proveedores y colaboradores",
+  "tipo": "extraccion",
+  "ejecucion": "15db9438657c4c0c9d0db098f9c151d6",
+  "estado": "completado",
+  "contenido": {
+    "salida_original": "# Registro documental de preventa\n\n| Materia | Requisito completo | Fuente |\n|---|---|---|\n| Compras y suministros | El adjudicatario debe proporcionar todas las suscripciones necesarias para el acceso a la solución SaaS y sus módulos funcionales durante toda la vigencia del contrato, incluyendo acceso web seguro, módulos de simulación de incendios e inundaciones, mínimo 15 usuarios nominativos ampliables, perfiles diferenciados, alojamiento, almacenamiento, capacidad de proceso, copias de seguridad, comunicaciones y demás recursos cloud necesarios, actualizaciones, acceso a fuentes de información meteorológica y geoespacial, y documentación de usuario y técnica. | ANEXO I 2026 03393 .pdf, pág. 3-4 |\n| Compras y suministros | El alcance comprende el suministro y operación integral de la solución, incluyendo todos los componentes técnicos, servicios, accesos a fuentes de datos, parametrizaciones, asistencia y documentación necesarios para su utilización efectiva. | ANEXO I 2026 03393 .pdf, pág. 4 |\n| Compras y suministros | La oferta debe identificar expresamente cualquier elemento necesario que no se encuentre incluido en la suscripción, sin que puedan trasladarse costes no previstos durante la ejecución. | ANEXO I 2026 03393 .pdf, pág. 4 |\n| Compras y suministros | El adjudicatario debe garantizar la continuidad, calidad y correcto funcionamiento del servicio durante toda la vigencia contractual, incluyendo soporte, mantenimiento, atención de incidencias técnicas y funcionales, consultas de uso, problemas de datos y solicitudes de configuración. | ANEXO I 2026 03393 .pdf, pág. 16 |\n| Compras y suministros | El adjudicatario debe aportar servicios de asistencia técnica especializada, combinando conocimientos de meteorología, climatología, sistemas de información geográfica, datos, arquitectura cloud, seguridad y desarrollo de software. | ANEXO I 2026 03393 .pdf, pág. 15 |\n| Compras y suministros | El adjudicatario debe entregar y mantener actualizada la documentación necesaria para la correcta operación, control y evolución del servicio, incluyendo plan de proyecto, documentación de configuración, resultados de pruebas, acta de despliegue, plan de soporte, informes mensuales, estimaciones y documentación de cada actuación aprobada, y plan de devolución/exportación de datos y certificado de supresión cuando proceda. | ANEXO I 2026 03393 .pdf, pág. 22 |\n| Compras y suministros | El adjudicatario debe desarrollar un programa de formación inicial de al menos dos jornadas en modalidad remota o equivalente, y aportar documentación y materiales actualizados durante la vigencia del contrato. | ANEXO I 2026 03393 .pdf, pág. 20-21 |\n| Software, SaaS y licencias | El adjudicatario debe proporcionar la solución en modalidad SaaS, incluyendo las licencias y suscripciones necesarias para el uso por los perfiles autorizados de RENFE-Operadora, sin limitación por licencias técnicas internas, número de capas, volumen de consultas o ejecuciones ordinarias. | ANEXO I 2026 03393 .pdf, pág. 3-4 |\n| Software, SaaS y licencias | La solución debe incluir acceso a la aplicación de inteligencia meteorológica y visualización geoespacial, módulo de simulación de incendios forestales, módulo de simulación de inundaciones, y acceso a fuentes de información meteorológica y geoespacial incluidas en la solución. | ANEXO I 2026 03393 .pdf, pág. 4 |\n| Software, SaaS y licencias | El adjudicatario debe garantizar la actualización, nuevas versiones, correcciones y parches aplicables al servicio sin pérdida de información ni de configuraciones. | ANEXO I 2026 03393 .pdf, pág. 4 |\n| Software, SaaS y licencias | El adjudicatario debe garantizar la disponibilidad de la solución, la corrección de defectos, el funcionamiento de las integraciones incluidas, la actualización de datos y la conservación de configuraciones durante toda la vigencia del contrato. | ANEXO I 2026 03393 .pdf, pág. 21 |\n| Software, SaaS y licencias | El adjudicatario debe aportar las licencias de software necesarias para la prestación del servicio, incluidas las relativas a cualquier herramienta necesaria para garantizar la seguridad integral del servicio, salvo acuerdo contrario formalmente autorizado por Grupo Renfe. | ANEXO I 2026 03393 .pdf, pág. 34 |\n| Fabricantes y referencias | No se exige fabricante nominal ni marca concreta para la solución SaaS, módulos o componentes, pero se establecen requisitos funcionales, técnicos y de integración, así como la obligación de compatibilidad con estándares y mecanismos de integración con el ecosistema tecnológico de RENFE-Operadora. | ANEXO I 2026 03393 .pdf, pág. 14-15 |\n| Fabricantes y referencias | Los productos de seguridad deben ser comerciales para las áreas de defensa perimetral, protección IDS/IPS, antimalware, WAF, CASB, DLP, CWPP, proxys de navegación y entrada, protección de correo, y segundo factor de autenticación para servicios expuestos a Internet. El adjudicatario debe alinearse con las marcas actualmente en explotación en la infraestructura de Renfe o argumentar técnicamente la idoneidad de soluciones alternativas. | ANEXO I 2026 03393 .pdf, pág. 34-35 |\n| Fabricantes y referencias | El adjudicatario debe mantener los equipos actualizados a la última versión de software disponible por el fabricante, según un proceso o política de actualización elaborada por el adjudicatario, y no debe estar próxima la fecha de finalización del soporte del software instalado. | ANEXO I 2026 03393 .pdf, pág. 33 |\n| Fabricantes y referencias | El adjudicatario debe proporcionar para cada equipo un informe individual obtenido de la herramienta CLARA del CCN para determinar el cumplimiento con las características de seguridad técnicas definidas en el ENS para una categorización del sistema con nivel MEDIO de un 65% o superior. | ANEXO I 2026 03393 .pdf, pág. 33 |\n| Fabricantes y referencias | Los sistemas de información que den soporte a los servicios objeto de la licitación deben estar certificados en el ENS nivel MEDIO; si no cumplen, el adjudicatario se compromete a obtener la certificación en los primeros 10 meses de prestación del servicio, o en 12 meses si dispone de certificación ISO 27001 o similar. | ANEXO I 2026 03393 .pdf, pág. 28 |\n| Fabricantes y referencias | El adjudicatario debe garantizar que los productos con elementos digitales incluidos en el alcance del servicio cumplen con el Reglamento Europeo de Ciberresiliencia (CRA), incluyendo gestión de vulnerabilidades, notificación de incidentes y medidas técnicas y organizativas mínimas. | ANEXO I 2026 03393 .pdf, pág. 28-29 |\n| Fabricantes y referencias | El adjudicatario debe mantener un inventario actualizado de la totalidad de equipos, incluyendo dirección IP, nombre, MAC, software instalado, modelo, versión de sistema operativo, marca, modelo y versión de antimalware. | ANEXO I 2026 03393 .pdf, pág. 33 |\n| Fabricantes y referencias | El adjudicatario debe realizar la remediación de infecciones en los equipos y mantener actualizaciones de un producto antimalware. | ANEXO I 2026 03393 .pdf, pág. 33 |\n| Fabricantes y referencias | El adjudicatario debe cumplir con las recomendaciones de seguridad del CCN para bases de datos (BP/24, BP/23, BP/22) según la tecnología utilizada. | ANEXO I 2026 03393 .pdf, pág. 30 |\n| Certificaciones y autorizaciones | El adjudicatario debe acreditar estar en posesión de la certificación ISO 27001 o equivalente y certificación del Esquema Nacional de Seguridad (ENS) o compromiso de disponer de ella antes del inicio del servicio. | PCP 2026 03993.pdf, pág. 20 |\n| Certificaciones y autorizaciones | La solución ofertada debe estar certificada en el ENS Medio, o el adjudicatario debe comprometerse a obtener la certificación en los plazos indicados. | ANEXO I 2026 03393 .pdf, pág. 28 |\n| Certificaciones y autorizaciones | El adjudicatario debe proporcionar un informe individual del equipo con el detalle obtenido de la herramienta CLARA del CCN para determinar el cumplimiento con las características de seguridad técnicas definidas en el ENS para una categorización del sistema con nivel MEDIO de un 65% o superior. | ANEXO I 2026 03393 .pdf, pág. 33 |\n| Certificaciones y autorizaciones | El adjudicatario debe firmar un Acuerdo de Confidencialidad con el Grupo Renfe y cumplir los procedimientos de seguridad establecidos para los adjudicatarios. | ANEXO I 2026 03393 .pdf, pág. 23 |\n| Certificaciones y autorizaciones | El adjudicatario debe completar el cuestionario de evaluación de seguridad de la cadena de suministro dentro de los 30 días posteriores al envío por parte de la Gerencia de Área de Ciberseguridad y Privacidad y actualizarlo una vez al año. | ANEXO I 2026 03393 .pdf, pág. 28 |\n| Subcontratación, UTE y medios externos | Se permite la subcontratación, debiendo el adjudicatario informar al Grupo Renfe de la subcontratación de parte del servicio y cumplir los requisitos de seguridad y LOPDGDD en relación con la parte del contrato en que intervenga. | ANEXO I 2026 03393 .pdf, pág. 26 |\n| Subcontratación, UTE y medios externos | En caso de presentación en forma de Agrupación de Empresas, éstas solo serán admitidas si presentan un compromiso de que, caso de resultar adjudicatarias, se constituirán en UTE, obligándose solidariamente frente a RENFE-Operadora y nombrando un representante o apoderado único. | PCP 2026 03993.pdf, pág. 5-6 |\n| Subcontratación, UTE y medios externos | El adjudicatario debe informar al Grupo Renfe de la subcontratación de parte del servicio, debiendo cumplir los requisitos correspondientes de seguridad y protección de datos. | ANEXO I 2026 03393 .pdf, pág. 26 |\n| Subcontratación, UTE y medios externos | El adjudicatario debe garantizar que, si recurre a otro encargado del tratamiento de datos, se impondrán a este las mismas obligaciones de protección de datos que las estipuladas en el contrato con RENFE, y seguirá siendo plenamente responsable ante RENFE por el cumplimiento de las obligaciones del otro encargado. | PCP 2026 03993.pdf, pág. 27 |\n| Subcontratación, UTE y medios externos | El adjudicatario debe identificar los diferentes colectivos que harán uso de los activos de la información objeto del alcance, incluyendo personal subcontratado o de la cadena de suministro. | ANEXO I 2026 03393 .pdf, pág. 32 |\n| Cadena de suministro | El adjudicatario debe completar el cuestionario de evaluación de seguridad de la cadena de suministro como parte de la verificación periódica destinada a asegurar la conformidad con los estándares mínimos de seguridad, dentro de los 30 días posteriores al envío y actualizado anualmente. | ANEXO I 2026 03393 .pdf, pág. 28 |\n| Cadena de suministro | El adjudicatario debe informar al Grupo Renfe de la subcontratación de parte del servicio y cumplir los requisitos correspondientes de seguridad y protección de datos en relación con la parte del contrato en que intervenga. | ANEXO I 2026 03393 .pdf, pág. 26 |\n| Cadena de suministro | El adjudicatario debe mantener un inventario actualizado de la totalidad de equipos y activos, incluyendo información relevante para la operación, administración y gestión de incidentes, supervisión y auditoría. | ANEXO I 2026 03393 .pdf, pág. 26 |\n| Plazos de suministro, stock y logística | La versión estándar del servicio debe quedar disponible desde el inicio de la prestación; la configuración, personalización, carga de datos corporativos, integración de la red ferroviaria y puesta en marcha completa se realizará en un plazo máximo de tres meses desde que RENFE-Operadora facilite la información y accesos necesarios. | ANEXO I 2026 03393 .pdf, pág. 21 |\n| Plazos de suministro, stock y logística | El adjudicatario debe entregar un plan de devolución, exportación de datos, entrega documental y certificado de supresión cuando proceda al finalizar el contrato. | ANEXO I 2026 03393 .pdf, pág. 22 |\n| Garantías y soporte fabricante | Se establece una garantía técnica durante toda la vigencia de la prestación, cubriendo disponibilidad de la solución, corrección de defectos, funcionamiento de integraciones, actualización de datos y conservación de configuraciones, sin consumo de la bolsa de horas cuando la actuación derive de un incumplimiento o defecto del servicio. | ANEXO I 2026 03393 .pdf, pág. 21 |\n| Garantías y soporte fabricante | El adjudicatario debe mantener los equipos actualizados a la última versión de software disponible por el fabricante y no debe estar próxima la fecha de finalización del soporte del software instalado. | ANEXO I 2026 03393 .pdf, pág. 33 |\n| Garantías y soporte fabricante | El adjudicatario debe realizar la remediación de infecciones en los equipos y mantener actualizaciones de un producto antimalware. | ANEXO I 2026 03393 .pdf, pág. 33 |\n| Garantías y soporte fabricante | El adjudicatario debe garantizar la no obsolescencia de la tecnología, controles o procesos involucrados en la prestación del servicio, llevando a cabo procesos de renovación y actualización de los sistemas y procesos según se determine necesario por Grupo Renfe. | ANEXO I 2026 03393 .pdf, pág. 35 |\n| Garantías y soporte fabricante | El adjudicatario debe contar con un proceso formal de gestión de vulnerabilidades y parcheado de elementos, plataformas e infraestructuras involucrados en la prestación del servicio, garantizando la correcta configuración y actualización de los mismos. | ANEXO I 2026 03393 .pdf, pág. 35 |\n| Garantías y soporte fabricante | El adjudicatario debe resolver las vulnerabilidades detectadas en los escaneos en los plazos establecidos en las políticas del Grupo Renfe, de acuerdo con su criticidad. | ANEXO I 2026 03393 .pdf, pág. 35 |\n| Garantías y soporte fabricante | El adjudicatario debe custodiar una copia de los registros de acceso y uso de los activos de información por el periodo de retención que el Grupo Renfe especifique para cada fuente. | ANEXO I 2026 03393 .pdf, pág. 36 |\n| Garantías y soporte fabricante | El adjudicatario debe monitorizar la infraestructura para detectar incidencias e incidentes en la plataforma en formato 24x7. | ANEXO I 2026 03393 .pdf, pág. 36 |\n| Garantías y soporte fabricante | El adjudicatario debe comunicar a la Gerencia de Área de Ciberseguridad del Grupo Renfe los incidentes de seguridad categorizados con un Nivel de Impacto Medio, Alto, Muy Alto y Críticos. | ANEXO I 2026 03393 .pdf, pág. 36 |\n| Garantías y soporte fabricante | El adjudicatario debe colaborar en las actividades que el CERT de Grupo Renfe solicite para la correcta valoración, remediación, documentación y notificación del incidente. | ANEXO I 2026 03393 .pdf, pág. 37 |\n| Garantías y soporte fabricante | El adjudicatario debe evitar la destrucción de pruebas tanto como consecuencia de acciones internas o externas, intencionadas o no, especialmente en la fase inicial (triage) bajo su responsabilidad y en las tareas de recuperación. | ANEXO I 2026 03393 .pdf, pág. 37 |\n| Garantías y soporte fabricante | El adjudicatario debe entregar al Grupo Renfe un certificado de destrucción segura de la información propiedad de Renfe cuando proceda. | ANEXO I 2026 03393 .pdf, pág. 29 |\n| Garantías y soporte fabricante | El adjudicatario debe aportar las certificaciones oportunas de destrucción segura de la información propiedad de Renfe para cada borrado/destrucción realizado, incluyendo fecha, personal encargado, procedimiento y detalle. | ANEXO I 2026 03393 .pdf, pág. 29 |\n| SLA de terceros y back-to-back | Los tiempos concretos de respuesta, restauración y resolución se recogerán en el acuerdo de nivel de servicio aprobado para el contrato; la clasificación final de una incidencia podrá ajustarse de común acuerdo en función de su impacto real. | ANEXO I 2026 03393 .pdf, pág. 16 |\n| SLA de terceros y back-to-back | El adjudicatario debe garantizar que, si subcontrata parte del servicio, el subcontratista cumplirá totalmente con las obligaciones existentes entre el Grupo Renfe y el adjudicatario, incluidas las obligaciones contraídas a favor de las diferentes autoridades de control. | ANEXO I 2026 03393 .pdf, pág. 26 |\n| SLA de terceros y back-to-back | El adjudicatario debe garantizar la prestación de garantías suficientes de aplicación de medidas técnicas y organizativas apropiadas de manera que el tratamiento de datos por subcontratistas sea conforme con la legislación vigente. | PCP 2026 03993.pdf, pág. 27 |\n| SLA de terceros y back-to-back | El adjudicatario debe garantizar la continuidad del servicio, incluyendo mecanismos de respaldo, restauración, pruebas, planes de contingencia, crisis, continuidad de negocio y salida programada y sobrevenida. | ANEXO I 2026 03393 .pdf, pág. 38-39 |\n| SLA de terceros y back-to-back | El adjudicatario debe facilitar el proceso de devolución de la información de Renfe inherente a un cese o rescisión del contrato y aportar las certificaciones oportunas de destrucción segura de la información propiedad de Renfe. | ANEXO I 2026 03393 .pdf, pág. 29, 39 |\n| Discrepancias y pendientes de aclaración | No se han identificado discrepancias en la documentación revisada. |  |",
+    "registro_completo_estructura": true,
+    "requisitos_documentales": [
+      {
+        "id": "R0001",
+        "seccion": "Compras y suministros",
+        "detalle": "El adjudicatario debe proporcionar todas las suscripciones necesarias para el acceso a la solución SaaS y sus módulos funcionales durante toda la vigencia del contrato, incluyendo acceso web seguro, módulos de simulación de incendios e inundaciones, mínimo 15 usuarios nominativos ampliables, perfiles diferenciados, alojamiento, almacenamiento, capacidad de proceso, copias de seguridad, comunicaciones y demás recursos cloud necesarios, actualizaciones, acceso a fuentes de información meteorológica y geoespacial, y documentación de usuario y técnica.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 3-4",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0002",
+        "seccion": "Compras y suministros",
+        "detalle": "El alcance comprende el suministro y operación integral de la solución, incluyendo todos los componentes técnicos, servicios, accesos a fuentes de datos, parametrizaciones, asistencia y documentación necesarios para su utilización efectiva.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 4",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0003",
+        "seccion": "Compras y suministros",
+        "detalle": "La oferta debe identificar expresamente cualquier elemento necesario que no se encuentre incluido en la suscripción, sin que puedan trasladarse costes no previstos durante la ejecución.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 4",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0004",
+        "seccion": "Compras y suministros",
+        "detalle": "El adjudicatario debe garantizar la continuidad, calidad y correcto funcionamiento del servicio durante toda la vigencia contractual, incluyendo soporte, mantenimiento, atención de incidencias técnicas y funcionales, consultas de uso, problemas de datos y solicitudes de configuración.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 16",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0005",
+        "seccion": "Compras y suministros",
+        "detalle": "El adjudicatario debe aportar servicios de asistencia técnica especializada, combinando conocimientos de meteorología, climatología, sistemas de información geográfica, datos, arquitectura cloud, seguridad y desarrollo de software.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 15",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0006",
+        "seccion": "Compras y suministros",
+        "detalle": "El adjudicatario debe entregar y mantener actualizada la documentación necesaria para la correcta operación, control y evolución del servicio, incluyendo plan de proyecto, documentación de configuración, resultados de pruebas, acta de despliegue, plan de soporte, informes mensuales, estimaciones y documentación de cada actuación aprobada, y plan de devolución/exportación de datos y certificado de supresión cuando proceda.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 22",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0007",
+        "seccion": "Compras y suministros",
+        "detalle": "El adjudicatario debe desarrollar un programa de formación inicial de al menos dos jornadas en modalidad remota o equivalente, y aportar documentación y materiales actualizados durante la vigencia del contrato.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 20-21",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0008",
+        "seccion": "Software, SaaS y licencias",
+        "detalle": "El adjudicatario debe proporcionar la solución en modalidad SaaS, incluyendo las licencias y suscripciones necesarias para el uso por los perfiles autorizados de RENFE-Operadora, sin limitación por licencias técnicas internas, número de capas, volumen de consultas o ejecuciones ordinarias.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 3-4",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0009",
+        "seccion": "Software, SaaS y licencias",
+        "detalle": "La solución debe incluir acceso a la aplicación de inteligencia meteorológica y visualización geoespacial, módulo de simulación de incendios forestales, módulo de simulación de inundaciones, y acceso a fuentes de información meteorológica y geoespacial incluidas en la solución.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 4",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0010",
+        "seccion": "Software, SaaS y licencias",
+        "detalle": "El adjudicatario debe garantizar la actualización, nuevas versiones, correcciones y parches aplicables al servicio sin pérdida de información ni de configuraciones.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 4",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0011",
+        "seccion": "Software, SaaS y licencias",
+        "detalle": "El adjudicatario debe garantizar la disponibilidad de la solución, la corrección de defectos, el funcionamiento de las integraciones incluidas, la actualización de datos y la conservación de configuraciones durante toda la vigencia del contrato.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 21",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0012",
+        "seccion": "Software, SaaS y licencias",
+        "detalle": "El adjudicatario debe aportar las licencias de software necesarias para la prestación del servicio, incluidas las relativas a cualquier herramienta necesaria para garantizar la seguridad integral del servicio, salvo acuerdo contrario formalmente autorizado por Grupo Renfe.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 34",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0013",
+        "seccion": "Fabricantes y referencias",
+        "detalle": "No se exige fabricante nominal ni marca concreta para la solución SaaS, módulos o componentes, pero se establecen requisitos funcionales, técnicos y de integración, así como la obligación de compatibilidad con estándares y mecanismos de integración con el ecosistema tecnológico de RENFE-Operadora.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 14-15",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0014",
+        "seccion": "Fabricantes y referencias",
+        "detalle": "Los productos de seguridad deben ser comerciales para las áreas de defensa perimetral, protección IDS/IPS, antimalware, WAF, CASB, DLP, CWPP, proxys de navegación y entrada, protección de correo, y segundo factor de autenticación para servicios expuestos a Internet. El adjudicatario debe alinearse con las marcas actualmente en explotación en la infraestructura de Renfe o argumentar técnicamente la idoneidad de soluciones alternativas.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 34-35",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0015",
+        "seccion": "Fabricantes y referencias",
+        "detalle": "El adjudicatario debe mantener los equipos actualizados a la última versión de software disponible por el fabricante, según un proceso o política de actualización elaborada por el adjudicatario, y no debe estar próxima la fecha de finalización del soporte del software instalado.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 33",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0016",
+        "seccion": "Fabricantes y referencias",
+        "detalle": "El adjudicatario debe proporcionar para cada equipo un informe individual obtenido de la herramienta CLARA del CCN para determinar el cumplimiento con las características de seguridad técnicas definidas en el ENS para una categorización del sistema con nivel MEDIO de un 65% o superior.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 33",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0017",
+        "seccion": "Fabricantes y referencias",
+        "detalle": "Los sistemas de información que den soporte a los servicios objeto de la licitación deben estar certificados en el ENS nivel MEDIO; si no cumplen, el adjudicatario se compromete a obtener la certificación en los primeros 10 meses de prestación del servicio, o en 12 meses si dispone de certificación ISO 27001 o similar.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 28",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0018",
+        "seccion": "Fabricantes y referencias",
+        "detalle": "El adjudicatario debe garantizar que los productos con elementos digitales incluidos en el alcance del servicio cumplen con el Reglamento Europeo de Ciberresiliencia (CRA), incluyendo gestión de vulnerabilidades, notificación de incidentes y medidas técnicas y organizativas mínimas.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 28-29",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0019",
+        "seccion": "Fabricantes y referencias",
+        "detalle": "El adjudicatario debe mantener un inventario actualizado de la totalidad de equipos, incluyendo dirección IP, nombre, MAC, software instalado, modelo, versión de sistema operativo, marca, modelo y versión de antimalware.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 33",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0020",
+        "seccion": "Fabricantes y referencias",
+        "detalle": "El adjudicatario debe realizar la remediación de infecciones en los equipos y mantener actualizaciones de un producto antimalware.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 33",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0021",
+        "seccion": "Fabricantes y referencias",
+        "detalle": "El adjudicatario debe cumplir con las recomendaciones de seguridad del CCN para bases de datos (BP/24, BP/23, BP/22) según la tecnología utilizada.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 30",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0022",
+        "seccion": "Certificaciones y autorizaciones",
+        "detalle": "El adjudicatario debe acreditar estar en posesión de la certificación ISO 27001 o equivalente y certificación del Esquema Nacional de Seguridad (ENS) o compromiso de disponer de ella antes del inicio del servicio.",
+        "fuente": "PCP 2026 03993.pdf, pág. 20",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0023",
+        "seccion": "Certificaciones y autorizaciones",
+        "detalle": "La solución ofertada debe estar certificada en el ENS Medio, o el adjudicatario debe comprometerse a obtener la certificación en los plazos indicados.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 28",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0024",
+        "seccion": "Certificaciones y autorizaciones",
+        "detalle": "El adjudicatario debe proporcionar un informe individual del equipo con el detalle obtenido de la herramienta CLARA del CCN para determinar el cumplimiento con las características de seguridad técnicas definidas en el ENS para una categorización del sistema con nivel MEDIO de un 65% o superior.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 33",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0025",
+        "seccion": "Certificaciones y autorizaciones",
+        "detalle": "El adjudicatario debe firmar un Acuerdo de Confidencialidad con el Grupo Renfe y cumplir los procedimientos de seguridad establecidos para los adjudicatarios.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 23",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0026",
+        "seccion": "Certificaciones y autorizaciones",
+        "detalle": "El adjudicatario debe completar el cuestionario de evaluación de seguridad de la cadena de suministro dentro de los 30 días posteriores al envío por parte de la Gerencia de Área de Ciberseguridad y Privacidad y actualizarlo una vez al año.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 28",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0027",
+        "seccion": "Subcontratación, UTE y medios externos",
+        "detalle": "Se permite la subcontratación, debiendo el adjudicatario informar al Grupo Renfe de la subcontratación de parte del servicio y cumplir los requisitos de seguridad y LOPDGDD en relación con la parte del contrato en que intervenga.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 26",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0028",
+        "seccion": "Subcontratación, UTE y medios externos",
+        "detalle": "En caso de presentación en forma de Agrupación de Empresas, éstas solo serán admitidas si presentan un compromiso de que, caso de resultar adjudicatarias, se constituirán en UTE, obligándose solidariamente frente a RENFE-Operadora y nombrando un representante o apoderado único.",
+        "fuente": "PCP 2026 03993.pdf, pág. 5-6",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0029",
+        "seccion": "Subcontratación, UTE y medios externos",
+        "detalle": "El adjudicatario debe informar al Grupo Renfe de la subcontratación de parte del servicio, debiendo cumplir los requisitos correspondientes de seguridad y protección de datos.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 26",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0030",
+        "seccion": "Subcontratación, UTE y medios externos",
+        "detalle": "El adjudicatario debe garantizar que, si recurre a otro encargado del tratamiento de datos, se impondrán a este las mismas obligaciones de protección de datos que las estipuladas en el contrato con RENFE, y seguirá siendo plenamente responsable ante RENFE por el cumplimiento de las obligaciones del otro encargado.",
+        "fuente": "PCP 2026 03993.pdf, pág. 27",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0031",
+        "seccion": "Subcontratación, UTE y medios externos",
+        "detalle": "El adjudicatario debe identificar los diferentes colectivos que harán uso de los activos de la información objeto del alcance, incluyendo personal subcontratado o de la cadena de suministro.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 32",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0032",
+        "seccion": "Cadena de suministro",
+        "detalle": "El adjudicatario debe completar el cuestionario de evaluación de seguridad de la cadena de suministro como parte de la verificación periódica destinada a asegurar la conformidad con los estándares mínimos de seguridad, dentro de los 30 días posteriores al envío y actualizado anualmente.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 28",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0033",
+        "seccion": "Cadena de suministro",
+        "detalle": "El adjudicatario debe informar al Grupo Renfe de la subcontratación de parte del servicio y cumplir los requisitos correspondientes de seguridad y protección de datos en relación con la parte del contrato en que intervenga.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 26",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0034",
+        "seccion": "Cadena de suministro",
+        "detalle": "El adjudicatario debe mantener un inventario actualizado de la totalidad de equipos y activos, incluyendo información relevante para la operación, administración y gestión de incidentes, supervisión y auditoría.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 26",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0035",
+        "seccion": "Plazos de suministro, stock y logística",
+        "detalle": "La versión estándar del servicio debe quedar disponible desde el inicio de la prestación; la configuración, personalización, carga de datos corporativos, integración de la red ferroviaria y puesta en marcha completa se realizará en un plazo máximo de tres meses desde que RENFE-Operadora facilite la información y accesos necesarios.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 21",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0036",
+        "seccion": "Plazos de suministro, stock y logística",
+        "detalle": "El adjudicatario debe entregar un plan de devolución, exportación de datos, entrega documental y certificado de supresión cuando proceda al finalizar el contrato.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 22",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0037",
+        "seccion": "Garantías y soporte fabricante",
+        "detalle": "Se establece una garantía técnica durante toda la vigencia de la prestación, cubriendo disponibilidad de la solución, corrección de defectos, funcionamiento de integraciones, actualización de datos y conservación de configuraciones, sin consumo de la bolsa de horas cuando la actuación derive de un incumplimiento o defecto del servicio.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 21",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0038",
+        "seccion": "Garantías y soporte fabricante",
+        "detalle": "El adjudicatario debe mantener los equipos actualizados a la última versión de software disponible por el fabricante y no debe estar próxima la fecha de finalización del soporte del software instalado.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 33",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0039",
+        "seccion": "Garantías y soporte fabricante",
+        "detalle": "El adjudicatario debe realizar la remediación de infecciones en los equipos y mantener actualizaciones de un producto antimalware.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 33",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0040",
+        "seccion": "Garantías y soporte fabricante",
+        "detalle": "El adjudicatario debe garantizar la no obsolescencia de la tecnología, controles o procesos involucrados en la prestación del servicio, llevando a cabo procesos de renovación y actualización de los sistemas y procesos según se determine necesario por Grupo Renfe.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 35",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0041",
+        "seccion": "Garantías y soporte fabricante",
+        "detalle": "El adjudicatario debe contar con un proceso formal de gestión de vulnerabilidades y parcheado de elementos, plataformas e infraestructuras involucrados en la prestación del servicio, garantizando la correcta configuración y actualización de los mismos.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 35",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0042",
+        "seccion": "Garantías y soporte fabricante",
+        "detalle": "El adjudicatario debe resolver las vulnerabilidades detectadas en los escaneos en los plazos establecidos en las políticas del Grupo Renfe, de acuerdo con su criticidad.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 35",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0043",
+        "seccion": "Garantías y soporte fabricante",
+        "detalle": "El adjudicatario debe custodiar una copia de los registros de acceso y uso de los activos de información por el periodo de retención que el Grupo Renfe especifique para cada fuente.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 36",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0044",
+        "seccion": "Garantías y soporte fabricante",
+        "detalle": "El adjudicatario debe monitorizar la infraestructura para detectar incidencias e incidentes en la plataforma en formato 24x7.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 36",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0045",
+        "seccion": "Garantías y soporte fabricante",
+        "detalle": "El adjudicatario debe comunicar a la Gerencia de Área de Ciberseguridad del Grupo Renfe los incidentes de seguridad categorizados con un Nivel de Impacto Medio, Alto, Muy Alto y Críticos.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 36",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0046",
+        "seccion": "Garantías y soporte fabricante",
+        "detalle": "El adjudicatario debe colaborar en las actividades que el CERT de Grupo Renfe solicite para la correcta valoración, remediación, documentación y notificación del incidente.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 37",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0047",
+        "seccion": "Garantías y soporte fabricante",
+        "detalle": "El adjudicatario debe evitar la destrucción de pruebas tanto como consecuencia de acciones internas o externas, intencionadas o no, especialmente en la fase inicial (triage) bajo su responsabilidad y en las tareas de recuperación.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 37",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0048",
+        "seccion": "Garantías y soporte fabricante",
+        "detalle": "El adjudicatario debe entregar al Grupo Renfe un certificado de destrucción segura de la información propiedad de Renfe cuando proceda.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 29",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0049",
+        "seccion": "Garantías y soporte fabricante",
+        "detalle": "El adjudicatario debe aportar las certificaciones oportunas de destrucción segura de la información propiedad de Renfe para cada borrado/destrucción realizado, incluyendo fecha, personal encargado, procedimiento y detalle.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 29",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0050",
+        "seccion": "SLA de terceros y back-to-back",
+        "detalle": "Los tiempos concretos de respuesta, restauración y resolución se recogerán en el acuerdo de nivel de servicio aprobado para el contrato; la clasificación final de una incidencia podrá ajustarse de común acuerdo en función de su impacto real.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 16",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0051",
+        "seccion": "SLA de terceros y back-to-back",
+        "detalle": "El adjudicatario debe garantizar que, si subcontrata parte del servicio, el subcontratista cumplirá totalmente con las obligaciones existentes entre el Grupo Renfe y el adjudicatario, incluidas las obligaciones contraídas a favor de las diferentes autoridades de control.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 26",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0052",
+        "seccion": "SLA de terceros y back-to-back",
+        "detalle": "El adjudicatario debe garantizar la prestación de garantías suficientes de aplicación de medidas técnicas y organizativas apropiadas de manera que el tratamiento de datos por subcontratistas sea conforme con la legislación vigente.",
+        "fuente": "PCP 2026 03993.pdf, pág. 27",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0053",
+        "seccion": "SLA de terceros y back-to-back",
+        "detalle": "El adjudicatario debe garantizar la continuidad del servicio, incluyendo mecanismos de respaldo, restauración, pruebas, planes de contingencia, crisis, continuidad de negocio y salida programada y sobrevenida.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 38-39",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0054",
+        "seccion": "SLA de terceros y back-to-back",
+        "detalle": "El adjudicatario debe facilitar el proceso de devolución de la información de Renfe inherente a un cese o rescisión del contrato y aportar las certificaciones oportunas de destrucción segura de la información propiedad de Renfe.",
+        "fuente": "ANEXO I 2026 03393 .pdf, pág. 29, 39",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0055",
+        "seccion": "Discrepancias y pendientes de aclaración",
+        "detalle": "No se han identificado discrepancias en la documentación revisada.",
+        "fuente": "Declaración no contrastada del extractor; no acredita ausencia de contradicciones en los pliegos.",
+        "origen": "extraccion_agente",
+        "es_requisito_contractual": false,
+        "agente_responsable": "A10"
+      }
+    ]
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "PCP 2026 03993.pdf",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 112180,
+        "caracteres_enviados_al_agente": 112180,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "ANEXO I 2026 03393 .pdf",
+        "tipo": "Pliego tecnico",
+        "fuente": "XML",
+        "caracteres_extraidos": 104433,
+        "caracteres_enviados_al_agente": 104433,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "ANEXO III 2026 03993.pdf",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 2064,
+        "caracteres_enviados_al_agente": 2064,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 4,
+        "nombre": "ANEXO II 2026 03993.pdf",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 7591,
+        "caracteres_enviados_al_agente": 7591,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 5,
+        "nombre": "ANEXO IV 2026 03993.pdf",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 4657,
+        "caracteres_enviados_al_agente": 4657,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 6,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "PCP 2026 03993.pdf",
+        "caracteres_extraidos": 2659,
+        "caracteres_enviados_al_agente": 2659,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 7,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "PCP 2026 03993.pdf",
+        "caracteres_extraidos": 3160,
+        "caracteres_enviados_al_agente": 3160,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 8,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "poc",
+        "caracteres_extraidos": 3160,
+        "caracteres_enviados_al_agente": 3160,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Se omitieron 6 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  }
+}

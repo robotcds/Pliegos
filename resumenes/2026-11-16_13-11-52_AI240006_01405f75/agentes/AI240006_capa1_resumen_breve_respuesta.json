@@ -1,0 +1,96 @@
+{
+  "orden": 1,
+  "id": "A1",
+  "nombre": "Resumen breve",
+  "tipo": "referencia",
+  "ejecucion": "01405f75c7024f049be1c88fc0e0f227",
+  "estado": "completado",
+  "contenido": {
+    "resumen": [
+      "Expediente: AI240006. Órgano: Consejo de Administración-Comité de Inversiones de la Sociedad Estatal Correos y Telégrafos S.A. (Fuente: XML, Detalle_Licitacion)",
+      "Objeto: Contratación del servicio de Administración Workplace. (Fuente: XML, Detalle_Licitacion)",
+      "Presupuesto base: 1.420.000 € sin IVA; valor estimado: 2.591.500 € (Fuente: Detalle_Licitacion)",
+      "Duración: 24 meses. (Fuente: XML)",
+      "Plazo de presentación de ofertas: NO CONSTA EN LA DOCUMENTACION REVISADA. Documentos principales no legibles; información parcial."
+    ],
+    "secciones": [
+      {
+        "titulo": "Contenido inicial",
+        "parrafos": [],
+        "elementos": [
+          "Expediente: AI240006. Órgano: Consejo de Administración-Comité de Inversiones de la Sociedad Estatal Correos y Telégrafos S.A. (Fuente: XML, Detalle_Licitacion)",
+          "Objeto: Contratación del servicio de Administración Workplace. (Fuente: XML, Detalle_Licitacion)",
+          "Presupuesto base: 1.420.000 € sin IVA; valor estimado: 2.591.500 € (Fuente: Detalle_Licitacion)",
+          "Duración: 24 meses. (Fuente: XML)",
+          "Plazo de presentación de ofertas: NO CONSTA EN LA DOCUMENTACION REVISADA. Documentos principales no legibles; información parcial."
+        ],
+        "tablas": []
+      }
+    ],
+    "pendientes_y_no_localizados": [],
+    "trazabilidad": [],
+    "salida_original": "• Expediente: AI240006. Órgano: Consejo de Administración-Comité de Inversiones de la Sociedad Estatal Correos y Telégrafos S.A. (Fuente: XML, Detalle_Licitacion)\n• Objeto: Contratación del servicio de Administración Workplace. (Fuente: XML, Detalle_Licitacion)\n• Presupuesto base: 1.420.000 € sin IVA; valor estimado: 2.591.500 € (Fuente: Detalle_Licitacion)\n• Duración: 24 meses. (Fuente: XML)\n• Plazo de presentación de ofertas: NO CONSTA EN LA DOCUMENTACION REVISADA. Documentos principales no legibles; información parcial."
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 118,
+        "caracteres_enviados_al_agente": 118,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Pliegodefinitivofirmado.pdf",
+        "tipo": "Pliego tecnico",
+        "fuente": "XML",
+        "caracteres_extraidos": 118,
+        "caracteres_enviados_al_agente": 118,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "Detalle_Licitacion",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 5053,
+        "caracteres_enviados_al_agente": 5053,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": []
+  },
+  "puntos_revision": [
+    {
+      "id": "REV-001",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Equipo, medios y ejecución del servicio",
+      "prioridad": "media",
+      "detalle": "Revisar equipo, medios y ejecución del servicio: 1 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-001.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Plazo de presentación de ofertas: NO CONSTA EN LA DOCUMENTACION REVISADA. Documentos principales no legibles; información parcial.",
+          "evidencia": "• Plazo de presentación de ofertas: NO CONSTA EN LA DOCUMENTACION REVISADA. Documentos principales no legibles; información parcial.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    }
+  ],
+  "recomendaciones": [],
+  "estado_recomendaciones": "no_generadas"
+}

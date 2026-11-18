@@ -1,0 +1,71 @@
+{
+  "tenant": "sermicro-dev",
+  "agent": "API COIIM",
+  "integration": "TEST_ASYNC_SIMPLE",
+  "integrationId": "a01aac92-01d1-40b9-8959-1937189f4d4c",
+  "botId": "8805a55b-9947-47b5-d511-08de9ea71a4f",
+  "invocationId": "bc9e5288-b855-4d44-92c6-b39dfbdcb15a",
+  "diagnosticCorrelationId": "0cff316e-5eb3-4965-b512-d3496d00dae4",
+  "recorded_at_utc": "2026-10-28T12:16:13.118714+00:00",
+  "sync": {
+    "http_status": 200,
+    "started_at_utc": "2026-10-28T12:08:26.486+00:00",
+    "seconds": 0.751074,
+    "expected_response": {
+      "status": "success",
+      "message": "PRUEBA_ASYNC_OK",
+      "test": "TEST_ASYNC_SIMPLE"
+    }
+  },
+  "async_start": {
+    "http_status": 200,
+    "started_at_utc": "2026-10-28T12:08:27.243+00:00",
+    "seconds": 0.193762
+  },
+  "observation": {
+    "seconds": 120,
+    "polls": 12,
+    "all_http_status": 404,
+    "additional_get_after_audit_evidence": {
+      "utc": "2026-10-28T12:14:35.551+00:00",
+      "http_status": 404,
+      "seconds": 0.224382
+    },
+    "post_count": 2,
+    "async_post_count": 1,
+    "get_count": 13
+  },
+  "audit_evidence": "Extractos aportados por el usuario: misma correlacion, RequestParams asyncResponse=true y ResponseBody correcto; tambien hay control false correcto. RequestHeaders omitidos.",
+  "hypotheses": [
+    {
+      "status": "CONFIRMADA",
+      "claim": "El Custom Code asincrono se ejecuta y genera el objeto ResponseBody esperado.",
+      "evidence": "connector_audit_aportado_usuario.json; misma correlacion que HTTP."
+    },
+    {
+      "status": "CONFIRMADA",
+      "claim": "El resultado no es recuperable en los GET observados para el ID devuelto.",
+      "evidence": "12 GET en 120 s y otro GET despues de recibir los logs, todos 404."
+    },
+    {
+      "status": "DESCARTADA",
+      "claim": "GPT, carga documental o tokens son necesarios para reproducir este 404.",
+      "scope": "Solo esta prueba aislada no usa GPT, REST ni documentos."
+    },
+    {
+      "status": "DESCARTADA",
+      "claim": "La integracion asincrona no llega a ejecutar el Custom Code en este ensayo.",
+      "evidence": "Salida del Connector Audit Log con asyncResponse=true y ResponseBody correcto, aportada por el usuario."
+    },
+    {
+      "status": "DESCARTADA",
+      "claim": "ResponseBody esta vacio o se ha escrito con otro nombre en esta prueba.",
+      "evidence": "El objeto correcto aparece en la entidad de salida del log."
+    },
+    {
+      "status": "PENDIENTE DE VERIFICACIÓN",
+      "claim": "Persistencia, asociacion invocationId, particion tenant/bot, routing de GET o retencion del resultado.",
+      "evidence": "Necesita trazas internas de DRUID; no se distingue la causa exacta desde los registros disponibles."
+    }
+  ]
+}

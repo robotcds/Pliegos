@@ -1,0 +1,458 @@
+{
+  "orden": 4,
+  "id": "A4",
+  "nombre": "Criterios de adjudicación",
+  "tipo": "extraccion",
+  "estado": "completado",
+  "contenido": {
+    "resumen": [
+      "RESUMEN FACTUAL DE CRITERIOS DE ADJUDICACIÓN",
+      "MAPA COMPLETO DE CRITERIOS DE ADJUDICACIÓN",
+      "DISTRIBUCIÓN OBJETIVA DE LA PUNTUACIÓN POR BLOQUES",
+      "Oferta económica: 48 puntos (48%)",
+      "Mejora experiencia equipo: 20 puntos (20%)",
+      "Mejora formación (certificados): 12 puntos (12%)",
+      "Mejora cobertura horaria: 20 puntos (20%)",
+      "Total: 100 puntos",
+      "CRITERIOS AUTOMÁTICOS Y FÓRMULAS",
+      "Oferta económica:",
+      "Ci: Puntuación de la oferta i",
+      "Oi: Precio ofertado por el licitador i (IVA excluido)"
+    ],
+    "secciones": [
+      {
+        "titulo": "Contenido inicial",
+        "parrafos": [
+          "La licitación se adjudica por mejor relación calidad-precio, con criterios evaluables exclusivamente mediante fórmulas (100% de la puntuación), sin criterios sujetos a juicio de valor. Los criterios y subcriterios, sus puntos, fórmulas y reglas de valoración están definidos en el PCAP y Anexo 6. No se establecen umbrales mínimos de puntuación para criterios cualitativos, ya que no existen criterios de juicio de valor. La distribución de puntos es: 48% precio y 52% criterios técnicos automáticos (mejoras de experiencia, formación y cobertura horaria). No hay lotes.",
+          "Fuente: PCAP.pdf p.18-21, Anexo 6",
+          "Fórmula: Ci = 48 * [1 - (Oi - Omin)/(Omax - Omin)]",
+          "Donde:",
+          "Regla: Máxima puntuación a la oferta más baja, el resto proporcionalmente.",
+          "Fuente: PCAP.pdf p.19, Anexo 6",
+          "Subcriterios y fórmulas:",
+          "Fuente: PCAP.pdf p.19-20, Anexo 6",
+          "Baremo por certificación aportada, hasta 12 puntos. Ejemplo de puntuación por certificación:",
+          "Fuente: PCAP.pdf p.20, Anexo 6, PPT p.31-32",
+          "Fuente: PCAP.pdf p.21, Anexo 6",
+          "No existen criterios sujetos a juicio de valor ni subapartados asociados. Ponderación de criterios de juicio de valor: 0%. Fuente: PCAP.pdf p.18-19",
+          "TABLA DE TRAZABILIDAD",
+          "NOTA: No se han localizado criterios de adjudicación adicionales, subcriterios de juicio de valor, ni reglas de desempate específicas más allá de lo indicado en el PCAP. No se han identificado reglas de redondeo ni tramos adicionales para el precio. No se han detectado umbrales mínimos de exclusión ligados a criterios automáticos."
+        ],
+        "elementos": [
+          "RESUMEN FACTUAL DE CRITERIOS DE ADJUDICACIÓN",
+          "MAPA COMPLETO DE CRITERIOS DE ADJUDICACIÓN",
+          "DISTRIBUCIÓN OBJETIVA DE LA PUNTUACIÓN POR BLOQUES",
+          "Oferta económica: 48 puntos (48%)",
+          "Mejora experiencia equipo: 20 puntos (20%)",
+          "Mejora formación (certificados): 12 puntos (12%)",
+          "Mejora cobertura horaria: 20 puntos (20%)",
+          "Total: 100 puntos",
+          "CRITERIOS AUTOMÁTICOS Y FÓRMULAS",
+          "Oferta económica:",
+          "Ci: Puntuación de la oferta i",
+          "Oi: Precio ofertado por el licitador i (IVA excluido)",
+          "Omin: Precio más bajo ofertado (IVA excluido)",
+          "Omax: Precio más alto ofertado (IVA excluido)",
+          "Mejora experiencia equipo de trabajo (20 puntos):",
+          "Técnico sistemas administrador: 4 * (Nº meses mejora ofertado total técnicos admin / Mayor nº meses mejora ofertado total técnicos admin)",
+          "Técnico sistemas DBA: 4 * (Nº meses mejora ofertado / Mayor nº meses mejora ofertado)",
+          "Coordinador técnico: 4 * (Nº meses mejora ofertado / Mayor nº meses mejora ofertado)",
+          "Técnico soporte: 4 * (Nº meses mejora ofertado total técnicos soporte / Mayor nº meses mejora ofertado total técnicos soporte)",
+          "Técnico soporte periferia: 4 * (Nº meses mejora ofertado total técnicos soporte periferia / Mayor nº meses mejora ofertado total técnicos soporte periferia)",
+          "Mejora formación equipo (certificados) (12 puntos):",
+          "MCSA Windows Server 2019 o superior: 0,5 puntos",
+          "Microsoft Certified: Security, Compliance, and Identity Fundamentals: 0,25 puntos",
+          "ITIL Intermediate Certificate in IT Service Operation: 0,25 puntos",
+          "Citrix Virtual Apps and Desktops 7 Administration: 0,25 puntos",
+          "Vmware vSphere 6.7: 0,25 puntos",
+          "Linux LPIC-2: 0,25 puntos",
+          "CISSP o CISM: 0,25 puntos",
+          "MCSA SQL Server o MCSE Data Management: 0,5 puntos",
+          "Certificado Microsoft Power BI: 0,25 puntos",
+          "MCSA Windows 10 o similar: 0,25 puntos",
+          "Microsoft 365 Certified: Fundamentals: 0,25 puntos",
+          "Mejora cobertura horaria primera atención a usuarios (20 puntos):",
+          "24x5: 8 puntos",
+          "24x7: 20 puntos",
+          "BAREMO DE PRECIO/DESCUENTO",
+          "Fórmula: Ci = 48 * [1 - (Oi - Omin)/(Omax - Omin)]",
+          "Máximo: 48 puntos",
+          "No se establecen tramos adicionales ni reglas de redondeo específicas.",
+          "Fuente: PCAP.pdf p.19, Anexo 6",
+          "MEJORAS AUTOMÁTICAS: UNIDAD/CONDICIÓN | PUNTOS POR UNIDAD | TOPE | FÓRMULA | FUENTE",
+          "Experiencia adicional (meses) por perfil: 4 puntos por cada subperfil, máximo 20 puntos en total. Fórmulas arriba.",
+          "Certificaciones: Puntos por certificación según baremo, máximo 12 puntos. Ver detalle en sección 4.",
+          "Cobertura horaria: 24x5 = 8 puntos, 24x7 = 20 puntos. Máximo 20 puntos.",
+          "Fuente: PCAP.pdf p.19-21, Anexo 6, PPT p.31-32",
+          "CRITERIOS SUJETOS A JUICIO DE VALOR",
+          "UMBRALES MÍNIMOS O CAUSAS DE EXCLUSIÓN LIGADAS A CRITERIOS",
+          "No se establece umbral mínimo de puntuación en criterios cualitativos, ya que no existen criterios de juicio de valor. Fuente: PCAP.pdf p.21",
+          "No se identifican otras causas de exclusión ligadas a criterios de adjudicación en la documentación revisada.",
+          "DATOS NO CALCULABLES O NO LOCALIZADOS",
+          "No consta en la documentación revisada ninguna fórmula o variable no calculable para los criterios automáticos.",
+          "No se localizan reglas de redondeo específicas para la puntuación.",
+          "DOCUMENTOS REVISADOS",
+          "Anuncio.pdf (Documento licitación real)",
+          "PCAP.pdf (Pliego de Cláusulas Administrativas Particulares)",
+          "PPT.pdf (Pliego de Prescripciones Técnicas)",
+          "poc (enlace detalle licitación, texto extraído)",
+          "poc (perfil contratante, texto extraído)",
+          "poc (perfil contratante, texto extraído)"
+        ],
+        "tablas": [
+          {
+            "columnas": [
+              "Criterio",
+              "Subcriterio",
+              "Puntos",
+              "% total",
+              "Tipo",
+              "Fórmula/Regla",
+              "Umbral",
+              "Tope",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Criterio": "Oferta económica",
+                "Subcriterio": "N/A",
+                "Puntos": "48",
+                "% total": "48%",
+                "Tipo": "Automático",
+                "Fórmula/Regla": "Ci = 48 * [1 - (Oi - Omin)/(Omax - Omin)]",
+                "Umbral": "No",
+                "Tope": "48",
+                "Fuente": "PCAP.pdf p.19, Anexo 6"
+              },
+              {
+                "Criterio": "Mejora experiencia equipo de trabajo",
+                "Subcriterio": "Técnico sistemas administrador",
+                "Puntos": "4",
+                "% total": "",
+                "Tipo": "Automático",
+                "Fórmula/Regla": "4 * (Nº meses mejora ofertado total técnicos admin / Mayor nº meses mejora ofertado total técnicos admin)",
+                "Umbral": "No",
+                "Tope": "4",
+                "Fuente": "PCAP.pdf p.19-20, Anexo 6"
+              },
+              {
+                "Criterio": "",
+                "Subcriterio": "Técnico sistemas DBA",
+                "Puntos": "4",
+                "% total": "",
+                "Tipo": "Automático",
+                "Fórmula/Regla": "4 * (Nº meses mejora ofertado / Mayor nº meses mejora ofertado)",
+                "Umbral": "No",
+                "Tope": "4",
+                "Fuente": "PCAP.pdf p.19-20, Anexo 6"
+              },
+              {
+                "Criterio": "",
+                "Subcriterio": "Coordinador técnico",
+                "Puntos": "4",
+                "% total": "",
+                "Tipo": "Automático",
+                "Fórmula/Regla": "4 * (Nº meses mejora ofertado / Mayor nº meses mejora ofertado)",
+                "Umbral": "No",
+                "Tope": "4",
+                "Fuente": "PCAP.pdf p.19-20, Anexo 6"
+              },
+              {
+                "Criterio": "",
+                "Subcriterio": "Técnico soporte",
+                "Puntos": "4",
+                "% total": "",
+                "Tipo": "Automático",
+                "Fórmula/Regla": "4 * (Nº meses mejora ofertado total técnicos soporte / Mayor nº meses mejora ofertado total técnicos soporte)",
+                "Umbral": "No",
+                "Tope": "4",
+                "Fuente": "PCAP.pdf p.19-20, Anexo 6"
+              },
+              {
+                "Criterio": "",
+                "Subcriterio": "Técnico soporte periferia",
+                "Puntos": "4",
+                "% total": "",
+                "Tipo": "Automático",
+                "Fórmula/Regla": "4 * (Nº meses mejora ofertado total técnicos soporte periferia / Mayor nº meses mejora ofertado total técnicos soporte periferia)",
+                "Umbral": "No",
+                "Tope": "4",
+                "Fuente": "PCAP.pdf p.19-20, Anexo 6"
+              },
+              {
+                "Criterio": "Mejora formación equipo (certificados)",
+                "Subcriterio": "Ver tabla de certificaciones",
+                "Puntos": "12",
+                "% total": "12%",
+                "Tipo": "Automático",
+                "Fórmula/Regla": "Suma de puntos por certificaciones aportadas según baremo (ver detalle en sección 6)",
+                "Umbral": "No",
+                "Tope": "12",
+                "Fuente": "PCAP.pdf p.20, Anexo 6, PPT p.31-32"
+              },
+              {
+                "Criterio": "Mejora cobertura horaria primera atención",
+                "Subcriterio": "24x5 o 24x7",
+                "Puntos": "20",
+                "% total": "20%",
+                "Tipo": "Automático",
+                "Fórmula/Regla": "24x5 = 8 puntos; 24x7 = 20 puntos",
+                "Umbral": "No",
+                "Tope": "20",
+                "Fuente": "PCAP.pdf p.21, Anexo 6"
+              }
+            ]
+          },
+          {
+            "columnas": [
+              "Requisito/Dato",
+              "Tipo",
+              "Valor/Condición/Regla",
+              "Documento",
+              "Página/Apartado",
+              "Estado lectura"
+            ],
+            "filas": [
+              {
+                "Requisito/Dato": "Oferta económica",
+                "Tipo": "Criterio",
+                "Valor/Condición/Regla": "48 puntos, fórmula Ci = 48 * [1 - (Oi - Omin)/(Omax - Omin)]",
+                "Documento": "PCAP.pdf",
+                "Página/Apartado": "p.19, Anexo 6",
+                "Estado lectura": "Leído"
+              },
+              {
+                "Requisito/Dato": "Mejora experiencia equipo (5 subperfiles)",
+                "Tipo": "Criterio",
+                "Valor/Condición/Regla": "20 puntos, fórmulas por subperfil (ver sección 4)",
+                "Documento": "PCAP.pdf",
+                "Página/Apartado": "p.19-20, Anexo 6",
+                "Estado lectura": "Leído"
+              },
+              {
+                "Requisito/Dato": "Mejora formación (certificados)",
+                "Tipo": "Criterio",
+                "Valor/Condición/Regla": "12 puntos, baremo por certificación (ver sección 4)",
+                "Documento": "PCAP.pdf",
+                "Página/Apartado": "p.20, Anexo 6, PPT p.31-32",
+                "Estado lectura": "Leído"
+              },
+              {
+                "Requisito/Dato": "Mejora cobertura horaria",
+                "Tipo": "Criterio",
+                "Valor/Condición/Regla": "20 puntos, 24x5=8 puntos, 24x7=20 puntos",
+                "Documento": "PCAP.pdf",
+                "Página/Apartado": "p.21, Anexo 6",
+                "Estado lectura": "Leído"
+              },
+              {
+                "Requisito/Dato": "Criterios juicio de valor",
+                "Tipo": "Criterio",
+                "Valor/Condición/Regla": "No existen, 0% ponderación",
+                "Documento": "PCAP.pdf",
+                "Página/Apartado": "p.18-19",
+                "Estado lectura": "Leído"
+              },
+              {
+                "Requisito/Dato": "Umbral mínimo criterios cualitativos",
+                "Tipo": "Umbral",
+                "Valor/Condición/Regla": "No se establece (no hay criterios de juicio de valor)",
+                "Documento": "PCAP.pdf",
+                "Página/Apartado": "p.21",
+                "Estado lectura": "Leído"
+              },
+              {
+                "Requisito/Dato": "Reglas de redondeo",
+                "Tipo": "Regla",
+                "Valor/Condición/Regla": "NO CONSTA EN LA DOCUMENTACIÓN REVISADA",
+                "Documento": "N/A",
+                "Página/Apartado": "N/A",
+                "Estado lectura": "N/A"
+              },
+              {
+                "Requisito/Dato": "Penalidades por incumplimiento de criterios",
+                "Tipo": "Regla",
+                "Valor/Condición/Regla": "Hasta 5% del precio del contrato, si el incumplimiento es relevante",
+                "Documento": "PCAP.pdf",
+                "Página/Apartado": "p.56-57",
+                "Estado lectura": "Leído"
+              },
+              {
+                "Requisito/Dato": "Documentos revisados",
+                "Tipo": "Información",
+                "Valor/Condición/Regla": "Anuncio.pdf, PCAP.pdf, PPT.pdf, poc (x3)",
+                "Documento": "N/A",
+                "Página/Apartado": "N/A",
+                "Estado lectura": "Leído"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "pendientes_y_no_localizados": [],
+    "trazabilidad": [
+      {
+        "Criterio": "Oferta económica",
+        "Subcriterio": "N/A",
+        "Puntos": "48",
+        "% total": "48%",
+        "Tipo": "Automático",
+        "Fórmula/Regla": "Ci = 48 * [1 - (Oi - Omin)/(Omax - Omin)]",
+        "Umbral": "No",
+        "Tope": "48",
+        "Fuente": "PCAP.pdf p.19, Anexo 6"
+      },
+      {
+        "Criterio": "Mejora experiencia equipo de trabajo",
+        "Subcriterio": "Técnico sistemas administrador",
+        "Puntos": "4",
+        "% total": "",
+        "Tipo": "Automático",
+        "Fórmula/Regla": "4 * (Nº meses mejora ofertado total técnicos admin / Mayor nº meses mejora ofertado total técnicos admin)",
+        "Umbral": "No",
+        "Tope": "4",
+        "Fuente": "PCAP.pdf p.19-20, Anexo 6"
+      },
+      {
+        "Criterio": "",
+        "Subcriterio": "Técnico sistemas DBA",
+        "Puntos": "4",
+        "% total": "",
+        "Tipo": "Automático",
+        "Fórmula/Regla": "4 * (Nº meses mejora ofertado / Mayor nº meses mejora ofertado)",
+        "Umbral": "No",
+        "Tope": "4",
+        "Fuente": "PCAP.pdf p.19-20, Anexo 6"
+      },
+      {
+        "Criterio": "",
+        "Subcriterio": "Coordinador técnico",
+        "Puntos": "4",
+        "% total": "",
+        "Tipo": "Automático",
+        "Fórmula/Regla": "4 * (Nº meses mejora ofertado / Mayor nº meses mejora ofertado)",
+        "Umbral": "No",
+        "Tope": "4",
+        "Fuente": "PCAP.pdf p.19-20, Anexo 6"
+      },
+      {
+        "Criterio": "",
+        "Subcriterio": "Técnico soporte",
+        "Puntos": "4",
+        "% total": "",
+        "Tipo": "Automático",
+        "Fórmula/Regla": "4 * (Nº meses mejora ofertado total técnicos soporte / Mayor nº meses mejora ofertado total técnicos soporte)",
+        "Umbral": "No",
+        "Tope": "4",
+        "Fuente": "PCAP.pdf p.19-20, Anexo 6"
+      },
+      {
+        "Criterio": "",
+        "Subcriterio": "Técnico soporte periferia",
+        "Puntos": "4",
+        "% total": "",
+        "Tipo": "Automático",
+        "Fórmula/Regla": "4 * (Nº meses mejora ofertado total técnicos soporte periferia / Mayor nº meses mejora ofertado total técnicos soporte periferia)",
+        "Umbral": "No",
+        "Tope": "4",
+        "Fuente": "PCAP.pdf p.19-20, Anexo 6"
+      },
+      {
+        "Criterio": "Mejora formación equipo (certificados)",
+        "Subcriterio": "Ver tabla de certificaciones",
+        "Puntos": "12",
+        "% total": "12%",
+        "Tipo": "Automático",
+        "Fórmula/Regla": "Suma de puntos por certificaciones aportadas según baremo (ver detalle en sección 6)",
+        "Umbral": "No",
+        "Tope": "12",
+        "Fuente": "PCAP.pdf p.20, Anexo 6, PPT p.31-32"
+      },
+      {
+        "Criterio": "Mejora cobertura horaria primera atención",
+        "Subcriterio": "24x5 o 24x7",
+        "Puntos": "20",
+        "% total": "20%",
+        "Tipo": "Automático",
+        "Fórmula/Regla": "24x5 = 8 puntos; 24x7 = 20 puntos",
+        "Umbral": "No",
+        "Tope": "20",
+        "Fuente": "PCAP.pdf p.21, Anexo 6"
+      },
+      {
+        "Requisito/Dato": "Oferta económica",
+        "Tipo": "Criterio",
+        "Valor/Condición/Regla": "48 puntos, fórmula Ci = 48 * [1 - (Oi - Omin)/(Omax - Omin)]",
+        "Documento": "PCAP.pdf",
+        "Página/Apartado": "p.19, Anexo 6",
+        "Estado lectura": "Leído"
+      },
+      {
+        "Requisito/Dato": "Mejora experiencia equipo (5 subperfiles)",
+        "Tipo": "Criterio",
+        "Valor/Condición/Regla": "20 puntos, fórmulas por subperfil (ver sección 4)",
+        "Documento": "PCAP.pdf",
+        "Página/Apartado": "p.19-20, Anexo 6",
+        "Estado lectura": "Leído"
+      },
+      {
+        "Requisito/Dato": "Mejora formación (certificados)",
+        "Tipo": "Criterio",
+        "Valor/Condición/Regla": "12 puntos, baremo por certificación (ver sección 4)",
+        "Documento": "PCAP.pdf",
+        "Página/Apartado": "p.20, Anexo 6, PPT p.31-32",
+        "Estado lectura": "Leído"
+      },
+      {
+        "Requisito/Dato": "Mejora cobertura horaria",
+        "Tipo": "Criterio",
+        "Valor/Condición/Regla": "20 puntos, 24x5=8 puntos, 24x7=20 puntos",
+        "Documento": "PCAP.pdf",
+        "Página/Apartado": "p.21, Anexo 6",
+        "Estado lectura": "Leído"
+      },
+      {
+        "Requisito/Dato": "Criterios juicio de valor",
+        "Tipo": "Criterio",
+        "Valor/Condición/Regla": "No existen, 0% ponderación",
+        "Documento": "PCAP.pdf",
+        "Página/Apartado": "p.18-19",
+        "Estado lectura": "Leído"
+      },
+      {
+        "Requisito/Dato": "Umbral mínimo criterios cualitativos",
+        "Tipo": "Umbral",
+        "Valor/Condición/Regla": "No se establece (no hay criterios de juicio de valor)",
+        "Documento": "PCAP.pdf",
+        "Página/Apartado": "p.21",
+        "Estado lectura": "Leído"
+      },
+      {
+        "Requisito/Dato": "Reglas de redondeo",
+        "Tipo": "Regla",
+        "Valor/Condición/Regla": "NO CONSTA EN LA DOCUMENTACIÓN REVISADA",
+        "Documento": "N/A",
+        "Página/Apartado": "N/A",
+        "Estado lectura": "N/A"
+      },
+      {
+        "Requisito/Dato": "Penalidades por incumplimiento de criterios",
+        "Tipo": "Regla",
+        "Valor/Condición/Regla": "Hasta 5% del precio del contrato, si el incumplimiento es relevante",
+        "Documento": "PCAP.pdf",
+        "Página/Apartado": "p.56-57",
+        "Estado lectura": "Leído"
+      },
+      {
+        "Requisito/Dato": "Documentos revisados",
+        "Tipo": "Información",
+        "Valor/Condición/Regla": "Anuncio.pdf, PCAP.pdf, PPT.pdf, poc (x3)",
+        "Documento": "N/A",
+        "Página/Apartado": "N/A",
+        "Estado lectura": "Leído"
+      }
+    ],
+    "salida_original": "1. RESUMEN FACTUAL DE CRITERIOS DE ADJUDICACIÓN\n\nLa licitación se adjudica por mejor relación calidad-precio, con criterios evaluables exclusivamente mediante fórmulas (100% de la puntuación), sin criterios sujetos a juicio de valor. Los criterios y subcriterios, sus puntos, fórmulas y reglas de valoración están definidos en el PCAP y Anexo 6. No se establecen umbrales mínimos de puntuación para criterios cualitativos, ya que no existen criterios de juicio de valor. La distribución de puntos es: 48% precio y 52% criterios técnicos automáticos (mejoras de experiencia, formación y cobertura horaria). No hay lotes.\n\n2. MAPA COMPLETO DE CRITERIOS DE ADJUDICACIÓN\n\n| Criterio                                      | Subcriterio                                      | Puntos | % total | Tipo      | Fórmula/Regla                                                                                                                        | Umbral | Tope | Fuente                                 |\n|-----------------------------------------------|--------------------------------------------------|--------|---------|-----------|-------------------------------------------------------------------------------------------------------------------------------------|--------|------|----------------------------------------|\n| Oferta económica                             | N/A                                              | 48     | 48%     | Automático| Ci = 48 * [1 - (Oi - Omin)/(Omax - Omin)]                                                                                           | No     | 48   | PCAP.pdf p.19, Anexo 6                 |\n| Mejora experiencia equipo de trabajo         | Técnico sistemas administrador                   | 4      |         | Automático| 4 * (Nº meses mejora ofertado total técnicos admin / Mayor nº meses mejora ofertado total técnicos admin)                           | No     | 4    | PCAP.pdf p.19-20, Anexo 6              |\n|                                               | Técnico sistemas DBA                             | 4      |         | Automático| 4 * (Nº meses mejora ofertado / Mayor nº meses mejora ofertado)                                                                     | No     | 4    | PCAP.pdf p.19-20, Anexo 6              |\n|                                               | Coordinador técnico                              | 4      |         | Automático| 4 * (Nº meses mejora ofertado / Mayor nº meses mejora ofertado)                                                                     | No     | 4    | PCAP.pdf p.19-20, Anexo 6              |\n|                                               | Técnico soporte                                  | 4      |         | Automático| 4 * (Nº meses mejora ofertado total técnicos soporte / Mayor nº meses mejora ofertado total técnicos soporte)                       | No     | 4    | PCAP.pdf p.19-20, Anexo 6              |\n|                                               | Técnico soporte periferia                        | 4      |         | Automático| 4 * (Nº meses mejora ofertado total técnicos soporte periferia / Mayor nº meses mejora ofertado total técnicos soporte periferia)   | No     | 4    | PCAP.pdf p.19-20, Anexo 6              |\n| Mejora formación equipo (certificados)       | Ver tabla de certificaciones                     | 12     | 12%     | Automático| Suma de puntos por certificaciones aportadas según baremo (ver detalle en sección 6)                                                | No     | 12   | PCAP.pdf p.20, Anexo 6, PPT p.31-32     |\n| Mejora cobertura horaria primera atención    | 24x5 o 24x7                                      | 20     | 20%     | Automático| 24x5 = 8 puntos; 24x7 = 20 puntos                                                                                                   | No     | 20   | PCAP.pdf p.21, Anexo 6                 |\n\n3. DISTRIBUCIÓN OBJETIVA DE LA PUNTUACIÓN POR BLOQUES\n\n- Oferta económica: 48 puntos (48%)\n- Mejora experiencia equipo: 20 puntos (20%)\n- Mejora formación (certificados): 12 puntos (12%)\n- Mejora cobertura horaria: 20 puntos (20%)\n- Total: 100 puntos\n\nFuente: PCAP.pdf p.18-21, Anexo 6\n\n4. CRITERIOS AUTOMÁTICOS Y FÓRMULAS\n\n- Oferta económica:\n  Fórmula: Ci = 48 * [1 - (Oi - Omin)/(Omax - Omin)]\n  Donde:\n    - Ci: Puntuación de la oferta i\n    - Oi: Precio ofertado por el licitador i (IVA excluido)\n    - Omin: Precio más bajo ofertado (IVA excluido)\n    - Omax: Precio más alto ofertado (IVA excluido)\n  Regla: Máxima puntuación a la oferta más baja, el resto proporcionalmente.\n  Fuente: PCAP.pdf p.19, Anexo 6\n\n- Mejora experiencia equipo de trabajo (20 puntos):\n  Subcriterios y fórmulas:\n    - Técnico sistemas administrador: 4 * (Nº meses mejora ofertado total técnicos admin / Mayor nº meses mejora ofertado total técnicos admin)\n    - Técnico sistemas DBA: 4 * (Nº meses mejora ofertado / Mayor nº meses mejora ofertado)\n    - Coordinador técnico: 4 * (Nº meses mejora ofertado / Mayor nº meses mejora ofertado)\n    - Técnico soporte: 4 * (Nº meses mejora ofertado total técnicos soporte / Mayor nº meses mejora ofertado total técnicos soporte)\n    - Técnico soporte periferia: 4 * (Nº meses mejora ofertado total técnicos soporte periferia / Mayor nº meses mejora ofertado total técnicos soporte periferia)\n  Fuente: PCAP.pdf p.19-20, Anexo 6\n\n- Mejora formación equipo (certificados) (12 puntos):\n  Baremo por certificación aportada, hasta 12 puntos. Ejemplo de puntuación por certificación:\n    - MCSA Windows Server 2019 o superior: 0,5 puntos\n    - Microsoft Certified: Security, Compliance, and Identity Fundamentals: 0,25 puntos\n    - ITIL Intermediate Certificate in IT Service Operation: 0,25 puntos\n    - Citrix Virtual Apps and Desktops 7 Administration: 0,25 puntos\n    - Vmware vSphere 6.7: 0,25 puntos\n    - Linux LPIC-2: 0,25 puntos\n    - CISSP o CISM: 0,25 puntos\n    - MCSA SQL Server o MCSE Data Management: 0,5 puntos\n    - Certificado Microsoft Power BI: 0,25 puntos\n    - MCSA Windows 10 o similar: 0,25 puntos\n    - Microsoft 365 Certified: Fundamentals: 0,25 puntos\n  Fuente: PCAP.pdf p.20, Anexo 6, PPT p.31-32\n\n- Mejora cobertura horaria primera atención a usuarios (20 puntos):\n  - 24x5: 8 puntos\n  - 24x7: 20 puntos\n  Fuente: PCAP.pdf p.21, Anexo 6\n\n5. BAREMO DE PRECIO/DESCUENTO\n\n- Fórmula: Ci = 48 * [1 - (Oi - Omin)/(Omax - Omin)]\n- Máximo: 48 puntos\n- No se establecen tramos adicionales ni reglas de redondeo específicas.\n- Fuente: PCAP.pdf p.19, Anexo 6\n\n6. MEJORAS AUTOMÁTICAS: UNIDAD/CONDICIÓN | PUNTOS POR UNIDAD | TOPE | FÓRMULA | FUENTE\n\n- Experiencia adicional (meses) por perfil: 4 puntos por cada subperfil, máximo 20 puntos en total. Fórmulas arriba.\n- Certificaciones: Puntos por certificación según baremo, máximo 12 puntos. Ver detalle en sección 4.\n- Cobertura horaria: 24x5 = 8 puntos, 24x7 = 20 puntos. Máximo 20 puntos.\n- Fuente: PCAP.pdf p.19-21, Anexo 6, PPT p.31-32\n\n7. CRITERIOS SUJETOS A JUICIO DE VALOR\n\nNo existen criterios sujetos a juicio de valor ni subapartados asociados. Ponderación de criterios de juicio de valor: 0%. Fuente: PCAP.pdf p.18-19\n\n8. UMBRALES MÍNIMOS O CAUSAS DE EXCLUSIÓN LIGADAS A CRITERIOS\n\n- No se establece umbral mínimo de puntuación en criterios cualitativos, ya que no existen criterios de juicio de valor. Fuente: PCAP.pdf p.21\n- No se identifican otras causas de exclusión ligadas a criterios de adjudicación en la documentación revisada.\n\n9. DATOS NO CALCULABLES O NO LOCALIZADOS\n\n- No consta en la documentación revisada ninguna fórmula o variable no calculable para los criterios automáticos.\n- No se localizan reglas de redondeo específicas para la puntuación.\n\n10. DOCUMENTOS REVISADOS\n\n1. Anuncio.pdf (Documento licitación real)\n2. PCAP.pdf (Pliego de Cláusulas Administrativas Particulares)\n3. PPT.pdf (Pliego de Prescripciones Técnicas)\n4. poc (enlace detalle licitación, texto extraído)\n5. poc (perfil contratante, texto extraído)\n6. poc (perfil contratante, texto extraído)\n\nTABLA DE TRAZABILIDAD\n\n| Requisito/Dato                                    | Tipo         | Valor/Condición/Regla                                                                 | Documento   | Página/Apartado         | Estado lectura |\n|--------------------------------------------------|--------------|--------------------------------------------------------------------------------------|-------------|-------------------------|---------------|\n| Oferta económica                                 | Criterio     | 48 puntos, fórmula Ci = 48 * [1 - (Oi - Omin)/(Omax - Omin)]                         | PCAP.pdf    | p.19, Anexo 6            | Leído         |\n| Mejora experiencia equipo (5 subperfiles)        | Criterio     | 20 puntos, fórmulas por subperfil (ver sección 4)                                    | PCAP.pdf    | p.19-20, Anexo 6         | Leído         |\n| Mejora formación (certificados)                  | Criterio     | 12 puntos, baremo por certificación (ver sección 4)                                  | PCAP.pdf    | p.20, Anexo 6, PPT p.31-32| Leído         |\n| Mejora cobertura horaria                         | Criterio     | 20 puntos, 24x5=8 puntos, 24x7=20 puntos                                             | PCAP.pdf    | p.21, Anexo 6            | Leído         |\n| Criterios juicio de valor                        | Criterio     | No existen, 0% ponderación                                                           | PCAP.pdf    | p.18-19                  | Leído         |\n| Umbral mínimo criterios cualitativos             | Umbral       | No se establece (no hay criterios de juicio de valor)                                | PCAP.pdf    | p.21                     | Leído         |\n| Reglas de redondeo                              | Regla        | NO CONSTA EN LA DOCUMENTACIÓN REVISADA                                               | N/A         | N/A                      | N/A           |\n| Penalidades por incumplimiento de criterios      | Regla        | Hasta 5% del precio del contrato, si el incumplimiento es relevante                  | PCAP.pdf    | p.56-57                  | Leído         |\n| Documentos revisados                            | Información  | Anuncio.pdf, PCAP.pdf, PPT.pdf, poc (x3)                                             | N/A         | N/A                      | Leído         |\n\nNOTA: No se han localizado criterios de adjudicación adicionales, subcriterios de juicio de valor, ni reglas de desempate específicas más allá de lo indicado en el PCAP. No se han identificado reglas de redondeo ni tramos adicionales para el precio. No se han detectado umbrales mínimos de exclusión ligados a criterios automáticos."
+  }
+}

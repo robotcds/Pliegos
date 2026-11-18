@@ -1,0 +1,188 @@
+{
+  "orden": 4,
+  "id": "A4",
+  "nombre": "Criterios de adjudicación",
+  "tipo": "extraccion",
+  "ejecucion": "b7659d0a0ad244e3ace3acf26482ebec",
+  "estado": "completado",
+  "contenido": {
+    "salida_original": "Registro documental de preventa\n\n| Materia                        | Requisito completo                                                                                                                                                                                                                 | Fuente                                                                                 |\n|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|\n| Criterios de adjudicación      | El criterio \"Oferta económica\" se valora con un máximo de 70 puntos.                                                                                                                        | Metadatos XML, campo \"criterios_adjudicacion_xml\"                                     |\n| Criterios de adjudicación      | El criterio \"Oferta técnica, criterios evaluables automáticamente\" se valora con un máximo de 3 puntos.                                                                                     | Metadatos XML, campo \"criterios_adjudicacion_xml\"                                     |\n| Criterios de adjudicación      | El criterio \"Oferta técnica\" se valora con un máximo de 27 puntos.                                                                                                                          | Metadatos XML, campo \"criterios_adjudicacion_xml\"                                     |\n| Criterios de adjudicación      | La suma total de puntos de los criterios de adjudicación es 100 puntos (cálculo derivado: 70+3+27=100).                                                                                      | Metadatos XML, campo \"criterios_adjudicacion_xml\"                                     |\n| Criterios de adjudicación      | No consta en la documentación revisada la fórmula, variables, umbrales, topes, reglas de redondeo ni desglose de subcriterios para ninguno de los criterios.                                 | Metadatos XML, campo \"criterios_adjudicacion_xml\"                                     |\n| Criterios de adjudicación      | No consta en la documentación revisada el detalle de mejoras puntuables, subcriterios, ni reglas de valoración específicas para los criterios técnicos o económicos.                         | Metadatos XML, campo \"criterios_adjudicacion_xml\"                                     |\n| Criterios de adjudicación      | No consta en la documentación revisada el régimen de ofertas anormalmente bajas, ni reglas de desempate, ni documentación de oferta necesaria para la valoración de los criterios.           | Metadatos XML, campo \"criterios_adjudicacion_xml\"                                     |\n| Criterios de adjudicación      | No consta en la documentación revisada la separación de criterios automáticos, por fórmula o sujetos a juicio de valor más allá de los títulos de los criterios.                              | Metadatos XML, campo \"criterios_adjudicacion_xml\"                                     |\n| Criterios de adjudicación      | No consta en la documentación revisada la distribución de puntos por bloques o subcriterios dentro de los apartados técnicos o económicos.                                                    | Metadatos XML, campo \"criterios_adjudicacion_xml\"                                     |\n| Criterios de adjudicación      | No consta en la documentación revisada la existencia de umbrales mínimos, máximos, tramos decrecientes, ni condiciones de exclusión para la valoración de los criterios.                     | Metadatos XML, campo \"criterios_adjudicacion_xml\"                                     |\n| Criterios de adjudicación      | No consta en la documentación revisada la exigencia de documentación específica para acreditar los criterios de adjudicación en la fase de presentación de ofertas.                           | Metadatos XML, campo \"criterios_adjudicacion_xml\"                                     |\n| Discrepancias pendientes de aclaración | El pliego administrativo no ha podido ser consultado por error de acceso (\"Request Rejected\"). No es posible verificar si existen fórmulas, subcriterios, reglas de valoración o mejoras adicionales en el documento original. | DOC20240806095753Pliegodefinitivofirmado.pdf, error de acceso registrado en el proceso |\n\nDiscrepancias y pendientes de aclaración:\n- El análisis se ha realizado exclusivamente sobre los metadatos XML, ya que el pliego administrativo no ha podido ser consultado por error de acceso. Por tanto, no es posible verificar la existencia de fórmulas, subcriterios, reglas de valoración, mejoras puntuables, régimen de anormalidad ni documentación de oferta exigida en el documento original. Todo lo no recogido en los metadatos XML queda pendiente de verificación documental.\n- No se han identificado discrepancias numéricas en los puntos totales (cálculo derivado: 70+3+27=100), pero no es posible contrastar la coherencia interna del baremo ni la existencia de subcriterios o reglas adicionales.\n- No se ha localizado información sobre subcriterios, fórmulas, variables, umbrales, topes, reglas de redondeo, mejoras puntuables, régimen de ofertas anormalmente bajas, reglas de desempate ni documentación de oferta necesaria para la valoración de los criterios.\n- Todo el detalle de criterios de adjudicación, subcriterios, fórmulas y reglas de valoración queda PENDIENTE DE VERIFICAR EN DOCUMENTO NO DISPONIBLE/LECTURA PARCIAL.",
+    "registro_completo_estructura": true,
+    "requisitos_documentales": [
+      {
+        "id": "R0001",
+        "seccion": "Criterios de adjudicación",
+        "detalle": "El criterio \"Oferta económica\" se valora con un máximo de 70 puntos.",
+        "fuente": "Metadatos XML, campo \"criterios_adjudicacion_xml\"",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0002",
+        "seccion": "Criterios de adjudicación",
+        "detalle": "El criterio \"Oferta técnica, criterios evaluables automáticamente\" se valora con un máximo de 3 puntos.",
+        "fuente": "Metadatos XML, campo \"criterios_adjudicacion_xml\"",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0003",
+        "seccion": "Criterios de adjudicación",
+        "detalle": "El criterio \"Oferta técnica\" se valora con un máximo de 27 puntos.",
+        "fuente": "Metadatos XML, campo \"criterios_adjudicacion_xml\"",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0004",
+        "seccion": "Criterios de adjudicación",
+        "detalle": "La suma total de puntos de los criterios de adjudicación es 100 puntos (cálculo derivado: 70+3+27=100).",
+        "fuente": "Metadatos XML, campo \"criterios_adjudicacion_xml\"",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0005",
+        "seccion": "Criterios de adjudicación",
+        "detalle": "No consta en la documentación revisada la fórmula, variables, umbrales, topes, reglas de redondeo ni desglose de subcriterios para ninguno de los criterios.",
+        "fuente": "Metadatos XML, campo \"criterios_adjudicacion_xml\"",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0006",
+        "seccion": "Criterios de adjudicación",
+        "detalle": "No consta en la documentación revisada el detalle de mejoras puntuables, subcriterios, ni reglas de valoración específicas para los criterios técnicos o económicos.",
+        "fuente": "Metadatos XML, campo \"criterios_adjudicacion_xml\"",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0007",
+        "seccion": "Criterios de adjudicación",
+        "detalle": "No consta en la documentación revisada el régimen de ofertas anormalmente bajas, ni reglas de desempate, ni documentación de oferta necesaria para la valoración de los criterios.",
+        "fuente": "Metadatos XML, campo \"criterios_adjudicacion_xml\"",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0008",
+        "seccion": "Criterios de adjudicación",
+        "detalle": "No consta en la documentación revisada la separación de criterios automáticos, por fórmula o sujetos a juicio de valor más allá de los títulos de los criterios.",
+        "fuente": "Metadatos XML, campo \"criterios_adjudicacion_xml\"",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0009",
+        "seccion": "Criterios de adjudicación",
+        "detalle": "No consta en la documentación revisada la distribución de puntos por bloques o subcriterios dentro de los apartados técnicos o económicos.",
+        "fuente": "Metadatos XML, campo \"criterios_adjudicacion_xml\"",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0010",
+        "seccion": "Criterios de adjudicación",
+        "detalle": "No consta en la documentación revisada la existencia de umbrales mínimos, máximos, tramos decrecientes, ni condiciones de exclusión para la valoración de los criterios.",
+        "fuente": "Metadatos XML, campo \"criterios_adjudicacion_xml\"",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0011",
+        "seccion": "Criterios de adjudicación",
+        "detalle": "No consta en la documentación revisada la exigencia de documentación específica para acreditar los criterios de adjudicación en la fase de presentación de ofertas.",
+        "fuente": "Metadatos XML, campo \"criterios_adjudicacion_xml\"",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "R0012",
+        "seccion": "Discrepancias pendientes de aclaración",
+        "detalle": "El pliego administrativo no ha podido ser consultado por error de acceso (\"Request Rejected\"). No es posible verificar si existen fórmulas, subcriterios, reglas de valoración o mejoras adicionales en el documento original.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, error de acceso registrado en el proceso",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A4"
+      },
+      {
+        "id": "A4-S0013",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Contenido inicial",
+        "detalle": "Registro documental de preventa",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0014",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Contenido inicial",
+        "detalle": "Discrepancias y pendientes de aclaración:",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0015",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Contenido inicial",
+        "detalle": "El análisis se ha realizado exclusivamente sobre los metadatos XML, ya que el pliego administrativo no ha podido ser consultado por error de acceso. Por tanto, no es posible verificar la existencia de fórmulas, subcriterios, reglas de valoración, mejoras puntuables, régimen de anormalidad ni documentación de oferta exigida en el documento original. Todo lo no recogido en los metadatos XML queda pendiente de verificación documental.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0016",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Contenido inicial",
+        "detalle": "No se han identificado discrepancias numéricas en los puntos totales (cálculo derivado: 70+3+27=100), pero no es posible contrastar la coherencia interna del baremo ni la existencia de subcriterios o reglas adicionales.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0017",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Contenido inicial",
+        "detalle": "No se ha localizado información sobre subcriterios, fórmulas, variables, umbrales, topes, reglas de redondeo, mejoras puntuables, régimen de ofertas anormalmente bajas, reglas de desempate ni documentación de oferta necesaria para la valoración de los criterios.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A4-S0018",
+        "seccion": "Valoración y preparación de la oferta",
+        "titulo": "Contenido inicial",
+        "detalle": "Todo el detalle de criterios de adjudicación, subcriterios, fórmulas y reglas de valoración queda PENDIENTE DE VERIFICAR EN DOCUMENTO NO DISPONIBLE/LECTURA PARCIAL.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A4",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      }
+    ]
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 118,
+        "caracteres_enviados_al_agente": 118,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": []
+  }
+}

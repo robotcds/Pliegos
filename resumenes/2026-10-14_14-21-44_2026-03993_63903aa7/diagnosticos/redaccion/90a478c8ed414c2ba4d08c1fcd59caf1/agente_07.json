@@ -1,0 +1,1255 @@
+{
+  "orden": 7,
+  "id": "A9",
+  "nombre": "Seguridad y protección de datos",
+  "tipo": "extraccion",
+  "ejecucion": "63903aa706e34fb382bb345652fdd407",
+  "estado": "completado",
+  "contenido": {
+    "resumen": [
+      "La licitación para la solución SaaS de inteligencia meteorológica y gestión de riesgos naturales para la operación ferroviaria de RENFE-Operadora exige el cumplimiento de requisitos avanzados en materia de seguridad, protección de datos y ENS. Se requiere certificación ENS nivel Medio, ISO 27001, medidas técnicas y organizativas alineadas con el ENS, gestión de identidades y accesos, cifrado, control de vulnerabilidades, logging, continuidad, planes de salida y destrucción segura, así como obligaciones específicas para subencargados, localización de datos y notificación de incidentes. El adjudicatario será encargado del tratamiento de datos personales y debe cumplir instrucciones documentadas del responsable (RENFE). Se establecen penalizaciones y causas de resolución contractual por incumplimiento de las obligaciones de seguridad, privacidad y ENS.",
+      "---",
+      "---",
+      "---",
+      "---",
+      "---",
+      "Integración con sistema de identidad de Renfe y federación (SAML2, ADFS, etc.).",
+      "Prohibición de usuarios genéricos; detección y control de creación/uso.",
+      "Validación de identidad, control de privilegios, registro de intentos de autenticación (fallidos y correctos) con información relevante (IP, usuario, etc.).",
+      "Gestión de accesos privilegiados (PAM), controles de acceso, trazabilidad, auditoría y escalado de privilegios.",
+      "Acceso remoto seguro (VPN).",
+      "Gestión de altas/bajas de usuarios, integración con directorio corporativo."
+    ],
+    "secciones": [
+      {
+        "titulo": "1. Resumen factual Seguridad / DPO / ENS",
+        "parrafos": [
+          "La licitación para la solución SaaS de inteligencia meteorológica y gestión de riesgos naturales para la operación ferroviaria de RENFE-Operadora exige el cumplimiento de requisitos avanzados en materia de seguridad, protección de datos y ENS. Se requiere certificación ENS nivel Medio, ISO 27001, medidas técnicas y organizativas alineadas con el ENS, gestión de identidades y accesos, cifrado, control de vulnerabilidades, logging, continuidad, planes de salida y destrucción segura, así como obligaciones específicas para subencargados, localización de datos y notificación de incidentes. El adjudicatario será encargado del tratamiento de datos personales y debe cumplir instrucciones documentadas del responsable (RENFE). Se establecen penalizaciones y causas de resolución contractual por incumplimiento de las obligaciones de seguridad, privacidad y ENS.",
+          "---"
+        ],
+        "elementos": [],
+        "tablas": []
+      },
+      {
+        "titulo": "2. ENS: Requisito | Categoria/nivel | Alcance | Acreditacion | Momento | Fuente",
+        "parrafos": [
+          "---"
+        ],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Requisito ENS",
+              "Categoria/nivel",
+              "Alcance",
+              "Acreditación",
+              "Momento",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Requisito ENS": "Certificación ENS",
+                "Categoria/nivel": "Nivel Medio",
+                "Alcance": "Sistemas de información que soportan el servicio SaaS",
+                "Acreditación": "Certificado ENS nivel Medio o compromiso de obtenerlo",
+                "Momento": "Antes del inicio del servicio o en los primeros 10 meses si no se dispone; 12 meses si solo ISO 27001",
+                "Fuente": "ANEXO I 2026 03393.pdf, p.28-29, CN.01; PCP 2026 03993.pdf, p.20"
+              },
+              {
+                "Requisito ENS": "Declaración responsable de cumplimiento de requisitos de seguridad",
+                "Categoria/nivel": "No aplica",
+                "Alcance": "Todos los requisitos de seguridad del Anexo I",
+                "Acreditación": "Declaración responsable",
+                "Momento": "Sobre A, presentación de oferta",
+                "Fuente": "ANEXO II 2026 03993.pdf, p.2; PCP 2026 03993.pdf, p.5, 7"
+              },
+              {
+                "Requisito ENS": "Análisis de riesgos conforme ENS (MAGERIT)",
+                "Categoria/nivel": "No aplica",
+                "Alcance": "Servicio contratado",
+                "Acreditación": "Informe de análisis de riesgos",
+                "Momento": "Tras adjudicación, antes de inicio",
+                "Fuente": "ANEXO I 2026 03393.pdf, p.25-26, PS.04"
+              },
+              {
+                "Requisito ENS": "Informe CLARA CCN (cumplimiento ENS ≥65%)",
+                "Categoria/nivel": "Nivel Medio",
+                "Alcance": "Equipos de usuario del adjudicatario",
+                "Acreditación": "Informe individual por equipo",
+                "Momento": "Antes de inicio de uso de equipos",
+                "Fuente": "ANEXO I 2026 03393.pdf, p.24, 34, SE.05"
+              },
+              {
+                "Requisito ENS": "Medidas técnicas y organizativas ENS",
+                "Categoria/nivel": "Nivel Medio",
+                "Alcance": "Servicio SaaS y equipos asociados",
+                "Acreditación": "Documentación técnica, procedimientos, evidencias",
+                "Momento": "Durante ejecución",
+                "Fuente": "ANEXO I 2026 03393.pdf, p.25-39"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "3. RGPD/DPO: Datos/rol/obligacion | Condicion | Plazo/retencion | Fuente",
+        "parrafos": [
+          "---"
+        ],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Datos/rol/obligación",
+              "Condición",
+              "Plazo/retención",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Datos/rol/obligación": "Encargado del tratamiento (adjudicatario)",
+                "Condición": "Tratar datos solo según instrucciones documentadas del responsable (RENFE)",
+                "Plazo/retención": "Durante la ejecución del contrato",
+                "Fuente": "PCP 2026 03993.pdf, p.25-28, cláusula 17"
+              },
+              {
+                "Datos/rol/obligación": "Prohibición de uso para fines propios o distintos",
+                "Condición": "Solo ejecución del contrato",
+                "Plazo/retención": "Durante la ejecución",
+                "Fuente": "PCP 2026 03993.pdf, p.25-28"
+              },
+              {
+                "Datos/rol/obligación": "Prohibición de comunicación a terceros sin autorización",
+                "Condición": "Salvo autorización escrita del responsable",
+                "Plazo/retención": "Durante la ejecución",
+                "Fuente": "PCP 2026 03993.pdf, p.25-28"
+              },
+              {
+                "Datos/rol/obligación": "Confidencialidad del personal",
+                "Condición": "Compromiso de confidencialidad, subsiste tras la relación",
+                "Plazo/retención": "Durante y tras la ejecución",
+                "Fuente": "PCP 2026 03993.pdf, p.25-28"
+              },
+              {
+                "Datos/rol/obligación": "Medidas técnicas y organizativas adecuadas",
+                "Condición": "Según análisis de riesgos y ENS",
+                "Plazo/retención": "Durante la ejecución",
+                "Fuente": "PCP 2026 03993.pdf, p.25-28; ANEXO I 2026 03393.pdf, p.25-39"
+              },
+              {
+                "Datos/rol/obligación": "Subencargados: autorización previa escrita",
+                "Condición": "Obligatorio",
+                "Plazo/retención": "Antes de subcontratar",
+                "Fuente": "PCP 2026 03993.pdf, p.25-28"
+              },
+              {
+                "Datos/rol/obligación": "Registro de actividades de tratamiento",
+                "Condición": "Si el tratamiento entraña riesgo, no es ocasional o incluye categorías especiales",
+                "Plazo/retención": "Durante la ejecución",
+                "Fuente": "PCP 2026 03993.pdf, p.27"
+              },
+              {
+                "Datos/rol/obligación": "Supresión o devolución de datos al finalizar",
+                "Condición": "A elección del responsable",
+                "Plazo/retención": "Al finalizar el contrato",
+                "Fuente": "PCP 2026 03993.pdf, p.27-28; ANEXO I 2026 03393.pdf, p.29, CN.04"
+              },
+              {
+                "Datos/rol/obligación": "Certificado de destrucción",
+                "Condición": "Obligatorio para cada borrado/destrucción",
+                "Plazo/retención": "Al finalizar el contrato o cuando se requiera",
+                "Fuente": "ANEXO I 2026 03393.pdf, p.29, CN.04.02"
+              },
+              {
+                "Datos/rol/obligación": "Asistencia al responsable en ejercicio de derechos",
+                "Condición": "Obligatorio",
+                "Plazo/retención": "Inmediato tras solicitud",
+                "Fuente": "PCP 2026 03993.pdf, p.26"
+              },
+              {
+                "Datos/rol/obligación": "Notificación de solicitudes de derechos",
+                "Condición": "A dpd@renfe.es",
+                "Plazo/retención": "Inmediato tras recepción",
+                "Fuente": "PCP 2026 03993.pdf, p.26"
+              },
+              {
+                "Datos/rol/obligación": "Asistencia en notificación de brechas",
+                "Condición": "Obligatorio",
+                "Plazo/retención": "Según legislación vigente",
+                "Fuente": "PCP 2026 03993.pdf, p.26"
+              },
+              {
+                "Datos/rol/obligación": "Principios de protección de datos por diseño y por defecto",
+                "Condición": "Obligatorio",
+                "Plazo/retención": "Durante la ejecución",
+                "Fuente": "PCP 2026 03993.pdf, p.28"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "4. Subencargados, cloud, localización y transferencias",
+        "parrafos": [
+          "---"
+        ],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Requisito",
+              "Condición",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Requisito": "Subencargados: autorización previa escrita del responsable",
+                "Condición": "Obligatorio",
+                "Fuente": "PCP 2026 03993.pdf, p.25-28; ANEXO I 2026 03393.pdf, p.26, PS.07"
+              },
+              {
+                "Requisito": "Subencargados deben asumir mismas obligaciones contractuales",
+                "Condición": "Obligatorio",
+                "Fuente": "PCP 2026 03993.pdf, p.25-28; ANEXO I 2026 03393.pdf, p.26, PS.07"
+              },
+              {
+                "Requisito": "Localización de datos: prestación desde EEE salvo autorización expresa",
+                "Condición": "Obligatorio",
+                "Fuente": "ANEXO I 2026 03393.pdf, p.25, PS.01"
+              },
+              {
+                "Requisito": "Autorización para cambios de ubicación geográfica",
+                "Condición": "Obligatorio",
+                "Fuente": "ANEXO I 2026 03393.pdf, p.25, PS.01"
+              },
+              {
+                "Requisito": "Información a RENFE de ubicación y países de tratamiento/almacenamiento",
+                "Condición": "Obligatorio",
+                "Fuente": "ANEXO I 2026 03393.pdf, p.25, PS.01"
+              },
+              {
+                "Requisito": "Transferencias internacionales: solo con autorización y conforme a Derecho UE",
+                "Condición": "Obligatorio",
+                "Fuente": "PCP 2026 03993.pdf, p.25-28"
+              },
+              {
+                "Requisito": "Cloud público: integración con CNAPP de Renfe si se solicita",
+                "Condición": "Condicionado",
+                "Fuente": "ANEXO I 2026 03393.pdf, p.35, CD.05"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "5. Medidas técnicas: Medida | Obligatoria/valorable/condicionada | Parametro/plazo | Fuente",
+        "parrafos": [
+          "---"
+        ],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Medida",
+              "Obligatoria/valorable/condicionada",
+              "Parámetro/plazo",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Medida": "Cifrado en tránsito, uso y almacenamiento",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parámetro/plazo": "Protocolos seguros (https, TLS v1.2+), datos confidenciales cifrados",
+                "Fuente": "ANEXO I 2026 03393.pdf, p.30, SD.03"
+              },
+              {
+                "Medida": "Custodia de claves en HSM",
+                "Obligatoria/valorable/condicionada": "Obligatoria salvo impedimento técnico autorizado",
+                "Parámetro/plazo": "Durante la ejecución",
+                "Fuente": "ANEXO I 2026 03393.pdf, p.30, SD.03.04"
+              },
+              {
+                "Medida": "Control de accesos y gestión de identidades",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parámetro/plazo": "Integración con sistema de identidad de Renfe, SSO, SAML2/ADFS",
+                "Fuente": "ANEXO I 2026 03393.pdf, p.32, GI.05.01"
+              },
+              {
+                "Medida": "MFA/2FA para servicios expuestos a Internet",
+                "Obligatoria/valorable/condicionada": "Obligatoria para servicios expuestos",
+                "Parámetro/plazo": "Durante la ejecución",
+                "Fuente": "ANEXO I 2026 03393.pdf, p.35, CD.03.11"
+              },
+              {
+                "Medida": "RBAC, mínimo privilegio, perfiles diferenciados",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parámetro/plazo": "Definición y gestión de roles, control de privilegios",
+                "Fuente": "ANEXO I 2026 03393.pdf, p.32, GI.07"
+              },
+              {
+                "Medida": "PAM (gestión de accesos privilegiados)",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parámetro/plazo": "Gestión y control de accesos privilegiados",
+                "Fuente": "ANEXO I 2026 03393.pdf, p.32, GI.08-09"
+              },
+              {
+                "Medida": "VPN para accesos remotos",
+                "Obligatoria/valorable/condicionada": "Obligatoria si hay acceso remoto",
+                "Parámetro/plazo": "Durante la ejecución",
+                "Fuente": "ANEXO I 2026 03393.pdf, p.33, GI.10.03"
+              },
+              {
+                "Medida": "Bastionado, segmentación de red",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parámetro/plazo": "Segmentación adecuada, controles de acceso",
+                "Fuente": "ANEXO I 2026 03393.pdf, p.29, CN.03; p.35, CD.03.01, CD.03.02"
+              },
+              {
+                "Medida": "EDR/antimalware",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parámetro/plazo": "Instalación y mantenimiento en equipos adjudicatario",
+                "Fuente": "ANEXO I 2026 03393.pdf, p.33-34, SE.04"
+              },
+              {
+                "Medida": "WAF para servicios web",
+                "Obligatoria/valorable/condicionada": "Obligatoria si aplica",
+                "Parámetro/plazo": "Durante la ejecución",
+                "Fuente": "ANEXO I 2026 03393.pdf, p.35, CD.03.04"
+              },
+              {
+                "Medida": "SIEM, logs y monitorización 24x7",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parámetro/plazo": "Integración con SIEM de Renfe, logs normalizados, retención según Renfe",
+                "Fuente": "ANEXO I 2026 03393.pdf, p.36, CD.06-07"
+              },
+              {
+                "Medida": "DLP",
+                "Obligatoria/valorable/condicionada": "Obligatoria si hay datos personales/confidenciales",
+                "Parámetro/plazo": "Descubrimiento cada 3 meses",
+                "Fuente": "ANEXO I 2026 03393.pdf, p.29, SD.01.03; p.35, CD.03.06"
+              },
+              {
+                "Medida": "Backups, restauración y pruebas",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parámetro/plazo": "Procesos de backup, restauración y pruebas",
+                "Fuente": "ANEXO I 2026 03393.pdf, p.29, SD.01.04; p.38, DS.01.03"
+              },
+              {
+                "Medida": "Defensa perimetral, IDS/IPS, proxys, CASB, CWPP",
+                "Obligatoria/valorable/condicionada": "Obligatoria según arquitectura",
+                "Parámetro/plazo": "Durante la ejecución",
+                "Fuente": "ANEXO I 2026 03393.pdf, p.35, CD.03"
+              },
+              {
+                "Medida": "Protección correo electrónico",
+                "Obligatoria/valorable/condicionada": "Obligatoria si aplica",
+                "Parámetro/plazo": "Antimalware, antispam, reputación",
+                "Fuente": "ANEXO I 2026 03393.pdf, p.35, CD.03.10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "6. Identidad, accesos y privilegios",
+        "parrafos": [
+          "Fuente: ANEXO I 2026 03393.pdf, p.32-33, GI.01-GI.11; p.29, SD.01.01-02",
+          "---"
+        ],
+        "elementos": [
+          "Integración con sistema de identidad de Renfe y federación (SAML2, ADFS, etc.).",
+          "Prohibición de usuarios genéricos; detección y control de creación/uso.",
+          "Validación de identidad, control de privilegios, registro de intentos de autenticación (fallidos y correctos) con información relevante (IP, usuario, etc.).",
+          "Gestión de accesos privilegiados (PAM), controles de acceso, trazabilidad, auditoría y escalado de privilegios.",
+          "Acceso remoto seguro (VPN).",
+          "Gestión de altas/bajas de usuarios, integración con directorio corporativo.",
+          "Listados nominales de autorizaciones y accesos a disposición del responsable."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "7. Vulnerabilidades, parcheado y desarrollo seguro",
+        "parrafos": [
+          "Fuente: ANEXO I 2026 03393.pdf, p.26, PS.06; p.29, CN.03; p.35-36, CD.04, CD.09; p.30, SD.04.02",
+          "---"
+        ],
+        "elementos": [
+          "Estrategia y plan de no obsolescencia, gestión de vulnerabilidades (identificación, remediación, SLA).",
+          "Parcheo regular y seguro de productos, configuración segura, mantenimiento de documentación técnica actualizada, inventario de activos.",
+          "Escaneos de vulnerabilidades periódicos, entrega de informes a Renfe, remediación según criticidad y políticas de Renfe.",
+          "Pruebas de seguridad (pentesting, hacking ético) requieren autorización previa y entrega de resultados a Renfe.",
+          "Cumplimiento de guías CCN-CERT para bases de datos (según tecnología).",
+          "Desarrollo seguro: NO CONSTA EN LA DOCUMENTACION REVISADA referencia expresa a SDLC, DevSecOps, SAST, DAST, SCA, OWASP, CI/CD o SBOM."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "8. Incidentes, brechas y plazos de notificación expresamente indicados",
+        "parrafos": [
+          "Fuente: ANEXO I 2026 03393.pdf, p.36-37, CD.08; PCP 2026 03993.pdf, p.26",
+          "---"
+        ],
+        "elementos": [
+          "Notificación de incidentes de seguridad con impacto Medio, Alto, Muy Alto y Crítico a la Gerencia de Área de Ciberseguridad de Renfe y al CERT de Renfe (notificaciones.pocterceros.ciberseguridad@renfe.es).",
+          "El adjudicatario debe colaborar en la valoración, remediación, documentación y notificación del incidente.",
+          "Prohibición de destrucción de pruebas durante la gestión del incidente.",
+          "Plazos: NO CONSTA EN LA DOCUMENTACION REVISADA un plazo expreso de horas/días para la notificación de incidentes o brechas.",
+          "Notificación de solicitudes de derechos de interesados a dpd@renfe.es de forma inmediata tras recepción."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "9. Logging, SOC/SIEM, continuidad, backup, RTO/RPO y retención",
+        "parrafos": [
+          "Fuente: ANEXO I 2026 03393.pdf, p.27, PS.08; p.36, CD.06-07; p.38-39, DS.01-03",
+          "---"
+        ],
+        "elementos": [
+          "Logging: registro, auditoría y trazabilidad de eventos, operaciones y accesos; logs normalizados, integración con SIEM de Renfe o API autorizada.",
+          "Custodia de logs por el periodo de retención que especifique Renfe.",
+          "Monitorización 24x7 de la infraestructura para detección de incidencias e incidentes.",
+          "Continuidad: planes de contingencia, crisis, continuidad de negocio, salida programada y sobrevenida, identificación de competencias críticas para retomar control.",
+          "Backups: mecanismos adecuados y contrastados, pruebas de restauración.",
+          "RTO/RPO: NO CONSTA EN LA DOCUMENTACION REVISADA valores numéricos específicos.",
+          "Pruebas de continuidad: se exige elaboración de planes, pero no se detallan frecuencias ni formatos de pruebas."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "10. Auditorias, evidencias, certificaciones, seguridad del personal, borrado y confidencialidad",
+        "parrafos": [
+          "Fuente: ANEXO I 2026 03393.pdf, p.27-28, PS.10-11; p.29, CN.04; p.37-38, AU.01-04",
+          "---"
+        ],
+        "elementos": [
+          "Auditorías: Renfe podrá solicitar informes técnicos, auditorías, revisiones de seguridad y continuidad, acceso a locales y sistemas, colaboración obligatoria del adjudicatario.",
+          "Auditoría bi-anual autoimpuesta, auditorías de terceros (IGAE, Tribunal de Cuentas, etc.), auditorías extraordinarias.",
+          "Evidencias: entrega de documentación, registros, informes de seguridad, certificados de destrucción.",
+          "Certificaciones: ENS nivel Medio (obligatoria), ISO 27001 (obligatoria), otras certificaciones relevantes pueden ser solicitadas.",
+          "Seguridad del personal: formación, concienciación y capacitación obligatoria en tecnologías, seguridad de la información y legislación aplicable.",
+          "Borrado y destrucción: procedimiento seguro conforme ENS, entrega de certificado con fecha, personal, procedimiento.",
+          "Confidencialidad: acuerdo de confidencialidad firmado por personal propio y subcontratado, obligación subsiste tras la relación."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "11. Consecuencias contractuales expresamente asociadas al incumplimiento",
+        "parrafos": [
+          "Fuente: PCP 2026 03993.pdf, p.30-34, cláusulas 19 y 29",
+          "---"
+        ],
+        "elementos": [
+          "Penalización hasta el 10% del contrato por no entrega de documentación de ciberseguridad (análisis de riesgos, acuerdos de confidencialidad, informes de seguridad, etc.).",
+          "Penalización de 1000-3000€ por demora en completar el cuestionario de evaluación de seguridad de la cadena de suministro (PS.07).",
+          "Penalización hasta el 10% del contrato por falta de certificación ENS nivel Medio (CN.01).",
+          "Penalización de 1000€ por no notificar el Punto de Contacto de Seguridad en plazo, incrementándose por cada mes adicional; penalización por falta de respuesta del POC de Seguridad en 48h y sucesivos periodos de 24h.",
+          "Penalización hasta el 20% del contrato por incumplimiento de obligaciones de confidencialidad, protección de datos y propiedad intelectual.",
+          "Resolución contractual por incumplimiento de SP.01, PS.07, CN.01, entrega de documentación de ciberseguridad, confidencialidad, protección de datos, propiedad intelectual y ética y cumplimiento."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "12. Datos no localizados o ambiguos, sin recomendaciones",
+        "parrafos": [
+          "---"
+        ],
+        "elementos": [
+          "NO CONSTA EN LA DOCUMENTACION REVISADA: valores numéricos de RTO/RPO.",
+          "NO CONSTA EN LA DOCUMENTACION REVISADA: detalle de SDLC, DevSecOps, SAST, DAST, SCA, OWASP, CI/CD, SBOM.",
+          "NO CONSTA EN LA DOCUMENTACION REVISADA: categorías concretas de datos personales tratados, interesados o finalidades específicas más allá de la ejecución del contrato.",
+          "NO CONSTA EN LA DOCUMENTACION REVISADA: plazos expresos (en horas/días) para notificación de incidentes de seguridad o brechas de datos personales."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "13. Documentos revisados",
+        "parrafos": [
+          "---"
+        ],
+        "elementos": [
+          "PCP 2026 03993.pdf (Pliego administrativo)",
+          "ANEXO I 2026 03393.pdf (Pliego técnico)",
+          "ANEXO III 2026 03993.pdf (Modelo oferta económica)",
+          "ANEXO II 2026 03993.pdf (Modelo declaración responsable)",
+          "ANEXO IV 2026 03993.pdf (Modelo garantía definitiva)",
+          "poc (Plataforma de Contratación del Sector Público, información general)",
+          "poc (Perfil de contratante RENFE-Operadora, información general)",
+          "poc (Perfil de contratante RENFE-Operadora, información general)"
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "14. Tabla de trazabilidad",
+        "parrafos": [
+          "---"
+        ],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Requisito/dato",
+              "Tipo",
+              "Valor/condición",
+              "Documento",
+              "Página/apartado",
+              "Estado de lectura"
+            ],
+            "filas": [
+              {
+                "Requisito/dato": "Certificación ENS nivel Medio",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Certificado ENS nivel Medio o compromiso de obtenerlo",
+                "Documento": "ANEXO I 2026 03393.pdf",
+                "Página/apartado": "p.28-29, CN.01",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "ISO 27001",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Certificación ISO 27001 o equivalente",
+                "Documento": "PCP 2026 03993.pdf",
+                "Página/apartado": "p.20",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Declaración responsable requisitos seguridad",
+                "Tipo": "Requisito de admisión",
+                "Valor/condición": "Declaración responsable",
+                "Documento": "ANEXO II 2026 03993.pdf",
+                "Página/apartado": "p.2",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Análisis de riesgos MAGERIT",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Informe de análisis de riesgos conforme ENS",
+                "Documento": "ANEXO I 2026 03393.pdf",
+                "Página/apartado": "p.25-26, PS.04",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Informe CLARA CCN",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Informe individual por equipo, cumplimiento ENS ≥65%",
+                "Documento": "ANEXO I 2026 03393.pdf",
+                "Página/apartado": "p.24, 34, SE.05",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Medidas técnicas ENS",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Medidas técnicas y organizativas alineadas ENS",
+                "Documento": "ANEXO I 2026 03393.pdf",
+                "Página/apartado": "p.25-39",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Encargado del tratamiento",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Tratar datos solo según instrucciones de RENFE",
+                "Documento": "PCP 2026 03993.pdf",
+                "Página/apartado": "p.25-28",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Subencargados: autorización previa",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Autorización escrita de RENFE",
+                "Documento": "PCP 2026 03993.pdf",
+                "Página/apartado": "p.25-28",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Localización de datos",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Prestación desde EEE salvo autorización expresa",
+                "Documento": "ANEXO I 2026 03393.pdf",
+                "Página/apartado": "p.25, PS.01",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Cifrado en tránsito y almacenamiento",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Protocolos seguros, datos confidenciales cifrados",
+                "Documento": "ANEXO I 2026 03393.pdf",
+                "Página/apartado": "p.30, SD.03",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Control de accesos, RBAC, SSO",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Integración con sistema de identidad de Renfe",
+                "Documento": "ANEXO I 2026 03393.pdf",
+                "Página/apartado": "p.32, GI.05.01",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "MFA/2FA",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Para servicios expuestos a Internet",
+                "Documento": "ANEXO I 2026 03393.pdf",
+                "Página/apartado": "p.35, CD.03.11",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "PAM",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Gestión de accesos privilegiados",
+                "Documento": "ANEXO I 2026 03393.pdf",
+                "Página/apartado": "p.32, GI.08-09",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "VPN",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Acceso remoto seguro",
+                "Documento": "ANEXO I 2026 03393.pdf",
+                "Página/apartado": "p.33, GI.10.03",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Logging, SIEM",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Integración con SIEM de Renfe, logs normalizados",
+                "Documento": "ANEXO I 2026 03393.pdf",
+                "Página/apartado": "p.36, CD.06-07",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Backups",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Procesos de backup, restauración y pruebas",
+                "Documento": "ANEXO I 2026 03393.pdf",
+                "Página/apartado": "p.29, SD.01.04",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Planes de continuidad y salida",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Planes de contingencia, crisis, continuidad, salida",
+                "Documento": "ANEXO I 2026 03393.pdf",
+                "Página/apartado": "p.38-39, DS.01-03",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Auditorías",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Colaboración obligatoria, acceso a sistemas y locales",
+                "Documento": "ANEXO I 2026 03393.pdf",
+                "Página/apartado": "p.37-38, AU.01-04",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Borrado y destrucción segura",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Procedimiento seguro, certificado de destrucción",
+                "Documento": "ANEXO I 2026 03393.pdf",
+                "Página/apartado": "p.29, CN.04",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "Penalizaciones por incumplimiento",
+                "Tipo": "Consecuencia contractual",
+                "Valor/condición": "Hasta 10%/20% del contrato, penalizaciones específicas",
+                "Documento": "PCP 2026 03993.pdf",
+                "Página/apartado": "p.30-34",
+                "Estado de lectura": "TEXTO EXTRAIDO"
+              },
+              {
+                "Requisito/dato": "RTO/RPO",
+                "Tipo": "NO CONSTA",
+                "Valor/condición": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Documento": "NO CONSTA",
+                "Página/apartado": "NO CONSTA",
+                "Estado de lectura": "NO CONSTA"
+              },
+              {
+                "Requisito/dato": "Desarrollo seguro (SDLC, DevSecOps, etc.)",
+                "Tipo": "NO CONSTA",
+                "Valor/condición": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Documento": "NO CONSTA",
+                "Página/apartado": "NO CONSTA",
+                "Estado de lectura": "NO CONSTA"
+              },
+              {
+                "Requisito/dato": "Plazos de notificación de incidentes",
+                "Tipo": "NO CONSTA",
+                "Valor/condición": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Documento": "NO CONSTA",
+                "Página/apartado": "NO CONSTA",
+                "Estado de lectura": "NO CONSTA"
+              },
+              {
+                "Requisito/dato": "Categorías de datos personales/interesados",
+                "Tipo": "NO CONSTA",
+                "Valor/condición": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Documento": "NO CONSTA",
+                "Página/apartado": "NO CONSTA",
+                "Estado de lectura": "NO CONSTA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "parrafos": [
+          "No se han identificado discrepancias en la documentación revisada. No se localizan valores numéricos de RTO/RPO, detalles de SDLC/DevSecOps/SAST/DAST/SCA/OWASP/CI-CD/SBOM, ni plazos expresos para notificación de incidentes o brechas. No se detallan categorías concretas de datos personales tratados ni interesados."
+        ],
+        "elementos": [],
+        "tablas": []
+      }
+    ],
+    "pendientes_y_no_localizados": [
+      {
+        "titulo": "12. Datos no localizados o ambiguos, sin recomendaciones",
+        "parrafos": [
+          "---"
+        ],
+        "elementos": [
+          "NO CONSTA EN LA DOCUMENTACION REVISADA: valores numéricos de RTO/RPO.",
+          "NO CONSTA EN LA DOCUMENTACION REVISADA: detalle de SDLC, DevSecOps, SAST, DAST, SCA, OWASP, CI/CD, SBOM.",
+          "NO CONSTA EN LA DOCUMENTACION REVISADA: categorías concretas de datos personales tratados, interesados o finalidades específicas más allá de la ejecución del contrato.",
+          "NO CONSTA EN LA DOCUMENTACION REVISADA: plazos expresos (en horas/días) para notificación de incidentes de seguridad o brechas de datos personales."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "parrafos": [
+          "No se han identificado discrepancias en la documentación revisada. No se localizan valores numéricos de RTO/RPO, detalles de SDLC/DevSecOps/SAST/DAST/SCA/OWASP/CI-CD/SBOM, ni plazos expresos para notificación de incidentes o brechas. No se detallan categorías concretas de datos personales tratados ni interesados."
+        ],
+        "elementos": [],
+        "tablas": []
+      }
+    ],
+    "trazabilidad": [
+      {
+        "Requisito ENS": "Certificación ENS",
+        "Categoria/nivel": "Nivel Medio",
+        "Alcance": "Sistemas de información que soportan el servicio SaaS",
+        "Acreditación": "Certificado ENS nivel Medio o compromiso de obtenerlo",
+        "Momento": "Antes del inicio del servicio o en los primeros 10 meses si no se dispone; 12 meses si solo ISO 27001",
+        "Fuente": "ANEXO I 2026 03393.pdf, p.28-29, CN.01; PCP 2026 03993.pdf, p.20"
+      },
+      {
+        "Requisito ENS": "Declaración responsable de cumplimiento de requisitos de seguridad",
+        "Categoria/nivel": "No aplica",
+        "Alcance": "Todos los requisitos de seguridad del Anexo I",
+        "Acreditación": "Declaración responsable",
+        "Momento": "Sobre A, presentación de oferta",
+        "Fuente": "ANEXO II 2026 03993.pdf, p.2; PCP 2026 03993.pdf, p.5, 7"
+      },
+      {
+        "Requisito ENS": "Análisis de riesgos conforme ENS (MAGERIT)",
+        "Categoria/nivel": "No aplica",
+        "Alcance": "Servicio contratado",
+        "Acreditación": "Informe de análisis de riesgos",
+        "Momento": "Tras adjudicación, antes de inicio",
+        "Fuente": "ANEXO I 2026 03393.pdf, p.25-26, PS.04"
+      },
+      {
+        "Requisito ENS": "Informe CLARA CCN (cumplimiento ENS ≥65%)",
+        "Categoria/nivel": "Nivel Medio",
+        "Alcance": "Equipos de usuario del adjudicatario",
+        "Acreditación": "Informe individual por equipo",
+        "Momento": "Antes de inicio de uso de equipos",
+        "Fuente": "ANEXO I 2026 03393.pdf, p.24, 34, SE.05"
+      },
+      {
+        "Requisito ENS": "Medidas técnicas y organizativas ENS",
+        "Categoria/nivel": "Nivel Medio",
+        "Alcance": "Servicio SaaS y equipos asociados",
+        "Acreditación": "Documentación técnica, procedimientos, evidencias",
+        "Momento": "Durante ejecución",
+        "Fuente": "ANEXO I 2026 03393.pdf, p.25-39"
+      },
+      {
+        "Datos/rol/obligación": "Encargado del tratamiento (adjudicatario)",
+        "Condición": "Tratar datos solo según instrucciones documentadas del responsable (RENFE)",
+        "Plazo/retención": "Durante la ejecución del contrato",
+        "Fuente": "PCP 2026 03993.pdf, p.25-28, cláusula 17"
+      },
+      {
+        "Datos/rol/obligación": "Prohibición de uso para fines propios o distintos",
+        "Condición": "Solo ejecución del contrato",
+        "Plazo/retención": "Durante la ejecución",
+        "Fuente": "PCP 2026 03993.pdf, p.25-28"
+      },
+      {
+        "Datos/rol/obligación": "Prohibición de comunicación a terceros sin autorización",
+        "Condición": "Salvo autorización escrita del responsable",
+        "Plazo/retención": "Durante la ejecución",
+        "Fuente": "PCP 2026 03993.pdf, p.25-28"
+      },
+      {
+        "Datos/rol/obligación": "Confidencialidad del personal",
+        "Condición": "Compromiso de confidencialidad, subsiste tras la relación",
+        "Plazo/retención": "Durante y tras la ejecución",
+        "Fuente": "PCP 2026 03993.pdf, p.25-28"
+      },
+      {
+        "Datos/rol/obligación": "Medidas técnicas y organizativas adecuadas",
+        "Condición": "Según análisis de riesgos y ENS",
+        "Plazo/retención": "Durante la ejecución",
+        "Fuente": "PCP 2026 03993.pdf, p.25-28; ANEXO I 2026 03393.pdf, p.25-39"
+      },
+      {
+        "Datos/rol/obligación": "Subencargados: autorización previa escrita",
+        "Condición": "Obligatorio",
+        "Plazo/retención": "Antes de subcontratar",
+        "Fuente": "PCP 2026 03993.pdf, p.25-28"
+      },
+      {
+        "Datos/rol/obligación": "Registro de actividades de tratamiento",
+        "Condición": "Si el tratamiento entraña riesgo, no es ocasional o incluye categorías especiales",
+        "Plazo/retención": "Durante la ejecución",
+        "Fuente": "PCP 2026 03993.pdf, p.27"
+      },
+      {
+        "Datos/rol/obligación": "Supresión o devolución de datos al finalizar",
+        "Condición": "A elección del responsable",
+        "Plazo/retención": "Al finalizar el contrato",
+        "Fuente": "PCP 2026 03993.pdf, p.27-28; ANEXO I 2026 03393.pdf, p.29, CN.04"
+      },
+      {
+        "Datos/rol/obligación": "Certificado de destrucción",
+        "Condición": "Obligatorio para cada borrado/destrucción",
+        "Plazo/retención": "Al finalizar el contrato o cuando se requiera",
+        "Fuente": "ANEXO I 2026 03393.pdf, p.29, CN.04.02"
+      },
+      {
+        "Datos/rol/obligación": "Asistencia al responsable en ejercicio de derechos",
+        "Condición": "Obligatorio",
+        "Plazo/retención": "Inmediato tras solicitud",
+        "Fuente": "PCP 2026 03993.pdf, p.26"
+      },
+      {
+        "Datos/rol/obligación": "Notificación de solicitudes de derechos",
+        "Condición": "A dpd@renfe.es",
+        "Plazo/retención": "Inmediato tras recepción",
+        "Fuente": "PCP 2026 03993.pdf, p.26"
+      },
+      {
+        "Datos/rol/obligación": "Asistencia en notificación de brechas",
+        "Condición": "Obligatorio",
+        "Plazo/retención": "Según legislación vigente",
+        "Fuente": "PCP 2026 03993.pdf, p.26"
+      },
+      {
+        "Datos/rol/obligación": "Principios de protección de datos por diseño y por defecto",
+        "Condición": "Obligatorio",
+        "Plazo/retención": "Durante la ejecución",
+        "Fuente": "PCP 2026 03993.pdf, p.28"
+      },
+      {
+        "Requisito": "Subencargados: autorización previa escrita del responsable",
+        "Condición": "Obligatorio",
+        "Fuente": "PCP 2026 03993.pdf, p.25-28; ANEXO I 2026 03393.pdf, p.26, PS.07"
+      },
+      {
+        "Requisito": "Subencargados deben asumir mismas obligaciones contractuales",
+        "Condición": "Obligatorio",
+        "Fuente": "PCP 2026 03993.pdf, p.25-28; ANEXO I 2026 03393.pdf, p.26, PS.07"
+      },
+      {
+        "Requisito": "Localización de datos: prestación desde EEE salvo autorización expresa",
+        "Condición": "Obligatorio",
+        "Fuente": "ANEXO I 2026 03393.pdf, p.25, PS.01"
+      },
+      {
+        "Requisito": "Autorización para cambios de ubicación geográfica",
+        "Condición": "Obligatorio",
+        "Fuente": "ANEXO I 2026 03393.pdf, p.25, PS.01"
+      },
+      {
+        "Requisito": "Información a RENFE de ubicación y países de tratamiento/almacenamiento",
+        "Condición": "Obligatorio",
+        "Fuente": "ANEXO I 2026 03393.pdf, p.25, PS.01"
+      },
+      {
+        "Requisito": "Transferencias internacionales: solo con autorización y conforme a Derecho UE",
+        "Condición": "Obligatorio",
+        "Fuente": "PCP 2026 03993.pdf, p.25-28"
+      },
+      {
+        "Requisito": "Cloud público: integración con CNAPP de Renfe si se solicita",
+        "Condición": "Condicionado",
+        "Fuente": "ANEXO I 2026 03393.pdf, p.35, CD.05"
+      },
+      {
+        "Medida": "Cifrado en tránsito, uso y almacenamiento",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parámetro/plazo": "Protocolos seguros (https, TLS v1.2+), datos confidenciales cifrados",
+        "Fuente": "ANEXO I 2026 03393.pdf, p.30, SD.03"
+      },
+      {
+        "Medida": "Custodia de claves en HSM",
+        "Obligatoria/valorable/condicionada": "Obligatoria salvo impedimento técnico autorizado",
+        "Parámetro/plazo": "Durante la ejecución",
+        "Fuente": "ANEXO I 2026 03393.pdf, p.30, SD.03.04"
+      },
+      {
+        "Medida": "Control de accesos y gestión de identidades",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parámetro/plazo": "Integración con sistema de identidad de Renfe, SSO, SAML2/ADFS",
+        "Fuente": "ANEXO I 2026 03393.pdf, p.32, GI.05.01"
+      },
+      {
+        "Medida": "MFA/2FA para servicios expuestos a Internet",
+        "Obligatoria/valorable/condicionada": "Obligatoria para servicios expuestos",
+        "Parámetro/plazo": "Durante la ejecución",
+        "Fuente": "ANEXO I 2026 03393.pdf, p.35, CD.03.11"
+      },
+      {
+        "Medida": "RBAC, mínimo privilegio, perfiles diferenciados",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parámetro/plazo": "Definición y gestión de roles, control de privilegios",
+        "Fuente": "ANEXO I 2026 03393.pdf, p.32, GI.07"
+      },
+      {
+        "Medida": "PAM (gestión de accesos privilegiados)",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parámetro/plazo": "Gestión y control de accesos privilegiados",
+        "Fuente": "ANEXO I 2026 03393.pdf, p.32, GI.08-09"
+      },
+      {
+        "Medida": "VPN para accesos remotos",
+        "Obligatoria/valorable/condicionada": "Obligatoria si hay acceso remoto",
+        "Parámetro/plazo": "Durante la ejecución",
+        "Fuente": "ANEXO I 2026 03393.pdf, p.33, GI.10.03"
+      },
+      {
+        "Medida": "Bastionado, segmentación de red",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parámetro/plazo": "Segmentación adecuada, controles de acceso",
+        "Fuente": "ANEXO I 2026 03393.pdf, p.29, CN.03; p.35, CD.03.01, CD.03.02"
+      },
+      {
+        "Medida": "EDR/antimalware",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parámetro/plazo": "Instalación y mantenimiento en equipos adjudicatario",
+        "Fuente": "ANEXO I 2026 03393.pdf, p.33-34, SE.04"
+      },
+      {
+        "Medida": "WAF para servicios web",
+        "Obligatoria/valorable/condicionada": "Obligatoria si aplica",
+        "Parámetro/plazo": "Durante la ejecución",
+        "Fuente": "ANEXO I 2026 03393.pdf, p.35, CD.03.04"
+      },
+      {
+        "Medida": "SIEM, logs y monitorización 24x7",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parámetro/plazo": "Integración con SIEM de Renfe, logs normalizados, retención según Renfe",
+        "Fuente": "ANEXO I 2026 03393.pdf, p.36, CD.06-07"
+      },
+      {
+        "Medida": "DLP",
+        "Obligatoria/valorable/condicionada": "Obligatoria si hay datos personales/confidenciales",
+        "Parámetro/plazo": "Descubrimiento cada 3 meses",
+        "Fuente": "ANEXO I 2026 03393.pdf, p.29, SD.01.03; p.35, CD.03.06"
+      },
+      {
+        "Medida": "Backups, restauración y pruebas",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parámetro/plazo": "Procesos de backup, restauración y pruebas",
+        "Fuente": "ANEXO I 2026 03393.pdf, p.29, SD.01.04; p.38, DS.01.03"
+      },
+      {
+        "Medida": "Defensa perimetral, IDS/IPS, proxys, CASB, CWPP",
+        "Obligatoria/valorable/condicionada": "Obligatoria según arquitectura",
+        "Parámetro/plazo": "Durante la ejecución",
+        "Fuente": "ANEXO I 2026 03393.pdf, p.35, CD.03"
+      },
+      {
+        "Medida": "Protección correo electrónico",
+        "Obligatoria/valorable/condicionada": "Obligatoria si aplica",
+        "Parámetro/plazo": "Antimalware, antispam, reputación",
+        "Fuente": "ANEXO I 2026 03393.pdf, p.35, CD.03.10"
+      },
+      {
+        "Requisito/dato": "Certificación ENS nivel Medio",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Certificado ENS nivel Medio o compromiso de obtenerlo",
+        "Documento": "ANEXO I 2026 03393.pdf",
+        "Página/apartado": "p.28-29, CN.01",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "ISO 27001",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Certificación ISO 27001 o equivalente",
+        "Documento": "PCP 2026 03993.pdf",
+        "Página/apartado": "p.20",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Declaración responsable requisitos seguridad",
+        "Tipo": "Requisito de admisión",
+        "Valor/condición": "Declaración responsable",
+        "Documento": "ANEXO II 2026 03993.pdf",
+        "Página/apartado": "p.2",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Análisis de riesgos MAGERIT",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Informe de análisis de riesgos conforme ENS",
+        "Documento": "ANEXO I 2026 03393.pdf",
+        "Página/apartado": "p.25-26, PS.04",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Informe CLARA CCN",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Informe individual por equipo, cumplimiento ENS ≥65%",
+        "Documento": "ANEXO I 2026 03393.pdf",
+        "Página/apartado": "p.24, 34, SE.05",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Medidas técnicas ENS",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Medidas técnicas y organizativas alineadas ENS",
+        "Documento": "ANEXO I 2026 03393.pdf",
+        "Página/apartado": "p.25-39",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Encargado del tratamiento",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Tratar datos solo según instrucciones de RENFE",
+        "Documento": "PCP 2026 03993.pdf",
+        "Página/apartado": "p.25-28",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Subencargados: autorización previa",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Autorización escrita de RENFE",
+        "Documento": "PCP 2026 03993.pdf",
+        "Página/apartado": "p.25-28",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Localización de datos",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Prestación desde EEE salvo autorización expresa",
+        "Documento": "ANEXO I 2026 03393.pdf",
+        "Página/apartado": "p.25, PS.01",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Cifrado en tránsito y almacenamiento",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Protocolos seguros, datos confidenciales cifrados",
+        "Documento": "ANEXO I 2026 03393.pdf",
+        "Página/apartado": "p.30, SD.03",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Control de accesos, RBAC, SSO",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Integración con sistema de identidad de Renfe",
+        "Documento": "ANEXO I 2026 03393.pdf",
+        "Página/apartado": "p.32, GI.05.01",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "MFA/2FA",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Para servicios expuestos a Internet",
+        "Documento": "ANEXO I 2026 03393.pdf",
+        "Página/apartado": "p.35, CD.03.11",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "PAM",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Gestión de accesos privilegiados",
+        "Documento": "ANEXO I 2026 03393.pdf",
+        "Página/apartado": "p.32, GI.08-09",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "VPN",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Acceso remoto seguro",
+        "Documento": "ANEXO I 2026 03393.pdf",
+        "Página/apartado": "p.33, GI.10.03",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Logging, SIEM",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Integración con SIEM de Renfe, logs normalizados",
+        "Documento": "ANEXO I 2026 03393.pdf",
+        "Página/apartado": "p.36, CD.06-07",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Backups",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Procesos de backup, restauración y pruebas",
+        "Documento": "ANEXO I 2026 03393.pdf",
+        "Página/apartado": "p.29, SD.01.04",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Planes de continuidad y salida",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Planes de contingencia, crisis, continuidad, salida",
+        "Documento": "ANEXO I 2026 03393.pdf",
+        "Página/apartado": "p.38-39, DS.01-03",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Auditorías",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Colaboración obligatoria, acceso a sistemas y locales",
+        "Documento": "ANEXO I 2026 03393.pdf",
+        "Página/apartado": "p.37-38, AU.01-04",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Borrado y destrucción segura",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Procedimiento seguro, certificado de destrucción",
+        "Documento": "ANEXO I 2026 03393.pdf",
+        "Página/apartado": "p.29, CN.04",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "Penalizaciones por incumplimiento",
+        "Tipo": "Consecuencia contractual",
+        "Valor/condición": "Hasta 10%/20% del contrato, penalizaciones específicas",
+        "Documento": "PCP 2026 03993.pdf",
+        "Página/apartado": "p.30-34",
+        "Estado de lectura": "TEXTO EXTRAIDO"
+      },
+      {
+        "Requisito/dato": "RTO/RPO",
+        "Tipo": "NO CONSTA",
+        "Valor/condición": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Documento": "NO CONSTA",
+        "Página/apartado": "NO CONSTA",
+        "Estado de lectura": "NO CONSTA"
+      },
+      {
+        "Requisito/dato": "Desarrollo seguro (SDLC, DevSecOps, etc.)",
+        "Tipo": "NO CONSTA",
+        "Valor/condición": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Documento": "NO CONSTA",
+        "Página/apartado": "NO CONSTA",
+        "Estado de lectura": "NO CONSTA"
+      },
+      {
+        "Requisito/dato": "Plazos de notificación de incidentes",
+        "Tipo": "NO CONSTA",
+        "Valor/condición": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Documento": "NO CONSTA",
+        "Página/apartado": "NO CONSTA",
+        "Estado de lectura": "NO CONSTA"
+      },
+      {
+        "Requisito/dato": "Categorías de datos personales/interesados",
+        "Tipo": "NO CONSTA",
+        "Valor/condición": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Documento": "NO CONSTA",
+        "Página/apartado": "NO CONSTA",
+        "Estado de lectura": "NO CONSTA"
+      }
+    ],
+    "salida_original": "## 1. Resumen factual Seguridad / DPO / ENS\n\nLa licitación para la solución SaaS de inteligencia meteorológica y gestión de riesgos naturales para la operación ferroviaria de RENFE-Operadora exige el cumplimiento de requisitos avanzados en materia de seguridad, protección de datos y ENS. Se requiere certificación ENS nivel Medio, ISO 27001, medidas técnicas y organizativas alineadas con el ENS, gestión de identidades y accesos, cifrado, control de vulnerabilidades, logging, continuidad, planes de salida y destrucción segura, así como obligaciones específicas para subencargados, localización de datos y notificación de incidentes. El adjudicatario será encargado del tratamiento de datos personales y debe cumplir instrucciones documentadas del responsable (RENFE). Se establecen penalizaciones y causas de resolución contractual por incumplimiento de las obligaciones de seguridad, privacidad y ENS.\n\n---\n\n## 2. ENS: Requisito | Categoria/nivel | Alcance | Acreditacion | Momento | Fuente\n\n| Requisito ENS | Categoria/nivel | Alcance | Acreditación | Momento | Fuente |\n|---|---|---|---|---|---|\n| Certificación ENS | Nivel Medio | Sistemas de información que soportan el servicio SaaS | Certificado ENS nivel Medio o compromiso de obtenerlo | Antes del inicio del servicio o en los primeros 10 meses si no se dispone; 12 meses si solo ISO 27001 | ANEXO I 2026 03393.pdf, p.28-29, CN.01; PCP 2026 03993.pdf, p.20 |\n| Declaración responsable de cumplimiento de requisitos de seguridad | No aplica | Todos los requisitos de seguridad del Anexo I | Declaración responsable | Sobre A, presentación de oferta | ANEXO II 2026 03993.pdf, p.2; PCP 2026 03993.pdf, p.5, 7 |\n| Análisis de riesgos conforme ENS (MAGERIT) | No aplica | Servicio contratado | Informe de análisis de riesgos | Tras adjudicación, antes de inicio | ANEXO I 2026 03393.pdf, p.25-26, PS.04 |\n| Informe CLARA CCN (cumplimiento ENS ≥65%) | Nivel Medio | Equipos de usuario del adjudicatario | Informe individual por equipo | Antes de inicio de uso de equipos | ANEXO I 2026 03393.pdf, p.24, 34, SE.05 |\n| Medidas técnicas y organizativas ENS | Nivel Medio | Servicio SaaS y equipos asociados | Documentación técnica, procedimientos, evidencias | Durante ejecución | ANEXO I 2026 03393.pdf, p.25-39 |\n\n---\n\n## 3. RGPD/DPO: Datos/rol/obligacion | Condicion | Plazo/retencion | Fuente\n\n| Datos/rol/obligación | Condición | Plazo/retención | Fuente |\n|---|---|---|---|\n| Encargado del tratamiento (adjudicatario) | Tratar datos solo según instrucciones documentadas del responsable (RENFE) | Durante la ejecución del contrato | PCP 2026 03993.pdf, p.25-28, cláusula 17 |\n| Prohibición de uso para fines propios o distintos | Solo ejecución del contrato | Durante la ejecución | PCP 2026 03993.pdf, p.25-28 |\n| Prohibición de comunicación a terceros sin autorización | Salvo autorización escrita del responsable | Durante la ejecución | PCP 2026 03993.pdf, p.25-28 |\n| Confidencialidad del personal | Compromiso de confidencialidad, subsiste tras la relación | Durante y tras la ejecución | PCP 2026 03993.pdf, p.25-28 |\n| Medidas técnicas y organizativas adecuadas | Según análisis de riesgos y ENS | Durante la ejecución | PCP 2026 03993.pdf, p.25-28; ANEXO I 2026 03393.pdf, p.25-39 |\n| Subencargados: autorización previa escrita | Obligatorio | Antes de subcontratar | PCP 2026 03993.pdf, p.25-28 |\n| Registro de actividades de tratamiento | Si el tratamiento entraña riesgo, no es ocasional o incluye categorías especiales | Durante la ejecución | PCP 2026 03993.pdf, p.27 |\n| Supresión o devolución de datos al finalizar | A elección del responsable | Al finalizar el contrato | PCP 2026 03993.pdf, p.27-28; ANEXO I 2026 03393.pdf, p.29, CN.04 |\n| Certificado de destrucción | Obligatorio para cada borrado/destrucción | Al finalizar el contrato o cuando se requiera | ANEXO I 2026 03393.pdf, p.29, CN.04.02 |\n| Asistencia al responsable en ejercicio de derechos | Obligatorio | Inmediato tras solicitud | PCP 2026 03993.pdf, p.26 |\n| Notificación de solicitudes de derechos | A dpd@renfe.es | Inmediato tras recepción | PCP 2026 03993.pdf, p.26 |\n| Asistencia en notificación de brechas | Obligatorio | Según legislación vigente | PCP 2026 03993.pdf, p.26 |\n| Principios de protección de datos por diseño y por defecto | Obligatorio | Durante la ejecución | PCP 2026 03993.pdf, p.28 |\n\n---\n\n## 4. Subencargados, cloud, localización y transferencias\n\n| Requisito | Condición | Fuente |\n|---|---|---|\n| Subencargados: autorización previa escrita del responsable | Obligatorio | PCP 2026 03993.pdf, p.25-28; ANEXO I 2026 03393.pdf, p.26, PS.07 |\n| Subencargados deben asumir mismas obligaciones contractuales | Obligatorio | PCP 2026 03993.pdf, p.25-28; ANEXO I 2026 03393.pdf, p.26, PS.07 |\n| Localización de datos: prestación desde EEE salvo autorización expresa | Obligatorio | ANEXO I 2026 03393.pdf, p.25, PS.01 |\n| Autorización para cambios de ubicación geográfica | Obligatorio | ANEXO I 2026 03393.pdf, p.25, PS.01 |\n| Información a RENFE de ubicación y países de tratamiento/almacenamiento | Obligatorio | ANEXO I 2026 03393.pdf, p.25, PS.01 |\n| Transferencias internacionales: solo con autorización y conforme a Derecho UE | Obligatorio | PCP 2026 03993.pdf, p.25-28 |\n| Cloud público: integración con CNAPP de Renfe si se solicita | Condicionado | ANEXO I 2026 03393.pdf, p.35, CD.05 |\n\n---\n\n## 5. Medidas técnicas: Medida | Obligatoria/valorable/condicionada | Parametro/plazo | Fuente\n\n| Medida | Obligatoria/valorable/condicionada | Parámetro/plazo | Fuente |\n|---|---|---|---|\n| Cifrado en tránsito, uso y almacenamiento | Obligatoria | Protocolos seguros (https, TLS v1.2+), datos confidenciales cifrados | ANEXO I 2026 03393.pdf, p.30, SD.03 |\n| Custodia de claves en HSM | Obligatoria salvo impedimento técnico autorizado | Durante la ejecución | ANEXO I 2026 03393.pdf, p.30, SD.03.04 |\n| Control de accesos y gestión de identidades | Obligatoria | Integración con sistema de identidad de Renfe, SSO, SAML2/ADFS | ANEXO I 2026 03393.pdf, p.32, GI.05.01 |\n| MFA/2FA para servicios expuestos a Internet | Obligatoria para servicios expuestos | Durante la ejecución | ANEXO I 2026 03393.pdf, p.35, CD.03.11 |\n| RBAC, mínimo privilegio, perfiles diferenciados | Obligatoria | Definición y gestión de roles, control de privilegios | ANEXO I 2026 03393.pdf, p.32, GI.07 |\n| PAM (gestión de accesos privilegiados) | Obligatoria | Gestión y control de accesos privilegiados | ANEXO I 2026 03393.pdf, p.32, GI.08-09 |\n| VPN para accesos remotos | Obligatoria si hay acceso remoto | Durante la ejecución | ANEXO I 2026 03393.pdf, p.33, GI.10.03 |\n| Bastionado, segmentación de red | Obligatoria | Segmentación adecuada, controles de acceso | ANEXO I 2026 03393.pdf, p.29, CN.03; p.35, CD.03.01, CD.03.02 |\n| EDR/antimalware | Obligatoria | Instalación y mantenimiento en equipos adjudicatario | ANEXO I 2026 03393.pdf, p.33-34, SE.04 |\n| WAF para servicios web | Obligatoria si aplica | Durante la ejecución | ANEXO I 2026 03393.pdf, p.35, CD.03.04 |\n| SIEM, logs y monitorización 24x7 | Obligatoria | Integración con SIEM de Renfe, logs normalizados, retención según Renfe | ANEXO I 2026 03393.pdf, p.36, CD.06-07 |\n| DLP | Obligatoria si hay datos personales/confidenciales | Descubrimiento cada 3 meses | ANEXO I 2026 03393.pdf, p.29, SD.01.03; p.35, CD.03.06 |\n| Backups, restauración y pruebas | Obligatoria | Procesos de backup, restauración y pruebas | ANEXO I 2026 03393.pdf, p.29, SD.01.04; p.38, DS.01.03 |\n| Defensa perimetral, IDS/IPS, proxys, CASB, CWPP | Obligatoria según arquitectura | Durante la ejecución | ANEXO I 2026 03393.pdf, p.35, CD.03 |\n| Protección correo electrónico | Obligatoria si aplica | Antimalware, antispam, reputación | ANEXO I 2026 03393.pdf, p.35, CD.03.10 |\n\n---\n\n## 6. Identidad, accesos y privilegios\n\n- Integración con sistema de identidad de Renfe y federación (SAML2, ADFS, etc.).\n- Prohibición de usuarios genéricos; detección y control de creación/uso.\n- Validación de identidad, control de privilegios, registro de intentos de autenticación (fallidos y correctos) con información relevante (IP, usuario, etc.).\n- Gestión de accesos privilegiados (PAM), controles de acceso, trazabilidad, auditoría y escalado de privilegios.\n- Acceso remoto seguro (VPN).\n- Gestión de altas/bajas de usuarios, integración con directorio corporativo.\n- Listados nominales de autorizaciones y accesos a disposición del responsable.\n\nFuente: ANEXO I 2026 03393.pdf, p.32-33, GI.01-GI.11; p.29, SD.01.01-02\n\n---\n\n## 7. Vulnerabilidades, parcheado y desarrollo seguro\n\n- Estrategia y plan de no obsolescencia, gestión de vulnerabilidades (identificación, remediación, SLA).\n- Parcheo regular y seguro de productos, configuración segura, mantenimiento de documentación técnica actualizada, inventario de activos.\n- Escaneos de vulnerabilidades periódicos, entrega de informes a Renfe, remediación según criticidad y políticas de Renfe.\n- Pruebas de seguridad (pentesting, hacking ético) requieren autorización previa y entrega de resultados a Renfe.\n- Cumplimiento de guías CCN-CERT para bases de datos (según tecnología).\n- Desarrollo seguro: NO CONSTA EN LA DOCUMENTACION REVISADA referencia expresa a SDLC, DevSecOps, SAST, DAST, SCA, OWASP, CI/CD o SBOM.\n\nFuente: ANEXO I 2026 03393.pdf, p.26, PS.06; p.29, CN.03; p.35-36, CD.04, CD.09; p.30, SD.04.02\n\n---\n\n## 8. Incidentes, brechas y plazos de notificación expresamente indicados\n\n- Notificación de incidentes de seguridad con impacto Medio, Alto, Muy Alto y Crítico a la Gerencia de Área de Ciberseguridad de Renfe y al CERT de Renfe (notificaciones.pocterceros.ciberseguridad@renfe.es).\n- El adjudicatario debe colaborar en la valoración, remediación, documentación y notificación del incidente.\n- Prohibición de destrucción de pruebas durante la gestión del incidente.\n- Plazos: NO CONSTA EN LA DOCUMENTACION REVISADA un plazo expreso de horas/días para la notificación de incidentes o brechas.\n- Notificación de solicitudes de derechos de interesados a dpd@renfe.es de forma inmediata tras recepción.\n\nFuente: ANEXO I 2026 03393.pdf, p.36-37, CD.08; PCP 2026 03993.pdf, p.26\n\n---\n\n## 9. Logging, SOC/SIEM, continuidad, backup, RTO/RPO y retención\n\n- Logging: registro, auditoría y trazabilidad de eventos, operaciones y accesos; logs normalizados, integración con SIEM de Renfe o API autorizada.\n- Custodia de logs por el periodo de retención que especifique Renfe.\n- Monitorización 24x7 de la infraestructura para detección de incidencias e incidentes.\n- Continuidad: planes de contingencia, crisis, continuidad de negocio, salida programada y sobrevenida, identificación de competencias críticas para retomar control.\n- Backups: mecanismos adecuados y contrastados, pruebas de restauración.\n- RTO/RPO: NO CONSTA EN LA DOCUMENTACION REVISADA valores numéricos específicos.\n- Pruebas de continuidad: se exige elaboración de planes, pero no se detallan frecuencias ni formatos de pruebas.\n\nFuente: ANEXO I 2026 03393.pdf, p.27, PS.08; p.36, CD.06-07; p.38-39, DS.01-03\n\n---\n\n## 10. Auditorias, evidencias, certificaciones, seguridad del personal, borrado y confidencialidad\n\n- Auditorías: Renfe podrá solicitar informes técnicos, auditorías, revisiones de seguridad y continuidad, acceso a locales y sistemas, colaboración obligatoria del adjudicatario.\n- Auditoría bi-anual autoimpuesta, auditorías de terceros (IGAE, Tribunal de Cuentas, etc.), auditorías extraordinarias.\n- Evidencias: entrega de documentación, registros, informes de seguridad, certificados de destrucción.\n- Certificaciones: ENS nivel Medio (obligatoria), ISO 27001 (obligatoria), otras certificaciones relevantes pueden ser solicitadas.\n- Seguridad del personal: formación, concienciación y capacitación obligatoria en tecnologías, seguridad de la información y legislación aplicable.\n- Borrado y destrucción: procedimiento seguro conforme ENS, entrega de certificado con fecha, personal, procedimiento.\n- Confidencialidad: acuerdo de confidencialidad firmado por personal propio y subcontratado, obligación subsiste tras la relación.\n\nFuente: ANEXO I 2026 03393.pdf, p.27-28, PS.10-11; p.29, CN.04; p.37-38, AU.01-04\n\n---\n\n## 11. Consecuencias contractuales expresamente asociadas al incumplimiento\n\n- Penalización hasta el 10% del contrato por no entrega de documentación de ciberseguridad (análisis de riesgos, acuerdos de confidencialidad, informes de seguridad, etc.).\n- Penalización de 1000-3000€ por demora en completar el cuestionario de evaluación de seguridad de la cadena de suministro (PS.07).\n- Penalización hasta el 10% del contrato por falta de certificación ENS nivel Medio (CN.01).\n- Penalización de 1000€ por no notificar el Punto de Contacto de Seguridad en plazo, incrementándose por cada mes adicional; penalización por falta de respuesta del POC de Seguridad en 48h y sucesivos periodos de 24h.\n- Penalización hasta el 20% del contrato por incumplimiento de obligaciones de confidencialidad, protección de datos y propiedad intelectual.\n- Resolución contractual por incumplimiento de SP.01, PS.07, CN.01, entrega de documentación de ciberseguridad, confidencialidad, protección de datos, propiedad intelectual y ética y cumplimiento.\n\nFuente: PCP 2026 03993.pdf, p.30-34, cláusulas 19 y 29\n\n---\n\n## 12. Datos no localizados o ambiguos, sin recomendaciones\n\n- NO CONSTA EN LA DOCUMENTACION REVISADA: valores numéricos de RTO/RPO.\n- NO CONSTA EN LA DOCUMENTACION REVISADA: detalle de SDLC, DevSecOps, SAST, DAST, SCA, OWASP, CI/CD, SBOM.\n- NO CONSTA EN LA DOCUMENTACION REVISADA: categorías concretas de datos personales tratados, interesados o finalidades específicas más allá de la ejecución del contrato.\n- NO CONSTA EN LA DOCUMENTACION REVISADA: plazos expresos (en horas/días) para notificación de incidentes de seguridad o brechas de datos personales.\n\n---\n\n## 13. Documentos revisados\n\n1. PCP 2026 03993.pdf (Pliego administrativo)\n2. ANEXO I 2026 03393.pdf (Pliego técnico)\n3. ANEXO III 2026 03993.pdf (Modelo oferta económica)\n4. ANEXO II 2026 03993.pdf (Modelo declaración responsable)\n5. ANEXO IV 2026 03993.pdf (Modelo garantía definitiva)\n6. poc (Plataforma de Contratación del Sector Público, información general)\n7. poc (Perfil de contratante RENFE-Operadora, información general)\n8. poc (Perfil de contratante RENFE-Operadora, información general)\n\n---\n\n## 14. Tabla de trazabilidad\n\n| Requisito/dato | Tipo | Valor/condición | Documento | Página/apartado | Estado de lectura |\n|---|---|---|---|---|---|\n| Certificación ENS nivel Medio | Obligación contractual | Certificado ENS nivel Medio o compromiso de obtenerlo | ANEXO I 2026 03393.pdf | p.28-29, CN.01 | TEXTO EXTRAIDO |\n| ISO 27001 | Obligación contractual | Certificación ISO 27001 o equivalente | PCP 2026 03993.pdf | p.20 | TEXTO EXTRAIDO |\n| Declaración responsable requisitos seguridad | Requisito de admisión | Declaración responsable | ANEXO II 2026 03993.pdf | p.2 | TEXTO EXTRAIDO |\n| Análisis de riesgos MAGERIT | Obligación contractual | Informe de análisis de riesgos conforme ENS | ANEXO I 2026 03393.pdf | p.25-26, PS.04 | TEXTO EXTRAIDO |\n| Informe CLARA CCN | Obligación contractual | Informe individual por equipo, cumplimiento ENS ≥65% | ANEXO I 2026 03393.pdf | p.24, 34, SE.05 | TEXTO EXTRAIDO |\n| Medidas técnicas ENS | Obligación contractual | Medidas técnicas y organizativas alineadas ENS | ANEXO I 2026 03393.pdf | p.25-39 | TEXTO EXTRAIDO |\n| Encargado del tratamiento | Obligación contractual | Tratar datos solo según instrucciones de RENFE | PCP 2026 03993.pdf | p.25-28 | TEXTO EXTRAIDO |\n| Subencargados: autorización previa | Obligación contractual | Autorización escrita de RENFE | PCP 2026 03993.pdf | p.25-28 | TEXTO EXTRAIDO |\n| Localización de datos | Obligación contractual | Prestación desde EEE salvo autorización expresa | ANEXO I 2026 03393.pdf | p.25, PS.01 | TEXTO EXTRAIDO |\n| Cifrado en tránsito y almacenamiento | Obligación contractual | Protocolos seguros, datos confidenciales cifrados | ANEXO I 2026 03393.pdf | p.30, SD.03 | TEXTO EXTRAIDO |\n| Control de accesos, RBAC, SSO | Obligación contractual | Integración con sistema de identidad de Renfe | ANEXO I 2026 03393.pdf | p.32, GI.05.01 | TEXTO EXTRAIDO |\n| MFA/2FA | Obligación contractual | Para servicios expuestos a Internet | ANEXO I 2026 03393.pdf | p.35, CD.03.11 | TEXTO EXTRAIDO |\n| PAM | Obligación contractual | Gestión de accesos privilegiados | ANEXO I 2026 03393.pdf | p.32, GI.08-09 | TEXTO EXTRAIDO |\n| VPN | Obligación contractual | Acceso remoto seguro | ANEXO I 2026 03393.pdf | p.33, GI.10.03 | TEXTO EXTRAIDO |\n| Logging, SIEM | Obligación contractual | Integración con SIEM de Renfe, logs normalizados | ANEXO I 2026 03393.pdf | p.36, CD.06-07 | TEXTO EXTRAIDO |\n| Backups | Obligación contractual | Procesos de backup, restauración y pruebas | ANEXO I 2026 03393.pdf | p.29, SD.01.04 | TEXTO EXTRAIDO |\n| Planes de continuidad y salida | Obligación contractual | Planes de contingencia, crisis, continuidad, salida | ANEXO I 2026 03393.pdf | p.38-39, DS.01-03 | TEXTO EXTRAIDO |\n| Auditorías | Obligación contractual | Colaboración obligatoria, acceso a sistemas y locales | ANEXO I 2026 03393.pdf | p.37-38, AU.01-04 | TEXTO EXTRAIDO |\n| Borrado y destrucción segura | Obligación contractual | Procedimiento seguro, certificado de destrucción | ANEXO I 2026 03393.pdf | p.29, CN.04 | TEXTO EXTRAIDO |\n| Penalizaciones por incumplimiento | Consecuencia contractual | Hasta 10%/20% del contrato, penalizaciones específicas | PCP 2026 03993.pdf | p.30-34 | TEXTO EXTRAIDO |\n| RTO/RPO | NO CONSTA | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | NO CONSTA | NO CONSTA |\n| Desarrollo seguro (SDLC, DevSecOps, etc.) | NO CONSTA | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | NO CONSTA | NO CONSTA |\n| Plazos de notificación de incidentes | NO CONSTA | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | NO CONSTA | NO CONSTA |\n| Categorías de datos personales/interesados | NO CONSTA | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | NO CONSTA | NO CONSTA |\n\n---\n\n## Discrepancias y pendientes de aclaración\n\nNo se han identificado discrepancias en la documentación revisada. No se localizan valores numéricos de RTO/RPO, detalles de SDLC/DevSecOps/SAST/DAST/SCA/OWASP/CI-CD/SBOM, ni plazos expresos para notificación de incidentes o brechas. No se detallan categorías concretas de datos personales tratados ni interesados."
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "PCP 2026 03993.pdf",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 96360,
+        "caracteres_enviados_al_agente": 96360,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "ANEXO I 2026 03393 .pdf",
+        "tipo": "Pliego tecnico",
+        "fuente": "XML",
+        "caracteres_extraidos": 97875,
+        "caracteres_enviados_al_agente": 97875,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "ANEXO III 2026 03993.pdf",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 1431,
+        "caracteres_enviados_al_agente": 1431,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 4,
+        "nombre": "ANEXO II 2026 03993.pdf",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 7189,
+        "caracteres_enviados_al_agente": 7189,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 5,
+        "nombre": "ANEXO IV 2026 03993.pdf",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 4657,
+        "caracteres_enviados_al_agente": 4657,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 6,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "PCP 2026 03993.pdf",
+        "caracteres_extraidos": 2659,
+        "caracteres_enviados_al_agente": 2659,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 7,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "PCP 2026 03993.pdf",
+        "caracteres_extraidos": 3160,
+        "caracteres_enviados_al_agente": 3160,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 8,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "poc",
+        "caracteres_extraidos": 3160,
+        "caracteres_enviados_al_agente": 3160,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Se omitieron 6 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  }
+}

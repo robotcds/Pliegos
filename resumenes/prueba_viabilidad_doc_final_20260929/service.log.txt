@@ -1,0 +1,240 @@
+
+--- Respuesta de la IA ---
+
+1. Veredicto ejecutivo Service Design / ITIL: ALTO RIESGO
+
+---
+
+Extracción de viabilidad
+
+Tabla de requisitos principales (ámbito Service Design / ITIL):
+
+| Parámetro                        | Literal y apartado del pliego         | Umbral y fecha exigidos                  | Estado         | Brecha, acción y responsable                  |
+|----------------------------------|---------------------------------------|------------------------------------------|---------------|-----------------------------------------------|
+| ISO 20000-1                      | PCAP A4, PPT T2                      | Vigente al cierre y durante ejecución    | NO ACREDITADO | No se aporta certificado ni evidencia. Acción: Solicitar a Calidad/Compliance. Responsable: CISO/Calidad. |
+| ISO 27001 (producción)           | PCAP A4, PPT T3                      | Vigente, entorno de producción           | NO ACREDITADO | Certificado solo para oficina de desarrollo, no para producción. Acción: Solicitar a partner cloud o ampliar alcance. Responsable: CISO/Alianzas. |
+| ENS MEDIA (producción)           | PCAP A4, PPT T3                      | Vigente, entorno de producción           | NO ACREDITADO | Certificado solo para desarrollo, no para producción. Acción: Solicitar a partner cloud o ampliar alcance. Responsable: CISO/Alianzas. |
+| Microsoft Solutions Partner/Azure| PCAP A4, PPT T3                      | Vigente al cierre                        | NO ACREDITADO | Partner tiene nivel, pero especialización Azure VMware Solution caducada y sin compromiso firmado. Acción: Renovar y formalizar compromiso. Responsable: Compras/Alianzas. |
+| Service Desk/Soporte N2 8x5      | PPT T2                               | 8x5 para 150 usuarios internos y 10.000 ciudadanos | CUMPLE         | Capacidad interna suficiente para N2 8x5. |
+| Gestión de incidencias/cambios   | PPT T2                               | Obligación de ejecución                  | CUMPLE         | Procesos implantados, madurez suficiente. |
+| Gestión del conocimiento         | PPT T2                               | Obligación de ejecución                  | CUMPLE         | Base de conocimiento y runbooks disponibles. |
+| SLA respuesta crítica 1h         | PPT T2                               | 1h laborable                             | CUMPLE         | Capacidad interna suficiente. |
+| SLA resolución crítica 8h        | PPT T2                               | 8h laborable                             | CUMPLE         | Capacidad interna suficiente. |
+| Transición inicial 4 semanas     | PPT T2                               | 4 semanas                                | CUMPLE         | Capacidad interna suficiente. |
+| Reversibilidad 2 semanas         | PPT T2                               | 2 semanas                                | CUMPLE         | Capacidad interna suficiente. |
+
+Fichas de evidencia (ámbito Service Design / ITIL):
+
+- ISO 20000-1
+  - Titular: NO CONSTA
+  - Alcance: NO CONSTA
+  - Emisor: NO CONSTA
+  - Identificador: NO CONSTA
+  - Caducidad: NO CONSTA
+  - Equivalencias: NO CONSTA
+  - Documento: NO CONSTA
+
+- ISO 27001 (producción)
+  - Titular: Sermicro Software Ficticio S.L.
+  - Alcance: Oficina de desarrollo de Madrid. EXCLUYE alojamiento y operación de producción.
+  - Emisor: Certificadora Ficticia Seguridad
+  - Identificador: S-270-317
+  - Caducidad: 31/12/2027
+  - Equivalencias: NO CONSTA
+  - Documento: Dossier E4
+
+- ENS MEDIA (producción)
+  - Titular: Sermicro Software Ficticio S.L.
+  - Alcance: Entorno de desarrollo de Madrid. NO incluye el entorno de producción en Azure.
+  - Emisor: Auditora Ficticia ENS
+  - Identificador: ENS-M-044
+  - Caducidad: 31/12/2026
+  - Equivalencias: NO CONSTA
+  - Documento: Dossier E4
+
+- Microsoft Solutions Partner for Infrastructure (Azure)
+  - Titular: Cloud Partner Ficticio S.A.
+  - Alcance: Infraestructura Azure
+  - Emisor: Microsoft
+  - Identificador: NO CONSTA
+  - Caducidad: 31/03/2027
+  - Equivalencias: NO CONSTA
+  - Documento: Dossier E5
+
+- Especialización Azure VMware Solution
+  - Titular: Cloud Partner Ficticio S.A.
+  - Alcance: Azure VMware Solution
+  - Emisor: Microsoft
+  - Identificador: NO CONSTA
+  - Caducidad: 31/08/2026 (caducada)
+  - Equivalencias: NO CONSTA
+  - Documento: Dossier E5
+
+- Compromiso formal de adscripción partner
+  - Valor: NO CONSTA
+  - Documento: NO CONSTA
+
+- Jefatura de proyecto
+  - Nombre: Ana Torres
+  - Titulación: Ingeniera informática
+  - Experiencia: 10 años sector IT, 8 años proyectos públicos web/cloud
+  - Certificación PMP: PMP-AT-0921, PMI, vigencia hasta 30/09/2026
+  - Documento: Dossier E6
+
+- Backend
+  - Nombre: Sofia Martin
+  - Titulación: Ingeniera informática
+  - Experiencia: 7 años sector IT, 6 años backend/APIs
+  - Certificación AWS Developer Associate: AWS-SM-0422, emisor AWS, fecha de expiración NO CONSTA
+  - Documento: Dossier E6
+
+---
+
+2. Alcance y dimensionamiento del servicio:
+- Servicios incluidos: Desarrollo de portal ciudadano accesible, integración con registro, notificaciones, API REST, base de datos PostgreSQL, operación y soporte N2 8x5.
+- Servicios excluidos: NO EXIGIDO (no se detallan exclusiones en el pliego).
+- Sistemas afectados: Portal web, backend, base de datos, integración con sistemas municipales.
+- Usuarios: 150 usuarios internos, 10.000 ciudadanos.
+- Sedes: NO EXIGIDO (no se especifican sedes físicas).
+- Horarios: Soporte N2 8x5.
+- Modalidad: NO EXIGIDO (presencial/remoto no especificado, pero se asume remoto/mixto por experiencia y contexto).
+- Cobertura geográfica: NO EXIGIDO (se asume Comunidad de Madrid por ubicación del órgano).
+- Volumetrías: 150 usuarios internos, 10.000 ciudadanos; no se detallan tickets/incidencias/cambios/llamadas.
+- Impacto: Dimensionamiento suficiente para N2 8x5, pero sin datos de volumetría de tickets/incidencias, lo que introduce riesgo de subdimensionamiento.
+
+3. Modelo de servicio exigido:
+- Estructura: Soporte N2 8x5, gestión de incidencias, cambios y conocimiento. No se exige N1, N3, ni Service Desk explícito. QA al 50%.
+- Operación: Gestión de incidencias, cambios y conocimiento como procesos ITIL obligatorios.
+- Mantenimiento: NO EXIGIDO (no se detalla mantenimiento preventivo/correctivo).
+- Monitorización: NO EXIGIDO.
+- Servicios especializados: NO EXIGIDO.
+
+4. Procesos ITIL requeridos:
+| Proceso                  | Explícito/Implícito | Evidencia textual (pliego)                | Exigencia           | Capacidad actual         | Gap                  |
+|--------------------------|---------------------|-------------------------------------------|---------------------|-------------------------|----------------------|
+| Incident Management      | Explícito           | "Gestión de incidencias" (PPT T2)         | Obligación ejecución| Implantado              | Ninguno              |
+| Change Management        | Explícito           | "Gestión de cambios" (PPT T2)             | Obligación ejecución| Implantado              | Ninguno              |
+| Knowledge Management     | Explícito           | "Gestión del conocimiento" (PPT T2)       | Obligación ejecución| Implantado              | Ninguno              |
+| Service Level Management | Implícito           | SLA respuesta/resolución (PPT T2)         | Obligación ejecución| Implantado              | Ninguno              |
+| Problem Management       | NO EXIGIDO          | NO EXIGIDO                                | NO EXIGIDO         | Parcial                 | NO EXIGIDO           |
+| Configuration Management | NO EXIGIDO          | NO EXIGIDO                                | NO EXIGIDO         | Parcial                 | NO EXIGIDO           |
+| Event Management         | NO EXIGIDO          | NO EXIGIDO                                | NO EXIGIDO         | Parcial                 | NO EXIGIDO           |
+| Availability Management  | NO EXIGIDO          | NO EXIGIDO                                | NO EXIGIDO         | Parcial                 | NO EXIGIDO           |
+| Capacity Management      | NO EXIGIDO          | NO EXIGIDO                                | NO EXIGIDO         | Parcial                 | NO EXIGIDO           |
+| Continuity Management    | NO EXIGIDO          | NO EXIGIDO                                | NO EXIGIDO         | Parcial                 | NO EXIGIDO           |
+| Release/Deployment       | NO EXIGIDO          | NO EXIGIDO                                | NO EXIGIDO         | Implantado              | NO EXIGIDO           |
+| Continual Improvement    | NO EXIGIDO          | NO EXIGIDO                                | NO EXIGIDO         | Implantado              | NO EXIGIDO           |
+
+5. SLA, KPI y penalizaciones:
+| Servicio         | Prioridad | Respuesta | Resolución | Objetivo | Horario | Penalización | Capacidad actual | Gap | Riesgo operativo |
+|------------------|-----------|-----------|------------|----------|---------|--------------|------------------|-----|------------------|
+| Soporte N2       | Crítica   | 1h        | 8h         | 100%     | 8x5     | NO EXIGIDO   | Disponible       | No  | Bajo             |
+
+6. Modelo de priorización:
+- Niveles P1/P2/P3/P4: NO EXIGIDO (solo se define "crítica").
+- Impacto x urgencia: NO EXIGIDO.
+- Ambigüedades: No se definen otras prioridades ni reglas de escalado.
+- Riesgos: Ambigüedad en priorización puede generar conflictos en interpretación de SLA si surgen incidencias no críticas.
+
+7. Organización y modelo operativo:
+- Roles exigidos: Jefatura (Ingeniería informática, 8 años sector, 5 años dirigiendo proyectos similares, PMP vigente), Backend (Ingeniería informática, 5 años sector, AWS Developer Associate vigente), dos desarrolladores adicionales, QA 50%, soporte N2 8x5.
+- Dedicaciones: Jefatura 50%, Backend 100%, QA 50%, desarrolladores adicionales (no se especifica dedicación), soporte N2 8x5.
+- Guardias: NO EXIGIDO.
+- Presencialidad: NO EXIGIDO.
+- Sustituciones: NO EXIGIDO.
+- Idiomas: NO EXIGIDO.
+- Certificaciones: PMP (jefatura), AWS Developer Associate (backend).
+- Perfiles internos que encajan: Ana Torres (jefatura, PMP), Sofia Martin (backend, AWS Developer Associate, pero falta fecha de vigencia), Claudia Benitez (soporte N2, ITIL Foundation), Elena Garcia (QA, ISTQB Foundation).
+- Faltantes: Certificados de vigencia para AWS Developer Associate, desarrolladores adicionales y QA al 50% (no se aportan evidencias formales en el dossier).
+
+8. Gobierno del servicio:
+- Comités: NO EXIGIDO (no se especifican comités, frecuencia ni entregables).
+- Propuesta: Comité operativo semanal, comité de seguimiento mensual, comité de dirección trimestral, informes de SLA y tickets.
+
+9. Herramientas ITSM, CMDB y monitorización:
+- Herramienta ITSM: NO EXIGIDO (no se especifica herramienta obligatoria).
+- Integraciones/APIs: NO EXIGIDO.
+- Portal usuario: NO EXIGIDO.
+- Inventario/CMDB: NO EXIGIDO.
+- Monitorización: NO EXIGIDO.
+- Reporting: NO EXIGIDO.
+
+10. Transición, toma de control y reversibilidad:
+- Fases: Transición inicial 4 semanas, aceptación funcional y de accesibilidad, reversibilidad 2 semanas dentro del plazo contratado.
+- Shadowing/reverse shadowing: NO EXIGIDO.
+- Migración de tickets: NO EXIGIDO.
+- Configuración SLA: NO EXIGIDO.
+- Formación: NO EXIGIDO.
+- Entrega de documentación: Implícita en reversibilidad.
+- Salida: Reversibilidad 2 semanas.
+
+11. Continuidad, disponibilidad y seguridad operativa:
+- RTO/RPO: NO EXIGIDO.
+- Alta disponibilidad: NO EXIGIDO.
+- Backups: Copias diarias, restauración mensual, registros 12 meses (PPT T3).
+- Contingencia: NO EXIGIDO.
+- Accesos/MFA: MFA administrativo exigido (PPT T3).
+- Usuarios privilegiados: NO EXIGIDO.
+- Vulnerabilidades: NO EXIGIDO.
+- ENS/RGPD: ENS MEDIA y ISO 27001 exigidos para producción (NO ACREDITADO). RGPD implícito por datos personales.
+- Incidentes de seguridad: NO EXIGIDO.
+
+12. Automatización, self-service y mejora continua:
+- Exigencias: NO EXIGIDO.
+- Oportunidades: Implantar base de conocimiento, scripts de automatización y chatbot para reducir incidencias y mejorar SLA.
+
+13. Reporting y gestión del conocimiento:
+- Informes: NO EXIGIDO.
+- Cuadros de mando: NO EXIGIDO.
+- Base de conocimiento: Obligación de gestión del conocimiento (PPT T2).
+- Runbooks/FAQs/KEDB: NO EXIGIDO.
+- Manuales: NO EXIGIDO.
+- Propiedad documental: NO EXIGIDO.
+
+14. Matriz de evaluación Service Design:
+| Requisito                        | Exigencia         | Impacto         | Capacidad actual | Gap           | Riesgo         | Acción recomendada                | Diferenciación posible           |
+|----------------------------------|-------------------|-----------------|------------------|---------------|---------------|-----------------------------------|----------------------------------|
+| ISO 20000-1                      | Admisión          | Eliminatorio    | NO ACREDITADO    | Crítico       | Exclusión      | Buscar partner o certificar       | NO                              |
+| ISO 27001 (producción)           | Admisión          | Eliminatorio    | NO ACREDITADO    | Crítico       | Exclusión      | Buscar partner o ampliar alcance  | NO                              |
+| ENS MEDIA (producción)           | Admisión          | Eliminatorio    | NO ACREDITADO    | Crítico       | Exclusión      | Buscar partner o ampliar alcance  | NO                              |
+| Microsoft Solutions Partner/Azure| Admisión          | Eliminatorio    | NO ACREDITADO    | Crítico       | Exclusión      | Renovar y formalizar compromiso   | NO                              |
+| Soporte N2 8x5                   | Ejecución         | Alto            | CUMPLE           | Ninguno       | Bajo           | Mantener                         | Experiencia sector público       |
+| Gestión de incidencias/cambios   | Ejecución         | Alto            | CUMPLE           | Ninguno       | Bajo           | Mantener                         | ITIL implantado                 |
+| Gestión del conocimiento         | Ejecución         | Medio           | CUMPLE           | Ninguno       | Bajo           | Mantener                         | Base de conocimiento             |
+| SLA respuesta crítica 1h         | Ejecución         | Alto            | CUMPLE           | Ninguno       | Bajo           | Mantener                         | Experiencia en proyectos previos |
+| SLA resolución crítica 8h        | Ejecución         | Alto            | CUMPLE           | Ninguno       | Bajo           | Mantener                         | Experiencia en proyectos previos |
+
+15. Riesgos operativos principales:
+- Exclusión automática por falta de ISO 20000-1, ISO 27001 (producción), ENS MEDIA (producción) y Microsoft Solutions Partner/Azure con compromiso formal.
+- Subdimensionamiento por falta de volumetría de tickets/incidencias.
+- Ambigüedad en priorización de incidencias no críticas.
+- Falta de evidencia formal de certificaciones personales (AWS Developer Associate, QA, desarrolladores adicionales).
+- Dependencia de partner para cumplimiento de requisitos de nube y seguridad.
+
+16. Modelo operativo recomendado para ofertar:
+- Buscar partner certificado con ISO 20000-1, ISO 27001 y ENS MEDIA para producción en Azure, y formalizar compromiso de adscripción.
+- Mantener estructura de soporte N2 8x5, con Ana Torres (jefatura), Sofia Martin (backend), Claudia Benitez (soporte N2), Elena Garcia (QA), y reforzar con desarrolladores adicionales acreditados.
+- Implantar procesos ITIL de gestión de incidencias, cambios y conocimiento, con reporting mensual.
+- Proponer comité operativo semanal y comité de seguimiento mensual.
+- Utilizar Jira Service Management o ServiceNow (según preferencia del cliente) para ITSM y gestión de tickets.
+- Preparar plan de transición de 4 semanas y reversibilidad de 2 semanas, con checklist documental.
+- Ofrecer base de conocimiento y automatización básica para mejora continua.
+
+17. Preguntas o aclaraciones al órgano de contratación:
+- ¿Se aceptan medios externos para cubrir ISO 20000-1, ISO 27001 y ENS MEDIA en producción? ¿Qué documentación de compromiso es válida?
+- ¿Qué volumetría de tickets/incidencias/cambios se prevé mensualmente?
+- ¿Se exige alguna herramienta ITSM concreta o integración con sistemas municipales?
+- ¿Se requiere presencialidad en algún rol o sede física?
+- ¿Qué criterios de priorización existen para incidencias no críticas?
+- ¿Qué penalizaciones se aplican por incumplimiento de SLA?
+- ¿Se exige reporting periódico y en qué formato?
+- ¿Se requiere CMDB o inventario de activos?
+- ¿Qué alcance exacto debe tener la reversibilidad (datos, documentación, configuraciones)?
+
+18. Documentos revisados:
+- PCAP OPP-SW-011 (Pliego administrativo)
+- PPT OPP-SW-011 (Pliego técnico)
+- Dossier interno ficticio OPP-SW-011
+
+--- Fin de la respuesta de la IA ---
+

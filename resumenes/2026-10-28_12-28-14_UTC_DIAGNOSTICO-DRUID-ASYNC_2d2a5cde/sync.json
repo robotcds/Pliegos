@@ -1,0 +1,26 @@
+{
+  "started_at_utc": "2026-10-28T12:28:14.868+00:00",
+  "method": "POST",
+  "url": "https://druidendpoints.druidplatform.com/api/Druid/8805a55b-9947-47b5-d511-08de9ea71a4f/GPT/a01aac92-01d1-40b9-8959-1937189f4d4c/GenericIntegration?asyncResponse=false&responseContentType=application%2Fjson",
+  "params": {
+    "asyncResponse": "false",
+    "responseContentType": "application/json"
+  },
+  "request_headers": {
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "request_body": {
+    "test": "TEST_ASYNC_SIMPLE",
+    "diagnosticCorrelationId": "86a77e2d-e5df-465e-984b-1847ad622b67"
+  },
+  "http_status": null,
+  "response_headers": {},
+  "body_text": null,
+  "body_json": null,
+  "transport_error": {
+    "type": "ConnectTimeout"
+  },
+  "finished_at_utc": "2026-10-28T12:28:35.931+00:00",
+  "seconds": 21.06288
+}

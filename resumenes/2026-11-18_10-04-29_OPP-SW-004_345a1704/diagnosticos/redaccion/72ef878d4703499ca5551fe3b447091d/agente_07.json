@@ -1,0 +1,318 @@
+{
+  "orden": 7,
+  "id": "A9",
+  "nombre": "Seguridad y protección de datos",
+  "tipo": "extraccion",
+  "ejecucion": "345a1704198e4ea8813735b477273d93",
+  "estado": "completado",
+  "contenido": {
+    "salida_original": "# Registro documental de preventa\n\n| Materia | Requisito completo | Fuente |\n|---------|--------------------|--------|\n| Seguridad y ENS | El adjudicatario debe presentar declaración de conformidad ENS BASICA para el servicio de soporte y mantenimiento; no se exige certificación formal ENS. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS |\n| Seguridad y ENS | Se valorará como evidencia la certificación ISO 27001, pero no es obligatoria. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS |\n| Seguridad y ENS | El servicio de mantenimiento accede a datos de empleados, expedientes internos, logs de aplicaciones y bases de datos legacy. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS |\n| Seguridad y ENS | El adjudicatario actuará como encargado del tratamiento cuando acceda a datos personales para resolver incidencias. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS |\n| Seguridad y ENS | Acceso remoto al entorno del cliente solo por VPN corporativa. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS |\n| Seguridad y ENS | Las cuentas de acceso deben ser nominativas. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS |\n| Seguridad y ENS | Es obligatorio el uso de autenticación multifactor (MFA) para el acceso remoto. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS |\n| Seguridad y ENS | Debe existir segregación de funciones en el equipo de soporte y desarrollo. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS |\n| Seguridad y ENS | Es obligatorio el registro de cambios realizados en los sistemas. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS |\n| Seguridad y ENS | Debe garantizarse la trazabilidad de accesos a bases de datos. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS |\n| Seguridad y ENS | Los backups deben estar cifrados. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS |\n| Seguridad y ENS | Todo el personal del adjudicatario debe mantener la confidencialidad sobre la información a la que acceda. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS |\n| Seguridad y ENS | Los parches críticos de aplicaciones legacy deben aplicarse en un plazo máximo de 5 días si existe versión compatible. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS |\n| Seguridad y ENS | Los sistemas EOL/EOS (End of Life/End of Support) deberán registrarse como excepción de riesgo. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS |\n| Seguridad y ENS | La comunicación de incidentes al cliente debe realizarse en un plazo máximo de 4 horas desde su detección. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS |\n| Seguridad y ENS | La comunicación de brechas de datos personales debe realizarse en un plazo máximo de 2 horas desde su detección. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS |\n| Seguridad y ENS | Los logs de soporte y cambios deben conservarse durante 12 meses. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS |\n| Seguridad y ENS | La subcontratación está permitida solo para tareas especializadas y requiere autorización previa; el soporte L2/L3 principal no podrá desplazarse a proveedores fuera de la UE. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS |\n| Seguridad y ENS | El acceso a ITSM y repositorios del cliente es necesario para la operación; la ausencia de acceso en la primera semana se considera de alto riesgo para el arranque. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado Delivery / Operación |\n| Seguridad y ENS | El adjudicatario debe aportar entorno de pruebas, herramientas de calidad de código y monitorización aplicacional. | Pliego administrativo OPP-SW-004 mantenimiento Java, Anexo compras/partners |\n| Seguridad y ENS | El adjudicatario debe demostrar backup operativo para Java y DBA. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado Delivery / Operación |\n| Seguridad y ENS | La documentación generada será propiedad del cliente. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado Conocimiento |\n| Seguridad y ENS | Penalización por pérdida de documentación y falta de trazabilidad en tickets. | Pliego administrativo OPP-SW-004 mantenimiento Java, Penalidades |\n| Seguridad y ENS | Penalización por incumplimiento de SLA crítico hasta el 4% de la factura mensual, acumulado máximo 12% mensual. | Pliego administrativo OPP-SW-004 mantenimiento Java, Penalidades |\n| Seguridad y ENS | Penalización del 2% mensual por cada SLA bajo el 95%, máximo 10%. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado SLA |\n| Seguridad y ENS | El equipo mínimo debe cubrir vacaciones y bajas sin reducir el cumplimiento de SLA. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado Delivery / Operación |\n| Seguridad y ENS | El adjudicatario debe mantener actualizados mensualmente los manuales, runbooks y FAQ. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado Conocimiento |\n| Seguridad y ENS | El adjudicatario debe realizar transferencia de conocimiento de 5 jornadas y actualizar la documentación técnica. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado Delivery / Operación |\n| Seguridad y ENS | Si el proveedor saliente no colabora, el adjudicatario debe ejecutar discovery intensivo y revisar el plan de go-live. | Pliego técnico OPP-SW-004 mantenimiento Java, apartado Delivery / Operación |\n| Seguridad y ENS | NO CONSTA EN LA DOCUMENTACION REVISADA: contenido exigido del acuerdo de encargado/subencargado. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Seguridad y ENS | NO CONSTA EN LA DOCUMENTACION REVISADA: reglas sobre localización de datos y transferencias internacionales, salvo la prohibición de desplazar soporte L2/L3 fuera de la UE. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Seguridad y ENS | NO CONSTA EN LA DOCUMENTACION REVISADA: medidas técnicas específicas sobre RBAC, PAM, bastionado, segmentación, EDR/XDR, WAF, SIEM, DLP, backups incrementales, logs avanzados, SOC, continuidad, DR, RTO/RPO, pruebas de recuperación, SDLC, DevSecOps, SAST, DAST, SCA, secretos, OWASP, CI/CD, SBOM, seguridad del personal, DPO/DPD designado, EIPD, auditorías, borrado seguro, devolución de datos y plazos de confidencialidad tras el contrato. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n\n## Discrepancias y pendientes de aclaración\nNo se han identificado discrepancias en la documentación revisada.",
+    "registro_completo_estructura": true,
+    "requisitos_documentales": [
+      {
+        "id": "R0001",
+        "seccion": "Seguridad y ENS",
+        "detalle": "El adjudicatario debe presentar declaración de conformidad ENS BASICA para el servicio de soporte y mantenimiento; no se exige certificación formal ENS.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0002",
+        "seccion": "Seguridad y ENS",
+        "detalle": "Se valorará como evidencia la certificación ISO 27001, pero no es obligatoria.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0003",
+        "seccion": "Seguridad y ENS",
+        "detalle": "El servicio de mantenimiento accede a datos de empleados, expedientes internos, logs de aplicaciones y bases de datos legacy.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0004",
+        "seccion": "Seguridad y ENS",
+        "detalle": "El adjudicatario actuará como encargado del tratamiento cuando acceda a datos personales para resolver incidencias.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0005",
+        "seccion": "Seguridad y ENS",
+        "detalle": "Acceso remoto al entorno del cliente solo por VPN corporativa.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0006",
+        "seccion": "Seguridad y ENS",
+        "detalle": "Las cuentas de acceso deben ser nominativas.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0007",
+        "seccion": "Seguridad y ENS",
+        "detalle": "Es obligatorio el uso de autenticación multifactor (MFA) para el acceso remoto.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0008",
+        "seccion": "Seguridad y ENS",
+        "detalle": "Debe existir segregación de funciones en el equipo de soporte y desarrollo.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0009",
+        "seccion": "Seguridad y ENS",
+        "detalle": "Es obligatorio el registro de cambios realizados en los sistemas.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0010",
+        "seccion": "Seguridad y ENS",
+        "detalle": "Debe garantizarse la trazabilidad de accesos a bases de datos.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0011",
+        "seccion": "Seguridad y ENS",
+        "detalle": "Los backups deben estar cifrados.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0012",
+        "seccion": "Seguridad y ENS",
+        "detalle": "Todo el personal del adjudicatario debe mantener la confidencialidad sobre la información a la que acceda.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0013",
+        "seccion": "Seguridad y ENS",
+        "detalle": "Los parches críticos de aplicaciones legacy deben aplicarse en un plazo máximo de 5 días si existe versión compatible.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0014",
+        "seccion": "Seguridad y ENS",
+        "detalle": "Los sistemas EOL/EOS (End of Life/End of Support) deberán registrarse como excepción de riesgo.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0015",
+        "seccion": "Seguridad y ENS",
+        "detalle": "La comunicación de incidentes al cliente debe realizarse en un plazo máximo de 4 horas desde su detección.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0016",
+        "seccion": "Seguridad y ENS",
+        "detalle": "La comunicación de brechas de datos personales debe realizarse en un plazo máximo de 2 horas desde su detección.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0017",
+        "seccion": "Seguridad y ENS",
+        "detalle": "Los logs de soporte y cambios deben conservarse durante 12 meses.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0018",
+        "seccion": "Seguridad y ENS",
+        "detalle": "La subcontratación está permitida solo para tareas especializadas y requiere autorización previa; el soporte L2/L3 principal no podrá desplazarse a proveedores fuera de la UE.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0019",
+        "seccion": "Seguridad y ENS",
+        "detalle": "El acceso a ITSM y repositorios del cliente es necesario para la operación; la ausencia de acceso en la primera semana se considera de alto riesgo para el arranque.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado Delivery / Operación",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0020",
+        "seccion": "Seguridad y ENS",
+        "detalle": "El adjudicatario debe aportar entorno de pruebas, herramientas de calidad de código y monitorización aplicacional.",
+        "fuente": "Pliego administrativo OPP-SW-004 mantenimiento Java, Anexo compras/partners",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0021",
+        "seccion": "Seguridad y ENS",
+        "detalle": "El adjudicatario debe demostrar backup operativo para Java y DBA.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado Delivery / Operación",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0022",
+        "seccion": "Seguridad y ENS",
+        "detalle": "La documentación generada será propiedad del cliente.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado Conocimiento",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0023",
+        "seccion": "Seguridad y ENS",
+        "detalle": "Penalización por pérdida de documentación y falta de trazabilidad en tickets.",
+        "fuente": "Pliego administrativo OPP-SW-004 mantenimiento Java, Penalidades",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0024",
+        "seccion": "Seguridad y ENS",
+        "detalle": "Penalización por incumplimiento de SLA crítico hasta el 4% de la factura mensual, acumulado máximo 12% mensual.",
+        "fuente": "Pliego administrativo OPP-SW-004 mantenimiento Java, Penalidades",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0025",
+        "seccion": "Seguridad y ENS",
+        "detalle": "Penalización del 2% mensual por cada SLA bajo el 95%, máximo 10%.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado SLA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0026",
+        "seccion": "Seguridad y ENS",
+        "detalle": "El equipo mínimo debe cubrir vacaciones y bajas sin reducir el cumplimiento de SLA.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado Delivery / Operación",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0027",
+        "seccion": "Seguridad y ENS",
+        "detalle": "El adjudicatario debe mantener actualizados mensualmente los manuales, runbooks y FAQ.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado Conocimiento",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0028",
+        "seccion": "Seguridad y ENS",
+        "detalle": "El adjudicatario debe realizar transferencia de conocimiento de 5 jornadas y actualizar la documentación técnica.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado Delivery / Operación",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0029",
+        "seccion": "Seguridad y ENS",
+        "detalle": "Si el proveedor saliente no colabora, el adjudicatario debe ejecutar discovery intensivo y revisar el plan de go-live.",
+        "fuente": "Pliego técnico OPP-SW-004 mantenimiento Java, apartado Delivery / Operación",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0030",
+        "seccion": "Seguridad y ENS",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA: contenido exigido del acuerdo de encargado/subencargado.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0031",
+        "seccion": "Seguridad y ENS",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA: reglas sobre localización de datos y transferencias internacionales, salvo la prohibición de desplazar soporte L2/L3 fuera de la UE.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0032",
+        "seccion": "Seguridad y ENS",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA: medidas técnicas específicas sobre RBAC, PAM, bastionado, segmentación, EDR/XDR, WAF, SIEM, DLP, backups incrementales, logs avanzados, SOC, continuidad, DR, RTO/RPO, pruebas de recuperación, SDLC, DevSecOps, SAST, DAST, SCA, secretos, OWASP, CI/CD, SBOM, seguridad del personal, DPO/DPD designado, EIPD, auditorías, borrado seguro, devolución de datos y plazos de confidencialidad tras el contrato.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "A9-S0033",
+        "seccion": "Seguridad y protección de datos",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No se han identificado discrepancias en la documentación revisada.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A9",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      }
+    ]
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "Pliego administrativo OPP-SW-004 mantenimiento Java",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 4922,
+        "caracteres_enviados_al_agente": 4922,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Pliego tecnico OPP-SW-004 mantenimiento Java",
+        "tipo": "Pliego tecnico",
+        "fuente": "XML",
+        "caracteres_extraidos": 4709,
+        "caracteres_enviados_al_agente": 4709,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "Anexo solvencia OPP-SW-004 mantenimiento Java",
+        "tipo": "Documento general",
+        "fuente": "XML",
+        "caracteres_extraidos": 779,
+        "caracteres_enviados_al_agente": 779,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": []
+  }
+}

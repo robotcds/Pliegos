@@ -1,0 +1,249 @@
+VEREDICTO EJECUTIVO SEGURIDAD / DPO / ENS: NO CUMPLE
+
+EXTRACCIÓN DE VIABILIDAD
+
+Tabla de requisitos
+| Parámetro | Literal y apartado del pliego | Umbral y fecha exigidos | Estado | Brecha, acción y responsable |
+|-----------|------------------------------|------------------------|--------|------------------------------|
+| ENS categoría MEDIA certificado entorno producción | PCAP A4, PPT T3 | Certificación vigente al cierre y durante ejecución, entorno de producción | NO CUMPLE | Certificado ENS MEDIA solo para entorno de desarrollo Madrid; no cubre producción en Azure. Acción: obtener certificación ENS MEDIA para entorno de producción. Responsable: CISO/Calidad |
+| ISO 27001 entorno producción | PCAP A4, PPT T3 | Certificación vigente al cierre y durante ejecución, entorno de producción | NO CUMPLE | Certificado ISO 27001 solo para oficina de desarrollo Madrid; excluye alojamiento y operación de producción. Acción: obtener certificación ISO 27001 para entorno de producción. Responsable: CISO/Calidad |
+| Microsoft Solutions Partner for Infrastructure (Azure) | PCAP A4 | Vigente al cierre | CUMPLE (mediante partner) | Cloud Partner Ficticio S.A. cumple, pero especialización Azure VMware Solution caducada. Acción: renovar especialización o aportar compromiso firmado. Responsable: Compras/Alianzas |
+| Acuerdo de encargado de tratamiento | PCAP A6 | Contrato de encargado, documentación y datos en UE | CUMPLE | Modelo disponible, pero debe adaptarse al contrato. Acción: adaptar y firmar acuerdo específico. Responsable: DPO/Legal |
+| Datos personales tratados | PPT T3 | Identificativos, ordinarios, logs, MFA administrativo | CUMPLE | Capacidad de tratar datos ordinarios, logs, MFA. Acción: revisar categorías y finalidad. Responsable: DPO |
+| Subcontratación identificada | PCAP A6 | Permitida, identificada | CUMPLE | Subcontratistas homologados disponibles. Acción: identificar y comunicar subencargados. Responsable: Compras |
+| Ubicación de datos/documentación | PCAP A6, PPT T3 | UE | CUMPLE | Cloud Azure UE disponible. Acción: validar servicios auxiliares. Responsable: Cloud/DevOps |
+| Copias diarias, restauración mensual, registros 12 meses | PPT T3 | Obligatorio | CUMPLE | Backups diarios, restauración y logs 12 meses disponibles. Acción: ajustar retención si se exige más. Responsable: Cloud/DevOps |
+| ISO 20000-1 gestión del servicio | PCAP A4, PPT T2 | Certificación vigente al cierre y durante ejecución | NO CUMPLE | No disponible ni evidencia equivalente. Acción: obtener certificación o buscar partner. Responsable: Calidad |
+
+Fichas de evidencia
+
+Certificado ENS MEDIA
+| Campo | Valor exacto aportado | Documento interno |
+|-------|----------------------|-------------------|
+| Titular | Sermicro Software Ficticio S.L. | CAL-2026-09 |
+| Alcance | Entorno de desarrollo Madrid | CAL-2026-09 |
+| Áreas/sistemas/sedes cubiertos | Desarrollo, no producción | CAL-2026-09 |
+| Nivel/categoría ENS | MEDIA | CAL-2026-09 |
+| Emisor | Auditora Ficticia ENS | CAL-2026-09 |
+| Identificador | ENS-M-044 | CAL-2026-09 |
+| Caducidad | 31/12/2026 | CAL-2026-09 |
+
+Certificado ISO 27001
+| Campo | Valor exacto aportado | Documento interno |
+|-------|----------------------|-------------------|
+| Titular | Sermicro Software Ficticio S.L. | CAL-2026-09 |
+| Alcance | Oficina de desarrollo Madrid (excluye producción) | CAL-2026-09 |
+| Áreas/sistemas/sedes cubiertos | Desarrollo, no producción | CAL-2026-09 |
+| Emisor | Certificadora Ficticia Seguridad | CAL-2026-09 |
+| Identificador | S-270-317 | CAL-2026-09 |
+| Caducidad | 31/12/2027 | CAL-2026-09 |
+
+Certificado Microsoft Solutions Partner for Infrastructure (Azure)
+| Campo | Valor exacto aportado | Documento interno |
+|-------|----------------------|-------------------|
+| Titular | Cloud Partner Ficticio S.A. | ALI-027 |
+| Vigencia | 31/03/2027 | ALI-027 |
+| Especialización Azure VMware Solution | Caducada 31/08/2026 | FAB-2026-09 |
+| Compromiso firmado | NO CONSTA | ALI-027 |
+
+Acuerdo de encargado de tratamiento
+| Campo | Valor exacto aportado | Documento interno |
+|-------|----------------------|-------------------|
+| Modelo disponible | Sí | DPO/Legal |
+| Adaptación específica | NO CONSTA | DPO/Legal |
+| Firmado | NO CONSTA | DPO/Legal |
+
+ISO 20000-1
+| Campo | Valor exacto aportado | Documento interno |
+|-------|----------------------|-------------------|
+| Certificado | NO CONSTA | CAL-2026-09 |
+| Alcance | NO CONSTA | CAL-2026-09 |
+| Vigencia | NO CONSTA | CAL-2026-09 |
+
+Persona: Ana Torres
+| Campo | Valor exacto aportado | Documento interno |
+|-------|----------------------|-------------------|
+| Nombre | Ana Torres | RH-2026-09 |
+| Titulación | Ingeniera informática | RH-2026-09 |
+| Experiencia sectorial | 10 años | RH-2026-09 |
+| Experiencia relevante | 8 años proyectos públicos web/cloud | RH-2026-09 |
+| Certificación PMP | PMP-AT-0921, vigente hasta 30/09/2026 | RH-2026-09 |
+
+Persona: Sofia Martin
+| Campo | Valor exacto aportado | Documento interno |
+|-------|----------------------|-------------------|
+| Nombre | Sofia Martin | RH-2026-09 |
+| Titulación | Ingeniera informática | RH-2026-09 |
+| Experiencia sectorial | 7 años | RH-2026-09 |
+| Experiencia relevante | 6 años backend/APIs | RH-2026-09 |
+| Certificación AWS Developer Associate | NO CONSTA fecha de expiración | RH-2026-09 |
+
+CBE-REF-001
+| Campo | Valor exacto aportado | Documento interno |
+|-------|----------------------|-------------------|
+| Cliente | Ayuntamiento Ficticio de Sierra Capital | CBE-REF-001 |
+| Objeto | Portal ciudadano multicanal | CBE-REF-001 |
+| Importe neto ejecutado | 465000 EUR | CBE-REF-001 |
+| Fecha inicio/fin | 01/02/2024 - 30/04/2025 | CBE-REF-001 |
+| CPV | 72262000 | CBE-REF-001 |
+| Certificado buena ejecución | Sí | CBE-REF-001 |
+
+CBE-REF-002
+| Campo | Valor exacto aportado | Documento interno |
+|-------|----------------------|-------------------|
+| Cliente | Diputación Ficticia del Río | CRM REF-002 |
+| Objeto | Sede electrónica accesible | CRM REF-002 |
+| Importe neto ejecutado | NO CONSTA | CRM REF-002 |
+| Fecha inicio/fin | 01/09/2023 - 30/09/2024 | CRM REF-002 |
+| CPV | 72262000 | CRM REF-002 |
+| Certificado buena ejecución | NO CONSTA | CRM REF-002 |
+
+
+1. Los 8 puntos críticos
+- ENS: Se exige ENS MEDIA certificado para entorno de producción. Solo se dispone de ENS MEDIA para entorno de desarrollo Madrid. NO CUMPLE.
+- Datos personales y rol: Se tratarán datos identificativos, logs, MFA administrativo. Rol: encargado del tratamiento. CUMPLE.
+- Ubicación/cloud/transferencias: Datos y documentación en UE. Cloud Azure UE disponible. CUMPLE.
+- Medidas técnicas: Cifrado TLS, MFA, backups diarios, logs 12 meses. CUMPLE.
+- Incidentes/brechas: No se especifican plazos en pliego, pero procedimiento interno disponible. CUMPLE.
+- Subencargados/cadena de suministro: Subcontratación permitida, partners homologados. CUMPLE.
+- Auditorías/evidencias: Certificados aportados, pero ISO 20000-1 y ENS/ISO 27001 para producción NO CUMPLE.
+- Gaps principales: Falta de ENS MEDIA y ISO 27001 para entorno de producción; falta de ISO 20000-1.
+
+2. ENS
+- Categoría exigida: MEDIA
+- Certificación/declaración: Certificación exigida, no declaración
+- Momento de acreditación: Al cierre de ofertas y durante ejecución
+- Alcance de sistemas/servicios: Entorno de producción en nube
+- Guias CCN-STIC: No especificadas en pliego
+- Evidencia: Certificado ENS MEDIA solo para entorno de desarrollo Madrid
+- Gap: No cubre entorno de producción
+
+3. RGPD/DPO
+- Datos tratados: Identificativos, logs, MFA administrativo
+- Finalidad: Operación de portal ciudadano
+- Interesados: Ciudadanos, empleados públicos
+- Rol adjudicatario: Encargado del tratamiento
+- Acuerdo de encargado: Modelo disponible, debe adaptarse y firmarse
+- EIPD: Capacidad de colaborar, responsabilidad del cliente
+- DPO/DPD: Disponible
+- Conservación: No especificada en pliego
+- Acciones: Adaptar acuerdo, revisar categorías de datos
+
+4. Subcontratación, subencargados, cloud y cadena de suministro
+- Cadena: Cliente -> Adjudicatario -> Cloud Partner Ficticio S.A. (Azure) -> SaaS/CPD/Fabricante
+- Accesos: Subencargados gestionan cloud, logs, soporte; acceso a datos y credenciales según contrato
+
+5. Localización y transferencias internacionales
+- Ubicación obligatoria: UE
+- Regiones permitidas: Azure UE
+- Backups: Diarios, en UE
+- Soporte remoto: Permitido
+- Telemetría, IA/SaaS: Revisar servicios auxiliares
+- Riesgos: Transferencia internacional si se usan servicios fuera UE
+
+6. Medidas técnicas de seguridad
+| Medida | Obligatoria/recomendada/valorable | Evidencia pliego | Capacidad actual | Gap | Riesgo | Acción |
+|--------|-----------------------------------|------------------|------------------|-----|--------|--------|
+| Cifrado TLS | Obligatoria | PPT T3 | Disponible | Ninguno | Bajo | Mantener |
+| MFA administrativo | Obligatoria | PPT T3 | Disponible | Ninguno | Bajo | Mantener |
+| Backups diarios | Obligatoria | PPT T3 | Disponible | Ninguno | Bajo | Mantener |
+| Logs 12 meses | Obligatoria | PPT T3 | Disponible | Ninguno | Bajo | Mantener |
+| ENS MEDIA entorno producción | Obligatoria | PCAP A4, PPT T3 | NO DISPONIBLE | Falta certificación | Alto | Obtener |
+| ISO 27001 entorno producción | Obligatoria | PCAP A4, PPT T3 | NO DISPONIBLE | Falta certificación | Alto | Obtener |
+| ISO 20000-1 | Obligatoria | PCAP A4, PPT T2 | NO DISPONIBLE | Falta certificación | Alto | Obtener |
+
+7. Identidad, accesos y privilegios
+- MFA: Obligatorio para administradores
+- SSO: Disponible
+- Directorio: Entra ID/SAML/OIDC
+- Cuentas nominativas: Disponible
+- PAM: Parcial
+- RBAC: Disponible
+- Mínimo privilegio: Política implantada
+- Altas/bajas: Disponible
+- Revisiones: Disponible
+- Acceso remoto: Disponible
+
+8. Vulnerabilidades, parcheado y desarrollo seguro
+- SAST, DAST, SCA, SBOM: Disponibles
+- Pentesting: Disponible
+- CVE, EOL/EOS: Gestión disponible
+- Plazos de parcheado: <=48h
+- CI/CD, secretos, OWASP: Implantados
+
+9. Incidentes de seguridad y brechas de datos
+- Incidente de seguridad: Procedimiento interno disponible
+- Brecha RGPD: Notificación interna inmediata, comunicación al cliente <=2h
+- Plazos pliego: NO ESPECIFICADO
+- Relación 72h AEPD: Cliente responsable
+
+10. Logging, SOC/SIEM, monitorización y retención
+- Logs: Centralización y retención 12 meses
+- Integridad: Almacenamiento inmutable si se presupuesta
+- SIEM/SOC: Integración disponible, SOC 24x7 requiere partner
+- Alertas: Implantadas
+- Coste/riesgo: Retención superior a 12 meses requiere coste adicional
+
+11. Continuidad, backup, borrado y reversibilidad segura
+- RTO/RPO: NO ESPECIFICADO
+- Backups: Diarios, cifrados
+- Copias inmutables/offline: Disponible si se presupuesta
+- Restauración: Mensual
+- Borrado de datos/backups: Certificado de destrucción lógica
+- Revocación de accesos: Disponible
+
+12. Seguridad del personal, confidencialidad y auditorías
+- NDA: Disponible
+- Formación ENS/RGPD/ciber: Implantada
+- Roles de seguridad: Javier Prieto (CISO)
+- Auditorías: Derecho de auditoría aceptable
+- Evidencias: Certificados, políticas, procedimientos, informes pentest
+- Certificaciones: ISO 9001, ISO 27001, ENS MEDIA (solo desarrollo)
+
+13. Matriz de cumplimiento Seguridad / DPO / ENS
+| Requisito | Tipo | Obligatorio | Situación | Evidencia interna | Gap | Riesgo | Acción necesaria |
+|-----------|------|------------|-----------|-------------------|-----|--------|-----------------|
+| ENS MEDIA entorno producción | Certificación | Sí | NO CUMPLE | CAL-2026-09 | Falta certificación | Exclusión | Obtener |
+| ISO 27001 entorno producción | Certificación | Sí | NO CUMPLE | CAL-2026-09 | Falta certificación | Exclusión | Obtener |
+| ISO 20000-1 | Certificación | Sí | NO CUMPLE | CAL-2026-09 | Falta certificación | Exclusión | Obtener |
+| Acuerdo de encargado | Contrato | Sí | CUMPLE | DPO/Legal | Adaptar modelo | Medio | Firmar |
+| Datos personales ordinarios | Tratamiento | Sí | CUMPLE | DPO | Ninguno | Bajo | Mantener |
+| Subcontratación identificada | Ejecución | Sí | CUMPLE | Compras | Ninguno | Bajo | Mantener |
+| Ubicación UE | Ejecución | Sí | CUMPLE | Cloud/DevOps | Validar servicios auxiliares | Medio | Revisar |
+
+14. Costes o esfuerzos adicionales previsibles
+- Certificación ENS MEDIA entorno producción: Alto coste y plazo
+- Certificación ISO 27001 entorno producción: Alto coste y plazo
+- Certificación ISO 20000-1: Alto coste y plazo
+- SOC 24x7: Coste adicional si se exige
+- Retención logs >12 meses: Coste adicional
+- Adaptación acuerdo de encargado: Bajo coste
+
+15. Riesgos de incumplimiento contractual
+- Exclusión por falta de ENS MEDIA entorno producción
+- Exclusión por falta de ISO 27001 entorno producción
+- Exclusión por falta de ISO 20000-1
+- Penalización por falta de evidencia
+- Incumplimiento ENS/RGPD si no se adapta acuerdo
+- Riesgo de transferencia internacional si se usan servicios fuera UE
+
+16. Plan de acción recomendado
+- Antes de ofertar: Solicitar certificación ENS MEDIA y ISO 27001 para entorno de producción; buscar partner ISO 20000-1; obtener compromiso firmado de Cloud Partner; adaptar acuerdo de encargado
+- Antes de adjudicación: Aportar certificados vigentes y adaptados; validar subencargados y servicios auxiliares
+- Durante ejecución: Mantener vigencia de certificados; revisar cadena de suministro; actualizar acuerdo de encargado; monitorizar cumplimiento
+
+17. Preguntas al órgano de contratación
+- ¿Admite declaración de conformidad ENS MEDIA para producción en vez de certificación?
+- ¿Admite certificación ISO 27001 parcial para producción?
+- ¿Admite equivalencia ISO 20000-1 mediante partner?
+- ¿Qué servicios auxiliares cloud/SaaS están permitidos fuera UE?
+- ¿Qué categorías de datos personales se tratarán exactamente?
+- ¿Plazos de notificación de incidentes y brechas?
+- ¿Requiere retención de logs superior a 12 meses?
+- ¿Requiere SOC 24x7?
+- ¿Requiere RTO/RPO específicos?
+- ¿Requiere auditoría ENS/ISO durante ejecución?
+
+18. Documentos revisados
+- PCAP OPP-SW-011 (Pliego administrativo)
+- PPT OPP-SW-011 (Pliego técnico)

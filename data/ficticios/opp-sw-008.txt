@@ -1,0 +1,34 @@
+PLIEGO TECNICO FICTICIO OPP-SW-008
+Proyecto: Plataforma e-learning accesible para formacion interna.
+
+Objeto:
+Construccion de una plataforma web de formacion interna con catalogo de cursos, itinerarios, seguimiento de progreso, cuestionarios, certificados, informes y administracion de contenidos. La solucion debe cumplir WCAG 2.1 AA.
+
+Solvencia tecnica y equipo minimo:
+- Frontend con al menos 4 anos en React o TypeScript y accesibilidad WCAG 2.1 AA.
+- Backend con al menos 5 anos en APIs REST, seguridad y bases de datos.
+- QA con al menos 3 anos en pruebas funcionales, accesibilidad y regresion.
+- Analista funcional con al menos 5 anos en levantamiento de requisitos y gestion de backlog.
+- Soporte/formacion con al menos 2 anos en documentacion, sesiones de formacion y soporte L2.
+
+Entregables:
+Plataforma, plan de accesibilidad, manuales, contenidos iniciales de demostracion, dashboards de seguimiento y plan de soporte postarranque.
+
+Service Design / ITIL:
+El servicio incluye soporte de plataforma e-learning durante 12 meses. Alcance: 2 lotes, 3.000 empleados, catalogo inicial de 60 cursos, cuestionarios, certificados y reporting.
+Modelo exigido: Service Desk N1 del cliente y adjudicatario N2 aplicacional. N3 para incidencias de desarrollo. Horario 8x5 remoto, con soporte presencial puntual para arranque.
+Procesos: Incident Management, Request Fulfilment, Change Management, Knowledge Management, Service Level Management y Continual Improvement. ITIL compatible, no obligatorio formal.
+SLA: incidencias P1 que impidan acceso general respuesta <= 1 hora y resolucion <= 4 horas; incidencias P2 de curso critico resolucion <= 1 dia; peticiones de alta de curso <= 3 dias. Satisfaccion >= 4/5.
+Gobierno: operativo semanal primer mes, mensual despues. Informe de uso, tickets, cursos activos, incidencias recurrentes, accesibilidad y mejoras.
+Automatizacion: portal self-service, FAQ, chatbot de preguntas frecuentes y alertas de cursos con errores. Reversibilidad: exportacion de contenidos, usuarios, certificados, informes y manuales.
+
+Seguridad / DPO / ENS:
+La plataforma tratara datos de empleados publicos, historico formativo, calificaciones, certificados, logs de acceso y correos electronicos. No se trataran datos sanitarios ni biometricos.
+ENS: categoria BASICA con declaracion de conformidad para la plataforma si se aloja en entorno del cliente; categoria MEDIA si se aloja en cloud del adjudicatario.
+RGPD: adjudicatario como encargado del tratamiento. Anexo de encargado obligatorio, con finalidad formativa, categorias de interesados, conservacion de certificados y devolucion/exportacion al finalizar.
+Medidas: SSO con directorio corporativo, MFA para administradores, RBAC por rol, TLS, cifrado en reposo, logs 12 meses, backups diarios y revision trimestral de permisos.
+Subencargados: plataforma LMS, cloud, envio de correos y chatbot FAQ si aplica. El chatbot no podra enviar datos personales a servicios fuera de UE.
+Brechas: notificacion al cliente <= 2 horas, informe inicial <= 24 horas y registro de brechas. Borrado o devolucion de usuarios, cursos, certificados y logs al finalizar.
+
+Criterios:
+Accesibilidad y experiencia de usuario 40 puntos, oferta economica 35 puntos y plan de adopcion 25 puntos.

@@ -1,0 +1,101 @@
+{
+  "orden": 5,
+  "id": "A6",
+  "nombre": "Requisitos del servicio",
+  "tipo": "extraccion",
+  "ejecucion": "8d2ed1b9644f4effaa5b787373e08c17",
+  "estado": "completado",
+  "contenido": {
+    "salida_original": "# 1. Resumen factual del servicio requerido\n\nEl contrato exige la provisión de una solución SaaS de inteligencia meteorológica y gestión de riesgos naturales para la operación ferroviaria de RENFE-Operadora. Incluye acceso web seguro, módulos de simulación de incendios e inundaciones, visualización geoespacial, integración de datos meteorológicos y geográficos, generación de alertas y boletines, soporte y mantenimiento, asistencia técnica especializada, formación, documentación, cumplimiento de requisitos de seguridad y continuidad, y mecanismos de integración con sistemas corporativos. El servicio debe estar disponible para al menos 15 usuarios nominativos, con posibilidad de ampliación, y cubrirá la operación ferroviaria de RENFE-Operadora durante 24 meses.\n\n# 2. Alcance y volumetrías\n\n| Dato | Valor/Unidad | Periodo | Fuente |\n|------|--------------|---------|--------|\n| Usuarios nominativos mínimos | 15 | Vigencia contrato | ANEXO I, p.4 |\n| Ampliación usuarios | Paquetes adicionales | Vigencia contrato | ANEXO I, p.4 |\n| Perfiles de usuario | Administración, operación, análisis, consulta | Vigencia contrato | ANEXO I, p.4 |\n| Acceso | Web seguro, navegadores corporativos soportados | Vigencia contrato | ANEXO I, p.4 |\n| Módulos incluidos | Inteligencia meteorológica, visualización geoespacial, simulación incendios, simulación inundaciones | Vigencia contrato | ANEXO I, p.4 |\n| Duración del servicio | 24 meses | Desde formalización | PCP, p.22; ANEXO I, p.21 |\n| Horario soporte | 8 horas/día, 7 días/semana | Vigencia contrato | ANEXO I, p.16 |\n| Bolsa de horas | 350 UT/año (máx.) | Anual | ANEXO I, p.19 |\n| Formación inicial | 2 jornadas mínimas, remotas o equivalente | Inicio | ANEXO I, p.20 |\n| Informes mensuales | Disponibilidad, incidencias, cambios, bolsa de horas | Mensual | ANEXO I, p.19-20 |\n\n# 3. Modelo de servicio exigido\n\n- Solución SaaS accesible por web, sin despliegue de infraestructura física en RENFE.\n- Incluye alojamiento, operación, actualización, mantenimiento y soporte.\n- Acceso a módulos funcionales y fuentes de datos meteorológicos y geoespaciales.\n- Perfiles diferenciados de usuario (administrador, operador, analista, consulta).\n- Soporte y mantenimiento con centro de soporte accesible por portal, email y teléfono.\n- Asistencia técnica especializada multidisciplinar.\n- Integración con sistemas corporativos de RENFE (identidad, datos, incidencias, etc.).\n- Bolsa de horas para evolutivos y soporte especializado.\n\n# 4. Procesos y actividades\n\n| Proceso/actividad | Expreso en pliego | Exigencia descrita | Fuente |\n|-------------------|------------------|-------------------|--------|\n| Gestión de incidencias | ITIL NO CITADO EXPRESAMENTE | Centro de soporte, registro, trazabilidad, clasificación por prioridad | ANEXO I, p.16 |\n| Gestión de cambios | ITIL NO CITADO EXPRESAMENTE | Gestión formal de cambios de alcance y evolución de requisitos | ANEXO I, p.22-23 |\n| Gestión de alertas y avisos | ITIL NO CITADO EXPRESAMENTE | Configuración, emisión, registro, exportación y consulta histórica | ANEXO I, p.10-11 |\n| Gestión de usuarios y accesos | ITIL NO CITADO EXPRESAMENTE | Perfiles, autenticación, integración con sistema de identidad | ANEXO I, p.14-15, 31-32 |\n| Gestión de integraciones | ITIL NO CITADO EXPRESAMENTE | APIs, servicios geoespaciales, formatos interoperables | ANEXO I, p.14-15 |\n| Gestión de la continuidad | ITIL NO CITADO EXPRESAMENTE | Planes de contingencia, continuidad, salida programada y sobrevenida | ANEXO I, p.38-39 |\n| Gestión de la seguridad | ITIL NO CITADO EXPRESAMENTE | Análisis de riesgos, cumplimiento ENS, gestión de vulnerabilidades | ANEXO I, p.24-39 |\n| Monitorización de la infraestructura | ITIL NO CITADO EXPRESAMENTE | Monitorización 24x7 de incidencias e incidentes | ANEXO I, p.36-37 |\n| Reporting e informes | ITIL NO CITADO EXPRESAMENTE | Informes mensuales, análisis de causa raíz, consumo de bolsa de horas | ANEXO I, p.19-20 |\n| Formación y transferencia de conocimiento | ITIL NO CITADO EXPRESAMENTE | Programa de formación, materiales, sesiones periódicas | ANEXO I, p.20-21 |\n\n# 5. SLA/KPI/penalizaciones\n\n| Servicio | Prioridad | Respuesta | Resolución | Horario | Objetivo | Penalización | Fuente |\n|---------|----------|----------|-----------|--------|---------|-------------|--------|\n| Soporte e incidencias | Crítica | Atención prioritaria, seguimiento continuo | Hasta restauración | 8x7 | A definir en acuerdo de nivel de servicio | 2% importe contrato por superación de tiempo de respuesta/restauración | ANEXO I, p.16; PCP, p.29 |\n| Soporte e incidencias | Alta | Atención preferente, plan de recuperación comunicado | A definir | 8x7 | A definir en acuerdo de nivel de servicio | 1,5% importe contrato por superación de tiempo de respuesta/restauración | ANEXO I, p.16; PCP, p.29 |\n| Soporte e incidencias | Media | Resolución planificada dentro del ciclo de soporte | A definir | 8x7 | A definir en acuerdo de nivel de servicio | 1% importe contrato por superación de tiempo de respuesta/restauración | ANEXO I, p.16; PCP, p.29 |\n| Soporte e incidencias | Baja | Gestión ordinaria | A definir | 8x7 | A definir en acuerdo de nivel de servicio | 0,5% importe contrato por superación de tiempo de respuesta/restauración | ANEXO I, p.16; PCP, p.29 |\n| Calidad del servicio | N/A | N/A | N/A | N/A | N/A | Hasta 10% importe total contrato por falta de calidad manifiesta | PCP, p.30 |\n| Equipo de trabajo | N/A | N/A | N/A | N/A | N/A | 5.000 € por incumplimiento de nivel de conocimientos, rotación no comunicada | PCP, p.30 |\n| Reuniones de seguimiento | N/A | N/A | N/A | N/A | N/A | Hasta 1% importe total contrato por incomparecencia | PCP, p.30 |\n| Incumplimiento oferta técnica | N/A | N/A | N/A | N/A | N/A | Hasta 2.000 € por incumplimiento | PCP, p.30 |\n| Seguridad/confidencialidad | N/A | N/A | N/A | N/A | N/A | Hasta 20% importe total contrato | PCP, p.30 |\n| Seguridad/ciberseguridad (documentación, ENS, POC) | N/A | N/A | N/A | N/A | N/A | Hasta 10% importe total contrato o penalizaciones específicas (1.000-3.000 €) | PCP, p.31 |\n\nNota: Los tiempos concretos de respuesta y resolución se definirán en el acuerdo de nivel de servicio aprobado para el contrato (ANEXO I, p.16).\n\n# 6. Organización y roles exigidos\n\n- Project Manager (Responsable del servicio): titulación universitaria oficial (preferentemente Ingeniería, Informática, Telecomunicaciones, Física, Matemáticas, Geografía, Ciencias Ambientales o equivalente), mínimo 3 años de experiencia en proyectos análogos. (ANEXO I, p.17)\n- Especialista en meteorología y predicción: titulación universitaria en Física, Meteorología, Ciencias Atmosféricas, Matemáticas, Ciencias Ambientales o equivalente, formación en meteorología y predicción numérica. (ANEXO I, p.18)\n- Especialista en algoritmos de predicción a corto plazo: titulación universitaria en Física, Meteorología, Ciencias Atmosféricas, Matemáticas, Ingeniería o equivalente, formación en meteorología y predicción numérica. (ANEXO I, p.18)\n- Especialista en software, datos e integraciones: titulación universitaria en Informática, Telecomunicaciones, Ingeniería, Matemáticas, Ciencia de Datos o equivalente. (ANEXO I, p.18)\n- Especialista en riesgos naturales: titulación universitaria en Ingeniería de Montes, Forestal, Caminos, Civil, Hidrología, Geología, Geografía, Ciencias Ambientales o equivalente, formación en incendios o inundaciones. (ANEXO I, p.18)\n- Equipo estable, suficiente y multidisciplinar, disponible desde la puesta en marcha. (ANEXO I, p.18)\n- Sustituciones solo por causa de fuerza mayor, previa comunicación. (ANEXO I, p.18)\n- Formación y concienciación en seguridad para el personal involucrado. (ANEXO I, p.27)\n\n# 7. Gobierno y reporting exigidos\n\n- Designación de responsable del servicio por el adjudicatario. (ANEXO I, p.22)\n- Reuniones de seguimiento con periodicidad establecida por RENFE. (ANEXO I, p.22)\n- Cuadro de acciones, responsables, fechas objetivo, riesgos y decisiones. (ANEXO I, p.22)\n- Gestión formal de cambios y evolución de requisitos. (ANEXO I, p.22)\n- Escalado de incidencias, riesgos de continuidad y desviaciones relevantes. (ANEXO I, p.22)\n- Revisión periódica de indicadores, calidad del dato, uso de la solución y oportunidades de mejora. (ANEXO I, p.23)\n- Informes mensuales de servicio: disponibilidad, incidencias, consultas, tiempos de atención, problemas recurrentes, cambios, bolsa de horas, análisis de causa raíz, riesgos y propuestas de mejora. (ANEXO I, p.19-20)\n\n# 8. Herramientas ITSM, CMDB, monitorización e integraciones exigidas\n\n- Centro de soporte accesible por portal de solicitudes, correo electrónico y teléfono. (ANEXO I, p.16)\n- APIs documentadas para consulta de predicciones, observaciones, alertas, informes y simulaciones. (ANEXO I, p.14-15)\n- Servicios geoespaciales normalizados para publicación y consumo de mapas, entidades y teselas. (ANEXO I, p.15)\n- Integración con sistema corporativo de identidad (autenticación, SSO). (ANEXO I, p.14-15, 31-32)\n- Inventario de activos de información, software, hardware, configuraciones, usuarios, derechos de acceso. (ANEXO I, p.26)\n- Monitorización de la infraestructura para incidencias e incidentes 24x7. (ANEXO I, p.36-37)\n- Entrega de logs al SIEM de RENFE o API para captura de logs. (ANEXO I, p.36)\n- Herramientas de gestión de vulnerabilidades, backup, restauración, cifrado, DLP, antimalware, defensa perimetral, IDS/IPS, WAF, CASB, CWPP, proxys, protección de correo, 2FA según naturaleza del servicio. (ANEXO I, p.34-36)\n- Documentación de usuario y técnica accesible durante toda la vigencia del servicio. (ANEXO I, p.4, 21)\n\n# 9. Transición, continuidad y reversibilidad exigidas\n\n- Servicio estándar disponible desde el inicio; configuración completa en máximo 3 meses desde que RENFE facilite información y accesos. (ANEXO I, p.21)\n- Planificación de puesta en marcha: reunión inicial, inventario, configuración, carga de capas, definición de alertas, pruebas, formación, aceptación. (ANEXO I, p.21)\n- Garantía técnica durante toda la vigencia: disponibilidad, corrección de defectos, funcionamiento de integraciones, actualización de datos, conservación de configuraciones. (ANEXO I, p.21-22)\n- Plan de devolución, exportación de datos, entrega documental y certificado de supresión al finalizar. (ANEXO I, p.22)\n- Planes de contingencia, crisis, continuidad de negocio, salida programada y sobrevenida, devolución y destrucción segura de información, certificación de destrucción. (ANEXO I, p.38-39)\n- Mecanismos de respaldo de información, redundancia, balanceo, localizaciones alternativas. (ANEXO I, p.38)\n\n# 10. Automatización, self-service y gestión del conocimiento\n\n- Automatización: generación y envío automático de boletines y alertas, exportación de informes en formatos interoperables. (ANEXO I, p.11-12, 14)\n- Portal de solicitudes para soporte (self-service). (ANEXO I, p.16)\n- Documentación de usuario, manuales, guías rápidas, videoteca, materiales grabados, sesiones periódicas, actualización tras cambios funcionales. (ANEXO I, p.21)\n\n# 11. Datos no localizados o ambiguos en la documentación\n\n- No consta en la documentación revisada la definición concreta de los tiempos de respuesta y resolución para cada prioridad de incidencia; se remite a un acuerdo de nivel de servicio a definir tras la adjudicación (ANEXO I, p.16).\n- No consta en la documentación revisada la volumetría exacta de datos, número de incidencias estimadas, ni dimensionamiento de equipo más allá de los perfiles mínimos.\n- No consta en la documentación revisada la existencia de un Service Desk con niveles N1/N2/N3 expresamente definidos según ITIL.\n- No consta en la documentación revisada la exigencia de una CMDB específica, aunque se requiere inventario de activos y configuraciones.\n- No consta en la documentación revisada la exigencia de herramientas ITSM concretas por marca o producto.\n- No consta en la documentación revisada la exigencia de reporting automatizado más allá de los informes mensuales y exportaciones descritas.\n\n# 12. Documentos revisados\n\n1. PCP 2026 03993.pdf (Pliego administrativo)\n2. ANEXO I 2026 03393 .pdf (Pliego técnico)\n3. ANEXO III 2026 03993.pdf (Modelo oferta económica)\n4. ANEXO II 2026 03993.pdf (Modelo declaración responsable)\n5. ANEXO IV 2026 03993.pdf (Modelo garantía definitiva)\n6. poc (Documento enlazado, Plataforma de Contratación)\n7. poc (Documento enlazado, Perfil de Contratante)\n8. poc (Documento enlazado, Perfil de Contratante)\n\n# Tabla de trazabilidad\n\n| Requisito/dato | Tipo | Valor/condición | Documento | Página/apartado | Estado de lectura |\n|---------------|------|----------------|-----------|-----------------|-------------------|\n| Usuarios nominativos mínimos | Obligación contractual | 15 | ANEXO I | p.4 | Leído |\n| Acceso web seguro | Obligación contractual | Navegadores corporativos soportados | ANEXO I | p.4 | Leído |\n| Módulos incluidos | Obligación contractual | Inteligencia meteorológica, visualización geoespacial, simulación incendios, simulación inundaciones | ANEXO I | p.4 | Leído |\n| Duración del servicio | Obligación contractual | 24 meses | PCP, ANEXO I | p.22, p.21 | Leído |\n| Horario soporte | Obligación contractual | 8 horas/día, 7 días/semana | ANEXO I | p.16 | Leído |\n| Bolsa de horas | Obligación contractual | 350 UT/año (máx.) | ANEXO I | p.19 | Leído |\n| Project Manager | Obligación contractual | Titulación universitaria, 3 años experiencia | ANEXO I | p.17 | Leído |\n| Especialistas (meteorología, predicción, software, riesgos) | Obligación contractual | Titulación y experiencia según perfil | ANEXO I | p.18 | Leído |\n| Centro de soporte | Obligación contractual | Portal, email, teléfono | ANEXO I | p.16 | Leído |\n| Integración con sistemas corporativos | Obligación contractual | Identidad, APIs, servicios geoespaciales | ANEXO I | p.14-15 | Leído |\n| Informes mensuales | Obligación contractual | Disponibilidad, incidencias, cambios, bolsa de horas | ANEXO I | p.19-20 | Leído |\n| Plan de devolución y destrucción de datos | Obligación contractual | Exportación, certificado de supresión | ANEXO I | p.22, 39 | Leído |\n| Planes de contingencia, continuidad, salida | Obligación contractual | Descritos | ANEXO I | p.38-39 | Leído |\n| Penalizaciones por SLA | Penalización | 0,5%-2% importe contrato según prioridad | PCP | p.29 | Leído |\n| Penalizaciones por calidad, equipo, seguridad | Penalización | Hasta 20% importe contrato, 5.000 €, 1.000-3.000 € | PCP | p.30-31 | Leído |\n| Automatización de boletines y alertas | Obligación contractual | Generación y envío automático | ANEXO I | p.11-12 | Leído |\n| Documentación y materiales formativos | Obligación contractual | Manuales, guías, videoteca, sesiones | ANEXO I | p.21 | Leído |\n| SLA tiempos de respuesta/resolución | NO LOCALIZADO | A definir en acuerdo posterior | ANEXO I | p.16 | Leído |\n| Niveles N1/N2/N3 ITIL | NO CONSTA | No expresados | ANEXO I | p.16 | Leído |\n| CMDB específica | NO CONSTA | No exigida expresamente | ANEXO I | p.26 | Leído |\n| Herramienta ITSM concreta | NO CONSTA | No exigida expresamente | ANEXO I | p.16 | Leído |\n| Reporting automatizado | NO CONSTA | No exigido más allá de informes mensuales | ANEXO I | p.19-20 | Leído |\n\n# Discrepancias y pendientes de aclaración\n\n- No se han identificado discrepancias en la documentación revisada."
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "PCP 2026 03993.pdf",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 96360,
+        "caracteres_enviados_al_agente": 96360,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "ANEXO I 2026 03393 .pdf",
+        "tipo": "Pliego tecnico",
+        "fuente": "XML",
+        "caracteres_extraidos": 97875,
+        "caracteres_enviados_al_agente": 97875,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "ANEXO III 2026 03993.pdf",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 1431,
+        "caracteres_enviados_al_agente": 1431,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 4,
+        "nombre": "ANEXO II 2026 03993.pdf",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 7189,
+        "caracteres_enviados_al_agente": 7189,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 5,
+        "nombre": "ANEXO IV 2026 03993.pdf",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 4657,
+        "caracteres_enviados_al_agente": 4657,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 6,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "PCP 2026 03993.pdf",
+        "caracteres_extraidos": 2659,
+        "caracteres_enviados_al_agente": 2659,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 7,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "PCP 2026 03993.pdf",
+        "caracteres_extraidos": 3160,
+        "caracteres_enviados_al_agente": 3160,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 8,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "poc",
+        "caracteres_extraidos": 3160,
+        "caracteres_enviados_al_agente": 3160,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Se omitieron 6 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  }
+}

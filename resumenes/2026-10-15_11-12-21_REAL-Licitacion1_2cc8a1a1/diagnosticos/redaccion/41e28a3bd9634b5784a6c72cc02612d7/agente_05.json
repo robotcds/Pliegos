@@ -1,0 +1,102 @@
+{
+  "orden": 5,
+  "id": "A6",
+  "nombre": "Requisitos del servicio",
+  "tipo": "extraccion",
+  "ejecucion": "2cc8a1a1be9e4d199d88236451d4b287",
+  "estado": "completado",
+  "contenido": {
+    "salida_original": "# 1. Resumen factual del servicio requerido\n\nEl contrato tiene por objeto la prestación de servicios profesionales para el diseño, desarrollo, puesta en servicio, mantenimiento y evolución tecnológica de un Asistente Virtual (BOT conversacional con IA tradicional y generativa) integrado en el portal Decide Madrid del Ayuntamiento de Madrid. El servicio se ofrece en modalidad SaaS, siendo el adjudicatario responsable de la gestión y operación de todos los elementos de la solución, salvo la infraestructura MultiCloud corporativa (Google Cloud Platform, Microsoft Azure, Amazon AWS) proporcionada por el Ayuntamiento. Incluye panel de control, formación, soporte de primer nivel, monitorización, mantenimiento, evolución tecnológica mediante bolsa de horas, cumplimiento de normativa de IA, seguridad, accesibilidad, transparencia y reversibilidad.\n\n# 2. Alcance y volumetrías\n\n| Dato | Valor/Unidad | Periodo | Fuente |\n|------|--------------|---------|--------|\n| Usuarios registrados Decide Madrid | 555.318 | Histórico hasta 30/11/2025 | ID_188_3.PDF p.3 |\n| Debates | 8.220 | Histórico hasta 30/11/2025 | ID_188_3.PDF p.3 |\n| Propuestas | 36.124 | Histórico hasta 30/11/2025 | ID_188_3.PDF p.3 |\n| Consultas públicas | 150 | Histórico hasta 30/11/2025 | ID_188_3.PDF p.3 |\n| Personas atendidas por asistente virtual | 6.246 (2023), 4.490 (2024), 2.552 (2025 hasta 30/11) | Anual | ID_188_3.PDF p.6 |\n| Mensajes intercambiados | 27.083 (2023), 46.723 (2024), 26.784 (2025 hasta 30/11) | Anual | ID_188_3.PDF p.6 |\n| Conversaciones simultáneas mínimas | 50 | Continuo | ID_188_3.PDF p.13 |\n| Tráfico mínimo de mensajes | 15.000 mensajes/mes | Continuo | ID_188_3.PDF p.13 |\n| Horario de atención primer nivel | Días laborables 11:00-14:00 | Continuo | ID_188_3.PDF p.16 |\n| Horario de operación asistente | 24x7x365 | Continuo | ID_188_3.PDF p.13 |\n| Bolsa de horas evolución tecnológica | 600 horas (ampliable a 700/800 por mejora) | Vigencia contrato | ID_188_3.PDF p.17, ID_188_2.PDF p.61, p.72 |\n| Formación | 20 horas, hasta 20 asistentes | Vigencia contrato | ID_188_3.PDF p.16 |\n\n# 3. Modelo de servicio exigido\n\n- Modalidad SaaS: adjudicatario responsable de gestión y operación de la solución, salvo infraestructura MultiCloud corporativa (Google Cloud Platform, Microsoft Azure, Amazon AWS) proporcionada por el Ayuntamiento. (ID_188_3.PDF p.1, p.30)\n- Fases: Implantación (máx. 2 meses), Operación (resto de vigencia). (ID_188_3.PDF p.8-9)\n- Servicio de primer nivel de atención: mínimo 1 agente en horario laboral definido. (ID_188_3.PDF p.16)\n- Monitorización y supervisión diaria en días laborables. (ID_188_3.PDF p.15)\n- Mantenimiento preventivo, correctivo y evolutivo. (ID_188_3.PDF p.17)\n- Bolsa de horas para evolución tecnológica. (ID_188_3.PDF p.17)\n- Panel de control accesible vía navegador, con funciones de reporting, supervisión y exportación. (ID_188_3.PDF p.14-15)\n- Formación inicial y continua. (ID_188_3.PDF p.16)\n- Transferencia de conocimiento y reversibilidad al cierre. (ID_188_3.PDF p.9)\n\n# 4. Procesos y actividades\n\n| Proceso/actividad | Expreso en pliego | Exigencia descrita | Fuente |\n|-------------------|------------------|-------------------|--------|\n| Gestión de incidencias | ITIL NO CITADO EXPRESAMENTE | Mecanismo ágil de reporte y resolución de incidencias, notificación inmediata a DGPC, seguimiento hasta resolución | ID_188_3.PDF p.17 |\n| Monitorización y supervisión | ITIL NO CITADO EXPRESAMENTE | Supervisión diaria de conversaciones, detección y corrección de errores, acciones de mejora | ID_188_3.PDF p.15 |\n| Mantenimiento preventivo/correctivo/evolutivo | ITIL NO CITADO EXPRESAMENTE | Garantizar funcionamiento óptimo, soporte técnico, resolución de incidencias, adaptación a requerimientos y entorno | ID_188_3.PDF p.17 |\n| Gestión de cambios | ITIL NO CITADO EXPRESAMENTE | Modificaciones de arquitectura sujetas a aprobación previa de DGPC/IAM | ID_188_3.PDF p.9 |\n| Transferencia de conocimiento | ITIL NO CITADO EXPRESAMENTE | Actividades de transferencia y entrega de información al cierre | ID_188_3.PDF p.9 |\n| Gestión de la configuración | ITIL NO CITADO EXPRESAMENTE | Documentación de arquitectura, código, modelos, parametrizaciones, almacenada en repositorio IAM | ID_188_3.PDF p.30-31 |\n| Gestión de la seguridad | ITIL NO CITADO EXPRESAMENTE | Cumplimiento ENS nivel básico, análisis de riesgos, configuración segura, gestión de incidentes, auditorías | ID_188_3.PDF p.45-49 |\n| Gestión de la accesibilidad | ITIL NO CITADO EXPRESAMENTE | Cumplimiento UNE 139803:2012, nivel AA WCAG 2.0 | ID_188_3.PDF p.19-20 |\n| Gestión de la transparencia y datos | ITIL NO CITADO EXPRESAMENTE | Entrega de datos, informes, bases de datos, formatos abiertos, API, cumplimiento normativa | ID_188_3.PDF p.20-23, p.54-56 |\n| Gestión de la formación | ITIL NO CITADO EXPRESAMENTE | Formación inicial y continua, materiales actualizables | ID_188_3.PDF p.16 |\n| Gestión de la reversibilidad | ITIL NO CITADO EXPRESAMENTE | Entrega de información, borrado seguro, certificado de destrucción | ID_188_3.PDF p.9 |\n| Gestión de la continuidad | ITIL NO CITADO EXPRESAMENTE | Cobertura de ausencias, vacaciones, bajas, sin eximir cumplimiento | ID_188_3.PDF p.23 |\n| Gestión de la subcontratación | ITIL NO CITADO EXPRESAMENTE | Comunicación y límites de subcontratación, documentación, penalizaciones | ID_188_3.PDF p.29 |\n| Gestión de la calidad | ITIL NO CITADO EXPRESAMENTE | Auditoría de entregables, revisión de estándares, planes de acción | ID_188_3.PDF p.20 |\n| Gestión de la documentación | ITIL NO CITADO EXPRESAMENTE | Generación y mantenimiento de documentación técnica, manuales, informes | ID_188_3.PDF p.11, p.9 |\n\n# 5. SLA/KPI/penalizaciones\n\n| Servicio | Prioridad | Respuesta | Resolución | Horario | Objetivo | Penalización | Fuente |\n|---------|----------|----------|-----------|--------|---------|-------------|--------|\n| Fase implantación | Principal | NO CONSTA | 2 meses máx. | NO CONSTA | Cumplimiento plazo | Penalidad por incumplimiento | ID_188_3.PDF p.8-9 |\n| Indisponibilidad asistente virtual | Grave/Muy grave | NO CONSTA | >48h (grave), >5 días (muy grave) | 24x7x365 | Disponibilidad continua | 5%/10% precio contrato | ID_188_2.PDF p.76-77 |\n| Retraso en información transparencia | Grave/Muy grave | NO CONSTA | >5 días (grave), >15 días (muy grave) | NO CONSTA | Cumplimiento plazo | 5%/10% precio contrato | ID_188_2.PDF p.76-77 |\n| Retraso en implantación | Grave/Muy grave | NO CONSTA | >1 semana (grave), >2 semanas (muy grave) | NO CONSTA | Cumplimiento plazo | 5%/10% precio contrato | ID_188_2.PDF p.76-77 |\n| Incumplimiento condiciones especiales ejecución | Grave | NO CONSTA | NO CONSTA | NO CONSTA | Cumplimiento | 5% precio contrato | ID_188_2.PDF p.77 |\n| Incumplimiento formación, conciliación, igualdad | Grave | NO CONSTA | NO CONSTA | NO CONSTA | Cumplimiento | 5% precio contrato | ID_188_2.PDF p.78 |\n| Subcontratación no permitida | Grave | NO CONSTA | NO CONSTA | NO CONSTA | Cumplimiento | 5% precio contrato | ID_188_2.PDF p.78 |\n| Cumplimiento defectuoso | Grave/Muy grave | NO CONSTA | NO CONSTA | NO CONSTA | Cumplimiento | 5%/10% precio contrato | ID_188_2.PDF p.76-77 |\n\n# 6. Organización y roles exigidos\n\n- Equipo mínimo:\n  - Jefe/a de Proyecto: 2 personas, titulación universitaria, 5 años experiencia en proyectos administración electrónica, 3 años en asistentes virtuales.\n  - Técnico/a experto/a soluciones en la nube: 1 persona, titulación universitaria, 3 años experiencia funciones perfil, 2 años en asistentes virtuales.\n  - Analista programador: 1 persona, titulación universitaria, 3 años experiencia funciones perfil, 2 años en asistentes virtuales.\n  - Experto en IA y análisis de datos: 1 persona, titulación universitaria, 3 años experiencia funciones perfil, 2 años en asistentes virtuales.\n  - Lingüista computacional: 1 persona, titulación universitaria, 3 años experiencia funciones perfil, 2 años en asistentes virtuales.\n  - Agente primer nivel de atención: 2 personas, titulación oficial secundaria, 3 años experiencia atención ciudadanía en castellano.\n  - Consultor evolución tecnológica: 1 persona, titulación universitaria, 5 años experiencia funciones perfil, 3 años en análisis de proyectos administración electrónica, 3 años en asistentes virtuales.\n- Interlocutor único de la empresa (IE), suplente obligatorio. (ID_188_3.PDF p.10)\n- Sustitución de personal: justificada, comunicación previa, plazo 7 días para sustituto, conformidad municipal. (ID_188_3.PDF p.28)\n- Cobertura de ausencias, vacaciones, bajas: obligación de continuidad. (ID_188_3.PDF p.23)\n- Idioma: castellano. (ID_188_3.PDF p.13, p.16)\n- Formación mínima: ver arriba. (ID_188_3.PDF p.16)\n\n# 7. Gobierno y reporting exigidos\n\n- Responsable del contrato (RC) designado por DGPC. (ID_188_3.PDF p.10)\n- Unidad de seguimiento: Servicio de Innovación en la Participación. (ID_188_2.PDF p.54)\n- Reuniones de seguimiento: mensuales o superior, con representantes de ambas partes. (ID_188_3.PDF p.10-11)\n- Informes de seguimiento: mensuales, reflejando hechos relevantes, incidencias, acciones, horas empleadas. (ID_188_3.PDF p.11)\n- Informes adicionales a requerimiento. (ID_188_3.PDF p.11)\n- Informe final de proyecto al cierre. (ID_188_3.PDF p.9)\n- Informe de impacto de género antes de la finalización del contrato. (ID_188_3.PDF p.52)\n- Informe de conciliación corresponsable antes de la finalización del contrato. (ID_188_3.PDF p.52, p.58)\n- Manual de usuario y documentación técnica, actualizables. (ID_188_3.PDF p.8-9, p.11)\n\n# 8. Herramientas ITSM, CMDB, monitorización e integraciones exigidas\n\n- Herramientas ITSM: NO CONSTA EN LA DOCUMENTACION REVISADA referencia a herramientas ITSM específicas.\n- CMDB: Obligación de registrar todos los sistemas y aplicaciones desplegados en la CMDB corporativa gestionada por IAM. (ID_188_3.PDF p.33)\n- Monitorización: Panel de control con funciones de monitorización, supervisión, reporting, exportación, análisis de datos, encuestas de satisfacción, supervisión de agentes. (ID_188_3.PDF p.14-15)\n- Integraciones: Integración con portal Decide Madrid vía script, integración con buscador, integración con plataforma MAIA, integración con Plataforma del Dato, APIs para datos abiertos. (ID_188_3.PDF p.13-14, p.42-44)\n- Infraestructura: Despliegue en MultiCloud corporativa (Azure, GCP, AWS), cumplimiento modelo de gobierno IAM, uso de landing zones, infraestructura como código, repositorio IAM. (ID_188_3.PDF p.30-31)\n\n# 9. Transición, continuidad y reversibilidad exigidas\n\n- Fase de implantación: máx. 2 meses, entrega de solución operativa, validación por DGPC/IAM. (ID_188_3.PDF p.8-9)\n- Transferencia de conocimiento: actividades y entrega de información durante los últimos 2 meses del contrato. (ID_188_3.PDF p.9)\n- Entrega de información generada: productos de desarrollo, modelos, código, datos, conversaciones anonimizadas, encuestas, logs, etc. (ID_188_3.PDF p.9)\n- Borrado seguro de datos y certificado de destrucción al cierre. (ID_188_3.PDF p.9)\n- Garantía técnica: 12 meses desde recepción. (ID_188_2.PDF p.79)\n- Continuidad: obligación de cobertura de ausencias, vacaciones, bajas, sin eximir cumplimiento. (ID_188_3.PDF p.23)\n- Reversibilidad: entrega de documentación, datos, modelos, código, manuales, formatos abiertos, API, cumplimiento de normativa de transparencia y datos abiertos. (ID_188_3.PDF p.9, p.20-23, p.54-56)\n\n# 10. Automatización, self-service y gestión del conocimiento\n\n- Automatización/self-service: El asistente virtual debe permitir interacción self-service 24x7x365, con panel de control para autogestión por DGPC. (ID_188_3.PDF p.13-15)\n- Gestión del conocimiento: Base de datos de intenciones, preguntas frecuentes, centro de ayuda, almacenamiento de conversaciones anonimizadas, panel de control para análisis y mejora. (ID_188_3.PDF p.12, p.15)\n\n# 11. Datos no localizados o ambiguos en la documentación\n\n- No consta referencia a herramientas ITSM específicas (tipo ServiceNow, Jira, etc.).\n- No consta definición de niveles N2/N3 ni escalado formalizado más allá del primer nivel de atención.\n- No consta detalle de métricas de tiempo de respuesta/resolución para incidencias (solo plazos máximos para implantación y penalizaciones por indisponibilidad).\n- No consta definición formal de prioridades/incidencias (impacto/urgencia) más allá de la clasificación de penalizaciones.\n- No consta detalle de reporting automatizado ni de cuadros de mando fuera del panel de control y los informes mensuales.\n- No consta exigencia de certificaciones técnicas (ITIL, ISO, etc.) para el personal.\n- No consta exigencia de idiomas distintos al castellano.\n- No consta exigencia de guardias fuera del horario de primer nivel de atención.\n\n# 12. Documentos revisados\n\n1. ID_188_1.PDF (Documento licitación real)\n2. ID_188_2.PDF (Pliego de Cláusulas Administrativas Particulares y Anexos)\n3. ID_188_3.PDF (Pliego de Prescripciones Técnicas)\n4. poc (Documento enlazado, detalle licitación, texto extraído)\n5. poc (Documento enlazado, perfil contratante, texto extraído)\n6. poc (Documento enlazado, perfil contratante, texto extraído)\n7. 147409-2026 (Documento enlazado, sin texto extraíble; pendiente de lectura/OCR)\n8. perfilContratante (Documento enlazado, texto extraído)\n\n# Tabla de trazabilidad\n\n| Requisito/dato | Tipo | Valor/condición | Documento | Página/apartado | Estado de lectura |\n|----------------|------|-----------------|-----------|-----------------|------------------|\n| Alcance servicio | Obligación contractual | Diseño, desarrollo, mantenimiento, evolución tecnológica Asistente Virtual Decide Madrid | ID_188_3.PDF | p.1 | Leído |\n| Modalidad SaaS | Obligación contractual | Adjudicatario responsable de gestión y operación, salvo infraestructura MultiCloud | ID_188_3.PDF | p.1 | Leído |\n| Horario atención primer nivel | Obligación contractual | Días laborables 11:00-14:00 | ID_188_3.PDF | p.16 | Leído |\n| Horario operación asistente | Obligación contractual | 24x7x365 | ID_188_3.PDF | p.13 | Leído |\n| Bolsa de horas evolución tecnológica | Obligación contractual | 600 horas (ampliable) | ID_188_3.PDF | p.17 | Leído |\n| Equipo mínimo y roles | Obligación contractual | Ver detalle sección 6 | ID_188_3.PDF | p.24-26 | Leído |\n| Panel de control | Obligación contractual | Accesible vía navegador, funciones de reporting, supervisión, exportación | ID_188_3.PDF | p.14-15 | Leído |\n| Monitorización diaria | Obligación contractual | Días laborables | ID_188_3.PDF | p.15 | Leído |\n| Formación | Obligación contractual | 20 horas, hasta 20 asistentes | ID_188_3.PDF | p.16 | Leído |\n| Transferencia de conocimiento | Obligación contractual | Últimos 2 meses, entrega de información, informe final | ID_188_3.PDF | p.9 | Leído |\n| Borrado seguro y certificado | Obligación contractual | Al cierre del contrato | ID_188_3.PDF | p.9 | Leído |\n| Penalizaciones indisponibilidad | Penalización | >48h (grave), >5 días (muy grave), 5%/10% precio contrato | ID_188_2.PDF | p.76-77 | Leído |\n| Garantía técnica | Obligación contractual | 12 meses desde recepción | ID_188_2.PDF | p.79 | Leído |\n| CMDB | Obligación contractual | Registro en CMDB corporativa IAM | ID_188_3.PDF | p.33 | Leído |\n| Integración MultiCloud | Obligación contractual | Azure, GCP, AWS, cumplimiento modelo IAM | ID_188_3.PDF | p.30-31 | Leído |\n| Accesibilidad | Obligación contractual | UNE 139803:2012, nivel AA WCAG 2.0 | ID_188_3.PDF | p.19-20 | Leído |\n| Seguridad ENS | Obligación contractual | Nivel básico, análisis de riesgos, configuración segura | ID_188_3.PDF | p.45-49 | Leído |\n| Automatización/self-service | Obligación contractual | Asistente virtual 24x7x365, panel de control | ID_188_3.PDF | p.13-15 | Leído |\n| Gestión del conocimiento | Obligación contractual | BBDD intenciones, FAQ, centro de ayuda, panel de control | ID_188_3.PDF | p.12, p.15 | Leído |\n| Herramientas ITSM | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n| Niveles N2/N3 | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n| SLA tiempos respuesta incidencias | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n| Certificaciones técnicas | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n| Idiomas distintos castellano | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n| Guardias fuera horario primer nivel | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA |\n\n# Discrepancias y pendientes de aclaración\n\n- Documento 147409-2026 pendiente de lectura/OCR: no se ha podido verificar si contiene requisitos adicionales o diferentes.\n- No se han identificado discrepancias internas en la documentación revisada."
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "ID_188_1.PDF",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 14915,
+        "caracteres_enviados_al_agente": 14915,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "ID_188_2.PDF",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 224684,
+        "caracteres_enviados_al_agente": 224684,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "ID_188_3.PDF",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 186976,
+        "caracteres_enviados_al_agente": 186976,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 4,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "ID_188_1.PDF",
+        "caracteres_extraidos": 5923,
+        "caracteres_enviados_al_agente": 5923,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 5,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "ID_188_1.PDF",
+        "caracteres_extraidos": 2659,
+        "caracteres_enviados_al_agente": 2659,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 6,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "ID_188_1.PDF",
+        "caracteres_extraidos": 3127,
+        "caracteres_enviados_al_agente": 3127,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 7,
+        "nombre": "147409-2026",
+        "tipo": "Documento enlazado",
+        "fuente": "ID_188_1.PDF",
+        "caracteres_extraidos": 0,
+        "caracteres_enviados_al_agente": 0,
+        "texto_compactado": false,
+        "error": "Sin texto extraible; documento pendiente de lectura/OCR"
+      },
+      {
+        "numero": 8,
+        "nombre": "perfilContratante",
+        "tipo": "Documento enlazado",
+        "fuente": "ID_188_2.PDF",
+        "caracteres_extraidos": 2690,
+        "caracteres_enviados_al_agente": 2690,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Documento no leido: 147409-2026: Sin texto extraible; documento pendiente de lectura/OCR",
+      "Se omitieron 22 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  }
+}

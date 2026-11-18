@@ -1,0 +1,57 @@
+PLIEGO ADMINISTRATIVO FICTICIO OPP-SW-005
+Contrato para cuadro de mando BI de expedientes.
+
+Procedimiento: abierto simplificado ficticio.
+Presupuesto base de licitacion: 302.500 EUR IVA incluido.
+Valor estimado: 250.000 EUR.
+Duracion: 8 meses.
+Plazo de presentacion: 18/09/2026 a las 14:00.
+
+Documentacion:
+- Memoria funcional y tecnica.
+- Propuesta de KPIs.
+- Plan de calidad de datos.
+- Plan de formacion.
+- Equipo adscrito.
+
+Criterios evaluables:
+Se valorara claridad del modelo de datos, trazabilidad de fuentes y sencillez para usuarios gestores.
+
+Condiciones de participacion:
+Podran presentarse empresas con capacidad de obrar y solvencia suficiente. No se exige clasificacion empresarial. No se permite UTE para este contrato por razones de coordinacion del servicio.
+
+Solvencia economica:
+Volumen anual de negocios minimo de 300.000 EUR. No se exige seguro especifico adicional al seguro general de responsabilidad civil.
+
+Documentacion y oferta:
+Dos archivos electronicos: archivo 1 documentacion administrativa y memoria tecnica; archivo 2 oferta economica en modelo Excel oficial. La memoria tendra maximo 30 paginas. Idioma: espanol.
+
+Garantias y lotes:
+No hay lotes. No se exige garantia provisional. Garantia definitiva del 5 por ciento. La presentacion fuera de plazo o no usar el Excel oficial excluira la oferta.
+
+Criterios de adjudicacion:
+Total 100 puntos.
+- Propuesta funcional y tecnica BI: 38 puntos. Subcriterios: modelo de datos 10, calidad de datos 8, KPIs 8, visualizacion y usabilidad 6, seguridad y permisos 3, trazabilidad 3.
+- Precio: 35 puntos. Formula proporcional a la oferta mas baja.
+- Plan de formacion: 10 puntos. Tope de 30 horas puntuables.
+- Mejoras automaticas: 10 puntos. Hasta 5 puntos por dashboards adicionales, tope 5 dashboards; hasta 5 puntos por conectores adicionales, tope 3 conectores.
+- Sostenibilidad y documentacion: 7 puntos.
+Umbral minimo: 22 puntos sobre propuesta funcional y tecnica BI.
+
+ANEXO ECONOMICO-FINANCIERO:
+Presupuesto de oferta: 250.000 EUR sin IVA. IVA 52.500 EUR. PBL con IVA 302.500 EUR. Duracion 8 meses.
+Formula economica: la oferta mas baja obtiene 35 puntos y el resto recibe puntuacion proporcional P = 35 x oferta_minima / oferta_licitador.
+No se preve baja temeraria automatica salvo ofertas inferiores al 75 por ciento del presupuesto o incoherentes con dedicaciones.
+Facturacion: 30 por ciento tras modelo de datos, 40 por ciento tras dashboards, 20 por ciento tras formacion, 10 por ciento tras aceptacion final.
+Costes obligatorios:
+- Equipo 8 meses: especialista BI/datos 100 por ciento, analista funcional 50 por ciento, backend integraciones 30 por ciento, QA 20 por ciento.
+- Power BI: el cliente aporta 300 licencias finales. El adjudicatario asume 5 licencias Pro durante el proyecto y costes de workspace de desarrollo si usa cloud propio.
+- Conectores adicionales: hasta 3 conectores puntuables; estimacion 35 horas por conector.
+- Formacion: 30 horas maximo puntuables; coste de materiales y grabaciones incluido.
+- Gobierno y calidad de datos: reglas de calidad, diccionario de datos y validacion con usuarios incluidos.
+Riesgo economico: bajo si se limita el alcance de conectores; medio si el cliente exige limpieza masiva de datos no descrita.
+Penalizaciones: 2 por ciento del hito si los dashboards no superan validacion funcional tras dos iteraciones imputables al adjudicatario.
+
+ANEXO COMPRAS / PARTNERS:
+El cliente aporta Power BI Service corporativo, pero el adjudicatario debe aportar licencias Power BI Pro temporales para equipo de proyecto si las necesita, gateway de datos, repositorio Git y herramienta de calidad de datos. Deben validarse conectores a SQL Server, CSV, API REST y sistema legacy.
+No se exige partner de fabricante, aunque se valorara experiencia Microsoft. Necesidad derivada: confirmar si el gateway se instala en infraestructura del cliente o del adjudicatario. Si se requiere despliegue cloud, usar Cloud Partner Ficticio S.A.; si solo hay BI interno, se cubre con equipo propio.

@@ -1,0 +1,67 @@
+# Registro documental de preventa
+
+| Materia | Requisito completo | Fuente |
+|---|---|---|
+| Criterios de adjudicación: estructura general | La adjudicación se realiza por pluralidad de criterios: 70% económico (precio), 3% técnico automático, 27% técnico por juicio de valor. Suma total: 100%. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.10-11; Anuncio.pdf, p.5-6; DOC_CD2024-000901195.pdf, p.5 |
+| Criterios de adjudicación: bloques y sobres | Criterios sujetos a juicio de valor (Anexo IX): 27 puntos (27%). Criterios evaluables automáticamente (Anexo X): 3 puntos (3%). Criterio económico (Anexo X): 70 puntos (70%). Sobre 2: oferta técnica y criterios de juicio de valor. Sobre 3: proposición económica y criterios automáticos. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.10-12, 84-86 |
+| Criterios de adjudicación: juicio de valor (detalle) | Criterios técnicos evaluables mediante juicio de valor (máx. 27 puntos):
+1. Solución técnica del servicio (0-16 puntos):
+  1.1. Descripción y detalle del alcance completo de los servicios solicitados en el pliego (0-9 puntos, con desglose: 3 por detalle y adecuación, 1 por modelo relación cliente-proveedor, 2 por optimización y mejora continua, 2 por plan de subcontratación, 1 por gestión del conocimiento).
+  1.2. Descripción del modelo de gobierno de entrega del servicio (0-3 puntos, 1 por cada subapartado: roles y responsabilidades, modelo de gobierno, conocimientos y experiencia, organigrama y procesos).
+  1.3. Plan propuesto para la transición del servicio (0-2 puntos: 1,5 por detalle y adecuación, 0,5 si el tiempo es inferior a 30 días naturales).
+  1.4. Plan propuesto para la reversión del servicio (0-2 puntos: 1 por detalle y adecuación, 1 si el equipo de reversión >5 personas).
+2. Características y conocimientos del equipo de trabajo (0-11 puntos):
+  2.1. Propuesta organizativa y descripción del equipo de trabajo con características adicionales a las requeridas en la fase de solvencia (0-4 puntos: máximo por detalle, recursos y menor precio hora propuesto).
+  2.2. Incremento de horas ofrecidas sobre las necesidades estimadas (0-7 puntos: 5 a la mejor oferta, proporcional al resto; 2 adicionales por mayor número de mejoras).
+Puntuación técnica total: 0-27 puntos. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.84-86 |
+| Criterios de adjudicación: juicio de valor (reglas de puntuación y normalización) | La puntuación técnica de la oferta estará constituida por la suma de las puntuaciones finales asignadas a cada uno de los bloques de criterios técnicos, con un máximo de 27 puntos. Una vez obtenida la valoración técnica de las “n” ofertas, se obtiene la Puntuación Técnica (PT) a partir de la siguiente expresión: PTn = PTm × VTn / VTm, donde PTm=27, VTn=valoración técnica de la oferta n, VTm=valoración técnica más alta. Todas las puntuaciones serán redondeadas al segundo decimal. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.86 |
+| Criterios de adjudicación: criterios automáticos técnicos | Criterio técnico automático: Acuerdo de Niveles de Servicio (ANS), máximo 3 puntos. Mejora en los Niveles de Servicio solicitados en el Anexo XVII – Evaluación de Proveedores. Se obtendrá 0,5 puntos por cada indicador mejorado hasta un máximo de 3 puntos. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.87 |
+| Criterios de adjudicación: criterios automáticos económicos (precio) | Criterio económico: hasta 70 puntos. Fórmula de puntuación económica basada en el descuento ofertado respecto al presupuesto de licitación (DtoN = (PL - POn)/PL × 100). Tramos y fórmulas:
+- DtoN ≥ 0 y DtoN ≤ 10: PEn = DtoN × 50/10
+- DtoN > 10 y DtoN ≤ 25: PEn = (DtoN - 10) × 20/15 + 50
+- DtoN > 25 y DtoN ≤ 30: PEn = (DtoN - 25) × -70/5 + 70
+- DtoN > 30: PEn = 0
+Variables: PL = presupuesto de licitación, POn = presupuesto oferta n, DtoN = descuento de la oferta n. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.87-88 |
+| Criterios de adjudicación: criterios automáticos económicos (cálculo de extremos y tramos) | Cálculo derivado: 
+- Para DtoN=0, PEn=0
+- Para DtoN=10, PEn=50
+- Para DtoN=25, PEn=70
+- Para DtoN=30, PEn=0
+- Para DtoN>30, PEn=0
+La puntuación máxima (70) se alcanza en DtoN=25%. A partir de DtoN>25% la puntuación decrece linealmente hasta 0 en DtoN=30%. Ofertas con descuento superior al 30% reciben 0 puntos. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.88 (cálculo derivado) |
+| Criterios de adjudicación: reglas de redondeo | Todas las puntuaciones serán redondeadas al segundo decimal. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.86 |
+| Criterios de adjudicación: reglas de desempate | En caso de empate tras la aplicación de los criterios de adjudicación, se acudirá a lo dispuesto en el artículo 66.11 del Real Decreto Ley 3/2020, relativo a los criterios de desempate. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.11 |
+| Criterios de adjudicación: mejoras puntuables | Se valoran mejoras y valores adicionales propuestos en el pliego en el subcriterio 2.2 (Incremento de horas ofrecidas sobre las necesidades estimadas): hasta 2 puntos adicionales a mayor número de mejoras. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.86 |
+| Criterios de adjudicación: documentación de oferta | Sobre 2: oferta técnica y criterios de juicio de valor (Anexo IX). Sobre 3: proposición económica y criterios automáticos (Anexo X). La inclusión de información económica en el sobre técnico supone exclusión. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.12 |
+| Criterios de adjudicación: régimen de ofertas anormalmente bajas | Se considerará que una proposición económica es anormalmente baja cuando incluya un porcentaje de baja que, respecto de la media aritmética de los porcentajes de baja de todas las ofertas admitidas, o del presupuesto de licitación en caso de licitador único, exceda de diez unidades porcentuales. En caso de identificarse, se solicitará justificación por escrito en 5 días hábiles. Si no se recibe, se entiende retirada la oferta. Si la justificación no es aceptada, se adjudica al siguiente mejor clasificado. Si la oferta anormalmente baja resulta adjudicataria, deberá constituir garantía complementaria del 5% del importe de adjudicación (IVA excluido). | DOC20240806095753Pliegodefinitivofirmado.pdf, p.16, 18 |
+| Criterios de adjudicación: criterios afectados por anormalidad | El régimen de anormalidad afecta al criterio económico (precio). | DOC20240806095753Pliegodefinitivofirmado.pdf, p.16 |
+| Criterios de adjudicación: exclusión de valores del cálculo de anormalidad | NO CONSTA EN LA DOCUMENTACION REVISADA exclusión de valores extremos, grupos empresariales o reglas adicionales para el cálculo de la media aritmética de bajas. | NO CONSTA EN LA DOCUMENTACION REVISADA |
+| Criterios de adjudicación: plazo de justificación de anormalidad | El licitador dispone de 5 días hábiles para justificar la oferta anormalmente baja desde el requerimiento. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.16 |
+| Criterios de adjudicación: consecuencias de no justificar anormalidad | Si no se justifica en plazo, se entiende retirada la oferta. Si la justificación no es aceptada, se adjudica al siguiente mejor clasificado. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.16 |
+| Criterios de adjudicación: garantía complementaria por anormalidad | Si la oferta anormalmente baja resulta adjudicataria, el licitador deberá constituir una garantía complementaria del 5% del importe de adjudicación (IVA excluido). | DOC20240806095753Pliegodefinitivofirmado.pdf, p.18 |
+| Criterios de adjudicación: exclusión de criterios de adjudicación de la negociación | En ningún caso serán objeto de negociación los requisitos mínimos de la prestación objeto del contrato ni tampoco los criterios de adjudicación. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.15 |
+| Criterios de adjudicación: aspectos técnicos y económicos negociables | Los aspectos técnicos que pueden ser mejorados en la negociación técnica son los valores de los ANSs indicados en el Anexo XVII – Evaluación de Proveedores. Los aspectos económicos que pueden ser mejorados en la negociación económica son los importes recogidos en el Anexo XI.- Modelo de proposición económica. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.83 |
+| Criterios de adjudicación: presentación de ofertas mejoradas | Tras la primera valoración, se permite una única ronda de negociación técnica y económica. Los licitadores deben presentar ofertas mejoradas tanto técnicas como económicas. La oferta económica mejorada debe suponer una reducción respecto a la inicial; si no, el licitador queda excluido. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.13, 15 |
+| Criterios de adjudicación: fórmula de puntuación técnica mejorada (ANS) | Criterios Técnicos Mejorados (máx. 3 puntos): Mejora en los Niveles de Servicio solicitados en el Anexo XVII – Evaluación de Proveedores. Se obtendrá 0,5 puntos por cada indicador mejorado hasta un máximo de 3 puntos. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.13, 87 |
+| Criterios de adjudicación: fórmula de puntuación económica mejorada | La puntuación económica mejorada se obtiene de acuerdo con el criterio de proporcionalidad variable en función del rango de descuento, aplicando las mismas fórmulas y tramos que en la oferta inicial. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.13-14, 87-88 |
+| Criterios de adjudicación: exclusión por no mejorar oferta económica en negociación | Si la oferta definitiva, negociada o final es igual o superior al importe inicialmente ofertado, el licitador queda excluido. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.15 |
+| Criterios de adjudicación: exclusión por información económica en sobre técnico | La inclusión de cualquier documentación y/o información en el SOBRE 2 que debiera incluirse en el SOBRE 3 supondrá la exclusión del licitador. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.12 |
+| Criterios de adjudicación: exclusión por omisiones o errores en oferta | No se aceptarán ofertas que tengan omisiones o errores que impidan conocer claramente sus términos esenciales. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.12 |
+| Criterios de adjudicación: exclusión por no cumplir requisitos mínimos | Las ofertas que no cumplan los requisitos mínimos serán excluidas. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.15 |
+| Criterios de adjudicación: exclusión por no subsanar en plazo | Si no se subsana la documentación requerida en 3 días naturales, se entiende retirada la oferta. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.15 |
+| Criterios de adjudicación: exclusión por no constituir garantía definitiva | Si no se constituye la garantía definitiva en plazo, se entiende retirada la oferta y se adjudica al siguiente clasificado. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.19 |
+| Criterios de adjudicación: exclusión por no formalizar contrato en plazo | Si no se formaliza el contrato en plazo, se adjudica al siguiente clasificado. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.18 |
+| Criterios de adjudicación: exclusión por no justificar solvencia | Si no se justifica la solvencia a requerimiento, se entiende retirada la oferta. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.17 |
+| Criterios de adjudicación: exclusión por no cumplir condiciones esenciales | El incumplimiento de obligaciones esenciales del contrato constituye causa de resolución. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.22, 28 |
+| Criterios de adjudicación: exclusión por no cumplir condiciones especiales de ejecución | El incumplimiento de condiciones especiales de ejecución puede dar lugar a penalidad o resolución. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.23, 28 |
+| Criterios de adjudicación: exclusión por subcontratación no autorizada | La subcontratación realizada sin notificar o con subcontratista no apto es causa de resolución. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.29 |
+| Criterios de adjudicación: exclusión por incumplimiento de plazos de pago a subcontratistas | El incumplimiento de los plazos de pago a subcontratistas es causa de resolución. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.28 |
+| Criterios de adjudicación: exclusión por incumplimiento de condiciones de igualdad | El incumplimiento de condiciones de igualdad puede dar lugar a penalidad o resolución. | DOC20240806095753Pliegodefinitivofirmado.pdf, p.24, 28 |
+
+---
+
+## Discrepancias y pendientes de aclaración
+
+- No se han identificado discrepancias en la documentación revisada entre los criterios de adjudicación, fórmulas, pesos, reglas de valoración y exclusiones. Las sumas de puntos y porcentajes coinciden entre los apartados y anexos. No se han localizado exclusiones, umbrales o reglas de anormalidad adicionales no recogidas en el registro.
+- NO CONSTA EN LA DOCUMENTACION REVISADA exclusión de valores extremos, reglas de grupos empresariales o reglas adicionales para el cálculo de la media aritmética de bajas en el régimen de ofertas anormalmente bajas.
+- PENDIENTE DE VERIFICAR EN DOCUMENTO NO DISPONIBLE: El "CORREOS-Codigo-General-de-Conducta.pdf" no ha podido ser leído (error 404), pero no afecta a los criterios de adjudicación extraídos.

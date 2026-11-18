@@ -1,0 +1,12 @@
+Registro documental de preventa
+
+| Materia | Requisito completo | Fuente |
+|---------|--------------------|--------|
+| Compras, suministros y dependencias externas | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito relativo a productos físicos o tecnológicos que el adjudicatario deba aportar, ni a la obligación de adquirir, suministrar o mantener hardware, software, SaaS, licencias, herramientas, plataformas, infraestructura cloud, equipos, material o servicios de terceros. | DOC20240806095753Pliegodefinitivofirmado.pdf, texto extraído |
+| Fabricantes, distribuidores, partners, alianzas | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna exigencia de fabricante, referencia, equivalencia permitida, certificación de fabricante, nivel de partner, autorización de canal, carta de fabricante o compromiso de partnership. | DOC20240806095753Pliegodefinitivofirmado.pdf, texto extraído |
+| Subcontratación, UTE, medios externos | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna condición, limitación, prohibición o exigencia de declaración relativa a subcontratación, UTE, medios externos o actividades de terceros. | DOC20240806095753Pliegodefinitivofirmado.pdf, texto extraído |
+| Cadena de suministro | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna descripción, restricción o condición contractual sobre la cadena de suministro, logística, stock, reposición, retirada, destrucción, homologaciones, sostenibilidad, staging o plazos de suministro. | DOC20240806095753Pliegodefinitivofirmado.pdf, texto extraído |
+| Garantías, soporte fabricante, SLA de terceros | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna exigencia de garantía, soporte de fabricante, SLA de terceros, SLA back-to-back, lead time, EOL/EOS, NBD/4h/onsite, ni condiciones de continuidad o soporte externo. | DOC20240806095753Pliegodefinitivofirmado.pdf, texto extraído |
+
+Discrepancias y pendientes de aclaración:
+No se han identificado discrepancias en la documentación revisada. El pliego administrativo extraído no contiene información técnica, anexo de prescripciones, ni referencias a productos, fabricantes, licencias, subcontratación, cadena de suministro, garantías, soporte o dependencias externas. No se han localizado remisiones a documentos no disponibles ni limitaciones técnicas atribuibles al registro.

@@ -1,0 +1,475 @@
+{
+  "respuesta_original": "{\"expediente\":\"2026-03993\",\"agentes_revisados\":[\"A1\",\"A2\",\"A3\",\"A4\",\"A6\",\"A8\",\"A9\",\"A10\"],\"introduccion\":[\"He revisado de forma conjunta la información extraída en el JSON del expediente 2026-03993, incluyendo datos principales, presentación de la oferta, alcance y actividades, equipo, solvencia, criterios de adjudicación, condiciones económicas, seguridad, cadena de suministro y requisitos documentales.\",\"El objeto es la contratación de una solución SaaS de inteligencia meteorológica y gestión de riesgos naturales para la operación ferroviaria de RENFE-Operadora, con un presupuesto base de 130.000 € (sin IVA), duración de 24 meses y criterios de adjudicación que ponderan la calidad técnica (60%) y la oferta económica (40%). El modelo de prestación es 100% SaaS, sin suministro de hardware físico, con soporte 8x7, requisitos de seguridad ENS/ISO 27001 y un equipo multidisciplinar. Las fuentes revisadas cubren pliegos administrativos, técnicos y anexos, aunque se omiten detalles sobre hardware, desarrollo seguro y algunos parámetros de SLA.\",\"El modelo de prestación se basa en la externalización completa mediante SaaS, con acceso web seguro, integración con sistemas corporativos y cumplimiento de estrictos requisitos de seguridad, protección de datos y continuidad. Referencias: PCP 2026 03993.pdf, ANEXO I, II, III, IV, XML, poc (Plataforma de Contratación del Estado).\"],\"secciones\":[{\"titulo\":\"Datos principales de la licitación\",\"bloques\":[{\"tipo\":\"tabla\",\"columnas\":[\"Concepto\",\"Información\"],\"filas\":[[\"Expediente\",\"2026-03993\"],[\"Órgano de contratación\",\"Dirección General Económico-Financiera de RENFE-Operadora\"],[\"Objeto\",\"Solución SaaS de inteligencia meteorológica y gestión de riesgos naturales para la operación ferroviaria\"],[\"Presupuesto base (sin IVA)\",\"130.000 EUR\"],[\"Presupuesto total (con IVA)\",\"157.300 EUR\"],[\"Valor estimado\",\"130.000 EUR\"],[\"Duración inicial\",\"24 meses\"],[\"Prórrogas\",\"No previstas\"],[\"CPV\",\"72200000\"],[\"Ubicación\",\"Madrid\"],[\"Lotes\",\"No hay\"],[\"Procedimiento\",\"Abierto\"],[\"Presentación\",\"Electrónica, Plataforma de Contratación del Sector Público\"],[\"Fecha límite presentación\",\"2026-10-13 13:00\"]]}]},{\"titulo\":\"Presentación de la oferta\",\"bloques\":[{\"tipo\":\"parrafo\",\"texto\":\"La presentación de ofertas es exclusivamente electrónica a través de la Plataforma de Contratación del Sector Público, utilizando la Herramienta de Preparación y Presentación de Ofertas. Se estructura en tres sobres/archivos, cada uno con contenido y requisitos específicos.\"},{\"tipo\":\"lista\",\"elementos\":[\"Sobre A: Documentación administrativa (declaración responsable modelo Anexo II, poderes, datos licitador, UTE si aplica)\",\"Sobre B: Oferta técnica (estructura y contenido según pliego y Anexo I, sin precios)\",\"Sobre C: Oferta económica (modelo Anexo III, firmado y sellado)\",\"Todos los documentos deben estar firmados electrónicamente con certificado reconocido\",\"Idioma: castellano o traducción jurada\",\"Presentación fuera de plazo, variantes, o inclusión de precios en sobres A/B son causa de exclusión\"]}]} ,{\"titulo\":\"Alcance y modalidad de prestación\",\"bloques\":[{\"tipo\":\"parrafo\",\"texto\":\"El contrato abarca la provisión de una solución SaaS de inteligencia meteorológica y gestión de riesgos naturales, con acceso web seguro, visualización geoespacial, simulación de incendios e inundaciones, gestión de alertas, integración con sistemas corporativos, soporte, mantenimiento, formación y reporting mensual. No se exige despliegue de infraestructura física en RENFE.\"},{\"tipo\":\"tabla\",\"columnas\":[\"Concepto\",\"Volumen/Condición\"],\"filas\":[[\"Servicio principal\",\"Solución SaaS, 1 servicio, 24 meses\"],[\"Usuarios mínimos\",\"15 usuarios nominativos, ampliables\"],[\"Soporte\",\"8 horas/día, 7 días/semana\"],[\"Bolsa de horas\",\"350 UT anuales (1 UT = 1 hora)\"],[\"Cobertura\",\"RENFE-Operadora y ámbitos relacionados con la operación ferroviaria\"]]},{\"tipo\":\"subtitulo\",\"texto\":\"Modalidad de prestación\"},{\"tipo\":\"lista\",\"elementos\":[\"SaaS puro, acceso web seguro, sin hardware físico ni instalación local\",\"Incluye alojamiento, operación, actualización, mantenimiento y soporte\",\"Soporte y mantenimiento: atención de incidencias técnicas y funcionales, consultas de uso, problemas de datos y solicitudes de configuración\",\"Asistencia técnica especializada: apoyo en puesta en marcha, interpretación de información, evolución del servicio, análisis post-evento, configuración de alertas, informes y simulaciones\",\"Integración con sistemas corporativos de identidad, operación, analítica, comunicación o gestión de incidencias\"]}]} ,{\"titulo\":\"Actividades y procesos principales\",\"bloques\":[{\"tipo\":\"subtitulo\",\"texto\":\"Gestión de incidencias y soporte\"},{\"tipo\":\"lista\",\"elementos\":[\"Atención de incidencias técnicas y funcionales a través de portal, correo y teléfono\",\"Resolución de problemas de datos y consultas de uso\",\"Gestión de solicitudes de configuración y personalización\",\"Soporte 8x7, con penalizaciones por incumplimiento de SLA según criticidad\"]},{\"tipo\":\"subtitulo\",\"texto\":\"Gestión de alertas y simulaciones\"},{\"tipo\":\"lista\",\"elementos\":[\"Configuración y envío de alertas meteorológicas y de riesgos\",\"Registro y consulta histórica de alertas\",\"Simulación de incendios e inundaciones mediante módulos específicos\",\"Exportación de resultados y generación automática de boletines\"]},{\"tipo\":\"subtitulo\",\"texto\":\"Integración técnica y automatización\"},{\"tipo\":\"lista\",\"elementos\":[\"APIs documentadas para consulta de predicciones, observaciones, alertas, informes y simulaciones\",\"Servicios geoespaciales normalizados para publicación y consumo de mapas\",\"Integración con sistema corporativo de identidad (autenticación, SSO)\",\"Automatización de informes y exportación de datos\"]},{\"tipo\":\"subtitulo\",\"texto\":\"Formación, transferencia de conocimiento y reporting\"},{\"tipo\":\"lista\",\"elementos\":[\"Programa de formación inicial y continua, materiales y videoteca\",\"Sesiones periódicas sobre nuevas funcionalidades\",\"Informes mensuales de servicio: disponibilidad, incidencias, cambios, consumo de bolsa de horas, análisis de causa raíz, riesgos y propuestas de mejora\"]},{\"tipo\":\"subtitulo\",\"texto\":\"Gobierno, continuidad y seguridad\"},{\"tipo\":\"lista\",\"elementos\":[\"Designación de responsable del servicio y reuniones de seguimiento\",\"Gestión formal de cambios y evolución de requisitos\",\"Planes de contingencia, continuidad de negocio y salida programada/sobrevenida\",\"Análisis de riesgos conforme a ENS, MAGERIT, compartido con Renfe\",\"Auditoría, trazabilidad y cumplimiento de requisitos de seguridad y protección de datos\"]}]} ,{\"titulo\":\"Equipo y perfiles requeridos\",\"bloques\":[{\"tipo\":\"tabla\",\"columnas\":[\"Perfil\",\"Cantidad\",\"Titulación\",\"Experiencia\"],\"filas\":[[\"Project Manager\",\"1\",\"Titulación universitaria oficial (preferente Ingeniería, Informática, Telecomunicaciones, Física, Matemáticas, Geografía, Ciencias Ambientales o equivalente)\",\"Mínimo 3 años en gestión de proyectos análogos\"],[\"Especialista en meteorología y predicción\",\"1\",\"Física, Meteorología, Ciencias Atmosféricas, Matemáticas, Ciencias Ambientales o equivalente, formación en meteorología y predicción numérica\",\"No consta experiencia individual mínima\"],[\"Especialista en algoritmos de predicción a corto plazo\",\"1\",\"Física, Meteorología, Ciencias Atmosféricas, Matemáticas, Ingeniería o equivalente, formación en meteorología y predicción numérica\",\"No consta experiencia individual mínima\"],[\"Especialista en software, datos e integraciones\",\"1\",\"Informática, Telecomunicaciones, Ingeniería, Matemáticas, Ciencia de Datos o equivalente\",\"No consta experiencia individual mínima\"],[\"Especialista en riesgos naturales\",\"1\",\"Ingeniería de Montes, Forestal, Caminos, Civil, Hidrología, Geología, Geografía, Ciencias Ambientales o equivalente, formación en incendios/inundaciones\",\"No consta experiencia individual mínima\"]]},{\"tipo\":\"parrafo\",\"texto\":\"La experiencia conjunta mínima del equipo (excepto Project Manager) debe ser de 4 años en proyectos análogos. Una misma persona puede cubrir varios perfiles si acredita íntegramente titulación, formación y experiencia exigidas. El equipo debe ser estable y adscrito durante toda la vigencia del contrato, con sustituciones solo por fuerza mayor y previa comunicación. La experiencia se acredita mediante declaración del licitador, pudiendo RENFE exigir documentación adicional. No se exigen certificaciones personales, colegiación, presencialidad, ubicación ni jornada concreta.\"},{\"tipo\":\"subtitulo\",\"texto\":\"Criterios puntuables vinculados a perfiles\"},{\"tipo\":\"lista\",\"elementos\":[\"Project Manager: hasta 4 puntos según experiencia (3-5 años: 2 puntos; 5-7 años: 3 puntos; más de 7 años: 4 puntos)\",\"Equipo soporte: hasta 2 puntos por experiencia conjunta (>5 años)\",\"Proyectos acreditados: 0,5 puntos por proyecto (mín. 3 meses, máx. 4 puntos)\",\"Formación y transferencia de conocimiento: 1 punto por adecuación del plan formativo\"]}]} ,{\"titulo\":\"Solvencia económica y técnica\",\"bloques\":[{\"tipo\":\"subtitulo\",\"texto\":\"Solvencia económica\"},{\"tipo\":\"lista\",\"elementos\":[\"Volumen anual de negocios igual o superior a 1,5 veces el valor anual medio del contrato, en el mejor de los tres últimos años\",\"Acreditación mediante declaración responsable; RENFE puede requerir cuentas anuales\"]},{\"tipo\":\"subtitulo\",\"texto\":\"Solvencia técnica\"},{\"tipo\":\"lista\",\"elementos\":[\"Relación de al menos tres contratos SaaS similares en los últimos cinco años, importe anual acumulado igual o superior al valor anual medio del contrato\",\"Certificaciones obligatorias: ISO 27001 y ENS nivel medio (o compromiso de obtenerla antes del inicio del servicio)\",\"Seguro de Responsabilidad Civil general mínimo 600.000 €, vigente todo el contrato\"]},{\"tipo\":\"subtitulo\",\"texto\":\"Otros requisitos y alternativas\"},{\"tipo\":\"lista\",\"elementos\":[\"No se exige patrimonio neto/ratios ni clasificación empresarial\",\"Se admite acreditación de capacidad mediante ROLECE o documentación alternativa\",\"Acumulación de solvencia permitida con compromiso notarial si se recurre a medios externos\",\"UTE: aplicación de normativa estatal para solvencia conjunta\"]}]} ,{\"titulo\":\"Criterios de adjudicación y valoración técnica\",\"bloques\":[{\"tipo\":\"tabla\",\"columnas\":[\"Criterio\",\"Puntos máximos\",\"Peso\",\"Tipo\"],\"filas\":[[\"Oferta técnica\",\"60\",\"60%\",\"Juicio de valor y baremo\"],[\"Oferta económica\",\"40\",\"40%\",\"Automático\"]]},{\"tipo\":\"subtitulo\",\"texto\":\"Desglose de criterios técnicos (B.1-B.5)\"},{\"tipo\":\"lista\",\"elementos\":[\"B.1 Capacidades funcionales y visualización operativa: 15 puntos\",\"B.2 Calidad del dato meteorológico y capacidades predictivas: 15 puntos\",\"B.3 Analítica, histórico e inteligencia meteorológica: 5 puntos\",\"B.4 Integración y arquitectura técnica: 15 puntos\",\"B.5 Soporte, consultoría y equipo profesional: 10 puntos (ver criterios puntuables en sección de equipo)\"]},{\"tipo\":\"parrafo\",\"texto\":\"La valoración técnica se realiza mediante escalas de nivel (limitado, adecuado, alto, excelente) con porcentajes del máximo de cada subapartado. Es obligatorio alcanzar al menos 30 puntos sobre 60 en la oferta técnica y cumplir los requisitos del Anexo I para no ser excluido.\"}]} ,{\"titulo\":\"Oferta económica\",\"bloques\":[{\"tipo\":\"parrafo\",\"texto\":\"La oferta económica se valora automáticamente mediante la fórmula: PVEn = (Pm/Pn) x 40, donde Pm es el precio más bajo y Pn el de la oferta evaluada. La oferta más baja obtiene 40 puntos, el resto proporcionalmente. No se establecen tramos, redondeos ni descuentos adicionales.\"}]} ,{\"titulo\":\"Garantías y condiciones económicas\",\"bloques\":[{\"tipo\":\"subtitulo\",\"texto\":\"Garantías\"},{\"tipo\":\"lista\",\"elementos\":[\"Garantía provisional: no exigida expresamente\",\"Garantía definitiva: 5% del importe adjudicado, mediante retención o aval bancario (modelo Anexo IV)\"]},{\"tipo\":\"subtitulo\",\"texto\":\"Facturación y pago\"},{\"tipo\":\"lista\",\"elementos\":[\"Facturación trimestral vencida (8 facturas en 24 meses)\",\"Pago a 30 días desde acta de recepción/factura\",\"Precios fijos y no revisables\",\"No se prevén anticipos ni revisión de precios\"]}]} ,{\"titulo\":\"UTE, subcontratación y cesión\",\"bloques\":[{\"tipo\":\"parrafo\",\"texto\":\"Se permite la constitución de UTE, requiriendo compromiso de constitución y declaración individual de cada miembro. La subcontratación está permitida conforme a la Instrucción interna de RENFE, con obligación de cumplir requisitos de seguridad y protección de datos, y comunicación a RENFE. La cesión del contrato también está regulada por la Instrucción interna. No se permite figurar en más de una UTE ni individual y UTE simultáneamente.\"}]} ,{\"titulo\":\"Condiciones especiales de ejecución\",\"bloques\":[{\"tipo\":\"lista\",\"elementos\":[\"Cumplimiento de PRL, obligaciones laborales y sociales, igualdad y medioambiente\",\"Obligaciones de protección de datos (RGPD/LOPDGDD), confidencialidad y propiedad intelectual\",\"Cumplimiento de ENS nivel medio, ISO 27001, análisis de riesgos, planes de contingencia, trazabilidad, auditoría, roles de seguridad, destrucción segura de datos\",\"Obligaciones éticas: integridad, no conflicto de intereses, no colusión, respeto a códigos éticos\"]}]} ,{\"titulo\":\"Seguridad y protección de datos\",\"bloques\":[{\"tipo\":\"parrafo\",\"texto\":\"Se exige cumplimiento del ENS nivel medio para los sistemas SaaS, certificación ISO 27001, análisis de riesgos MAGERIT, medidas técnicas y organizativas (cifrado, control de accesos, DLP, backups, logging, SIEM, etc.), notificación de incidentes, continuidad, auditorías, borrado seguro y confidencialidad. El adjudicatario actúa como encargado del tratamiento, con prohibición de transferencias internacionales fuera del EEE salvo autorización expresa y obligación de informar a RENFE de la ubicación de los datos. Penalizaciones y resolución contractual por incumplimiento de estas obligaciones.\"}]} ,{\"titulo\":\"Productos y cadena de suministro\",\"bloques\":[{\"tipo\":\"parrafo\",\"texto\":\"No se exige suministro de hardware físico, productos materiales, fabricantes concretos, referencias, equivalencias técnicas ni stock mínimo. El adjudicatario debe aportar la solución SaaS completa, incluyendo suscripciones, soporte, mantenimiento, formación, integración y medidas de seguridad. Se exige completar un cuestionario de evaluación de seguridad de la cadena de suministro, informar de subcontrataciones y garantizar cumplimiento de obligaciones de seguridad y protección de datos por terceros. Al finalizar el contrato, debe facilitar la devolución y destrucción segura de la información de RENFE, con certificación conforme a ENS.\"}]}],\"conclusion\":[\"**DOCUMENTALMENTE ESTABLECIDO:** El contrato abarca la provisión de una solución SaaS de inteligencia meteorológica y gestión de riesgos naturales, con acceso web seguro, soporte 8x7, integración con sistemas corporativos y cumplimiento de ENS/ISO 27001, sin suministro de hardware físico.\",\"**PUNTO CRÍTICO DE ADJUDICACIÓN:** La puntuación técnica (60%) y económica (40%) determina la adjudicación. Es obligatorio alcanzar al menos 30 puntos sobre 60 en la oferta técnica y cumplir los requisitos del Anexo I.\",\"**PUNTO RELEVANTE:** El equipo mínimo debe ser multidisciplinar, con Project Manager (mínimo 3 años de experiencia) y especialistas en meteorología, predicción, software y riesgos naturales, con experiencia conjunta mínima de 4 años.\",\"**PUNTO RELEVANTE:** Se exige solvencia económica (volumen anual de negocios ≥1,5x valor anual medio) y técnica (3 contratos SaaS similares últimos 5 años, ISO 27001 y ENS nivel medio, seguro RC 600.000 €).\",\"**PUNTO RELEVANTE:** No se exige patrimonio neto/ratios, clasificación empresarial, hardware físico, fabricantes concretos ni cartas de fabricante.\",\"**PUNTO RELEVANTE:** La subcontratación y UTE están permitidas bajo condiciones, con obligación de cumplir requisitos de seguridad y protección de datos, y comunicación a RENFE.\",\"**PUNTO RELEVANTE:** Penalizaciones severas por incumplimiento de SLA, seguridad, confidencialidad, protección de datos y equipo no conforme (hasta 20% del contrato o resolución).\",\"**NO LOCALIZADO:** No consta detalle de tiempos de respuesta/resolución por prioridad, volumen total de datos, número máximo de usuarios simultáneos, ni desarrollo seguro (SDLC, DevSecOps, etc.).\",\"**AVISO DE PROCESAMIENTO:** Se omitieron 6 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitación.\"]}",
+  "json": {
+    "expediente": "2026-03993",
+    "agentes_revisados": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "introduccion": [
+      "He revisado de forma conjunta la información extraída en el JSON del expediente 2026-03993, incluyendo datos principales, presentación de la oferta, alcance y actividades, equipo, solvencia, criterios de adjudicación, condiciones económicas, seguridad, cadena de suministro y requisitos documentales.",
+      "El objeto es la contratación de una solución SaaS de inteligencia meteorológica y gestión de riesgos naturales para la operación ferroviaria de RENFE-Operadora, con un presupuesto base de 130.000 € (sin IVA), duración de 24 meses y criterios de adjudicación que ponderan la calidad técnica (60%) y la oferta económica (40%). El modelo de prestación es 100% SaaS, sin suministro de hardware físico, con soporte 8x7, requisitos de seguridad ENS/ISO 27001 y un equipo multidisciplinar. Las fuentes revisadas cubren pliegos administrativos, técnicos y anexos, aunque se omiten detalles sobre hardware, desarrollo seguro y algunos parámetros de SLA.",
+      "El modelo de prestación se basa en la externalización completa mediante SaaS, con acceso web seguro, integración con sistemas corporativos y cumplimiento de estrictos requisitos de seguridad, protección de datos y continuidad. Referencias: PCP 2026 03993.pdf, ANEXO I, II, III, IV, XML, poc (Plataforma de Contratación del Estado)."
+    ],
+    "secciones": [
+      {
+        "titulo": "Datos principales de la licitación",
+        "bloques": [
+          {
+            "tipo": "tabla",
+            "columnas": [
+              "Concepto",
+              "Información"
+            ],
+            "filas": [
+              [
+                "Expediente",
+                "2026-03993"
+              ],
+              [
+                "Órgano de contratación",
+                "Dirección General Económico-Financiera de RENFE-Operadora"
+              ],
+              [
+                "Objeto",
+                "Solución SaaS de inteligencia meteorológica y gestión de riesgos naturales para la operación ferroviaria"
+              ],
+              [
+                "Presupuesto base (sin IVA)",
+                "130.000 EUR"
+              ],
+              [
+                "Presupuesto total (con IVA)",
+                "157.300 EUR"
+              ],
+              [
+                "Valor estimado",
+                "130.000 EUR"
+              ],
+              [
+                "Duración inicial",
+                "24 meses"
+              ],
+              [
+                "Prórrogas",
+                "No previstas"
+              ],
+              [
+                "CPV",
+                "72200000"
+              ],
+              [
+                "Ubicación",
+                "Madrid"
+              ],
+              [
+                "Lotes",
+                "No hay"
+              ],
+              [
+                "Procedimiento",
+                "Abierto"
+              ],
+              [
+                "Presentación",
+                "Electrónica, Plataforma de Contratación del Sector Público"
+              ],
+              [
+                "Fecha límite presentación",
+                "2026-10-13 13:00"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Presentación de la oferta",
+        "bloques": [
+          {
+            "tipo": "parrafo",
+            "texto": "La presentación de ofertas es exclusivamente electrónica a través de la Plataforma de Contratación del Sector Público, utilizando la Herramienta de Preparación y Presentación de Ofertas. Se estructura en tres sobres/archivos, cada uno con contenido y requisitos específicos."
+          },
+          {
+            "tipo": "lista",
+            "elementos": [
+              "Sobre A: Documentación administrativa (declaración responsable modelo Anexo II, poderes, datos licitador, UTE si aplica)",
+              "Sobre B: Oferta técnica (estructura y contenido según pliego y Anexo I, sin precios)",
+              "Sobre C: Oferta económica (modelo Anexo III, firmado y sellado)",
+              "Todos los documentos deben estar firmados electrónicamente con certificado reconocido",
+              "Idioma: castellano o traducción jurada",
+              "Presentación fuera de plazo, variantes, o inclusión de precios en sobres A/B son causa de exclusión"
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Alcance y modalidad de prestación",
+        "bloques": [
+          {
+            "tipo": "parrafo",
+            "texto": "El contrato abarca la provisión de una solución SaaS de inteligencia meteorológica y gestión de riesgos naturales, con acceso web seguro, visualización geoespacial, simulación de incendios e inundaciones, gestión de alertas, integración con sistemas corporativos, soporte, mantenimiento, formación y reporting mensual. No se exige despliegue de infraestructura física en RENFE."
+          },
+          {
+            "tipo": "tabla",
+            "columnas": [
+              "Concepto",
+              "Volumen/Condición"
+            ],
+            "filas": [
+              [
+                "Servicio principal",
+                "Solución SaaS, 1 servicio, 24 meses"
+              ],
+              [
+                "Usuarios mínimos",
+                "15 usuarios nominativos, ampliables"
+              ],
+              [
+                "Soporte",
+                "8 horas/día, 7 días/semana"
+              ],
+              [
+                "Bolsa de horas",
+                "350 UT anuales (1 UT = 1 hora)"
+              ],
+              [
+                "Cobertura",
+                "RENFE-Operadora y ámbitos relacionados con la operación ferroviaria"
+              ]
+            ]
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Modalidad de prestación"
+          },
+          {
+            "tipo": "lista",
+            "elementos": [
+              "SaaS puro, acceso web seguro, sin hardware físico ni instalación local",
+              "Incluye alojamiento, operación, actualización, mantenimiento y soporte",
+              "Soporte y mantenimiento: atención de incidencias técnicas y funcionales, consultas de uso, problemas de datos y solicitudes de configuración",
+              "Asistencia técnica especializada: apoyo en puesta en marcha, interpretación de información, evolución del servicio, análisis post-evento, configuración de alertas, informes y simulaciones",
+              "Integración con sistemas corporativos de identidad, operación, analítica, comunicación o gestión de incidencias"
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Actividades y procesos principales",
+        "bloques": [
+          {
+            "tipo": "subtitulo",
+            "texto": "Gestión de incidencias y soporte"
+          },
+          {
+            "tipo": "lista",
+            "elementos": [
+              "Atención de incidencias técnicas y funcionales a través de portal, correo y teléfono",
+              "Resolución de problemas de datos y consultas de uso",
+              "Gestión de solicitudes de configuración y personalización",
+              "Soporte 8x7, con penalizaciones por incumplimiento de SLA según criticidad"
+            ]
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Gestión de alertas y simulaciones"
+          },
+          {
+            "tipo": "lista",
+            "elementos": [
+              "Configuración y envío de alertas meteorológicas y de riesgos",
+              "Registro y consulta histórica de alertas",
+              "Simulación de incendios e inundaciones mediante módulos específicos",
+              "Exportación de resultados y generación automática de boletines"
+            ]
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Integración técnica y automatización"
+          },
+          {
+            "tipo": "lista",
+            "elementos": [
+              "APIs documentadas para consulta de predicciones, observaciones, alertas, informes y simulaciones",
+              "Servicios geoespaciales normalizados para publicación y consumo de mapas",
+              "Integración con sistema corporativo de identidad (autenticación, SSO)",
+              "Automatización de informes y exportación de datos"
+            ]
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Formación, transferencia de conocimiento y reporting"
+          },
+          {
+            "tipo": "lista",
+            "elementos": [
+              "Programa de formación inicial y continua, materiales y videoteca",
+              "Sesiones periódicas sobre nuevas funcionalidades",
+              "Informes mensuales de servicio: disponibilidad, incidencias, cambios, consumo de bolsa de horas, análisis de causa raíz, riesgos y propuestas de mejora"
+            ]
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Gobierno, continuidad y seguridad"
+          },
+          {
+            "tipo": "lista",
+            "elementos": [
+              "Designación de responsable del servicio y reuniones de seguimiento",
+              "Gestión formal de cambios y evolución de requisitos",
+              "Planes de contingencia, continuidad de negocio y salida programada/sobrevenida",
+              "Análisis de riesgos conforme a ENS, MAGERIT, compartido con Renfe",
+              "Auditoría, trazabilidad y cumplimiento de requisitos de seguridad y protección de datos"
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Equipo y perfiles requeridos",
+        "bloques": [
+          {
+            "tipo": "tabla",
+            "columnas": [
+              "Perfil",
+              "Cantidad",
+              "Titulación",
+              "Experiencia"
+            ],
+            "filas": [
+              [
+                "Project Manager",
+                "1",
+                "Titulación universitaria oficial (preferente Ingeniería, Informática, Telecomunicaciones, Física, Matemáticas, Geografía, Ciencias Ambientales o equivalente)",
+                "Mínimo 3 años en gestión de proyectos análogos"
+              ],
+              [
+                "Especialista en meteorología y predicción",
+                "1",
+                "Física, Meteorología, Ciencias Atmosféricas, Matemáticas, Ciencias Ambientales o equivalente, formación en meteorología y predicción numérica",
+                "No consta experiencia individual mínima"
+              ],
+              [
+                "Especialista en algoritmos de predicción a corto plazo",
+                "1",
+                "Física, Meteorología, Ciencias Atmosféricas, Matemáticas, Ingeniería o equivalente, formación en meteorología y predicción numérica",
+                "No consta experiencia individual mínima"
+              ],
+              [
+                "Especialista en software, datos e integraciones",
+                "1",
+                "Informática, Telecomunicaciones, Ingeniería, Matemáticas, Ciencia de Datos o equivalente",
+                "No consta experiencia individual mínima"
+              ],
+              [
+                "Especialista en riesgos naturales",
+                "1",
+                "Ingeniería de Montes, Forestal, Caminos, Civil, Hidrología, Geología, Geografía, Ciencias Ambientales o equivalente, formación en incendios/inundaciones",
+                "No consta experiencia individual mínima"
+              ]
+            ]
+          },
+          {
+            "tipo": "parrafo",
+            "texto": "La experiencia conjunta mínima del equipo (excepto Project Manager) debe ser de 4 años en proyectos análogos. Una misma persona puede cubrir varios perfiles si acredita íntegramente titulación, formación y experiencia exigidas. El equipo debe ser estable y adscrito durante toda la vigencia del contrato, con sustituciones solo por fuerza mayor y previa comunicación. La experiencia se acredita mediante declaración del licitador, pudiendo RENFE exigir documentación adicional. No se exigen certificaciones personales, colegiación, presencialidad, ubicación ni jornada concreta."
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Criterios puntuables vinculados a perfiles"
+          },
+          {
+            "tipo": "lista",
+            "elementos": [
+              "Project Manager: hasta 4 puntos según experiencia (3-5 años: 2 puntos; 5-7 años: 3 puntos; más de 7 años: 4 puntos)",
+              "Equipo soporte: hasta 2 puntos por experiencia conjunta (>5 años)",
+              "Proyectos acreditados: 0,5 puntos por proyecto (mín. 3 meses, máx. 4 puntos)",
+              "Formación y transferencia de conocimiento: 1 punto por adecuación del plan formativo"
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Solvencia económica y técnica",
+        "bloques": [
+          {
+            "tipo": "subtitulo",
+            "texto": "Solvencia económica"
+          },
+          {
+            "tipo": "lista",
+            "elementos": [
+              "Volumen anual de negocios igual o superior a 1,5 veces el valor anual medio del contrato, en el mejor de los tres últimos años",
+              "Acreditación mediante declaración responsable; RENFE puede requerir cuentas anuales"
+            ]
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Solvencia técnica"
+          },
+          {
+            "tipo": "lista",
+            "elementos": [
+              "Relación de al menos tres contratos SaaS similares en los últimos cinco años, importe anual acumulado igual o superior al valor anual medio del contrato",
+              "Certificaciones obligatorias: ISO 27001 y ENS nivel medio (o compromiso de obtenerla antes del inicio del servicio)",
+              "Seguro de Responsabilidad Civil general mínimo 600.000 €, vigente todo el contrato"
+            ]
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Otros requisitos y alternativas"
+          },
+          {
+            "tipo": "lista",
+            "elementos": [
+              "No se exige patrimonio neto/ratios ni clasificación empresarial",
+              "Se admite acreditación de capacidad mediante ROLECE o documentación alternativa",
+              "Acumulación de solvencia permitida con compromiso notarial si se recurre a medios externos",
+              "UTE: aplicación de normativa estatal para solvencia conjunta"
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Criterios de adjudicación y valoración técnica",
+        "bloques": [
+          {
+            "tipo": "tabla",
+            "columnas": [
+              "Criterio",
+              "Puntos máximos",
+              "Peso",
+              "Tipo"
+            ],
+            "filas": [
+              [
+                "Oferta técnica",
+                "60",
+                "60%",
+                "Juicio de valor y baremo"
+              ],
+              [
+                "Oferta económica",
+                "40",
+                "40%",
+                "Automático"
+              ]
+            ]
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Desglose de criterios técnicos (B.1-B.5)"
+          },
+          {
+            "tipo": "lista",
+            "elementos": [
+              "B.1 Capacidades funcionales y visualización operativa: 15 puntos",
+              "B.2 Calidad del dato meteorológico y capacidades predictivas: 15 puntos",
+              "B.3 Analítica, histórico e inteligencia meteorológica: 5 puntos",
+              "B.4 Integración y arquitectura técnica: 15 puntos",
+              "B.5 Soporte, consultoría y equipo profesional: 10 puntos (ver criterios puntuables en sección de equipo)"
+            ]
+          },
+          {
+            "tipo": "parrafo",
+            "texto": "La valoración técnica se realiza mediante escalas de nivel (limitado, adecuado, alto, excelente) con porcentajes del máximo de cada subapartado. Es obligatorio alcanzar al menos 30 puntos sobre 60 en la oferta técnica y cumplir los requisitos del Anexo I para no ser excluido."
+          }
+        ]
+      },
+      {
+        "titulo": "Oferta económica",
+        "bloques": [
+          {
+            "tipo": "parrafo",
+            "texto": "La oferta económica se valora automáticamente mediante la fórmula: PVEn = (Pm/Pn) x 40, donde Pm es el precio más bajo y Pn el de la oferta evaluada. La oferta más baja obtiene 40 puntos, el resto proporcionalmente. No se establecen tramos, redondeos ni descuentos adicionales."
+          }
+        ]
+      },
+      {
+        "titulo": "Garantías y condiciones económicas",
+        "bloques": [
+          {
+            "tipo": "subtitulo",
+            "texto": "Garantías"
+          },
+          {
+            "tipo": "lista",
+            "elementos": [
+              "Garantía provisional: no exigida expresamente",
+              "Garantía definitiva: 5% del importe adjudicado, mediante retención o aval bancario (modelo Anexo IV)"
+            ]
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "Facturación y pago"
+          },
+          {
+            "tipo": "lista",
+            "elementos": [
+              "Facturación trimestral vencida (8 facturas en 24 meses)",
+              "Pago a 30 días desde acta de recepción/factura",
+              "Precios fijos y no revisables",
+              "No se prevén anticipos ni revisión de precios"
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "UTE, subcontratación y cesión",
+        "bloques": [
+          {
+            "tipo": "parrafo",
+            "texto": "Se permite la constitución de UTE, requiriendo compromiso de constitución y declaración individual de cada miembro. La subcontratación está permitida conforme a la Instrucción interna de RENFE, con obligación de cumplir requisitos de seguridad y protección de datos, y comunicación a RENFE. La cesión del contrato también está regulada por la Instrucción interna. No se permite figurar en más de una UTE ni individual y UTE simultáneamente."
+          }
+        ]
+      },
+      {
+        "titulo": "Condiciones especiales de ejecución",
+        "bloques": [
+          {
+            "tipo": "lista",
+            "elementos": [
+              "Cumplimiento de PRL, obligaciones laborales y sociales, igualdad y medioambiente",
+              "Obligaciones de protección de datos (RGPD/LOPDGDD), confidencialidad y propiedad intelectual",
+              "Cumplimiento de ENS nivel medio, ISO 27001, análisis de riesgos, planes de contingencia, trazabilidad, auditoría, roles de seguridad, destrucción segura de datos",
+              "Obligaciones éticas: integridad, no conflicto de intereses, no colusión, respeto a códigos éticos"
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Seguridad y protección de datos",
+        "bloques": [
+          {
+            "tipo": "parrafo",
+            "texto": "Se exige cumplimiento del ENS nivel medio para los sistemas SaaS, certificación ISO 27001, análisis de riesgos MAGERIT, medidas técnicas y organizativas (cifrado, control de accesos, DLP, backups, logging, SIEM, etc.), notificación de incidentes, continuidad, auditorías, borrado seguro y confidencialidad. El adjudicatario actúa como encargado del tratamiento, con prohibición de transferencias internacionales fuera del EEE salvo autorización expresa y obligación de informar a RENFE de la ubicación de los datos. Penalizaciones y resolución contractual por incumplimiento de estas obligaciones."
+          }
+        ]
+      },
+      {
+        "titulo": "Productos y cadena de suministro",
+        "bloques": [
+          {
+            "tipo": "parrafo",
+            "texto": "No se exige suministro de hardware físico, productos materiales, fabricantes concretos, referencias, equivalencias técnicas ni stock mínimo. El adjudicatario debe aportar la solución SaaS completa, incluyendo suscripciones, soporte, mantenimiento, formación, integración y medidas de seguridad. Se exige completar un cuestionario de evaluación de seguridad de la cadena de suministro, informar de subcontrataciones y garantizar cumplimiento de obligaciones de seguridad y protección de datos por terceros. Al finalizar el contrato, debe facilitar la devolución y destrucción segura de la información de RENFE, con certificación conforme a ENS."
+          }
+        ]
+      }
+    ],
+    "conclusion": [
+      "**DOCUMENTALMENTE ESTABLECIDO:** El contrato abarca la provisión de una solución SaaS de inteligencia meteorológica y gestión de riesgos naturales, con acceso web seguro, soporte 8x7, integración con sistemas corporativos y cumplimiento de ENS/ISO 27001, sin suministro de hardware físico.",
+      "**PUNTO CRÍTICO DE ADJUDICACIÓN:** La puntuación técnica (60%) y económica (40%) determina la adjudicación. Es obligatorio alcanzar al menos 30 puntos sobre 60 en la oferta técnica y cumplir los requisitos del Anexo I.",
+      "**PUNTO RELEVANTE:** El equipo mínimo debe ser multidisciplinar, con Project Manager (mínimo 3 años de experiencia) y especialistas en meteorología, predicción, software y riesgos naturales, con experiencia conjunta mínima de 4 años.",
+      "**PUNTO RELEVANTE:** Se exige solvencia económica (volumen anual de negocios ≥1,5x valor anual medio) y técnica (3 contratos SaaS similares últimos 5 años, ISO 27001 y ENS nivel medio, seguro RC 600.000 €).",
+      "**PUNTO RELEVANTE:** No se exige patrimonio neto/ratios, clasificación empresarial, hardware físico, fabricantes concretos ni cartas de fabricante.",
+      "**PUNTO RELEVANTE:** La subcontratación y UTE están permitidas bajo condiciones, con obligación de cumplir requisitos de seguridad y protección de datos, y comunicación a RENFE.",
+      "**PUNTO RELEVANTE:** Penalizaciones severas por incumplimiento de SLA, seguridad, confidencialidad, protección de datos y equipo no conforme (hasta 20% del contrato o resolución).",
+      "**NO LOCALIZADO:** No consta detalle de tiempos de respuesta/resolución por prioridad, volumen total de datos, número máximo de usuarios simultáneos, ni desarrollo seguro (SDLC, DevSecOps, etc.).",
+      "**AVISO DE PROCESAMIENTO:** Se omitieron 6 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitación."
+    ]
+  }
+}

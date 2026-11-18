@@ -1,0 +1,112 @@
+{
+  "orden": 7,
+  "id": "A9",
+  "nombre": "Seguridad y protección de datos",
+  "tipo": "extraccion",
+  "ejecucion": "0a89a066905a4580bec3e207eac222da",
+  "estado": "completado",
+  "contenido": {
+    "salida_original": "## Resumen factual Seguridad / DPO / ENS\n\nLa licitación para el servicio de Administración Workplace de Correos y CEX establece obligaciones contractuales detalladas en materia de seguridad, protección de datos y cumplimiento del ENS. Se exige la aplicación de medidas técnicas y organizativas alineadas con el RGPD, la LOPDGDD y el ENS, así como la firma de un contrato de encargo de tratamiento de datos personales conforme a un modelo específico. El adjudicatario asume el rol de encargado del tratamiento cuando acceda a datos personales de los que Correos/CEX es responsable. Se regulan expresamente las condiciones para subencargados, la localización de datos, la notificación de incidentes y brechas, la gestión de accesos, la confidencialidad, la destrucción de datos y la colaboración en auditorías. Se detallan medidas técnicas obligatorias, requisitos de backup, logging, control de accesos, gestión de vulnerabilidades y planes de continuidad. El incumplimiento de las obligaciones esenciales y especiales de ejecución puede conllevar penalizaciones económicas y resolución contractual.\n\n---\n\n## ENS: Requisito | Categoria/nivel | Alcance | Acreditacion | Momento | Fuente\n\n| Requisito | Categoria/nivel | Alcance | Acreditacion | Momento | Fuente |\n|---|---|---|---|---|---|\n| Cumplimiento de Esquema Nacional de Seguridad (ENS) | NO CONSTA NIVEL/CATEGORIA | Servicios objeto del contrato | NO CONSTA ACREDITACION FORMAL | Ejecución y durante la vida del contrato | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 54 (Anexo I) |\n| Entrega de documentación técnica y de gestión conforme a metodología basada en ENS | NO CONSTA NIVEL/CATEGORIA | Toda la prestación | Documentación mínima a entregar | Durante ejecución | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 54 (Anexo I) |\n\n---\n\n## RGPD/DPO: Datos/rol/obligacion | Condicion | Plazo/retencion | Fuente\n\n| Datos/rol/obligacion | Condicion | Plazo/retencion | Fuente |\n|---|---|---|---|\n| El adjudicatario será encargado del tratamiento si accede a datos personales de los que Correos/CEX es responsable | Firma de contrato de encargo conforme a Anexo XVI | Vigencia del contrato; destrucción o devolución al finalizar | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 20-21, 99-105 |\n| Tratamiento de datos personales de representantes, trabajadores y personas de contacto de los licitantes | Gestión de la contratación y relación contractual | Conservación hasta adjudicación; si adjudicatario, durante la prestación y luego bloqueo/eliminación | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 29-30 |\n| Obligación de informar a trabajadores y contactos de los términos de la cláusula de protección de datos | Expresa obligación del licitante | Durante la relación contractual | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 30 |\n| Asistencia al responsable en análisis de riesgos, consultas previas, notificación de brechas y respuesta a derechos | Encargado del tratamiento | Durante la relación contractual | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 20-21, 99-105 |\n| Se designa DPO para el Grupo Correos, contacto: dpdgrupocorreos@correos.com | Información a interesados | Durante la relación contractual | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 30; PoliticaProteccionDatosCanalEticoClientesyProveedores--ES.pdf, pág. 1 |\n| Conservación de datos en Canal Ético: máximo 3 meses si no hay investigación, hasta 6 meses en casos complejos, hasta 10 años en libro-registro | Aplicable a denuncias en Canal Ético | Según procedimiento y normativa | PoliticaProteccionDatosCanalEticoClientesyProveedores--ES.pdf, pág. 3-4 |\n\n---\n\n## Subencargados, cloud, localización y transferencias: requisito | condición | fuente\n\n| Requisito | Condición | Fuente |\n|---|---|---|\n| Prohibición de subcontratar tratamientos de datos personales o realizar transferencias internacionales sin autorización expresa y por escrito | Obligación contractual; autorización previa y por escrito de Correos/CEX | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 20-21, 99-105 |\n| Declaración previa de ubicación de servidores y lugar de prestación de servicios | Aportar antes de la formalización y ante cualquier cambio | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 16, 21, 99-105 |\n| Subencargados sujetos a las mismas obligaciones que el adjudicatario; contrato de encargo conforme a modelo | Obligación contractual | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 25, 99-105 |\n| No se prevén transferencias internacionales de datos en el Canal Ético | Expresa exclusión | PoliticaProteccionDatosCanalEticoClientesyProveedores--ES.pdf, pág. 3 |\n\n---\n\n## Medidas técnicas: Medida | Obligatoria/valorable/condicionada | Parametro/plazo | Fuente\n\n| Medida | Obligatoria/valorable/condicionada | Parametro/plazo | Fuente |\n|---|---|---|---|\n| Implantar medidas técnicas y organizativas adecuadas para garantizar un nivel de seguridad adecuado (art. 32 RGPD) | Obligatoria | Según análisis de riesgos del responsable | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 99-105 |\n| Control de accesos: gestión de altas/bajas, privilegios, credenciales, logs de acceso, revisión periódica | Obligatoria | Procedimientos documentados, revisión recurrente | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 105-106 |\n| Gestión de contraseñas: calidad, cambio periódico (mínimo cada 6 meses), no reutilización, almacenamiento seguro | Obligatoria | Procedimiento documentado | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 106 |\n| Inventario y control de soportes, política de devolución/sustitución, registro de asignación | Obligatoria | Procedimiento documentado | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 107 |\n| Política de \"mesa limpia\" y bloqueo automático de equipos | Obligatoria | Procedimiento documentado | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 107 |\n| Control de acceso físico a locales, perímetro de seguridad, protección contra amenazas externas | Obligatoria | Procedimiento documentado | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 107 |\n| Monitorización de equipos y registro de logs, revisión regular de logs de administrador y operador | Obligatoria | Procedimiento documentado | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 107-108 |\n| Copias de seguridad: periodicidad mínima semanal, plan de continuidad de servicios TI | Obligatoria | Procedimiento documentado | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 108 |\n| Destrucción segura de información, irrecuperabilidad, prohibición de desecho sin destrucción | Obligatoria | Procedimiento documentado | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 108 |\n| Seguridad de red: cortafuegos, antivirus actualizado, segregación de redes | Obligatoria | Procedimiento documentado | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 109 |\n| Cifrado de datos para extracción fuera del recinto, política de seudonimización para datos sensibles | Obligatoria | Procedimiento documentado | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 109 |\n| Control de cambios en TI y aplicativos: identificación, registro, planificación, pruebas, aprobación formal, registro de auditoría | Obligatoria | Procedimiento documentado | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 109-110 |\n| Gestión de incidencias y brechas de seguridad: identificación, tratamiento, notificación al responsable | Obligatoria | Procedimiento documentado | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 110 |\n\n---\n\n## Identidad, accesos y privilegios\n\n- El acceso a los sistemas de información de Correos en el ámbito del contrato debe hacerse siempre a través de la Gestión de Identidades existente en Correos; cualquier nueva tecnología a desplegar y administrar será necesario integrarla con dicho sistema, salvo casos excepcionales aprobados por el departamento de Seguridad de Correos. (DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 38, 44, 49)\n- El responsable por parte del adjudicatario debe gestionar activamente el alta/baja de las personas de las que es responsable y de sus permisos asociados, así como verificar y controlar un uso adecuado de las credenciales de acceso a los sistemas, personales e intransferibles. (DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 61)\n\n---\n\n## Vulnerabilidades, parcheado y desarrollo seguro\n\n- El adjudicatario será responsable de definir, implantar y ejecutar un plan de mantenimiento/parcheo/evolución de la plataforma de virtualización, a todos los niveles (físico/lógico/sistemas operativos/bbdd/capa aplicación), de obligada revisión y aplicación, al menos, bianualmente. (DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 37, 118)\n- Dentro de la administración de cualquiera de las tecnologías se incluye la subida de versión de cualquier componente de SSOO, aplicación, base de datos, plataforma, etc., siendo responsable el adjudicatario de cualquier actualización y su despliegue. (DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 42, 48)\n- El incumplimiento del plan de parcheo/actualización bianual puede suponer penalización del 100% de la facturación de un mes del servicio de Virtualización. (DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 118)\n\n---\n\n## Incidentes, brechas y plazos de notificación expresamente indicados\n\n- El adjudicatario debe notificar al responsable del tratamiento las violaciones de seguridad de los datos personales a su cargo sin dilación indebida y, en todo caso, en el plazo máximo de 24 horas desde que tuvo o debió tener conocimiento de la misma. (DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 102-103)\n- La notificación debe incluir: descripción de la naturaleza de la violación, categorías y número de interesados y registros afectados, datos de contacto del DPO, posibles consecuencias, medidas adoptadas, y cualquier otra información relevante. (DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 103)\n- El adjudicatario debe prestar apoyo en la resolución del incidente y entregar la información registrada en el dispositivo afectado que permita la investigación y resolución del incidente. (DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 60)\n\n---\n\n## Logging, SOC/SIEM, continuidad, backup, RTO/RPO y retención\n\n- Monitorización de equipos y registro de logs, revisión regular de logs de administrador y operador de sistemas. (DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 107-108)\n- Procedimiento de copias de seguridad y respaldo: periodicidad mínima semanal, plan de continuidad de servicios TI que abarque todos los sistemas y componentes TI que procesan datos personales. (DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 108)\n- Pruebas de recuperación de backups: el adjudicatario debe realizar pruebas mensuales de recuperación de elementos respaldados, documentando evidencias, mecanismos y tiempos de recuperación. (DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 39)\n- Elaboración y/o mantenimiento de procedimientos técnicos de contingencia y guías de recuperación. (DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 55)\n- NO CONSTA EN LA DOCUMENTACION REVISADA: referencia expresa a SOC, SIEM, RTO/RPO.\n\n---\n\n## Auditorias, evidencias, certificaciones, seguridad del personal, borrado y confidencialidad\n\n- El adjudicatario debe permitir la realización de auditorías por parte del responsable, con acceso físico a instalaciones o subcontratistas autorizados, y colaborar activamente. (DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 20-21, 99-105)\n- El adjudicatario debe poner a disposición del responsable toda la información necesaria para demostrar el cumplimiento de sus obligaciones. (DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 20-21, 99-105)\n- El deber de secreto y confidencialidad obliga al adjudicatario durante la vigencia del contrato y perdurará indefinidamente una vez finalizada la relación. (DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 20-21, 99-105)\n- El adjudicatario en ningún caso conservará los datos de carácter personal tras la finalización del contrato, siendo dichos datos conservados en los sistemas del licitador. (DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 21, 103)\n- Destrucción segura de información: procedimiento que garantice la irrecuperabilidad, prohibición de desecho sin destrucción. (DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 108)\n- El incumplimiento de las obligaciones esenciales y especiales de ejecución puede conllevar penalizaciones económicas y resolución contractual. (DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 22-23, 28, 96-118)\n\n---\n\n## Consecuencias contractuales expresamente asociadas al incumplimiento\n\n- El incumplimiento de las obligaciones esenciales (adscripción de medios, sometimiento a normativa de protección de datos) es causa de resolución del contrato. (DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 22, 28)\n- El incumplimiento de condiciones especiales de ejecución puede dar lugar a penalidades económicas de hasta el 10% del precio del contrato. (DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 24, 98)\n- Penalizaciones específicas por incumplimiento de plan de parcheo, indisponibilidad de recursos, tiempos de respuesta y resolución de incidencias, entre otros, detalladas en el Anexo XVII. (DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 111-118)\n\n---\n\n## Datos no localizados o ambiguos, sin recomendaciones\n\n- NO CONSTA EN LA DOCUMENTACION REVISADA: nivel/categoría ENS exigido, referencia a guías ENS concretas, exigencia de certificación ENS, RTO/RPO, SOC/SIEM, SBOM, DevSecOps, SAST, DAST, SCA, MFA, RBAC, PAM, VPN, EDR/XDR, WAF, DLP, requisitos de desarrollo seguro específicos, requisitos de borrado certificado, plazos de retención fuera de los expresamente indicados, exigencia de ISO 27701, designación obligatoria de DPO para el adjudicatario, requisitos de localización de datos fuera de la declaración previa, reglas sobre cloud/SaaS fuera de lo indicado para subencargados y declaración de ubicación.\n\n---\n\n## Documentos revisados\n\n1. ANEXO I.pdf\n2. Anuncio.pdf\n3. DOC20240806095753Pliegodefinitivofirmado.pdf\n4. DOC_CD2024-000901195.pdf\n5. poc (detalle licitación)\n6. poc (perfil contratante)\n7. PoliticaProteccionDatosCanalEticoClientesyProveedores--ES.pdf\n\n---\n\n## Trazabilidad de requisitos y datos\n\n| Requisito/dato | Tipo | Valor/condición | Documento | Página/apartado | Estado de lectura |\n|---|---|---|---|---|---|\n| Cumplimiento ENS | Obligación contractual | Aplicación de ENS, sin especificar nivel/categoría | DOC20240806095753Pliegodefinitivofirmado.pdf | pág. 54 | Leído |\n| Contrato de encargo de tratamiento | Obligación contractual | Firma conforme a modelo Anexo XVI | DOC20240806095753Pliegodefinitivofirmado.pdf | pág. 16, 99-105 | Leído |\n| Prohibición de subcontratar tratamientos sin autorización | Obligación contractual | Autorización previa y por escrito | DOC20240806095753Pliegodefinitivofirmado.pdf | pág. 20-21, 99-105 | Leído |\n| Declaración de ubicación de servidores | Obligación documental | Aportar antes de formalización y ante cambios | DOC20240806095753Pliegodefinitivofirmado.pdf | pág. 16, 21, 99-105 | Leído |\n| Medidas técnicas y organizativas | Obligación contractual | Detalladas en Anexo XVI | DOC20240806095753Pliegodefinitivofirmado.pdf | pág. 99-110 | Leído |\n| Notificación de brechas de seguridad | Obligación contractual | Plazo máximo 24h | DOC20240806095753Pliegodefinitivofirmado.pdf | pág. 102-103 | Leído |\n| Pruebas de recuperación de backups | Obligación contractual | Mensuales, documentadas | DOC20240806095753Pliegodefinitivofirmado.pdf | pág. 39 | Leído |\n| Auditorías por el responsable | Obligación contractual | Acceso físico, colaboración activa | DOC20240806095753Pliegodefinitivofirmado.pdf | pág. 20-21, 99-105 | Leído |\n| Deber de confidencialidad | Obligación contractual | Vigencia indefinida tras el contrato | DOC20240806095753Pliegodefinitivofirmado.pdf | pág. 20-21, 99-105 | Leído |\n| Destrucción segura de información | Obligación contractual | Procedimiento documentado | DOC20240806095753Pliegodefinitivofirmado.pdf | pág. 108 | Leído |\n| Penalizaciones por incumplimiento | Consecuencia contractual | Detalladas en Anexo XV y XVII | DOC20240806095753Pliegodefinitivofirmado.pdf | pág. 96-118 | Leído |\n| NO CONSTA: nivel/categoría ENS, guías ENS, SOC/SIEM, RTO/RPO, desarrollo seguro, MFA, RBAC, PAM, VPN, EDR/XDR, WAF, DLP, SBOM, requisitos de borrado certificado, exigencia de ISO 27701, designación DPO adjudicatario | NO LOCALIZADO | NO CONSTA EN LA DOCUMENTACION REVISADA | - | - | - |\n\n---\n\n## Discrepancias y pendientes de aclaración\n\nNo se han identificado discrepancias en la documentación revisada."
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "ANEXO I.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 108608,
+        "caracteres_enviados_al_agente": 108608,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Anuncio.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 8853,
+        "caracteres_enviados_al_agente": 8853,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 300656,
+        "caracteres_enviados_al_agente": 300656,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 4,
+        "nombre": "DOC_CD2024-000901195.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 8376,
+        "caracteres_enviados_al_agente": 8376,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 5,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "Anuncio.pdf",
+        "caracteres_extraidos": 5053,
+        "caracteres_enviados_al_agente": 5053,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 6,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "Anuncio.pdf",
+        "caracteres_extraidos": 3234,
+        "caracteres_enviados_al_agente": 3234,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 7,
+        "nombre": "CORREOS-Codigo-General-de-Conducta.pdf",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 0,
+        "caracteres_enviados_al_agente": 0,
+        "texto_compactado": false,
+        "error": "404 Client Error: The specified blob does not exist. for url: https://cswetwebcorsta01.blob.core.windows.net/uploads/2022/01/CORREOS-Codigo-General-de-Conducta.pdf"
+      },
+      {
+        "numero": 8,
+        "nombre": "perfil-contratante",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 84908,
+        "caracteres_enviados_al_agente": 84908,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 9,
+        "nombre": "PoliticaProteccionDatosCanalEticoClientesyProveedores--ES.pdf",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "caracteres_extraidos": 13833,
+        "caracteres_enviados_al_agente": 13833,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Documento no leido: CORREOS-Codigo-General-de-Conducta.pdf: 404 Client Error: The specified blob does not exist. for url: https://cswetwebcorsta01.blob.core.windows.net/uploads/2022/01/CORREOS-Codigo-General-de-Conducta.pdf",
+      "Se omitieron 22 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  }
+}

@@ -1,0 +1,1199 @@
+{
+  "expediente": "REAL-Licitacion1",
+  "id": "A9",
+  "nombre": "Seguridad y protección de datos",
+  "capa": 1,
+  "contenido": {
+    "resumen": [
+      "El contrato exige cumplimiento del Esquema Nacional de Seguridad (ENS) nivel BÁSICO para todos los servicios y sistemas desarrollados, desplegados o mantenidos en el marco del contrato. No se exige certificación ENS ni ISO 27001, pero sí la aplicación de las medidas del Anexo II del ENS nivel Básico y la justificación documental de su aplicación.",
+      "No se exige tratamiento de datos personales por cuenta del Ayuntamiento ni acuerdo de encargado de tratamiento, según se declara expresamente en el PPTP y Anexo I del PCAP. El adjudicatario no asume el rol de encargado de tratamiento de datos personales del Ayuntamiento.",
+      "Se exige cumplimiento de la normativa de protección de datos (LOPDGDD, RGPD) para los datos tratados en la contratación municipal, pero no para el servicio objeto del contrato, ya que no implica tratamiento de datos personales por cuenta del Ayuntamiento.",
+      "Se establecen requisitos detallados de seguridad de la información, gestión de identidades y accesos, control de privilegios, logging, gestión de vulnerabilidades, incidentes, desarrollo seguro, auditoría, borrado seguro y confidencialidad, todos ellos alineados con ENS nivel Básico y la política de seguridad del Ayuntamiento de Madrid.",
+      "El despliegue cloud debe realizarse exclusivamente en las plataformas MultiCloud corporativas del Ayuntamiento (Azure, AWS, GCP), en regiones del Espacio Económico Europeo, bajo el modelo de gobierno y seguridad de IAM y CCMAD.",
+      "Se exige la designación de un Punto o Persona de Contacto (POC) para seguridad de la información.",
+      "Se exige análisis de riesgos conforme a ENS, plan de tratamiento, configuración segura, cifrado de información no pública en tránsito, autenticación y autorización conforme a la normativa municipal, y registro de actividad.",
+      "Se exige borrado seguro de datos al finalizar el contrato, con certificado de destrucción.",
+      "Se establecen penalizaciones específicas por destrucción, pérdida o alteración de datos, indisponibilidad del servicio, incumplimiento de medidas de seguridad y confidencialidad.",
+      "Gestión de credenciales y accesos a recursos cloud es competencia del Ayuntamiento; usuarios externos usan credenciales proporcionadas por IAM (ID_188_3.PDF, pág. 33).",
+      "Acceso a información no pública: autenticación delegada en plataforma de identidad corporativa o CL@VE; otros métodos requieren autorización de IAM (ID_188_3.PDF, pág. 47).",
+      "Principios de mínimo privilegio y necesidad de conocer; restricción de roles de administración (ID_188_3.PDF, pág. 48)."
+    ],
+    "secciones": [
+      {
+        "titulo": "1. Resumen factual Seguridad / DPO / ENS",
+        "parrafos": [],
+        "elementos": [
+          "El contrato exige cumplimiento del Esquema Nacional de Seguridad (ENS) nivel BÁSICO para todos los servicios y sistemas desarrollados, desplegados o mantenidos en el marco del contrato. No se exige certificación ENS ni ISO 27001, pero sí la aplicación de las medidas del Anexo II del ENS nivel Básico y la justificación documental de su aplicación.",
+          "No se exige tratamiento de datos personales por cuenta del Ayuntamiento ni acuerdo de encargado de tratamiento, según se declara expresamente en el PPTP y Anexo I del PCAP. El adjudicatario no asume el rol de encargado de tratamiento de datos personales del Ayuntamiento.",
+          "Se exige cumplimiento de la normativa de protección de datos (LOPDGDD, RGPD) para los datos tratados en la contratación municipal, pero no para el servicio objeto del contrato, ya que no implica tratamiento de datos personales por cuenta del Ayuntamiento.",
+          "Se establecen requisitos detallados de seguridad de la información, gestión de identidades y accesos, control de privilegios, logging, gestión de vulnerabilidades, incidentes, desarrollo seguro, auditoría, borrado seguro y confidencialidad, todos ellos alineados con ENS nivel Básico y la política de seguridad del Ayuntamiento de Madrid.",
+          "El despliegue cloud debe realizarse exclusivamente en las plataformas MultiCloud corporativas del Ayuntamiento (Azure, AWS, GCP), en regiones del Espacio Económico Europeo, bajo el modelo de gobierno y seguridad de IAM y CCMAD.",
+          "Se exige la designación de un Punto o Persona de Contacto (POC) para seguridad de la información.",
+          "Se exige análisis de riesgos conforme a ENS, plan de tratamiento, configuración segura, cifrado de información no pública en tránsito, autenticación y autorización conforme a la normativa municipal, y registro de actividad.",
+          "Se exige borrado seguro de datos al finalizar el contrato, con certificado de destrucción.",
+          "Se establecen penalizaciones específicas por destrucción, pérdida o alteración de datos, indisponibilidad del servicio, incumplimiento de medidas de seguridad y confidencialidad."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "2. ENS: Requisito | Categoria/nivel | Alcance | Acreditacion | Momento | Fuente",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Requisito ENS",
+              "Nivel",
+              "Alcance",
+              "Acreditación",
+              "Momento",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Requisito ENS": "Cumplimiento ENS",
+                "Nivel": "Básico",
+                "Alcance": "Todos los servicios y sistemas desarrollados/desplegados/mantenidos",
+                "Acreditación": "Descripción de mecanismos de seguridad previstos en la oferta; documentación justificativa a requerimiento",
+                "Momento": "Oferta y durante ejecución",
+                "Fuente": "ID_188_3.PDF, pág. 46-47, 11.1-11.3"
+              },
+              {
+                "Requisito ENS": "Análisis de riesgos ENS",
+                "Nivel": "Básico",
+                "Alcance": "Servicios digitales, desarrollo/mantenimiento SW, infraestructuras/plataformas",
+                "Acreditación": "Análisis de riesgos validado por el Ayuntamiento",
+                "Momento": "Inicio de los trabajos",
+                "Fuente": "ID_188_3.PDF, pág. 46, 11.3"
+              },
+              {
+                "Requisito ENS": "Medidas ENS Anexo II",
+                "Nivel": "Básico",
+                "Alcance": "Servicios y sistemas objeto del contrato",
+                "Acreditación": "Supervisión y comprobación por el órgano de contratación",
+                "Momento": "Durante ejecución",
+                "Fuente": "ID_188_3.PDF, pág. 46"
+              },
+              {
+                "Requisito ENS": "Configuración segura (CCN-STIC)",
+                "Nivel": "Básico",
+                "Alcance": "Todos los componentes tecnológicos",
+                "Acreditación": "Adecuación a guías CCN-STIC, con aprobación del responsable del contrato",
+                "Momento": "Durante ejecución",
+                "Fuente": "ID_188_3.PDF, pág. 46-47, 11.4"
+              },
+              {
+                "Requisito ENS": "Designación POC seguridad",
+                "Nivel": "Básico",
+                "Alcance": "Servicio prestado",
+                "Acreditación": "Designación formal",
+                "Momento": "Inicio ejecución",
+                "Fuente": "ID_188_3.PDF, pág. 46, 11.2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "3. RGPD/DPO: Datos/rol/obligacion | Condicion | Plazo/retencion | Fuente",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Datos/rol/obligación",
+              "Condición",
+              "Plazo/retención",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Datos/rol/obligación": "Tratamiento de datos personales por cuenta del Ayuntamiento",
+                "Condición": "NO requerido; el contrato no implica tratamiento de datos personales por cuenta del responsable",
+                "Plazo/retención": "NO APLICA",
+                "Fuente": "ID_188_3.PDF, pág. 48, 11.18; ID_188_2.PDF, pág. 54, Anexo I, 1.8"
+              },
+              {
+                "Datos/rol/obligación": "Acuerdo de encargado de tratamiento",
+                "Condición": "NO requerido",
+                "Plazo/retención": "NO APLICA",
+                "Fuente": "ID_188_2.PDF, pág. 54, Anexo I, 1.8"
+              },
+              {
+                "Datos/rol/obligación": "Cumplimiento LOPDGDD/RGPD para contratación municipal",
+                "Condición": "Obligatorio para datos de contratación municipal (no para el servicio objeto del contrato)",
+                "Plazo/retención": "Conservación mientras sean necesarios para la ejecución del contrato",
+                "Fuente": "ID_188_2.PDF, pág. 95, Anexo IX"
+              },
+              {
+                "Datos/rol/obligación": "DPO/DPD designado",
+                "Condición": "DPD de Coordinación General de Distritos, Transparencia y Participación Ciudadana (solo para datos de contratación municipal)",
+                "Plazo/retención": "NO APLICA AL SERVICIO",
+                "Fuente": "ID_188_2.PDF, pág. 95, Anexo IX"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "4. Subencargados, cloud, localización y transferencias",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Requisito",
+              "Condición",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Requisito": "Subcontratación permitida",
+                "Condición": "Sí, con comunicación previa y dentro de los límites fijados en el contrato",
+                "Fuente": "ID_188_2.PDF, pág. 54, Anexo I, 26; ID_188_3.PDF, pág. 29, 6.5"
+              },
+              {
+                "Requisito": "Cloud público permitido",
+                "Condición": "Solo en MultiCloud corporativa (Azure, AWS, GCP) en regiones EEE",
+                "Fuente": "ID_188_3.PDF, pág. 29-34, 7"
+              },
+              {
+                "Requisito": "Localización de datos",
+                "Condición": "Recursos desplegados en regiones del Espacio Económico Europeo (EEE)",
+                "Fuente": "ID_188_3.PDF, pág. 33"
+              },
+              {
+                "Requisito": "Transferencias internacionales",
+                "Condición": "No permitidas fuera del EEE; cumplimiento art. 45 RGPD",
+                "Fuente": "ID_188_3.PDF, pág. 33"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "5. Medidas técnicas",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Medida",
+              "Obligatoria/valorable/condicionada",
+              "Parámetro/plazo",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Medida": "Cifrado de información no pública en tránsito",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parámetro/plazo": "Cuando se transmita por redes ajenas al Ayuntamiento; según valoración del responsable",
+                "Fuente": "ID_188_3.PDF, pág. 47, 11.6"
+              },
+              {
+                "Medida": "Identificación y autenticación",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parámetro/plazo": "Delegación en plataforma de identidad corporativa (personal municipal) o CL@VE (ciudadanía); otros métodos requieren autorización",
+                "Fuente": "ID_188_3.PDF, pág. 47, 11.7"
+              },
+              {
+                "Medida": "Doble factor de autenticación",
+                "Obligatoria/valorable/condicionada": "Obligatoria si lo requiere el servicio",
+                "Parámetro/plazo": "Provisión de medios por el adjudicatario",
+                "Fuente": "ID_188_3.PDF, pág. 48, 11.8"
+              },
+              {
+                "Medida": "Control de acceso y privilegios",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parámetro/plazo": "Principios de mínimo privilegio y necesidad de conocer; restricción de roles de administración",
+                "Fuente": "ID_188_3.PDF, pág. 48, 11.10"
+              },
+              {
+                "Medida": "Logging y registros de actividad",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parámetro/plazo": "Registro de actividades de usuarios, entrega a requerimiento",
+                "Fuente": "ID_188_3.PDF, pág. 49, 11.12"
+              },
+              {
+                "Medida": "Actualizaciones de seguridad",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parámetro/plazo": "Aplicación periódica y continuada; medidas compensatorias si no es posible",
+                "Fuente": "ID_188_3.PDF, pág. 49, 11.13"
+              },
+              {
+                "Medida": "Gestión de vulnerabilidades",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parámetro/plazo": "Subsanación de vulnerabilidades comunicadas por el responsable del contrato",
+                "Fuente": "ID_188_3.PDF, pág. 49, 11.15"
+              },
+              {
+                "Medida": "Gestión de incidentes",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parámetro/plazo": "Notificación inmediata al responsable del contrato; colaboración hasta cierre",
+                "Fuente": "ID_188_3.PDF, pág. 49, 11.14"
+              },
+              {
+                "Medida": "Desarrollo seguro",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parámetro/plazo": "Metodologías y buenas prácticas verificables de desarrollo seguro; documentación",
+                "Fuente": "ID_188_3.PDF, pág. 47, 11.5"
+              },
+              {
+                "Medida": "Borrado seguro de datos",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parámetro/plazo": "Al finalizar el contrato; certificado de destrucción",
+                "Fuente": "ID_188_3.PDF, pág. 9, 3.2; pág. 39, Art. 9.3"
+              },
+              {
+                "Medida": "Auditoría de seguridad",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parámetro/plazo": "El Ayuntamiento podrá auditar los sistemas implantados o utilizados",
+                "Fuente": "ID_188_3.PDF, pág. 49, 11.16"
+              },
+              {
+                "Medida": "Designación POC seguridad",
+                "Obligatoria/valorable/condicionada": "Obligatoria",
+                "Parámetro/plazo": "Inicio ejecución",
+                "Fuente": "ID_188_3.PDF, pág. 46, 11.2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "6. Identidad, accesos y privilegios",
+        "parrafos": [],
+        "elementos": [
+          "Gestión de credenciales y accesos a recursos cloud es competencia del Ayuntamiento; usuarios externos usan credenciales proporcionadas por IAM (ID_188_3.PDF, pág. 33).",
+          "Acceso a información no pública: autenticación delegada en plataforma de identidad corporativa o CL@VE; otros métodos requieren autorización de IAM (ID_188_3.PDF, pág. 47).",
+          "Principios de mínimo privilegio y necesidad de conocer; restricción de roles de administración (ID_188_3.PDF, pág. 48)."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "7. Vulnerabilidades, parcheado y desarrollo seguro",
+        "parrafos": [],
+        "elementos": [
+          "Subsanación de vulnerabilidades comunicadas por el responsable del contrato (ID_188_3.PDF, pág. 49).",
+          "Aplicación periódica y continuada de actualizaciones de seguridad; medidas compensatorias si no es posible (ID_188_3.PDF, pág. 49).",
+          "Desarrollo seguro: uso de metodologías y buenas prácticas verificables, documentadas (ID_188_3.PDF, pág. 47)."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "8. Incidentes, brechas y plazos de notificación",
+        "parrafos": [],
+        "elementos": [
+          "Notificación de ciberincidentes al responsable del contrato tan pronto como se tenga conocimiento; mantener informado hasta cierre (ID_188_3.PDF, pág. 49).",
+          "Gestión de incidentes conforme a guía CCN-STIC-817 y normativa específica del Ayuntamiento (ID_188_3.PDF, pág. 49).",
+          "Colaboración activa en la paliación y resolución total del incidente (ID_188_3.PDF, pág. 49).",
+          "No se especifican plazos concretos en horas o días para la notificación."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "9. Logging, SOC/SIEM, continuidad, backup, RTO/RPO y retención",
+        "parrafos": [],
+        "elementos": [
+          "Registro de actividades de usuarios, retención de logs para monitorizar, analizar, investigar y documentar actividades indebidas o no autorizadas; entrega a requerimiento (ID_188_3.PDF, pág. 49).",
+          "Integración con herramientas de observabilidad y monitorización de IAM si se solicita (ID_188_3.PDF, pág. 30).",
+          "Copias de seguridad y restauración proporcionadas por IAM (ID_188_3.PDF, pág. 31).",
+          "No se especifican requisitos de SOC/SIEM, RTO/RPO ni pruebas de continuidad."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "10. Auditorías, evidencias, certificaciones, seguridad del personal, borrado y confidencialidad",
+        "parrafos": [],
+        "elementos": [
+          "Auditoría de seguridad: el Ayuntamiento podrá auditar los sistemas implantados o utilizados (ID_188_3.PDF, pág. 49).",
+          "Borrado seguro de datos al finalizar el contrato, con certificado de destrucción (ID_188_3.PDF, pág. 9, 3.2; pág. 39, Art. 9.3).",
+          "Confidencialidad: obligación de confidencialidad y secreto sobre la información a la que se acceda, subsiste tras la finalización del contrato (ID_188_3.PDF, pág. 53; ID_188_2.PDF, pág. 35, 36).",
+          "Seguridad del personal: obligación de proveer equipos de protección individual y cumplir normativa de prevención de riesgos laborales (ID_188_3.PDF, pág. 23, 51).",
+          "No se exige certificación ENS ni ISO 27001."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "11. Consecuencias contractuales expresamente asociadas al incumplimiento",
+        "parrafos": [],
+        "elementos": [
+          "Penalidad del 5% del precio del contrato por destrucción, pérdida o alteración de datos que generen daños al Ayuntamiento, indisponibilidad del asistente virtual superior a 48 horas, incumplimiento de órdenes del responsable del contrato, no presentación de informes, etc. (ID_188_2.PDF, pág. 76, 30; ID_188_3.PDF, pág. 76).",
+          "Penalidad del 10% del precio del contrato por incumplimientos muy graves (reiteración, indisponibilidad superior a 5 días, etc.) (ID_188_2.PDF, pág. 77).",
+          "Resolución del contrato por reiteración de incumplimientos muy graves, destrucción de datos con dolo o reincidencia, etc. (ID_188_2.PDF, pág. 77)."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "12. Datos no localizados o ambiguos",
+        "parrafos": [],
+        "elementos": [
+          "No se exige certificación ENS ni ISO 27001.",
+          "No se exige acuerdo de encargado de tratamiento ni subencargados para el servicio objeto del contrato.",
+          "No se especifican requisitos de SOC/SIEM, RTO/RPO, pruebas de continuidad, ni medidas técnicas concretas como MFA, RBAC, PAM, VPN, bastionado, EDR/XDR, WAF, DLP, backups (más allá de la referencia a copias de seguridad de IAM), ni requisitos de SBOM, SAST, DAST, SCA, CI/CD, OWASP, salvo la exigencia genérica de desarrollo seguro y buenas prácticas.",
+          "No se exige designación de DPO/DPD para el adjudicatario.",
+          "No se exige EIPD ni medidas específicas de protección de datos para el servicio objeto del contrato."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "13. Documentos revisados",
+        "parrafos": [],
+        "elementos": [
+          "ID_188_1.PDF (Documento licitación real)",
+          "ID_188_2.PDF (Pliego de Cláusulas Administrativas Particulares y Anexos)",
+          "ID_188_3.PDF (Pliego de Prescripciones Técnicas Particulares)",
+          "poc (Documento enlazado, detalle licitación, sin información relevante de seguridad)",
+          "poc (Documento enlazado, perfil contratante, sin información relevante de seguridad)",
+          "poc (Documento enlazado, perfil contratante, sin información relevante de seguridad)",
+          "147409-2026 (Documento enlazado, sin texto extraíble; pendiente de lectura/OCR)",
+          "perfilContratante (Documento enlazado, sin información relevante de seguridad)"
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "Tabla de trazabilidad",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Requisito/dato",
+              "Tipo",
+              "Valor/condición",
+              "Documento",
+              "Página/apartado",
+              "Estado de lectura"
+            ],
+            "filas": [
+              {
+                "Requisito/dato": "Cumplimiento ENS",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Nivel Básico, medidas Anexo II ENS",
+                "Documento": "ID_188_3.PDF",
+                "Página/apartado": "46-47, 11.1-11.3",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Certificación ENS/ISO 27001",
+                "Tipo": "NO EXIGIDO EXPRESAMENTE",
+                "Valor/condición": "No se exige",
+                "Documento": "ID_188_3.PDF",
+                "Página/apartado": "46",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Análisis de riesgos ENS",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Al inicio, validado por Ayuntamiento",
+                "Documento": "ID_188_3.PDF",
+                "Página/apartado": "46, 11.3",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Configuración segura (CCN-STIC)",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Guías CCN-STIC, aprobación responsable",
+                "Documento": "ID_188_3.PDF",
+                "Página/apartado": "46-47, 11.4",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Designación POC seguridad",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Inicio ejecución",
+                "Documento": "ID_188_3.PDF",
+                "Página/apartado": "46, 11.2",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Tratamiento de datos personales",
+                "Tipo": "NO EXIGIDO EXPRESAMENTE",
+                "Valor/condición": "No aplica al servicio",
+                "Documento": "ID_188_3.PDF",
+                "Página/apartado": "48, 11.18",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Acuerdo de encargado/subencargado",
+                "Tipo": "NO EXIGIDO EXPRESAMENTE",
+                "Valor/condición": "No aplica al servicio",
+                "Documento": "ID_188_2.PDF",
+                "Página/apartado": "54, Anexo I, 1.8",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Subcontratación",
+                "Tipo": "Permitida",
+                "Valor/condición": "Comunicación previa, límites del contrato",
+                "Documento": "ID_188_2.PDF",
+                "Página/apartado": "54, Anexo I, 26",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Cloud público",
+                "Tipo": "Permitido",
+                "Valor/condición": "Solo MultiCloud corporativa, EEE",
+                "Documento": "ID_188_3.PDF",
+                "Página/apartado": "29-34, 7",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Localización de datos",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Regiones EEE",
+                "Documento": "ID_188_3.PDF",
+                "Página/apartado": "33",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Transferencias internacionales",
+                "Tipo": "Prohibidas fuera EEE",
+                "Valor/condición": "Cumplimiento art. 45 RGPD",
+                "Documento": "ID_188_3.PDF",
+                "Página/apartado": "33",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Cifrado información no pública",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "En tránsito por redes ajenas",
+                "Documento": "ID_188_3.PDF",
+                "Página/apartado": "47, 11.6",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Identificación/autenticación",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Delegación en identidad corporativa/CL@VE",
+                "Documento": "ID_188_3.PDF",
+                "Página/apartado": "47, 11.7",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Doble factor autenticación",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Si lo requiere el servicio",
+                "Documento": "ID_188_3.PDF",
+                "Página/apartado": "48, 11.8",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Control de acceso/privilegios",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Mínimo privilegio, necesidad de conocer",
+                "Documento": "ID_188_3.PDF",
+                "Página/apartado": "48, 11.10",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Logging/registros actividad",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Registro, entrega a requerimiento",
+                "Documento": "ID_188_3.PDF",
+                "Página/apartado": "49, 11.12",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Actualizaciones de seguridad",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Periódica y continuada",
+                "Documento": "ID_188_3.PDF",
+                "Página/apartado": "49, 11.13",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Gestión de vulnerabilidades",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Subsanación a requerimiento",
+                "Documento": "ID_188_3.PDF",
+                "Página/apartado": "49, 11.15",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Gestión de incidentes",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Notificación inmediata, colaboración",
+                "Documento": "ID_188_3.PDF",
+                "Página/apartado": "49, 11.14",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Desarrollo seguro",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Buenas prácticas verificables",
+                "Documento": "ID_188_3.PDF",
+                "Página/apartado": "47, 11.5",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Borrado seguro de datos",
+                "Tipo": "Obligación contractual",
+                "Valor/condición": "Al finalizar, certificado destrucción",
+                "Documento": "ID_188_3.PDF",
+                "Página/apartado": "9, 3.2; 39, Art. 9.3",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Auditoría de seguridad",
+                "Tipo": "Derecho del cliente",
+                "Valor/condición": "El Ayuntamiento podrá auditar",
+                "Documento": "ID_188_3.PDF",
+                "Página/apartado": "49, 11.16",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Penalidades por destrucción/pérdida de datos",
+                "Tipo": "Consecuencia contractual",
+                "Valor/condición": "5% o 10% del precio del contrato",
+                "Documento": "ID_188_2.PDF",
+                "Página/apartado": "76-77, 30",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Resolución por incumplimientos muy graves",
+                "Tipo": "Consecuencia contractual",
+                "Valor/condición": "Reiteración, dolo, indisponibilidad",
+                "Documento": "ID_188_2.PDF",
+                "Página/apartado": "77, 31",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "DPO/DPD designado",
+                "Tipo": "Información descriptiva",
+                "Valor/condición": "Solo para datos de contratación municipal",
+                "Documento": "ID_188_2.PDF",
+                "Página/apartado": "95, Anexo IX",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "SOC/SIEM, RTO/RPO, pruebas continuidad",
+                "Tipo": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Valor/condición": "-",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": "-"
+              },
+              {
+                "Requisito/dato": "MFA, RBAC, PAM, VPN, bastionado, EDR/XDR, WAF, DLP, SBOM, SAST, DAST, SCA, CI/CD, OWASP",
+                "Tipo": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Valor/condición": "-",
+                "Documento": "-",
+                "Página/apartado": "-",
+                "Estado de lectura": "-"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "parrafos": [],
+        "elementos": [
+          "No se han identificado discrepancias en la documentación revisada.",
+          "Documento 147409-2026 pendiente de lectura/OCR; no se ha podido verificar si contiene requisitos adicionales de seguridad, ENS o protección de datos."
+        ],
+        "tablas": []
+      }
+    ],
+    "pendientes_y_no_localizados": [
+      {
+        "titulo": "12. Datos no localizados o ambiguos",
+        "parrafos": [],
+        "elementos": [
+          "No se exige certificación ENS ni ISO 27001.",
+          "No se exige acuerdo de encargado de tratamiento ni subencargados para el servicio objeto del contrato.",
+          "No se especifican requisitos de SOC/SIEM, RTO/RPO, pruebas de continuidad, ni medidas técnicas concretas como MFA, RBAC, PAM, VPN, bastionado, EDR/XDR, WAF, DLP, backups (más allá de la referencia a copias de seguridad de IAM), ni requisitos de SBOM, SAST, DAST, SCA, CI/CD, OWASP, salvo la exigencia genérica de desarrollo seguro y buenas prácticas.",
+          "No se exige designación de DPO/DPD para el adjudicatario.",
+          "No se exige EIPD ni medidas específicas de protección de datos para el servicio objeto del contrato."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "parrafos": [],
+        "elementos": [
+          "No se han identificado discrepancias en la documentación revisada.",
+          "Documento 147409-2026 pendiente de lectura/OCR; no se ha podido verificar si contiene requisitos adicionales de seguridad, ENS o protección de datos."
+        ],
+        "tablas": []
+      }
+    ],
+    "trazabilidad": [
+      {
+        "Requisito ENS": "Cumplimiento ENS",
+        "Nivel": "Básico",
+        "Alcance": "Todos los servicios y sistemas desarrollados/desplegados/mantenidos",
+        "Acreditación": "Descripción de mecanismos de seguridad previstos en la oferta; documentación justificativa a requerimiento",
+        "Momento": "Oferta y durante ejecución",
+        "Fuente": "ID_188_3.PDF, pág. 46-47, 11.1-11.3"
+      },
+      {
+        "Requisito ENS": "Análisis de riesgos ENS",
+        "Nivel": "Básico",
+        "Alcance": "Servicios digitales, desarrollo/mantenimiento SW, infraestructuras/plataformas",
+        "Acreditación": "Análisis de riesgos validado por el Ayuntamiento",
+        "Momento": "Inicio de los trabajos",
+        "Fuente": "ID_188_3.PDF, pág. 46, 11.3"
+      },
+      {
+        "Requisito ENS": "Medidas ENS Anexo II",
+        "Nivel": "Básico",
+        "Alcance": "Servicios y sistemas objeto del contrato",
+        "Acreditación": "Supervisión y comprobación por el órgano de contratación",
+        "Momento": "Durante ejecución",
+        "Fuente": "ID_188_3.PDF, pág. 46"
+      },
+      {
+        "Requisito ENS": "Configuración segura (CCN-STIC)",
+        "Nivel": "Básico",
+        "Alcance": "Todos los componentes tecnológicos",
+        "Acreditación": "Adecuación a guías CCN-STIC, con aprobación del responsable del contrato",
+        "Momento": "Durante ejecución",
+        "Fuente": "ID_188_3.PDF, pág. 46-47, 11.4"
+      },
+      {
+        "Requisito ENS": "Designación POC seguridad",
+        "Nivel": "Básico",
+        "Alcance": "Servicio prestado",
+        "Acreditación": "Designación formal",
+        "Momento": "Inicio ejecución",
+        "Fuente": "ID_188_3.PDF, pág. 46, 11.2"
+      },
+      {
+        "Datos/rol/obligación": "Tratamiento de datos personales por cuenta del Ayuntamiento",
+        "Condición": "NO requerido; el contrato no implica tratamiento de datos personales por cuenta del responsable",
+        "Plazo/retención": "NO APLICA",
+        "Fuente": "ID_188_3.PDF, pág. 48, 11.18; ID_188_2.PDF, pág. 54, Anexo I, 1.8"
+      },
+      {
+        "Datos/rol/obligación": "Acuerdo de encargado de tratamiento",
+        "Condición": "NO requerido",
+        "Plazo/retención": "NO APLICA",
+        "Fuente": "ID_188_2.PDF, pág. 54, Anexo I, 1.8"
+      },
+      {
+        "Datos/rol/obligación": "Cumplimiento LOPDGDD/RGPD para contratación municipal",
+        "Condición": "Obligatorio para datos de contratación municipal (no para el servicio objeto del contrato)",
+        "Plazo/retención": "Conservación mientras sean necesarios para la ejecución del contrato",
+        "Fuente": "ID_188_2.PDF, pág. 95, Anexo IX"
+      },
+      {
+        "Datos/rol/obligación": "DPO/DPD designado",
+        "Condición": "DPD de Coordinación General de Distritos, Transparencia y Participación Ciudadana (solo para datos de contratación municipal)",
+        "Plazo/retención": "NO APLICA AL SERVICIO",
+        "Fuente": "ID_188_2.PDF, pág. 95, Anexo IX"
+      },
+      {
+        "Requisito": "Subcontratación permitida",
+        "Condición": "Sí, con comunicación previa y dentro de los límites fijados en el contrato",
+        "Fuente": "ID_188_2.PDF, pág. 54, Anexo I, 26; ID_188_3.PDF, pág. 29, 6.5"
+      },
+      {
+        "Requisito": "Cloud público permitido",
+        "Condición": "Solo en MultiCloud corporativa (Azure, AWS, GCP) en regiones EEE",
+        "Fuente": "ID_188_3.PDF, pág. 29-34, 7"
+      },
+      {
+        "Requisito": "Localización de datos",
+        "Condición": "Recursos desplegados en regiones del Espacio Económico Europeo (EEE)",
+        "Fuente": "ID_188_3.PDF, pág. 33"
+      },
+      {
+        "Requisito": "Transferencias internacionales",
+        "Condición": "No permitidas fuera del EEE; cumplimiento art. 45 RGPD",
+        "Fuente": "ID_188_3.PDF, pág. 33"
+      },
+      {
+        "Medida": "Cifrado de información no pública en tránsito",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parámetro/plazo": "Cuando se transmita por redes ajenas al Ayuntamiento; según valoración del responsable",
+        "Fuente": "ID_188_3.PDF, pág. 47, 11.6"
+      },
+      {
+        "Medida": "Identificación y autenticación",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parámetro/plazo": "Delegación en plataforma de identidad corporativa (personal municipal) o CL@VE (ciudadanía); otros métodos requieren autorización",
+        "Fuente": "ID_188_3.PDF, pág. 47, 11.7"
+      },
+      {
+        "Medida": "Doble factor de autenticación",
+        "Obligatoria/valorable/condicionada": "Obligatoria si lo requiere el servicio",
+        "Parámetro/plazo": "Provisión de medios por el adjudicatario",
+        "Fuente": "ID_188_3.PDF, pág. 48, 11.8"
+      },
+      {
+        "Medida": "Control de acceso y privilegios",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parámetro/plazo": "Principios de mínimo privilegio y necesidad de conocer; restricción de roles de administración",
+        "Fuente": "ID_188_3.PDF, pág. 48, 11.10"
+      },
+      {
+        "Medida": "Logging y registros de actividad",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parámetro/plazo": "Registro de actividades de usuarios, entrega a requerimiento",
+        "Fuente": "ID_188_3.PDF, pág. 49, 11.12"
+      },
+      {
+        "Medida": "Actualizaciones de seguridad",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parámetro/plazo": "Aplicación periódica y continuada; medidas compensatorias si no es posible",
+        "Fuente": "ID_188_3.PDF, pág. 49, 11.13"
+      },
+      {
+        "Medida": "Gestión de vulnerabilidades",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parámetro/plazo": "Subsanación de vulnerabilidades comunicadas por el responsable del contrato",
+        "Fuente": "ID_188_3.PDF, pág. 49, 11.15"
+      },
+      {
+        "Medida": "Gestión de incidentes",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parámetro/plazo": "Notificación inmediata al responsable del contrato; colaboración hasta cierre",
+        "Fuente": "ID_188_3.PDF, pág. 49, 11.14"
+      },
+      {
+        "Medida": "Desarrollo seguro",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parámetro/plazo": "Metodologías y buenas prácticas verificables de desarrollo seguro; documentación",
+        "Fuente": "ID_188_3.PDF, pág. 47, 11.5"
+      },
+      {
+        "Medida": "Borrado seguro de datos",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parámetro/plazo": "Al finalizar el contrato; certificado de destrucción",
+        "Fuente": "ID_188_3.PDF, pág. 9, 3.2; pág. 39, Art. 9.3"
+      },
+      {
+        "Medida": "Auditoría de seguridad",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parámetro/plazo": "El Ayuntamiento podrá auditar los sistemas implantados o utilizados",
+        "Fuente": "ID_188_3.PDF, pág. 49, 11.16"
+      },
+      {
+        "Medida": "Designación POC seguridad",
+        "Obligatoria/valorable/condicionada": "Obligatoria",
+        "Parámetro/plazo": "Inicio ejecución",
+        "Fuente": "ID_188_3.PDF, pág. 46, 11.2"
+      },
+      {
+        "Requisito/dato": "Cumplimiento ENS",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Nivel Básico, medidas Anexo II ENS",
+        "Documento": "ID_188_3.PDF",
+        "Página/apartado": "46-47, 11.1-11.3",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Certificación ENS/ISO 27001",
+        "Tipo": "NO EXIGIDO EXPRESAMENTE",
+        "Valor/condición": "No se exige",
+        "Documento": "ID_188_3.PDF",
+        "Página/apartado": "46",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Análisis de riesgos ENS",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Al inicio, validado por Ayuntamiento",
+        "Documento": "ID_188_3.PDF",
+        "Página/apartado": "46, 11.3",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Configuración segura (CCN-STIC)",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Guías CCN-STIC, aprobación responsable",
+        "Documento": "ID_188_3.PDF",
+        "Página/apartado": "46-47, 11.4",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Designación POC seguridad",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Inicio ejecución",
+        "Documento": "ID_188_3.PDF",
+        "Página/apartado": "46, 11.2",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Tratamiento de datos personales",
+        "Tipo": "NO EXIGIDO EXPRESAMENTE",
+        "Valor/condición": "No aplica al servicio",
+        "Documento": "ID_188_3.PDF",
+        "Página/apartado": "48, 11.18",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Acuerdo de encargado/subencargado",
+        "Tipo": "NO EXIGIDO EXPRESAMENTE",
+        "Valor/condición": "No aplica al servicio",
+        "Documento": "ID_188_2.PDF",
+        "Página/apartado": "54, Anexo I, 1.8",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Subcontratación",
+        "Tipo": "Permitida",
+        "Valor/condición": "Comunicación previa, límites del contrato",
+        "Documento": "ID_188_2.PDF",
+        "Página/apartado": "54, Anexo I, 26",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Cloud público",
+        "Tipo": "Permitido",
+        "Valor/condición": "Solo MultiCloud corporativa, EEE",
+        "Documento": "ID_188_3.PDF",
+        "Página/apartado": "29-34, 7",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Localización de datos",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Regiones EEE",
+        "Documento": "ID_188_3.PDF",
+        "Página/apartado": "33",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Transferencias internacionales",
+        "Tipo": "Prohibidas fuera EEE",
+        "Valor/condición": "Cumplimiento art. 45 RGPD",
+        "Documento": "ID_188_3.PDF",
+        "Página/apartado": "33",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Cifrado información no pública",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "En tránsito por redes ajenas",
+        "Documento": "ID_188_3.PDF",
+        "Página/apartado": "47, 11.6",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Identificación/autenticación",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Delegación en identidad corporativa/CL@VE",
+        "Documento": "ID_188_3.PDF",
+        "Página/apartado": "47, 11.7",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Doble factor autenticación",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Si lo requiere el servicio",
+        "Documento": "ID_188_3.PDF",
+        "Página/apartado": "48, 11.8",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Control de acceso/privilegios",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Mínimo privilegio, necesidad de conocer",
+        "Documento": "ID_188_3.PDF",
+        "Página/apartado": "48, 11.10",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Logging/registros actividad",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Registro, entrega a requerimiento",
+        "Documento": "ID_188_3.PDF",
+        "Página/apartado": "49, 11.12",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Actualizaciones de seguridad",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Periódica y continuada",
+        "Documento": "ID_188_3.PDF",
+        "Página/apartado": "49, 11.13",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Gestión de vulnerabilidades",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Subsanación a requerimiento",
+        "Documento": "ID_188_3.PDF",
+        "Página/apartado": "49, 11.15",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Gestión de incidentes",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Notificación inmediata, colaboración",
+        "Documento": "ID_188_3.PDF",
+        "Página/apartado": "49, 11.14",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Desarrollo seguro",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Buenas prácticas verificables",
+        "Documento": "ID_188_3.PDF",
+        "Página/apartado": "47, 11.5",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Borrado seguro de datos",
+        "Tipo": "Obligación contractual",
+        "Valor/condición": "Al finalizar, certificado destrucción",
+        "Documento": "ID_188_3.PDF",
+        "Página/apartado": "9, 3.2; 39, Art. 9.3",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Auditoría de seguridad",
+        "Tipo": "Derecho del cliente",
+        "Valor/condición": "El Ayuntamiento podrá auditar",
+        "Documento": "ID_188_3.PDF",
+        "Página/apartado": "49, 11.16",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Penalidades por destrucción/pérdida de datos",
+        "Tipo": "Consecuencia contractual",
+        "Valor/condición": "5% o 10% del precio del contrato",
+        "Documento": "ID_188_2.PDF",
+        "Página/apartado": "76-77, 30",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Resolución por incumplimientos muy graves",
+        "Tipo": "Consecuencia contractual",
+        "Valor/condición": "Reiteración, dolo, indisponibilidad",
+        "Documento": "ID_188_2.PDF",
+        "Página/apartado": "77, 31",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "DPO/DPD designado",
+        "Tipo": "Información descriptiva",
+        "Valor/condición": "Solo para datos de contratación municipal",
+        "Documento": "ID_188_2.PDF",
+        "Página/apartado": "95, Anexo IX",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "SOC/SIEM, RTO/RPO, pruebas continuidad",
+        "Tipo": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Valor/condición": "-",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": "-"
+      },
+      {
+        "Requisito/dato": "MFA, RBAC, PAM, VPN, bastionado, EDR/XDR, WAF, DLP, SBOM, SAST, DAST, SCA, CI/CD, OWASP",
+        "Tipo": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Valor/condición": "-",
+        "Documento": "-",
+        "Página/apartado": "-",
+        "Estado de lectura": "-"
+      }
+    ],
+    "salida_original": "# 1. Resumen factual Seguridad / DPO / ENS\n\n- El contrato exige cumplimiento del Esquema Nacional de Seguridad (ENS) nivel BÁSICO para todos los servicios y sistemas desarrollados, desplegados o mantenidos en el marco del contrato. No se exige certificación ENS ni ISO 27001, pero sí la aplicación de las medidas del Anexo II del ENS nivel Básico y la justificación documental de su aplicación. \n- No se exige tratamiento de datos personales por cuenta del Ayuntamiento ni acuerdo de encargado de tratamiento, según se declara expresamente en el PPTP y Anexo I del PCAP. El adjudicatario no asume el rol de encargado de tratamiento de datos personales del Ayuntamiento.\n- Se exige cumplimiento de la normativa de protección de datos (LOPDGDD, RGPD) para los datos tratados en la contratación municipal, pero no para el servicio objeto del contrato, ya que no implica tratamiento de datos personales por cuenta del Ayuntamiento.\n- Se establecen requisitos detallados de seguridad de la información, gestión de identidades y accesos, control de privilegios, logging, gestión de vulnerabilidades, incidentes, desarrollo seguro, auditoría, borrado seguro y confidencialidad, todos ellos alineados con ENS nivel Básico y la política de seguridad del Ayuntamiento de Madrid.\n- El despliegue cloud debe realizarse exclusivamente en las plataformas MultiCloud corporativas del Ayuntamiento (Azure, AWS, GCP), en regiones del Espacio Económico Europeo, bajo el modelo de gobierno y seguridad de IAM y CCMAD.\n- Se exige la designación de un Punto o Persona de Contacto (POC) para seguridad de la información.\n- Se exige análisis de riesgos conforme a ENS, plan de tratamiento, configuración segura, cifrado de información no pública en tránsito, autenticación y autorización conforme a la normativa municipal, y registro de actividad.\n- Se exige borrado seguro de datos al finalizar el contrato, con certificado de destrucción.\n- Se establecen penalizaciones específicas por destrucción, pérdida o alteración de datos, indisponibilidad del servicio, incumplimiento de medidas de seguridad y confidencialidad.\n\n# 2. ENS: Requisito | Categoria/nivel | Alcance | Acreditacion | Momento | Fuente\n| Requisito ENS | Nivel | Alcance | Acreditación | Momento | Fuente |\n|----------------|-------|---------|--------------|---------|--------|\n| Cumplimiento ENS | Básico | Todos los servicios y sistemas desarrollados/desplegados/mantenidos | Descripción de mecanismos de seguridad previstos en la oferta; documentación justificativa a requerimiento | Oferta y durante ejecución | ID_188_3.PDF, pág. 46-47, 11.1-11.3 |\n| Análisis de riesgos ENS | Básico | Servicios digitales, desarrollo/mantenimiento SW, infraestructuras/plataformas | Análisis de riesgos validado por el Ayuntamiento | Inicio de los trabajos | ID_188_3.PDF, pág. 46, 11.3 |\n| Medidas ENS Anexo II | Básico | Servicios y sistemas objeto del contrato | Supervisión y comprobación por el órgano de contratación | Durante ejecución | ID_188_3.PDF, pág. 46 |\n| Configuración segura (CCN-STIC) | Básico | Todos los componentes tecnológicos | Adecuación a guías CCN-STIC, con aprobación del responsable del contrato | Durante ejecución | ID_188_3.PDF, pág. 46-47, 11.4 |\n| Designación POC seguridad | Básico | Servicio prestado | Designación formal | Inicio ejecución | ID_188_3.PDF, pág. 46, 11.2 |\n\n# 3. RGPD/DPO: Datos/rol/obligacion | Condicion | Plazo/retencion | Fuente\n| Datos/rol/obligación | Condición | Plazo/retención | Fuente |\n|----------------------|-----------|----------------|--------|\n| Tratamiento de datos personales por cuenta del Ayuntamiento | NO requerido; el contrato no implica tratamiento de datos personales por cuenta del responsable | NO APLICA | ID_188_3.PDF, pág. 48, 11.18; ID_188_2.PDF, pág. 54, Anexo I, 1.8 |\n| Acuerdo de encargado de tratamiento | NO requerido | NO APLICA | ID_188_2.PDF, pág. 54, Anexo I, 1.8 |\n| Cumplimiento LOPDGDD/RGPD para contratación municipal | Obligatorio para datos de contratación municipal (no para el servicio objeto del contrato) | Conservación mientras sean necesarios para la ejecución del contrato | ID_188_2.PDF, pág. 95, Anexo IX |\n| DPO/DPD designado | DPD de Coordinación General de Distritos, Transparencia y Participación Ciudadana (solo para datos de contratación municipal) | NO APLICA AL SERVICIO | ID_188_2.PDF, pág. 95, Anexo IX |\n\n# 4. Subencargados, cloud, localización y transferencias\n| Requisito | Condición | Fuente |\n|-----------|-----------|--------|\n| Subcontratación permitida | Sí, con comunicación previa y dentro de los límites fijados en el contrato | ID_188_2.PDF, pág. 54, Anexo I, 26; ID_188_3.PDF, pág. 29, 6.5 |\n| Cloud público permitido | Solo en MultiCloud corporativa (Azure, AWS, GCP) en regiones EEE | ID_188_3.PDF, pág. 29-34, 7 |\n| Localización de datos | Recursos desplegados en regiones del Espacio Económico Europeo (EEE) | ID_188_3.PDF, pág. 33 |\n| Transferencias internacionales | No permitidas fuera del EEE; cumplimiento art. 45 RGPD | ID_188_3.PDF, pág. 33 |\n\n# 5. Medidas técnicas\n| Medida | Obligatoria/valorable/condicionada | Parámetro/plazo | Fuente |\n|--------|-------------------------------|------------------|--------|\n| Cifrado de información no pública en tránsito | Obligatoria | Cuando se transmita por redes ajenas al Ayuntamiento; según valoración del responsable | ID_188_3.PDF, pág. 47, 11.6 |\n| Identificación y autenticación | Obligatoria | Delegación en plataforma de identidad corporativa (personal municipal) o CL@VE (ciudadanía); otros métodos requieren autorización | ID_188_3.PDF, pág. 47, 11.7 |\n| Doble factor de autenticación | Obligatoria si lo requiere el servicio | Provisión de medios por el adjudicatario | ID_188_3.PDF, pág. 48, 11.8 |\n| Control de acceso y privilegios | Obligatoria | Principios de mínimo privilegio y necesidad de conocer; restricción de roles de administración | ID_188_3.PDF, pág. 48, 11.10 |\n| Logging y registros de actividad | Obligatoria | Registro de actividades de usuarios, entrega a requerimiento | ID_188_3.PDF, pág. 49, 11.12 |\n| Actualizaciones de seguridad | Obligatoria | Aplicación periódica y continuada; medidas compensatorias si no es posible | ID_188_3.PDF, pág. 49, 11.13 |\n| Gestión de vulnerabilidades | Obligatoria | Subsanación de vulnerabilidades comunicadas por el responsable del contrato | ID_188_3.PDF, pág. 49, 11.15 |\n| Gestión de incidentes | Obligatoria | Notificación inmediata al responsable del contrato; colaboración hasta cierre | ID_188_3.PDF, pág. 49, 11.14 |\n| Desarrollo seguro | Obligatoria | Metodologías y buenas prácticas verificables de desarrollo seguro; documentación | ID_188_3.PDF, pág. 47, 11.5 |\n| Borrado seguro de datos | Obligatoria | Al finalizar el contrato; certificado de destrucción | ID_188_3.PDF, pág. 9, 3.2; pág. 39, Art. 9.3 |\n| Auditoría de seguridad | Obligatoria | El Ayuntamiento podrá auditar los sistemas implantados o utilizados | ID_188_3.PDF, pág. 49, 11.16 |\n| Designación POC seguridad | Obligatoria | Inicio ejecución | ID_188_3.PDF, pág. 46, 11.2 |\n\n# 6. Identidad, accesos y privilegios\n- Gestión de credenciales y accesos a recursos cloud es competencia del Ayuntamiento; usuarios externos usan credenciales proporcionadas por IAM (ID_188_3.PDF, pág. 33).\n- Acceso a información no pública: autenticación delegada en plataforma de identidad corporativa o CL@VE; otros métodos requieren autorización de IAM (ID_188_3.PDF, pág. 47).\n- Principios de mínimo privilegio y necesidad de conocer; restricción de roles de administración (ID_188_3.PDF, pág. 48).\n\n# 7. Vulnerabilidades, parcheado y desarrollo seguro\n- Subsanación de vulnerabilidades comunicadas por el responsable del contrato (ID_188_3.PDF, pág. 49).\n- Aplicación periódica y continuada de actualizaciones de seguridad; medidas compensatorias si no es posible (ID_188_3.PDF, pág. 49).\n- Desarrollo seguro: uso de metodologías y buenas prácticas verificables, documentadas (ID_188_3.PDF, pág. 47).\n\n# 8. Incidentes, brechas y plazos de notificación\n- Notificación de ciberincidentes al responsable del contrato tan pronto como se tenga conocimiento; mantener informado hasta cierre (ID_188_3.PDF, pág. 49).\n- Gestión de incidentes conforme a guía CCN-STIC-817 y normativa específica del Ayuntamiento (ID_188_3.PDF, pág. 49).\n- Colaboración activa en la paliación y resolución total del incidente (ID_188_3.PDF, pág. 49).\n- No se especifican plazos concretos en horas o días para la notificación.\n\n# 9. Logging, SOC/SIEM, continuidad, backup, RTO/RPO y retención\n- Registro de actividades de usuarios, retención de logs para monitorizar, analizar, investigar y documentar actividades indebidas o no autorizadas; entrega a requerimiento (ID_188_3.PDF, pág. 49).\n- Integración con herramientas de observabilidad y monitorización de IAM si se solicita (ID_188_3.PDF, pág. 30).\n- Copias de seguridad y restauración proporcionadas por IAM (ID_188_3.PDF, pág. 31).\n- No se especifican requisitos de SOC/SIEM, RTO/RPO ni pruebas de continuidad.\n\n# 10. Auditorías, evidencias, certificaciones, seguridad del personal, borrado y confidencialidad\n- Auditoría de seguridad: el Ayuntamiento podrá auditar los sistemas implantados o utilizados (ID_188_3.PDF, pág. 49).\n- Borrado seguro de datos al finalizar el contrato, con certificado de destrucción (ID_188_3.PDF, pág. 9, 3.2; pág. 39, Art. 9.3).\n- Confidencialidad: obligación de confidencialidad y secreto sobre la información a la que se acceda, subsiste tras la finalización del contrato (ID_188_3.PDF, pág. 53; ID_188_2.PDF, pág. 35, 36).\n- Seguridad del personal: obligación de proveer equipos de protección individual y cumplir normativa de prevención de riesgos laborales (ID_188_3.PDF, pág. 23, 51).\n- No se exige certificación ENS ni ISO 27001.\n\n# 11. Consecuencias contractuales expresamente asociadas al incumplimiento\n- Penalidad del 5% del precio del contrato por destrucción, pérdida o alteración de datos que generen daños al Ayuntamiento, indisponibilidad del asistente virtual superior a 48 horas, incumplimiento de órdenes del responsable del contrato, no presentación de informes, etc. (ID_188_2.PDF, pág. 76, 30; ID_188_3.PDF, pág. 76).\n- Penalidad del 10% del precio del contrato por incumplimientos muy graves (reiteración, indisponibilidad superior a 5 días, etc.) (ID_188_2.PDF, pág. 77).\n- Resolución del contrato por reiteración de incumplimientos muy graves, destrucción de datos con dolo o reincidencia, etc. (ID_188_2.PDF, pág. 77).\n\n# 12. Datos no localizados o ambiguos\n- No se exige certificación ENS ni ISO 27001.\n- No se exige acuerdo de encargado de tratamiento ni subencargados para el servicio objeto del contrato.\n- No se especifican requisitos de SOC/SIEM, RTO/RPO, pruebas de continuidad, ni medidas técnicas concretas como MFA, RBAC, PAM, VPN, bastionado, EDR/XDR, WAF, DLP, backups (más allá de la referencia a copias de seguridad de IAM), ni requisitos de SBOM, SAST, DAST, SCA, CI/CD, OWASP, salvo la exigencia genérica de desarrollo seguro y buenas prácticas.\n- No se exige designación de DPO/DPD para el adjudicatario.\n- No se exige EIPD ni medidas específicas de protección de datos para el servicio objeto del contrato.\n\n# 13. Documentos revisados\n1. ID_188_1.PDF (Documento licitación real)\n2. ID_188_2.PDF (Pliego de Cláusulas Administrativas Particulares y Anexos)\n3. ID_188_3.PDF (Pliego de Prescripciones Técnicas Particulares)\n4. poc (Documento enlazado, detalle licitación, sin información relevante de seguridad)\n5. poc (Documento enlazado, perfil contratante, sin información relevante de seguridad)\n6. poc (Documento enlazado, perfil contratante, sin información relevante de seguridad)\n7. 147409-2026 (Documento enlazado, sin texto extraíble; pendiente de lectura/OCR)\n8. perfilContratante (Documento enlazado, sin información relevante de seguridad)\n\n# Tabla de trazabilidad\n| Requisito/dato | Tipo | Valor/condición | Documento | Página/apartado | Estado de lectura |\n|----------------|------|----------------|-----------|-----------------|-------------------|\n| Cumplimiento ENS | Obligación contractual | Nivel Básico, medidas Anexo II ENS | ID_188_3.PDF | 46-47, 11.1-11.3 | Leído |\n| Certificación ENS/ISO 27001 | NO EXIGIDO EXPRESAMENTE | No se exige | ID_188_3.PDF | 46 | Leído |\n| Análisis de riesgos ENS | Obligación contractual | Al inicio, validado por Ayuntamiento | ID_188_3.PDF | 46, 11.3 | Leído |\n| Configuración segura (CCN-STIC) | Obligación contractual | Guías CCN-STIC, aprobación responsable | ID_188_3.PDF | 46-47, 11.4 | Leído |\n| Designación POC seguridad | Obligación contractual | Inicio ejecución | ID_188_3.PDF | 46, 11.2 | Leído |\n| Tratamiento de datos personales | NO EXIGIDO EXPRESAMENTE | No aplica al servicio | ID_188_3.PDF | 48, 11.18 | Leído |\n| Acuerdo de encargado/subencargado | NO EXIGIDO EXPRESAMENTE | No aplica al servicio | ID_188_2.PDF | 54, Anexo I, 1.8 | Leído |\n| Subcontratación | Permitida | Comunicación previa, límites del contrato | ID_188_2.PDF | 54, Anexo I, 26 | Leído |\n| Cloud público | Permitido | Solo MultiCloud corporativa, EEE | ID_188_3.PDF | 29-34, 7 | Leído |\n| Localización de datos | Obligación contractual | Regiones EEE | ID_188_3.PDF | 33 | Leído |\n| Transferencias internacionales | Prohibidas fuera EEE | Cumplimiento art. 45 RGPD | ID_188_3.PDF | 33 | Leído |\n| Cifrado información no pública | Obligación contractual | En tránsito por redes ajenas | ID_188_3.PDF | 47, 11.6 | Leído |\n| Identificación/autenticación | Obligación contractual | Delegación en identidad corporativa/CL@VE | ID_188_3.PDF | 47, 11.7 | Leído |\n| Doble factor autenticación | Obligación contractual | Si lo requiere el servicio | ID_188_3.PDF | 48, 11.8 | Leído |\n| Control de acceso/privilegios | Obligación contractual | Mínimo privilegio, necesidad de conocer | ID_188_3.PDF | 48, 11.10 | Leído |\n| Logging/registros actividad | Obligación contractual | Registro, entrega a requerimiento | ID_188_3.PDF | 49, 11.12 | Leído |\n| Actualizaciones de seguridad | Obligación contractual | Periódica y continuada | ID_188_3.PDF | 49, 11.13 | Leído |\n| Gestión de vulnerabilidades | Obligación contractual | Subsanación a requerimiento | ID_188_3.PDF | 49, 11.15 | Leído |\n| Gestión de incidentes | Obligación contractual | Notificación inmediata, colaboración | ID_188_3.PDF | 49, 11.14 | Leído |\n| Desarrollo seguro | Obligación contractual | Buenas prácticas verificables | ID_188_3.PDF | 47, 11.5 | Leído |\n| Borrado seguro de datos | Obligación contractual | Al finalizar, certificado destrucción | ID_188_3.PDF | 9, 3.2; 39, Art. 9.3 | Leído |\n| Auditoría de seguridad | Derecho del cliente | El Ayuntamiento podrá auditar | ID_188_3.PDF | 49, 11.16 | Leído |\n| Penalidades por destrucción/pérdida de datos | Consecuencia contractual | 5% o 10% del precio del contrato | ID_188_2.PDF | 76-77, 30 | Leído |\n| Resolución por incumplimientos muy graves | Consecuencia contractual | Reiteración, dolo, indisponibilidad | ID_188_2.PDF | 77, 31 | Leído |\n| DPO/DPD designado | Información descriptiva | Solo para datos de contratación municipal | ID_188_2.PDF | 95, Anexo IX | Leído |\n| SOC/SIEM, RTO/RPO, pruebas continuidad | NO CONSTA EN LA DOCUMENTACION REVISADA | - | - | - | - |\n| MFA, RBAC, PAM, VPN, bastionado, EDR/XDR, WAF, DLP, SBOM, SAST, DAST, SCA, CI/CD, OWASP | NO CONSTA EN LA DOCUMENTACION REVISADA | - | - | - | - |\n\n# Discrepancias y pendientes de aclaración\n- No se han identificado discrepancias en la documentación revisada.\n- Documento 147409-2026 pendiente de lectura/OCR; no se ha podido verificar si contiene requisitos adicionales de seguridad, ENS o protección de datos."
+  },
+  "ejecucion": "c7f9346f40a742c8b18f6da93fa018f1",
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "ID_188_1.PDF",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 14915,
+        "caracteres_enviados_al_agente": 14915,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "ID_188_2.PDF",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 224684,
+        "caracteres_enviados_al_agente": 224684,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "ID_188_3.PDF",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 186976,
+        "caracteres_enviados_al_agente": 186976,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 4,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "ID_188_1.PDF",
+        "caracteres_extraidos": 5923,
+        "caracteres_enviados_al_agente": 5923,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 5,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "ID_188_1.PDF",
+        "caracteres_extraidos": 2659,
+        "caracteres_enviados_al_agente": 2659,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 6,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "ID_188_1.PDF",
+        "caracteres_extraidos": 3127,
+        "caracteres_enviados_al_agente": 3127,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 7,
+        "nombre": "147409-2026",
+        "tipo": "Documento enlazado",
+        "fuente": "ID_188_1.PDF",
+        "caracteres_extraidos": 0,
+        "caracteres_enviados_al_agente": 0,
+        "texto_compactado": false,
+        "error": "Sin texto extraible; documento pendiente de lectura/OCR"
+      },
+      {
+        "numero": 8,
+        "nombre": "perfilContratante",
+        "tipo": "Documento enlazado",
+        "fuente": "ID_188_2.PDF",
+        "caracteres_extraidos": 2690,
+        "caracteres_enviados_al_agente": 2690,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Documento no leido: 147409-2026: Sin texto extraible; documento pendiente de lectura/OCR",
+      "Se omitieron 22 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  },
+  "puntos_revision": [
+    {
+      "id": "REV-001",
+      "tipo": "verificacion_documental",
+      "estado": "pendiente_de_revision",
+      "titulo": "Seguridad, certificaciones y protección de datos",
+      "prioridad": "alta",
+      "detalle": "Revisar seguridad, certificaciones y protección de datos: 5 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-001.01",
+          "tipo": "verificacion_documental",
+          "estado": "pendiente_de_revision",
+          "seccion": "poc (Documento enlazado, perfil contratante, sin información relevante de seguridad)",
+          "detalle": "147409-2026 (Documento enlazado, sin texto extraíble; pendiente de lectura/OCR)",
+          "evidencia": "7. 147409-2026 (Documento enlazado, sin texto extraíble; pendiente de lectura/OCR)",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.02",
+          "tipo": "verificacion_documental",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "Documento 147409-2026 pendiente de lectura/OCR; no se ha podido verificar si contiene requisitos adicionales de seguridad, ENS o protección de datos.",
+          "evidencia": "- Documento 147409-2026 pendiente de lectura/OCR; no se ha podido verificar si contiene requisitos adicionales de seguridad, ENS o protección de datos.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.03",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "9. Logging, SOC/SIEM, continuidad, backup, RTO/RPO y retención",
+          "detalle": "No se especifican requisitos de SOC/SIEM, RTO/RPO ni pruebas de continuidad.",
+          "evidencia": "- No se especifican requisitos de SOC/SIEM, RTO/RPO ni pruebas de continuidad.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.04",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "12. Datos no localizados o ambiguos",
+          "detalle": "No se especifican requisitos de SOC/SIEM, RTO/RPO, pruebas de continuidad, ni medidas técnicas concretas como MFA, RBAC, PAM, VPN, bastionado, EDR/XDR, WAF, DLP, backups (más allá de la referencia a copias de seguridad de IAM), ni requisitos de SBOM, SAST, DAST, SCA, CI/CD, OWASP, salvo la exigencia genérica de desarrollo seguro y buenas prácticas.",
+          "evidencia": "- No se especifican requisitos de SOC/SIEM, RTO/RPO, pruebas de continuidad, ni medidas técnicas concretas como MFA, RBAC, PAM, VPN, bastionado, EDR/XDR, WAF, DLP, backups (más allá de la referencia a copias de seguridad de IAM), ni requisitos de SBOM, SAST, DAST, SCA, CI/CD, OWASP, salvo la exigencia genérica de desarrollo seguro y buenas prácticas.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.05",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Tabla de trazabilidad",
+          "detalle": "Requisito/dato: SOC/SIEM, RTO/RPO, pruebas continuidad; Tipo: NO CONSTA EN LA DOCUMENTACION REVISADA; Valor/condición: -; Documento: -; Página/apartado: -; Estado de lectura: -",
+          "evidencia": "| SOC/SIEM, RTO/RPO, pruebas continuidad | NO CONSTA EN LA DOCUMENTACION REVISADA | - | - | - | - |",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-002",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Equipo, medios y ejecución del servicio",
+      "prioridad": "media",
+      "detalle": "Revisar equipo, medios y ejecución del servicio: 1 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-002.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "8. Incidentes, brechas y plazos de notificación",
+          "detalle": "No se especifican plazos concretos en horas o días para la notificación.",
+          "evidencia": "- No se especifican plazos concretos en horas o días para la notificación.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-003",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Documentación y otras condiciones pendientes",
+      "prioridad": "media",
+      "detalle": "Revisar documentación y otras condiciones pendientes: 2 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-003.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Tabla de trazabilidad",
+          "detalle": "Requisito/dato: MFA, RBAC, PAM, VPN, bastionado, EDR/XDR, WAF, DLP, SBOM, SAST, DAST, SCA, CI/CD, OWASP; Tipo: NO CONSTA EN LA DOCUMENTACION REVISADA; Valor/condición: -; Documento: -; Página/apartado: -; Estado de lectura: -",
+          "evidencia": "| MFA, RBAC, PAM, VPN, bastionado, EDR/XDR, WAF, DLP, SBOM, SAST, DAST, SCA, CI/CD, OWASP | NO CONSTA EN LA DOCUMENTACION REVISADA | - | - | - | - |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-003.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No se han identificado discrepancias en la documentación revisada.",
+          "evidencia": "- No se han identificado discrepancias en la documentación revisada.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    }
+  ],
+  "recomendaciones": [],
+  "estado_recomendaciones": "no_generadas"
+}

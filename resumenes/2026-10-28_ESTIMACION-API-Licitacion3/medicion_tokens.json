@@ -1,0 +1,133 @@
+{
+  "mode": "offline_simulation_no_inference_requests",
+  "scope": "complete --capa 1: eight extractors, draft and review; no capa2",
+  "source_run": "C:\\Users\\JUAN CARTAGENA\\Desktop\\Oportunidades.v3.Preventa\\Oportunidades.v2\\resumenes\\2026-10-26_13-05-36_REAL-Licitacion3_19f4072a",
+  "tokenizer": "o200k_base proxy, 256 tokens overhead/request",
+  "documents": [
+    {
+      "name": "DOC2024020214010801+PPT+2023+VI.pdf",
+      "chars": 143419,
+      "tokens": 34139
+    },
+    {
+      "name": "DOC20240202141404130-24_PLIEGO.pdf",
+      "chars": 210014,
+      "tokens": 55129
+    },
+    {
+      "name": "DOC20240202144445012+Anexo+II+Lista+final+de+sedes+del+MITMA+7+nov+2023.pdf",
+      "chars": 31393,
+      "tokens": 9674
+    },
+    {
+      "name": "DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf",
+      "chars": 9733,
+      "tokens": 2416
+    },
+    {
+      "name": "DOC20240202144519014+Anexo+IV+Resumen+de+activos.pdf",
+      "chars": 4115,
+      "tokens": 1644
+    },
+    {
+      "name": "DOC20240202144535015+Anexo+V+Conocimientos+equipo+de+trabajo.pdf",
+      "chars": 9330,
+      "tokens": 2163
+    },
+    {
+      "name": "DOC20240202144619016+Anexo+VI+Datos+de+peticiones+de+servicio+e+incidencias.pdf",
+      "chars": 1344,
+      "tokens": 474
+    },
+    {
+      "name": "DOC_CD2024-000159639.pdf",
+      "chars": 14671,
+      "tokens": 3933
+    },
+    {
+      "name": "DOC_CN2024-000157989.pdf",
+      "chars": 14294,
+      "tokens": 3812
+    }
+  ],
+  "calls": [
+    {
+      "stage": "A1",
+      "input_tokens_proxy": 116433,
+      "system_chars": 3338,
+      "user_chars": 444215,
+      "output_tokens_proxy": 274
+    },
+    {
+      "stage": "A2",
+      "input_tokens_proxy": 125380,
+      "system_chars": 20297,
+      "user_chars": 465870,
+      "output_tokens_proxy": 4461
+    },
+    {
+      "stage": "A3",
+      "input_tokens_proxy": 123320,
+      "system_chars": 18583,
+      "user_chars": 459166,
+      "output_tokens_proxy": 2914
+    },
+    {
+      "stage": "A4",
+      "input_tokens_proxy": 122996,
+      "system_chars": 16512,
+      "user_chars": 459975,
+      "output_tokens_proxy": 2506
+    },
+    {
+      "stage": "A6",
+      "input_tokens_proxy": 124530,
+      "system_chars": 19936,
+      "user_chars": 463841,
+      "output_tokens_proxy": 7045
+    },
+    {
+      "stage": "A8",
+      "input_tokens_proxy": 128852,
+      "system_chars": 16232,
+      "user_chars": 476823,
+      "output_tokens_proxy": 6101
+    },
+    {
+      "stage": "A9",
+      "input_tokens_proxy": 123728,
+      "system_chars": 17827,
+      "user_chars": 461969,
+      "output_tokens_proxy": 3741
+    },
+    {
+      "stage": "A10",
+      "input_tokens_proxy": 122900,
+      "system_chars": 16084,
+      "user_chars": 460188,
+      "output_tokens_proxy": 4743
+    },
+    {
+      "stage": "redactor",
+      "input_tokens_proxy": 119636,
+      "system_chars": 39638,
+      "user_chars": 418935,
+      "output_tokens_proxy": 1543
+    },
+    {
+      "stage": "revisor",
+      "input_tokens_proxy": 228070,
+      "system_chars": 20479,
+      "user_chars": 823106,
+      "output_tokens_proxy": 179
+    }
+  ],
+  "total_input": 1335845,
+  "total_visible_output": 33507,
+  "caveats": [
+    "Current extraction prompt builders, local PDFs only, no fresh linked downloads.",
+    "Editorial payload and outputs from saved run; new extraction may alter their size.",
+    "No cache savings; no hidden reasoning counted; no guarantee of same output quality/length.",
+    "Not invoice tokens; framing/function argument escaping and model tokenizers may differ."
+  ]
+}

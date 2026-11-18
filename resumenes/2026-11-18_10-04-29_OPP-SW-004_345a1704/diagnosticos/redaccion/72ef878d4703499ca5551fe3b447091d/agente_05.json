@@ -1,0 +1,428 @@
+{
+  "orden": 5,
+  "id": "A6",
+  "nombre": "Requisitos del servicio",
+  "tipo": "extraccion",
+  "ejecucion": "345a1704198e4ea8813735b477273d93",
+  "estado": "completado",
+  "contenido": {
+    "salida_original": "## Registro documental de preventa\n\n| Materia | Requisito completo | Fuente |\n|---------|--------------------|--------|\n| Alcance del servicio | El servicio comprende mantenimiento correctivo, evolutivo y soporte L2/L3 para 12 aplicaciones Java legacy, con gestión de tickets, pequeñas evoluciones, actualización documental, pruebas de regresión y soporte a usuarios internos. | Pliego técnico OPP-SW-004, Objeto |\n| Alcance del servicio | El servicio cubre 900 usuarios internos y 3 sedes, con un volumen estimado de 180 tickets mensuales (20% incidencias, 60% peticiones, 20% cambios menores). | Pliego técnico OPP-SW-004, Objeto |\n| Alcance del servicio | El servicio tiene una duración de 24 meses, sin prórroga obligatoria, con posible continuidad por nuevo contrato. | Pliego administrativo OPP-SW-004, Duración |\n| Alcance del servicio | Cobertura de soporte en horario laboral y bolsa de 200 horas anuales para actuaciones urgentes. | Pliego técnico OPP-SW-004, Solvencia técnica y equipo mínimo |\n| Alcance del servicio | Guardias puntuales para despliegues: 2 noches al mes incluidas. | Pliego administrativo OPP-SW-004, ANEXO ECONÓMICO-FINANCIERO |\n| Alcance del servicio | Bolsa mínima correctiva y evolutiva incluida: 900 horas anuales. Bolsa adicional ofertable máximo 100 horas. | Pliego administrativo OPP-SW-004, ANEXO ECONÓMICO-FINANCIERO |\n| Alcance del servicio | Modalidad: servicio gestionado de mantenimiento aplicacional. | Pliego técnico OPP-SW-004, Service Design / ITIL |\n| Modelo de servicio | El modelo exige Service Desk N1 del cliente y adjudicatario como N2/N3 aplicacional. | Pliego técnico OPP-SW-004, Service Design / ITIL |\n| Modelo de servicio | El adjudicatario debe aportar entorno de pruebas, herramientas de calidad de código, monitorización aplicacional y soporte de DBA experto para incidencias Oracle puntuales. | Pliego administrativo OPP-SW-004, ANEXO COMPRAS / PARTNERS |\n| Modelo de servicio | El adjudicatario debe demostrar backup operativo para Java y DBA. | Pliego técnico OPP-SW-004, Delivery / Operación |\n| Procesos ITIL citados | Se exige gestión de incidencias, peticiones, problemas, cambios, conocimiento y niveles de servicio. ITIL Foundation requerido para el coordinador del servicio. | Pliego técnico OPP-SW-004, Service Design / ITIL |\n| Procesos ITIL citados | El soporte L2 debe tener experiencia mínima de 2 años en ITIL, SLA y gestión de incidencias. | Pliego técnico OPP-SW-004, Solvencia técnica y equipo mínimo |\n| SLA/KPI | SLA de primera respuesta inferior a 4 horas, resolución de incidencias críticas en 24 horas y actualización mensual del cuadro de mando del servicio. | Pliego técnico OPP-SW-004, Indicadores |\n| SLA/KPI | SLA: P1 respuesta <= 1 hora y resolución <= 8 horas en 8x5; P2 respuesta <= 4 horas y resolución <= 2 días; P3 resolución <= 5 días; cambios menores <= 10 días. Cumplimiento objetivo 95%. | Pliego técnico OPP-SW-004, Service Design / ITIL |\n| SLA/KPI | Penalización 2% mensual por cada SLA bajo 95%, máximo 10%. | Pliego técnico OPP-SW-004, Service Design / ITIL |\n| SLA/KPI | Penalización por incumplimiento de SLA crítico hasta 4% de factura mensual; acumulado máximo 12% mensual. | Pliego administrativo OPP-SW-004, Penalidades |\n| SLA/KPI | Mejoras SLA automáticas: respuesta crítica en 2 horas 6 puntos, resolución crítica en 24 horas 6 puntos, seguimiento semanal de incidencias 3 puntos, cuadro de mando mensual 3 puntos. Dentro del subapartado ANS mejorados se obtendrá 0,5 puntos por cada indicador mejorado hasta un máximo de 3 puntos. | Pliego administrativo OPP-SW-004, Criterios de adjudicación |\n| Reglas de priorización | Priorización: prioridad = impacto x urgencia, con P1 cuando afecta a más de 300 usuarios o bloquea proceso crítico. Backlog máximo: 25 tickets envejecidos más de 30 días. | Pliego técnico OPP-SW-004, Service Design / ITIL |\n| Organización | Equipo mínimo: tres desarrolladores Java con al menos 4 años de experiencia cada uno en Spring, SQL y mantenimiento de aplicaciones corporativas; un perfil de soporte L2 con experiencia mínima de 2 años en ITIL, SLA y gestión de incidencias; jefe de servicio con al menos 5 años coordinando servicios de mantenimiento. | Pliego técnico OPP-SW-004, Solvencia técnica y equipo mínimo; Anexo solvencia OPP-SW-004 |\n| Organización | Recursos mínimos de operación: jefe de servicio 25%, tres desarrolladores Java 70%, soporte L2 100%, QA 20% y soporte DBA Oracle puntual para incidencias críticas. El equipo mínimo debe cubrir vacaciones y bajas sin reducir SLA. | Pliego técnico OPP-SW-004, Delivery / Operación |\n| Organización | Guardias puntuales para despliegues: 2 noches al mes incluidas. | Pliego administrativo OPP-SW-004, ANEXO ECONÓMICO-FINANCIERO |\n| Organización | El soporte L2/L3 principal no podrá desplazarse a proveedores fuera de la UE. | Pliego técnico OPP-SW-004, Seguridad / DPO / ENS |\n| Organización | Subcontratación permitida solo para tareas especializadas previa autorización; el soporte L2/L3 principal no podrá desplazarse a proveedores fuera de la UE. | Pliego técnico OPP-SW-004, Seguridad / DPO / ENS |\n| Organización | Se permite subcontratación de tareas especializadas hasta el 30% (pliego administrativo); hasta el 20% para DBA especializado y pruebas de rendimiento, declarando proveedor si supera el 10% (anexo compras/partners). | Pliego administrativo OPP-SW-004, Condiciones de participación; ANEXO COMPRAS / PARTNERS |\n| Organización | ITIL Foundation requerido para el coordinador del servicio. | Pliego técnico OPP-SW-004, Service Design / ITIL |\n| Gobierno | Comité operativo semanal, seguimiento mensual y dirección trimestral. Informe mensual de SLA, aging, backlog, problemas recurrentes y plan de mejora. | Pliego técnico OPP-SW-004, Service Design / ITIL |\n| Gobierno | Cuadro de mando mensual y repositorio documental. | Pliego administrativo OPP-SW-004, ANEXO ECONÓMICO-FINANCIERO |\n| Herramientas ITSM, CMDB, inventario, monitorización | Herramientas ITSM del cliente, 5 agentes Jira Service Management o equivalente, cuadro de mando mensual y repositorio documental. | Pliego administrativo OPP-SW-004, ANEXO ECONÓMICO-FINANCIERO |\n| Herramientas ITSM, CMDB, inventario, monitorización | El adjudicatario debe aportar entorno de pruebas, herramientas de calidad de código, monitorización aplicacional. | Pliego administrativo OPP-SW-004, ANEXO COMPRAS / PARTNERS |\n| Herramientas ITSM, CMDB, inventario, monitorización | Repositorio Git del cliente, entorno PRE y monitorización aplicacional aportada por adjudicatario. | Pliego técnico OPP-SW-004, Delivery / Operación |\n| Herramientas ITSM, CMDB, inventario, monitorización | Conocimiento: KEDB, runbooks, FAQ y manuales actualizados mensualmente. La documentación será propiedad del cliente. | Pliego técnico OPP-SW-004, Service Design / ITIL |\n| Transición y toma de control | Go-live operativo en 30 días naturales desde formalización. La toma de control incluye inventario de 12 aplicaciones, migración de cola viva de tickets, configuración de SLA, runbooks por aplicación y war room durante las 2 primeras semanas. | Pliego técnico OPP-SW-004, Delivery / Operación |\n| Transición y toma de control | Transición 6 semanas sin facturación adicional y reversibilidad 4 semanas al final del contrato. | Pliego administrativo OPP-SW-004, ANEXO ECONÓMICO-FINANCIERO |\n| Transición y toma de control | Dependencia del proveedor saliente: transferencia de conocimiento de 5 jornadas, documentación técnica actualizada y listado de jobs batch. Si no colabora, el adjudicatario deberá ejecutar discovery intensivo y revisar el plan de go-live. | Pliego técnico OPP-SW-004, Delivery / Operación |\n| Continuidad y disponibilidad | El equipo mínimo debe cubrir vacaciones y bajas sin reducir SLA. | Pliego técnico OPP-SW-004, Delivery / Operación |\n| Continuidad y disponibilidad | Parches críticos de aplicaciones legacy en <= 5 días si hay versión compatible. Sistemas EOL/EOS deberán registrarse como excepción de riesgo. | Pliego técnico OPP-SW-004, Seguridad / DPO / ENS |\n| Continuidad y disponibilidad | Logs de soporte y cambios retenidos 12 meses. | Pliego técnico OPP-SW-004, Seguridad / DPO / ENS |\n| Reversibilidad | Reversibilidad 4 semanas al final del contrato. | Pliego administrativo OPP-SW-004, ANEXO ECONÓMICO-FINANCIERO |\n| Automatización/self-service | NO CONSTA EN LA DOCUMENTACION REVISADA. | NO CONSTA |\n| Reporting | Informe mensual de SLA, aging, backlog, problemas recurrentes y plan de mejora. | Pliego técnico OPP-SW-004, Service Design / ITIL |\n| Reporting | Cuadro de mando mensual y repositorio documental. | Pliego administrativo OPP-SW-004, ANEXO ECONÓMICO-FINANCIERO |\n| Reporting | Actualización mensual del cuadro de mando del servicio. | Pliego técnico OPP-SW-004, Indicadores |\n\n## Discrepancias y pendientes de aclaración\n\n- En subcontratación, el pliego administrativo permite hasta el 30% para tareas especializadas, mientras que el anexo compras/partners limita al 20% para DBA especializado y pruebas de rendimiento, declarando proveedor si supera el 10%. Ámbito: subcontratación, efecto: límite aplicable y declaración de proveedor. Fuentes: Pliego administrativo OPP-SW-004, Condiciones de participación; Pliego administrativo OPP-SW-004, ANEXO COMPRAS / PARTNERS.\n- Penalizaciones por SLA: el pliego técnico establece penalización 2% mensual por cada SLA bajo 95%, máximo 10%, mientras que el pliego administrativo indica penalización por incumplimiento de SLA crítico hasta 4% de factura mensual, acumulado máximo 12% mensual. Ámbito: penalizaciones por SLA, efecto: base y acumulación máxima. Fuentes: Pliego técnico OPP-SW-004, Service Design / ITIL; Pliego administrativo OPP-SW-004, Penalidades.\n- Automatización/self-service: NO CONSTA EN LA DOCUMENTACION REVISADA.\n- No se han identificado otras discrepancias en la documentación revisada.",
+    "registro_completo_estructura": true,
+    "requisitos_documentales": [
+      {
+        "id": "R0001",
+        "seccion": "Alcance del servicio",
+        "detalle": "El servicio comprende mantenimiento correctivo, evolutivo y soporte L2/L3 para 12 aplicaciones Java legacy, con gestión de tickets, pequeñas evoluciones, actualización documental, pruebas de regresión y soporte a usuarios internos.",
+        "fuente": "Pliego técnico OPP-SW-004, Objeto",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0002",
+        "seccion": "Alcance del servicio",
+        "detalle": "El servicio cubre 900 usuarios internos y 3 sedes, con un volumen estimado de 180 tickets mensuales (20% incidencias, 60% peticiones, 20% cambios menores).",
+        "fuente": "Pliego técnico OPP-SW-004, Objeto",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0003",
+        "seccion": "Alcance del servicio",
+        "detalle": "El servicio tiene una duración de 24 meses, sin prórroga obligatoria, con posible continuidad por nuevo contrato.",
+        "fuente": "Pliego administrativo OPP-SW-004, Duración",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0004",
+        "seccion": "Alcance del servicio",
+        "detalle": "Cobertura de soporte en horario laboral y bolsa de 200 horas anuales para actuaciones urgentes.",
+        "fuente": "Pliego técnico OPP-SW-004, Solvencia técnica y equipo mínimo",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0005",
+        "seccion": "Alcance del servicio",
+        "detalle": "Guardias puntuales para despliegues: 2 noches al mes incluidas.",
+        "fuente": "Pliego administrativo OPP-SW-004, ANEXO ECONÓMICO-FINANCIERO",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0006",
+        "seccion": "Alcance del servicio",
+        "detalle": "Bolsa mínima correctiva y evolutiva incluida: 900 horas anuales. Bolsa adicional ofertable máximo 100 horas.",
+        "fuente": "Pliego administrativo OPP-SW-004, ANEXO ECONÓMICO-FINANCIERO",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0007",
+        "seccion": "Alcance del servicio",
+        "detalle": "Modalidad: servicio gestionado de mantenimiento aplicacional.",
+        "fuente": "Pliego técnico OPP-SW-004, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0008",
+        "seccion": "Modelo de servicio",
+        "detalle": "El modelo exige Service Desk N1 del cliente y adjudicatario como N2/N3 aplicacional.",
+        "fuente": "Pliego técnico OPP-SW-004, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0009",
+        "seccion": "Modelo de servicio",
+        "detalle": "El adjudicatario debe aportar entorno de pruebas, herramientas de calidad de código, monitorización aplicacional y soporte de DBA experto para incidencias Oracle puntuales.",
+        "fuente": "Pliego administrativo OPP-SW-004, ANEXO COMPRAS / PARTNERS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0010",
+        "seccion": "Modelo de servicio",
+        "detalle": "El adjudicatario debe demostrar backup operativo para Java y DBA.",
+        "fuente": "Pliego técnico OPP-SW-004, Delivery / Operación",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0011",
+        "seccion": "Procesos ITIL citados",
+        "detalle": "Se exige gestión de incidencias, peticiones, problemas, cambios, conocimiento y niveles de servicio. ITIL Foundation requerido para el coordinador del servicio.",
+        "fuente": "Pliego técnico OPP-SW-004, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0012",
+        "seccion": "Procesos ITIL citados",
+        "detalle": "El soporte L2 debe tener experiencia mínima de 2 años en ITIL, SLA y gestión de incidencias.",
+        "fuente": "Pliego técnico OPP-SW-004, Solvencia técnica y equipo mínimo",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0013",
+        "seccion": "SLA/KPI",
+        "detalle": "SLA de primera respuesta inferior a 4 horas, resolución de incidencias críticas en 24 horas y actualización mensual del cuadro de mando del servicio.",
+        "fuente": "Pliego técnico OPP-SW-004, Indicadores",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0014",
+        "seccion": "SLA/KPI",
+        "detalle": "SLA: P1 respuesta <= 1 hora y resolución <= 8 horas en 8x5; P2 respuesta <= 4 horas y resolución <= 2 días; P3 resolución <= 5 días; cambios menores <= 10 días. Cumplimiento objetivo 95%.",
+        "fuente": "Pliego técnico OPP-SW-004, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0015",
+        "seccion": "SLA/KPI",
+        "detalle": "Penalización 2% mensual por cada SLA bajo 95%, máximo 10%.",
+        "fuente": "Pliego técnico OPP-SW-004, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0016",
+        "seccion": "SLA/KPI",
+        "detalle": "Penalización por incumplimiento de SLA crítico hasta 4% de factura mensual; acumulado máximo 12% mensual.",
+        "fuente": "Pliego administrativo OPP-SW-004, Penalidades",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0017",
+        "seccion": "SLA/KPI",
+        "detalle": "Mejoras SLA automáticas: respuesta crítica en 2 horas 6 puntos, resolución crítica en 24 horas 6 puntos, seguimiento semanal de incidencias 3 puntos, cuadro de mando mensual 3 puntos. Dentro del subapartado ANS mejorados se obtendrá 0,5 puntos por cada indicador mejorado hasta un máximo de 3 puntos.",
+        "fuente": "Pliego administrativo OPP-SW-004, Criterios de adjudicación",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0018",
+        "seccion": "Reglas de priorización",
+        "detalle": "Priorización: prioridad = impacto x urgencia, con P1 cuando afecta a más de 300 usuarios o bloquea proceso crítico. Backlog máximo: 25 tickets envejecidos más de 30 días.",
+        "fuente": "Pliego técnico OPP-SW-004, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0019",
+        "seccion": "Organización",
+        "detalle": "Equipo mínimo: tres desarrolladores Java con al menos 4 años de experiencia cada uno en Spring, SQL y mantenimiento de aplicaciones corporativas; un perfil de soporte L2 con experiencia mínima de 2 años en ITIL, SLA y gestión de incidencias; jefe de servicio con al menos 5 años coordinando servicios de mantenimiento.",
+        "fuente": "Pliego técnico OPP-SW-004, Solvencia técnica y equipo mínimo; Anexo solvencia OPP-SW-004",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0020",
+        "seccion": "Organización",
+        "detalle": "Recursos mínimos de operación: jefe de servicio 25%, tres desarrolladores Java 70%, soporte L2 100%, QA 20% y soporte DBA Oracle puntual para incidencias críticas. El equipo mínimo debe cubrir vacaciones y bajas sin reducir SLA.",
+        "fuente": "Pliego técnico OPP-SW-004, Delivery / Operación",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0021",
+        "seccion": "Organización",
+        "detalle": "Guardias puntuales para despliegues: 2 noches al mes incluidas.",
+        "fuente": "Pliego administrativo OPP-SW-004, ANEXO ECONÓMICO-FINANCIERO",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0022",
+        "seccion": "Organización",
+        "detalle": "El soporte L2/L3 principal no podrá desplazarse a proveedores fuera de la UE.",
+        "fuente": "Pliego técnico OPP-SW-004, Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0023",
+        "seccion": "Organización",
+        "detalle": "Subcontratación permitida solo para tareas especializadas previa autorización; el soporte L2/L3 principal no podrá desplazarse a proveedores fuera de la UE.",
+        "fuente": "Pliego técnico OPP-SW-004, Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0024",
+        "seccion": "Organización",
+        "detalle": "Se permite subcontratación de tareas especializadas hasta el 30% (pliego administrativo); hasta el 20% para DBA especializado y pruebas de rendimiento, declarando proveedor si supera el 10% (anexo compras/partners).",
+        "fuente": "Pliego administrativo OPP-SW-004, Condiciones de participación; ANEXO COMPRAS / PARTNERS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0025",
+        "seccion": "Organización",
+        "detalle": "ITIL Foundation requerido para el coordinador del servicio.",
+        "fuente": "Pliego técnico OPP-SW-004, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0026",
+        "seccion": "Gobierno",
+        "detalle": "Comité operativo semanal, seguimiento mensual y dirección trimestral. Informe mensual de SLA, aging, backlog, problemas recurrentes y plan de mejora.",
+        "fuente": "Pliego técnico OPP-SW-004, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0027",
+        "seccion": "Gobierno",
+        "detalle": "Cuadro de mando mensual y repositorio documental.",
+        "fuente": "Pliego administrativo OPP-SW-004, ANEXO ECONÓMICO-FINANCIERO",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0028",
+        "seccion": "Herramientas ITSM, CMDB, inventario, monitorización",
+        "detalle": "Herramientas ITSM del cliente, 5 agentes Jira Service Management o equivalente, cuadro de mando mensual y repositorio documental.",
+        "fuente": "Pliego administrativo OPP-SW-004, ANEXO ECONÓMICO-FINANCIERO",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0029",
+        "seccion": "Herramientas ITSM, CMDB, inventario, monitorización",
+        "detalle": "El adjudicatario debe aportar entorno de pruebas, herramientas de calidad de código, monitorización aplicacional.",
+        "fuente": "Pliego administrativo OPP-SW-004, ANEXO COMPRAS / PARTNERS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0030",
+        "seccion": "Herramientas ITSM, CMDB, inventario, monitorización",
+        "detalle": "Repositorio Git del cliente, entorno PRE y monitorización aplicacional aportada por adjudicatario.",
+        "fuente": "Pliego técnico OPP-SW-004, Delivery / Operación",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0031",
+        "seccion": "Herramientas ITSM, CMDB, inventario, monitorización",
+        "detalle": "Conocimiento: KEDB, runbooks, FAQ y manuales actualizados mensualmente. La documentación será propiedad del cliente.",
+        "fuente": "Pliego técnico OPP-SW-004, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0032",
+        "seccion": "Transición y toma de control",
+        "detalle": "Go-live operativo en 30 días naturales desde formalización. La toma de control incluye inventario de 12 aplicaciones, migración de cola viva de tickets, configuración de SLA, runbooks por aplicación y war room durante las 2 primeras semanas.",
+        "fuente": "Pliego técnico OPP-SW-004, Delivery / Operación",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0033",
+        "seccion": "Transición y toma de control",
+        "detalle": "Transición 6 semanas sin facturación adicional y reversibilidad 4 semanas al final del contrato.",
+        "fuente": "Pliego administrativo OPP-SW-004, ANEXO ECONÓMICO-FINANCIERO",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0034",
+        "seccion": "Transición y toma de control",
+        "detalle": "Dependencia del proveedor saliente: transferencia de conocimiento de 5 jornadas, documentación técnica actualizada y listado de jobs batch. Si no colabora, el adjudicatario deberá ejecutar discovery intensivo y revisar el plan de go-live.",
+        "fuente": "Pliego técnico OPP-SW-004, Delivery / Operación",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0035",
+        "seccion": "Continuidad y disponibilidad",
+        "detalle": "El equipo mínimo debe cubrir vacaciones y bajas sin reducir SLA.",
+        "fuente": "Pliego técnico OPP-SW-004, Delivery / Operación",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0036",
+        "seccion": "Continuidad y disponibilidad",
+        "detalle": "Parches críticos de aplicaciones legacy en <= 5 días si hay versión compatible. Sistemas EOL/EOS deberán registrarse como excepción de riesgo.",
+        "fuente": "Pliego técnico OPP-SW-004, Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0037",
+        "seccion": "Continuidad y disponibilidad",
+        "detalle": "Logs de soporte y cambios retenidos 12 meses.",
+        "fuente": "Pliego técnico OPP-SW-004, Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0038",
+        "seccion": "Reversibilidad",
+        "detalle": "Reversibilidad 4 semanas al final del contrato.",
+        "fuente": "Pliego administrativo OPP-SW-004, ANEXO ECONÓMICO-FINANCIERO",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0039",
+        "seccion": "Automatización/self-service",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA.",
+        "fuente": "NO CONSTA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0040",
+        "seccion": "Reporting",
+        "detalle": "Informe mensual de SLA, aging, backlog, problemas recurrentes y plan de mejora.",
+        "fuente": "Pliego técnico OPP-SW-004, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0041",
+        "seccion": "Reporting",
+        "detalle": "Cuadro de mando mensual y repositorio documental.",
+        "fuente": "Pliego administrativo OPP-SW-004, ANEXO ECONÓMICO-FINANCIERO",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0042",
+        "seccion": "Reporting",
+        "detalle": "Actualización mensual del cuadro de mando del servicio.",
+        "fuente": "Pliego técnico OPP-SW-004, Indicadores",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "A6-S0043",
+        "seccion": "Alcance y ejecución del servicio",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "En subcontratación, el pliego administrativo permite hasta el 30% para tareas especializadas, mientras que el anexo compras/partners limita al 20% para DBA especializado y pruebas de rendimiento, declarando proveedor si supera el 10%. Ámbito: subcontratación, efecto: límite aplicable y declaración de proveedor. Fuentes: Pliego administrativo OPP-SW-004, Condiciones de participación; Pliego administrativo OPP-SW-004, ANEXO COMPRAS / PARTNERS.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A6",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A6-S0044",
+        "seccion": "Alcance y ejecución del servicio",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "Penalizaciones por SLA: el pliego técnico establece penalización 2% mensual por cada SLA bajo 95%, máximo 10%, mientras que el pliego administrativo indica penalización por incumplimiento de SLA crítico hasta 4% de factura mensual, acumulado máximo 12% mensual. Ámbito: penalizaciones por SLA, efecto: base y acumulación máxima. Fuentes: Pliego técnico OPP-SW-004, Service Design / ITIL; Pliego administrativo OPP-SW-004, Penalidades.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A6",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A6-S0045",
+        "seccion": "Alcance y ejecución del servicio",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "Automatización/self-service: NO CONSTA EN LA DOCUMENTACION REVISADA.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A6",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A6-S0046",
+        "seccion": "Alcance y ejecución del servicio",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No se han identificado otras discrepancias en la documentación revisada.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A6",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      }
+    ]
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "Pliego administrativo OPP-SW-004 mantenimiento Java",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 4922,
+        "caracteres_enviados_al_agente": 4922,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Pliego tecnico OPP-SW-004 mantenimiento Java",
+        "tipo": "Pliego tecnico",
+        "fuente": "XML",
+        "caracteres_extraidos": 4709,
+        "caracteres_enviados_al_agente": 4709,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "Anexo solvencia OPP-SW-004 mantenimiento Java",
+        "tipo": "Documento general",
+        "fuente": "XML",
+        "caracteres_extraidos": 779,
+        "caracteres_enviados_al_agente": 779,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": []
+  }
+}

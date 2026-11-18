@@ -1,0 +1,588 @@
+{
+  "orden": 5,
+  "id": "A6",
+  "nombre": "Requisitos del servicio",
+  "tipo": "extraccion",
+  "ejecucion": "9df82b6be18e498daf59eaaf83719b70",
+  "estado": "completado",
+  "contenido": {
+    "salida_original": "# Registro documental de preventa\n\n| Materia | Requisito completo | Fuente |\n|---|---|---|\n| Alcance del servicio | El objeto del contrato es la contratación del servicio de Administración Workplace durante al menos 24 meses, incluyendo definición, diseño, construcción, mantenimiento, estandarización, auditoría, innovación y evolución de la administración del puesto de trabajo físico, virtual o de movilidad para Correos y CEX. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 32, Anexo I |\n| Alcance del servicio | El servicio se divide en módulos: Virtualización (recursos comunes y diferenciados), Puesto de Trabajo, Movilidad, Proyectos especiales Correos, Proyectos especiales CEX. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 32-33, Anexo I |\n| Alcance del servicio | Volumetrías: más de 12.000 ThinClient HP, 100-700 servidores virtuales, 15.000 sesiones/máquinas virtuales, 1.000 VDIs Azure WVD, 16.000 equipos físicos, 34.000 PDA Honeywell, 2.000 PDA Zebra, 3.100 smartphones, 100 tablets, etc. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 35, 41, 45-46, Anexo I |\n| Alcance del servicio | El servicio incluye la gestión, mantenimiento, obsolescencia/evolución de arquitecturas/plataformas de virtualización, soporte a sistemas Legacy/OnPremise y nuevas tecnologías en la nube. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 34, Anexo I |\n| Alcance del servicio | El servicio de movilidad incluye administración, configuración, personalización y parcheo/evolución de todos los elementos de la plataforma de movilidad y dispositivos asociados. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 48, Anexo I |\n| Alcance del servicio | El servicio de proyectos especiales permite solicitar estudios de consultoría, construcción de prototipos o implementación de entornos definitivos fuera del alcance habitual, con respuesta en 15 días laborables. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 50-51, Anexo I |\n| Alcance del servicio | El servicio se presta para Correos y CEX, con recursos diferenciados y compartidos según módulo. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 32-33, Anexo I |\n| Alcance del servicio | Horario presencial/remoto: lunes a viernes de 07:00 a 18:30, con mínimo un recurso presencial en Correos y otro en CEX de 09:00 a 18:30; guardias 24x7 para incidencias relevantes y actividades fuera de horario. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 40, 44, 50, Anexo I |\n| Alcance del servicio | El servicio se presta en modalidad presencial y remoto, con disponibilidad mixta e intercambiable de los técnicos. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 71-72, Anexo I |\n| Modelo de servicio | El adjudicatario debe proporcionar una capa de servicios gestionados para cumplir los ANS y actividades en alcance de manera homogénea, con gestión extremo a extremo. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 33, Anexo I |\n| Modelo de servicio | El adjudicatario debe liderar el diagnóstico de incidencias en todos los ámbitos de la plataforma y servicios desplegados, incluyendo soporte de tercer nivel a equipos internos. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 39, 43, 49, Anexo I |\n| Modelo de servicio | El adjudicatario debe registrar todas las peticiones/incidencias en la herramienta de ticketing PoST, incluso si llegan por otros medios. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 39, 43, 49, Anexo I |\n| Modelo de servicio | El adjudicatario debe evaluar periódicamente las solicitudes que pueden automatizarse, automatizarlas y ponerlas a disposición de los departamentos. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 39, 43, 49, Anexo I |\n| Modelo de servicio | El adjudicatario debe mantener actualizada la documentación de la plataforma, configuraciones, procedimientos, planes de contingencia, políticas de backup, manuales de operación, etc., en Sharepoint corporativo o herramienta equivalente. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 38, 43, 49, Anexo I |\n| Modelo de servicio | El acceso a los sistemas de información debe hacerse siempre a través de la Gestión de Identidades existente en Correos, integrando nuevas tecnologías salvo excepción aprobada por Seguridad. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 38, 44, 49, Anexo I |\n| Modelo de servicio | El adjudicatario debe colaborar con equipos de desarrollo corporativos y otros proveedores en entorno multiproveedor. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 39, 44, 49, 52, Anexo I |\n| Modelo de servicio | El adjudicatario debe reflejar todas las intervenciones en un calendario, realizando las de entornos productivos fuera de horario de oficina o con mínimo impacto. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 39, 44, 50, Anexo I |\n| Modelo de servicio | Formación a grupos de soporte y gestión de Correos/CEX en caso necesario. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 39, 44, 50, Anexo I |\n| Modelo de servicio | El adjudicatario debe mantener y evolucionar los catálogos de ticketing en la herramienta PoST. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 38, 49, Anexo I |\n| Modelo de servicio | El adjudicatario debe preparar y enviar dispositivos de movilidad según necesidades corporativas. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 49, Anexo I |\n| Modelo de servicio | El adjudicatario debe crear y mantener documentación técnica y de gestión, incluyendo protocolos de administración, procedimientos de contingencia, integración con ticketing y CMDB, base de datos de conocimiento. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 54-55, Anexo I |\n| Modelo de servicio | El adjudicatario debe emplear las herramientas de seguimiento que Correos/CEX determinen en cada momento. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 56, Anexo I |\n| Niveles de soporte | Soporte de tercer nivel a equipos de Sistemas, Workplace, Microinformática, CAU y servicios de tecnología repartidos por todo el territorio nacional. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 39, 43, 49, Anexo I |\n| Niveles de soporte | No se describen expresamente niveles N1/N2/N3, pero se detallan actividades de soporte especializado y tercer nivel. ITIL NO CITADO EXPRESAMENTE. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 39, 43, 49, Anexo I |\n| Procesos ITIL | Se citan expresamente los procesos de gestión de incidencias, peticiones, cambios, activos, niveles de servicio y conocimiento, soportados por Remedy ITSM. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 56, Anexo I |\n| Procesos ITIL | Gestión de la capacidad, rendimiento y escalabilidad de la plataforma de virtualización, con informes periódicos para detección temprana de riesgos. ITIL NO CITADO EXPRESAMENTE. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 37, Anexo I |\n| Procesos ITIL | Gestión de cambios documentada, con entregables y revisión mensual/trimestral. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 54-55, Anexo I |\n| Procesos ITIL | Gestión de la base de datos de conocimiento, registro y mantenimiento de soluciones base y workarounds. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 55, Anexo I |\n| Procesos ITIL | Gestión de ANS (Acuerdos de Nivel de Servicio) y reporting asociado. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 56, Anexo I |\n| SLA/KPI | ANS definidos en Anexo XVII: cumplimiento de requisitos de perfiles, cobertura de perfiles en plazo, disponibilidad de recursos, tasa de renovación, tiempos de respuesta a proyectos especiales, tiempos de resolución de incidencias y peticiones, plan de parcheo. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 111-118, Anexo XVII |\n| SLA/KPI | Penalizaciones: 15% facturación mensual por perfil no conforme, 25% por perfil no cubierto en plazo, 20% por indisponibilidad >3 días, 20% por rotación excesiva, 15% por respuesta tardía a proyectos especiales, 25%/5%/1% por incumplimiento de tiempos de resolución de incidencias/peticiones según severidad/prioridad, 100% de un mes por no realizar plan de parcheo. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 111-118, Anexo XVII |\n| SLA/KPI | Tiempos de resolución de incidencias: Alta <4h, Media <12h (L-V 8-18:30), Baja <72h (L-V 8-18:30). | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 115, Anexo XVII |\n| SLA/KPI | Tiempos de resolución de peticiones/tareas: Alta <4h, Media <12h (L-V 8-18:30), Baja <72h (L-V 8-18:30). | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 117, Anexo XVII |\n| SLA/KPI | Realización del plan de parcheo/actualización de virtualización al menos 2 veces al año. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 118, Anexo XVII |\n| SLA/KPI | Si una penalización ANS se repite 3 meses consecutivos o 4 veces en 12 meses, Correos puede cancelar el expediente sin penalización al adjudicatario. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 111, Anexo XVII |\n| Reglas de priorización | Incidencias y peticiones categorizadas por severidad/prioridad: Alta (impacto crítico o >40 tickets), Media (impacto parcial o <40 tickets), Baja (resto). | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 114-117, Anexo XVII |\n| Organización y roles | Mínimos estructurales: 3 recursos dedicados virtualización Correos, 1 CEX; 3 recursos puesto de trabajo Correos; 1 recurso movilidad Correos, 1 CEX; 1 coordinador servicios; perfiles expertos bajo demanda; panel de expertos para coberturas. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 63-67, Anexo I |\n| Organización y roles | Perfiles detallados: responsable gestión y seguimiento, administradores de sistemas virtualizados, NetApp, SQL, comunicaciones Cisco, sistemas, movilidad; requisitos de experiencia, certificaciones y conocimientos técnicos. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 64-70, Anexo I |\n| Organización y roles | Disponibilidad mixta in situ/remoto, con posibilidad de intercambiabilidad de técnicos; mínimo un técnico presencial por servicio en instalaciones de Correos/CEX. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 71-72, Anexo I |\n| Organización y roles | El adjudicatario debe proveer medios técnicos para trabajo presencial y remoto, incluyendo equipos, software y comunicaciones. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 72, Anexo I |\n| Organización y roles | El adjudicatario debe facilitar integración de técnicos en proyectos estratégicos de Correos/CEX cuando se requiera. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 72, Anexo I |\n| Organización y roles | Convenio laboral de referencia: XVIII Convenio Colectivo Estatal de Empresas de Consultoría de Sistemas de Información y Estudios de Mercado y de la Opinión Pública. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 64, Anexo I |\n| Gobierno del servicio | Modelo de gobierno colaborativo: control y coordinación, calidad, mejora continua, involucración de figuras de Correos/CEX y adjudicatario, coordinación con otros proveedores. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 52-53, Anexo I |\n| Gobierno del servicio | Comités de gestión: nivel estratégico (decisiones a medio-largo plazo), táctico (seguimiento calidad, revisión plan de actuaciones), operativo (seguimiento corto plazo, incidencias, propuestas tácticas). | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 53, Anexo I |\n| Gobierno del servicio | Documentación mínima: plan de servicio, plan de gobierno, modelo de relación, informes de estado, cuadro de mando, gestión de cambios, informes ANS, plan de riesgos, plan de calidad, plan de capacidad, informe de cierre, actas de reunión. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 54, Anexo I |\n| Gobierno del servicio | Informes de estado del servicio con indicadores requeridos por Correos/CEX, con periodicidad fijada al inicio del proyecto. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 54, Anexo I |\n| Gobierno del servicio | Cuadro de mando mensual de KPIs del servicio. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 54, Anexo I |\n| Herramientas ITSM/CMDB | Uso obligatorio de PoST (Portal de Servicios de Tecnología) para gestión de servicios TI: ticketing, gestión de incidencias, peticiones, cambios, activos, ANS, conocimiento. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 56, Anexo I |\n| Herramientas ITSM/CMDB | PoST está implementado sobre Remedy ITSM, con módulos Help Desk, Change Management, Asset Management, SLM. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 56, Anexo I |\n| Herramientas ITSM/CMDB | El sistema está integrado con Directorio Activo de Correos y accesible vía intranet y acceso remoto. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 56, Anexo I |\n| Herramientas ITSM/CMDB | El adjudicatario debe emplear las herramientas de seguimiento que Correos/CEX determinen en cada momento. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 56, Anexo I |\n| Herramientas ITSM/CMDB | Documentación de integración con herramientas de ticketing y CMDB, y mantenimiento de base de datos de conocimiento. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 55, Anexo I |\n| Monitorización | El adjudicatario es responsable de definir métricas, alertados y procedimientos de monitorización de la plataforma de virtualización, con acceso para responsables de Correos/CEX, preferentemente en plataforma única. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 37, Anexo I |\n| Monitorización | Procedimiento de monitorización de equipos y registro de logs, revisión regular de logs de administrador y operador de sistemas. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 107, Anexo XVI |\n| Transición y toma de control | Fase de transición de 1 mes desde firma del contrato, con periodo de solapamiento de equipos saliente/entrante, transferencia de conocimiento, documentación, procedimientos, arquitecturas, etc. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 57-59, Anexo I |\n| Transición y toma de control | El plan de transición debe incluir transferencia de conocimiento, equipo asignado, gestión del cambio, riesgos y mitigación, con reuniones, documentación e informes. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 58, Anexo I |\n| Transición y toma de control | El coste de los recursos propios durante el solapamiento es a cargo del adjudicatario entrante y no facturable a Correos/CEX. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 58, Anexo I |\n| Transición y toma de control | La fase de prestación real del servicio comienza tras la transición, con aplicación de ANS y control de esfuerzo de tareas en 4 semanas. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 59, Anexo I |\n| Continuidad y disponibilidad | El adjudicatario debe garantizar la continuidad del servicio, con cobertura de ausencias, bajas, vacaciones y rotaciones según ANS. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 111-113, Anexo XVII |\n| Continuidad y disponibilidad | El adjudicatario debe mantener el equipo habitual durante la fase de reversión, sin deterioro del servicio. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 62, Anexo I |\n| Reversibilidad y cierre | Fase de reversión/traspaso: periodo de solapamiento mínimo 15 días (recomendado 1 mes), plan detallado de finalización, entrega de documentación completa y actualizada, acceso a servicios para nuevo adjudicatario, equipo clave para traspaso, notificación de riesgos, relación de trabajo con organización receptora, espacio para mínimo 5 personas en instalaciones. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 61-62, Anexo I |\n| Reversibilidad y cierre | No se podrá facturar el último mes ni trabajos pendientes hasta entrega y aprobación de toda la documentación de reversión. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 62, Anexo I |\n| Automatización/self-service | El adjudicatario debe automatizar la administración y operación en la plataforma, desarrollar scripts en lenguajes comunes, y evaluar periódicamente solicitudes automatizables para ponerlas a disposición de los departamentos. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 38, 43, 49, Anexo I |\n| Automatización/self-service | Principio de automatización: todas las automatizaciones serán propiedad intelectual de Correos/CEX y deberán estar en sus repositorios. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 59, Anexo I |\n| Reporting | Informes de estado del servicio, cuadro de mando mensual de KPIs, informes sobre cumplimiento de ANS, generación de informes, consultas y estadísticas de plataformas y dispositivos. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 38, 43, 49, 54, 55, Anexo I |\n| Reporting | Documentación técnica y de gestión, protocolos de administración, procedimientos de contingencia, integración con ticketing y CMDB, base de datos de conocimiento, actas de reunión. | DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 54-55, Anexo I |\n| Reporting | El adjudicatario debe entregar informe de cierre con balance final, resultados, experiencias aprendidas y propuestas de nuevas iniciativas. | DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 54, Anexo I |\n| Discrepancias y pendientes de aclaración | NO CONSTA EN LA DOCUMENTACION REVISADA: definición expresa de niveles N1/N2/N3, detalle de integración con herramientas externas a PoST, detalle de reporting en tiempo real, detalle de mecanismos de autoservicio para usuarios finales, detalle de CMDB fuera de Remedy, detalle de automatización fuera de scripts y procesos internos, detalle de backup y restauración fuera de lo indicado en virtualización, detalle de RTO/RPO, detalle de mecanismos de escalado fuera de comités, detalle de reporting de seguridad fuera de lo indicado en Anexo XVI. | DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa |\n\n---\n\n**Discrepancias y pendientes de aclaración:**\n\nNo se han identificado discrepancias en la documentación revisada.",
+    "registro_completo_estructura": true,
+    "requisitos_documentales": [
+      {
+        "id": "R0001",
+        "seccion": "Alcance del servicio",
+        "detalle": "El objeto del contrato es la contratación del servicio de Administración Workplace durante al menos 24 meses, incluyendo definición, diseño, construcción, mantenimiento, estandarización, auditoría, innovación y evolución de la administración del puesto de trabajo físico, virtual o de movilidad para Correos y CEX.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 32, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0002",
+        "seccion": "Alcance del servicio",
+        "detalle": "El servicio se divide en módulos: Virtualización (recursos comunes y diferenciados), Puesto de Trabajo, Movilidad, Proyectos especiales Correos, Proyectos especiales CEX.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 32-33, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0003",
+        "seccion": "Alcance del servicio",
+        "detalle": "Volumetrías: más de 12.000 ThinClient HP, 100-700 servidores virtuales, 15.000 sesiones/máquinas virtuales, 1.000 VDIs Azure WVD, 16.000 equipos físicos, 34.000 PDA Honeywell, 2.000 PDA Zebra, 3.100 smartphones, 100 tablets, etc.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 35, 41, 45-46, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0004",
+        "seccion": "Alcance del servicio",
+        "detalle": "El servicio incluye la gestión, mantenimiento, obsolescencia/evolución de arquitecturas/plataformas de virtualización, soporte a sistemas Legacy/OnPremise y nuevas tecnologías en la nube.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 34, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0005",
+        "seccion": "Alcance del servicio",
+        "detalle": "El servicio de movilidad incluye administración, configuración, personalización y parcheo/evolución de todos los elementos de la plataforma de movilidad y dispositivos asociados.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 48, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0006",
+        "seccion": "Alcance del servicio",
+        "detalle": "El servicio de proyectos especiales permite solicitar estudios de consultoría, construcción de prototipos o implementación de entornos definitivos fuera del alcance habitual, con respuesta en 15 días laborables.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 50-51, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0007",
+        "seccion": "Alcance del servicio",
+        "detalle": "El servicio se presta para Correos y CEX, con recursos diferenciados y compartidos según módulo.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 32-33, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0008",
+        "seccion": "Alcance del servicio",
+        "detalle": "Horario presencial/remoto: lunes a viernes de 07:00 a 18:30, con mínimo un recurso presencial en Correos y otro en CEX de 09:00 a 18:30; guardias 24x7 para incidencias relevantes y actividades fuera de horario.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 40, 44, 50, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0009",
+        "seccion": "Alcance del servicio",
+        "detalle": "El servicio se presta en modalidad presencial y remoto, con disponibilidad mixta e intercambiable de los técnicos.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 71-72, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0010",
+        "seccion": "Modelo de servicio",
+        "detalle": "El adjudicatario debe proporcionar una capa de servicios gestionados para cumplir los ANS y actividades en alcance de manera homogénea, con gestión extremo a extremo.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 33, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0011",
+        "seccion": "Modelo de servicio",
+        "detalle": "El adjudicatario debe liderar el diagnóstico de incidencias en todos los ámbitos de la plataforma y servicios desplegados, incluyendo soporte de tercer nivel a equipos internos.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 39, 43, 49, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0012",
+        "seccion": "Modelo de servicio",
+        "detalle": "El adjudicatario debe registrar todas las peticiones/incidencias en la herramienta de ticketing PoST, incluso si llegan por otros medios.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 39, 43, 49, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0013",
+        "seccion": "Modelo de servicio",
+        "detalle": "El adjudicatario debe evaluar periódicamente las solicitudes que pueden automatizarse, automatizarlas y ponerlas a disposición de los departamentos.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 39, 43, 49, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0014",
+        "seccion": "Modelo de servicio",
+        "detalle": "El adjudicatario debe mantener actualizada la documentación de la plataforma, configuraciones, procedimientos, planes de contingencia, políticas de backup, manuales de operación, etc., en Sharepoint corporativo o herramienta equivalente.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 38, 43, 49, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0015",
+        "seccion": "Modelo de servicio",
+        "detalle": "El acceso a los sistemas de información debe hacerse siempre a través de la Gestión de Identidades existente en Correos, integrando nuevas tecnologías salvo excepción aprobada por Seguridad.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 38, 44, 49, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0016",
+        "seccion": "Modelo de servicio",
+        "detalle": "El adjudicatario debe colaborar con equipos de desarrollo corporativos y otros proveedores en entorno multiproveedor.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 39, 44, 49, 52, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0017",
+        "seccion": "Modelo de servicio",
+        "detalle": "El adjudicatario debe reflejar todas las intervenciones en un calendario, realizando las de entornos productivos fuera de horario de oficina o con mínimo impacto.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 39, 44, 50, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0018",
+        "seccion": "Modelo de servicio",
+        "detalle": "Formación a grupos de soporte y gestión de Correos/CEX en caso necesario.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 39, 44, 50, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0019",
+        "seccion": "Modelo de servicio",
+        "detalle": "El adjudicatario debe mantener y evolucionar los catálogos de ticketing en la herramienta PoST.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 38, 49, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0020",
+        "seccion": "Modelo de servicio",
+        "detalle": "El adjudicatario debe preparar y enviar dispositivos de movilidad según necesidades corporativas.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 49, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0021",
+        "seccion": "Modelo de servicio",
+        "detalle": "El adjudicatario debe crear y mantener documentación técnica y de gestión, incluyendo protocolos de administración, procedimientos de contingencia, integración con ticketing y CMDB, base de datos de conocimiento.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 54-55, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0022",
+        "seccion": "Modelo de servicio",
+        "detalle": "El adjudicatario debe emplear las herramientas de seguimiento que Correos/CEX determinen en cada momento.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 56, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0023",
+        "seccion": "Niveles de soporte",
+        "detalle": "Soporte de tercer nivel a equipos de Sistemas, Workplace, Microinformática, CAU y servicios de tecnología repartidos por todo el territorio nacional.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 39, 43, 49, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0024",
+        "seccion": "Niveles de soporte",
+        "detalle": "No se describen expresamente niveles N1/N2/N3, pero se detallan actividades de soporte especializado y tercer nivel. ITIL NO CITADO EXPRESAMENTE.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 39, 43, 49, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0025",
+        "seccion": "Procesos ITIL",
+        "detalle": "Se citan expresamente los procesos de gestión de incidencias, peticiones, cambios, activos, niveles de servicio y conocimiento, soportados por Remedy ITSM.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 56, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0026",
+        "seccion": "Procesos ITIL",
+        "detalle": "Gestión de la capacidad, rendimiento y escalabilidad de la plataforma de virtualización, con informes periódicos para detección temprana de riesgos. ITIL NO CITADO EXPRESAMENTE.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 37, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0027",
+        "seccion": "Procesos ITIL",
+        "detalle": "Gestión de cambios documentada, con entregables y revisión mensual/trimestral.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 54-55, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0028",
+        "seccion": "Procesos ITIL",
+        "detalle": "Gestión de la base de datos de conocimiento, registro y mantenimiento de soluciones base y workarounds.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 55, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0029",
+        "seccion": "Procesos ITIL",
+        "detalle": "Gestión de ANS (Acuerdos de Nivel de Servicio) y reporting asociado.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 56, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0030",
+        "seccion": "SLA/KPI",
+        "detalle": "ANS definidos en Anexo XVII: cumplimiento de requisitos de perfiles, cobertura de perfiles en plazo, disponibilidad de recursos, tasa de renovación, tiempos de respuesta a proyectos especiales, tiempos de resolución de incidencias y peticiones, plan de parcheo.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 111-118, Anexo XVII",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0031",
+        "seccion": "SLA/KPI",
+        "detalle": "Penalizaciones: 15% facturación mensual por perfil no conforme, 25% por perfil no cubierto en plazo, 20% por indisponibilidad >3 días, 20% por rotación excesiva, 15% por respuesta tardía a proyectos especiales, 25%/5%/1% por incumplimiento de tiempos de resolución de incidencias/peticiones según severidad/prioridad, 100% de un mes por no realizar plan de parcheo.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 111-118, Anexo XVII",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0032",
+        "seccion": "SLA/KPI",
+        "detalle": "Tiempos de resolución de incidencias: Alta <4h, Media <12h (L-V 8-18:30), Baja <72h (L-V 8-18:30).",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 115, Anexo XVII",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0033",
+        "seccion": "SLA/KPI",
+        "detalle": "Tiempos de resolución de peticiones/tareas: Alta <4h, Media <12h (L-V 8-18:30), Baja <72h (L-V 8-18:30).",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 117, Anexo XVII",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0034",
+        "seccion": "SLA/KPI",
+        "detalle": "Realización del plan de parcheo/actualización de virtualización al menos 2 veces al año.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 118, Anexo XVII",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0035",
+        "seccion": "SLA/KPI",
+        "detalle": "Si una penalización ANS se repite 3 meses consecutivos o 4 veces en 12 meses, Correos puede cancelar el expediente sin penalización al adjudicatario.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 111, Anexo XVII",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0036",
+        "seccion": "Reglas de priorización",
+        "detalle": "Incidencias y peticiones categorizadas por severidad/prioridad: Alta (impacto crítico o >40 tickets), Media (impacto parcial o <40 tickets), Baja (resto).",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 114-117, Anexo XVII",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0037",
+        "seccion": "Organización y roles",
+        "detalle": "Mínimos estructurales: 3 recursos dedicados virtualización Correos, 1 CEX; 3 recursos puesto de trabajo Correos; 1 recurso movilidad Correos, 1 CEX; 1 coordinador servicios; perfiles expertos bajo demanda; panel de expertos para coberturas.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 63-67, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0038",
+        "seccion": "Organización y roles",
+        "detalle": "Perfiles detallados: responsable gestión y seguimiento, administradores de sistemas virtualizados, NetApp, SQL, comunicaciones Cisco, sistemas, movilidad; requisitos de experiencia, certificaciones y conocimientos técnicos.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 64-70, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0039",
+        "seccion": "Organización y roles",
+        "detalle": "Disponibilidad mixta in situ/remoto, con posibilidad de intercambiabilidad de técnicos; mínimo un técnico presencial por servicio en instalaciones de Correos/CEX.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 71-72, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0040",
+        "seccion": "Organización y roles",
+        "detalle": "El adjudicatario debe proveer medios técnicos para trabajo presencial y remoto, incluyendo equipos, software y comunicaciones.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 72, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0041",
+        "seccion": "Organización y roles",
+        "detalle": "El adjudicatario debe facilitar integración de técnicos en proyectos estratégicos de Correos/CEX cuando se requiera.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 72, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0042",
+        "seccion": "Organización y roles",
+        "detalle": "Convenio laboral de referencia: XVIII Convenio Colectivo Estatal de Empresas de Consultoría de Sistemas de Información y Estudios de Mercado y de la Opinión Pública.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 64, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0043",
+        "seccion": "Gobierno del servicio",
+        "detalle": "Modelo de gobierno colaborativo: control y coordinación, calidad, mejora continua, involucración de figuras de Correos/CEX y adjudicatario, coordinación con otros proveedores.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 52-53, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0044",
+        "seccion": "Gobierno del servicio",
+        "detalle": "Comités de gestión: nivel estratégico (decisiones a medio-largo plazo), táctico (seguimiento calidad, revisión plan de actuaciones), operativo (seguimiento corto plazo, incidencias, propuestas tácticas).",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 53, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0045",
+        "seccion": "Gobierno del servicio",
+        "detalle": "Documentación mínima: plan de servicio, plan de gobierno, modelo de relación, informes de estado, cuadro de mando, gestión de cambios, informes ANS, plan de riesgos, plan de calidad, plan de capacidad, informe de cierre, actas de reunión.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 54, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0046",
+        "seccion": "Gobierno del servicio",
+        "detalle": "Informes de estado del servicio con indicadores requeridos por Correos/CEX, con periodicidad fijada al inicio del proyecto.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 54, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0047",
+        "seccion": "Gobierno del servicio",
+        "detalle": "Cuadro de mando mensual de KPIs del servicio.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 54, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0048",
+        "seccion": "Herramientas ITSM/CMDB",
+        "detalle": "Uso obligatorio de PoST (Portal de Servicios de Tecnología) para gestión de servicios TI: ticketing, gestión de incidencias, peticiones, cambios, activos, ANS, conocimiento.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 56, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0049",
+        "seccion": "Herramientas ITSM/CMDB",
+        "detalle": "PoST está implementado sobre Remedy ITSM, con módulos Help Desk, Change Management, Asset Management, SLM.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 56, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0050",
+        "seccion": "Herramientas ITSM/CMDB",
+        "detalle": "El sistema está integrado con Directorio Activo de Correos y accesible vía intranet y acceso remoto.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 56, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0051",
+        "seccion": "Herramientas ITSM/CMDB",
+        "detalle": "El adjudicatario debe emplear las herramientas de seguimiento que Correos/CEX determinen en cada momento.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 56, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0052",
+        "seccion": "Herramientas ITSM/CMDB",
+        "detalle": "Documentación de integración con herramientas de ticketing y CMDB, y mantenimiento de base de datos de conocimiento.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 55, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0053",
+        "seccion": "Monitorización",
+        "detalle": "El adjudicatario es responsable de definir métricas, alertados y procedimientos de monitorización de la plataforma de virtualización, con acceso para responsables de Correos/CEX, preferentemente en plataforma única.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 37, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0054",
+        "seccion": "Monitorización",
+        "detalle": "Procedimiento de monitorización de equipos y registro de logs, revisión regular de logs de administrador y operador de sistemas.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 107, Anexo XVI",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0055",
+        "seccion": "Transición y toma de control",
+        "detalle": "Fase de transición de 1 mes desde firma del contrato, con periodo de solapamiento de equipos saliente/entrante, transferencia de conocimiento, documentación, procedimientos, arquitecturas, etc.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 57-59, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0056",
+        "seccion": "Transición y toma de control",
+        "detalle": "El plan de transición debe incluir transferencia de conocimiento, equipo asignado, gestión del cambio, riesgos y mitigación, con reuniones, documentación e informes.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 58, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0057",
+        "seccion": "Transición y toma de control",
+        "detalle": "El coste de los recursos propios durante el solapamiento es a cargo del adjudicatario entrante y no facturable a Correos/CEX.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 58, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0058",
+        "seccion": "Transición y toma de control",
+        "detalle": "La fase de prestación real del servicio comienza tras la transición, con aplicación de ANS y control de esfuerzo de tareas en 4 semanas.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 59, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0059",
+        "seccion": "Continuidad y disponibilidad",
+        "detalle": "El adjudicatario debe garantizar la continuidad del servicio, con cobertura de ausencias, bajas, vacaciones y rotaciones según ANS.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 111-113, Anexo XVII",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0060",
+        "seccion": "Continuidad y disponibilidad",
+        "detalle": "El adjudicatario debe mantener el equipo habitual durante la fase de reversión, sin deterioro del servicio.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 62, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0061",
+        "seccion": "Reversibilidad y cierre",
+        "detalle": "Fase de reversión/traspaso: periodo de solapamiento mínimo 15 días (recomendado 1 mes), plan detallado de finalización, entrega de documentación completa y actualizada, acceso a servicios para nuevo adjudicatario, equipo clave para traspaso, notificación de riesgos, relación de trabajo con organización receptora, espacio para mínimo 5 personas en instalaciones.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 61-62, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0062",
+        "seccion": "Reversibilidad y cierre",
+        "detalle": "No se podrá facturar el último mes ni trabajos pendientes hasta entrega y aprobación de toda la documentación de reversión.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 62, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0063",
+        "seccion": "Automatización/self-service",
+        "detalle": "El adjudicatario debe automatizar la administración y operación en la plataforma, desarrollar scripts en lenguajes comunes, y evaluar periódicamente solicitudes automatizables para ponerlas a disposición de los departamentos.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 38, 43, 49, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0064",
+        "seccion": "Automatización/self-service",
+        "detalle": "Principio de automatización: todas las automatizaciones serán propiedad intelectual de Correos/CEX y deberán estar en sus repositorios.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 59, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0065",
+        "seccion": "Reporting",
+        "detalle": "Informes de estado del servicio, cuadro de mando mensual de KPIs, informes sobre cumplimiento de ANS, generación de informes, consultas y estadísticas de plataformas y dispositivos.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 38, 43, 49, 54, 55, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0066",
+        "seccion": "Reporting",
+        "detalle": "Documentación técnica y de gestión, protocolos de administración, procedimientos de contingencia, integración con ticketing y CMDB, base de datos de conocimiento, actas de reunión.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, págs. 54-55, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0067",
+        "seccion": "Reporting",
+        "detalle": "El adjudicatario debe entregar informe de cierre con balance final, resultados, experiencias aprendidas y propuestas de nuevas iniciativas.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, pág. 54, Anexo I",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0068",
+        "seccion": "Discrepancias y pendientes de aclaración",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA: definición expresa de niveles N1/N2/N3, detalle de integración con herramientas externas a PoST, detalle de reporting en tiempo real, detalle de mecanismos de autoservicio para usuarios finales, detalle de CMDB fuera de Remedy, detalle de automatización fuera de scripts y procesos internos, detalle de backup y restauración fuera de lo indicado en virtualización, detalle de RTO/RPO, detalle de mecanismos de escalado fuera de comités, detalle de reporting de seguridad fuera de lo indicado en Anexo XVI.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf, revisión completa",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      }
+    ]
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 330809,
+        "caracteres_enviados_al_agente": 330809,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Detalle_Licitacion",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 5053,
+        "caracteres_enviados_al_agente": 5053,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Se omitieron 6 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  }
+}

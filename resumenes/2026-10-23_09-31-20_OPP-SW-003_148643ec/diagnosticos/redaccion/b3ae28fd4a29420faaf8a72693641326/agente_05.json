@@ -1,0 +1,558 @@
+{
+  "orden": 5,
+  "id": "A6",
+  "nombre": "Requisitos del servicio",
+  "tipo": "extraccion",
+  "ejecucion": "148643ec3cf64b459ff90194acd8bf8e",
+  "estado": "completado",
+  "contenido": {
+    "salida_original": "# Registro documental de preventa\n\n| Materia | Requisito completo | Fuente |\n|---|---|---|\n| Alcance del servicio | El objeto del contrato es la migración de seis aplicaciones internas a una plataforma Azure Kubernetes Service, incluyendo contenerización Docker, pipelines CI/CD, monitorización, backup, hardening y procedimientos de reversibilidad. | Pliego técnico OPP-SW-003 migracion cloud, Objeto |\n| Alcance del servicio | El alcance incluye 6 aplicaciones, 18 microservicios, 4 bases de datos y 3 entornos por aplicación. | Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL |\n| Alcance del servicio | El servicio cubre transición, migración, operación estabilizada durante 9 meses y reversibilidad. | Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL |\n| Alcance del servicio | Horario de soporte 12x5 con guardia localizada para ventanas de migración. | Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL |\n| Alcance del servicio | Las migraciones productivas se ejecutarán en ventanas autorizadas y con plan de vuelta atrás aprobado. | Pliego administrativo OPP-SW-003 migracion cloud, Condiciones de ejecución |\n| Alcance del servicio | El adjudicatario debe aportar cloud temporal de migración Azure durante 6 meses para entornos paralelos, pruebas y observabilidad. | Pliego administrativo OPP-SW-003 migracion cloud, ANEXO COMPRAS / PARTNERS |\n| Alcance del servicio | El adjudicatario debe aportar herramientas de escaneo de contenedores, SAST/SCA para 5 usuarios, Grafana/Prometheus gestionado si no usa herramientas del cliente. | Pliego administrativo OPP-SW-003 migracion cloud, ANEXO COMPRAS / PARTNERS |\n| Alcance del servicio | El adjudicatario debe aportar soporte de fabricante/partner durante ventanas de migración. | Pliego administrativo OPP-SW-003 migracion cloud, ANEXO COMPRAS / PARTNERS |\n| Alcance del servicio | El adjudicatario debe aportar inventario, oleadas, migración de datos, pruebas, documentación y plan de reversibilidad. | Pliego administrativo OPP-SW-003 migracion cloud, ANEXO ECONOMICO-FINANCIERO |\n| Alcance del servicio | El adjudicatario debe ejecutar migraciones sin pérdida de servicio, con ventana máxima de indisponibilidad de 4 horas por aplicación. | Pliego técnico OPP-SW-003 migracion cloud, Condiciones |\n| Modelo de servicio | El servicio incluye transición, migración, operación estabilizada y reversibilidad. | Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL |\n| Modelo de servicio | Soporte 12x5 con guardia localizada para ventanas de migración. | Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL |\n| Modelo de servicio | Ventanas fuera de horario: 8 fines de semana de migración con guardias DevOps incluidas. | Pliego administrativo OPP-SW-003 migracion cloud, ANEXO ECONOMICO-FINANCIERO |\n| Modelo de servicio | Jira Service Management será aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias. | Pliego administrativo OPP-SW-003 migracion cloud, ANEXO COMPRAS / PARTNERS |\n| Modelo de servicio | Se exige carta de compromiso del partner cloud para soporte AKS y confirmación de regiones UE. | Pliego administrativo OPP-SW-003 migracion cloud, ANEXO COMPRAS / PARTNERS |\n| Niveles de soporte | NO CONSTA EN LA DOCUMENTACION REVISADA una definición explícita de N1/N2/N3, pero se describen actividades de soporte especializado DevOps y guardias. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Procesos ITIL citados | Se exige Change Management formal con CAB semanal. | Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL |\n| Procesos ITIL citados | Se exige Release/Deployment Management. | Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL |\n| Procesos ITIL citados | Se exige Event Management. | Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL |\n| Procesos ITIL citados | Se exige Configuration Management. | Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL |\n| Procesos ITIL citados | Se exige Availability Management. | Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL |\n| Procesos ITIL citados | Se exige registro de cambios, plan de vuelta atrás, matriz de riesgos y aprobación previa por aplicación. (ITIL NO CITADO EXPRESAMENTE para registro de cambios y matriz de riesgos) | Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL |\n| SLA/KPI | Durante estabilización: P1 respuesta ≤ 30 minutos y resolución ≤ 4 horas; P2 respuesta ≤ 2 horas y resolución ≤ 1 día. | Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL |\n| SLA/KPI | Disponibilidad mínima 99,5 %. | Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL |\n| SLA/KPI | Penalización: 2 % mensual si la disponibilidad baja de 99,5 %. | Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL |\n| SLA/KPI | Penalización: 1 % por cambio fallido sin rollback documentado. | Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL |\n| SLA/KPI | Penalización: 0,5 % del precio por semana de retraso en una oleada; máximo 7 % del contrato. | Pliego administrativo OPP-SW-003 migracion cloud, ANEXO ECONOMICO-FINANCIERO |\n| Reglas de priorización | P1 y P2 definidos por tiempos de respuesta y resolución; no se detallan criterios de impacto/urgencia. | Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL |\n| Organización: roles | Dos perfiles DevOps/cloud senior, cada uno con al menos 5 años de experiencia en Azure, Kubernetes, Docker, CI/CD y observabilidad. | Pliego técnico OPP-SW-003 migracion cloud, Solvencia técnica y equipo mínimo |\n| Organización: roles | Un desarrollador backend senior con al menos 5 años en Java o Python para adaptación de servicios y APIs. | Pliego técnico OPP-SW-003 migracion cloud, Solvencia técnica y equipo mínimo |\n| Organización: roles | Jefe de proyecto con al menos 6 años de experiencia en migraciones técnicas. | Pliego técnico OPP-SW-003 migracion cloud, Solvencia técnica y equipo mínimo |\n| Organización: roles | Experiencia previa demostrable en al menos tres migraciones cloud de administraciones públicas. | Pliego técnico OPP-SW-003 migracion cloud, Solvencia técnica y equipo mínimo |\n| Organización: dedicaciones | Dos DevOps cloud senior al 100 % durante 8 meses y jefe de proyecto 35 % durante 10 meses. | Pliego administrativo OPP-SW-003 migracion cloud, ANEXO ECONOMICO-FINANCIERO |\n| Organización: guardias | Guardia localizada para ventanas de migración; 8 fines de semana de migración con guardias DevOps incluidas. | Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL; Pliego administrativo OPP-SW-003 migracion cloud, ANEXO ECONOMICO-FINANCIERO |\n| Organización: presencialidad | NO CONSTA EN LA DOCUMENTACION REVISADA una exigencia de presencialidad; se menciona soporte remoto. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Organización: idiomas | NO CONSTA EN LA DOCUMENTACION REVISADA una exigencia de idiomas distintos al español. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Organización: certificaciones | Se exige ISO 27001 para la empresa. | Pliego administrativo OPP-SW-003 migracion cloud, Clasificación y certificaciones |\n| Organización: certificaciones | CKA 2 puntos, Azure Administrator 2 puntos, ISO 27001 1 punto (criterio puntuable). | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicación |\n| Gobierno: comités | Se exige Change Advisory Board (CAB) semanal para gestión de cambios. | Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL |\n| Gobierno: informes | Se exige reconciliación mensual de la CMDB. | Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL |\n| Gobierno: entregables | Memoria de migración, plan de continuidad y reversibilidad, plan de seguridad y gestión de cambios, CV del equipo mínimo, oferta económica. | Pliego administrativo OPP-SW-003 migracion cloud, Documentación |\n| Gobierno: entregables | Exportación de configuración, pipelines, IaC, CMDB, tickets e informes de capacidad en reversibilidad. | Pliego técnico OPP-SW-003 migracion cloud, Reversibilidad |\n| Herramientas ITSM/CMDB | Herramientas aceptadas: Azure Monitor, Grafana y Jira Service Management. | Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL |\n| Herramientas ITSM/CMDB | CMDB obligatoria con aplicaciones, servicios, contenedores, pipelines, bases de datos, dependencias y propietarios. | Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL |\n| Herramientas ITSM/CMDB | Reconciliación mensual de la CMDB. | Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL |\n| Herramientas ITSM/CMDB | Repositorio IaC, escaneo de contenedores, monitorización Grafana/Prometheus y licencias SAST/SCA para 5 usuarios. | Pliego administrativo OPP-SW-003 migracion cloud, ANEXO ECONOMICO-FINANCIERO |\n| Herramientas ITSM/CMDB | Jira Service Management será aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias. | Pliego administrativo OPP-SW-003 migracion cloud, ANEXO COMPRAS / PARTNERS |\n| Herramientas ITSM/CMDB | Azure Monitor, Grafana y Jira Service Management aceptadas. | Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL |\n| Monitorización | Se exige monitorización con Azure Monitor y Grafana/Prometheus. | Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL |\n| Monitorización | Se exige observabilidad y dashboards como criterio puntuable (tope de puntuación si se ofrecen dashboards, alertas y respuesta crítica < 2 horas). | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicación |\n| Transición | Transición de 8 semanas con inventario, discovery, diseño de CMDB, runbooks, pruebas de backup, simulacro de rollback y reverse shadowing. | Pliego técnico OPP-SW-003 migracion cloud, Transición |\n| Continuidad | Plan de continuidad y reversibilidad como entregable obligatorio. | Pliego administrativo OPP-SW-003 migracion cloud, Documentación |\n| Continuidad | El servicio debe ejecutarse sin pérdida de servicio, con ventana máxima de indisponibilidad de 4 horas por aplicación. | Pliego técnico OPP-SW-003 migracion cloud, Condiciones |\n| Reversibilidad | Reversibilidad de 4 semanas, exportación de configuración, pipelines, IaC, CMDB, tickets e informes de capacidad. | Pliego técnico OPP-SW-003 migracion cloud, Reversibilidad |\n| Reversibilidad | Borrado de credenciales, rotación de secretos, exportación IaC y certificado de eliminación de datos temporales. | Pliego técnico OPP-SW-003 migracion cloud, Reversibilidad segura |\n| Dependencias técnicas | Se exige carta de compromiso del partner cloud para soporte AKS y confirmación de regiones UE. | Pliego administrativo OPP-SW-003 migracion cloud, ANEXO COMPRAS / PARTNERS |\n| Dependencias técnicas | Aplicaciones y backups en regiones UE; prohibidas transferencias internacionales salvo autorización expresa. | Pliego técnico OPP-SW-003 migracion cloud, Seguridad / DPO / ENS |\n| Automatización/self-service | Automatización CI/CD es subcriterio puntuable en el plan de migración (5 puntos). | Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicación |\n| Automatización/self-service | Se exige repositorio IaC y pipelines CI/CD como parte del alcance. | Pliego técnico OPP-SW-003 migracion cloud, Objeto |\n| Reporting | Se exige reconciliación mensual de la CMDB. | Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL |\n| Reporting | Exportación de informes de capacidad en reversibilidad. | Pliego técnico OPP-SW-003 migracion cloud, Reversibilidad |\n| Reporting | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de informes periódicos adicionales fuera de los citados. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n\n## Discrepancias y pendientes de aclaración\n\nNo se han identificado discrepancias en la documentación revisada.",
+    "registro_completo_estructura": true,
+    "requisitos_documentales": [
+      {
+        "id": "R0001",
+        "seccion": "Alcance del servicio",
+        "detalle": "El objeto del contrato es la migración de seis aplicaciones internas a una plataforma Azure Kubernetes Service, incluyendo contenerización Docker, pipelines CI/CD, monitorización, backup, hardening y procedimientos de reversibilidad.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Objeto",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0002",
+        "seccion": "Alcance del servicio",
+        "detalle": "El alcance incluye 6 aplicaciones, 18 microservicios, 4 bases de datos y 3 entornos por aplicación.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0003",
+        "seccion": "Alcance del servicio",
+        "detalle": "El servicio cubre transición, migración, operación estabilizada durante 9 meses y reversibilidad.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0004",
+        "seccion": "Alcance del servicio",
+        "detalle": "Horario de soporte 12x5 con guardia localizada para ventanas de migración.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0005",
+        "seccion": "Alcance del servicio",
+        "detalle": "Las migraciones productivas se ejecutarán en ventanas autorizadas y con plan de vuelta atrás aprobado.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Condiciones de ejecución",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0006",
+        "seccion": "Alcance del servicio",
+        "detalle": "El adjudicatario debe aportar cloud temporal de migración Azure durante 6 meses para entornos paralelos, pruebas y observabilidad.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, ANEXO COMPRAS / PARTNERS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0007",
+        "seccion": "Alcance del servicio",
+        "detalle": "El adjudicatario debe aportar herramientas de escaneo de contenedores, SAST/SCA para 5 usuarios, Grafana/Prometheus gestionado si no usa herramientas del cliente.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, ANEXO COMPRAS / PARTNERS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0008",
+        "seccion": "Alcance del servicio",
+        "detalle": "El adjudicatario debe aportar soporte de fabricante/partner durante ventanas de migración.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, ANEXO COMPRAS / PARTNERS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0009",
+        "seccion": "Alcance del servicio",
+        "detalle": "El adjudicatario debe aportar inventario, oleadas, migración de datos, pruebas, documentación y plan de reversibilidad.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, ANEXO ECONOMICO-FINANCIERO",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0010",
+        "seccion": "Alcance del servicio",
+        "detalle": "El adjudicatario debe ejecutar migraciones sin pérdida de servicio, con ventana máxima de indisponibilidad de 4 horas por aplicación.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Condiciones",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0011",
+        "seccion": "Modelo de servicio",
+        "detalle": "El servicio incluye transición, migración, operación estabilizada y reversibilidad.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0012",
+        "seccion": "Modelo de servicio",
+        "detalle": "Soporte 12x5 con guardia localizada para ventanas de migración.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0013",
+        "seccion": "Modelo de servicio",
+        "detalle": "Ventanas fuera de horario: 8 fines de semana de migración con guardias DevOps incluidas.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, ANEXO ECONOMICO-FINANCIERO",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0014",
+        "seccion": "Modelo de servicio",
+        "detalle": "Jira Service Management será aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, ANEXO COMPRAS / PARTNERS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0015",
+        "seccion": "Modelo de servicio",
+        "detalle": "Se exige carta de compromiso del partner cloud para soporte AKS y confirmación de regiones UE.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, ANEXO COMPRAS / PARTNERS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0016",
+        "seccion": "Niveles de soporte",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA una definición explícita de N1/N2/N3, pero se describen actividades de soporte especializado DevOps y guardias.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0017",
+        "seccion": "Procesos ITIL citados",
+        "detalle": "Se exige Change Management formal con CAB semanal.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0018",
+        "seccion": "Procesos ITIL citados",
+        "detalle": "Se exige Release/Deployment Management.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0019",
+        "seccion": "Procesos ITIL citados",
+        "detalle": "Se exige Event Management.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0020",
+        "seccion": "Procesos ITIL citados",
+        "detalle": "Se exige Configuration Management.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0021",
+        "seccion": "Procesos ITIL citados",
+        "detalle": "Se exige Availability Management.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0022",
+        "seccion": "Procesos ITIL citados",
+        "detalle": "Se exige registro de cambios, plan de vuelta atrás, matriz de riesgos y aprobación previa por aplicación. (ITIL NO CITADO EXPRESAMENTE para registro de cambios y matriz de riesgos)",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0023",
+        "seccion": "SLA/KPI",
+        "detalle": "Durante estabilización: P1 respuesta ≤ 30 minutos y resolución ≤ 4 horas; P2 respuesta ≤ 2 horas y resolución ≤ 1 día.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0024",
+        "seccion": "SLA/KPI",
+        "detalle": "Disponibilidad mínima 99,5 %.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0025",
+        "seccion": "SLA/KPI",
+        "detalle": "Penalización: 2 % mensual si la disponibilidad baja de 99,5 %.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0026",
+        "seccion": "SLA/KPI",
+        "detalle": "Penalización: 1 % por cambio fallido sin rollback documentado.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0027",
+        "seccion": "SLA/KPI",
+        "detalle": "Penalización: 0,5 % del precio por semana de retraso en una oleada; máximo 7 % del contrato.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, ANEXO ECONOMICO-FINANCIERO",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0028",
+        "seccion": "Reglas de priorización",
+        "detalle": "P1 y P2 definidos por tiempos de respuesta y resolución; no se detallan criterios de impacto/urgencia.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0029",
+        "seccion": "Organización: roles",
+        "detalle": "Dos perfiles DevOps/cloud senior, cada uno con al menos 5 años de experiencia en Azure, Kubernetes, Docker, CI/CD y observabilidad.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Solvencia técnica y equipo mínimo",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0030",
+        "seccion": "Organización: roles",
+        "detalle": "Un desarrollador backend senior con al menos 5 años en Java o Python para adaptación de servicios y APIs.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Solvencia técnica y equipo mínimo",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0031",
+        "seccion": "Organización: roles",
+        "detalle": "Jefe de proyecto con al menos 6 años de experiencia en migraciones técnicas.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Solvencia técnica y equipo mínimo",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0032",
+        "seccion": "Organización: roles",
+        "detalle": "Experiencia previa demostrable en al menos tres migraciones cloud de administraciones públicas.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Solvencia técnica y equipo mínimo",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0033",
+        "seccion": "Organización: dedicaciones",
+        "detalle": "Dos DevOps cloud senior al 100 % durante 8 meses y jefe de proyecto 35 % durante 10 meses.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, ANEXO ECONOMICO-FINANCIERO",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0034",
+        "seccion": "Organización: guardias",
+        "detalle": "Guardia localizada para ventanas de migración; 8 fines de semana de migración con guardias DevOps incluidas.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL; Pliego administrativo OPP-SW-003 migracion cloud, ANEXO ECONOMICO-FINANCIERO",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0035",
+        "seccion": "Organización: presencialidad",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA una exigencia de presencialidad; se menciona soporte remoto.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0036",
+        "seccion": "Organización: idiomas",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA una exigencia de idiomas distintos al español.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0037",
+        "seccion": "Organización: certificaciones",
+        "detalle": "Se exige ISO 27001 para la empresa.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Clasificación y certificaciones",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0038",
+        "seccion": "Organización: certificaciones",
+        "detalle": "CKA 2 puntos, Azure Administrator 2 puntos, ISO 27001 1 punto (criterio puntuable).",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicación",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0039",
+        "seccion": "Gobierno: comités",
+        "detalle": "Se exige Change Advisory Board (CAB) semanal para gestión de cambios.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0040",
+        "seccion": "Gobierno: informes",
+        "detalle": "Se exige reconciliación mensual de la CMDB.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0041",
+        "seccion": "Gobierno: entregables",
+        "detalle": "Memoria de migración, plan de continuidad y reversibilidad, plan de seguridad y gestión de cambios, CV del equipo mínimo, oferta económica.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Documentación",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0042",
+        "seccion": "Gobierno: entregables",
+        "detalle": "Exportación de configuración, pipelines, IaC, CMDB, tickets e informes de capacidad en reversibilidad.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Reversibilidad",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0043",
+        "seccion": "Herramientas ITSM/CMDB",
+        "detalle": "Herramientas aceptadas: Azure Monitor, Grafana y Jira Service Management.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0044",
+        "seccion": "Herramientas ITSM/CMDB",
+        "detalle": "CMDB obligatoria con aplicaciones, servicios, contenedores, pipelines, bases de datos, dependencias y propietarios.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0045",
+        "seccion": "Herramientas ITSM/CMDB",
+        "detalle": "Reconciliación mensual de la CMDB.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0046",
+        "seccion": "Herramientas ITSM/CMDB",
+        "detalle": "Repositorio IaC, escaneo de contenedores, monitorización Grafana/Prometheus y licencias SAST/SCA para 5 usuarios.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, ANEXO ECONOMICO-FINANCIERO",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0047",
+        "seccion": "Herramientas ITSM/CMDB",
+        "detalle": "Jira Service Management será aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, ANEXO COMPRAS / PARTNERS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0048",
+        "seccion": "Herramientas ITSM/CMDB",
+        "detalle": "Azure Monitor, Grafana y Jira Service Management aceptadas.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0049",
+        "seccion": "Monitorización",
+        "detalle": "Se exige monitorización con Azure Monitor y Grafana/Prometheus.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0050",
+        "seccion": "Monitorización",
+        "detalle": "Se exige observabilidad y dashboards como criterio puntuable (tope de puntuación si se ofrecen dashboards, alertas y respuesta crítica < 2 horas).",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicación",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0051",
+        "seccion": "Transición",
+        "detalle": "Transición de 8 semanas con inventario, discovery, diseño de CMDB, runbooks, pruebas de backup, simulacro de rollback y reverse shadowing.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Transición",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0052",
+        "seccion": "Continuidad",
+        "detalle": "Plan de continuidad y reversibilidad como entregable obligatorio.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Documentación",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0053",
+        "seccion": "Continuidad",
+        "detalle": "El servicio debe ejecutarse sin pérdida de servicio, con ventana máxima de indisponibilidad de 4 horas por aplicación.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Condiciones",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0054",
+        "seccion": "Reversibilidad",
+        "detalle": "Reversibilidad de 4 semanas, exportación de configuración, pipelines, IaC, CMDB, tickets e informes de capacidad.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Reversibilidad",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0055",
+        "seccion": "Reversibilidad",
+        "detalle": "Borrado de credenciales, rotación de secretos, exportación IaC y certificado de eliminación de datos temporales.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Reversibilidad segura",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0056",
+        "seccion": "Dependencias técnicas",
+        "detalle": "Se exige carta de compromiso del partner cloud para soporte AKS y confirmación de regiones UE.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, ANEXO COMPRAS / PARTNERS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0057",
+        "seccion": "Dependencias técnicas",
+        "detalle": "Aplicaciones y backups en regiones UE; prohibidas transferencias internacionales salvo autorización expresa.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Seguridad / DPO / ENS",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0058",
+        "seccion": "Automatización/self-service",
+        "detalle": "Automatización CI/CD es subcriterio puntuable en el plan de migración (5 puntos).",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Criterios de adjudicación",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0059",
+        "seccion": "Automatización/self-service",
+        "detalle": "Se exige repositorio IaC y pipelines CI/CD como parte del alcance.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Objeto",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0060",
+        "seccion": "Reporting",
+        "detalle": "Se exige reconciliación mensual de la CMDB.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Service Design / ITIL",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0061",
+        "seccion": "Reporting",
+        "detalle": "Exportación de informes de capacidad en reversibilidad.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud, Reversibilidad",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "R0062",
+        "seccion": "Reporting",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de informes periódicos adicionales fuera de los citados.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A6"
+      },
+      {
+        "id": "A6-S0063",
+        "seccion": "Alcance y ejecución del servicio",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No se han identificado discrepancias en la documentación revisada.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A6",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      }
+    ]
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "Pliego administrativo OPP-SW-003 migracion cloud",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 4508,
+        "caracteres_enviados_al_agente": 4508,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Pliego tecnico OPP-SW-003 migracion cloud",
+        "tipo": "Pliego tecnico",
+        "fuente": "XML",
+        "caracteres_extraidos": 3727,
+        "caracteres_enviados_al_agente": 3727,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "Anexo solvencia OPP-SW-003 migracion cloud",
+        "tipo": "Documento general",
+        "fuente": "XML",
+        "caracteres_extraidos": 825,
+        "caracteres_enviados_al_agente": 825,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": []
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "orden": 7,
+  "id": "A9",
+  "nombre": "Seguridad y protección de datos",
+  "tipo": "extraccion",
+  "ejecucion": "f18938bc27954dc2ab44dfa6c503a923",
+  "estado": "completado",
+  "contenido": {
+    "salida_original": "# 1. Resumen factual Seguridad / DPO / ENS\n\n- El pliego exige certificación ENS nivel medio para el Lote 2 como obligación esencial, así como ISO 27001:2013 para ambos lotes. Se requiere cumplimiento de RGPD y LOPDGDD, con cláusulas específicas sobre confidencialidad, acceso y tratamiento accidental de datos personales. No se define rol de encargado ni responsable de tratamiento salvo en caso de acceso necesario a datos personales, en cuyo caso se formalizará acuerdo de encargo. Se regula la subcontratación y la ubicación de los servicios, exigiendo declaración sobre localización de servidores si se accede a datos personales. Se detallan medidas técnicas de seguridad, control de accesos, autenticación fuerte, logging, monitorización, backup, continuidad y confidencialidad. Se establecen penalizaciones y causas de resolución por incumplimiento de obligaciones esenciales, incluidas las de seguridad y protección de datos.\n\n# 2. ENS: Requisito | Categoria/nivel | Alcance | Acreditacion | Momento | Fuente\n\n| Requisito | Categoria/nivel | Alcance | Acreditacion | Momento | Fuente |\n|---|---|---|---|---|---|\n| Certificación ENS | Nivel medio | Lote 2 | Certificado por organismo independiente | Presentación a requerimiento tras adjudicación | DOC20240202141404130-24_PLIEGO.pdf, p.11-12 |\n\n# 3. RGPD/DPO: Datos/rol/obligacion | Condicion | Plazo/retencion | Fuente\n\n| Datos/rol/obligacion | Condicion | Plazo/retencion | Fuente |\n|---|---|---|---|\n| Prohibido acceso o tratamiento de datos personales por el contratista | Salvo que sea necesario para la ejecución, en cuyo caso se formalizará acuerdo de encargo | No especificado | DOC20240202141404130-24_PLIEGO.pdf, p.47 |\n| Comunicación de incidente de acceso accidental a datos personales | Obligación de notificar al responsable del contrato con la mayor diligencia y celeridad, para que el responsable del tratamiento pueda conocerlo en 72 horas | 72 horas desde conocimiento del incidente | DOC20240202141404130-24_PLIEGO.pdf, p.47 |\n| Declaración de ubicación de servidores y servicios asociados si se accede a datos personales | Obligación esencial si se accede a datos personales | Durante la ejecución, comunicar cualquier cambio | DOC20240202141404130-24_PLIEGO.pdf, p.47-48 |\n| Formación e información al personal en obligaciones de protección de datos | Obligación de la adjudicataria | Durante la ejecución | DOC2024020214010801+PPT+2023+VI.pdf, p.40 |\n\n# 4. Subencargados, cloud, localizacion y transferencias: requisito | condicion | fuente\n\n| Requisito | Condicion | Fuente |\n|---|---|---|\n| Subcontratación permitida | Debe notificarse y cumplir requisitos del art. 215 y 216 LCSP; declaración responsable de subcontratistas de no estar incursos en prohibición de contratar | DOC20240202141404130-24_PLIEGO.pdf, p.42, 60-62 |\n| Declaración de ubicación de servidores y servicios asociados si se accede a datos personales | Obligación esencial; comunicar cualquier cambio durante la vida del contrato | DOC20240202141404130-24_PLIEGO.pdf, p.47-48 |\n| Uso de cloud (AWS, Azure) en la infraestructura | Descrito en el Anexo III; no se establecen restricciones adicionales en el pliego | DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.4 |\n| Transferencias internacionales | NO CONSTA EN LA DOCUMENTACION REVISADA |\n\n# 5. Medidas tecnicas: Medida | Obligatoria/valorable/condicionada | Parametro/plazo | Fuente\n\n| Medida | Obligatoria/valorable/condicionada | Parametro/plazo | Fuente |\n|---|---|---|---|\n| Autenticación fuerte (doble factor o certificado en tarjeta criptográfica) | Obligatoria si lo requiere el Ministerio | Durante la ejecución | DOC2024020214010801+PPT+2023+VI.pdf, p.7 |\n| Control de acceso a entornos | Obligatoria | Durante la ejecución | DOC2024020214010801+PPT+2023+VI.pdf, p.7 |\n| Seguridad perimetral con firewalls de nueva generación en alta disponibilidad | Descriptiva de la infraestructura | Permanente | DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.2 |\n| VPN SSL para acceso remoto | Descriptiva de la infraestructura | Permanente | DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.4 |\n| Monitorización y alertas en tiempo real | Obligatoria | Permanente | DOC2024020214010801+PPT+2023+VI.pdf, p.23, 28, 29, 33 |\n| Backup con Veeam Backup & Replication | Descriptiva de la infraestructura | Permanente | DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.3 |\n| Registro de actuaciones y logs en herramientas del Ministerio | Obligatoria | Permanente | DOC2024020214010801+PPT+2023+VI.pdf, p.17, 21, 25, 28, 30, 33 |\n| Restricciones de acceso y uso de datos según políticas del Ministerio | Obligatoria | Permanente | DOC2024020214010801+PPT+2023+VI.pdf, p.40 |\n\n# 6. Identidad, accesos y privilegios\n\n- El acceso a los recursos se gestiona mediante el directorio activo de Microsoft, con más de 10.000 cuentas y servicio a unos 5.500 usuarios. (DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.3)\n- Se podrán requerir mecanismos avanzados de autenticación fuerte (doble factor o certificado en tarjeta criptográfica). (DOC2024020214010801+PPT+2023+VI.pdf, p.7)\n- El adjudicatario debe garantizar que sus empleados dispongan de los medios físicos necesarios para cumplir los requisitos de seguridad marcados por el Ministerio. (DOC2024020214010801+PPT+2023+VI.pdf, p.7)\n- Restricciones de utilización de sistemas y acceso a datos según políticas y mecanismos de seguridad del Ministerio. (DOC2024020214010801+PPT+2023+VI.pdf, p.40)\n\n# 7. Vulnerabilidades, parcheado y desarrollo seguro\n\n- Instalación de correcciones y ajustes precisos para el funcionamiento eficaz de equipos físicos y lógicos, incluyendo parches de seguridad. (DOC2024020214010801+PPT+2023+VI.pdf, p.21, 31)\n- Soporte preventivo y evolutivo de hardware y software, incluyendo despliegue centralizado de software y parches de seguridad. (DOC2024020214010801+PPT+2023+VI.pdf, p.31)\n- NO CONSTA EN LA DOCUMENTACION REVISADA: requisitos específicos de pentesting, CVE, SDLC, DevSecOps, SAST, DAST, SCA, OWASP, CI/CD, SBOM.\n\n# 8. Incidentes, brechas y plazos de notificacion expresamente indicados\n\n- En caso de acceso o tratamiento accidental de datos personales, el contratista debe notificarlo al responsable del contrato con la mayor diligencia y celeridad, para que el responsable del tratamiento pueda conocerlo en 72 horas. (DOC20240202141404130-24_PLIEGO.pdf, p.47)\n- El contratista debe poner a disposición del responsable del contrato toda la información necesaria para demostrar el cumplimiento de las obligaciones y para permitir auditorías, incluidas inspecciones. (DOC20240202141404130-24_PLIEGO.pdf, p.47)\n- NO CONSTA EN LA DOCUMENTACION REVISADA: definición de incidente de seguridad, canales específicos de notificación distintos del responsable del contrato, plazos para otros incidentes no relacionados con datos personales.\n\n# 9. Logging, SOC/SIEM, continuidad, backup, RTO/RPO y retencion\n\n- Registro de todas las actuaciones practicadas en las herramientas del Ministerio, incluyendo logs de incidencias, peticiones y operaciones. (DOC2024020214010801+PPT+2023+VI.pdf, p.17, 21, 25, 28, 30, 33)\n- Monitorización proactiva de servicios y sistemas, con alertas en tiempo real. (DOC2024020214010801+PPT+2023+VI.pdf, p.23, 28, 29, 33)\n- Backup de máquinas virtuales, carpetas de servidores de ficheros, SQL Server y Oracle, con Veeam Backup & Replication. (DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.3)\n- Clústeres de alta disponibilidad para ficheros y SQL Server. (DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.3)\n- NO CONSTA EN LA DOCUMENTACION REVISADA: requisitos de SOC/SIEM, RTO/RPO expresos, retención de logs o backups, pruebas de continuidad.\n\n# 10. Auditorias, evidencias, certificaciones, seguridad del personal, borrado y confidencialidad\n\n- Certificación ISO/IEC 27001:2013 exigida para ambos lotes. (DOC20240202141404130-24_PLIEGO.pdf, p.11)\n- Certificación ENS nivel medio exigida para Lote 2. (DOC20240202141404130-24_PLIEGO.pdf, p.11-12)\n- El contratista debe poner a disposición del responsable del contrato toda la información necesaria para auditorías, incluidas inspecciones. (DOC20240202141404130-24_PLIEGO.pdf, p.47)\n- Formación e información al personal en obligaciones de protección de datos. (DOC2024020214010801+PPT+2023+VI.pdf, p.40)\n- Obligación de confidencialidad y secreto profesional sobre toda la información, incluso tras la finalización del contrato. (DOC2024020214010801+PPT+2023+VI.pdf, p.40)\n- Prohibición de conservar, copiar o ceder datos o documentos proporcionados por la Administración, salvo autorización expresa. (DOC2024020214010801+PPT+2023+VI.pdf, p.40)\n- Retirada y destrucción de soportes inservibles, con entrega de documentos acreditativos de acuerdo a RAEE. (DOC2024020214010801+PPT+2023+VI.pdf, p.23)\n- NO CONSTA EN LA DOCUMENTACION REVISADA: requisitos de borrado seguro de datos personales, contenido detallado de certificados de destrucción, designación de DPO/DPD, EIPD, frecuencia de auditorías.\n\n# 11. Consecuencias contractuales expresamente asociadas al incumplimiento, si constan\n\n- El incumplimiento de la certificación ENS nivel medio (Lote 2) y otras certificaciones es causa de resolución del contrato por ser obligación esencial. (DOC20240202141404130-24_PLIEGO.pdf, p.12)\n- El incumplimiento de las obligaciones esenciales en materia de protección de datos y localización de servidores es causa de resolución del contrato. (DOC20240202141404130-24_PLIEGO.pdf, p.47-48)\n- Penalizaciones económicas por incumplimiento de ANS, falta de recursos asignados, rotación no planificada del personal, y por incumplimiento de condiciones de subcontratación. (DOC20240202141404130-24_PLIEGO.pdf, p.43-45)\n\n# 12. Datos no localizados o ambiguos, sin recomendaciones\n\n- NO CONSTA EN LA DOCUMENTACION REVISADA: requisitos de RTO/RPO, retención de logs, SOC/SIEM, desarrollo seguro (SDLC, DevSecOps, SAST, DAST, SCA, OWASP, CI/CD, SBOM), designación de DPO/DPD, EIPD, frecuencia de auditorías, transferencias internacionales de datos, contenido detallado de acuerdos de encargo, requisitos de borrado seguro de datos personales.\n\n# 13. Documentos revisados: enumera todos los documentos del indice, uno por uno\n\n1. DOC2024020214010801+PPT+2023+VI.pdf\n2. DOC20240202141404130-24_PLIEGO.pdf\n3. DOC20240202144445012+Anexo+II+Lista+final+de+sedes+del+MITMA+7+nov+2023.pdf\n4. DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf\n5. DOC20240202144519014+Anexo+IV+Resumen+de+activos.pdf\n6. DOC20240202144535015+Anexo+V+Conocimientos+equipo+de+trabajo.pdf\n7. DOC20240202144619016+Anexo+VI+Datos+de+peticiones+de+servicio+e+incidencias.pdf\n8. DOC_CD2024-000159639.pdf\n9. DOC_CN2024-000157989.pdf\n10. poc (enlazado desde DOC_CD2024-000159639.pdf)\n11. poc (enlazado desde DOC_CD2024-000159639.pdf)\n12. poc (enlazado desde DOC_CD2024-000159639.pdf)\n\n# Tabla de trazabilidad\n\n| Requisito/dato | Tipo | Valor/condicion | Documento | Pagina/apartado | Estado de lectura |\n|---|---|---|---|---|---|\n| Certificación ENS nivel medio Lote 2 | Obligación esencial | Certificado por organismo independiente | DOC20240202141404130-24_PLIEGO.pdf | p.11-12 | Leído |\n| Certificación ISO/IEC 27001:2013 ambos lotes | Obligación | Certificado por organismo independiente | DOC20240202141404130-24_PLIEGO.pdf | p.11 | Leído |\n| Prohibición acceso/tratamiento datos personales | Obligación | Salvo necesidad, en cuyo caso acuerdo de encargo | DOC20240202141404130-24_PLIEGO.pdf | p.47 | Leído |\n| Notificación incidente acceso accidental datos personales | Obligación | Notificar con diligencia para conocimiento en 72h | DOC20240202141404130-24_PLIEGO.pdf | p.47 | Leído |\n| Declaración ubicación servidores si acceso a datos personales | Obligación esencial | Comunicar cambios durante la vida del contrato | DOC20240202141404130-24_PLIEGO.pdf | p.47-48 | Leído |\n| Subcontratación permitida | Condición | Notificación y requisitos art. 215 y 216 LCSP | DOC20240202141404130-24_PLIEGO.pdf | p.42, 60-62 | Leído |\n| Uso de cloud (AWS, Azure) | Descriptivo | No restricciones adicionales en pliego | DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf | p.4 | Leído |\n| Autenticación fuerte | Obligación | Si lo requiere el Ministerio | DOC2024020214010801+PPT+2023+VI.pdf | p.7 | Leído |\n| Control de acceso a entornos | Obligación | Durante la ejecución | DOC2024020214010801+PPT+2023+VI.pdf | p.7 | Leído |\n| Seguridad perimetral firewalls | Descriptivo | Permanente | DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf | p.2 | Leído |\n| VPN SSL acceso remoto | Descriptivo | Permanente | DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf | p.4 | Leído |\n| Monitorización y alertas en tiempo real | Obligación | Permanente | DOC2024020214010801+PPT+2023+VI.pdf | p.23, 28, 29, 33 | Leído |\n| Backup con Veeam | Descriptivo | Permanente | DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf | p.3 | Leído |\n| Registro de actuaciones/logs | Obligación | Permanente | DOC2024020214010801+PPT+2023+VI.pdf | p.17, 21, 25, 28, 30, 33 | Leído |\n| Restricciones de acceso y uso de datos | Obligación | Según políticas del Ministerio | DOC2024020214010801+PPT+2023+VI.pdf | p.40 | Leído |\n| Instalación de parches/correcciones | Obligación | Durante la ejecución | DOC2024020214010801+PPT+2023+VI.pdf | p.21, 31 | Leído |\n| Formación en protección de datos | Obligación | Durante la ejecución | DOC2024020214010801+PPT+2023+VI.pdf | p.40 | Leído |\n| Confidencialidad y secreto profesional | Obligación | Durante y tras el contrato | DOC2024020214010801+PPT+2023+VI.pdf | p.40 | Leído |\n| Retirada y destrucción de soportes | Obligación | Entrega de documentos acreditativos | DOC2024020214010801+PPT+2023+VI.pdf | p.23 | Leído |\n| Penalizaciones por incumplimiento ANS, recursos, subcontratación | Consecuencia | Económica y posible resolución | DOC20240202141404130-24_PLIEGO.pdf | p.43-45 | Leído |\n| Causas de resolución por incumplimiento ENS, protección de datos | Consecuencia | Resolución del contrato | DOC20240202141404130-24_PLIEGO.pdf | p.12, 47-48 | Leído |\n| RTO/RPO, SOC/SIEM, desarrollo seguro, DPO/DPD, EIPD, transferencias internacionales, borrado seguro, retención de logs/backups, frecuencia de auditorías | NO CONSTA | NO CONSTA EN LA DOCUMENTACION REVISADA | - | - | - |"
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "DOC2024020214010801+PPT+2023+VI.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 116333,
+        "caracteres_enviados_al_agente": 116333,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "DOC20240202141404130-24_PLIEGO.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 185060,
+        "caracteres_enviados_al_agente": 185060,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "DOC20240202144445012+Anexo+II+Lista+final+de+sedes+del+MITMA+7+nov+2023.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 30096,
+        "caracteres_enviados_al_agente": 30096,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 4,
+        "nombre": "DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 8020,
+        "caracteres_enviados_al_agente": 8020,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 5,
+        "nombre": "DOC20240202144519014+Anexo+IV+Resumen+de+activos.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 2361,
+        "caracteres_enviados_al_agente": 2361,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 6,
+        "nombre": "DOC20240202144535015+Anexo+V+Conocimientos+equipo+de+trabajo.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 8199,
+        "caracteres_enviados_al_agente": 8199,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 7,
+        "nombre": "DOC20240202144619016+Anexo+VI+Datos+de+peticiones+de+servicio+e+incidencias.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 881,
+        "caracteres_enviados_al_agente": 881,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 8,
+        "nombre": "DOC_CD2024-000159639.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 13855,
+        "caracteres_enviados_al_agente": 13855,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 9,
+        "nombre": "DOC_CN2024-000157989.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 13456,
+        "caracteres_enviados_al_agente": 13456,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 10,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC_CD2024-000159639.pdf",
+        "caracteres_extraidos": 6054,
+        "caracteres_enviados_al_agente": 6054,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 11,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC_CD2024-000159639.pdf",
+        "caracteres_extraidos": 2659,
+        "caracteres_enviados_al_agente": 2659,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 12,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC_CD2024-000159639.pdf",
+        "caracteres_extraidos": 3071,
+        "caracteres_enviados_al_agente": 3071,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Se omitieron 23 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  }
+}

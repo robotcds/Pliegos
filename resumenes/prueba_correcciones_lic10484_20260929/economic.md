@@ -1,0 +1,176 @@
+VEREDICTO EJECUTIVO ECONOMICO-FINANCIERO: RENTABLE CON GAPS
+
+---
+
+EXTRACCIÓN DE VIABILIDAD
+
+Tabla de requisitos principales (según pliego y documentación interna):
+
+| Parámetro                  | Literal y apartado del pliego / CDC | Umbral y fecha exigidos | Estado              | Brecha, acción y responsable |
+|----------------------------|-------------------------------------|-------------------------|---------------------|------------------------------|
+| Volumen de negocio         | CDC 10.C: Volumen anual de negocios en consultoría y asesoría energía/gas, mejor de los 3 últimos ejercicios ≥ 34.440 EUR | Mejor de 2023, 2024, 2025 | CUMPLE              | Ninguna brecha. Responsable: Dpto. Económico |
+| Solvencia técnica          | CDC 10.D: Servicios similares, importe anual acumulado ≥ 16.072 EUR en año de mayor ejecución, últimos 3 años | 2023-2025 | CUMPLE              | Ninguna brecha. Responsable: Dpto. Económico |
+| Equipo mínimo              | CDC 10.E y PPT 7: 2 perfiles esenciales, titulaciones y experiencia ≥ 3 años | A fecha límite presentación | CUMPLE              | Ninguna brecha. Responsable: RRHH/Ofertas |
+| Garantía provisional       | CDC 11.A: No exigida                | N/A                     | NO EXIGIDO          | N/A                         |
+| Garantía definitiva        | CDC 12.A/B: 5% del precio de adjudicación sin IVA | Antes de formalización | CUMPLE (capacidad)  | Aportar aval/seguro tras adjudicación. Responsable: Dpto. Financiero |
+| Seguro RC                  | CDC 34.A: No exigido                | N/A                     | NO EXIGIDO          | N/A                         |
+| Subcontratación            | CDC 33.C: No obligación de indicar en oferta | N/A                     | NO EXIGIDO          | N/A                         |
+| Formación externa          | CDC 44.A: No exigida                | N/A                     | NO EXIGIDO          | N/A                         |
+| Confidencialidad especial  | CDC 47.A: No exigida                | N/A                     | NO EXIGIDO          | N/A                         |
+| Periodo de garantía        | CDC 52.A: No exigido                | N/A                     | NO EXIGIDO          | N/A                         |
+
+Fichas de evidencia (extracto):
+
+- VOLUMEN_NEGOCIO:
+  - 2023: 920.000 EUR globales / 920.000 EUR línea energía (proyectos internos, fuente: cuentas auditadas 2023)
+  - 2024: 1.350.000 EUR globales / 1.350.000 EUR línea energía (proyectos internos, fuente: cuentas auditadas 2024)
+  - 2025: 1.680.000 EUR globales / 1.680.000 EUR línea energía (proyectos internos, fuente: previsión cierre 2025)
+  - Mejor ejercicio: 2025, umbral 34.440 EUR, diferencia +1.645.560 EUR, ESTADO: CUMPLE
+
+- PATRIMONIO_RATIOS:
+  - 2025: Patrimonio neto 410.000 EUR, activo corriente NO CONSTA, pasivo corriente NO CONSTA, ratio NO CALCULADO (no exigido), fuente: balance 2025
+
+- SEGURO_RC:
+  - Titular: Sermicro Software Ficticio S.L.
+  - Asegurador: NO CONSTA
+  - Identificador: NO CONSTA
+  - Actividad cubierta: NO CONSTA
+  - Importe por siniestro: NO CONSTA
+  - Agregado anual: NO CONSTA
+  - Inicio: NO CONSTA
+  - Fin: NO CONSTA
+  - Vigencia al cierre: NO CONSTA
+  - Cobertura durante ejecución: NO EXIGIDO
+  - Compromiso de renovación: NO EXIGIDO
+  - Fuente: NO APORTADO
+
+---
+
+1. VEREDICTO EJECUTIVO ECONOMICO-FINANCIERO: RENTABLE CON GAPS
+
+2. RESUMEN EJECUTIVO
+- Dinero disponible: 41.000 EUR (sin IVA) para 2 años (PBL, fuente: CDC 5.A, Documento 8)
+- Coste total estimado de ejecución: 32.800 EUR (coste directo pliego, CDC 5.B) + 8.200 EUR (costes indirectos/pliego) = 41.000 EUR (pliego). Coste real estimado interno: 33.800 EUR (estimación, ver tabla de costes)
+- Margen estimado: 7.200 EUR (17,6%) sobre oferta a PBL; margen objetivo (14%) alcanzable hasta 35.000 EUR sin IVA
+- Puntuación económica esperada: 45/45 puntos si somos oferta mínima; 40-44 puntos en escenarios con baja agresiva de competidor
+- Recomendación de precio: Oferta objetivo entre 35.000 y 36.000 EUR sin IVA (baja del 12-15%), margen bruto 14-16%, puntuación económica 44-45 puntos si no hay baja extrema de competidor
+
+3. ESTRUCTURA ECONOMICA DEL CONTRATO
+| Concepto                  | Importe / Característica                |
+|---------------------------|-----------------------------------------|
+| PBL sin IVA               | 41.000 EUR                              |
+| IVA (21%)                 | 8.610 EUR                               |
+| PBL con IVA               | 49.610 EUR                              |
+| Valor estimado            | 114.800 EUR (incluye prórrogas y modif.)|
+| Duración inicial          | 2 años                                  |
+| Prórrogas                 | Hasta 3 años adicionales (1+1+1)         |
+| Lotes                     | No                                      |
+| Anualidades               | 2 iniciales, hasta 5 con prórrogas       |
+| Modificaciones            | Hasta 20% del precio inicial             |
+| Bolsas                    | No                                      |
+| Precios unitarios         | Sí (por punto de suministro y tipo)      |
+| Importe de oferta         | Sobre PBL sin IVA (41.000 EUR máx.)      |
+
+4. FORMULA DE PUNTUACION ECONOMICA
+- Literal: Puntuación = 45 x (PMIN / PO)
+  - PMIN: Precio más bajo de las ofertas recibidas (sin IVA)
+  - PO: Precio de nuestra oferta (sin IVA)
+- Puntos máximos: 45
+- Variables: Oferta mínima, nuestra oferta
+- Comportamiento: Oferta más baja obtiene 45 puntos; si bajamos y seguimos siendo mínimos, mantenemos 45 puntos; si otro baja más, perdemos puntos proporcionalmente
+- Dependencia de competidores: Sí, fórmula dependiente de PMIN
+- Lectura práctica: Bajar precio solo aporta puntos si hay riesgo de que otro licitador baje más; si somos mínimos, no aporta más puntos bajar aún más
+
+4.b. FORMULAS DE MEJORAS AUTOMATICAS NO ECONOMICAS
+- No existen mejoras automáticas cuantificables por fórmula (SLA, horas, etc.) en este pliego
+
+5. ESCENARIOS DE PUNTUACION ECONOMICA
+(Ver tabla en bloque siguiente)
+
+6. OPCIONES DE ESTRATEGIA DE PRECIO Y OPINION
+(Ver tabla en bloque siguiente)
+
+7. OBJETIVOS DE PUNTUACION
+(Ver tabla en bloque siguiente)
+
+8. SIMULACION CON COMPETIDORES
+- Conservador: Competidor baja 15-18% (precio 33.620-34.000 EUR). Si ofertamos a PBL, 41.000 EUR, obtenemos 36,7-37,5 puntos. Si igualamos la baja, 45 puntos.
+- Probable: Competidor baja 10-12% (precio 36.000-36.900 EUR). Si ofertamos a 36.000 EUR, 45 puntos; si ofertamos a 41.000 EUR, 39,5-40,5 puntos.
+- Favorable: Somos oferta mínima (baja 8-10%). 45 puntos.
+
+9. OFERTA ANORMALMENTE BAJA
+- No hay umbral específico en CDC 17.A. Aplica LCSP: si solo un licitador, oferta <75% PBL (30.750 EUR); si varios, oferta <90% de la media. Línea roja económica: 32.000 EUR (coste real estimado). Justificación: Detallar estructura de costes, cumplimiento convenio y márgenes.
+
+10. TABLA MAESTRA DE COSTES
+(Ver tabla en bloque siguiente)
+
+11. COSTES POR CATEGORIA
+- Personal: 2 perfiles senior (ingeniero/consultor), soporte administrativo
+- Hardware/software: Licencias ofimáticas, acceso remoto, portátil (estimación)
+- Cloud: No aplica
+- Seguridad/cumplimiento: No aplica
+- Transición/reversibilidad: No relevante
+- Formación: No exigida
+- Desplazamientos: 2 visitas presenciales/año (Madrid)
+- Materiales/consumibles: Mínimos
+- Terceros/subcontratación: No prevista
+- Garantías/seguros/financiación: Garantía definitiva (5%), coste aval anual estimado
+
+12. COMPARACION COSTE PLIEGO VS COSTE REAL
+- Coste pliego: 41.000 EUR (ajustado a convenio y mercado)
+- Coste real estimado: 33.800 EUR (estimación interna, ver tabla)
+- Desviaciones: Pliego incluye margen de estructura y beneficio industrial; margen real puede ser superior si se optimiza equipo y desplazamientos
+
+13. PENALIZACIONES Y RIESGO ECONOMICO
+- Penalización por retraso: 0,60 EUR/1.000 EUR/día de retraso en informes (máx. 24,6 EUR/día)
+- Penalización por incumplimiento de condiciones especiales: hasta 5% anual del precio
+- Exposición económica: baja, penalizaciones limitadas y controlables
+
+14. CASH FLOW Y CALENDARIO DE FACTURACION
+- Facturación trimestral, pagos a 30 días tras conformidad
+- Compras iniciales mínimas
+- Garantía definitiva: 2.050 EUR (5% de oferta)
+- Necesidad de circulante: baja
+
+15. REVISION DE PRECIOS
+- No prevista (CDC 7.B)
+- Riesgo bajo por duración limitada y costes fijos
+
+16. MARGEN DEL PROYECTO
+- Coste total estimado: 33.800 EUR
+- Contingencia: 6% incluida
+- Margen bruto para varios precios: ver tabla
+
+17. ZONA OPTIMA DE OFERTA
+- Precio objetivo: 35.000-36.000 EUR (baja 12-15%), margen 14-16%, puntuación 44-45 puntos
+- Precio agresivo: 33.800-34.500 EUR (baja 16-18%), margen 10-12%, puntuación 45 puntos
+- Precio límite: 33.000 EUR (baja 19,5%), margen <10%, solo con comité de riesgo
+
+18. RECOMENDACIONES DE DECISION
+- Presentarse: Sí, si se mantiene margen ≥14% (precio ≥35.000 EUR)
+- Condiciones: No bajar de 33.800 EUR salvo aprobación de comité de riesgo
+- Cotizaciones necesarias: Confirmar coste real de personal y desplazamientos
+- Aprobaciones internas: Comité de riesgo si margen <10%
+- Riesgos a cerrar: Validar dedicación real de perfiles y desplazamientos
+
+19. PREGUNTAS AL ORGANO DE CONTRATACION
+- ¿Se admiten ofertas por debajo del 80% del PBL sin justificación adicional?
+- ¿Se puede ajustar el equipo a dedicación parcial si la carga real es menor?
+- ¿Se permite facturación mensual si se justifica?
+- ¿Hay penalizaciones adicionales no descritas?
+
+20. DOCUMENTOS REVISADOS
+1. LIC10484 PCP CLAUS.pdf (Pliego administrativo)
+2. LIC10484 PPT.pdf (Pliego técnico)
+3. LIC10484 PPT Anexo 2.pdf (Anexo técnico)
+4. LIC10484 PCP CDC Anexo 2.pdf (Anexo experiencia)
+5. LIC10484 PPT Anexo 1.pdf (Anexo técnico)
+6. LIC10484 PCP CDC Anexo 1.xlsx (Modelo oferta)
+7. LIC10484 PCP ANEXOS.pdf (Anejos administrativos)
+8. LIC10484 PCP CDC.pdf (Cuadro de Características)
+9. LIC10484 PPT Anexo 3.pdf (Método de facturación)
+10. Documento de aprobación del expediente
+
+---
+
+(TABLAS ECONÓMICAS, ESCENARIOS Y COSTES EN BLOQUE SIGUIENTE)

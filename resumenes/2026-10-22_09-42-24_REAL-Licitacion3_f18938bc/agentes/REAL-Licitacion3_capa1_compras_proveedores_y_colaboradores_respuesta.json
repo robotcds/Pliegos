@@ -1,0 +1,1405 @@
+{
+  "expediente": "REAL-Licitacion3",
+  "id": "A10",
+  "nombre": "Compras, proveedores y colaboradores",
+  "capa": 1,
+  "contenido": {
+    "resumen": [
+      "La licitación para el \"Servicio de soporte a la gestión de los sistemas e infraestructura de T.I.\" del Ministerio de Transportes y Movilidad Sostenible se estructura en dos lotes: Lote 1 (atención a usuarios, gestión de inventario y almacenes, mantenimiento de equipos de puesto de trabajo) y Lote 2 (soporte a administración y explotación de sistemas y redes de comunicaciones, operación de sistemas, soporte a infraestructura de CPD y mantenimiento de equipos). El adjudicatario debe aportar recursos materiales y humanos, asumir la gestión de garantías, stock y piezas, y cumplir con certificaciones de fabricantes y normas ISO/ENS. Se permite la subcontratación con límites y obligaciones de notificación. Se describen requisitos de soporte, logística, retirada y destrucción de equipos, así como dependencias de fabricantes y partners para tecnologías clave. No se identifican obligaciones de suministro de productos SaaS o licencias nominales específicas, pero sí de gestión y soporte sobre infraestructuras y plataformas existentes, incluyendo cloud (Azure, AWS) y productos Microsoft, Oracle, Red Hat, VMware, Fortinet, Veeam, Cisco, entre otros.",
+      "---",
+      "---",
+      "---",
+      "---",
+      "---",
+      "---",
+      "El adjudicatario debe gestionar la garantía y soporte de equipos en garantía y coordinarse con empresas con contratos vigentes de mantenimiento y soporte (DOC2024020214010801+PPT+2023+VI.pdf, p.20, 35).",
+      "El adjudicatario debe mantener stock básico de piezas para cumplir los ANS (DOC2024020214010801+PPT+2023+VI.pdf, p.21, 37).",
+      "El adjudicatario debe coordinar la retirada y destrucción de equipos con empresa autorizada (DOC2024020214010801+PPT+2023+VI.pdf, p.24).",
+      "No se describen obligaciones de cadena de suministro internacional ni restricciones de canal más allá de las certificaciones de partner/fabricante.",
+      "---"
+    ],
+    "secciones": [
+      {
+        "titulo": "1. Resumen factual",
+        "parrafos": [
+          "La licitación para el \"Servicio de soporte a la gestión de los sistemas e infraestructura de T.I.\" del Ministerio de Transportes y Movilidad Sostenible se estructura en dos lotes: Lote 1 (atención a usuarios, gestión de inventario y almacenes, mantenimiento de equipos de puesto de trabajo) y Lote 2 (soporte a administración y explotación de sistemas y redes de comunicaciones, operación de sistemas, soporte a infraestructura de CPD y mantenimiento de equipos). El adjudicatario debe aportar recursos materiales y humanos, asumir la gestión de garantías, stock y piezas, y cumplir con certificaciones de fabricantes y normas ISO/ENS. Se permite la subcontratación con límites y obligaciones de notificación. Se describen requisitos de soporte, logística, retirada y destrucción de equipos, así como dependencias de fabricantes y partners para tecnologías clave. No se identifican obligaciones de suministro de productos SaaS o licencias nominales específicas, pero sí de gestión y soporte sobre infraestructuras y plataformas existentes, incluyendo cloud (Azure, AWS) y productos Microsoft, Oracle, Red Hat, VMware, Fortinet, Veeam, Cisco, entre otros.",
+          "---"
+        ],
+        "elementos": [],
+        "tablas": []
+      },
+      {
+        "titulo": "2. Mapa de suministros y terceros",
+        "parrafos": [
+          "---"
+        ],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Elemento/necesidad",
+              "Tipo",
+              "Cantidad/volumen",
+              "Especificación",
+              "Quien debe aportarlo",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Elemento/necesidad": "Equipos de soporte (portátiles, móviles, etc.) para guardias",
+                "Tipo": "Hardware",
+                "Cantidad/volumen": "No especificado",
+                "Especificación": "Portátil y móvil para técnicos de guardia",
+                "Quien debe aportarlo": "Adjudicatario",
+                "Fuente": "DOC2024020214010801+PPT+2023+VI.pdf, p.11"
+              },
+              {
+                "Elemento/necesidad": "Contact Center avanzado",
+                "Tipo": "Infraestructura/servicio",
+                "Cantidad/volumen": "No especificado",
+                "Especificación": "Redundancia, líneas de comunicación",
+                "Quien debe aportarlo": "Adjudicatario",
+                "Fuente": "DOC2024020214010801+PPT+2023+VI.pdf, p.15"
+              },
+              {
+                "Elemento/necesidad": "Stock básico de piezas de recambio",
+                "Tipo": "Hardware/stock",
+                "Cantidad/volumen": "A acordar",
+                "Especificación": "Para equipos ofimáticos y CPD",
+                "Quien debe aportarlo": "Adjudicatario",
+                "Fuente": "DOC2024020214010801+PPT+2023+VI.pdf, p.21, 37"
+              },
+              {
+                "Elemento/necesidad": "Herramienta de gestión de tickets",
+                "Tipo": "Software",
+                "Cantidad/volumen": "Uso",
+                "Especificación": "Proporcionada por el Ministerio, pero si se usa propia, licencias a cargo del adjudicatario",
+                "Quien debe aportarlo": "Adjudicatario (si propia)",
+                "Fuente": "DOC2024020214010801+PPT+2023+VI.pdf, p.15, 21, 28, 30, 34"
+              },
+              {
+                "Elemento/necesidad": "Conexión de datos entre adjudicatario y Ministerio",
+                "Tipo": "Red/infraestructura",
+                "Cantidad/volumen": "No especificado",
+                "Especificación": "Para soporte remoto",
+                "Quien debe aportarlo": "Adjudicatario",
+                "Fuente": "DOC2024020214010801+PPT+2023+VI.pdf, p.25, 28, 30, 34"
+              },
+              {
+                "Elemento/necesidad": "Retirada y destrucción de equipos/RAEE",
+                "Tipo": "Logística/servicio",
+                "Cantidad/volumen": "Según necesidad",
+                "Especificación": "Coordinación con empresa autorizada",
+                "Quien debe aportarlo": "Adjudicatario",
+                "Fuente": "DOC2024020214010801+PPT+2023+VI.pdf, p.24"
+              },
+              {
+                "Elemento/necesidad": "Certificaciones de fabricantes (ver detalle)",
+                "Tipo": "Certificación",
+                "Cantidad/volumen": "Ver detalle",
+                "Especificación": "Ver detalle",
+                "Quien debe aportarlo": "Adjudicatario",
+                "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.11-12"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "3. Productos, hardware y materiales",
+        "parrafos": [
+          "---"
+        ],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Producto",
+              "Cantidad",
+              "Características",
+              "Fabricante/referencia",
+              "Equivalente permitido",
+              "Garantía/soporte",
+              "Stock/plazo",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Producto": "Equipos de puesto de trabajo (PC, portátiles, monitores, impresoras, periféricos)",
+                "Cantidad": "Ver Anexo IV.1",
+                "Características": "Ver Anexo IV.1",
+                "Fabricante/referencia": "NO CONSTA",
+                "Equivalente permitido": "NO CONSTA",
+                "Garantía/soporte": "Gestión de garantía y piezas fuera de garantía a cargo del adjudicatario",
+                "Stock/plazo": "Stock básico a acordar",
+                "Fuente": "DOC20240202144519014+Anexo+IV+Resumen+de+activos.pdf, p.1-2; DOC2024020214010801+PPT+2023+VI.pdf, p.20-21"
+              },
+              {
+                "Producto": "Equipos de CPD (servidores, almacenamiento, electrónica de red)",
+                "Cantidad": "Ver Anexo IV.2",
+                "Características": "Ver Anexo IV.2",
+                "Fabricante/referencia": "NO CONSTA",
+                "Equivalente permitido": "NO CONSTA",
+                "Garantía/soporte": "Gestión de garantía y piezas fuera de garantía a cargo del adjudicatario",
+                "Stock/plazo": "Stock básico a acordar",
+                "Fuente": "DOC20240202144519014+Anexo+IV+Resumen+de+activos.pdf, p.2; DOC2024020214010801+PPT+2023+VI.pdf, p.35, 37"
+              },
+              {
+                "Producto": "Portátiles y móviles para guardias",
+                "Cantidad": "No especificado",
+                "Características": "Para técnicos de guardia",
+                "Fabricante/referencia": "NO CONSTA",
+                "Equivalente permitido": "NO CONSTA",
+                "Garantía/soporte": "NO CONSTA",
+                "Stock/plazo": "NO CONSTA",
+                "Fuente": "DOC2024020214010801+PPT+2023+VI.pdf, p.11"
+              },
+              {
+                "Producto": "Contact Center avanzado",
+                "Cantidad": "No especificado",
+                "Características": "Redundancia, líneas de comunicación",
+                "Fabricante/referencia": "NO CONSTA",
+                "Equivalente permitido": "NO CONSTA",
+                "Garantía/soporte": "NO CONSTA",
+                "Stock/plazo": "NO CONSTA",
+                "Fuente": "DOC2024020214010801+PPT+2023+VI.pdf, p.15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "4. Software, SaaS y licencias",
+        "parrafos": [
+          "---"
+        ],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Producto",
+              "Fabricante",
+              "Metrica/cantidad",
+              "Entornos",
+              "Duración",
+              "Quien lo aporta",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Producto": "Herramienta de gestión de tickets",
+                "Fabricante": "Ministerio/Adjudicatario",
+                "Metrica/cantidad": "Uso",
+                "Entornos": "CAU, soporte, redes, sistemas",
+                "Duración": "Vigencia contrato",
+                "Quien lo aporta": "Ministerio (por defecto), adjudicatario si propia",
+                "Fuente": "DOC2024020214010801+PPT+2023+VI.pdf, p.15, 21, 28, 30, 34"
+              },
+              {
+                "Producto": "Microsoft System Center Service Manager",
+                "Fabricante": "Microsoft",
+                "Metrica/cantidad": "Uso",
+                "Entornos": "Gestión de servicios",
+                "Duración": "Vigencia contrato",
+                "Quien lo aporta": "Ministerio (por defecto), adjudicatario si propia",
+                "Fuente": "DOC2024020214010801+PPT+2023+VI.pdf, p.21; DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.3"
+              },
+              {
+                "Producto": "Office 365 (correo, OneDrive, etc.)",
+                "Fabricante": "Microsoft",
+                "Metrica/cantidad": "5.500 usuarios aprox.",
+                "Entornos": "Híbrido (Azure y on-premises)",
+                "Duración": "NO CONSTA",
+                "Quien lo aporta": "Ministerio",
+                "Fuente": "DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.3"
+              },
+              {
+                "Producto": "Veeam Backup & Replication",
+                "Fabricante": "Veeam",
+                "Metrica/cantidad": "NO CONSTA",
+                "Entornos": "Backup de servidores y VMs",
+                "Duración": "NO CONSTA",
+                "Quien lo aporta": "Ministerio",
+                "Fuente": "DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.3"
+              },
+              {
+                "Producto": "ArcGIS Server",
+                "Fabricante": "ESRI",
+                "Metrica/cantidad": "NO CONSTA",
+                "Entornos": "GIS",
+                "Duración": "NO CONSTA",
+                "Quien lo aporta": "Ministerio",
+                "Fuente": "DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.3"
+              },
+              {
+                "Producto": "Azure, AWS",
+                "Fabricante": "Microsoft, Amazon",
+                "Metrica/cantidad": "NO CONSTA",
+                "Entornos": "Cloud",
+                "Duración": "NO CONSTA",
+                "Quien lo aporta": "Ministerio",
+                "Fuente": "DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "5. Fabricantes, canal y cartas",
+        "parrafos": [
+          "---"
+        ],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Fabricante",
+              "Requisito",
+              "Nivel/certificación/carta exigida",
+              "Momento",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Fabricante": "Microsoft",
+                "Requisito": "Certificación partner",
+                "Nivel/certificación/carta exigida": "1. Socio de soluciones en Microsoft Cloud Partner Program con al menos 2 soluciones de infraestructura o Azure, o 2. Microsoft Global System Integrator",
+                "Momento": "Presentación de oferta/adjudicación",
+                "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.11-12"
+              },
+              {
+                "Fabricante": "AWS",
+                "Requisito": "Certificación partner",
+                "Nivel/certificación/carta exigida": "Advanced consulting partner en al menos una competencia",
+                "Momento": "Presentación de oferta/adjudicación",
+                "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.11-12"
+              },
+              {
+                "Fabricante": "Cisco",
+                "Requisito": "Certificación partner",
+                "Nivel/certificación/carta exigida": "Gold provider en al menos una competencia",
+                "Momento": "Presentación de oferta/adjudicación",
+                "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.11-12"
+              },
+              {
+                "Fabricante": "Oracle",
+                "Requisito": "Certificación partner",
+                "Nivel/certificación/carta exigida": "Al menos una certificación y ser miembro de la red de partners",
+                "Momento": "Presentación de oferta/adjudicación",
+                "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.11-12"
+              },
+              {
+                "Fabricante": "Red Hat",
+                "Requisito": "Certificación partner",
+                "Nivel/certificación/carta exigida": "Premier Business Partner",
+                "Momento": "Presentación de oferta/adjudicación",
+                "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.11-12"
+              },
+              {
+                "Fabricante": "Veeam",
+                "Requisito": "Certificación partner",
+                "Nivel/certificación/carta exigida": "Al menos una certificación",
+                "Momento": "Presentación de oferta/adjudicación",
+                "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.11-12"
+              },
+              {
+                "Fabricante": "VMware",
+                "Requisito": "Certificación partner",
+                "Nivel/certificación/carta exigida": "Al menos una certificación",
+                "Momento": "Presentación de oferta/adjudicación",
+                "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.11-12"
+              },
+              {
+                "Fabricante": "Fortinet",
+                "Requisito": "Certificación partner",
+                "Nivel/certificación/carta exigida": "Al menos una certificación",
+                "Momento": "Presentación de oferta/adjudicación",
+                "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.11-12"
+              },
+              {
+                "Fabricante": "ENS",
+                "Requisito": "Certificación",
+                "Nivel/certificación/carta exigida": "ENS al menos nivel medio",
+                "Momento": "Presentación de oferta/adjudicación",
+                "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.11-12"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "6. Subcontratación, UTE y medios externos",
+        "parrafos": [
+          "---"
+        ],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Regla",
+              "Límite/condición",
+              "Declaración/autorización",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Regla": "Subcontratación permitida",
+                "Límite/condición": "Según LCSP, no se exige parte obligatoria directa",
+                "Declaración/autorización": "Declaración responsable en oferta, notificación previa y final, documentación de subcontratistas",
+                "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.18, 60-62"
+              },
+              {
+                "Regla": "UTE permitida",
+                "Límite/condición": "Según LCSP",
+                "Declaración/autorización": "Declaración responsable, compromiso de constitución, porcentaje de participación, representante único",
+                "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.26, 52-53"
+              },
+              {
+                "Regla": "Medios externos (partners/certificaciones)",
+                "Límite/condición": "Obligatorio para tecnologías clave (ver tabla 5)",
+                "Declaración/autorización": "Certificaciones y cartas a presentar en oferta/adjudicación",
+                "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.11-12"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "7. Cadena de suministro y dependencias contractuales descritas",
+        "parrafos": [
+          "---"
+        ],
+        "elementos": [
+          "El adjudicatario debe gestionar la garantía y soporte de equipos en garantía y coordinarse con empresas con contratos vigentes de mantenimiento y soporte (DOC2024020214010801+PPT+2023+VI.pdf, p.20, 35).",
+          "El adjudicatario debe mantener stock básico de piezas para cumplir los ANS (DOC2024020214010801+PPT+2023+VI.pdf, p.21, 37).",
+          "El adjudicatario debe coordinar la retirada y destrucción de equipos con empresa autorizada (DOC2024020214010801+PPT+2023+VI.pdf, p.24).",
+          "No se describen obligaciones de cadena de suministro internacional ni restricciones de canal más allá de las certificaciones de partner/fabricante."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "8. SLA de proveedor/fabricante, garantías y soporte exigidos",
+        "parrafos": [
+          "---"
+        ],
+        "elementos": [
+          "Niveles de servicio (ANS) detallados para atención, resolución, provisión de piezas, etc., con tiempos de respuesta y resolución (DOC2024020214010801+PPT+2023+VI.pdf, p.24-25, 38).",
+          "Gestión de garantías: el adjudicatario debe gestionar la garantía con el fabricante o tercero, incluyendo traslados y seguimiento (DOC2024020214010801+PPT+2023+VI.pdf, p.20, 35).",
+          "Para equipos fuera de garantía, el adjudicatario asume la provisión de piezas y la reparación (DOC2024020214010801+PPT+2023+VI.pdf, p.20, 35).",
+          "Penalizaciones por incumplimiento de ANS y por falta de recursos (DOC20240202141404130-24_PLIEGO.pdf, p.43-44).",
+          "No se exige SLA back-to-back con fabricantes, pero sí cumplimiento de ANS y gestión de garantías."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "9. Logística, staging, stock, entrega, retirada y destrucción",
+        "parrafos": [
+          "---"
+        ],
+        "elementos": [
+          "El adjudicatario debe mantener stock básico de piezas para equipos de usuario y CPD (DOC2024020214010801+PPT+2023+VI.pdf, p.21, 37).",
+          "El adjudicatario debe encargarse de la retirada y destrucción de equipos y RAEE, coordinando con empresa autorizada y entregando documentación acreditativa (DOC2024020214010801+PPT+2023+VI.pdf, p.24).",
+          "El adjudicatario debe realizar traslados de equipos entre almacén y puestos de trabajo (DOC2024020214010801+PPT+2023+VI.pdf, p.24).",
+          "No se describen requisitos de staging ni logística internacional."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "10. Ambigüedades y datos no localizados",
+        "parrafos": [
+          "---"
+        ],
+        "elementos": [
+          "No se localizan referencias a productos SaaS o licencias nominales que deba adquirir el adjudicatario, salvo la obligación de gestionar y operar sobre plataformas existentes.",
+          "No se especifican fabricantes obligatorios para hardware, salvo la exigencia de certificaciones de partner para tecnologías clave.",
+          "No se describen restricciones de canal o equivalencias técnicas para hardware/software.",
+          "No se identifican requisitos de homologación, sostenibilidad o EOL/EOS más allá de la gestión de garantías y soporte.",
+          "No se localizan obligaciones de staging, logística internacional ni condiciones de cadena de suministro internacional.",
+          "No se identifican cartas de compromiso de suministro de fabricantes, solo certificaciones de partner."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "11. Documentos revisados",
+        "parrafos": [
+          "---"
+        ],
+        "elementos": [
+          "DOC2024020214010801+PPT+2023+VI.pdf",
+          "DOC20240202141404130-24_PLIEGO.pdf",
+          "DOC20240202144445012+Anexo+II+Lista+final+de+sedes+del+MITMA+7+nov+2023.pdf",
+          "DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf",
+          "DOC20240202144519014+Anexo+IV+Resumen+de+activos.pdf",
+          "DOC20240202144535015+Anexo+V+Conocimientos+equipo+de+trabajo.pdf",
+          "DOC20240202144619016+Anexo+VI+Datos+de+peticiones+de+servicio+e+incidencias.pdf",
+          "DOC_CD2024-000159639.pdf",
+          "DOC_CN2024-000157989.pdf",
+          "poc (enlazado desde DOC_CD2024-000159639.pdf)",
+          "poc (enlazado desde DOC_CD2024-000159639.pdf)",
+          "poc (enlazado desde DOC_CD2024-000159639.pdf)"
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "12. Trazabilidad de requisitos y datos",
+        "parrafos": [
+          "---"
+        ],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Requisito/dato",
+              "Tipo",
+              "Valor/condición",
+              "Documento",
+              "Página/apartado",
+              "Estado de lectura"
+            ],
+            "filas": [
+              {
+                "Requisito/dato": "Certificaciones de partner/fabricante (Microsoft, AWS, Cisco, Oracle, Red Hat, Veeam, VMware, Fortinet)",
+                "Tipo": "Requisito de admisión y ejecución",
+                "Valor/condición": "Ver tabla 5",
+                "Documento": "DOC20240202141404130-24_PLIEGO.pdf",
+                "Página/apartado": "p.11-12",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Stock básico de piezas",
+                "Tipo": "Obligación de ejecución",
+                "Valor/condición": "Acordar con Ministerio",
+                "Documento": "DOC2024020214010801+PPT+2023+VI.pdf",
+                "Página/apartado": "p.21, 37",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Gestión de garantías y soporte",
+                "Tipo": "Obligación de ejecución",
+                "Valor/condición": "Adjudicatario gestiona con fabricante/tercero",
+                "Documento": "DOC2024020214010801+PPT+2023+VI.pdf",
+                "Página/apartado": "p.20, 35",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Subcontratación permitida",
+                "Tipo": "Regla contractual",
+                "Valor/condición": "Declaración responsable, notificación previa y final",
+                "Documento": "DOC20240202141404130-24_PLIEGO.pdf",
+                "Página/apartado": "p.18, 60-62",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "UTE permitida",
+                "Tipo": "Regla contractual",
+                "Valor/condición": "Declaración responsable, compromiso de constitución",
+                "Documento": "DOC20240202141404130-24_PLIEGO.pdf",
+                "Página/apartado": "p.26, 52-53",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Herramienta de gestión de tickets",
+                "Tipo": "Software",
+                "Valor/condición": "Ministerio (por defecto), adjudicatario si propia",
+                "Documento": "DOC2024020214010801+PPT+2023+VI.pdf",
+                "Página/apartado": "p.15, 21, 28, 30, 34",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Retirada y destrucción de equipos/RAEE",
+                "Tipo": "Logística",
+                "Valor/condición": "Adjudicatario, empresa autorizada",
+                "Documento": "DOC2024020214010801+PPT+2023+VI.pdf",
+                "Página/apartado": "p.24",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "ANS y penalizaciones",
+                "Tipo": "SLA y penalización",
+                "Valor/condición": "Ver tablas ANS y penalizaciones",
+                "Documento": "DOC2024020214010801+PPT+2023+VI.pdf, DOC20240202141404130-24_PLIEGO.pdf",
+                "Página/apartado": "p.24-25, 38, 43-44",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Equipos de usuario y CPD",
+                "Tipo": "Hardware",
+                "Valor/condición": "Ver Anexo IV",
+                "Documento": "DOC20240202144519014+Anexo+IV+Resumen+de+activos.pdf",
+                "Página/apartado": "p.1-2",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Cloud (Azure, AWS)",
+                "Tipo": "Infraestructura",
+                "Valor/condición": "Ministerio",
+                "Documento": "DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf",
+                "Página/apartado": "p.4",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Office 365, Veeam, ArcGIS",
+                "Tipo": "Software",
+                "Valor/condición": "Ministerio",
+                "Documento": "DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf",
+                "Página/apartado": "p.3",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Contact Center avanzado",
+                "Tipo": "Infraestructura",
+                "Valor/condición": "Adjudicatario",
+                "Documento": "DOC2024020214010801+PPT+2023+VI.pdf",
+                "Página/apartado": "p.15",
+                "Estado de lectura": "Leído"
+              },
+              {
+                "Requisito/dato": "Portátiles y móviles para guardias",
+                "Tipo": "Hardware",
+                "Valor/condición": "Adjudicatario",
+                "Documento": "DOC2024020214010801+PPT+2023+VI.pdf",
+                "Página/apartado": "p.11",
+                "Estado de lectura": "Leído"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "13. Requisitos IA - Fuentes para proyecto viabilidad",
+        "parrafos": [
+          "---"
+        ],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Parámetro",
+              "Subcampos pedidos",
+              "Estado del pliego",
+              "Dato/literal localizado",
+              "Documento y apartado/página"
+            ],
+            "filas": [
+              {
+                "Parámetro": "Volumen anual de negocios",
+                "Subcampos pedidos": "Umbral, ámbito, mejor ejercicio, ventana, moneda, medio de acreditación",
+                "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+                "Dato/literal localizado": "Lote 1: 763.840 €; Lote 2: 1.364.800 €; mejor ejercicio de los 3 últimos; cuentas anuales aprobadas y depositadas",
+                "Documento y apartado/página": "DOC20240202141404130-24_PLIEGO.pdf, p.9-10"
+              },
+              {
+                "Parámetro": "Patrimonio neto/ratios",
+                "Subcampos pedidos": "Ejercicio/fecha, activos, pasivos, fórmula, resultado, umbral, medio de acreditación",
+                "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Dato/literal localizado": "NO CONSTA",
+                "Documento y apartado/página": "DOC20240202141404130-24_PLIEGO.pdf"
+              },
+              {
+                "Parámetro": "Seguro RC/riesgos profesionales",
+                "Subcampos pedidos": "Importe, actividad, asegurador, inicio, fin, vigencia, cobertura, compromiso renovación",
+                "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+                "Dato/literal localizado": "NO CONSTA",
+                "Documento y apartado/página": "DOC20240202141404130-24_PLIEGO.pdf"
+              },
+              {
+                "Parámetro": "Certificados de buena ejecución",
+                "Subcampos pedidos": "Objeto, similitud/CPV, importe, fechas, duración, destinatario, prueba admisible",
+                "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+                "Dato/literal localizado": "Contrato de igual o similar naturaleza, grupo/subgrupo de clasificación, importe anual igual o superior al 50% del presupuesto base de licitación, acreditación mediante declaración responsable y relación de servicios",
+                "Documento y apartado/página": "DOC20240202141404130-24_PLIEGO.pdf, p.10"
+              },
+              {
+                "Parámetro": "ISO/ENS",
+                "Subcampos pedidos": "Norma, versión/nivel, alcance, entidad certificadora, caducidad, momento, equivalencias",
+                "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+                "Dato/literal localizado": "ISO 9001:2015, ISO/IEC 27001:2013, ISO/IEC 20000-1:2018, ENS nivel medio (lote 2), certificación por organismo independiente, presentación en oferta/adjudicación",
+                "Documento y apartado/página": "DOC20240202141404130-24_PLIEGO.pdf, p.11-12"
+              },
+              {
+                "Parámetro": "Fabricantes/partnerships",
+                "Subcampos pedidos": "Fabricante, nivel, especialización, cartas, expiración, momento",
+                "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+                "Dato/literal localizado": "Ver tabla 5",
+                "Documento y apartado/página": "DOC20240202141404130-24_PLIEGO.pdf, p.11-12"
+              },
+              {
+                "Parámetro": "Perfiles",
+                "Subcampos pedidos": "Puesto, cantidad, titulación, experiencia, certificaciones, dedicación, jornada, presencialidad, ubicación, funciones, sustitución",
+                "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+                "Dato/literal localizado": "Ver Anexo V y tablas de recursos mínimos",
+                "Documento y apartado/página": "DOC20240202144535015+Anexo+V+Conocimientos+equipo+de+trabajo.pdf, DOC2024020214010801+PPT+2023+VI.pdf, p.22, 39"
+              },
+              {
+                "Parámetro": "ROLECE/clasificación",
+                "Subcampos pedidos": "Exigencia o alternativa, grupo, subgrupo, categoría, vigencia, fecha, momento",
+                "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+                "Dato/literal localizado": "No procede clasificación; inscripción en ROLECE permite acreditar solvencia y capacidad",
+                "Documento y apartado/página": "DOC20240202141404130-24_PLIEGO.pdf, p.12, 29"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "14. Discrepancias y pendientes de aclaración",
+        "parrafos": [
+          "No se han identificado discrepancias en la documentación revisada. No se localizan datos sobre patrimonio neto, ratios financieros ni seguro de RC. No se identifican obligaciones de suministro de licencias SaaS nominales ni restricciones de canal más allá de las certificaciones de partner. No se describen requisitos de homologación, sostenibilidad, EOL/EOS, staging ni logística internacional. No se identifican cartas de compromiso de suministro de fabricantes, solo certificaciones de partner."
+        ],
+        "elementos": [],
+        "tablas": []
+      }
+    ],
+    "pendientes_y_no_localizados": [
+      {
+        "titulo": "10. Ambigüedades y datos no localizados",
+        "parrafos": [
+          "---"
+        ],
+        "elementos": [
+          "No se localizan referencias a productos SaaS o licencias nominales que deba adquirir el adjudicatario, salvo la obligación de gestionar y operar sobre plataformas existentes.",
+          "No se especifican fabricantes obligatorios para hardware, salvo la exigencia de certificaciones de partner para tecnologías clave.",
+          "No se describen restricciones de canal o equivalencias técnicas para hardware/software.",
+          "No se identifican requisitos de homologación, sostenibilidad o EOL/EOS más allá de la gestión de garantías y soporte.",
+          "No se localizan obligaciones de staging, logística internacional ni condiciones de cadena de suministro internacional.",
+          "No se identifican cartas de compromiso de suministro de fabricantes, solo certificaciones de partner."
+        ],
+        "tablas": []
+      },
+      {
+        "titulo": "14. Discrepancias y pendientes de aclaración",
+        "parrafos": [
+          "No se han identificado discrepancias en la documentación revisada. No se localizan datos sobre patrimonio neto, ratios financieros ni seguro de RC. No se identifican obligaciones de suministro de licencias SaaS nominales ni restricciones de canal más allá de las certificaciones de partner. No se describen requisitos de homologación, sostenibilidad, EOL/EOS, staging ni logística internacional. No se identifican cartas de compromiso de suministro de fabricantes, solo certificaciones de partner."
+        ],
+        "elementos": [],
+        "tablas": []
+      }
+    ],
+    "trazabilidad": [
+      {
+        "Elemento/necesidad": "Equipos de soporte (portátiles, móviles, etc.) para guardias",
+        "Tipo": "Hardware",
+        "Cantidad/volumen": "No especificado",
+        "Especificación": "Portátil y móvil para técnicos de guardia",
+        "Quien debe aportarlo": "Adjudicatario",
+        "Fuente": "DOC2024020214010801+PPT+2023+VI.pdf, p.11"
+      },
+      {
+        "Elemento/necesidad": "Contact Center avanzado",
+        "Tipo": "Infraestructura/servicio",
+        "Cantidad/volumen": "No especificado",
+        "Especificación": "Redundancia, líneas de comunicación",
+        "Quien debe aportarlo": "Adjudicatario",
+        "Fuente": "DOC2024020214010801+PPT+2023+VI.pdf, p.15"
+      },
+      {
+        "Elemento/necesidad": "Stock básico de piezas de recambio",
+        "Tipo": "Hardware/stock",
+        "Cantidad/volumen": "A acordar",
+        "Especificación": "Para equipos ofimáticos y CPD",
+        "Quien debe aportarlo": "Adjudicatario",
+        "Fuente": "DOC2024020214010801+PPT+2023+VI.pdf, p.21, 37"
+      },
+      {
+        "Elemento/necesidad": "Herramienta de gestión de tickets",
+        "Tipo": "Software",
+        "Cantidad/volumen": "Uso",
+        "Especificación": "Proporcionada por el Ministerio, pero si se usa propia, licencias a cargo del adjudicatario",
+        "Quien debe aportarlo": "Adjudicatario (si propia)",
+        "Fuente": "DOC2024020214010801+PPT+2023+VI.pdf, p.15, 21, 28, 30, 34"
+      },
+      {
+        "Elemento/necesidad": "Conexión de datos entre adjudicatario y Ministerio",
+        "Tipo": "Red/infraestructura",
+        "Cantidad/volumen": "No especificado",
+        "Especificación": "Para soporte remoto",
+        "Quien debe aportarlo": "Adjudicatario",
+        "Fuente": "DOC2024020214010801+PPT+2023+VI.pdf, p.25, 28, 30, 34"
+      },
+      {
+        "Elemento/necesidad": "Retirada y destrucción de equipos/RAEE",
+        "Tipo": "Logística/servicio",
+        "Cantidad/volumen": "Según necesidad",
+        "Especificación": "Coordinación con empresa autorizada",
+        "Quien debe aportarlo": "Adjudicatario",
+        "Fuente": "DOC2024020214010801+PPT+2023+VI.pdf, p.24"
+      },
+      {
+        "Elemento/necesidad": "Certificaciones de fabricantes (ver detalle)",
+        "Tipo": "Certificación",
+        "Cantidad/volumen": "Ver detalle",
+        "Especificación": "Ver detalle",
+        "Quien debe aportarlo": "Adjudicatario",
+        "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.11-12"
+      },
+      {
+        "Producto": "Equipos de puesto de trabajo (PC, portátiles, monitores, impresoras, periféricos)",
+        "Cantidad": "Ver Anexo IV.1",
+        "Características": "Ver Anexo IV.1",
+        "Fabricante/referencia": "NO CONSTA",
+        "Equivalente permitido": "NO CONSTA",
+        "Garantía/soporte": "Gestión de garantía y piezas fuera de garantía a cargo del adjudicatario",
+        "Stock/plazo": "Stock básico a acordar",
+        "Fuente": "DOC20240202144519014+Anexo+IV+Resumen+de+activos.pdf, p.1-2; DOC2024020214010801+PPT+2023+VI.pdf, p.20-21"
+      },
+      {
+        "Producto": "Equipos de CPD (servidores, almacenamiento, electrónica de red)",
+        "Cantidad": "Ver Anexo IV.2",
+        "Características": "Ver Anexo IV.2",
+        "Fabricante/referencia": "NO CONSTA",
+        "Equivalente permitido": "NO CONSTA",
+        "Garantía/soporte": "Gestión de garantía y piezas fuera de garantía a cargo del adjudicatario",
+        "Stock/plazo": "Stock básico a acordar",
+        "Fuente": "DOC20240202144519014+Anexo+IV+Resumen+de+activos.pdf, p.2; DOC2024020214010801+PPT+2023+VI.pdf, p.35, 37"
+      },
+      {
+        "Producto": "Portátiles y móviles para guardias",
+        "Cantidad": "No especificado",
+        "Características": "Para técnicos de guardia",
+        "Fabricante/referencia": "NO CONSTA",
+        "Equivalente permitido": "NO CONSTA",
+        "Garantía/soporte": "NO CONSTA",
+        "Stock/plazo": "NO CONSTA",
+        "Fuente": "DOC2024020214010801+PPT+2023+VI.pdf, p.11"
+      },
+      {
+        "Producto": "Contact Center avanzado",
+        "Cantidad": "No especificado",
+        "Características": "Redundancia, líneas de comunicación",
+        "Fabricante/referencia": "NO CONSTA",
+        "Equivalente permitido": "NO CONSTA",
+        "Garantía/soporte": "NO CONSTA",
+        "Stock/plazo": "NO CONSTA",
+        "Fuente": "DOC2024020214010801+PPT+2023+VI.pdf, p.15"
+      },
+      {
+        "Producto": "Herramienta de gestión de tickets",
+        "Fabricante": "Ministerio/Adjudicatario",
+        "Metrica/cantidad": "Uso",
+        "Entornos": "CAU, soporte, redes, sistemas",
+        "Duración": "Vigencia contrato",
+        "Quien lo aporta": "Ministerio (por defecto), adjudicatario si propia",
+        "Fuente": "DOC2024020214010801+PPT+2023+VI.pdf, p.15, 21, 28, 30, 34"
+      },
+      {
+        "Producto": "Microsoft System Center Service Manager",
+        "Fabricante": "Microsoft",
+        "Metrica/cantidad": "Uso",
+        "Entornos": "Gestión de servicios",
+        "Duración": "Vigencia contrato",
+        "Quien lo aporta": "Ministerio (por defecto), adjudicatario si propia",
+        "Fuente": "DOC2024020214010801+PPT+2023+VI.pdf, p.21; DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.3"
+      },
+      {
+        "Producto": "Office 365 (correo, OneDrive, etc.)",
+        "Fabricante": "Microsoft",
+        "Metrica/cantidad": "5.500 usuarios aprox.",
+        "Entornos": "Híbrido (Azure y on-premises)",
+        "Duración": "NO CONSTA",
+        "Quien lo aporta": "Ministerio",
+        "Fuente": "DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.3"
+      },
+      {
+        "Producto": "Veeam Backup & Replication",
+        "Fabricante": "Veeam",
+        "Metrica/cantidad": "NO CONSTA",
+        "Entornos": "Backup de servidores y VMs",
+        "Duración": "NO CONSTA",
+        "Quien lo aporta": "Ministerio",
+        "Fuente": "DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.3"
+      },
+      {
+        "Producto": "ArcGIS Server",
+        "Fabricante": "ESRI",
+        "Metrica/cantidad": "NO CONSTA",
+        "Entornos": "GIS",
+        "Duración": "NO CONSTA",
+        "Quien lo aporta": "Ministerio",
+        "Fuente": "DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.3"
+      },
+      {
+        "Producto": "Azure, AWS",
+        "Fabricante": "Microsoft, Amazon",
+        "Metrica/cantidad": "NO CONSTA",
+        "Entornos": "Cloud",
+        "Duración": "NO CONSTA",
+        "Quien lo aporta": "Ministerio",
+        "Fuente": "DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.4"
+      },
+      {
+        "Fabricante": "Microsoft",
+        "Requisito": "Certificación partner",
+        "Nivel/certificación/carta exigida": "1. Socio de soluciones en Microsoft Cloud Partner Program con al menos 2 soluciones de infraestructura o Azure, o 2. Microsoft Global System Integrator",
+        "Momento": "Presentación de oferta/adjudicación",
+        "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.11-12"
+      },
+      {
+        "Fabricante": "AWS",
+        "Requisito": "Certificación partner",
+        "Nivel/certificación/carta exigida": "Advanced consulting partner en al menos una competencia",
+        "Momento": "Presentación de oferta/adjudicación",
+        "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.11-12"
+      },
+      {
+        "Fabricante": "Cisco",
+        "Requisito": "Certificación partner",
+        "Nivel/certificación/carta exigida": "Gold provider en al menos una competencia",
+        "Momento": "Presentación de oferta/adjudicación",
+        "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.11-12"
+      },
+      {
+        "Fabricante": "Oracle",
+        "Requisito": "Certificación partner",
+        "Nivel/certificación/carta exigida": "Al menos una certificación y ser miembro de la red de partners",
+        "Momento": "Presentación de oferta/adjudicación",
+        "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.11-12"
+      },
+      {
+        "Fabricante": "Red Hat",
+        "Requisito": "Certificación partner",
+        "Nivel/certificación/carta exigida": "Premier Business Partner",
+        "Momento": "Presentación de oferta/adjudicación",
+        "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.11-12"
+      },
+      {
+        "Fabricante": "Veeam",
+        "Requisito": "Certificación partner",
+        "Nivel/certificación/carta exigida": "Al menos una certificación",
+        "Momento": "Presentación de oferta/adjudicación",
+        "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.11-12"
+      },
+      {
+        "Fabricante": "VMware",
+        "Requisito": "Certificación partner",
+        "Nivel/certificación/carta exigida": "Al menos una certificación",
+        "Momento": "Presentación de oferta/adjudicación",
+        "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.11-12"
+      },
+      {
+        "Fabricante": "Fortinet",
+        "Requisito": "Certificación partner",
+        "Nivel/certificación/carta exigida": "Al menos una certificación",
+        "Momento": "Presentación de oferta/adjudicación",
+        "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.11-12"
+      },
+      {
+        "Fabricante": "ENS",
+        "Requisito": "Certificación",
+        "Nivel/certificación/carta exigida": "ENS al menos nivel medio",
+        "Momento": "Presentación de oferta/adjudicación",
+        "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.11-12"
+      },
+      {
+        "Regla": "Subcontratación permitida",
+        "Límite/condición": "Según LCSP, no se exige parte obligatoria directa",
+        "Declaración/autorización": "Declaración responsable en oferta, notificación previa y final, documentación de subcontratistas",
+        "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.18, 60-62"
+      },
+      {
+        "Regla": "UTE permitida",
+        "Límite/condición": "Según LCSP",
+        "Declaración/autorización": "Declaración responsable, compromiso de constitución, porcentaje de participación, representante único",
+        "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.26, 52-53"
+      },
+      {
+        "Regla": "Medios externos (partners/certificaciones)",
+        "Límite/condición": "Obligatorio para tecnologías clave (ver tabla 5)",
+        "Declaración/autorización": "Certificaciones y cartas a presentar en oferta/adjudicación",
+        "Fuente": "DOC20240202141404130-24_PLIEGO.pdf, p.11-12"
+      },
+      {
+        "Requisito/dato": "Certificaciones de partner/fabricante (Microsoft, AWS, Cisco, Oracle, Red Hat, Veeam, VMware, Fortinet)",
+        "Tipo": "Requisito de admisión y ejecución",
+        "Valor/condición": "Ver tabla 5",
+        "Documento": "DOC20240202141404130-24_PLIEGO.pdf",
+        "Página/apartado": "p.11-12",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Stock básico de piezas",
+        "Tipo": "Obligación de ejecución",
+        "Valor/condición": "Acordar con Ministerio",
+        "Documento": "DOC2024020214010801+PPT+2023+VI.pdf",
+        "Página/apartado": "p.21, 37",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Gestión de garantías y soporte",
+        "Tipo": "Obligación de ejecución",
+        "Valor/condición": "Adjudicatario gestiona con fabricante/tercero",
+        "Documento": "DOC2024020214010801+PPT+2023+VI.pdf",
+        "Página/apartado": "p.20, 35",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Subcontratación permitida",
+        "Tipo": "Regla contractual",
+        "Valor/condición": "Declaración responsable, notificación previa y final",
+        "Documento": "DOC20240202141404130-24_PLIEGO.pdf",
+        "Página/apartado": "p.18, 60-62",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "UTE permitida",
+        "Tipo": "Regla contractual",
+        "Valor/condición": "Declaración responsable, compromiso de constitución",
+        "Documento": "DOC20240202141404130-24_PLIEGO.pdf",
+        "Página/apartado": "p.26, 52-53",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Herramienta de gestión de tickets",
+        "Tipo": "Software",
+        "Valor/condición": "Ministerio (por defecto), adjudicatario si propia",
+        "Documento": "DOC2024020214010801+PPT+2023+VI.pdf",
+        "Página/apartado": "p.15, 21, 28, 30, 34",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Retirada y destrucción de equipos/RAEE",
+        "Tipo": "Logística",
+        "Valor/condición": "Adjudicatario, empresa autorizada",
+        "Documento": "DOC2024020214010801+PPT+2023+VI.pdf",
+        "Página/apartado": "p.24",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "ANS y penalizaciones",
+        "Tipo": "SLA y penalización",
+        "Valor/condición": "Ver tablas ANS y penalizaciones",
+        "Documento": "DOC2024020214010801+PPT+2023+VI.pdf, DOC20240202141404130-24_PLIEGO.pdf",
+        "Página/apartado": "p.24-25, 38, 43-44",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Equipos de usuario y CPD",
+        "Tipo": "Hardware",
+        "Valor/condición": "Ver Anexo IV",
+        "Documento": "DOC20240202144519014+Anexo+IV+Resumen+de+activos.pdf",
+        "Página/apartado": "p.1-2",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Cloud (Azure, AWS)",
+        "Tipo": "Infraestructura",
+        "Valor/condición": "Ministerio",
+        "Documento": "DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf",
+        "Página/apartado": "p.4",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Office 365, Veeam, ArcGIS",
+        "Tipo": "Software",
+        "Valor/condición": "Ministerio",
+        "Documento": "DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf",
+        "Página/apartado": "p.3",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Contact Center avanzado",
+        "Tipo": "Infraestructura",
+        "Valor/condición": "Adjudicatario",
+        "Documento": "DOC2024020214010801+PPT+2023+VI.pdf",
+        "Página/apartado": "p.15",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Requisito/dato": "Portátiles y móviles para guardias",
+        "Tipo": "Hardware",
+        "Valor/condición": "Adjudicatario",
+        "Documento": "DOC2024020214010801+PPT+2023+VI.pdf",
+        "Página/apartado": "p.11",
+        "Estado de lectura": "Leído"
+      },
+      {
+        "Parámetro": "Volumen anual de negocios",
+        "Subcampos pedidos": "Umbral, ámbito, mejor ejercicio, ventana, moneda, medio de acreditación",
+        "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+        "Dato/literal localizado": "Lote 1: 763.840 €; Lote 2: 1.364.800 €; mejor ejercicio de los 3 últimos; cuentas anuales aprobadas y depositadas",
+        "Documento y apartado/página": "DOC20240202141404130-24_PLIEGO.pdf, p.9-10"
+      },
+      {
+        "Parámetro": "Patrimonio neto/ratios",
+        "Subcampos pedidos": "Ejercicio/fecha, activos, pasivos, fórmula, resultado, umbral, medio de acreditación",
+        "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Dato/literal localizado": "NO CONSTA",
+        "Documento y apartado/página": "DOC20240202141404130-24_PLIEGO.pdf"
+      },
+      {
+        "Parámetro": "Seguro RC/riesgos profesionales",
+        "Subcampos pedidos": "Importe, actividad, asegurador, inicio, fin, vigencia, cobertura, compromiso renovación",
+        "Estado del pliego": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "Dato/literal localizado": "NO CONSTA",
+        "Documento y apartado/página": "DOC20240202141404130-24_PLIEGO.pdf"
+      },
+      {
+        "Parámetro": "Certificados de buena ejecución",
+        "Subcampos pedidos": "Objeto, similitud/CPV, importe, fechas, duración, destinatario, prueba admisible",
+        "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+        "Dato/literal localizado": "Contrato de igual o similar naturaleza, grupo/subgrupo de clasificación, importe anual igual o superior al 50% del presupuesto base de licitación, acreditación mediante declaración responsable y relación de servicios",
+        "Documento y apartado/página": "DOC20240202141404130-24_PLIEGO.pdf, p.10"
+      },
+      {
+        "Parámetro": "ISO/ENS",
+        "Subcampos pedidos": "Norma, versión/nivel, alcance, entidad certificadora, caducidad, momento, equivalencias",
+        "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+        "Dato/literal localizado": "ISO 9001:2015, ISO/IEC 27001:2013, ISO/IEC 20000-1:2018, ENS nivel medio (lote 2), certificación por organismo independiente, presentación en oferta/adjudicación",
+        "Documento y apartado/página": "DOC20240202141404130-24_PLIEGO.pdf, p.11-12"
+      },
+      {
+        "Parámetro": "Fabricantes/partnerships",
+        "Subcampos pedidos": "Fabricante, nivel, especialización, cartas, expiración, momento",
+        "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+        "Dato/literal localizado": "Ver tabla 5",
+        "Documento y apartado/página": "DOC20240202141404130-24_PLIEGO.pdf, p.11-12"
+      },
+      {
+        "Parámetro": "Perfiles",
+        "Subcampos pedidos": "Puesto, cantidad, titulación, experiencia, certificaciones, dedicación, jornada, presencialidad, ubicación, funciones, sustitución",
+        "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+        "Dato/literal localizado": "Ver Anexo V y tablas de recursos mínimos",
+        "Documento y apartado/página": "DOC20240202144535015+Anexo+V+Conocimientos+equipo+de+trabajo.pdf, DOC2024020214010801+PPT+2023+VI.pdf, p.22, 39"
+      },
+      {
+        "Parámetro": "ROLECE/clasificación",
+        "Subcampos pedidos": "Exigencia o alternativa, grupo, subgrupo, categoría, vigencia, fecha, momento",
+        "Estado del pliego": "ENCONTRADO EN EL PLIEGO",
+        "Dato/literal localizado": "No procede clasificación; inscripción en ROLECE permite acreditar solvencia y capacidad",
+        "Documento y apartado/página": "DOC20240202141404130-24_PLIEGO.pdf, p.12, 29"
+      }
+    ],
+    "salida_original": "### 1. Resumen factual\n\nLa licitación para el \"Servicio de soporte a la gestión de los sistemas e infraestructura de T.I.\" del Ministerio de Transportes y Movilidad Sostenible se estructura en dos lotes: Lote 1 (atención a usuarios, gestión de inventario y almacenes, mantenimiento de equipos de puesto de trabajo) y Lote 2 (soporte a administración y explotación de sistemas y redes de comunicaciones, operación de sistemas, soporte a infraestructura de CPD y mantenimiento de equipos). El adjudicatario debe aportar recursos materiales y humanos, asumir la gestión de garantías, stock y piezas, y cumplir con certificaciones de fabricantes y normas ISO/ENS. Se permite la subcontratación con límites y obligaciones de notificación. Se describen requisitos de soporte, logística, retirada y destrucción de equipos, así como dependencias de fabricantes y partners para tecnologías clave. No se identifican obligaciones de suministro de productos SaaS o licencias nominales específicas, pero sí de gestión y soporte sobre infraestructuras y plataformas existentes, incluyendo cloud (Azure, AWS) y productos Microsoft, Oracle, Red Hat, VMware, Fortinet, Veeam, Cisco, entre otros.\n\n---\n\n### 2. Mapa de suministros y terceros\n\n| Elemento/necesidad | Tipo | Cantidad/volumen | Especificación | Quien debe aportarlo | Fuente |\n|--------------------|------|------------------|----------------|----------------------|--------|\n| Equipos de soporte (portátiles, móviles, etc.) para guardias | Hardware | No especificado | Portátil y móvil para técnicos de guardia | Adjudicatario | DOC2024020214010801+PPT+2023+VI.pdf, p.11 |\n| Contact Center avanzado | Infraestructura/servicio | No especificado | Redundancia, líneas de comunicación | Adjudicatario | DOC2024020214010801+PPT+2023+VI.pdf, p.15 |\n| Stock básico de piezas de recambio | Hardware/stock | A acordar | Para equipos ofimáticos y CPD | Adjudicatario | DOC2024020214010801+PPT+2023+VI.pdf, p.21, 37 |\n| Herramienta de gestión de tickets | Software | Uso | Proporcionada por el Ministerio, pero si se usa propia, licencias a cargo del adjudicatario | Adjudicatario (si propia) | DOC2024020214010801+PPT+2023+VI.pdf, p.15, 21, 28, 30, 34 |\n| Conexión de datos entre adjudicatario y Ministerio | Red/infraestructura | No especificado | Para soporte remoto | Adjudicatario | DOC2024020214010801+PPT+2023+VI.pdf, p.25, 28, 30, 34 |\n| Retirada y destrucción de equipos/RAEE | Logística/servicio | Según necesidad | Coordinación con empresa autorizada | Adjudicatario | DOC2024020214010801+PPT+2023+VI.pdf, p.24 |\n| Certificaciones de fabricantes (ver detalle) | Certificación | Ver detalle | Ver detalle | Adjudicatario | DOC20240202141404130-24_PLIEGO.pdf, p.11-12 |\n\n---\n\n### 3. Productos, hardware y materiales\n\n| Producto | Cantidad | Características | Fabricante/referencia | Equivalente permitido | Garantía/soporte | Stock/plazo | Fuente |\n|---------|----------|----------------|----------------------|----------------------|------------------|-------------|--------|\n| Equipos de puesto de trabajo (PC, portátiles, monitores, impresoras, periféricos) | Ver Anexo IV.1 | Ver Anexo IV.1 | NO CONSTA | NO CONSTA | Gestión de garantía y piezas fuera de garantía a cargo del adjudicatario | Stock básico a acordar | DOC20240202144519014+Anexo+IV+Resumen+de+activos.pdf, p.1-2; DOC2024020214010801+PPT+2023+VI.pdf, p.20-21 |\n| Equipos de CPD (servidores, almacenamiento, electrónica de red) | Ver Anexo IV.2 | Ver Anexo IV.2 | NO CONSTA | NO CONSTA | Gestión de garantía y piezas fuera de garantía a cargo del adjudicatario | Stock básico a acordar | DOC20240202144519014+Anexo+IV+Resumen+de+activos.pdf, p.2; DOC2024020214010801+PPT+2023+VI.pdf, p.35, 37 |\n| Portátiles y móviles para guardias | No especificado | Para técnicos de guardia | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | DOC2024020214010801+PPT+2023+VI.pdf, p.11 |\n| Contact Center avanzado | No especificado | Redundancia, líneas de comunicación | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | DOC2024020214010801+PPT+2023+VI.pdf, p.15 |\n\n---\n\n### 4. Software, SaaS y licencias\n\n| Producto | Fabricante | Metrica/cantidad | Entornos | Duración | Quien lo aporta | Fuente |\n|---------|-----------|------------------|---------|----------|----------------|--------|\n| Herramienta de gestión de tickets | Ministerio/Adjudicatario | Uso | CAU, soporte, redes, sistemas | Vigencia contrato | Ministerio (por defecto), adjudicatario si propia | DOC2024020214010801+PPT+2023+VI.pdf, p.15, 21, 28, 30, 34 |\n| Microsoft System Center Service Manager | Microsoft | Uso | Gestión de servicios | Vigencia contrato | Ministerio (por defecto), adjudicatario si propia | DOC2024020214010801+PPT+2023+VI.pdf, p.21; DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.3 |\n| Office 365 (correo, OneDrive, etc.) | Microsoft | 5.500 usuarios aprox. | Híbrido (Azure y on-premises) | NO CONSTA | Ministerio | DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.3 |\n| Veeam Backup & Replication | Veeam | NO CONSTA | Backup de servidores y VMs | NO CONSTA | Ministerio | DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.3 |\n| ArcGIS Server | ESRI | NO CONSTA | GIS | NO CONSTA | Ministerio | DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.3 |\n| Azure, AWS | Microsoft, Amazon | NO CONSTA | Cloud | NO CONSTA | Ministerio | DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.4 |\n\n---\n\n### 5. Fabricantes, canal y cartas\n\n| Fabricante | Requisito | Nivel/certificación/carta exigida | Momento | Fuente |\n|-----------|-----------|-------------------------------|---------|--------|\n| Microsoft | Certificación partner | 1. Socio de soluciones en Microsoft Cloud Partner Program con al menos 2 soluciones de infraestructura o Azure, o 2. Microsoft Global System Integrator | Presentación de oferta/adjudicación | DOC20240202141404130-24_PLIEGO.pdf, p.11-12 |\n| AWS | Certificación partner | Advanced consulting partner en al menos una competencia | Presentación de oferta/adjudicación | DOC20240202141404130-24_PLIEGO.pdf, p.11-12 |\n| Cisco | Certificación partner | Gold provider en al menos una competencia | Presentación de oferta/adjudicación | DOC20240202141404130-24_PLIEGO.pdf, p.11-12 |\n| Oracle | Certificación partner | Al menos una certificación y ser miembro de la red de partners | Presentación de oferta/adjudicación | DOC20240202141404130-24_PLIEGO.pdf, p.11-12 |\n| Red Hat | Certificación partner | Premier Business Partner | Presentación de oferta/adjudicación | DOC20240202141404130-24_PLIEGO.pdf, p.11-12 |\n| Veeam | Certificación partner | Al menos una certificación | Presentación de oferta/adjudicación | DOC20240202141404130-24_PLIEGO.pdf, p.11-12 |\n| VMware | Certificación partner | Al menos una certificación | Presentación de oferta/adjudicación | DOC20240202141404130-24_PLIEGO.pdf, p.11-12 |\n| Fortinet | Certificación partner | Al menos una certificación | Presentación de oferta/adjudicación | DOC20240202141404130-24_PLIEGO.pdf, p.11-12 |\n| ENS | Certificación | ENS al menos nivel medio | Presentación de oferta/adjudicación | DOC20240202141404130-24_PLIEGO.pdf, p.11-12 |\n\n---\n\n### 6. Subcontratación, UTE y medios externos\n\n| Regla | Límite/condición | Declaración/autorización | Fuente |\n|-------|------------------|------------------------|--------|\n| Subcontratación permitida | Según LCSP, no se exige parte obligatoria directa | Declaración responsable en oferta, notificación previa y final, documentación de subcontratistas | DOC20240202141404130-24_PLIEGO.pdf, p.18, 60-62 |\n| UTE permitida | Según LCSP | Declaración responsable, compromiso de constitución, porcentaje de participación, representante único | DOC20240202141404130-24_PLIEGO.pdf, p.26, 52-53 |\n| Medios externos (partners/certificaciones) | Obligatorio para tecnologías clave (ver tabla 5) | Certificaciones y cartas a presentar en oferta/adjudicación | DOC20240202141404130-24_PLIEGO.pdf, p.11-12 |\n\n---\n\n### 7. Cadena de suministro y dependencias contractuales descritas\n\n- El adjudicatario debe gestionar la garantía y soporte de equipos en garantía y coordinarse con empresas con contratos vigentes de mantenimiento y soporte (DOC2024020214010801+PPT+2023+VI.pdf, p.20, 35).\n- El adjudicatario debe mantener stock básico de piezas para cumplir los ANS (DOC2024020214010801+PPT+2023+VI.pdf, p.21, 37).\n- El adjudicatario debe coordinar la retirada y destrucción de equipos con empresa autorizada (DOC2024020214010801+PPT+2023+VI.pdf, p.24).\n- No se describen obligaciones de cadena de suministro internacional ni restricciones de canal más allá de las certificaciones de partner/fabricante.\n\n---\n\n### 8. SLA de proveedor/fabricante, garantías y soporte exigidos\n\n- Niveles de servicio (ANS) detallados para atención, resolución, provisión de piezas, etc., con tiempos de respuesta y resolución (DOC2024020214010801+PPT+2023+VI.pdf, p.24-25, 38).\n- Gestión de garantías: el adjudicatario debe gestionar la garantía con el fabricante o tercero, incluyendo traslados y seguimiento (DOC2024020214010801+PPT+2023+VI.pdf, p.20, 35).\n- Para equipos fuera de garantía, el adjudicatario asume la provisión de piezas y la reparación (DOC2024020214010801+PPT+2023+VI.pdf, p.20, 35).\n- Penalizaciones por incumplimiento de ANS y por falta de recursos (DOC20240202141404130-24_PLIEGO.pdf, p.43-44).\n- No se exige SLA back-to-back con fabricantes, pero sí cumplimiento de ANS y gestión de garantías.\n\n---\n\n### 9. Logística, staging, stock, entrega, retirada y destrucción\n\n- El adjudicatario debe mantener stock básico de piezas para equipos de usuario y CPD (DOC2024020214010801+PPT+2023+VI.pdf, p.21, 37).\n- El adjudicatario debe encargarse de la retirada y destrucción de equipos y RAEE, coordinando con empresa autorizada y entregando documentación acreditativa (DOC2024020214010801+PPT+2023+VI.pdf, p.24).\n- El adjudicatario debe realizar traslados de equipos entre almacén y puestos de trabajo (DOC2024020214010801+PPT+2023+VI.pdf, p.24).\n- No se describen requisitos de staging ni logística internacional.\n\n---\n\n### 10. Ambigüedades y datos no localizados\n\n- No se localizan referencias a productos SaaS o licencias nominales que deba adquirir el adjudicatario, salvo la obligación de gestionar y operar sobre plataformas existentes.\n- No se especifican fabricantes obligatorios para hardware, salvo la exigencia de certificaciones de partner para tecnologías clave.\n- No se describen restricciones de canal o equivalencias técnicas para hardware/software.\n- No se identifican requisitos de homologación, sostenibilidad o EOL/EOS más allá de la gestión de garantías y soporte.\n- No se localizan obligaciones de staging, logística internacional ni condiciones de cadena de suministro internacional.\n- No se identifican cartas de compromiso de suministro de fabricantes, solo certificaciones de partner.\n\n---\n\n### 11. Documentos revisados\n\n1. DOC2024020214010801+PPT+2023+VI.pdf\n2. DOC20240202141404130-24_PLIEGO.pdf\n3. DOC20240202144445012+Anexo+II+Lista+final+de+sedes+del+MITMA+7+nov+2023.pdf\n4. DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf\n5. DOC20240202144519014+Anexo+IV+Resumen+de+activos.pdf\n6. DOC20240202144535015+Anexo+V+Conocimientos+equipo+de+trabajo.pdf\n7. DOC20240202144619016+Anexo+VI+Datos+de+peticiones+de+servicio+e+incidencias.pdf\n8. DOC_CD2024-000159639.pdf\n9. DOC_CN2024-000157989.pdf\n10. poc (enlazado desde DOC_CD2024-000159639.pdf)\n11. poc (enlazado desde DOC_CD2024-000159639.pdf)\n12. poc (enlazado desde DOC_CD2024-000159639.pdf)\n\n---\n\n### 12. Trazabilidad de requisitos y datos\n\n| Requisito/dato | Tipo | Valor/condición | Documento | Página/apartado | Estado de lectura |\n|----------------|------|----------------|-----------|-----------------|------------------|\n| Certificaciones de partner/fabricante (Microsoft, AWS, Cisco, Oracle, Red Hat, Veeam, VMware, Fortinet) | Requisito de admisión y ejecución | Ver tabla 5 | DOC20240202141404130-24_PLIEGO.pdf | p.11-12 | Leído |\n| Stock básico de piezas | Obligación de ejecución | Acordar con Ministerio | DOC2024020214010801+PPT+2023+VI.pdf | p.21, 37 | Leído |\n| Gestión de garantías y soporte | Obligación de ejecución | Adjudicatario gestiona con fabricante/tercero | DOC2024020214010801+PPT+2023+VI.pdf | p.20, 35 | Leído |\n| Subcontratación permitida | Regla contractual | Declaración responsable, notificación previa y final | DOC20240202141404130-24_PLIEGO.pdf | p.18, 60-62 | Leído |\n| UTE permitida | Regla contractual | Declaración responsable, compromiso de constitución | DOC20240202141404130-24_PLIEGO.pdf | p.26, 52-53 | Leído |\n| Herramienta de gestión de tickets | Software | Ministerio (por defecto), adjudicatario si propia | DOC2024020214010801+PPT+2023+VI.pdf | p.15, 21, 28, 30, 34 | Leído |\n| Retirada y destrucción de equipos/RAEE | Logística | Adjudicatario, empresa autorizada | DOC2024020214010801+PPT+2023+VI.pdf | p.24 | Leído |\n| ANS y penalizaciones | SLA y penalización | Ver tablas ANS y penalizaciones | DOC2024020214010801+PPT+2023+VI.pdf, DOC20240202141404130-24_PLIEGO.pdf | p.24-25, 38, 43-44 | Leído |\n| Equipos de usuario y CPD | Hardware | Ver Anexo IV | DOC20240202144519014+Anexo+IV+Resumen+de+activos.pdf | p.1-2 | Leído |\n| Cloud (Azure, AWS) | Infraestructura | Ministerio | DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf | p.4 | Leído |\n| Office 365, Veeam, ArcGIS | Software | Ministerio | DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf | p.3 | Leído |\n| Contact Center avanzado | Infraestructura | Adjudicatario | DOC2024020214010801+PPT+2023+VI.pdf | p.15 | Leído |\n| Portátiles y móviles para guardias | Hardware | Adjudicatario | DOC2024020214010801+PPT+2023+VI.pdf | p.11 | Leído |\n\n---\n\n### 13. Requisitos IA - Fuentes para proyecto viabilidad\n\n| Parámetro | Subcampos pedidos | Estado del pliego | Dato/literal localizado | Documento y apartado/página |\n|-----------|-------------------|-------------------|------------------------|-----------------------------|\n| Volumen anual de negocios | Umbral, ámbito, mejor ejercicio, ventana, moneda, medio de acreditación | ENCONTRADO EN EL PLIEGO | Lote 1: 763.840 €; Lote 2: 1.364.800 €; mejor ejercicio de los 3 últimos; cuentas anuales aprobadas y depositadas | DOC20240202141404130-24_PLIEGO.pdf, p.9-10 |\n| Patrimonio neto/ratios | Ejercicio/fecha, activos, pasivos, fórmula, resultado, umbral, medio de acreditación | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | DOC20240202141404130-24_PLIEGO.pdf |\n| Seguro RC/riesgos profesionales | Importe, actividad, asegurador, inicio, fin, vigencia, cobertura, compromiso renovación | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | DOC20240202141404130-24_PLIEGO.pdf |\n| Certificados de buena ejecución | Objeto, similitud/CPV, importe, fechas, duración, destinatario, prueba admisible | ENCONTRADO EN EL PLIEGO | Contrato de igual o similar naturaleza, grupo/subgrupo de clasificación, importe anual igual o superior al 50% del presupuesto base de licitación, acreditación mediante declaración responsable y relación de servicios | DOC20240202141404130-24_PLIEGO.pdf, p.10 |\n| ISO/ENS | Norma, versión/nivel, alcance, entidad certificadora, caducidad, momento, equivalencias | ENCONTRADO EN EL PLIEGO | ISO 9001:2015, ISO/IEC 27001:2013, ISO/IEC 20000-1:2018, ENS nivel medio (lote 2), certificación por organismo independiente, presentación en oferta/adjudicación | DOC20240202141404130-24_PLIEGO.pdf, p.11-12 |\n| Fabricantes/partnerships | Fabricante, nivel, especialización, cartas, expiración, momento | ENCONTRADO EN EL PLIEGO | Ver tabla 5 | DOC20240202141404130-24_PLIEGO.pdf, p.11-12 |\n| Perfiles | Puesto, cantidad, titulación, experiencia, certificaciones, dedicación, jornada, presencialidad, ubicación, funciones, sustitución | ENCONTRADO EN EL PLIEGO | Ver Anexo V y tablas de recursos mínimos | DOC20240202144535015+Anexo+V+Conocimientos+equipo+de+trabajo.pdf, DOC2024020214010801+PPT+2023+VI.pdf, p.22, 39 |\n| ROLECE/clasificación | Exigencia o alternativa, grupo, subgrupo, categoría, vigencia, fecha, momento | ENCONTRADO EN EL PLIEGO | No procede clasificación; inscripción en ROLECE permite acreditar solvencia y capacidad | DOC20240202141404130-24_PLIEGO.pdf, p.12, 29 |\n\n---\n\n### 14. Discrepancias y pendientes de aclaración\n\nNo se han identificado discrepancias en la documentación revisada. No se localizan datos sobre patrimonio neto, ratios financieros ni seguro de RC. No se identifican obligaciones de suministro de licencias SaaS nominales ni restricciones de canal más allá de las certificaciones de partner. No se describen requisitos de homologación, sostenibilidad, EOL/EOS, staging ni logística internacional. No se identifican cartas de compromiso de suministro de fabricantes, solo certificaciones de partner."
+  },
+  "ejecucion": "f18938bc27954dc2ab44dfa6c503a923",
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "DOC2024020214010801+PPT+2023+VI.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 116333,
+        "caracteres_enviados_al_agente": 116333,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "DOC20240202141404130-24_PLIEGO.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 185060,
+        "caracteres_enviados_al_agente": 185060,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "DOC20240202144445012+Anexo+II+Lista+final+de+sedes+del+MITMA+7+nov+2023.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 30096,
+        "caracteres_enviados_al_agente": 30096,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 4,
+        "nombre": "DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 8020,
+        "caracteres_enviados_al_agente": 8020,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 5,
+        "nombre": "DOC20240202144519014+Anexo+IV+Resumen+de+activos.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 2361,
+        "caracteres_enviados_al_agente": 2361,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 6,
+        "nombre": "DOC20240202144535015+Anexo+V+Conocimientos+equipo+de+trabajo.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 8199,
+        "caracteres_enviados_al_agente": 8199,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 7,
+        "nombre": "DOC20240202144619016+Anexo+VI+Datos+de+peticiones+de+servicio+e+incidencias.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 881,
+        "caracteres_enviados_al_agente": 881,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 8,
+        "nombre": "DOC_CD2024-000159639.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 13855,
+        "caracteres_enviados_al_agente": 13855,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 9,
+        "nombre": "DOC_CN2024-000157989.pdf",
+        "tipo": "Documento licitacion real",
+        "fuente": "Carpeta licitacion real",
+        "caracteres_extraidos": 13456,
+        "caracteres_enviados_al_agente": 13456,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 10,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC_CD2024-000159639.pdf",
+        "caracteres_extraidos": 6054,
+        "caracteres_enviados_al_agente": 6054,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 11,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC_CD2024-000159639.pdf",
+        "caracteres_extraidos": 2659,
+        "caracteres_enviados_al_agente": 2659,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 12,
+        "nombre": "poc",
+        "tipo": "Documento enlazado",
+        "fuente": "DOC_CD2024-000159639.pdf",
+        "caracteres_extraidos": 3071,
+        "caracteres_enviados_al_agente": 3071,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Se omitieron 23 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  },
+  "puntos_revision": [
+    {
+      "id": "REV-001",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Admisión, solvencia y acreditaciones",
+      "prioridad": "alta",
+      "detalle": "Revisar admisión, solvencia y acreditaciones: 13 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-001.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "10. Ambigüedades y datos no localizados",
+          "detalle": "No se especifican fabricantes obligatorios para hardware, salvo la exigencia de certificaciones de partner para tecnologías clave.",
+          "evidencia": "- No se especifican fabricantes obligatorios para hardware, salvo la exigencia de certificaciones de partner para tecnologías clave.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "3. Productos, hardware y materiales",
+          "detalle": "Producto: Equipos de puesto de trabajo (PC, portátiles, monitores, impresoras, periféricos); Cantidad: Ver Anexo IV.1; Características: Ver Anexo IV.1; Fabricante/referencia: NO CONSTA; Equivalente permitido: NO CONSTA; Garantía/soporte: Gestión de garantía y piezas fuera de garantía a cargo del adjudicatario; Stock/plazo: Stock básico a acordar; Fuente: DOC20240202144519014+Anexo+IV+Resumen+de+activos.pdf, p.1-2; DOC2024020214010801+PPT+2023+VI.pdf, p.20-21",
+          "evidencia": "| Equipos de puesto de trabajo (PC, portátiles, monitores, impresoras, periféricos) | Ver Anexo IV.1 | Ver Anexo IV.1 | NO CONSTA | NO CONSTA | Gestión de garantía y piezas fuera de garantía a cargo del adjudicatario | Stock básico a acordar | DOC20240202144519014+Anexo+IV+Resumen+de+activos.pdf, p.1-2; DOC2024020214010801+PPT+2023+VI.pdf, p.20-21 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.03",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "3. Productos, hardware y materiales",
+          "detalle": "Producto: Equipos de CPD (servidores, almacenamiento, electrónica de red); Cantidad: Ver Anexo IV.2; Características: Ver Anexo IV.2; Fabricante/referencia: NO CONSTA; Equivalente permitido: NO CONSTA; Garantía/soporte: Gestión de garantía y piezas fuera de garantía a cargo del adjudicatario; Stock/plazo: Stock básico a acordar; Fuente: DOC20240202144519014+Anexo+IV+Resumen+de+activos.pdf, p.2; DOC2024020214010801+PPT+2023+VI.pdf, p.35, 37",
+          "evidencia": "| Equipos de CPD (servidores, almacenamiento, electrónica de red) | Ver Anexo IV.2 | Ver Anexo IV.2 | NO CONSTA | NO CONSTA | Gestión de garantía y piezas fuera de garantía a cargo del adjudicatario | Stock básico a acordar | DOC20240202144519014+Anexo+IV+Resumen+de+activos.pdf, p.2; DOC2024020214010801+PPT+2023+VI.pdf, p.35, 37 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.04",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "3. Productos, hardware y materiales",
+          "detalle": "Producto: Portátiles y móviles para guardias; Cantidad: No especificado; Características: Para técnicos de guardia; Fabricante/referencia: NO CONSTA; Equivalente permitido: NO CONSTA; Garantía/soporte: NO CONSTA; Stock/plazo: NO CONSTA; Fuente: DOC2024020214010801+PPT+2023+VI.pdf, p.11",
+          "evidencia": "| Portátiles y móviles para guardias | No especificado | Para técnicos de guardia | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | DOC2024020214010801+PPT+2023+VI.pdf, p.11 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.05",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "3. Productos, hardware y materiales",
+          "detalle": "Producto: Contact Center avanzado; Cantidad: No especificado; Características: Redundancia, líneas de comunicación; Fabricante/referencia: NO CONSTA; Equivalente permitido: NO CONSTA; Garantía/soporte: NO CONSTA; Stock/plazo: NO CONSTA; Fuente: DOC2024020214010801+PPT+2023+VI.pdf, p.15",
+          "evidencia": "| Contact Center avanzado | No especificado | Redundancia, líneas de comunicación | NO CONSTA | NO CONSTA | NO CONSTA | NO CONSTA | DOC2024020214010801+PPT+2023+VI.pdf, p.15 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.06",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "13. Requisitos IA - Fuentes para proyecto viabilidad",
+          "detalle": "Parámetro: Seguro RC/riesgos profesionales; Subcampos pedidos: Importe, actividad, asegurador, inicio, fin, vigencia, cobertura, compromiso renovación; Estado del pliego: NO CONSTA EN LA DOCUMENTACION REVISADA; Dato/literal localizado: NO CONSTA; Documento y apartado/página: DOC20240202141404130-24_PLIEGO.pdf",
+          "evidencia": "| Seguro RC/riesgos profesionales | Importe, actividad, asegurador, inicio, fin, vigencia, cobertura, compromiso renovación | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | DOC20240202141404130-24_PLIEGO.pdf |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.07",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "4. Software, SaaS y licencias",
+          "detalle": "Producto: Office 365 (correo, OneDrive, etc.); Fabricante: Microsoft; Metrica/cantidad: 5.500 usuarios aprox.; Entornos: Híbrido (Azure y on-premises); Duración: NO CONSTA; Quien lo aporta: Ministerio; Fuente: DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.3",
+          "evidencia": "| Office 365 (correo, OneDrive, etc.) | Microsoft | 5.500 usuarios aprox. | Híbrido (Azure y on-premises) | NO CONSTA | Ministerio | DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.3 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.08",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "4. Software, SaaS y licencias",
+          "detalle": "Producto: Veeam Backup & Replication; Fabricante: Veeam; Metrica/cantidad: NO CONSTA; Entornos: Backup de servidores y VMs; Duración: NO CONSTA; Quien lo aporta: Ministerio; Fuente: DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.3",
+          "evidencia": "| Veeam Backup & Replication | Veeam | NO CONSTA | Backup de servidores y VMs | NO CONSTA | Ministerio | DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.3 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.09",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "4. Software, SaaS y licencias",
+          "detalle": "Producto: ArcGIS Server; Fabricante: ESRI; Metrica/cantidad: NO CONSTA; Entornos: GIS; Duración: NO CONSTA; Quien lo aporta: Ministerio; Fuente: DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.3",
+          "evidencia": "| ArcGIS Server | ESRI | NO CONSTA | GIS | NO CONSTA | Ministerio | DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.3 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.10",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "4. Software, SaaS y licencias",
+          "detalle": "Producto: Azure, AWS; Fabricante: Microsoft, Amazon; Metrica/cantidad: NO CONSTA; Entornos: Cloud; Duración: NO CONSTA; Quien lo aporta: Ministerio; Fuente: DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.4",
+          "evidencia": "| Azure, AWS | Microsoft, Amazon | NO CONSTA | Cloud | NO CONSTA | Ministerio | DOC20240202144504013+Anexo+III+Resumen+Infraestructura.pdf, p.4 |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.11",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "10. Ambigüedades y datos no localizados",
+          "detalle": "No se identifican cartas de compromiso de suministro de fabricantes, solo certificaciones de partner.",
+          "evidencia": "- No se identifican cartas de compromiso de suministro de fabricantes, solo certificaciones de partner.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.12",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "13. Requisitos IA - Fuentes para proyecto viabilidad",
+          "detalle": "Parámetro: Patrimonio neto/ratios; Subcampos pedidos: Ejercicio/fecha, activos, pasivos, fórmula, resultado, umbral, medio de acreditación; Estado del pliego: NO CONSTA EN LA DOCUMENTACION REVISADA; Dato/literal localizado: NO CONSTA; Documento y apartado/página: DOC20240202141404130-24_PLIEGO.pdf",
+          "evidencia": "| Patrimonio neto/ratios | Ejercicio/fecha, activos, pasivos, fórmula, resultado, umbral, medio de acreditación | NO CONSTA EN LA DOCUMENTACION REVISADA | NO CONSTA | DOC20240202141404130-24_PLIEGO.pdf |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.13",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "14. Discrepancias y pendientes de aclaración",
+          "detalle": "No se han identificado discrepancias en la documentación revisada. No se localizan datos sobre patrimonio neto, ratios financieros ni seguro de RC. No se identifican obligaciones de suministro de licencias SaaS nominales ni restricciones de canal más allá de las certificaciones de partner. No se describen requisitos de homologación, sostenibilidad, EOL/EOS, staging ni logística internacional. No se identifican cartas de compromiso de suministro de fabricantes, solo certificaciones de partner.",
+          "evidencia": "No se han identificado discrepancias en la documentación revisada. No se localizan datos sobre patrimonio neto, ratios financieros ni seguro de RC. No se identifican obligaciones de suministro de licencias SaaS nominales ni restricciones de canal más allá de las certificaciones de partner. No se describen requisitos de homologación, sostenibilidad, EOL/EOS, staging ni logística internacional. No se identifican cartas de compromiso de suministro de fabricantes, solo certificaciones de partner.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-002",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Seguridad, certificaciones y protección de datos",
+      "prioridad": "alta",
+      "detalle": "Revisar seguridad, certificaciones y protección de datos: 1 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-002.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "1. Resumen factual",
+          "detalle": "La licitación para el \"Servicio de soporte a la gestión de los sistemas e infraestructura de T.I.\" del Ministerio de Transportes y Movilidad Sostenible se estructura en dos lotes: Lote 1 (atención a usuarios, gestión de inventario y almacenes, mantenimiento de equipos de puesto de trabajo) y Lote 2 (soporte a administración y explotación de sistemas y redes de comunicaciones, operación de sistemas, soporte a infraestructura de CPD y mantenimiento de equipos). El adjudicatario debe aportar recursos materiales y humanos, asumir la gestión de garantías, stock y piezas, y cumplir con certificaciones de fabricantes y normas ISO/ENS. Se permite la subcontratación con límites y obligaciones de notificación. Se describen requisitos de soporte, logística, retirada y destrucción de equipos, así como dependencias de fabricantes y partners para tecnologías clave. No se identifican obligaciones de suministro de productos SaaS o licencias nominales específicas, pero sí de gestión y soporte sobre infraestructuras y plataformas existentes, incluyendo cloud (Azure, AWS) y productos Microsoft, Oracle, Red Hat, VMware, Fortinet, Veeam, Cisco, entre otros.",
+          "evidencia": "La licitación para el \"Servicio de soporte a la gestión de los sistemas e infraestructura de T.I.\" del Ministerio de Transportes y Movilidad Sostenible se estructura en dos lotes: Lote 1 (atención a usuarios, gestión de inventario y almacenes, mantenimiento de equipos de puesto de trabajo) y Lote 2 (soporte a administración y explotación de sistemas y redes de comunicaciones, operación de sistemas, soporte a infraestructura de CPD y mantenimiento de equipos). El adjudicatario debe aportar recursos materiales y humanos, asumir la gestión de garantías, stock y piezas, y cumplir con certificaciones de fabricantes y normas ISO/ENS. Se permite la subcontratación con límites y obligaciones de notificación. Se describen requisitos de soporte, logística, retirada y destrucción de equipos, así como dependencias de fabricantes y partners para tecnologías clave. No se identifican obligaciones de suministro de productos SaaS o licencias nominales específicas, pero sí de gestión y soporte sobre infraestructuras y plataformas existentes, incluyendo cloud (Azure, AWS) y productos Microsoft, Oracle, Red Hat, VMware, Fortinet, Veeam, Cisco, entre otros.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-003",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Condiciones económicas y adjudicación",
+      "prioridad": "alta",
+      "detalle": "Revisar condiciones económicas y adjudicación: 1 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-003.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "10. Ambigüedades y datos no localizados",
+          "detalle": "No se identifican requisitos de homologación, sostenibilidad o EOL/EOS más allá de la gestión de garantías y soporte.",
+          "evidencia": "- No se identifican requisitos de homologación, sostenibilidad o EOL/EOS más allá de la gestión de garantías y soporte.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-004",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Equipo, medios y ejecución del servicio",
+      "prioridad": "media",
+      "detalle": "Revisar equipo, medios y ejecución del servicio: 2 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-004.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "10. Ambigüedades y datos no localizados",
+          "detalle": "No se localizan referencias a productos SaaS o licencias nominales que deba adquirir el adjudicatario, salvo la obligación de gestionar y operar sobre plataformas existentes.",
+          "evidencia": "- No se localizan referencias a productos SaaS o licencias nominales que deba adquirir el adjudicatario, salvo la obligación de gestionar y operar sobre plataformas existentes.",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-004.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "10. Ambigüedades y datos no localizados",
+          "detalle": "No se localizan obligaciones de staging, logística internacional ni condiciones de cadena de suministro internacional.",
+          "evidencia": "- No se localizan obligaciones de staging, logística internacional ni condiciones de cadena de suministro internacional.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    }
+  ],
+  "recomendaciones": [],
+  "estado_recomendaciones": "no_generadas"
+}

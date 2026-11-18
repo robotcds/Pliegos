@@ -1,0 +1,139 @@
+Veredicto ejecutivo Go/No-Go: NO-GO
+
+Extracción de viabilidad
+
+Tabla de requisitos
+| Parámetro                                 | Literal y apartado del pliego         | Umbral y fecha exigidos                                  | Estado                | Brecha, acción y responsable                                                                                  |
+|-------------------------------------------|--------------------------------------|----------------------------------------------------------|-----------------------|-------------------------------------------------------------------------------------------------------------|
+| Ventas línea IT                           | PCAP A2                             | ≥1.200.000 EUR mejor año 2023-2025, cierre 30/10/2026    | NO CUMPLE             | Mejor año: 1.180.000 EUR (2025). Falta 20.000 EUR. Acción: No hay margen de subsanación. Resp: Dir. Financiera |
+| Patrimonio neto                           | PCAP A2                             | ≥350.000 EUR a 31/12/2025                                | CUMPLE                | 410.000 EUR. Sin brecha. Resp: Dir. Financiera                                                                |
+| Ratio liquidez                            | PCAP A2                             | ≥1,20 a 31/12/2025                                       | CUMPLE                | 1,50. Sin brecha. Resp: Dir. Financiera                                                                       |
+| Seguro RC profesional                     | PCAP A2                             | ≥1.000.000 EUR por siniestro, vigente cierre y ejecución  | CUMPLE                | 1.000.000 EUR, 01/01/2026-31/12/2026. Sin compromiso renovación 2027. Resp: Dir. Financiera                  |
+| CBE 1 (portal/sede IT)                    | PCAP A3                             | ≥350.000 EUR, finalizado 30/10/2023-30/10/2026           | CUMPLE                | 465.000 EUR, certificado. Sin brecha. Resp: Oficina de Proyectos                                             |
+| CBE 2 (portal/sede IT)                    | PCAP A3                             | ≥350.000 EUR, finalizado 30/10/2023-30/10/2026           | NO ACREDITADO         | Solo ficha comercial, sin CBE ni importe neto ejecutado certificado. Resp: Oficina de Proyectos              |
+| ISO 9001                                  | PCAP A4                             | Vigente al cierre, desarrollo/operación IT               | CUMPLE                | 01/01/2025-31/12/2027. Sin brecha. Resp: Calidad                                                            |
+| ISO 14001                                 | PCAP A4                             | Vigente al cierre, instalaciones servicio                | PENDIENTE VALIDACIÓN  | 01/07/2023-30/06/2026. Caduca antes del cierre. Acción: Renovar. Resp: Calidad                              |
+| ISO 20000-1                               | PCAP A4, PPT T2                     | Vigente al cierre, gestión del servicio                  | NO ACREDITADO         | No disponible. Acción: Buscar partner o evidencia alternativa. Resp: Calidad/Alianzas                       |
+| ISO 27001                                 | PCAP A4, PPT T3                     | Vigente al cierre, desarrollo/operación/hosting          | NO CUMPLE             | Solo oficina Madrid, excluye producción. Acción: Buscar partner con alcance adecuado. Resp: CISO/Alianzas   |
+| ENS Media                                 | PCAP A4, PPT T3                     | Certificado para entorno de producción                   | NO CUMPLE             | Solo entorno desarrollo Madrid. Acción: Buscar partner con ENS Media en producción. Resp: CISO/Alianzas     |
+| Microsoft Solutions Partner (Azure)        | PCAP A4                             | Vigente al cierre, Infraestructura (Azure)               | NO ACREDITADO         | Partner: vigente hasta 31/03/2027, especialización Azure VMware Solution caducada. Sin compromiso firmado. Resp: Alianzas |
+| ROLECE                                    | PCAP A5                             | Certificado actualizado, sin variaciones                 | PENDIENTE VALIDACIÓN  | Certificado 15/09/2026. Falta declaración de ausencia de variaciones a 30/10/2026. Resp: Administración     |
+| Clasificación alternativa                  | PCAP A5                             | Grupo V, Subgrupo 2, Categoría 3                         | NO ACREDITADO         | No consta. Acción: No aplicable.                                                                            |
+| Jefatura de proyecto: titulación informática| PPT T1                              | Titulación universitaria informática. 30/10/2026         | CUMPLE                | Ninguna. Resp: RRHH                                                                                         |
+| Jefatura de proyecto: experiencia sectorial | PPT T1                              | 8 años en IT, 5 dirigiendo proyectos similares. 30/10/26 | CUMPLE                | Ninguna. Resp: RRHH                                                                                         |
+| Jefatura de proyecto: PMP vigente           | PPT T1                              | PMP vigente a 30/10/2026                                 | NO CUMPLE             | PMP caduca 30/09/2026. Renovar antes del cierre. Resp: RRHH/Ana Torres                                      |
+| Jefatura de proyecto: dedicación            | PPT T1                              | 50%                                                      | NO ACREDITADO         | No consta disponibilidad interna ni compromiso de dedicación. Resp: RRHH                                    |
+| Backend: titulación informática             | PPT T1                              | Titulación universitaria informática. 30/10/2026         | CUMPLE                | Ninguna. Resp: RRHH                                                                                        |
+| Backend: experiencia sectorial              | PPT T1                              | 5 años en IT. 30/10/2026                                 | CUMPLE                | Ninguna. Resp: RRHH                                                                                        |
+| Backend: AWS Developer Associate vigente    | PPT T1                              | AWS Developer Associate vigente a 30/10/2026             | NO ACREDITADO         | No consta fecha de expiración ni certificado verificable. Resp: RRHH/Sofia Martin                          |
+| Backend: dedicación                        | PPT T1                              | 100%                                                     | NO ACREDITADO         | No consta disponibilidad interna ni compromiso de dedicación. Resp: RRHH                                    |
+| Declaración experiencia y títulos por persona| PPT T1                              | Declaración individualizada, títulos/certificados         | NO ACREDITADO         | No consta declaración formal ni anexos de títulos/certificados. Resp: RRHH                                 |
+| QA: dedicación                             | PPT T2                              | 50%                                                      | NO ACREDITADO         | No consta disponibilidad interna ni compromiso de dedicación. Resp: RRHH                                    |
+| Soporte N2: dedicación                     | PPT T2                              | 8x5                                                      | NO ACREDITADO         | No consta disponibilidad interna ni compromiso de dedicación. Resp: RRHH                                    |
+
+Fichas de evidencia por campo
+
+Ejercicio | Ventas globales EUR | Ventas IT EUR | Documento
+2023 | 920000 | 610000 | ERP/CA-2025
+2024 | 1350000 | 980000 | ERP/CA-2025
+2025 | 1680000 | 1180000 | ERP/CA-2025
+
+Balance a 31/12/2025: patrimonio neto 410000 EUR; activo corriente 720000 EUR; pasivo corriente 480000 EUR. Ratio liquidez: 1,50. Documento: CA-2025.
+
+Seguro RC profesional: 1.000.000 EUR por siniestro, 2.000.000 EUR agregado anual. Vigencia 01/01/2026 a 31/12/2026. Documento: RC-IT-2026-031. No consta compromiso renovación 2027.
+
+CBE-REF-001: Portal ciudadano multicanal para ayuntamiento capital; React, Java, Spring Boot, PostgreSQL, registro y pagos. CPV 72262000. Inicio 01/02/2024, fin 30/04/2025. Importe neto ejecutado certificado: 465000 EUR. Certificado buena ejecución y recepción sin reservas. Documento: CBE-REF-001.
+
+CBE-REF-002: Sede electrónica accesible para diputación provincial; React, Python, Django, formularios y notificaciones; CPV 72262000. Inicio 01/09/2023, fin 30/09/2024. Importe comercial 390000 EUR. No se aporta CBE ni importe neto ejecutado certificado. Documento: CRM REF-002.
+
+ISO 9001:2015, Q-901-114, Certificadora Ficticia Iberia, del 01/01/2025 al 31/12/2027; alcance desarrollo de software y operación de servicios IT en sede Madrid y nube UE. Documento: CAL-2026-09.
+ISO 14001:2015, M-140-208, Certificadora Ficticia Ambiental, del 01/07/2023 al 30/06/2026; alcance instalaciones de Madrid. No se aporta renovación. Documento: CAL-2026-09.
+ISO 20000-1: no disponible; no se aporta certificado ni evidencia equivalente. Documento: NO CONSTA.
+ISO 27001:2022, S-270-317, Certificadora Ficticia Seguridad, del 01/01/2025 al 31/12/2027; alcance oficina de desarrollo de Madrid. EXCLUYE alojamiento y operación de producción. Documento: CAL-2026-09.
+ENS categoría MEDIA, ENS-M-044, Auditora Ficticia ENS, del 01/01/2025 al 31/12/2026; alcance entorno de desarrollo de Madrid. NO incluye el entorno de producción en Azure. Documento: CAL-2026-09.
+
+Microsoft Solutions Partner for Infrastructure (Azure): Cloud Partner Ficticio S.A., vigente hasta 31/03/2027. Especialización Azure VMware Solution caducó el 31/08/2026; no se aporta renovación. No hay compromiso firmado de adscripción al expediente. Documento: ALI-027, FAB-2026-09.
+
+ROLECE: certificado de inscripción ROL-2026-0915, emitido 15/09/2026; sin declaración de ausencia de variaciones a 30/10/2026. Documento: ROL-2026-0915.
+
+Jefatura de proyecto: Ana Torres, Ingeniera informática, 10 años IT, 8 años dirigiendo, PMP-AT-0921, vigencia 01/10/2023 a 30/09/2026. Documento: RH-2026-09, CV, PMP-AT-0921.
+Backend: Sofia Martin, Ingeniera informática, 7 años IT, AWS Developer Associate AWS-SM-0422, sin fecha de expiración ni certificado verificable. Documento: RH-2026-09, CV.
+
+---
+
+2. Decisión ejecutiva:
+Se recomienda NO-GO para la oportunidad OPP-SW-011. Existen bloqueantes documentales y materiales de admisión que impiden la presentación válida de oferta: la empresa no alcanza el umbral de ventas IT exigido (falta 20.000 EUR, sin margen de subsanación), no se acredita el segundo CBE requerido, y faltan certificaciones obligatorias (ISO 20000-1, ISO 27001 y ENS Media para producción). Además, hay carencias en la acreditación de perfiles clave y en la documentación de partnerships y ROLECE. Estos gaps no son subsanables antes del cierre de ofertas y suponen riesgo cierto de exclusión. No procede GO condicionado salvo que el órgano acepte subsanación extraordinaria, lo que no es previsible ni habitual.
+
+3. Resumen de semáforo por agente:
+| Agente                        | Veredicto heredado         | Impacto en decisión | Riesgo         | Comentario ejecutivo |
+|-------------------------------|----------------------------|---------------------|----------------|---------------------|
+| Solvencia de perfiles         | CUMPLE PARCIALMENTE        | Crítico             | Alto           | Faltan acreditaciones y compromisos de dedicación. |
+| Solvencia de proyectos        | NO CUMPLE                  | Bloqueante          | Máximo         | Falta CBE 2, riesgo de exclusión. |
+| Económico-financiero          | NO RENTABLE                | Bloqueante          | Máximo         | No se cumple umbral de ventas IT. |
+| Requisitos administrativos    | NO CUMPLE                  | Bloqueante          | Máximo         | Gaps en ventas IT, CBE, certificaciones y ROLECE. |
+| Compras / Partners            | ALTO RIESGO                | Crítico             | Alto           | Certificaciones y partnerships no acreditados. |
+| Service Design / ITIL         | ALTO RIESGO                | Crítico             | Alto           | Falta ISO 20000-1, ISO 27001 y ENS Media en producción. |
+| Seguridad / DPO / ENS         | NO CUMPLE                  | Bloqueante          | Máximo         | No se acredita ENS Media ni ISO 27001 en producción. |
+| Coherencia Documental         | INCOHERENCIAS CRITICAS     | Bloqueante          | Máximo         | Gaps de admisión y evidencia no subsanables. |
+
+4. Riesgos bloqueantes:
+| Riesgo                                         | Fuente/agente         | Evidencia                        | Impacto      | Probabilidad | Propietario         | Acción de cierre                        | Fecha límite   | Decisión si no se cierra |
+|------------------------------------------------|-----------------------|----------------------------------|--------------|--------------|---------------------|-----------------------------------------|---------------|-------------------------|
+| No cumplimiento ventas IT                      | Económico, Coherencia | ERP/CA-2025                      | Exclusión    | 100%         | Dir. Financiera     | No subsanable                           | 30/10/2026    | NO-GO                   |
+| Falta CBE 2                                    | Proyectos, Coherencia | Solo ficha comercial, sin CBE    | Exclusión    | 100%         | Oficina Proyectos   | Obtener CBE firmado                     | 30/10/2026    | NO-GO                   |
+| Falta ISO 20000-1                              | Service Design, Compras| No disponible                    | Exclusión    | 100%         | Calidad/Alianzas    | Buscar partner con ISO 20000-1           | 30/10/2026    | NO-GO                   |
+| Falta ISO 27001 y ENS Media en producción      | Seguridad, Compras    | Certificados excluyen producción | Exclusión    | 100%         | CISO/Alianzas       | Buscar partner con alcance adecuado      | 30/10/2026    | NO-GO                   |
+| Falta acreditación partnerships y compromisos  | Compras, Coherencia   | No hay compromiso firmado        | Exclusión    | 100%         | Compras/Alianzas    | Solicitar compromiso formal              | 30/10/2026    | NO-GO                   |
+| Falta declaración ROLECE                       | Administrativo        | No consta declaración            | Exclusión    | 100%         | Administración      | Emitir declaración                      | 30/10/2026    | NO-GO                   |
+| Falta acreditación perfiles y dedicación       | Perfiles              | No consta declaración ni compromiso| Exclusión   | 100%         | RRHH                | Recabar y anexar                        | 30/10/2026    | NO-GO                   |
+
+5. Riesgos altos no bloqueantes:
+| Riesgo                        | Impacto         | Mitigación y seguimiento |
+|-------------------------------|-----------------|-------------------------|
+| Caducidad ISO 14001           | Riesgo de puntuación | Renovar antes del cierre, seguimiento a Calidad |
+| Subdimensionamiento soporte   | Riesgo operativo | Recalcular esfuerzo y dimensionar con datos de tickets |
+| Falta compromiso renovación RC| Riesgo operativo | Solicitar compromiso a aseguradora |
+
+6. Condiciones para GO:
+1. Acreditar ventas IT ≥1.200.000 EUR en mejor año 2023-2025. Responsable: Dir. Financiera. Evidencia: ERP/CA auditado. Fecha máxima: 30/10/2026.
+2. Aportar CBE 2 firmado, importe neto ejecutado ≥350.000 EUR, finalizado en ventana. Responsable: Oficina de Proyectos. Evidencia: CBE firmado. Fecha máxima: 30/10/2026.
+3. Aportar certificado ISO 20000-1 vigente al cierre. Responsable: Calidad/Alianzas. Evidencia: Certificado. Fecha máxima: 30/10/2026.
+4. Aportar certificado ISO 27001 y ENS Media para entorno de producción. Responsable: CISO/Alianzas. Evidencia: Certificados. Fecha máxima: 30/10/2026.
+5. Formalizar compromiso de partnership y adscripción. Responsable: Compras/Alianzas. Evidencia: Carta firmada. Fecha máxima: 30/10/2026.
+6. Emitir declaración de ausencia de variaciones ROLECE. Responsable: Administración. Evidencia: Declaración firmada. Fecha máxima: 30/10/2026.
+7. Recabar y anexar declaraciones y compromisos de dedicación de perfiles. Responsable: RRHH. Evidencia: Declaraciones firmadas. Fecha máxima: 30/10/2026.
+
+7. Motivos de NO-GO o de GO condicionado:
+El NO-GO se fundamenta en la imposibilidad de acreditar requisitos de admisión obligatorios: ventas IT insuficientes, falta de CBE 2, ausencia de certificaciones clave (ISO 20000-1, ISO 27001 y ENS Media en producción), y carencias en partnerships y documentación de perfiles. Estos gaps suponen exclusión automática y no son subsanables en plazo.
+
+8. Riesgos aceptables:
+Riesgos como la caducidad próxima de ISO 14001, la falta de compromiso de renovación del seguro RC o el subdimensionamiento de soporte pueden aceptarse si se gestionan antes de la adjudicación, pero no afectan la admisión.
+
+9. Plan de mitigación previo a oferta:
+- T-15: Revisión de evidencias de ventas, CBE y certificaciones. Solicitud de documentación a responsables.
+- T-10: Seguimiento de obtención de CBE y certificados. Contacto con partners y aseguradora.
+- T-5: Validación de documentación ROLECE y declaraciones de perfiles. Revisión de partnerships.
+- T-1: Chequeo final de todos los documentos y evidencias. Simulación de carga en plataforma.
+
+10. Plan de mitigación post-adjudicación:
+- Antes de formalización: Validar vigencia de todas las certificaciones y partnerships.
+- Transición: Plan de onboarding de partners y subcontratistas.
+- Go-live: Auditoría de cumplimiento de requisitos técnicos y de seguridad.
+- Primer mes: Seguimiento de SLAs y reporting de cumplimiento contractual.
+
+11. Escenarios de decisión:
+- Escenario conservador: NO-GO. No se cumplen requisitos de admisión, riesgo de exclusión total.
+- Escenario probable: NO-GO. No hay margen realista para subsanar los gaps antes del cierre.
+- Escenario agresivo: GO CONDICIONADO solo si el órgano permite subsanación extraordinaria, lo que es improbable.
+
+12. Preguntas críticas pendientes:
+- ¿El órgano de contratación admitiría subsanación de ventas IT o CBE tras el cierre? (Muy improbable)
+- ¿Existe posibilidad de acreditar ISO 20000-1, ISO 27001 y ENS Media en producción mediante partner en plazo?
+- ¿Se puede obtener compromiso formal de partnership y adscripción antes del cierre?
+
+13. Recomendación final al comité:
+Se recomienda NO-GO para OPP-SW-011 por imposibilidad de acreditar requisitos de admisión obligatorios y riesgo cierto de exclusión. Solo reconsiderar si se obtiene evidencia documental completa antes del cierre de ofertas.
+
+14. Fuentes utilizadas:
+- Agentes: Solvencia de perfiles, Solvencia de proyectos, Económico-financiero, Requisitos administrativos y legales, Compras/Partners, Service Design/ITIL, Seguridad/DPO/ENS, Coherencia Documental.
+- Documentos: PCAP OPP-SW-011, PPT OPP-SW-011, Dossier interno sintetico OPP-SW-011, ERP/CA-2025, RC-IT-2026-031, CBE-REF-001, CRM REF-002, CAL-2026-09, ALI-027, FAB-2026-09, ROL-2026-0915, RH-2026-09, CV, PMP-AT-0921.

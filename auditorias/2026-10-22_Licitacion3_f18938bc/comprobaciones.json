@@ -1,0 +1,475 @@
+{
+  "expediente": "23RHC2IN0255",
+  "ejecucion": "f18938bc27954dc2ab44dfa6c503a923",
+  "fecha": "2026-10-22",
+  "alcance": "Auditoría general documental; no certificación de exhaustividad ni asesoramiento sobre vigencia actual.",
+  "resumen_conclusion": "No apto todavía como dossier completo de preventa: pérdida en redacción y omisiones/errores de extracción.",
+  "recuento": {
+    "Correcto": 5,
+    "Error": 9,
+    "Omisión": 26,
+    "Discrepancia del pliego": 8,
+    "Control de ejecución": 3
+  },
+  "comprobaciones": [
+    {
+      "id": "L3-001",
+      "grupo": "Correcto",
+      "aspecto": "Identidad y objeto",
+      "comprobacion": "Coinciden expediente 23RHC2IN0255, organismo, objeto y división en dos lotes. Se puede licitar y resultar adjudicatario de uno o ambos, sin límite publicado por licitador.",
+      "fuente": "PCAP 1; anuncio 1",
+      "json": "A1/A2: recogido; límites de lotes poco desarrollados.",
+      "resumen": "Páginas 1-2: identificación correcta; límites no detallados."
+    },
+    {
+      "id": "L3-002",
+      "grupo": "Correcto",
+      "aspecto": "Magnitudes económicas generales",
+      "comprobacion": "Presupuesto 4.257.280 € sin IVA y 5.151.308,80 € con IVA; valor estimado 10.217.472 €. Son cifras del expediente, no ingresos garantizados.",
+      "fuente": "PCAP 3",
+      "json": "A1/A2: recogido.",
+      "resumen": "Páginas 1-2: correcto."
+    },
+    {
+      "id": "L3-003",
+      "grupo": "Correcto",
+      "aspecto": "Calendario documental y transición",
+      "comprobacion": "19/02/2024 a las 23:59 es el cierre publicado en los documentos aportados. Duración inicial de 25 meses e inclusión de un mes inicial no facturable. No se ha verificado la situación actual del expediente.",
+      "fuente": "Anuncio 2; PCAP 13-14",
+      "json": "A1/A2/A6: recogido.",
+      "resumen": "Páginas 1-2: correcto en lo básico; debería identificarse como fecha histórica."
+    },
+    {
+      "id": "L3-004",
+      "grupo": "Correcto",
+      "aspecto": "Reparto de puntos y fórmulas principales",
+      "comprobacion": "45 puntos técnicos, subcriterios 15/15/10/5 y 55 económicos. Las dos ramas de la fórmula económica reproducidas son correctas. Faltan las definiciones y el cálculo de la dispersión de bajas.",
+      "fuente": "PCAP 30-34",
+      "json": "A4: reparto y ramas principales recogidos.",
+      "resumen": "Página 3: correcto en lo reproducido, incompleto en el desarrollo."
+    },
+    {
+      "id": "L3-005",
+      "grupo": "Correcto",
+      "aspecto": "Garantías: porcentajes y garantía técnica",
+      "comprobacion": "Sin provisional; definitiva 5%; complementaria otro 5% si la oferta resulta inicialmente incursa en presunción de anormalidad. Garantía del servicio: tres meses desde recepción/conformidad de la totalidad. Falta el momento de constitución de garantías.",
+      "fuente": "PCAP 12, 18, 35, 39",
+      "json": "A2: importes; A6: garantía técnica.",
+      "resumen": "Páginas 3, 5-6: porcentajes y plazo técnico correctos; condiciones incompletas."
+    },
+    {
+      "id": "L3-006",
+      "grupo": "Error",
+      "aspecto": "CPV declarado no localizado",
+      "comprobacion": "El CPV general es 72000000. Los anuncios identifican además 72510000 para los lotes. No procede declarar NO LOCALIZADO.",
+      "fuente": "PCAP 2; anuncio 1 y 5",
+      "json": "No recuperado correctamente en las salidas de los agentes revisadas.",
+      "resumen": "Página 2: incorrecto."
+    },
+    {
+      "id": "L3-007",
+      "grupo": "Error",
+      "aspecto": "Exclusiones, subsanación y ejecución mezcladas",
+      "comprobacion": "Se agrupan omisiones documentales, exceso de páginas, salarios impagados y condiciones de ejecución como causas indiferenciadas de exclusión. Hay que separar subsanación, oferta inadmisible, no valoración y consecuencias durante ejecución/resolución.",
+      "fuente": "PCAP 22, 26-27, 31, 49",
+      "json": "A2: error ya presente en la extracción.",
+      "resumen": "Página 6: reproduce la mezcla."
+    },
+    {
+      "id": "L3-008",
+      "grupo": "Error",
+      "aspecto": "Exceso de páginas no implica exclusión automática",
+      "comprobacion": "El PCAP ordena no valorar las páginas excedentes; la exclusión expresa se refiere, entre otros supuestos, a incorporar información económica en el sobre técnico. Existe además una discordancia 100/151 que debe advertirse.",
+      "fuente": "PCAP 31",
+      "json": "A2: clasifica erróneamente el exceso como exclusión; A4: conserva no valoración.",
+      "resumen": "Página 3: no valoración; página 6: exclusión. Contradicción del propio resumen."
+    },
+    {
+      "id": "L3-009",
+      "grupo": "Error",
+      "aspecto": "Condiciones especiales y obligaciones esenciales",
+      "comprobacion": "El cuadro IV.3 enumera perfiles, PRL, discapacidad, salarios, informe ambiental anual y datos. Las calificaciones de las cláusulas 11 y 49 y las obligaciones condicionales de datos deben recogerse con su alcance; no atribuir sin fuente específica carácter esencial autónomo a toda confidencialidad o cesión intelectual.",
+      "fuente": "PCAP 11, 16, 43, 48-49",
+      "json": "A2: clasificación generalizada; A9: contiene condiciones de datos que se pierden.",
+      "resumen": "Página 6: demasiado general y mezcla categorías."
+    },
+    {
+      "id": "L3-010",
+      "grupo": "Error",
+      "aspecto": "Exención general de licencias",
+      "comprobacion": "No suministrar una solución SaaS nominal no equivale a estar exento de licencias. Si se aprueban herramientas alternativas, su instalación, integración y licencias son a cargo del adjudicatario.",
+      "fuente": "PPT PDF 15, 19, 22, 29, 32, 34-35",
+      "json": "A6/A10: sí contienen herramientas alternativas y costes; A10 añade ausencia genérica de licencias SaaS nominales.",
+      "resumen": "Página 8: excepción reducida a soporte de infraestructuras existentes; no conserva el supuesto de herramientas propias."
+    },
+    {
+      "id": "L3-011",
+      "grupo": "Error",
+      "aspecto": "Rotación: sentido de la bolsa invertido",
+      "comprobacion": "Si falta el solapamiento mínimo, las horas no solapadas pasan a formar parte de la bolsa y se descuentan de la factura siguiente. No se descuentan de la bolsa.",
+      "fuente": "PCAP 45",
+      "json": "A8: afirma que se descuentan de la bolsa; incorrecto.",
+      "resumen": "Páginas 6-7: no explica la mecánica; el error queda en el JSON."
+    },
+    {
+      "id": "L3-012",
+      "grupo": "Error",
+      "aspecto": "Incidente de datos: evento de las 72 horas",
+      "comprobacion": "La cláusula exige comunicar con máxima diligencia para que el responsable conozca el incidente dentro de las 72 horas de haberse producido. No sustituir por 72 horas desde conocimiento ni interpretar que se puede esperar ese plazo.",
+      "fuente": "PCAP 47-48",
+      "json": "A9: la tabla cambia el inicio a conocimiento; el texto narrativo omite el evento.",
+      "resumen": "No se desarrolla la obligación ni el plazo."
+    },
+    {
+      "id": "L3-013",
+      "grupo": "Error",
+      "aspecto": "Ámbito de las certificaciones personales",
+      "comprobacion": "Anexo V exige que cada técnico de administración y operación acredite al menos una certificación y que el equipo cubra el conjunto. VMware, Kubernetes, System Center, RHEL y SharePoint tienen experiencia específica, no una certificación nominal universal inventada.",
+      "fuente": "Anexo V 3-4",
+      "json": "A8: concentra requisitos en fila de seis sénior y deja otros perfiles sin certificaciones; mezcla experiencia y certificación.",
+      "resumen": "Página 7: afirma equipo detallado, pero no aporta la matriz."
+    },
+    {
+      "id": "L3-014",
+      "grupo": "Error",
+      "aspecto": "Director del proyecto por lote",
+      "comprobacion": "El resumen de mínimos contempla un director en cada lote. La fila combinada L1 y L2 con cantidad 1 puede inducir a dimensionar un único recurso total; debe mantener un recurso por lote y los requisitos distintos de experiencia.",
+      "fuente": "PPT PDF 26 y 39; Anexo V 1 y 3",
+      "json": "A8: fila combinada ambigua; trazabilidad posterior sí distingue cada lote.",
+      "resumen": "No se indican cantidades ni la distinción."
+    },
+    {
+      "id": "L3-015",
+      "grupo": "Omisión",
+      "aspecto": "Presupuesto y anualidades por lote",
+      "comprobacion": "Lote 1: 1.527.680 € sin IVA, 1.848.492,80 € con IVA; lote 2: 2.729.600 € sin IVA, 3.302.816 €. Anualidades 2024/2025/2026, total neto: 532.160 / 2.128.640 / 1.596.480 €.",
+      "fuente": "PCAP 3 y 7",
+      "json": "A2 no recoge el desglose económico por lotes ni anualidades.",
+      "resumen": "Ausente; los importes de solvencia no sustituyen estos presupuestos."
+    },
+    {
+      "id": "L3-016",
+      "grupo": "Omisión",
+      "aspecto": "Precios y partidas que sustentan la oferta",
+      "comprobacion": "PCAP 4: precios hora L1 36/22/30/26/22 € según perfil y bolsa 26 €/h; L2 director 50, jefes 45, sénior 40, júnior 30, CPD 25 y bolsa 40 €/h. Partidas anuales: CAU 74.000 €, reparación L1 34.000 €, fungibles 24.000 €, monitorización L2 60.000 € y reparación L2 60.000 €. Deben conservarse como desglose publicado, sin inventar topes individuales no establecidos. La tabla L1 está incrustada como imagen y se ha comprobado visualmente.",
+      "fuente": "PCAP 4, verificación visual",
+      "json": "No localizado el desglose en A2/A6/A10. La extracción textual de PCAP 4 recupera L2 pero omite la tabla rasterizada L1.",
+      "resumen": "Ausente."
+    },
+    {
+      "id": "L3-017",
+      "grupo": "Omisión",
+      "aspecto": "Bolsas cuantificadas",
+      "comprobacion": "L1: 2.640 horas anuales; L2: 7.040. Deben mantenerse destino, autorización y horas efectivamente realizadas; no basta afirmar que hay bolsas.",
+      "fuente": "PPT PDF 26 y 39; PCAP 4",
+      "json": "A2/A6/A8/A10: mencionan bolsas pero no sus cantidades.",
+      "resumen": "Página 5: solo mención genérica."
+    },
+    {
+      "id": "L3-018",
+      "grupo": "Omisión",
+      "aspecto": "Facturación y conformidad",
+      "comprobacion": "Trimestral vencida por horas efectivamente trabajadas a precio ofertado y aprobadas; resumen de horas mensual. Trimestres diciembre-febrero, marzo-mayo, junio-agosto y septiembre-noviembre; primeros/últimos periodos parciales y recepción para último pago. FACe; sin revisión de precios.",
+      "fuente": "PCAP 14-15; PPT PDF 8",
+      "json": "A2: recoge FACe, trimestral vencida y sin revisión, pero llama naturales a los trimestres; falta desarrollar el calendario.",
+      "resumen": "No hay apartado desarrollado de facturación; se pierde incluso lo extraído."
+    },
+    {
+      "id": "L3-019",
+      "grupo": "Omisión",
+      "aspecto": "Equipo mínimo del lote 1",
+      "comprobacion": "Un director, seis técnicos de microinformática, un coordinador de gabinetes, tres sénior de gabinetes y dos de almacenes: suma de comprobación de 13 recursos de esas categorías, más supervisor y agentes CAU dimensionados para ANS. No convertir 13 en el total de toda la prestación.",
+      "fuente": "PPT PDF 19 y 26",
+      "json": "A8: perfiles y cantidades presentes, salvo ambigüedad de director combinado.",
+      "resumen": "No hay tabla ni cifras de equipo."
+    },
+    {
+      "id": "L3-020",
+      "grupo": "Omisión",
+      "aspecto": "Equipo mínimo del lote 2 y dedicación",
+      "comprobacion": "Un director, un jefe de sistemas, seis sénior, dos júnior, un jefe de redes, dos sénior de redes y un técnico CPD: suma de comprobación 14. 1.760 h/año por recurso salvo CPD 1.920. Equipo técnico con dedicación completa y exclusiva salvo servicios gestionados y bolsa; distinguir personas de horas y servicios adicionales.",
+      "fuente": "PPT PDF 7 y 39",
+      "json": "A8: cantidades y horas mayormente presentes.",
+      "resumen": "No hay cantidades ni dedicaciones."
+    },
+    {
+      "id": "L3-021",
+      "grupo": "Omisión",
+      "aspecto": "Experiencia y certificaciones del equipo",
+      "comprobacion": "L1: dirección 2 años y 2 en roles/ITSM; supervisor 2; agentes 1; microinformática 1; coordinador VIP 3 y 1 VIP; sénior VIP 3; almacén 2. L2: dirección 5 y 2 ITSM; jefes y sénior 4; júnior y CPD 2. Conservar distribución de Windows, M365, MCSA/MOS/ITIL, Azure/AWS, Exchange, SQL, Oracle, CCNA y experiencias tecnológicas del anexo.",
+      "fuente": "Anexo V 1-4",
+      "json": "A8: mucho detalle presente, con problemas de ámbito indicados arriba.",
+      "resumen": "Página 7 dice que está detallado, pero el detalle no se publica."
+    },
+    {
+      "id": "L3-022",
+      "grupo": "Omisión",
+      "aspecto": "Arranque y sustituciones",
+      "comprobacion": "80% del equipo al inicio de ejecución y resto como máximo un mes después; verificación inicial de 15 días hábiles. Sustitución comunicada con dos semanas, realizada como máximo dos semanas desde comunicación de baja y adaptación de diez jornadas hábiles; perfiles rechazados no facturables.",
+      "fuente": "PPT PDF 8-9",
+      "json": "A8: recoge buena parte de los plazos.",
+      "resumen": "Páginas 6-7: referencias genéricas sin plazos."
+    },
+    {
+      "id": "L3-023",
+      "grupo": "Omisión",
+      "aspecto": "Horario y presencialidad",
+      "comprobacion": "Horario común de 40 h/semana: lunes-jueves 8-20, viernes 8-15, franja crítica 9-14:30. Existen franjas específicas de soporte 8-20 y gabinetes 8-22. Presencialidad general, remoto autorizado y preaviso de mayor presencialidad de 24 horas. No equivale a que cada técnico trabaje 24x7.",
+      "fuente": "PPT PDF 9-11, 21-22, 29, 32 y 34",
+      "json": "A6/A8: demasiado genérico; A8 conserva parcialmente lugares.",
+      "resumen": "Solo cobertura 24x7; insuficiente para dimensionar."
+    },
+    {
+      "id": "L3-024",
+      "grupo": "Omisión",
+      "aspecto": "Guardias y atención urgente",
+      "comprobacion": "Guardias para gabinetes, sistemas y comunicaciones; portátil, móvil y teléfono alternativo a cargo del adjudicatario; presencia inferior a 30 minutos salvo conexión remota posible. Extraordinarios avisados con mínimo 24 horas naturales, registro e informe y exceso justificado. Mantener la contradicción sobre técnicos de sistemas.",
+      "fuente": "PPT PDF 10-11 y 27",
+      "json": "A10: medios presentes; A6/A8 no desarrollan el conjunto ni presencia <30 minutos.",
+      "resumen": "No se desarrolla."
+    },
+    {
+      "id": "L3-025",
+      "grupo": "Omisión",
+      "aspecto": "Cobertura territorial y medios CAU",
+      "comprobacion": "CAU en locales especializados del adjudicatario en la UE; número 900 a su cargo; contact center redundante y comunicaciones. Soporte con centros propios o colaboradores en 30 capitales y centro/almacén propio en provincia de Madrid; desplazamientos a cargo de la empresa.",
+      "fuente": "PPT PDF 17-22",
+      "json": "A10: contact center, conexiones y equipos presentes; mínimo 30 capitales no localizado.",
+      "resumen": "Se limita a más de 100 sedes y cobertura nacional."
+    },
+    {
+      "id": "L3-026",
+      "grupo": "Omisión",
+      "aspecto": "Piezas, ampliación del parque y accidentes",
+      "comprobacion": "L1: piezas fuera de garantía, stock básico y ampliación del parque del 5% sin coste; reparación por avería/accidente no cubierta hasta 1% del parque. L2: piezas, retirada y restitución de equipos sin garantía a cargo del adjudicatario, además de gestión de terceros.",
+      "fuente": "PPT PDF 20, 22 y 35-37",
+      "json": "A10: piezas/stock y gestión de garantías sí; porcentajes 5%/1% no localizados en su desarrollo.",
+      "resumen": "Ausente."
+    },
+    {
+      "id": "L3-027",
+      "grupo": "Omisión",
+      "aspecto": "Inventario y RAEE",
+      "comprobacion": "Revisión presencial antes de tres meses de tomar control, tres meses antes de terminar y de nuevo antes de terminar una prórroga; actualización permanente, retirada/reciclaje con gestor autorizado y justificantes RAEE.",
+      "fuente": "PPT PDF 23-24",
+      "json": "A6/A10: hay gestión de inventario, retirada y RAEE, pero faltan los hitos concretos.",
+      "resumen": "No se desarrolla."
+    },
+    {
+      "id": "L3-028",
+      "grupo": "Omisión",
+      "aspecto": "Volumetría de activos",
+      "comprobacion": "Anexo IV: L1 13.183 con garantía y 6.978 sin ella, más 672 portátiles, 779 dockstations y 94 monitores aún fuera del inventario indicado; L2 252 con garantía y 762 sin ella. Conservar fecha y alcance del inventario, no presentarlo como parque actual verificado.",
+      "fuente": "Anexo IV 1-2",
+      "json": "A6: recoge los cuatro subtotales; omite las tres ampliaciones.",
+      "resumen": "No aparece el parque cuantificado."
+    },
+    {
+      "id": "L3-029",
+      "grupo": "Omisión",
+      "aspecto": "Demanda histórica",
+      "comprobacion": "Noviembre 2022-octubre 2023: 7.383 incidencias L1, 2.099 L2; 5.560 peticiones L1, 23.454 L2; 5.143 actuaciones de almacén y 8.748 llamadas CAU. Son histórico, no volumen garantizado.",
+      "fuente": "Anexo VI 1",
+      "json": "A6: extrae casi todo salvo actuaciones de almacén.",
+      "resumen": "Ausente."
+    },
+    {
+      "id": "L3-030",
+      "grupo": "Omisión",
+      "aspecto": "Tecnologías y alcance operativo",
+      "comprobacion": "Administración/explotación N2/N3, redes, CPD, backup, despliegues, distribución de software, firmware, inventario y documentación; Hyper-V/VMware, NetApp AFF-A400, AD, SQL/Oracle, Microsoft365/Exchange, Veeam, Kubernetes, ESRI, Cisco, AWS/Azure. El anexo describe infraestructura existente; no convertir todo en suministro nuevo.",
+      "fuente": "PPT PDF 27-37; Anexo III 1-4",
+      "json": "A6/A9/A10: detalle parcial y herramientas presentes.",
+      "resumen": "Solo denominaciones generales de los lotes."
+    },
+    {
+      "id": "L3-031",
+      "grupo": "Omisión",
+      "aspecto": "ANS del lote 1",
+      "comprobacion": "CAU: >95% llamadas en <30 s, alertas >99% en <1 min, escalado >99,9% según canal y cobertura. Incidencias P1: respuesta <15 min/resolución <4 h; P2 <1 h/<12 h; P3 <90 min/<24 h. Añadir peticiones, repuestos, objetivos y cómputos de cada fila.",
+      "fuente": "PPT PDF 24-25",
+      "json": "A6: seis filas de ejemplo, no la matriz completa.",
+      "resumen": "No figura ningún tiempo ni objetivo concreto."
+    },
+    {
+      "id": "L3-032",
+      "grupo": "Omisión",
+      "aspecto": "ANS del lote 2",
+      "comprobacion": "Redes: resolución <4/<6/<12 h; sistemas: <4/<8/<12 h y límites de indisponibilidad <4/<8/<12 h al año; repuestos <24/<48/<60 h. Mantener respuesta, porcentaje, prioridad y calendario por fila; P1 continúa fuera de jornada salvo acuerdo contrario.",
+      "fuente": "PPT PDF 37-38",
+      "json": "A6: solo ejemplo de sistemas P1; no las matrices completas.",
+      "resumen": "No figura el desarrollo."
+    },
+    {
+      "id": "L3-033",
+      "grupo": "Omisión",
+      "aspecto": "Cálculo de penalizaciones",
+      "comprobacion": "Falta de recursos: H=100×horas no cubiertas/horas anuales ofertadas; M=1, 1,1, 1,2 o 1,5 según tramos H≤10, ≤20, ≤30 o >30. Enfermedad: excepción penalidad primera semana. ANS: dos meses consecutivos, recursos correctores y revisión quincenal. Reparación >doble de plazo permite tercero a cargo del adjudicatario. Penalidades al 20% de adjudicación permiten resolución; conservar también límites distintos del cuadro y su redacción.",
+      "fuente": "PCAP 16-17 y 43-45",
+      "json": "A2/A6/A8: consecuencias genéricas; no fórmulas ni tramos.",
+      "resumen": "Página 6: generalización insuficiente y límite 10% sin desarrollo."
+    },
+    {
+      "id": "L3-034",
+      "grupo": "Omisión",
+      "aspecto": "Partnerships con niveles concretos",
+      "comprobacion": "L2: Microsoft dos soluciones pertinentes o Global System Integrator; AWS Advanced con competencia; Cisco Gold con competencia; Red Hat Premier; Oracle certificación y red de partners; certificaciones Veeam/VMware/Fortinet. ISO admite equivalentes; separar acreditación de solvencia en fases.",
+      "fuente": "PCAP 10-11, 24-26, 35-39",
+      "json": "A3/A10: niveles presentes; momentos de acreditación imprecisos y distintos entre agentes.",
+      "resumen": "Página 5: solo enumera marcas, perdiendo niveles/alternativas y equivalencias."
+    },
+    {
+      "id": "L3-035",
+      "grupo": "Omisión",
+      "aspecto": "Documentación por fase y garantías antes de adjudicar",
+      "comprobacion": "Sobre 1 DEUC y declaración múltiple, UTE/terceros/grupo y adscripción; sobre 2 técnico por lote; sobre 3 económico por lote. El mejor clasificado aporta pruebas y resguardos de garantías en diez días hábiles desde el día siguiente al requerimiento; retirada de oferta y penalidad 3% PBL si no atiende correctamente. No trasladar todos los certificados automáticamente a la oferta inicial.",
+      "fuente": "PCAP 24-27 y 35-40; anuncio 6-7",
+      "json": "A2: sobres genéricos; A3/A9/A10 discrepan sobre el momento de certificaciones.",
+      "resumen": "Página 6: tres sobres genéricos; no plazos/prueba posterior ni separación por lote."
+    },
+    {
+      "id": "L3-036",
+      "grupo": "Omisión",
+      "aspecto": "Seguridad, datos e incidentes",
+      "comprobacion": "Prohibición inicial de acceder/tratar datos personales, medidas para impedirlo; acceso accidental comunicado diligentemente; auditorías/inspecciones y evidencias; si se necesita acceso, formalización jurídica y declaración ubicación/cambios de servidores. Autenticación fuerte a requerimiento y medios físicos del proveedor.",
+      "fuente": "PCAP 47-48; PPT PDF 7-9 y 40",
+      "json": "A9: la mayoría presente; error del inicio de las 72 h y fecha de acreditación ENS.",
+      "resumen": "Solo menciones genéricas a ENS, confidencialidad y protección de datos."
+    },
+    {
+      "id": "L3-037",
+      "grupo": "Omisión",
+      "aspecto": "Propiedad y secreto tras el contrato",
+      "comprobacion": "Estado titular exclusivo de documentación y programas/scripts resultantes que sigan siendo necesarios al finalizar. Sin conservar/copiar documentación o cederla sin autorización; secreto profesional incluso tras finalizar y formación/información del personal.",
+      "fuente": "PCAP 46; PPT PDF 40-41",
+      "json": "A9: extraído en buena parte.",
+      "resumen": "No se desarrolla; simple mención a propiedad cedida y confidencialidad."
+    },
+    {
+      "id": "L3-038",
+      "grupo": "Omisión",
+      "aspecto": "Transición y devolución",
+      "comprobacion": "Transición de máximo un mes, sin factura ni penalización ANS; responsabilidad según exista solapamiento o no. Devolución último mes, facturable y con ANS; actualizar planificación un mes antes de finalizar ejecución y mantener niveles. Transferencia permanente de conocimiento y documentación.",
+      "fuente": "PPT PDF 13-16 y 41",
+      "json": "A6: fases y duración presentes parcialmente; falta calendario completo y excepciones.",
+      "resumen": "Intro/conclusión solo mencionan transición y reversibilidad."
+    },
+    {
+      "id": "L3-039",
+      "grupo": "Omisión",
+      "aspecto": "Entregables, seguimiento y condiciones especiales",
+      "comprobacion": "Plan de implantación/operación definitivo en primeros veinte días desde formalización según cláusula; procedimientos básicos aprobados en 30 días desde firma y datos de seguimiento a 30 días de puesta en marcha; cuadro de mando, informes, registro de esfuerzos; encuestas semestrales con primera en primer trimestre e informe ambiental anual.",
+      "fuente": "PCAP 16; PPT PDF 15-16 y 18",
+      "json": "A6: reporting/cuadro general, no todos los plazos; A2 no concreta veinte días.",
+      "resumen": "No se desarrolla."
+    },
+    {
+      "id": "L3-040",
+      "grupo": "Omisión",
+      "aspecto": "Fórmula económica y grupos en anormalidad",
+      "comprobacion": "Conservar BOj=100×(1−Ofj/PB), BM y dispersión σ de bajas de ofertas no anormales, además de ramas. La cláusula 16 usa puntuaciones, no descuentos de precio: no corregirla silenciosamente; falta regla de grupos tomando puntuación más baja y remisión a art.149 sin plazo numérico inventado.",
+      "fuente": "PCAP 33-34",
+      "json": "A4: ramas y casos, pero no desarrollo completo ni contraste de la redacción.",
+      "resumen": "Páginas 3-4 y 6: incompleto; casos de puntuaciones reproducidos sin advertir la singularidad."
+    },
+    {
+      "id": "L3-041",
+      "grupo": "Discrepancia del pliego",
+      "aspecto": "100 páginas frente a página 151",
+      "comprobacion": "Máximo 100 páginas, pero el texto sitúa las no valorables desde la 151. Debe mostrarse la discordancia y solicitar aclaración; no decidir que 101-150 se aceptan ni inventar exclusión.",
+      "fuente": "PCAP 31",
+      "json": "A2/A4: no identifican discrepancia.",
+      "resumen": "Afirma que no hay discrepancias relevantes."
+    },
+    {
+      "id": "L3-042",
+      "grupo": "Discrepancia del pliego",
+      "aspecto": "Umbral 22,5: inclusivo o estricto",
+      "comprobacion": "Cuadro: al menos 50% y umbral 22,5, junto a más de 22,5; cláusula 13 vuelve a más de 22,5. La admisión de exactamente 22,5 queda pendiente, sin elegir operador por intuición.",
+      "fuente": "PCAP 13 y 31",
+      "json": "A4: fija al menos 22,5 sin advertencia.",
+      "resumen": "Página 3: al menos 22,5, sin advertencia."
+    },
+    {
+      "id": "L3-043",
+      "grupo": "Discrepancia del pliego",
+      "aspecto": "Guardias de sistemas y personal excluido",
+      "comprobacion": "Se exige guardia de sistemas, pero la cláusula general de guardias dice que entre integrantes no se podrá incluir a los técnicos de sistemas. Conservar ambas previsiones y pedir aclaración del equipo admisible.",
+      "fuente": "PPT PDF 11 y 27",
+      "json": "No detectada por A6/A8.",
+      "resumen": "Ausente."
+    },
+    {
+      "id": "L3-044",
+      "grupo": "Discrepancia del pliego",
+      "aspecto": "Horario general frente a franjas por servicio",
+      "comprobacion": "Viernes ordinario general hasta 15 h, mientras varios servicios exigen 8-20 y gabinetes 8-22 laborables. Mostrar franjas distintas y pedir concretar encaje de turnos/extraordinarios, sin recortar cobertura ni inferir jornada individual de doce/catorce horas.",
+      "fuente": "PPT PDF 10, 21-22, 29, 32 y 34",
+      "json": "No contrastado entre A6/A8.",
+      "resumen": "Simplifica todo a cobertura 24x7."
+    },
+    {
+      "id": "L3-045",
+      "grupo": "Discrepancia del pliego",
+      "aspecto": "Prórrogas y continuidad excepcional",
+      "comprobacion": "Anuncios publican número máximo de prórrogas 0 y describen una o varias de hasta 24 meses. PCAP contempla además continuidad excepcional hasta nueve meses bajo condiciones del art.29.4. 49 meses es duración con prórroga ordinaria, no techo absoluto sin salvedades.",
+      "fuente": "Anuncio/pliegos publicados PDF 4; PCAP 14",
+      "json": "A2: no desarrolla la continuidad excepcional ni contradicción del anuncio.",
+      "resumen": "Página 2: duración máxima 49 sin salvedad."
+    },
+    {
+      "id": "L3-046",
+      "grupo": "Discrepancia del pliego",
+      "aspecto": "Certificación de condiciones a veinte días y fin de transición",
+      "comprobacion": "El PCAP pide certificar en primeros veinte días desde formalización y a la vez una vez finalizada preparación/transición; PPT permite transición de hasta un mes. Hay que conciliar los hitos, sin cambiar unilateralmente el plazo.",
+      "fuente": "PCAP 16; PPT PDF 13",
+      "json": "No advertido.",
+      "resumen": "Ausente."
+    },
+    {
+      "id": "L3-047",
+      "grupo": "Discrepancia del pliego",
+      "aspecto": "Desempate: cuándo acreditar",
+      "comprobacion": "Cláusula 17 describe méritos acreditados en sobre 1 y termina ordenando aportarlos al producirse empate, no antes. Debe conservarse el conflicto de fase, junto al desempate por trabajadores fijos con discapacidad.",
+      "fuente": "PCAP 35",
+      "json": "A4: orden de desempates simplificado, no conflicto.",
+      "resumen": "Página 4: orden genérico, sin condición exacta ni fase."
+    },
+    {
+      "id": "L3-048",
+      "grupo": "Discrepancia del pliego",
+      "aspecto": "Convenio de referencia",
+      "comprobacion": "El PCAP denomina XX al convenio de consultoría que vincula a una resolución de febrero de 2023 y cita además XX de ingeniería. Se registra como referencia documental que requiere aclarar el convenio aplicable; no se sustituye mediante consulta no realizada ni se infiere subrogación por una cláusula genérica.",
+      "fuente": "PCAP 5 y 41",
+      "json": "No se conserva ni advierte.",
+      "resumen": "Ausente."
+    },
+    {
+      "id": "L3-049",
+      "grupo": "Control de ejecución",
+      "aspecto": "Documentos leídos y alcance de esta auditoría",
+      "comprobacion": "Los nueve PDF locales figuran como texto extraído: 42+62+6+4+2+4+1+8+8=137 páginas. Hay tres documentos web adicionales con texto registrado. Esto no garantiza recuperar todas las tablas: PCAP 4 contiene tabla L1 como imagen. No se ha verificado contenido externo adicional en esta auditoría.",
+      "fuente": "JSON principal documentos_fuente; PDF originales",
+      "json": "Lectura principal realizada; sin evidencia de que el fallo general sea un PDF completo ilegible.",
+      "resumen": "No explica alcance de las fuentes ni tabla omitida."
+    },
+    {
+      "id": "L3-050",
+      "grupo": "Control de ejecución",
+      "aspecto": "Registro y validación insuficientes",
+      "comprobacion": "Solo A4 devuelve requisitos_documentales estructurados: doce registros. Los otros siete no. A6 anuncia una tabla completa en una siguiente respuesta por límite de espacio que no entrega; el proceso lo acepta completado. Validar doce registros presentes no acredita cobertura de economía, equipo, seguridad o servicio.",
+      "fuente": "JSON de agentes; comprobacion_cobertura.json",
+      "json": "Confirmado, sin revisión documental local aplicada a esta licitación.",
+      "resumen": "PDF de ocho páginas con trece apartados y duplicaciones; no dossier completo."
+    },
+    {
+      "id": "L3-051",
+      "grupo": "Control de ejecución",
+      "aspecto": "Información disponible para redacción",
+      "comprobacion": "La entrada editorial tiene unos 143.757 caracteres, contiene los ocho agentes y conserva sus respuestas originales. Gran parte de perfiles, volumetrías, medidas y datos de fabricante extraídos no aparece en el PDF. No hay evidencia suficiente para atribuir todo a truncamiento técnico de tokens.",
+      "fuente": "diagnosticos/redaccion/entrada_editorial.json",
+      "json": "Mucho detalle disponible antes del redactor.",
+      "resumen": "La pérdida se confirma comparando JSON y PDF; también existen omisiones previas."
+    }
+  ]
+}

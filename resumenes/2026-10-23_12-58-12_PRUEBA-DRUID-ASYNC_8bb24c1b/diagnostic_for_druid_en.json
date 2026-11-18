@@ -1,0 +1,133 @@
+{
+  "issue": "The same integration and minimal request succeed synchronously, but the asynchronous invocation has no retrievable result.",
+  "integration_name": "AskGPT-agent-V4-Webhook-Test",
+  "test_context": {
+    "purpose": "Test Druid webhook transport using a minimal message, without procurement documents.",
+    "configuration": "The cloned action was published. The required webhook fields were added to the GPT entity.",
+    "audit_log_observation": "The user reports no corresponding asynchronous execution visible in the cloned connector audit log.",
+    "interpretation": "The cause is not yet confirmed. The asynchronous acknowledgement alone does not establish successful execution of the connector.",
+    "evidence_note": "Identifiers, URLs, parameters, response bodies and the original request below are preserved verbatim. The original request messages are in Spanish; a separate English translation is included for reference only and was not sent to Druid."
+  },
+  "botId": "8805a55b-9947-47b5-d511-08de9ea71a4f",
+  "integrationId": "7a7e7161-2347-47d9-8134-b869a15c5210",
+  "entityName": "GPT",
+  "invocationId": "8282ecab-8e90-4e63-b8ce-d22ef5f401d1",
+  "start_url": "https://druidendpoints.druidplatform.com/api/Druid/8805a55b-9947-47b5-d511-08de9ea71a4f/GPT/7a7e7161-2347-47d9-8134-b869a15c5210/GenericIntegration",
+  "poll_url": "https://druidendpoints.druidplatform.com/api/Druid/8805a55b-9947-47b5-d511-08de9ea71a4f/GetGenericIntegrationResponse",
+  "request": {
+    "$entityTypeName$": "GPT",
+    "ChatResponse": null,
+    "FollowupQuestion": null,
+    "SourceURL": null,
+    "Confidence": null,
+    "Messages": {
+      "$entityTypeName$": "GPTChatMessage_Collection",
+      "items": [
+        {
+          "$entityTypeName$": "GPTChatMessage",
+          "Content": "Responde exclusivamente PRUEBA_ASYNC_OK.",
+          "Role": "system"
+        },
+        {
+          "$entityTypeName$": "GPTChatMessage",
+          "Content": "Prueba de transporte asíncrono, sin documentos ni análisis de licitación.",
+          "Role": "user"
+        }
+      ]
+    },
+    "toolsJSON": [
+      {
+        "type": "function",
+        "function": {
+          "name": "KB_response",
+          "description": "Respond to the user question.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "Response": {
+                "type": "string",
+                "description": "The response to be sent to the user."
+              }
+            },
+            "required": [
+              "Response"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "async_start": {
+    "http_status": 200,
+    "seconds": 0.178,
+    "body": "8282ecab-8e90-4e63-b8ce-d22ef5f401d1"
+  },
+  "async_last_poll": {
+    "http_status": 404,
+    "seconds": 0.141,
+    "body": "No response found for invocationId 8282ecab-8e90-4e63-b8ce-d22ef5f401d1"
+  },
+  "async_plain_text_poll": {
+    "http_status": 404,
+    "seconds": 0.177,
+    "body": "No response found for invocationId 8282ecab-8e90-4e63-b8ce-d22ef5f401d1"
+  },
+  "sync_response": {
+    "http_status": 200,
+    "seconds": 2.543,
+    "body": {
+      "DataSource": {
+        "finish_reason": "tool_calls",
+        "responseJSON": {
+          "annotations": [],
+          "content": null,
+          "refusal": null,
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "function": {
+                "arguments": "{\"Response\":\"PRUEBA_ASYNC_OK\"}",
+                "name": "KB_response"
+              },
+              "id": "call_RT4AVlc257ZVyABZVG5TR6lZ",
+              "type": "function"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "parameters": {
+    "async_start": {
+      "asyncResponse": "true",
+      "responseContentType": "application/json"
+    },
+    "sync_start": {
+      "asyncResponse": "false",
+      "responseContentType": "application/json"
+    },
+    "poll": {
+      "invocationId": "8282ecab-8e90-4e63-b8ce-d22ef5f401d1",
+      "responseContentType": "application/json"
+    }
+  },
+  "request_english_translation_not_sent": {
+    "system": "Respond exclusively with PRUEBA_ASYNC_OK.",
+    "user": "Asynchronous transport test, without documents or procurement analysis."
+  },
+  "observations": [
+    "The asynchronous POST returned HTTP 200 in 0.178 seconds, with the invocation ID as plain text.",
+    "Seven initial GET requests returned HTTP 404 over an approximately 60-second polling window.",
+    "Additional GET checks using responseContentType=text/plain and application/json also returned HTTP 404 for the same ID.",
+    "The separate synchronous POST, using the same integration, credentials and request body with asyncResponse=false, returned HTTP 200 in 2.543 seconds and the expected PRUEBA_ASYNC_OK response.",
+    "Polling used the exact invocation ID returned by the asynchronous POST; the polling loop did not repeat the POST."
+  ],
+  "secrets": "No tokens, passwords or authentication headers are included.",
+  "requested_checks": [
+    "Check whether the asynchronous job was queued and executed by the webhook service for this tenant.",
+    "Check where the asynchronous ResponseBody is stored and why GetGenericIntegrationResponse cannot find it.",
+    "Confirm the runtime version and any required configuration for GenericIntegration with asyncResponse=true.",
+    "Explain whether HTTP 404 with this message can represent a pending job, or indicates missing/expired response data in this environment."
+  ],
+  "documentation": "https://docs.druidai.com/1385954/Content/Webhooks/Exchanging%20Data%20with%20External%20Systems.htm#ExecuteAsynchronousIntegrationsLongRunningRequests"
+}

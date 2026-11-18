@@ -1,0 +1,49 @@
+{
+  "orden": 1,
+  "id": "A1",
+  "nombre": "Resumen breve",
+  "tipo": "referencia",
+  "ejecucion": "345a1704198e4ea8813735b477273d93",
+  "estado": "completado",
+  "contenido": {
+    "salida_original": "• Expediente: OPP-SW-004. Órgano: Diputación Ficticia del Norte. Fuente: metadatos XML, pliegos y anexo.\n• Objeto: Mantenimiento evolutivo de aplicaciones Java legacy, soporte L2/L3, pequeñas evoluciones y gestión de tickets. Fuente: pliego técnico.\n• Presupuesto: 435.600 EUR (IVA incluido), valor estimado 360.000 EUR (sin IVA). Fuente: pliego administrativo.\n• Duración: 24 meses. Fuente: pliego administrativo y técnico.\n• Plazo de presentación de ofertas: 05/10/2026 a las 12:00 (fase: presentación de ofertas). Fuente: metadatos y pliego administrativo.\nNo constan documentos no leídos ni avisos técnicos registrados."
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "Pliego administrativo OPP-SW-004 mantenimiento Java",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 4922,
+        "caracteres_enviados_al_agente": 4922,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Pliego tecnico OPP-SW-004 mantenimiento Java",
+        "tipo": "Pliego tecnico",
+        "fuente": "XML",
+        "caracteres_extraidos": 4709,
+        "caracteres_enviados_al_agente": 4709,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "Anexo solvencia OPP-SW-004 mantenimiento Java",
+        "tipo": "Documento general",
+        "fuente": "XML",
+        "caracteres_extraidos": 779,
+        "caracteres_enviados_al_agente": 779,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": []
+  }
+}

@@ -1,0 +1,33 @@
+PLIEGO TECNICO FICTICIO OPP-SW-003
+Proyecto: Migracion cloud y contenerizacion de aplicaciones municipales.
+
+Objeto:
+Migracion de seis aplicaciones internas a una plataforma Azure Kubernetes Service, incluyendo contenerizacion Docker, pipelines CI/CD, monitorizacion, backup, hardening y procedimientos de reversibilidad.
+
+Solvencia tecnica y equipo minimo:
+- Dos perfiles DevOps/cloud senior, cada uno con al menos 5 anos de experiencia en Azure, Kubernetes, Docker, CI/CD y observabilidad.
+- Un desarrollador backend senior con al menos 5 anos en Java o Python para adaptacion de servicios y APIs.
+- Jefe de proyecto con al menos 6 anos de experiencia en migraciones tecnicas.
+- Experiencia previa demostrable en al menos tres migraciones cloud de administraciones publicas.
+
+Condiciones:
+El adjudicatario debera ejecutar migraciones sin perdida de servicio, con ventana maxima de indisponibilidad de 4 horas por aplicacion.
+
+Service Design / ITIL:
+El servicio cubre transicion, migracion, operacion estabilizada durante 9 meses y reversibilidad. Alcance: 6 aplicaciones, 18 microservicios, 4 bases de datos y 3 entornos por aplicacion. Horario de soporte 12x5 con guardia localizada para ventanas de migracion.
+Procesos requeridos: Change Management formal con CAB semanal, Release/Deployment Management, Event Management, Configuration Management y Availability Management. Se exige registro de cambios, plan de vuelta atras, matriz de riesgos y aprobacion previa por aplicacion.
+SLA: durante estabilizacion, P1 respuesta <= 30 minutos y resolucion <= 4 horas; P2 respuesta <= 2 horas y resolucion <= 1 dia. Disponibilidad minima 99,5 %. Penalizacion: 2 % mensual si la disponibilidad baja de 99,5 % y 1 % por cambio fallido sin rollback documentado.
+Herramientas: Azure Monitor, Grafana y Jira Service Management aceptadas. CMDB obligatoria con aplicaciones, servicios, contenedores, pipelines, bases de datos, dependencias y propietarios. Reconciliacion mensual.
+Transicion: 8 semanas con inventario, discovery, diseno de CMDB, runbooks, pruebas de backup, simulacro de rollback y reverse shadowing.
+Reversibilidad: 4 semanas, exportacion de configuracion, pipelines, IaC, CMDB, tickets e informes de capacidad.
+
+Seguridad / DPO / ENS:
+ENS: se exige que la plataforma cloud destino cumpla ENS categoria MEDIA y que el adjudicatario disponga de ISO 27001. No se exige ENS ALTA. El alcance debera incluir administracion cloud, pipelines CI/CD, monitorizacion y soporte.
+Datos y cloud: aplicaciones y backups en regiones UE. Se requiere inventario de subencargados cloud, soporte remoto y herramientas SaaS. Prohibidas transferencias internacionales salvo autorizacion expresa.
+Medidas: MFA obligatorio, PAM para cuentas privilegiadas, bastionado de contenedores, escaneo de imagenes, gestion de secretos, cifrado de discos, network policies, WAF para aplicaciones expuestas, logs centralizados 18 meses y sincronizacion NTP.
+Vulnerabilidades: CVE critica en imagen base corregida <= 24 horas; CVE alta <= 7 dias. SAST/SCA en pipelines y aprobacion de excepciones.
+Incidentes: incidente cloud critico comunicacion <= 1 hora, RCA en 5 dias, evidencias forenses preservadas. No se exige SOC 24x7, pero si alertas y guardia en ventanas de migracion.
+Reversibilidad segura: borrado de credenciales, rotacion de secretos, exportacion IaC y certificado de eliminacion de datos temporales.
+
+Criterios:
+Los criterios de adjudicacion aplicables son los definidos en el pliego administrativo y en el anexo economico-financiero: precio 50 puntos, plan de migracion 22 puntos, plan de reversibilidad y continuidad 10 puntos, observabilidad y SLA operativo 8 puntos, certificaciones y equipo cloud 5 puntos y reduccion de plazo 5 puntos.

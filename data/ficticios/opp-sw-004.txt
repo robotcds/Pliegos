@@ -1,0 +1,40 @@
+PLIEGO TECNICO FICTICIO OPP-SW-004
+Proyecto: Mantenimiento evolutivo de aplicaciones Java legacy.
+
+Objeto:
+Servicio de mantenimiento correctivo, evolutivo y soporte L2/L3 para aplicaciones Java legacy, con gestion de tickets, pequenas evoluciones, actualizacion documental, pruebas de regresion y soporte a usuarios internos.
+
+Solvencia tecnica y equipo minimo:
+- Tres desarrolladores Java con al menos 4 anos de experiencia cada uno en Spring, SQL y mantenimiento de aplicaciones corporativas.
+- Un perfil de soporte L2 con experiencia minima de 2 anos en ITIL, SLA y gestion de incidencias.
+- Jefe de servicio con al menos 5 anos coordinando servicios de mantenimiento.
+- Cobertura de soporte en horario laboral y bolsa de 200 horas anuales para actuaciones urgentes.
+
+Indicadores:
+SLA de primera respuesta inferior a 4 horas, resolucion de incidencias criticas en 24 horas y actualizacion mensual del cuadro de mando del servicio.
+
+Service Design / ITIL:
+Servicio gestionado de mantenimiento aplicacional durante 24 meses. Alcance: 12 aplicaciones Java legacy, 900 usuarios internos, 3 sedes y volumen estimado de 180 tickets mensuales: 20 % incidencias, 60 % peticiones y 20 % cambios menores.
+Modelo exigido: Service Desk N1 del cliente, adjudicatario como N2/N3 aplicacional. Gestion de incidencias, peticiones, problemas, cambios, conocimiento y niveles de servicio. ITIL Foundation requerido para el coordinador del servicio.
+SLA: P1 respuesta <= 1 hora y resolucion <= 8 horas en 8x5; P2 respuesta <= 4 horas y resolucion <= 2 dias; P3 resolucion <= 5 dias; cambios menores <= 10 dias. Cumplimiento objetivo 95 %. Penalizacion 2 % mensual por cada SLA bajo 95 %, maximo 10 %.
+Priorizacion: prioridad = impacto x urgencia, con P1 cuando afecta a mas de 300 usuarios o bloquea proceso critico. Backlog maximo: 25 tickets envejecidos mas de 30 dias.
+Gobierno: comite operativo semanal, seguimiento mensual y direccion trimestral. Informe mensual de SLA, aging, backlog, problemas recurrentes y plan de mejora.
+Conocimiento: KEDB, runbooks, FAQ y manuales actualizados mensualmente. La documentacion sera propiedad del cliente.
+
+Delivery / Operacion:
+Go-live operativo en 30 dias naturales desde formalizacion. La toma de control incluye inventario de 12 aplicaciones, migracion de cola viva de tickets, configuracion de SLA, runbooks por aplicacion y war room durante las 2 primeras semanas.
+Dimensionamiento estimado: 180 tickets/mes, 8 cambios menores/mes, 3 despliegues mensuales y picos de cierre trimestral con +30 % de demanda. El equipo minimo debe cubrir vacaciones y bajas sin reducir SLA.
+Recursos minimos de operacion: jefe de servicio 25 %, tres desarrolladores Java 70 %, soporte L2 100 %, QA 20 % y soporte DBA Oracle puntual para incidencias criticas. El adjudicatario debe demostrar backup operativo para Java y DBA.
+Herramientas: ITSM del cliente, repositorio Git del cliente, entorno PRE y monitorizacion aplicacional aportada por adjudicatario. Sin acceso a ITSM y repositorios en semana 1, el arranque se considera de alto riesgo.
+Dependencia del proveedor saliente: transferencia de conocimiento de 5 jornadas, documentacion tecnica actualizada y listado de jobs batch. Si no colabora, el adjudicatario debera ejecutar discovery intensivo y revisar el plan de go-live.
+
+Seguridad / DPO / ENS:
+El servicio de mantenimiento accedera a datos de empleados, expedientes internos, logs de aplicaciones y bases de datos legacy. El adjudicatario actuara como encargado del tratamiento cuando acceda a datos personales para resolver incidencias.
+ENS: se exige declaracion de conformidad ENS BASICA para el servicio de soporte y mantenimiento; no se exige certificacion formal. ISO 27001 se valorara como evidencia.
+Medidas obligatorias: acceso remoto por VPN corporativa, cuentas nominativas, MFA, segregacion de funciones, registro de cambios, trazabilidad de accesos a BBDD, cifrado de backups y confidencialidad de todo el personal.
+Vulnerabilidades y parches: parches criticos de aplicaciones legacy en <= 5 dias si hay version compatible. Sistemas EOL/EOS deberan registrarse como excepcion de riesgo.
+Incidentes y brechas: comunicacion al cliente <= 4 horas; brechas de datos personales <= 2 horas. Logs de soporte y cambios retenidos 12 meses.
+Subcontratacion: permitida solo para tareas especializadas previa autorizacion; el soporte L2/L3 principal no podra desplazarse a proveedores fuera de la UE.
+
+Criterios:
+Los criterios de adjudicacion aplicables son los definidos en el pliego administrativo y en el anexo economico-financiero: precio 55 puntos, mejoras SLA automaticas 18 puntos, modelo de servicio 15 puntos, plan de transicion 7 puntos y bolsa de horas adicional 5 puntos.

@@ -1,0 +1,93 @@
+1. Veredicto ejecutivo Go/No-Go: NO-GO
+
+2. Decisión ejecutiva:
+La oportunidad OPP-SW-011 presenta bloqueos documentales y de solvencia que impiden la presentación de oferta en condiciones de admisión y ejecución. Los bloqueantes principales son: insuficiencia de ventas IT en el mejor ejercicio, falta de un segundo CBE válido, póliza de RC que no cubre toda la ejecución, ausencia de certificaciones clave (ISO 20000-1, ISO 27001 y ENS Media para producción), partnership cloud sin compromiso formal ni especialización vigente, y carencias en acreditación de perfiles críticos. Las incoherencias y brechas detectadas por Coherencia Documental y los especialistas no son subsanables antes del cierre salvo cambios sustanciales. El riesgo de exclusión es alto y la viabilidad económica no compensa el riesgo de exclusión y ejecución.
+
+3. Resumen de semáforo por agente:
+| Agente                        | Veredicto heredado                        | Impacto en decisión         | Riesgo      | Comentario ejecutivo                                                      |
+|------------------------------|--------------------------------------------|-----------------------------|------------|-------------------------------------------------------------------------|
+| Solvencia de perfiles        | CUMPLE PARCIALMENTE                        | Condiciona admisión         | Alto       | Falta dedicación y certificados vigentes en perfiles clave.              |
+| Solvencia de proyectos       | NO CUMPLE                                  | Bloqueante admisión         | Crítico    | Solo 1 CBE válido, falta el segundo.                                     |
+| Económico-financiero         | NO EVALUABLE (bloqueo admisión documental) | Bloqueante admisión         | Crítico    | Ventas IT insuficientes, póliza RC no cubre toda ejecución.              |
+| Requisitos administrativos   | NO CUMPLE                                  | Bloqueante admisión         | Crítico    | Coincide con económico-financiero y proyectos.                           |
+| Compras / Partners           | CUBIERTO CON GAPS                          | Bloqueante ejecución        | Alto       | Falta compromiso firmado y especialización vigente, dependencia partner. |
+| Service Design / ITIL        | ALTO RIESGO                                | Bloqueante ejecución        | Crítico    | Sin ISO 20000-1, ISO 27001 y ENS Media en producción.                    |
+| Seguridad / DPO / ENS        | NO CUMPLE                                  | Bloqueante ejecución        | Crítico    | Sin ENS Media ni ISO 27001 en producción, falta ISO 20000-1.             |
+| Coherencia Documental        | INCOHERENCIAS CRITICAS                     | Bloqueante global           | Crítico    | Incoherencias y brechas no subsanadas en requisitos clave.                |
+
+4. Riesgos bloqueantes:
+| Riesgo                                              | Fuente/agente         | Evidencia                                    | Impacto         | Probabilidad | Propietario         | Acción de cierre                        | Fecha límite   | Decisión si no se cierra         |
+|-----------------------------------------------------|----------------------|----------------------------------------------|-----------------|-------------|---------------------|-----------------------------------------|---------------|-------------------------------|
+| Ventas IT insuficientes (admisión)                  | Económico/Admin      | 1.180.000 EUR vs. 1.200.000 EUR exigidos     | Exclusión       | Alta        | Dir. Financiera     | No subsanable salvo clasificación        | 30/10/2026    | NO-GO                         |
+| Falta 2º CBE válido (admisión)                      | Proyectos/Admin      | Solo 1 CBE aportado                         | Exclusión       | Alta        | Of. Proyectos       | Obtener CBE firmado                     | 30/10/2026    | NO-GO                         |
+| RC profesional no cubre toda la ejecución           | Económico/Admin      | Póliza vence 31/12/2026, contrato hasta 11/2027| Exclusión    | Alta        | Dir. Financiera     | Compromiso renovación póliza             | 30/10/2026    | NO-GO                         |
+| ISO 20000-1 no disponible                           | Service Design/Seg.  | No certificado ni partner                    | Exclusión       | Alta        | Calidad/Alianzas     | Obtener certificado o partner            | 30/10/2026    | NO-GO                         |
+| ISO 27001/ENS Media no cubren producción            | Seguridad/Service    | Certificados solo para desarrollo/oficina    | Exclusión       | Alta        | CISO/Calidad         | Ampliar alcance o partner                | 30/10/2026    | NO-GO                         |
+| Partnership cloud sin compromiso/especialización    | Compras/Service      | Sin compromiso firmado, especialización caducada| Exclusión   | Alta        | Compras/Alianzas      | Formalizar compromiso y renovar           | 30/10/2026    | NO-GO                         |
+| Perfiles clave sin dedicación/certificados vigentes | Perfiles/Admin       | PMP caduca, AWS sin fecha, sin declaración   | Exclusión       | Alta        | RRHH                 | Renovar/acreditar y firmar declaración    | 30/10/2026    | NO-GO                         |
+
+5. Riesgos altos no bloqueantes:
+| Riesgo                                 | Impacto         | Mitigación y seguimiento                                  |
+|----------------------------------------|-----------------|----------------------------------------------------------|
+| ISO 14001 caduca durante ejecución     | Penalización     | Renovar antes de 30/06/2026, seguimiento por Calidad      |
+| Volumetría tickets/incidencias no clara| Sobrecoste      | Ajustar dimensionamiento y contingencia en oferta         |
+| SLA cloud y licencias no formalizados  | Penalización     | Formalizar acuerdos y SLA con partner antes de oferta     |
+
+6. Condiciones para GO:
+1. Aportar segundo CBE firmado y válido (Oficina de Proyectos, CBE, 30/10/2026).
+2. Acreditar ventas IT ≥1.200.000 EUR en mejor ejercicio o aportar clasificación alternativa (Dir. Financiera, cuentas auditadas, 30/10/2026).
+3. Renovar póliza RC profesional para cubrir toda la ejecución (Dir. Financiera, póliza/compromiso, 30/10/2026).
+4. Renovar/obtener ISO 14001 para cubrir toda la ejecución (Calidad, certificado, 30/06/2026).
+5. Obtener ISO 20000-1 o partner acreditado (Calidad/Alianzas, certificado, 30/10/2026).
+6. Ampliar ISO 27001 y ENS Media a producción o subcontratar partner certificado (CISO/Calidad, certificado, 30/10/2026).
+7. Formalizar compromiso firmado de partnership cloud y renovar especialización (Compras/Alianzas, compromiso/certificado, 30/10/2026).
+8. Renovar/acreditar certificados de perfiles clave y firmar declaración de dedicación (RRHH, certificados/declaración, 30/10/2026).
+
+7. Motivos de NO-GO o de GO condicionado:
+El NO-GO se fundamenta en la imposibilidad de acreditar requisitos de admisión y ejecución imprescindibles antes del cierre: ventas IT insuficientes, falta de CBE, póliza RC insuficiente, ausencia de certificaciones clave y partnership cloud no formalizado. Sin subsanación documental, la oferta sería excluida.
+
+8. Riesgos aceptables:
+- Caducidad de ISO 14001 durante ejecución (si se renueva a tiempo).
+- Volumetría de tickets/incidencias no detallada (puede cubrirse con contingencia).
+- SLA cloud y licencias (si se formalizan acuerdos antes de la oferta).
+
+9. Plan de mitigación previo a oferta:
+- T-15: Solicitar CBE, certificados, compromisos de partner y póliza RC renovada.
+- T-10: Revisar documentación, preparar declaración de dedicación y actualizar ROLECE.
+- T-5: Validar recepción de todos los documentos y certificados.
+- T-1: Revisión final de coherencia documental y checklist de admisión.
+
+10. Plan de mitigación post-adjudicación:
+- Antes de formalización: Revisar vigencia de certificados y compromisos de partners.
+- Transición: Formalizar acuerdos de subcontratación y SLA.
+- Go-live: Validar cobertura de seguridad y cumplimiento.
+- Primer mes: Auditoría interna de cumplimiento contractual y documental.
+
+11. Escenarios de decisión:
+- Escenario conservador: NO-GO. No se subsanan bloqueantes, riesgo de exclusión total.
+- Escenario probable: NO-GO. No se obtienen CBE ni certificados a tiempo.
+- Escenario agresivo: GO CONDICIONADO. Solo si se obtienen todos los documentos y compromisos antes del cierre, lo que es poco probable por el volumen de brechas.
+
+12. Preguntas críticas pendientes:
+- ¿Permitiría el órgano de contratación subsanar ventas IT o CBE tras el cierre?
+- ¿Admitiría partnership cloud mediante compromiso firmado a posteriori?
+- ¿Se aceptan equivalencias de ISO/ENS mediante partner externo?
+- ¿Puede acreditarse dedicación de perfiles con declaración firmada tras el cierre?
+
+13. Recomendación final al comité:
+Se recomienda NO-GO para OPP-SW-011 salvo obtención urgente y acreditada de todos los requisitos bloqueantes antes del cierre. Si se subsanan, reconsiderar como GO CONDICIONADO.
+
+14. Fuentes utilizadas:
+- Agentes: Solvencia de perfiles, Solvencia de proyectos, Económico-financiero, Requisitos administrativos y legales, Compras/Partners, Service Design/ITIL, Seguridad/DPO/ENS, Coherencia Documental.
+- Documentos: PCAP OPP-SW-011, PPT OPP-SW-011, Dossier interno sintetico OPP-SW-011, fichas de CBE, póliza RC, certificados ISO/ENS, ROLECE, CRM alianzas.
+
+Extracción de viabilidad:
+| Parámetro                        | Estado                | Dato decisivo                        | Fuente                | Acción                                 |
+|----------------------------------|-----------------------|--------------------------------------|-----------------------|----------------------------------------|
+| Ventas IT mejor ejercicio        | NO CUMPLE             | 1.180.000 EUR vs. 1.200.000 EUR      | ERP/CA-2025           | No subsanable salvo clasificación      |
+| CBE 2 (proyecto similar)         | NO ACREDITADO         | Solo 1 CBE válido                    | CBE-REF-001/002       | Obtener CBE firmado                    |
+| RC profesional ejecución completa| NO ACREDITADO         | Póliza vence antes de fin contrato   | RC-IT-2026-031        | Renovar póliza o compromiso            |
+| ISO 20000-1                      | NO ACREDITADO         | No disponible                        | CAL-2026-09           | Obtener certificado o partner           |
+| ISO 27001/ENS Media producción   | NO ACREDITADO         | Solo desarrollo/oficina              | CAL-2026-09           | Ampliar alcance o partner               |
+| Partnership cloud                | NO ACREDITADO         | Sin compromiso/especialización       | ALI-027/FAB-2026-09   | Formalizar compromiso y renovar         |
+| Perfiles clave                   | NO ACREDITADO         | Certificados/dedicación no acreditada| RH-2026-09            | Renovar/acreditar y firmar declaración  |

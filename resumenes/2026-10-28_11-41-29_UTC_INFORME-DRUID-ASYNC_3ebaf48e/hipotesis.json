@@ -1,0 +1,92 @@
+[
+  {
+    "id": "H01",
+    "estado": "CONFIRMADA",
+    "hipotesis": "El clon GPT funcionó por GenericIntegration síncrono.",
+    "evidencia_o_limite": "diagnostico_sincrono.json: HTTP 200 en 2.543 s, DataSource con PRUEBA_ASYNC_OK. Es evidencia histórica, no comprobación de disponibilidad actual."
+  },
+  {
+    "id": "H02",
+    "estado": "CONFIRMADA",
+    "hipotesis": "Hay acuses HTTP 200 con GUID y posteriores recuperaciones HTTP 404.",
+    "evidencia_o_limite": "6 acuses y 26 consultas archivadas. El ID no prueba encolado o ejecución."
+  },
+  {
+    "id": "H03",
+    "estado": "CONFIRMADA",
+    "hipotesis": "El probe antiguo no es compatible con la respuesta fija de TEST_ASYNC_SIMPLE.",
+    "evidencia_o_limite": "Exige payload Messages y resultado DataSource/GPT. El nuevo cliente aislado acepta la respuesta fija esperada y no importa extract_druid_response_text."
+  },
+  {
+    "id": "H04",
+    "estado": "CONFIRMADA",
+    "hipotesis": "El límite de observación 404 del probe antiguo es independiente de --espera.",
+    "evidencia_o_limite": "missing_response_grace=60 no se expone en CLI. Subir --espera no cambia ese margen. El nuevo cliente usa un presupuesto explícito de polling, sin llamar pending al 404."
+  },
+  {
+    "id": "H05",
+    "estado": "DESCARTADA",
+    "hipotesis": "El ID se está enviando a otro Bot ID en las URLs locales actuales.",
+    "evidencia_o_limite": "Ambas rutas configuradas contienen 8805a55b-9947-47b5-d511-08de9ea71a4f y el mismo host. No descarta un fallo de routing interno del servidor."
+  },
+  {
+    "id": "H06",
+    "estado": "DESCARTADA",
+    "hipotesis": "El cliente no sabe leer los GUID planos de los últimos intentos.",
+    "evidencia_o_limite": "Los seis acuses observados son GUID completos; el parser actual los acepta y los estados guardados coinciden con los cuerpos de consulta. El fallo inicial del parser no explica los 404 posteriores."
+  },
+  {
+    "id": "H07",
+    "estado": "DESCARTADA",
+    "hipotesis": "Cambiar solo application/json por text/plain ya resuelve los intentos archivados.",
+    "evidencia_o_limite": "La consulta text/plain archivada también devolvió 404 para 8282ecab-8e90-4e63-b8ce-d22ef5f401d1. No implica que todo problema posible de serialización esté descartado."
+  },
+  {
+    "id": "H08",
+    "estado": "PENDIENTE DE VERIFICACIÓN",
+    "hipotesis": "HTTP 404 significa trabajo pendiente en este tenant.",
+    "evidencia_o_limite": "La documentación menciona un estado incompleto pero no asigna ese significado al 404 ni publica el JSON exacto. No se asume equivalencia."
+  },
+  {
+    "id": "H09",
+    "estado": "PENDIENTE DE VERIFICACIÓN",
+    "hipotesis": "GPT o el paso REST causan el fallo asíncrono.",
+    "evidencia_o_limite": "La acción independiente sin GPT aún no está creada/publicada desde este entorno. Su comparación síncrona/asíncrona es la siguiente prueba necesaria."
+  },
+  {
+    "id": "H10",
+    "estado": "PENDIENTE DE VERIFICACIÓN",
+    "hipotesis": "ResponseBody se construye, serializa o almacena incorrectamente en modo asíncrono.",
+    "evidencia_o_limite": "El síncrono histórico prueba que puede devolverse un objeto en esa acción. No prueba persistencia del resultado asíncrono. La prueba simple distingue al menos devolución síncrona y recorrido asíncrono."
+  },
+  {
+    "id": "H11",
+    "estado": "PENDIENTE DE VERIFICACIÓN",
+    "hipotesis": "Fallo en encolado, worker, publicación asíncrona o almacén de resultados.",
+    "evidencia_o_limite": "Solo el invocationId no localiza la etapa. Requiere trazas internas DRUID; ausencia de Connector Audit Log fue informada por el usuario, no observada independientemente."
+  },
+  {
+    "id": "H12",
+    "estado": "PENDIENTE DE VERIFICACIÓN",
+    "hipotesis": "El endpoint global tiene comportamiento diferente al host de tenant.",
+    "evidencia_o_limite": "La URL global fue copiada de la plataforma y la síncrona funcionó. La documentación usa el patrón de tenant. No se ha inventado ni probado otro host. Solicitar URLs exactas a plataforma/soporte."
+  },
+  {
+    "id": "H13",
+    "estado": "PENDIENTE DE VERIFICACIÓN",
+    "hipotesis": "Versión, permisos o configuración de autenticación específica del modo asíncrono.",
+    "evidencia_o_limite": "Versión real y configuración no inspeccionadas. Un token aceptado en síncrono no demuestra todos los permisos o servicios asíncronos ni su vigencia actual."
+  },
+  {
+    "id": "H14",
+    "estado": "PENDIENTE DE VERIFICACIÓN",
+    "hipotesis": "No hay ejecución porque no aparece en audit log.",
+    "evidencia_o_limite": "No se ha inspeccionado la consola; comprobar filtros y opciones de reducción de logs antes de concluir ausencia de ejecución."
+  },
+  {
+    "id": "H15",
+    "estado": "PENDIENTE DE VERIFICACIÓN",
+    "hipotesis": "El modo asíncrono elimina el corte del conector GPT de 100 s.",
+    "evidencia_o_limite": "El timeout de un paso REST/LLM es distinto de la espera del webhook. Confirmar límites efectivos de la versión y recurso con soporte."
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "status_code": 504,
+  "url": "https://sermicro-dev.druidapcback.druidplatform.com/druidwebview/api/DataSource/PerformOperations",
+  "response_text": "",
+  "exception": null,
+  "attempts": 3,
+  "intentos": [
+    {
+      "intento": 1,
+      "status_code": 504,
+      "segundos": 100.76,
+      "timeout_operacion": 180,
+      "timeout_http": 210
+    },
+    {
+      "intento": 2,
+      "status_code": 504,
+      "segundos": 100.89,
+      "timeout_operacion": 360,
+      "timeout_http": 390
+    },
+    {
+      "intento": 3,
+      "status_code": 504,
+      "segundos": 100.44,
+      "timeout_operacion": 720,
+      "timeout_http": 750
+    }
+  ],
+  "system_prompt_chars": 20131,
+  "user_prompt_chars": 592305,
+  "payload_chars": 628033
+}

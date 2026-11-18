@@ -1,0 +1,7 @@
+PRUEBA SIN GPT EJECUTADA
+
+Síncrona: HTTP 200 y respuesta correcta.
+Asíncrona: un POST aceptado con ID; doce GET en 120 s y un GET adicional tras recibir los logs, todos 404.
+Los logs aportados muestran ejecución y ResponseBody correcto también en modo asíncrono.
+El fallo queda acotado después de producir ResponseBody y antes de recuperarlo. DRUID debe comprobar persistencia, asociación del ID, partición, routing y retención; no se ha demostrado cuál de esas causas es la exacta.
+No repetir el POST sin una variable nueva o indicación de soporte.

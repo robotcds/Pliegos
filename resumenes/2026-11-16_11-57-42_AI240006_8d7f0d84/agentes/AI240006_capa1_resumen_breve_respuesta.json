@@ -1,0 +1,88 @@
+{
+  "orden": 1,
+  "id": "A1",
+  "nombre": "Resumen breve",
+  "tipo": "referencia",
+  "ejecucion": "8d7f0d84807c4e4692cf1fa114d1db7c",
+  "estado": "completado",
+  "contenido": {
+    "resumen": [
+      "Expediente: AI240006. Órgano: Consejo de Administración-Comité de Inversiones de la Sociedad Estatal Correos y Telégrafos S.A. (Fuente: metadatos XML).",
+      "Objeto: Contratación del servicio de Administración Workplace. (Fuente: metadatos XML).",
+      "Presupuesto estimado: 2.591.500 EUR; importe total: 1.718.200 EUR (sin desglose de IVA en fuente). (Fuente: metadatos XML).",
+      "Duración prevista: 24 meses. (Fuente: metadatos XML).",
+      "Plazo de presentación de ofertas: NO CONSTA EN LA DOCUMENTACION REVISADA. (Fuente: metadatos XML, documentos no legibles).",
+      "Documentos procesados no legibles; información parcial. (Fuente: índice obligatorio, estado de lectura)."
+    ],
+    "secciones": [
+      {
+        "titulo": "Contenido inicial",
+        "parrafos": [],
+        "elementos": [
+          "Expediente: AI240006. Órgano: Consejo de Administración-Comité de Inversiones de la Sociedad Estatal Correos y Telégrafos S.A. (Fuente: metadatos XML).",
+          "Objeto: Contratación del servicio de Administración Workplace. (Fuente: metadatos XML).",
+          "Presupuesto estimado: 2.591.500 EUR; importe total: 1.718.200 EUR (sin desglose de IVA en fuente). (Fuente: metadatos XML).",
+          "Duración prevista: 24 meses. (Fuente: metadatos XML).",
+          "Plazo de presentación de ofertas: NO CONSTA EN LA DOCUMENTACION REVISADA. (Fuente: metadatos XML, documentos no legibles).",
+          "Documentos procesados no legibles; información parcial. (Fuente: índice obligatorio, estado de lectura)."
+        ],
+        "tablas": []
+      }
+    ],
+    "pendientes_y_no_localizados": [],
+    "trazabilidad": [],
+    "salida_original": "• Expediente: AI240006. Órgano: Consejo de Administración-Comité de Inversiones de la Sociedad Estatal Correos y Telégrafos S.A. (Fuente: metadatos XML).\n• Objeto: Contratación del servicio de Administración Workplace. (Fuente: metadatos XML).\n• Presupuesto estimado: 2.591.500 EUR; importe total: 1.718.200 EUR (sin desglose de IVA en fuente). (Fuente: metadatos XML).\n• Duración prevista: 24 meses. (Fuente: metadatos XML).\n• Plazo de presentación de ofertas: NO CONSTA EN LA DOCUMENTACION REVISADA. (Fuente: metadatos XML, documentos no legibles).\n• Documentos procesados no legibles; información parcial. (Fuente: índice obligatorio, estado de lectura)."
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "Pliegodefinitivofirmado.pdf",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 118,
+        "caracteres_enviados_al_agente": 118,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Pliegodefinitivofirmado.pdf",
+        "tipo": "Pliego tecnico",
+        "fuente": "XML",
+        "caracteres_extraidos": 118,
+        "caracteres_enviados_al_agente": 118,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": []
+  },
+  "puntos_revision": [
+    {
+      "id": "REV-001",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Equipo, medios y ejecución del servicio",
+      "prioridad": "media",
+      "detalle": "Revisar equipo, medios y ejecución del servicio: 1 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-001.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Contenido inicial",
+          "detalle": "Plazo de presentación de ofertas: NO CONSTA EN LA DOCUMENTACION REVISADA. (Fuente: metadatos XML, documentos no legibles).",
+          "evidencia": "• Plazo de presentación de ofertas: NO CONSTA EN LA DOCUMENTACION REVISADA. (Fuente: metadatos XML, documentos no legibles).",
+          "origen": "salida_del_agente"
+        }
+      ]
+    }
+  ],
+  "recomendaciones": [],
+  "estado_recomendaciones": "no_generadas"
+}

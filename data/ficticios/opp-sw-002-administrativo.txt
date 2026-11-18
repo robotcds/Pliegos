@@ -1,0 +1,58 @@
+PLIEGO ADMINISTRATIVO FICTICIO OPP-SW-002
+Contrato de servicios para una plataforma de IA documental.
+
+Procedimiento: abierto sujeto a regulacion armonizada ficticia.
+Presupuesto base de licitacion: 822.800 EUR IVA incluido.
+Valor estimado: 680.000 EUR.
+Duracion: 14 meses.
+Plazo de presentacion: 22/09/2026 a las 14:00.
+
+Documentacion a presentar:
+- Memoria de arquitectura IA.
+- Plan de gestion de datos y anonimización.
+- Plan de evaluacion de modelos.
+- Equipo adscrito con dedicaciones.
+- Oferta economica y mejoras.
+
+Clausulas especiales:
+El adjudicatario debera justificar trazabilidad de fuentes, supervisión humana y medidas de seguridad para datos personales.
+
+Condiciones de participacion:
+Podran presentarse empresas con capacidad de obrar, solvencia economica suficiente y ausencia de prohibiciones para contratar. Se exige estar al corriente con Hacienda y Seguridad Social. Se permite UTE, pero todos los miembros deberan firmar compromiso de confidencialidad reforzada.
+
+Solvencia economica y certificaciones:
+Facturacion minima de 1.200.000 EUR en el mejor ejercicio de los tres ultimos. Seguro de responsabilidad civil tecnologica de 1.000.000 EUR. Certificaciones obligatorias ISO 27001 y ENS categoria media.
+
+Requisitos formales:
+La oferta se presentara en cuatro archivos electronicos: A administrativo, B criterios sujetos a juicio de valor, C criterios automaticos tecnicos y D oferta economica. Queda excluida la oferta que incluya precios en B o C. Memoria tecnica maxima de 80 paginas.
+
+Obligaciones legales:
+Contrato sometido a RGPD, deber de confidencialidad indefinido para datos personales y propiedad intelectual compartida: la administracion podra reutilizar modelos, prompts y configuraciones generadas para el contrato.
+
+Criterios de adjudicacion:
+Total 100 puntos.
+- Calidad tecnica de la solucion IA: 45 puntos. Subcriterios: arquitectura RAG 12, gobierno del dato 8, evaluacion de respuestas y mitigacion de alucinaciones 10, trazabilidad de fuentes 6, seguridad/RGPD 5, explicabilidad 4.
+- Precio: 25 puntos. Formula: P = 25 x baja_oferta / baja_maxima, con puntuacion maxima a la mayor baja admitida.
+- Plan de implantacion y adopcion: 12 puntos. Se valoran fases, pilotos, formacion y gestion del cambio.
+- Mejoras automaticas: 10 puntos. Reduccion de plazo hasta 5 puntos con tope del 15 por ciento; horas de acompanamiento experto hasta 5 puntos con tope de 60 horas.
+- Certificaciones y calidad: 5 puntos. ISO 27001 2 puntos, ENS medio 2 puntos, ISO 9001 1 punto.
+- Sostenibilidad computacional: 3 puntos.
+Umbral minimo: 30 puntos sobre los 45 de calidad tecnica IA.
+
+ANEXO ECONOMICO-FINANCIERO:
+Importe de oferta economica: 680.000 EUR sin IVA. IVA 21 por ciento. PBL con IVA 822.800 EUR. No hay lotes.
+La formula de precio depende de la mayor baja admitida: P = 25 x baja_oferta / baja_maxima. Si la baja maxima es cero, todas las ofertas reciben 0 puntos de precio.
+Oferta anormal: se aplicara criterio de baja temeraria cuando la oferta sea inferior en mas de 10 puntos porcentuales a la media de bajas admitidas o supere el 25 por ciento de baja.
+Facturacion: 15 por ciento al cierre de analisis, 35 por ciento al piloto, 30 por ciento al despliegue, 20 por ciento tras aceptacion final.
+Costes obligatorios:
+- Equipo 14 meses: responsable proyecto 30 por ciento, especialista IA 100 por ciento, backend 70 por ciento, especialista datos 80 por ciento, DevOps 40 por ciento, ciberseguridad 20 por ciento.
+- Cloud IA/RAG en UE durante 14 meses. El pliego estima 55.000 EUR totales, pero exige embeddings, busqueda semantica, monitorizacion, entornos PRE/PRO y retencion de logs 24 meses.
+- Costes LLM/IA generativa: consumo estimado 3.000.000 tokens/mes. El adjudicatario asumira excesos hasta 20 por ciento sobre volumen base.
+- EIPD, pentest, SAST/SCA, SBOM y auditoria de privacidad incluidos en precio.
+- Formacion y adopcion: 30 horas de formacion y 60 horas de acompanamiento experto si se ofertan mejoras.
+Revision de precios: no prevista. Riesgo por incremento de coste cloud/IA durante la ejecucion.
+Penalizaciones: hasta 10 por ciento del importe del hito si la precision minima, trazabilidad o disponibilidad del piloto no cumple los umbrales.
+
+ANEXO COMPRAS / PARTNERS:
+Se requiere plataforma cloud IA en region UE, herramienta de vector database gestionada o equivalente, licencias SAST/SCA, servicio de anonimizado de datos para pruebas y EIPD con apoyo experto. El adjudicatario debe garantizar que ningun subproveedor IA realiza transferencias internacionales sin autorizacion.
+No se exige fabricante concreto, pero cualquier SaaS de IA debe aportar DPA, listado de subencargados y ubicacion de datos. Se recomienda validar con Cloud Partner Ficticio S.A. la arquitectura Azure y con Pentest Lab Ficticio S.L. el pentest/EIPD. Necesidad derivada: revisar si hace falta partner especializado en IA responsable para trazabilidad y evaluacion de sesgos.

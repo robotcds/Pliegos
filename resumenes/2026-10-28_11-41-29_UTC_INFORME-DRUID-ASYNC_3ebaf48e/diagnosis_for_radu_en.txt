@@ -1,0 +1,60 @@
+Subject: GenericIntegration async acknowledgement followed by persistent 404 - API COIIM / sermicro-dev
+
+Hi Radu,
+
+We reviewed the existing evidence without submitting more GPT requests.
+Tenant: sermicro-dev. Agent: API COIIM.
+Bot ID: 8805a55b-9947-47b5-d511-08de9ea71a4f.
+Published test clone: AskGPT-agent-V4-Webhook-Test.
+Action ID: 7a7e7161-2347-47d9-8134-b869a15c5210.
+Host copied from the platform: https://druidendpoints.druidplatform.com
+
+POST /api/Druid/8805a55b-9947-47b5-d511-08de9ea71a4f/GPT/7a7e7161-2347-47d9-8134-b869a15c5210/GenericIntegration
+GET /api/Druid/8805a55b-9947-47b5-d511-08de9ea71a4f/GetGenericIntegrationResponse
+
+Synchronous control (archived): asyncResponse=false, HTTP 200 in 2.543 seconds,
+returning DataSource with PRUEBA_ASYNC_OK.
+Async starts (archived): asyncResponse=true, HTTP 200 and a plain GUID. We have
+6 archived acknowledgements and
+26 polling records; no successful result was recorded.
+GET uses invocationId from that acknowledgement and responseContentType=application/json.
+An archived text/plain retrieval also returned 404. The async POST is not repeated
+inside the polling loop. The reported observation was approximately 60 seconds.
+
+Relevant invocation IDs:
+8282ecab-8e90-4e63-b8ce-d22ef5f401d1
+91934844-db82-4011-be7c-f314ac5d40a4
+86ab03fb-649c-401c-8f9e-7d49b9b5b1f4
+
+Body: No response found for invocationId <the same ID>
+
+The developer reports no corresponding asynchronous execution in Connector Audit
+Log. We could not independently inspect that console; please also check logging
+reduction settings and filters. The legacy HTTP records lack per-request UTC and
+response headers, so we cannot provide historical server correlation headers.
+Directory timestamps are local filenames, not verified HTTP UTC timestamps.
+
+We prepared, but have NOT created or executed, a new TEST_ASYNC_SIMPLE action with
+a single Custom Code task, no GPT and no external API. It sets ResponseBody to a
+fixed JObject. The local comparison client is ready and records UTC, URLs,
+response headers/correlations, complete sanitized bodies, timing and invocationId.
+Its 404 classification is explicitly unknown, not an assumed pending state.
+25 offline Python tests and 4 local JS checks passed; these are not DRUID tests.
+
+Could you confirm:
+1. The actual version and async feature/configuration for this tenant.
+2. The exact pending status/HTTP body contract; the public page does not specify
+   that a 404 means running.
+3. Whether these invocation IDs were accepted, queued and assigned to a worker.
+4. If executed, whether ResponseBody was stored, under which bot/tenant/partition,
+   and why the retrieval lookup cannot find it.
+5. Whether the global endpoint supports this async route, or provide the exact
+   supported POST/GET URLs copied for this tenant. We have not guessed a new host.
+6. Any async-specific authorization, publication, routing or service error.
+7. How webhook async duration and connector task/LLM timeouts apply here; moving
+   to async must not be assumed to remove the separate 100-second GPT connector cut.
+
+Attached evidence is sanitized. No bearer tokens, credentials or auth headers.
+The next useful live experiment is the no-GPT action; a published real action ID
+is required before submitting it. Waiting 120 seconds is an observation budget,
+not presented as a fix. We cannot yet determine whether this is a backend fault.

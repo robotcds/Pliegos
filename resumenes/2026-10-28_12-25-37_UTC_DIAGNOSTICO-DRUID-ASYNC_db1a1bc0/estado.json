@@ -1,0 +1,31 @@
+{
+  "botId": "8805a55b-9947-47b5-d511-08de9ea71a4f",
+  "integrationId": "a01aac92-01d1-40b9-8959-1937189f4d4c",
+  "entityName": "GPT",
+  "host": "druidendpoints.druidplatform.com",
+  "association_verified_by_server": true,
+  "created_at_utc": "2026-10-28T12:25:37.135+00:00",
+  "start_url": "https://druidendpoints.druidplatform.com/api/Druid/8805a55b-9947-47b5-d511-08de9ea71a4f/GPT/a01aac92-01d1-40b9-8959-1937189f4d4c/GenericIntegration",
+  "poll_url": "https://druidendpoints.druidplatform.com/api/Druid/8805a55b-9947-47b5-d511-08de9ea71a4f/GetGenericIntegrationResponse",
+  "diagnosticCorrelationId": "d00e47ff-85f9-4c80-bd33-825a79ce8194",
+  "expected": {
+    "status": "success",
+    "message": "PRUEBA_ASYNC_OK",
+    "test": "TEST_ASYNC_SIMPLE"
+  },
+  "status": "POLLING_TIMEOUT",
+  "queries": 12,
+  "invocationId": "67af36d4-a63d-4d0c-94ac-a3c3f98721db",
+  "payload": {
+    "test": "TEST_ASYNC_SIMPLE",
+    "diagnosticCorrelationId": "d00e47ff-85f9-4c80-bd33-825a79ce8194"
+  },
+  "sync_classification": "RESULT_RETRIEVED",
+  "ack_received_at_utc": "2026-10-28T12:25:37.991+00:00",
+  "last_poll_at_utc": "2026-10-28T12:27:29.062+00:00",
+  "observation_categories": [
+    "HTTP_404_MEANING_UNCONFIRMED"
+  ],
+  "stopped_at_utc": "2026-10-28T12:27:37.997+00:00",
+  "server_job_status": "UNKNOWN"
+}

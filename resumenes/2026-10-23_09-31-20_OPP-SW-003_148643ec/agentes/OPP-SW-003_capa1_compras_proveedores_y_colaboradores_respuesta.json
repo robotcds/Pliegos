@@ -1,0 +1,1135 @@
+{
+  "orden": 8,
+  "id": "A10",
+  "nombre": "Compras, proveedores y colaboradores",
+  "tipo": "extraccion",
+  "ejecucion": "148643ec3cf64b459ff90194acd8bf8e",
+  "estado": "completado",
+  "contenido": {
+    "requisitos_documentales": [
+      {
+        "id": "R0001",
+        "seccion": "Compras y suministros",
+        "detalle": "El adjudicatario debe aportar herramientas de escaneo de contenedores, licencias SAST/SCA para 5 usuarios, Grafana/Prometheus gestionado si no usa herramientas del cliente, cloud temporal de migración Azure y soporte de fabricante/partner durante ventanas de migración.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0002",
+        "seccion": "Compras y suministros",
+        "detalle": "Jira Service Management será aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0003",
+        "seccion": "Compras y suministros",
+        "detalle": "El adjudicatario debe financiar compras y licencias con recursos propios hasta el cobro de hitos; no hay anticipo.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0004",
+        "seccion": "Compras y suministros",
+        "detalle": "Cloud temporal de migración: 4.200 EUR/mes durante 6 meses para entornos paralelos, pruebas y observabilidad. No está presupuestado de forma separada en el pliego.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0005",
+        "seccion": "Compras y suministros",
+        "detalle": "Herramientas obligatorias: repositorio IaC, escaneo de contenedores, monitorización Grafana/Prometheus y licencias SAST/SCA para 5 usuarios.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0006",
+        "seccion": "Compras y suministros",
+        "detalle": "Azure Monitor, Grafana y Jira Service Management aceptadas como herramientas de monitorización y gestión.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0007",
+        "seccion": "Fabricantes y productos",
+        "detalle": "Se exige carta de compromiso del partner cloud para soporte AKS y confirmación de regiones UE.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0008",
+        "seccion": "Fabricantes y productos",
+        "detalle": "Accion: deal registration Microsoft, RFQ de cloud temporal y compromiso back-to-back de guardias.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0009",
+        "seccion": "Fabricantes y productos",
+        "detalle": "No se admiten variantes.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0010",
+        "seccion": "Fabricantes y productos",
+        "detalle": "Se permite Grafana/Prometheus gestionado por el adjudicatario si no se usan herramientas del cliente.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0011",
+        "seccion": "Fabricantes y productos",
+        "detalle": "Cloud temporal de migración debe ser Azure y en regiones UE.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners; Pliego técnico OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0012",
+        "seccion": "Fabricantes y productos",
+        "detalle": "Se exige que la plataforma cloud destino cumpla ENS categoría MEDIA.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0013",
+        "seccion": "Fabricantes y productos",
+        "detalle": "Aplicaciones y backups deben estar en regiones UE.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0014",
+        "seccion": "Fabricantes y productos",
+        "detalle": "Se requiere inventario de subencargados cloud, soporte remoto y herramientas SaaS.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0015",
+        "seccion": "Fabricantes y productos",
+        "detalle": "Prohibidas transferencias internacionales salvo autorización expresa.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0016",
+        "seccion": "Fabricantes y productos",
+        "detalle": "Vulnerabilidades: CVE crítica en imagen base corregida <= 24 horas; CVE alta <= 7 días. SAST/SCA en pipelines y aprobación de excepciones.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0017",
+        "seccion": "Fabricantes y productos",
+        "detalle": "Reversibilidad segura: borrado de credenciales, rotación de secretos, exportación IaC y certificado de eliminación de datos temporales.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0018",
+        "seccion": "Licencias y SaaS",
+        "detalle": "Licencias SAST/SCA para 5 usuarios a aportar por el adjudicatario.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0019",
+        "seccion": "Licencias y SaaS",
+        "detalle": "Jira Service Management aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0020",
+        "seccion": "Licencias y SaaS",
+        "detalle": "Azure Monitor, Grafana y Jira Service Management aceptadas como herramientas de monitorización y gestión.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0021",
+        "seccion": "Licencias y SaaS",
+        "detalle": "Herramientas SaaS para soporte remoto y gestión de cambios requeridas.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0022",
+        "seccion": "Licencias y SaaS",
+        "detalle": "CMDB obligatoria con aplicaciones, servicios, contenedores, pipelines, bases de datos, dependencias y propietarios.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0023",
+        "seccion": "Licencias y SaaS",
+        "detalle": "Cloud temporal de migración Azure a aportar por el adjudicatario.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0024",
+        "seccion": "Licencias y SaaS",
+        "detalle": "Cloud temporal de migración: 4.200 EUR/mes durante 6 meses.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0025",
+        "seccion": "Licencias y SaaS",
+        "detalle": "El adjudicatario debe aportar herramientas de escaneo de contenedores, SAST/SCA, Grafana/Prometheus gestionado si no usa herramientas del cliente.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0026",
+        "seccion": "Licencias y SaaS",
+        "detalle": "El adjudicatario debe financiar compras y licencias con recursos propios hasta el cobro de hitos.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0027",
+        "seccion": "Certificaciones y canal",
+        "detalle": "Se exige carta de compromiso del partner cloud para soporte AKS y confirmación de regiones UE.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0028",
+        "seccion": "Certificaciones y canal",
+        "detalle": "Accion: deal registration Microsoft, RFQ de cloud temporal y compromiso back-to-back de guardias.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0029",
+        "seccion": "Certificaciones y canal",
+        "detalle": "Se exige ISO 27001 para el adjudicatario.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud; Pliego técnico OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0030",
+        "seccion": "Certificaciones y canal",
+        "detalle": "Se exige clasificación empresarial equivalente a servicios de consultoría y desarrollo informático Grupo V, Subgrupo 2, Categoría 3, o acreditación alternativa solo para empresas no españolas.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0031",
+        "seccion": "Certificaciones y canal",
+        "detalle": "Certificaciones y equipo cloud: CKA 2 puntos, Azure Administrator 2 puntos, ISO 27001 1 punto (criterio puntuable).",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0032",
+        "seccion": "Subcontratación y UTE",
+        "detalle": "Se permite subcontratación máxima del 25 por ciento, excepto dirección de proyecto y arquitectura cloud.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0033",
+        "seccion": "Subcontratación y UTE",
+        "detalle": "No se permite subcontratar dirección del proyecto ni arquitectura cloud principal.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0034",
+        "seccion": "Subcontratación y UTE",
+        "detalle": "Las guardias de migración pueden cubrirse internamente o con Cloud Partner Ficticio S.A.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0035",
+        "seccion": "Subcontratación y UTE",
+        "detalle": "Se requiere inventario de subencargados cloud.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0036",
+        "seccion": "Subcontratación y UTE",
+        "detalle": "Prohibidas transferencias internacionales salvo autorización expresa.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0037",
+        "seccion": "Cadena de suministro",
+        "detalle": "Se exige carta de compromiso del partner cloud para soporte AKS y confirmación de regiones UE.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0038",
+        "seccion": "Cadena de suministro",
+        "detalle": "Cloud temporal de migración debe ser Azure y en regiones UE.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners; Pliego técnico OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0039",
+        "seccion": "Cadena de suministro",
+        "detalle": "Se requiere inventario de subencargados cloud.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0040",
+        "seccion": "Garantías y soporte",
+        "detalle": "Soporte de fabricante/partner durante ventanas de migración a aportar por el adjudicatario.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0041",
+        "seccion": "Garantías y soporte",
+        "detalle": "SLA: durante estabilización, P1 respuesta <= 30 minutos y resolución <= 4 horas; P2 respuesta <= 2 horas y resolución <= 1 día. Disponibilidad mínima 99,5 %. Penalización: 2 % mensual si la disponibilidad baja de 99,5 % y 1 % por cambio fallido sin rollback documentado.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0042",
+        "seccion": "Garantías y soporte",
+        "detalle": "Penalizaciones: 0,5 % del precio por semana de retraso en una oleada; máximo 7 % del contrato.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0043",
+        "seccion": "Garantías y soporte",
+        "detalle": "Incidente cloud crítico: comunicación <= 1 hora, RCA en 5 días, evidencias forenses preservadas.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0044",
+        "seccion": "Garantías y soporte",
+        "detalle": "Reversibilidad segura: borrado de credenciales, rotación de secretos, exportación IaC y certificado de eliminación de datos temporales.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0045",
+        "seccion": "Plazos y logística",
+        "detalle": "Cloud temporal de migración: 4.200 EUR/mes durante 6 meses.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0046",
+        "seccion": "Plazos y logística",
+        "detalle": "Las migraciones productivas se ejecutarán en ventanas autorizadas y con plan de vuelta atrás aprobado.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0047",
+        "seccion": "Plazos y logística",
+        "detalle": "Ventanas fuera de horario: 8 fines de semana de migración con guardias DevOps incluidas.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0048",
+        "seccion": "Plazos y logística",
+        "detalle": "Transición: 8 semanas con inventario, discovery, diseño de CMDB, runbooks, pruebas de backup, simulacro de rollback y reverse shadowing.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0049",
+        "seccion": "Plazos y logística",
+        "detalle": "Reversibilidad: 4 semanas, exportación de configuración, pipelines, IaC, CMDB, tickets e informes de capacidad.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0050",
+        "seccion": "Plazos y logística",
+        "detalle": "El adjudicatario debe ejecutar migraciones sin pérdida de servicio, con ventana máxima de indisponibilidad de 4 horas por aplicación.",
+        "fuente": "Pliego técnico OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0051",
+        "seccion": "Plazos y logística",
+        "detalle": "Facturación por hitos: 10 % inventario, 25 % oleada 1, 25 % oleada 2, 25 % oleada final, 15 % cierre y reversibilidad.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0052",
+        "seccion": "Plazos y logística",
+        "detalle": "No se admiten variantes.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0053",
+        "seccion": "Plazos y logística",
+        "detalle": "No hay anticipo; compras y licencias se financian con recursos propios hasta cobro de hitos.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0054",
+        "seccion": "SLA de terceros",
+        "detalle": "Se exige carta de compromiso del partner cloud para soporte AKS y confirmación de regiones UE.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0055",
+        "seccion": "SLA de terceros",
+        "detalle": "Accion: deal registration Microsoft, RFQ de cloud temporal y compromiso back-to-back de guardias.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "R0056",
+        "seccion": "SLA de terceros",
+        "detalle": "Soporte de fabricante/partner durante ventanas de migración a aportar por el adjudicatario.",
+        "fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A10"
+      },
+      {
+        "id": "A10-S0057",
+        "seccion": "Medios, licencias y proveedores",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No se han identificado discrepancias en la documentación revisada.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A10",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      }
+    ],
+    "resumen": [
+      "No se han identificado discrepancias en la documentación revisada."
+    ],
+    "secciones": [
+      {
+        "titulo": "Registro documental de preventa",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Materia",
+              "Requisito completo",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Materia": "Compras y suministros",
+                "Requisito completo": "El adjudicatario debe aportar herramientas de escaneo de contenedores, licencias SAST/SCA para 5 usuarios, Grafana/Prometheus gestionado si no usa herramientas del cliente, cloud temporal de migración Azure y soporte de fabricante/partner durante ventanas de migración.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+              },
+              {
+                "Materia": "Compras y suministros",
+                "Requisito completo": "Jira Service Management será aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+              },
+              {
+                "Materia": "Compras y suministros",
+                "Requisito completo": "El adjudicatario debe financiar compras y licencias con recursos propios hasta el cobro de hitos; no hay anticipo.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero"
+              },
+              {
+                "Materia": "Compras y suministros",
+                "Requisito completo": "Cloud temporal de migración: 4.200 EUR/mes durante 6 meses para entornos paralelos, pruebas y observabilidad. No está presupuestado de forma separada en el pliego.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero"
+              },
+              {
+                "Materia": "Compras y suministros",
+                "Requisito completo": "Herramientas obligatorias: repositorio IaC, escaneo de contenedores, monitorización Grafana/Prometheus y licencias SAST/SCA para 5 usuarios.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero"
+              },
+              {
+                "Materia": "Compras y suministros",
+                "Requisito completo": "Azure Monitor, Grafana y Jira Service Management aceptadas como herramientas de monitorización y gestión.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Fabricantes y productos",
+                "Requisito completo": "Se exige carta de compromiso del partner cloud para soporte AKS y confirmación de regiones UE.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+              },
+              {
+                "Materia": "Fabricantes y productos",
+                "Requisito completo": "Accion: deal registration Microsoft, RFQ de cloud temporal y compromiso back-to-back de guardias.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+              },
+              {
+                "Materia": "Fabricantes y productos",
+                "Requisito completo": "No se admiten variantes.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Fabricantes y productos",
+                "Requisito completo": "Se permite Grafana/Prometheus gestionado por el adjudicatario si no se usan herramientas del cliente.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+              },
+              {
+                "Materia": "Fabricantes y productos",
+                "Requisito completo": "Cloud temporal de migración debe ser Azure y en regiones UE.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners; Pliego técnico OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Fabricantes y productos",
+                "Requisito completo": "Se exige que la plataforma cloud destino cumpla ENS categoría MEDIA.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Fabricantes y productos",
+                "Requisito completo": "Aplicaciones y backups deben estar en regiones UE.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Fabricantes y productos",
+                "Requisito completo": "Se requiere inventario de subencargados cloud, soporte remoto y herramientas SaaS.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Fabricantes y productos",
+                "Requisito completo": "Prohibidas transferencias internacionales salvo autorización expresa.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Fabricantes y productos",
+                "Requisito completo": "Vulnerabilidades: CVE crítica en imagen base corregida <= 24 horas; CVE alta <= 7 días. SAST/SCA en pipelines y aprobación de excepciones.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Fabricantes y productos",
+                "Requisito completo": "Reversibilidad segura: borrado de credenciales, rotación de secretos, exportación IaC y certificado de eliminación de datos temporales.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Licencias y SaaS",
+                "Requisito completo": "Licencias SAST/SCA para 5 usuarios a aportar por el adjudicatario.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+              },
+              {
+                "Materia": "Licencias y SaaS",
+                "Requisito completo": "Jira Service Management aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+              },
+              {
+                "Materia": "Licencias y SaaS",
+                "Requisito completo": "Azure Monitor, Grafana y Jira Service Management aceptadas como herramientas de monitorización y gestión.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Licencias y SaaS",
+                "Requisito completo": "Herramientas SaaS para soporte remoto y gestión de cambios requeridas.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Licencias y SaaS",
+                "Requisito completo": "CMDB obligatoria con aplicaciones, servicios, contenedores, pipelines, bases de datos, dependencias y propietarios.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Licencias y SaaS",
+                "Requisito completo": "Cloud temporal de migración Azure a aportar por el adjudicatario.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+              },
+              {
+                "Materia": "Licencias y SaaS",
+                "Requisito completo": "Cloud temporal de migración: 4.200 EUR/mes durante 6 meses.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero"
+              },
+              {
+                "Materia": "Licencias y SaaS",
+                "Requisito completo": "El adjudicatario debe aportar herramientas de escaneo de contenedores, SAST/SCA, Grafana/Prometheus gestionado si no usa herramientas del cliente.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+              },
+              {
+                "Materia": "Licencias y SaaS",
+                "Requisito completo": "El adjudicatario debe financiar compras y licencias con recursos propios hasta el cobro de hitos.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero"
+              },
+              {
+                "Materia": "Certificaciones y canal",
+                "Requisito completo": "Se exige carta de compromiso del partner cloud para soporte AKS y confirmación de regiones UE.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+              },
+              {
+                "Materia": "Certificaciones y canal",
+                "Requisito completo": "Accion: deal registration Microsoft, RFQ de cloud temporal y compromiso back-to-back de guardias.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+              },
+              {
+                "Materia": "Certificaciones y canal",
+                "Requisito completo": "Se exige ISO 27001 para el adjudicatario.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud; Pliego técnico OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Certificaciones y canal",
+                "Requisito completo": "Se exige clasificación empresarial equivalente a servicios de consultoría y desarrollo informático Grupo V, Subgrupo 2, Categoría 3, o acreditación alternativa solo para empresas no españolas.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Certificaciones y canal",
+                "Requisito completo": "Certificaciones y equipo cloud: CKA 2 puntos, Azure Administrator 2 puntos, ISO 27001 1 punto (criterio puntuable).",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Subcontratación y UTE",
+                "Requisito completo": "Se permite subcontratación máxima del 25 por ciento, excepto dirección de proyecto y arquitectura cloud.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Subcontratación y UTE",
+                "Requisito completo": "No se permite subcontratar dirección del proyecto ni arquitectura cloud principal.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+              },
+              {
+                "Materia": "Subcontratación y UTE",
+                "Requisito completo": "Las guardias de migración pueden cubrirse internamente o con Cloud Partner Ficticio S.A.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+              },
+              {
+                "Materia": "Subcontratación y UTE",
+                "Requisito completo": "Se requiere inventario de subencargados cloud.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Subcontratación y UTE",
+                "Requisito completo": "Prohibidas transferencias internacionales salvo autorización expresa.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Cadena de suministro",
+                "Requisito completo": "Se exige carta de compromiso del partner cloud para soporte AKS y confirmación de regiones UE.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+              },
+              {
+                "Materia": "Cadena de suministro",
+                "Requisito completo": "Cloud temporal de migración debe ser Azure y en regiones UE.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners; Pliego técnico OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Cadena de suministro",
+                "Requisito completo": "Se requiere inventario de subencargados cloud.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Garantías y soporte",
+                "Requisito completo": "Soporte de fabricante/partner durante ventanas de migración a aportar por el adjudicatario.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+              },
+              {
+                "Materia": "Garantías y soporte",
+                "Requisito completo": "SLA: durante estabilización, P1 respuesta <= 30 minutos y resolución <= 4 horas; P2 respuesta <= 2 horas y resolución <= 1 día. Disponibilidad mínima 99,5 %. Penalización: 2 % mensual si la disponibilidad baja de 99,5 % y 1 % por cambio fallido sin rollback documentado.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Garantías y soporte",
+                "Requisito completo": "Penalizaciones: 0,5 % del precio por semana de retraso en una oleada; máximo 7 % del contrato.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Garantías y soporte",
+                "Requisito completo": "Incidente cloud crítico: comunicación <= 1 hora, RCA en 5 días, evidencias forenses preservadas.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Garantías y soporte",
+                "Requisito completo": "Reversibilidad segura: borrado de credenciales, rotación de secretos, exportación IaC y certificado de eliminación de datos temporales.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Plazos y logística",
+                "Requisito completo": "Cloud temporal de migración: 4.200 EUR/mes durante 6 meses.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero"
+              },
+              {
+                "Materia": "Plazos y logística",
+                "Requisito completo": "Las migraciones productivas se ejecutarán en ventanas autorizadas y con plan de vuelta atrás aprobado.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Plazos y logística",
+                "Requisito completo": "Ventanas fuera de horario: 8 fines de semana de migración con guardias DevOps incluidas.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero"
+              },
+              {
+                "Materia": "Plazos y logística",
+                "Requisito completo": "Transición: 8 semanas con inventario, discovery, diseño de CMDB, runbooks, pruebas de backup, simulacro de rollback y reverse shadowing.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Plazos y logística",
+                "Requisito completo": "Reversibilidad: 4 semanas, exportación de configuración, pipelines, IaC, CMDB, tickets e informes de capacidad.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Plazos y logística",
+                "Requisito completo": "El adjudicatario debe ejecutar migraciones sin pérdida de servicio, con ventana máxima de indisponibilidad de 4 horas por aplicación.",
+                "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Plazos y logística",
+                "Requisito completo": "Facturación por hitos: 10 % inventario, 25 % oleada 1, 25 % oleada 2, 25 % oleada final, 15 % cierre y reversibilidad.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero"
+              },
+              {
+                "Materia": "Plazos y logística",
+                "Requisito completo": "No se admiten variantes.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud"
+              },
+              {
+                "Materia": "Plazos y logística",
+                "Requisito completo": "No hay anticipo; compras y licencias se financian con recursos propios hasta cobro de hitos.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero"
+              },
+              {
+                "Materia": "SLA de terceros",
+                "Requisito completo": "Se exige carta de compromiso del partner cloud para soporte AKS y confirmación de regiones UE.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+              },
+              {
+                "Materia": "SLA de terceros",
+                "Requisito completo": "Accion: deal registration Microsoft, RFQ de cloud temporal y compromiso back-to-back de guardias.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+              },
+              {
+                "Materia": "SLA de terceros",
+                "Requisito completo": "Soporte de fabricante/partner durante ventanas de migración a aportar por el adjudicatario.",
+                "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "parrafos": [
+          "No se han identificado discrepancias en la documentación revisada."
+        ],
+        "elementos": [],
+        "tablas": []
+      }
+    ],
+    "pendientes_y_no_localizados": [
+      {
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "parrafos": [
+          "No se han identificado discrepancias en la documentación revisada."
+        ],
+        "elementos": [],
+        "tablas": []
+      }
+    ],
+    "trazabilidad": [
+      {
+        "Materia": "Compras y suministros",
+        "Requisito completo": "El adjudicatario debe aportar herramientas de escaneo de contenedores, licencias SAST/SCA para 5 usuarios, Grafana/Prometheus gestionado si no usa herramientas del cliente, cloud temporal de migración Azure y soporte de fabricante/partner durante ventanas de migración.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+      },
+      {
+        "Materia": "Compras y suministros",
+        "Requisito completo": "Jira Service Management será aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+      },
+      {
+        "Materia": "Compras y suministros",
+        "Requisito completo": "El adjudicatario debe financiar compras y licencias con recursos propios hasta el cobro de hitos; no hay anticipo.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero"
+      },
+      {
+        "Materia": "Compras y suministros",
+        "Requisito completo": "Cloud temporal de migración: 4.200 EUR/mes durante 6 meses para entornos paralelos, pruebas y observabilidad. No está presupuestado de forma separada en el pliego.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero"
+      },
+      {
+        "Materia": "Compras y suministros",
+        "Requisito completo": "Herramientas obligatorias: repositorio IaC, escaneo de contenedores, monitorización Grafana/Prometheus y licencias SAST/SCA para 5 usuarios.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero"
+      },
+      {
+        "Materia": "Compras y suministros",
+        "Requisito completo": "Azure Monitor, Grafana y Jira Service Management aceptadas como herramientas de monitorización y gestión.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Fabricantes y productos",
+        "Requisito completo": "Se exige carta de compromiso del partner cloud para soporte AKS y confirmación de regiones UE.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+      },
+      {
+        "Materia": "Fabricantes y productos",
+        "Requisito completo": "Accion: deal registration Microsoft, RFQ de cloud temporal y compromiso back-to-back de guardias.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+      },
+      {
+        "Materia": "Fabricantes y productos",
+        "Requisito completo": "No se admiten variantes.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Fabricantes y productos",
+        "Requisito completo": "Se permite Grafana/Prometheus gestionado por el adjudicatario si no se usan herramientas del cliente.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+      },
+      {
+        "Materia": "Fabricantes y productos",
+        "Requisito completo": "Cloud temporal de migración debe ser Azure y en regiones UE.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners; Pliego técnico OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Fabricantes y productos",
+        "Requisito completo": "Se exige que la plataforma cloud destino cumpla ENS categoría MEDIA.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Fabricantes y productos",
+        "Requisito completo": "Aplicaciones y backups deben estar en regiones UE.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Fabricantes y productos",
+        "Requisito completo": "Se requiere inventario de subencargados cloud, soporte remoto y herramientas SaaS.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Fabricantes y productos",
+        "Requisito completo": "Prohibidas transferencias internacionales salvo autorización expresa.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Fabricantes y productos",
+        "Requisito completo": "Vulnerabilidades: CVE crítica en imagen base corregida <= 24 horas; CVE alta <= 7 días. SAST/SCA en pipelines y aprobación de excepciones.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Fabricantes y productos",
+        "Requisito completo": "Reversibilidad segura: borrado de credenciales, rotación de secretos, exportación IaC y certificado de eliminación de datos temporales.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Licencias y SaaS",
+        "Requisito completo": "Licencias SAST/SCA para 5 usuarios a aportar por el adjudicatario.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+      },
+      {
+        "Materia": "Licencias y SaaS",
+        "Requisito completo": "Jira Service Management aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+      },
+      {
+        "Materia": "Licencias y SaaS",
+        "Requisito completo": "Azure Monitor, Grafana y Jira Service Management aceptadas como herramientas de monitorización y gestión.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Licencias y SaaS",
+        "Requisito completo": "Herramientas SaaS para soporte remoto y gestión de cambios requeridas.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Licencias y SaaS",
+        "Requisito completo": "CMDB obligatoria con aplicaciones, servicios, contenedores, pipelines, bases de datos, dependencias y propietarios.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Licencias y SaaS",
+        "Requisito completo": "Cloud temporal de migración Azure a aportar por el adjudicatario.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+      },
+      {
+        "Materia": "Licencias y SaaS",
+        "Requisito completo": "Cloud temporal de migración: 4.200 EUR/mes durante 6 meses.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero"
+      },
+      {
+        "Materia": "Licencias y SaaS",
+        "Requisito completo": "El adjudicatario debe aportar herramientas de escaneo de contenedores, SAST/SCA, Grafana/Prometheus gestionado si no usa herramientas del cliente.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+      },
+      {
+        "Materia": "Licencias y SaaS",
+        "Requisito completo": "El adjudicatario debe financiar compras y licencias con recursos propios hasta el cobro de hitos.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero"
+      },
+      {
+        "Materia": "Certificaciones y canal",
+        "Requisito completo": "Se exige carta de compromiso del partner cloud para soporte AKS y confirmación de regiones UE.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+      },
+      {
+        "Materia": "Certificaciones y canal",
+        "Requisito completo": "Accion: deal registration Microsoft, RFQ de cloud temporal y compromiso back-to-back de guardias.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+      },
+      {
+        "Materia": "Certificaciones y canal",
+        "Requisito completo": "Se exige ISO 27001 para el adjudicatario.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud; Pliego técnico OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Certificaciones y canal",
+        "Requisito completo": "Se exige clasificación empresarial equivalente a servicios de consultoría y desarrollo informático Grupo V, Subgrupo 2, Categoría 3, o acreditación alternativa solo para empresas no españolas.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Certificaciones y canal",
+        "Requisito completo": "Certificaciones y equipo cloud: CKA 2 puntos, Azure Administrator 2 puntos, ISO 27001 1 punto (criterio puntuable).",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Subcontratación y UTE",
+        "Requisito completo": "Se permite subcontratación máxima del 25 por ciento, excepto dirección de proyecto y arquitectura cloud.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Subcontratación y UTE",
+        "Requisito completo": "No se permite subcontratar dirección del proyecto ni arquitectura cloud principal.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+      },
+      {
+        "Materia": "Subcontratación y UTE",
+        "Requisito completo": "Las guardias de migración pueden cubrirse internamente o con Cloud Partner Ficticio S.A.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+      },
+      {
+        "Materia": "Subcontratación y UTE",
+        "Requisito completo": "Se requiere inventario de subencargados cloud.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Subcontratación y UTE",
+        "Requisito completo": "Prohibidas transferencias internacionales salvo autorización expresa.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Cadena de suministro",
+        "Requisito completo": "Se exige carta de compromiso del partner cloud para soporte AKS y confirmación de regiones UE.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+      },
+      {
+        "Materia": "Cadena de suministro",
+        "Requisito completo": "Cloud temporal de migración debe ser Azure y en regiones UE.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners; Pliego técnico OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Cadena de suministro",
+        "Requisito completo": "Se requiere inventario de subencargados cloud.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Garantías y soporte",
+        "Requisito completo": "Soporte de fabricante/partner durante ventanas de migración a aportar por el adjudicatario.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+      },
+      {
+        "Materia": "Garantías y soporte",
+        "Requisito completo": "SLA: durante estabilización, P1 respuesta <= 30 minutos y resolución <= 4 horas; P2 respuesta <= 2 horas y resolución <= 1 día. Disponibilidad mínima 99,5 %. Penalización: 2 % mensual si la disponibilidad baja de 99,5 % y 1 % por cambio fallido sin rollback documentado.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Garantías y soporte",
+        "Requisito completo": "Penalizaciones: 0,5 % del precio por semana de retraso en una oleada; máximo 7 % del contrato.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Garantías y soporte",
+        "Requisito completo": "Incidente cloud crítico: comunicación <= 1 hora, RCA en 5 días, evidencias forenses preservadas.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Garantías y soporte",
+        "Requisito completo": "Reversibilidad segura: borrado de credenciales, rotación de secretos, exportación IaC y certificado de eliminación de datos temporales.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Plazos y logística",
+        "Requisito completo": "Cloud temporal de migración: 4.200 EUR/mes durante 6 meses.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero"
+      },
+      {
+        "Materia": "Plazos y logística",
+        "Requisito completo": "Las migraciones productivas se ejecutarán en ventanas autorizadas y con plan de vuelta atrás aprobado.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Plazos y logística",
+        "Requisito completo": "Ventanas fuera de horario: 8 fines de semana de migración con guardias DevOps incluidas.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero"
+      },
+      {
+        "Materia": "Plazos y logística",
+        "Requisito completo": "Transición: 8 semanas con inventario, discovery, diseño de CMDB, runbooks, pruebas de backup, simulacro de rollback y reverse shadowing.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Plazos y logística",
+        "Requisito completo": "Reversibilidad: 4 semanas, exportación de configuración, pipelines, IaC, CMDB, tickets e informes de capacidad.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Plazos y logística",
+        "Requisito completo": "El adjudicatario debe ejecutar migraciones sin pérdida de servicio, con ventana máxima de indisponibilidad de 4 horas por aplicación.",
+        "Fuente": "Pliego técnico OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Plazos y logística",
+        "Requisito completo": "Facturación por hitos: 10 % inventario, 25 % oleada 1, 25 % oleada 2, 25 % oleada final, 15 % cierre y reversibilidad.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero"
+      },
+      {
+        "Materia": "Plazos y logística",
+        "Requisito completo": "No se admiten variantes.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud"
+      },
+      {
+        "Materia": "Plazos y logística",
+        "Requisito completo": "No hay anticipo; compras y licencias se financian con recursos propios hasta cobro de hitos.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero"
+      },
+      {
+        "Materia": "SLA de terceros",
+        "Requisito completo": "Se exige carta de compromiso del partner cloud para soporte AKS y confirmación de regiones UE.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+      },
+      {
+        "Materia": "SLA de terceros",
+        "Requisito completo": "Accion: deal registration Microsoft, RFQ de cloud temporal y compromiso back-to-back de guardias.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+      },
+      {
+        "Materia": "SLA de terceros",
+        "Requisito completo": "Soporte de fabricante/partner durante ventanas de migración a aportar por el adjudicatario.",
+        "Fuente": "Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners"
+      }
+    ],
+    "salida_original": "# Registro documental de preventa\n\n| Materia | Requisito completo | Fuente |\n|---|---|---|\n| Compras y suministros | El adjudicatario debe aportar herramientas de escaneo de contenedores, licencias SAST/SCA para 5 usuarios, Grafana/Prometheus gestionado si no usa herramientas del cliente, cloud temporal de migración Azure y soporte de fabricante/partner durante ventanas de migración. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners |\n| Compras y suministros | Jira Service Management será aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners |\n| Compras y suministros | El adjudicatario debe financiar compras y licencias con recursos propios hasta el cobro de hitos; no hay anticipo. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero |\n| Compras y suministros | Cloud temporal de migración: 4.200 EUR/mes durante 6 meses para entornos paralelos, pruebas y observabilidad. No está presupuestado de forma separada en el pliego. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero |\n| Compras y suministros | Herramientas obligatorias: repositorio IaC, escaneo de contenedores, monitorización Grafana/Prometheus y licencias SAST/SCA para 5 usuarios. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero |\n| Compras y suministros | Azure Monitor, Grafana y Jira Service Management aceptadas como herramientas de monitorización y gestión. | Pliego técnico OPP-SW-003 migracion cloud |\n| Fabricantes y productos | Se exige carta de compromiso del partner cloud para soporte AKS y confirmación de regiones UE. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners |\n| Fabricantes y productos | Accion: deal registration Microsoft, RFQ de cloud temporal y compromiso back-to-back de guardias. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners |\n| Fabricantes y productos | No se admiten variantes. | Pliego administrativo OPP-SW-003 migracion cloud |\n| Fabricantes y productos | Se permite Grafana/Prometheus gestionado por el adjudicatario si no se usan herramientas del cliente. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners |\n| Fabricantes y productos | Cloud temporal de migración debe ser Azure y en regiones UE. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners; Pliego técnico OPP-SW-003 migracion cloud |\n| Fabricantes y productos | Se exige que la plataforma cloud destino cumpla ENS categoría MEDIA. | Pliego técnico OPP-SW-003 migracion cloud |\n| Fabricantes y productos | Aplicaciones y backups deben estar en regiones UE. | Pliego técnico OPP-SW-003 migracion cloud |\n| Fabricantes y productos | Se requiere inventario de subencargados cloud, soporte remoto y herramientas SaaS. | Pliego técnico OPP-SW-003 migracion cloud |\n| Fabricantes y productos | Prohibidas transferencias internacionales salvo autorización expresa. | Pliego técnico OPP-SW-003 migracion cloud |\n| Fabricantes y productos | Vulnerabilidades: CVE crítica en imagen base corregida <= 24 horas; CVE alta <= 7 días. SAST/SCA en pipelines y aprobación de excepciones. | Pliego técnico OPP-SW-003 migracion cloud |\n| Fabricantes y productos | Reversibilidad segura: borrado de credenciales, rotación de secretos, exportación IaC y certificado de eliminación de datos temporales. | Pliego técnico OPP-SW-003 migracion cloud |\n| Licencias y SaaS | Licencias SAST/SCA para 5 usuarios a aportar por el adjudicatario. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners |\n| Licencias y SaaS | Jira Service Management aceptado si lo aporta el adjudicatario; ServiceNow solo si el cliente facilita licencias. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners |\n| Licencias y SaaS | Azure Monitor, Grafana y Jira Service Management aceptadas como herramientas de monitorización y gestión. | Pliego técnico OPP-SW-003 migracion cloud |\n| Licencias y SaaS | Herramientas SaaS para soporte remoto y gestión de cambios requeridas. | Pliego técnico OPP-SW-003 migracion cloud |\n| Licencias y SaaS | CMDB obligatoria con aplicaciones, servicios, contenedores, pipelines, bases de datos, dependencias y propietarios. | Pliego técnico OPP-SW-003 migracion cloud |\n| Licencias y SaaS | Cloud temporal de migración Azure a aportar por el adjudicatario. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners |\n| Licencias y SaaS | Cloud temporal de migración: 4.200 EUR/mes durante 6 meses. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero |\n| Licencias y SaaS | El adjudicatario debe aportar herramientas de escaneo de contenedores, SAST/SCA, Grafana/Prometheus gestionado si no usa herramientas del cliente. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners |\n| Licencias y SaaS | El adjudicatario debe financiar compras y licencias con recursos propios hasta el cobro de hitos. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero |\n| Certificaciones y canal | Se exige carta de compromiso del partner cloud para soporte AKS y confirmación de regiones UE. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners |\n| Certificaciones y canal | Accion: deal registration Microsoft, RFQ de cloud temporal y compromiso back-to-back de guardias. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners |\n| Certificaciones y canal | Se exige ISO 27001 para el adjudicatario. | Pliego administrativo OPP-SW-003 migracion cloud; Pliego técnico OPP-SW-003 migracion cloud |\n| Certificaciones y canal | Se exige clasificación empresarial equivalente a servicios de consultoría y desarrollo informático Grupo V, Subgrupo 2, Categoría 3, o acreditación alternativa solo para empresas no españolas. | Pliego administrativo OPP-SW-003 migracion cloud |\n| Certificaciones y canal | Certificaciones y equipo cloud: CKA 2 puntos, Azure Administrator 2 puntos, ISO 27001 1 punto (criterio puntuable). | Pliego administrativo OPP-SW-003 migracion cloud |\n| Subcontratación y UTE | Se permite subcontratación máxima del 25 por ciento, excepto dirección de proyecto y arquitectura cloud. | Pliego administrativo OPP-SW-003 migracion cloud |\n| Subcontratación y UTE | No se permite subcontratar dirección del proyecto ni arquitectura cloud principal. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners |\n| Subcontratación y UTE | Las guardias de migración pueden cubrirse internamente o con Cloud Partner Ficticio S.A. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners |\n| Subcontratación y UTE | Se requiere inventario de subencargados cloud. | Pliego técnico OPP-SW-003 migracion cloud |\n| Subcontratación y UTE | Prohibidas transferencias internacionales salvo autorización expresa. | Pliego técnico OPP-SW-003 migracion cloud |\n| Cadena de suministro | Se exige carta de compromiso del partner cloud para soporte AKS y confirmación de regiones UE. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners |\n| Cadena de suministro | Cloud temporal de migración debe ser Azure y en regiones UE. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners; Pliego técnico OPP-SW-003 migracion cloud |\n| Cadena de suministro | Se requiere inventario de subencargados cloud. | Pliego técnico OPP-SW-003 migracion cloud |\n| Garantías y soporte | Soporte de fabricante/partner durante ventanas de migración a aportar por el adjudicatario. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners |\n| Garantías y soporte | SLA: durante estabilización, P1 respuesta <= 30 minutos y resolución <= 4 horas; P2 respuesta <= 2 horas y resolución <= 1 día. Disponibilidad mínima 99,5 %. Penalización: 2 % mensual si la disponibilidad baja de 99,5 % y 1 % por cambio fallido sin rollback documentado. | Pliego técnico OPP-SW-003 migracion cloud |\n| Garantías y soporte | Penalizaciones: 0,5 % del precio por semana de retraso en una oleada; máximo 7 % del contrato. | Pliego administrativo OPP-SW-003 migracion cloud |\n| Garantías y soporte | Incidente cloud crítico: comunicación <= 1 hora, RCA en 5 días, evidencias forenses preservadas. | Pliego técnico OPP-SW-003 migracion cloud |\n| Garantías y soporte | Reversibilidad segura: borrado de credenciales, rotación de secretos, exportación IaC y certificado de eliminación de datos temporales. | Pliego técnico OPP-SW-003 migracion cloud |\n| Plazos y logística | Cloud temporal de migración: 4.200 EUR/mes durante 6 meses. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero |\n| Plazos y logística | Las migraciones productivas se ejecutarán en ventanas autorizadas y con plan de vuelta atrás aprobado. | Pliego administrativo OPP-SW-003 migracion cloud |\n| Plazos y logística | Ventanas fuera de horario: 8 fines de semana de migración con guardias DevOps incluidas. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero |\n| Plazos y logística | Transición: 8 semanas con inventario, discovery, diseño de CMDB, runbooks, pruebas de backup, simulacro de rollback y reverse shadowing. | Pliego técnico OPP-SW-003 migracion cloud |\n| Plazos y logística | Reversibilidad: 4 semanas, exportación de configuración, pipelines, IaC, CMDB, tickets e informes de capacidad. | Pliego técnico OPP-SW-003 migracion cloud |\n| Plazos y logística | El adjudicatario debe ejecutar migraciones sin pérdida de servicio, con ventana máxima de indisponibilidad de 4 horas por aplicación. | Pliego técnico OPP-SW-003 migracion cloud |\n| Plazos y logística | Facturación por hitos: 10 % inventario, 25 % oleada 1, 25 % oleada 2, 25 % oleada final, 15 % cierre y reversibilidad. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero |\n| Plazos y logística | No se admiten variantes. | Pliego administrativo OPP-SW-003 migracion cloud |\n| Plazos y logística | No hay anticipo; compras y licencias se financian con recursos propios hasta cobro de hitos. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo económico-financiero |\n| SLA de terceros | Se exige carta de compromiso del partner cloud para soporte AKS y confirmación de regiones UE. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners |\n| SLA de terceros | Accion: deal registration Microsoft, RFQ de cloud temporal y compromiso back-to-back de guardias. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners |\n| SLA de terceros | Soporte de fabricante/partner durante ventanas de migración a aportar por el adjudicatario. | Pliego administrativo OPP-SW-003 migracion cloud, Anexo compras/partners |\n\n## Discrepancias y pendientes de aclaración\n\nNo se han identificado discrepancias en la documentación revisada.",
+    "registro_completo_estructura": true
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "Pliego administrativo OPP-SW-003 migracion cloud",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 4508,
+        "caracteres_enviados_al_agente": 4508,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "Pliego tecnico OPP-SW-003 migracion cloud",
+        "tipo": "Pliego tecnico",
+        "fuente": "XML",
+        "caracteres_extraidos": 3727,
+        "caracteres_enviados_al_agente": 3727,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "Anexo solvencia OPP-SW-003 migracion cloud",
+        "tipo": "Documento general",
+        "fuente": "XML",
+        "caracteres_extraidos": 825,
+        "caracteres_enviados_al_agente": 825,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": []
+  },
+  "puntos_revision": [
+    {
+      "id": "REV-001",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Documentación y otras condiciones pendientes",
+      "prioridad": "media",
+      "detalle": "Revisar documentación y otras condiciones pendientes: 1 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-001.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No se han identificado discrepancias en la documentación revisada.",
+          "evidencia": "No se han identificado discrepancias en la documentación revisada.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    }
+  ],
+  "recomendaciones": [],
+  "estado_recomendaciones": "no_generadas"
+}

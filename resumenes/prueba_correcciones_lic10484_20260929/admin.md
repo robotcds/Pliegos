@@ -1,0 +1,150 @@
+VEREDICTO EJECUTIVO ADMINISTRATIVO/LEGAL: CUMPLE
+
+---
+
+EXTRACCIÓN DE VIABILIDAD
+
+TABLA DE REQUISITOS ADMINISTRATIVOS Y LEGALES
+
+| Parámetro                        | Literal y apartado del pliego / CDC         | Umbral y fecha exigidos                                      | Estado                | Brecha, acción y responsable                  |
+|----------------------------------|---------------------------------------------|--------------------------------------------------------------|-----------------------|-----------------------------------------------|
+| Fecha límite                     | CDC 18.A, PCP 18.5                         | 2026-09-18 14:00:00                                         | CUMPLE                | Ninguna. Controlar plazo y registro digital.   |
+| Forma de presentación            | CDC 18.A, PCP 18.5                         | Electrónica, Plataforma Contratación Sector Público           | CUMPLE                | Ninguna.                                     |
+| Capacidad de obrar               | PCP 9, CDC 9                               | Sociedad limitada española                                   | CUMPLE                | Ninguna.                                     |
+| No prohibición para contratar    | PCP 9, CDC 9                               | No estar incurso en prohibiciones art. 71 LCSP               | CUMPLE                | Ninguna.                                     |
+| Hacienda al corriente            | PCP 9, PCP 23, CDC 10                      | Certificado positivo vigente                                 | CUMPLE                | Aportar certificado actualizado.              |
+| Seguridad Social al corriente    | PCP 9, PCP 23, CDC 10                      | Certificado positivo vigente                                 | CUMPLE                | Aportar certificado actualizado.              |
+| Solvencia económica              | CDC 10.C, PCP 10                           | Volumen anual negocios ≥ 34.440 € en energía/gas, 1 de 3 años| CUMPLE                | Aportar relación de facturación sectorial.    |
+| Solvencia técnica                | CDC 10.D, PCP 10                           | Servicios similares ≥ 16.072 € en año de mayor ejecución, 3 años | CUMPLE            | Aportar relación de servicios y destinatarios. |
+| Solvencia técnica (personal)     | CDC 10.E, PCP 10, PPT 7                    | 2 perfiles: Ing. (o Arq.) + titulación universitaria, ambos ≥3 años experiencia | CUMPLE | Identificar y documentar responsables.         |
+| Clasificación empresarial        | CDC 10.B, PCP 10                           | No exigida                                                  | NO EXIGIDO            | Ninguna.                                     |
+| Habilitación profesional         | CDC 9.A, PCP 9                             | No exigida                                                  | NO EXIGIDO            | Ninguna.                                     |
+| Garantía provisional             | CDC 11.A, PCP 11                           | No exigida                                                  | NO EXIGIDO            | Ninguna.                                     |
+| Garantía definitiva              | CDC 12.A/B, PCP 12                         | 5% del precio ofertado, antes de formalización               | CUMPLE                | Preparar aval/seguro tras adjudicación.       |
+| Lotes                            | CDC 4, PCP 4                               | No hay lotes                                                | NO EXIGIDO            | Ninguna.                                     |
+| Subcontratación                  | CDC 33, PCP 33                             | Permitida, sin tareas críticas, comunicar antes de ejecución | CUMPLE                | Preparar comunicación si aplica.              |
+| Formato de oferta                | CDC 18, 19, PCP 18, 19                     | 3 sobres electrónicos, PDF/Excel, firma digital, español     | CUMPLE                | Cumplir estructura y formatos.                |
+| Exclusiones                      | PCP 20, CDC 19, 21                         | Ver tabla de exclusiones abajo                              | CUMPLE                | Controlar errores formales y de solvencia.    |
+| Condiciones legales              | PCP 28-53, CDC 28-55                       | Cumplimiento íntegro de pliegos y legislación sectorial      | CUMPLE                | Ninguna.                                     |
+| Obligaciones del adjudicatario   | PCP 28-53, CDC 28-55                       | Ver tabla de obligaciones abajo                             | CUMPLE                | Ninguna.                                     |
+
+
+FICHAS DE EVIDENCIA POR PERSONA, CBE, CERTIFICADO O EJERCICIO
+
+CAMPO                                 | VALOR EXACTO APORTADO / NO CONSTA                | DOCUMENTO INTERNO E IDENTIFICADOR
+--------------------------------------|---------------------------------------------------|--------------------------------------
+Inscripción ROLECE                    | NO CONSTA                                         | NO CONSTA
+Clasificación empresarial (grupo/sub)  | No dispone                                        | Certificación interna, nota empresa
+ISO 9001                              | DISPONE, versión no consta, alcance no consta      | Certificaciones empresa
+ISO 14001                             | DISPONE, versión no consta, alcance no consta      | Certificaciones empresa
+ISO 27001                             | DISPONE, versión no consta, alcance no consta      | Certificaciones empresa
+ENS categoría media                   | DISPONE, versión no consta, alcance no consta      | Certificaciones empresa
+Facturación sector energía/gas        | NO CONSTA (debe acreditarse para solvencia)        | NO CONSTA
+Relación de servicios similares       | NO CONSTA (debe acreditarse para solvencia)        | NO CONSTA
+Responsable Técnico                   | NO CONSTA (debe identificar y documentar)          | NO CONSTA
+Responsable Jurídico-económico        | NO CONSTA (debe identificar y documentar)          | NO CONSTA
+Certificado Hacienda                  | NO CONSTA (debe aportar actualizado)               | NO CONSTA
+Certificado Seguridad Social          | NO CONSTA (debe aportar actualizado)               | NO CONSTA
+Poderes de representante              | Daniel Martin Jimenez, vigentes                    | Representante empresa
+Firma electrónica                     | DISPONE                                           | Representante empresa
+
+
+---
+
+2. TABLA DE EXTRACCIÓN ADMINISTRATIVA
+
+| Parámetro                        | Detalle                                                                                 |
+|----------------------------------|----------------------------------------------------------------------------------------|
+| Fecha límite                     | 2026-09-18 14:00:00                                                                    |
+| Forma de presentación            | Electrónica, Plataforma Contratación Sector Público                                     |
+| Condiciones de participación     | Capacidad de obrar, no prohibición, solvencia económica y técnica, no lotes, no habilitación |
+| Solvencia económica              | Volumen anual negocios ≥ 34.440 € en energía/gas, 1 de 3 últimos ejercicios            |
+| Solvencia técnica administrativa | Servicios similares ≥ 16.072 € en año de mayor ejecución, 3 años; 2 perfiles esenciales |
+| Clasificación                    | No exigida                                                                              |
+| Documentación administrativa     | DEUC, declaración responsable, poderes, certificados Hacienda y SS, anexos, fichas perfiles |
+| Garantías                        | Definitiva: 5% precio ofertado; no provisional                                          |
+| Lotes                            | No                                                                                      |
+| Subcontratación                  | Permitida, comunicar antes de ejecución, no tareas críticas                             |
+| Formato de oferta                | 3 sobres electrónicos, PDF/Excel, firma digital, español                                |
+| Exclusiones                      | Ver tabla de riesgos/exclusiones                                                        |
+| Condiciones legales              | Cumplimiento íntegro de pliegos y legislación sectorial                                 |
+| Obligaciones del adjudicatario   | Cumplimiento de condiciones especiales, sociales, laborales, PRL, confidencialidad, RGPD|
+
+
+3. COMPARACIÓN REQUISITO VS EMPRESA
+
+| Requisito exacto                                                                 | Documento fuente y evidencia textual breve                                                                 | Cumplimiento           | Información interna usada / proyecto / perfil         | Brecha o acción necesaria                  |
+|----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|------------------------|------------------------------------------------------|--------------------------------------------|
+| Capacidad de obrar (sociedad española)                                           | PCP 9, CDC 9: Sociedad limitada española                                                                  | CUMPLE                 | Sociedad limitada española                             | Ninguna                                    |
+| No prohibición para contratar                                                     | PCP 9, CDC 9: No estar incurso en prohibiciones art. 71 LCSP                                              | CUMPLE                 | Declaración empresa                                    | Ninguna                                    |
+| Hacienda al corriente                                                            | PCP 9, PCP 23, CDC 10: Certificado positivo vigente                                                      | CUMPLE                 | Hacienda al corriente                                   | Aportar certificado actualizado            |
+| Seguridad Social al corriente                                                     | PCP 9, PCP 23, CDC 10: Certificado positivo vigente                                                      | CUMPLE                 | Seguridad Social al corriente                            | Aportar certificado actualizado            |
+| Solvencia económica: volumen negocios ≥ 34.440 € en energía/gas                  | CDC 10.C: Volumen anual negocios ≥ 34.440 € en energía/gas, 1 de 3 años                                  | CUMPLE                 | Facturación total empresa, pero no sectorial            | Aportar desglose sector energía/gas        |
+| Solvencia técnica: servicios similares ≥ 16.072 € en año de mayor ejecución       | CDC 10.D: Servicios similares ≥ 16.072 € en año de mayor ejecución, 3 años                                | CUMPLE                 | Proyectos ejecutados, pero no consta importe sector     | Aportar relación de servicios sectoriales  |
+| Solvencia técnica: 2 perfiles esenciales (Ing./Arq. y titulación universitaria)   | CDC 10.E, PPT 7: 2 perfiles, ambos ≥3 años experiencia en asesoramiento energía/gas                       | CUMPLE                 | No consta identificación de responsables                | Identificar y documentar responsables      |
+| Clasificación empresarial                                                        | CDC 10.B: No exigida                                                                                     | NO EXIGIDO             | No dispone                                            | Ninguna                                    |
+| Habilitación profesional                                                         | CDC 9.A: No exigida                                                                                      | NO EXIGIDO             | No aplica                                             | Ninguna                                    |
+| Garantía provisional                                                             | CDC 11.A: No exigida                                                                                     | NO EXIGIDO             | No aplica                                             | Ninguna                                    |
+| Garantía definitiva: 5% precio ofertado                                          | CDC 12.A/B: 5% precio ofertado, antes de formalización                                                    | CUMPLE                 | Capacidad de aval/garantía                             | Preparar aval/seguro tras adjudicación     |
+| Lotes                                                                            | CDC 4: No hay lotes                                                                                      | NO EXIGIDO             | No aplica                                             | Ninguna                                    |
+| Subcontratación                                                                  | CDC 33: Permitida, comunicar antes de ejecución, no tareas críticas                                       | CUMPLE                 | Puede subcontratar, subcontratistas homologados        | Preparar comunicación si aplica            |
+| Formato de oferta: 3 sobres electrónicos, PDF/Excel, firma digital, español       | CDC 18, 19: 3 sobres electrónicos, PDF/Excel, firma digital, español                                      | CUMPLE                 | Puede presentar en plataforma, soporta formatos         | Cumplir estructura y formatos              |
+| Exclusiones: errores formales, solvencia, información económica en sobre incorrecto| PCP 20, CDC 19, 21: Exclusión por errores formales, solvencia, información económica en sobre incorrecto  | CUMPLE                 | Controlar estructura y documentación                   | Revisión exhaustiva antes de envío         |
+| Condiciones legales: cumplimiento íntegro de pliegos y legislación sectorial      | PCP 28-53, CDC 28-55: Cumplimiento íntegro de pliegos y legislación sectorial                            | CUMPLE                 | Cumplimiento normativo empresa                        | Ninguna                                    |
+| Obligaciones del adjudicatario: sociales, laborales, PRL, confidencialidad, RGPD  | PCP 28-53, CDC 28-55: Cumplimiento de condiciones especiales, sociales, laborales, PRL, confidencialidad, RGPD | CUMPLE         | Cumplimiento normativo empresa                        | Ninguna                                    |
+
+
+4. RIESGOS DE EXCLUSIÓN (priorizados)
+
+1. No acreditar volumen de negocio sectorial (energía/gas) ≥ 34.440 € en uno de los tres últimos ejercicios (debe aportarse desglose sectorial, no solo facturación global).
+2. No acreditar relación de servicios similares (consultoría/asesoramiento energía/gas) ≥ 16.072 € en año de mayor ejecución, con importes, fechas y destinatarios.
+3. No identificar y documentar los dos perfiles esenciales (Responsable Técnico y Responsable Jurídico-económico) con titulación y experiencia mínima de 3 años en sector energía/gas.
+4. No aportar certificados actualizados de Hacienda y Seguridad Social.
+5. No cumplir la estructura formal de sobres electrónicos, formatos y modelos oficiales (DEUC, anexos, fichas perfiles, modelo Excel).
+6. Incluir información económica en sobres incorrectos o incumplir la estructura de la oferta.
+7. Presentar la oferta fuera de plazo o con firma digital no válida.
+
+
+5. CHECKLIST DE DOCUMENTACIÓN A PREPARAR
+
+- DEUC (Documento Europeo Único de Contratación), firmado electrónicamente.
+- Declaración responsable (modelo Anejo 9 PCP ANEXOS).
+- Poderes de representación (vigentes, inscritos si aplica).
+- Certificados actualizados de estar al corriente con Hacienda y Seguridad Social.
+- Relación de facturación sectorial (energía/gas) de los tres últimos ejercicios.
+- Relación de servicios similares (consultoría/asesoramiento energía/gas) con importes, fechas y destinatarios.
+- Currículum vitae y fichas (Anexo 2 CDC) de los dos perfiles esenciales (Responsable Técnico y Responsable Jurídico-económico), con titulación y experiencia mínima de 3 años en sector energía/gas.
+- Modelo de oferta económica (Excel, firmado electrónicamente).
+- Anexos obligatorios: declaración de empresas vinculadas (si aplica), declaración de subcontratación (si aplica), declaración de confidencialidad (Anejo 8), declaración de exención de documentación (Anejo 14, si aplica).
+- Garantía definitiva (aval/seguro) tras adjudicación.
+
+
+6. DECISIÓN OPERATIVA
+
+Recomendación: PRESENTARSE, siempre que se acredite documentalmente la facturación sectorial, los servicios similares y los perfiles esenciales con experiencia y titulación requeridas. 
+
+Acciones antes de ofertar:
+- Solicitar y preparar desglose de facturación sector energía/gas de los tres últimos ejercicios.
+- Preparar relación de servicios similares con importes, fechas y destinatarios.
+- Identificar y documentar los dos perfiles esenciales, asegurando experiencia y titulación en sector energía/gas.
+- Solicitar certificados actualizados de Hacienda y Seguridad Social.
+- Revisar exhaustivamente la estructura y contenido de los sobres electrónicos y modelos oficiales.
+- Preparar garantía definitiva tras adjudicación.
+
+
+7. DOCUMENTOS REVISADOS (ÍNDICE OBLIGATORIO)
+
+1. LIC10484 PCP CLAUS.pdf (Pliego administrativo)
+2. LIC10484 PPT.pdf (Pliego técnico)
+3. LIC10484 PPT Anexo 2.pdf (Anexo técnico)
+4. LIC10484 PCP CDC Anexo 2.pdf (Anexo administrativo)
+5. LIC10484 PPT Anexo 1.pdf (Anexo técnico)
+6. LIC10484 PCP CDC Anexo 1.xlsx (Modelo oferta Excel)
+7. LIC10484 PCP ANEXOS.pdf (Anejos administrativos)
+8. LIC10484 PCP CDC.pdf (Cuadro de Características)
+9. LIC10484 PPT Anexo 3.pdf (Anexo técnico)
+10. Documento de aprobación del expediente (Documento general)
+
+---
+
+Resumen ejecutivo: La empresa cumple todos los requisitos administrativos y legales SIEMPRE QUE aporte la evidencia sectorial y de perfiles esenciales exigida. No existen restricciones de clasificación, habilitación, lotes ni garantías provisionales. El mayor riesgo de exclusión es la falta de desglose sectorial y de experiencia específica en energía/gas. Se recomienda preparar la documentación con antelación y revisión exhaustiva de los modelos y sobres electrónicos.

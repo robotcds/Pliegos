@@ -1,0 +1,15 @@
+Registro documental de preventa
+
+| Materia | Requisito completo | Fuente |
+|---------|--------------------|--------|
+| Compras y suministros | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito relativo a productos físicos, tecnológicos, hardware, equipos, materiales o herramientas que deba aportar el adjudicatario. | Pliegodefinitivofirmado.pdf (Pliego administrativo y técnico, texto extraído) |
+| Software, SaaS y licencias | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito relativo a software, SaaS, licencias, fabricante/producto, edición, cantidad, métrica, usuarios/dispositivos/cores, entornos, modalidad o duración que deba aportar el adjudicatario. | Pliegodefinitivofirmado.pdf (Pliego administrativo y técnico, texto extraído) |
+| Fabricantes obligatorios y equivalencias | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito relativo a fabricantes obligatorios, referencias, equivalencias permitidas ni requisitos mínimos de equivalencia. | Pliegodefinitivofirmado.pdf (Pliego administrativo y técnico, texto extraído) |
+| Certificaciones, partner, canal y cartas | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito relativo a certificaciones de fabricante, niveles de partner, autorizaciones de canal ni cartas/compromisos exigidos. | Pliegodefinitivofirmado.pdf (Pliego administrativo y técnico, texto extraído) |
+| Subcontratación, UTE y medios externos | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito, limitación, prohibición ni obligación de declarar subcontratación, UTE, medios externos o actividades de terceros. | Pliegodefinitivofirmado.pdf (Pliego administrativo y técnico, texto extraído) |
+| Cadena de suministro | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna descripción ni condición contractual sobre cadena de suministro. | Pliegodefinitivofirmado.pdf (Pliego administrativo y técnico, texto extraído) |
+| Plazos de suministro, stock, garantías, soporte, logística, retirada | NO CONSTA EN LA DOCUMENTACION REVISADA ningún requisito relativo a plazos de suministro, stock, garantías, soporte de fabricante, NBD/4h/onsite, lead time, EOL/EOS, homologaciones, sostenibilidad, logística, staging, retirada o destrucción. | Pliegodefinitivofirmado.pdf (Pliego administrativo y técnico, texto extraído) |
+| SLA de terceros y back-to-back | NO CONSTA EN LA DOCUMENTACION REVISADA ninguna exigencia de SLA de terceros ni condiciones back-to-back. | Pliegodefinitivofirmado.pdf (Pliego administrativo y técnico, texto extraído) |
+
+Discrepancias y pendientes de aclaración:
+No se han identificado discrepancias en la documentación revisada. El análisis se basa exclusivamente en el texto extraído de los documentos disponibles, que no contienen información relevante para las materias solicitadas. Si existen anexos, modelos o apartados no incluidos en el texto extraído, su contenido queda pendiente de verificación documental.

@@ -1,0 +1,726 @@
+{
+  "ejecucion_auditada": "2026-10-22_10-37-51_REAL-Licitacion2_0a89a066",
+  "alcance": "Contraste de la lista de preventa con la salida aportada. Los estados JSON parciales no certifican exhaustividad. No se inyecta en prompts ni en resultados.",
+  "comprobaciones": [
+    {
+      "id": "E01",
+      "punto": "Fecha de participación confundida con oferta",
+      "estado_pdf": "Mal",
+      "estado_json": "A1/A2 no distinguen suficientemente; debe prevalecer publicación posterior.",
+      "agente": "A2",
+      "fuente": "Pliego 6,9; publicación posterior 2"
+    },
+    {
+      "id": "E02",
+      "punto": "Fases previas frente a sobres de oferta",
+      "estado_pdf": "Ausente",
+      "estado_json": "A2 recoge sobres, no reconstruye todas las fases.",
+      "agente": "A2",
+      "fuente": "Pliego 6,9,11"
+    },
+    {
+      "id": "E03",
+      "punto": "Confidencialidad general y datos personales",
+      "estado_pdf": "Ausente",
+      "estado_json": "A2 recoge cinco años; A9 recoge continuidad indefinida de datos, no llega al PDF.",
+      "agente": "A9/A2",
+      "fuente": "Pliego 20-24,99-105"
+    },
+    {
+      "id": "E04",
+      "punto": "Condiciones especiales y obligaciones esenciales",
+      "estado_pdf": "Incompleto",
+      "estado_json": "A2 identifica 20% de indefinidos, adscripción y datos; PDF lo pierde.",
+      "agente": "A2",
+      "fuente": "Pliego 22-24"
+    },
+    {
+      "id": "E05",
+      "punto": "Idioma de presentación no confirmado",
+      "estado_pdf": "No reproduce el error",
+      "estado_json": "El resumen actual no afirma una obligación general de castellano.",
+      "agente": "A2",
+      "fuente": "No localizar no equivale a exención"
+    },
+    {
+      "id": "E06",
+      "punto": "Obligaciones de fabricantes pese a no pedir cartas",
+      "estado_pdf": "Incompleto",
+      "estado_json": "A10 extrae expertos y soporte, pero no se traslada al PDF.",
+      "agente": "A10",
+      "fuente": "Pliego 63,65-71"
+    },
+    {
+      "id": "E07",
+      "punto": "Habilitación y permisos",
+      "estado_pdf": "No reproduce la exención general",
+      "estado_json": "No se afirma exención general en el PDF; falta desarrollar permisos/licencias aplicables.",
+      "agente": "A2/A10",
+      "fuente": "Pliego 7,19"
+    },
+    {
+      "id": "E08",
+      "punto": "Garantías económicas frente a garantía de servicio",
+      "estado_pdf": "Recogido",
+      "estado_json": "Importes y plazo técnico en el PDF; aún deben conservarse todos sus momentos y condiciones.",
+      "agente": "A2",
+      "fuente": "Pliego 18,28"
+    },
+    {
+      "id": "E09",
+      "punto": "Perfiles definidos frente a número compartido no definido",
+      "estado_pdf": "Ausente",
+      "estado_json": "A8 contiene perfiles y parte de cantidades; faltan cuadro completo y horas.",
+      "agente": "A8",
+      "fuente": "Pliego 63-73"
+    },
+    {
+      "id": "E10",
+      "punto": "Usuarios únicos frente a dispositivos y sesiones",
+      "estado_pdf": "Ausente",
+      "estado_json": "No aparece una suma indebida, pero faltan volumetrías.",
+      "agente": "A6",
+      "fuente": "Pliego 34-45"
+    },
+    {
+      "id": "E11",
+      "punto": "Avisos JSON/404/enlaces separados de contratos",
+      "estado_pdf": "Aviso correctamente separado",
+      "estado_json": "En esta ejecución el 404 y 22 enlaces sí constan en el registro técnico; no son hechos del contrato ni prueba de fallo actual externo.",
+      "agente": "Registro local",
+      "fuente": "JSON documentos_fuente y avisos_procesamiento"
+    },
+    {
+      "id": "E12",
+      "punto": "Contenidos externos no revisados",
+      "estado_pdf": "Matiz necesario",
+      "estado_json": "La política del canal ético sí figura con 13.833 caracteres extraídos en esta ejecución; Código de Conducta falla. No afirmar que todo está leído ni que todo es inaccesible.",
+      "agente": "Registro local/A9",
+      "fuente": "JSON documentos_fuente; sin nueva visita externa"
+    },
+    {
+      "id": "E13",
+      "punto": "Referencia precisa de solvencia",
+      "estado_pdf": "Recogido",
+      "estado_json": "Umbrales y acreditación citan páginas 7 y 79.",
+      "agente": "A3",
+      "fuente": "Pliego 7,79"
+    },
+    {
+      "id": "F01",
+      "punto": "Desglose Correos/CEX y ordinario/especial",
+      "estado_pdf": "Ausente",
+      "estado_json": "No se extraen las cifras completas.",
+      "agente": "A2",
+      "fuente": "75-77"
+    },
+    {
+      "id": "F02",
+      "punto": "Bolsas 135.000 y 15.000 fijas no reducibles",
+      "estado_pdf": "Ausente",
+      "estado_json": "No se extraen las cifras ni su irreductibilidad.",
+      "agente": "A2",
+      "fuente": "75-76,90"
+    },
+    {
+      "id": "F03",
+      "punto": "Consumo de bolsas no garantizado",
+      "estado_pdf": "Recogido",
+      "estado_json": "A2/A6; regla presente en PDF 8.",
+      "agente": "A2/A6",
+      "fuente": "50-51,71"
+    },
+    {
+      "id": "F04",
+      "punto": "Contratos y facturas separados por sociedad",
+      "estado_pdf": "Ausente",
+      "estado_json": "No desarrollado en la extracción administrativa.",
+      "agente": "A2",
+      "fuente": "4"
+    },
+    {
+      "id": "F05",
+      "punto": "Fórmula económica completa por tramos",
+      "estado_pdf": "Recogido",
+      "estado_json": "A4 y PDF 7; límites deben expresarse con operadores exactos.",
+      "agente": "A4",
+      "fuente": "14,87-89"
+    },
+    {
+      "id": "F06",
+      "punto": "Máximo en 25% y caída de puntos después",
+      "estado_pdf": "Parcial",
+      "estado_json": "Fórmula sí, interpretación del máximo no explicitada.",
+      "agente": "A4",
+      "fuente": "14,88; cálculo derivado"
+    },
+    {
+      "id": "F07",
+      "punto": "Una ronda y reducción obligatoria de oferta final",
+      "estado_pdf": "Ausente",
+      "estado_json": "No se conserva la regla completa.",
+      "agente": "A2/A4",
+      "fuente": "15"
+    },
+    {
+      "id": "F08",
+      "punto": "Negociación limitada a ANS e importes",
+      "estado_pdf": "Ausente",
+      "estado_json": "No se conserva el alcance completo de negociación.",
+      "agente": "A2/A4",
+      "fuente": "15,83"
+    },
+    {
+      "id": "F09",
+      "punto": "Bajas anormales y cinco días hábiles",
+      "estado_pdf": "Recogido",
+      "estado_json": "A4/PDF 7, sin equiparar 25% a exclusión automática.",
+      "agente": "A4",
+      "fuente": "16"
+    },
+    {
+      "id": "F10",
+      "punto": "Sin provisional y 5%+5% condicionado",
+      "estado_pdf": "Recogido",
+      "estado_json": "A2/PDF 8.",
+      "agente": "A2",
+      "fuente": "18"
+    },
+    {
+      "id": "F11",
+      "punto": "Modificaciones 20% al alza/baja sin nuevos unitarios",
+      "estado_pdf": "Mal explicado",
+      "estado_json": "PDF mezcla modificación y revisión de precios; falta alcance íntegro.",
+      "agente": "A2",
+      "fuente": "24,94"
+    },
+    {
+      "id": "F12",
+      "punto": "Diez recursos dedicados y distribución",
+      "estado_pdf": "Ausente",
+      "estado_json": "A8 contiene cantidades principales, pero no se publican.",
+      "agente": "A8",
+      "fuente": "63,73"
+    },
+    {
+      "id": "F13",
+      "punto": "Compartidos NetApp/Cisco/SQL y 480h cada uno",
+      "estado_pdf": "Ausente",
+      "estado_json": "A8 detecta perfiles, omite las horas de la tabla.",
+      "agente": "A8",
+      "fuente": "73"
+    },
+    {
+      "id": "F14",
+      "punto": "37.440 horas en 24 meses y continuidad adicional",
+      "estado_pdf": "Ausente",
+      "estado_json": "Falta total de comprobación y periodo; no anualizar.",
+      "agente": "A8",
+      "fuente": "73; suma de comprobación"
+    },
+    {
+      "id": "F15",
+      "punto": "Experiencia de cinco/tres años por perfil",
+      "estado_pdf": "Ausente",
+      "estado_json": "A8 contiene mucha experiencia; PDF no la desarrolla.",
+      "agente": "A8",
+      "fuente": "64-71"
+    },
+    {
+      "id": "F16",
+      "punto": "Conocimientos/inglés y certificados deseables",
+      "estado_pdf": "Ausente",
+      "estado_json": "A8 contiene detalle parcial; no llega al PDF.",
+      "agente": "A8",
+      "fuente": "65-70"
+    },
+    {
+      "id": "F17",
+      "punto": "Acreditación de un año no rebaja mínimos específicos",
+      "estado_pdf": "Ausente",
+      "estado_json": "No se contrasta la prueba genérica con mínimos superiores.",
+      "agente": "A8/A3",
+      "fuente": "8,64-71"
+    },
+    {
+      "id": "F18",
+      "punto": "Sin subrogación y convenio de referencia",
+      "estado_pdf": "Ausente",
+      "estado_json": "No se desarrolla el régimen seleccionado ni referencia.",
+      "agente": "A2/A8",
+      "fuente": "19,64,95"
+    },
+    {
+      "id": "F19",
+      "punto": "Medios propios portátil/licencias/conexión/teléfono",
+      "estado_pdf": "Ausente",
+      "estado_json": "A10 los recoge parcialmente; PDF no los desarrolla.",
+      "agente": "A10",
+      "fuente": "72"
+    },
+    {
+      "id": "F20",
+      "punto": "Thin clients/VDI/sesiones y WVD sin sumas indebidas",
+      "estado_pdf": "Ausente",
+      "estado_json": "A6/A10 contienen parte del parque; falta en PDF.",
+      "agente": "A6",
+      "fuente": "34-35"
+    },
+    {
+      "id": "F21",
+      "punto": "Más de 16.000 puestos físicos y periféricos",
+      "estado_pdf": "Ausente",
+      "estado_json": "Volumetría parcial en extractores, no en PDF.",
+      "agente": "A6",
+      "fuente": "41-42"
+    },
+    {
+      "id": "F22",
+      "punto": "Parque completo de movilidad",
+      "estado_pdf": "Ausente",
+      "estado_json": "A6/A10 parcial, no en PDF.",
+      "agente": "A6",
+      "fuente": "45"
+    },
+    {
+      "id": "F23",
+      "punto": "Hosts/VM y entornos MDM a SaaS",
+      "estado_pdf": "Ausente",
+      "estado_json": "A6/A10 parcial, no en PDF.",
+      "agente": "A6",
+      "fuente": "45"
+    },
+    {
+      "id": "F24",
+      "punto": "Horario ordinario 07:00-18:30 y festivos",
+      "estado_pdf": "Ausente",
+      "estado_json": "A8 conserva franja, no todos los calendarios.",
+      "agente": "A6/A8",
+      "fuente": "36,43,47"
+    },
+    {
+      "id": "F25",
+      "punto": "Presencialidad por sociedad/servicio 09:00-18:30",
+      "estado_pdf": "Ausente",
+      "estado_json": "A8 parcial, no en PDF.",
+      "agente": "A6/A8",
+      "fuente": "36,43,47"
+    },
+    {
+      "id": "F26",
+      "punto": "Guardia 24/7 y trabajos programados",
+      "estado_pdf": "Ausente",
+      "estado_json": "Extraída de forma general, sin desarrollo en PDF.",
+      "agente": "A6/A8",
+      "fuente": "36,43,47"
+    },
+    {
+      "id": "F27",
+      "punto": "Soporte N3 y administración especializada",
+      "estado_pdf": "Ausente",
+      "estado_json": "A6 contiene alcance, PDF solo lo denomina workplace.",
+      "agente": "A6",
+      "fuente": "32-49"
+    },
+    {
+      "id": "F28",
+      "punto": "Plataformas y tareas técnicas completas",
+      "estado_pdf": "Ausente",
+      "estado_json": "A6/A10 parcial, sin desarrollo en PDF.",
+      "agente": "A6",
+      "fuente": "32-49"
+    },
+    {
+      "id": "F29",
+      "punto": "PoST/Remedy/registro/planes y automatizaciones",
+      "estado_pdf": "Ausente",
+      "estado_json": "A6 contiene parte de herramientas y gobierno.",
+      "agente": "A6",
+      "fuente": "38-40,44,48-59"
+    },
+    {
+      "id": "F30",
+      "punto": "Desglose completo de 27 puntos",
+      "estado_pdf": "Parcial",
+      "estado_json": "A4 solo bloques 16+11 en el registro; PDF remite al anexo.",
+      "agente": "A4",
+      "fuente": "84-86"
+    },
+    {
+      "id": "F31",
+      "punto": "Méritos de transición/reversión/horas adicionales",
+      "estado_pdf": "Ausente",
+      "estado_json": "A4 no desarrolla el baremo completo en el registro.",
+      "agente": "A4",
+      "fuente": "85-86"
+    },
+    {
+      "id": "F32",
+      "punto": "Normalización 27×oferta/mejor y redondeo/ANS",
+      "estado_pdf": "Parcial",
+      "estado_json": "A4/PDF fórmula sin definir variables; 0,5 por ANS sí.",
+      "agente": "A4",
+      "fuente": "86-87"
+    },
+    {
+      "id": "F33",
+      "punto": "Rechazo técnico sin umbral numérico",
+      "estado_pdf": "Ausente",
+      "estado_json": "La ausencia de umbral no elimina la aptitud técnica.",
+      "agente": "A2/A4",
+      "fuente": "15"
+    },
+    {
+      "id": "F34",
+      "punto": "Exclusión por economía en sobre técnico y otras causas",
+      "estado_pdf": "Ausente",
+      "estado_json": "A2 recoge causas generales, PDF las omite.",
+      "agente": "A2",
+      "fuente": "4,10-12"
+    },
+    {
+      "id": "F35",
+      "punto": "Cláusula expresa de asunción tras transición",
+      "estado_pdf": "Ausente",
+      "estado_json": "No desarrollada en PDF ni registro completo.",
+      "agente": "A6/A2",
+      "fuente": "58-59"
+    },
+    {
+      "id": "F36",
+      "punto": "ANS 100%, acumulación y bases diferenciadas",
+      "estado_pdf": "Ausente",
+      "estado_json": "A6 contiene matriz parcial, se pierde en el PDF.",
+      "agente": "A6",
+      "fuente": "111-117"
+    },
+    {
+      "id": "F37",
+      "punto": "Perfil insuficiente 15% y sustitución en quince días",
+      "estado_pdf": "Ausente",
+      "estado_json": "A6 tiene el supuesto y parte de condiciones.",
+      "agente": "A6/A8",
+      "fuente": "111-112"
+    },
+    {
+      "id": "F38",
+      "punto": "Cambio de perfil 15 días/5 traspaso/25%/100%",
+      "estado_pdf": "Ausente",
+      "estado_json": "A6 recoge regla, con matiz de operador 30 días que revisar.",
+      "agente": "A6/A8",
+      "fuente": "112"
+    },
+    {
+      "id": "F39",
+      "punto": "Ausencia tres días y penalidad 20% por perfil",
+      "estado_pdf": "Ausente",
+      "estado_json": "A6 tiene el supuesto.",
+      "agente": "A6/A8",
+      "fuente": "112-113"
+    },
+    {
+      "id": "F40",
+      "punto": "Rotación >una por año:20% todos los servicios",
+      "estado_pdf": "Ausente",
+      "estado_json": "A6/A8 parcial, no en PDF.",
+      "agente": "A6/A8",
+      "fuente": "113"
+    },
+    {
+      "id": "F41",
+      "punto": "Proyectos especiales 15 naturales y penalidad15%",
+      "estado_pdf": "Ausente",
+      "estado_json": "A6 parcial, no se conserva el plazo contradictorio.",
+      "agente": "A6",
+      "fuente": "113-114"
+    },
+    {
+      "id": "F42",
+      "punto": "Incidencias/peticiones 4/12/72h y 25/5/1%",
+      "estado_pdf": "Ausente",
+      "estado_json": "A6 recoge indicadores; no llegan al PDF.",
+      "agente": "A6",
+      "fuente": "114-116"
+    },
+    {
+      "id": "F43",
+      "punto": "Cómputo 08:00-18:30 y proceso/fecha acordada",
+      "estado_pdf": "Ausente",
+      "estado_json": "Extracción parcial; no confundir respuesta/resolución.",
+      "agente": "A6",
+      "fuente": "114-116"
+    },
+    {
+      "id": "F44",
+      "punto": "Parcheo dos veces/año y penalidad100%",
+      "estado_pdf": "Ausente",
+      "estado_json": "A6 recoge parte del régimen, no en PDF.",
+      "agente": "A6",
+      "fuente": "116-117"
+    },
+    {
+      "id": "F45",
+      "punto": "Reiteración tres meses/cuatro en doce y cancelación",
+      "estado_pdf": "Ausente",
+      "estado_json": "A6 sí lo contiene, no en PDF.",
+      "agente": "A6",
+      "fuente": "117"
+    },
+    {
+      "id": "F46",
+      "punto": "Otras penalidades 2/50/10% según supuesto",
+      "estado_pdf": "Ausente",
+      "estado_json": "A2 parcial, sin desarrollo en PDF.",
+      "agente": "A2",
+      "fuente": "96-98"
+    },
+    {
+      "id": "F47",
+      "punto": "Transición 30 días desde firma y entrante no facturable",
+      "estado_pdf": "Ausente",
+      "estado_json": "A6 contiene transición genérica, no llega al PDF.",
+      "agente": "A6",
+      "fuente": "58-59"
+    },
+    {
+      "id": "F48",
+      "punto": "Plan de transición y gobierno/operación en15 días",
+      "estado_pdf": "Ausente",
+      "estado_json": "A6 recoge planes parcialmente, no todos los hitos.",
+      "agente": "A6",
+      "fuente": "58-59"
+    },
+    {
+      "id": "F49",
+      "punto": "Reversión mantiene equipo habitual/ANS y solapamiento",
+      "estado_pdf": "Parcial",
+      "estado_json": "PDF 8 conserva duración, omite mantenimiento íntegro y ANS.",
+      "agente": "A6",
+      "fuente": "61-62"
+    },
+    {
+      "id": "F50",
+      "punto": "Plan/capacidad cinco personas y reducción fianza50%",
+      "estado_pdf": "Mal explicado",
+      "estado_json": "PDF convierte capacidad de instalaciones en equipo; omite fianza.",
+      "agente": "A6",
+      "fuente": "61-62"
+    },
+    {
+      "id": "F51",
+      "punto": "Sin documentos aprobados no finalización ni último cobro",
+      "estado_pdf": "Parcial",
+      "estado_json": "PDF cita último mes, omite resto de trabajos pendientes y finalización.",
+      "agente": "A6/A2",
+      "fuente": "62"
+    },
+    {
+      "id": "F52",
+      "punto": "Metodología y cumplimiento ENS/ENI sin certificado concreto",
+      "estado_pdf": "Ausente",
+      "estado_json": "A9 contiene cumplimiento; PDF se limita a negar certificado ENS.",
+      "agente": "A9",
+      "fuente": "59-60"
+    },
+    {
+      "id": "F53",
+      "punto": "Dispositivos externos protegidos/accesos/evidencias",
+      "estado_pdf": "Ausente",
+      "estado_json": "A9 contiene varias medidas, no llegan al PDF.",
+      "agente": "A9/A10",
+      "fuente": "59-61"
+    },
+    {
+      "id": "F54",
+      "punto": "Brechas24h y traslado de derechos tres días",
+      "estado_pdf": "Ausente",
+      "estado_json": "A9 contiene comunicaciones, no en PDF.",
+      "agente": "A9",
+      "fuente": "102-103"
+    },
+    {
+      "id": "F55",
+      "punto": "Auditorías/accesos/registros/copias/cifrado/fugas",
+      "estado_pdf": "Ausente",
+      "estado_json": "A9 contiene varias medidas, no en PDF.",
+      "agente": "A9",
+      "fuente": "20-21,99-108"
+    },
+    {
+      "id": "F56",
+      "punto": "Subcontratación salvo gestión/coordinación y declaraciones",
+      "estado_pdf": "Ausente",
+      "estado_json": "A10/A2 parcial, no en PDF.",
+      "agente": "A10/A2",
+      "fuente": "25,81"
+    },
+    {
+      "id": "F57",
+      "punto": "Subencargados autorizaciones y obligaciones",
+      "estado_pdf": "Ausente",
+      "estado_json": "A9 parcial, no en PDF.",
+      "agente": "A9",
+      "fuente": "100-102"
+    },
+    {
+      "id": "F58",
+      "punto": "Política de prevención delictiva propia o adhesión",
+      "estado_pdf": "Ausente",
+      "estado_json": "No debe deducirse inexistencia por fallo de documento externo.",
+      "agente": "A2",
+      "fuente": "19-20"
+    },
+    {
+      "id": "F59",
+      "punto": "20% indefinidos acreditado al inicio y subcontratistas",
+      "estado_pdf": "Ausente",
+      "estado_json": "A2 sí recoge mínimo y clasificación, pero no llega al PDF.",
+      "agente": "A2",
+      "fuente": "24"
+    },
+    {
+      "id": "F60",
+      "punto": "Facturación ordinaria75/25 y desglose por servicio",
+      "estado_pdf": "Ausente",
+      "estado_json": "A2 no conserva el reparto completo.",
+      "agente": "A2",
+      "fuente": "90-91"
+    },
+    {
+      "id": "F61",
+      "punto": "Factura electrónica/60 días/confirming/garantía3meses",
+      "estado_pdf": "Parcial",
+      "estado_json": "PDF sí tiene factura/60d/3meses; falta calendario/confirming.",
+      "agente": "A2",
+      "fuente": "26-28"
+    },
+    {
+      "id": "F62",
+      "punto": "Calendario:24meses desde firma frente transición excluida",
+      "estado_pdf": "Ausente",
+      "estado_json": "No detectado; 39meses no resuelve conflicto.",
+      "agente": "A2/A6",
+      "fuente": "5,58-59"
+    },
+    {
+      "id": "F63",
+      "punto": "Proyectos:15 laborables frente naturales e igualdad",
+      "estado_pdf": "Ausente",
+      "estado_json": "No detectado como discrepancia.",
+      "agente": "A6/A4",
+      "fuente": "50-51,113-114"
+    },
+    {
+      "id": "F64",
+      "punto": "Precio hora pedido en sobre técnico frente prohibición",
+      "estado_pdf": "Ausente",
+      "estado_json": "No detectado como discrepancia.",
+      "agente": "A4/A2",
+      "fuente": "11-12,85"
+    },
+    {
+      "id": "F65",
+      "punto": "Subrogación:opción negativa y frase genérica afirmativa",
+      "estado_pdf": "Ausente",
+      "estado_json": "No detectado como discrepancia.",
+      "agente": "A2",
+      "fuente": "19,95"
+    },
+    {
+      "id": "F66",
+      "punto": "Gobierno:cuatro méritos de1 con máximo3 y baremos incompletos",
+      "estado_pdf": "Ausente",
+      "estado_json": "No detectado como discrepancia.",
+      "agente": "A4",
+      "fuente": "85-86"
+    },
+    {
+      "id": "F67",
+      "punto": "Subencargados:autorización/silencio y conservación",
+      "estado_pdf": "Ausente",
+      "estado_json": "A9 recoge cláusulas sin contrastarlas por completo.",
+      "agente": "A9",
+      "fuente": "100-105"
+    },
+    {
+      "id": "F68",
+      "punto": "Otros:dos/tres niveles,lotes inexistentes y penalidades",
+      "estado_pdf": "Ausente",
+      "estado_json": "No identificados en conjunto; deben describirse sin resolver por intuición.",
+      "agente": "A2/A6",
+      "fuente": "52-55,73,96-98"
+    }
+  ],
+  "cambios_generales_aplicados": [
+    "Un contrato de salida por especialista; sin fragmentar documentos ni crear un catálogo contractual de Correos.",
+    "Búsqueda explícita de todos los conceptos del feedback por especialidad, sin valores específicos de esta licitación.",
+    "Conservación de hechos ya extraídos en tablas y párrafos, además del registro explícito, en JSON individuales, consolidado y cuerpo del PDF.",
+    "Vista adicional de filas PDF alineadas por coordenadas e índice literal de cifras y publicaciones dentro del mismo prompt.",
+    "Rechazo y reintento de sobres Response incompletos; lectura de sobres completos y filas de fórmula multilínea.",
+    "Control editorial de fase de fechas y rechazo de exenciones generales de medios y fabricantes en la síntesis.",
+    "Agrupación de apartados por materia para evitar un encabezado principal por cada variante de un requisito."
+  ],
+  "validacion_codigo": {
+    "pruebas_automaticas": 140,
+    "resultado": "OK",
+    "limite": "Son controles del programa, no 140 cláusulas verificadas del contrato."
+  },
+  "limites_prueba_real": [
+    "Cuatro PDF locales originales, sin consultar documentos externos.",
+    "Respuestas de especialistas obtenidas mediante Druid; se han reutilizado respuestas completas ya guardadas para evitar repetir agentes no modificados.",
+    "La detección de discrepancias y la exhaustividad de la extracción siguen necesitando contraste documental: el número de registros no acredita que estén cubiertas las 81 observaciones.",
+    "Un PDF de prueba producido antes del último control de exenciones no se entrega como resultado definitivo validado."
+  ],
+  "prueba_real_pendientes_confirmados": [
+    {
+      "ids": [
+        "E01",
+        "E02"
+      ],
+      "estado": "Parcial: A2 ya separa invitación, pero otra fila sigue atribuyendo la misma fecha a ofertas y participación; A1 no identifica bien la fase."
+    },
+    {
+      "ids": [
+        "F01"
+      ],
+      "estado": "Incompleto: recoge importes con IVA por sociedad y bolsas, pero siguen ausentes 1.087.500 €, 332.500 € sin IVA y 1.270.000 € ordinarios."
+    },
+    {
+      "ids": [
+        "F06"
+      ],
+      "estado": "Parcial: conserva fórmula y tramo decreciente, pero no desarrolla los resultados derivados de 25 %, 27,5 % y 30 %."
+    },
+    {
+      "ids": [
+        "F14"
+      ],
+      "estado": "Parcial: las siete cantidades se asignan correctamente y se refieren a 24 meses; no aparece el total comprobado de 37.440 horas."
+    },
+    {
+      "ids": [
+        "F62",
+        "F63",
+        "F64",
+        "F65",
+        "F66",
+        "F67",
+        "F68"
+      ],
+      "estado": "Las cláusulas se extraen en distinto grado, pero no queda confirmada la identificación de todas las discrepancias solicitadas como pendientes de aclaración."
+    },
+    {
+      "ids": [
+        "E06",
+        "E08"
+      ],
+      "estado": "La prueba editorial anterior al último control seguía formulando exenciones generales en su conclusión. El código actualizado las rechaza; no se entrega ese PDF como versión definitiva."
+    }
+  ],
+  "prueba_real_mejoras_confirmadas": [
+    "A2: bolsas de 135.000 € y 15.000 €, no reducibles; contratos separados; facturación 75/25 y cobro a 60 días.",
+    "A8: cuadro de horas por perfil correctamente alineado, incluidos los tres recursos compartidos de 480 horas, periodo de 24 meses y mínimos de equipo.",
+    "A9: notificación de brechas en 24 horas desde conocimiento real o debido, derechos en tres días naturales y obligaciones detalladas de seguridad.",
+    "Se conservan 461 registros brutos de los especialistas en el JSON de prueba normalizado. El volumen incluye repeticiones y diagnósticos; no equivale a 461 obligaciones distintas ni a 81 puntos cerrados."
+  ]
+}

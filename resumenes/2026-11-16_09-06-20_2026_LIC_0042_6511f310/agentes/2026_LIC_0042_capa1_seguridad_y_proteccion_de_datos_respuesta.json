@@ -1,0 +1,1147 @@
+{
+  "orden": 7,
+  "id": "A9",
+  "nombre": "Seguridad y protección de datos",
+  "tipo": "extraccion",
+  "ejecucion": "6511f3104bf741df9810881bf16a47bd",
+  "estado": "completado",
+  "contenido": {
+    "requisitos_documentales": [
+      {
+        "id": "R0001",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El adjudicatario está obligado al cumplimiento de la normativa en materia de la seguridad de la información, de acuerdo con lo establecido en el Esquema Nacional de Seguridad y la ley 3/2018 de protección de datos de carácter personal, específicamente la Disposición adicional primera. Medidas de seguridad en el ámbito del sector público (En los casos en los que un tercero preste un servicio en régimen de concesión, encomienda de gestión o contrato, las medidas de seguridad se corresponderán con las de la Administración pública de origen y se ajustarán al Esquema Nacional de Seguridad).",
+        "fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 50",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0002",
+        "seccion": "Seguridad / ENS",
+        "detalle": "Los ordenadores utilizados por el personal de la empresa contratista para acceder a la plataforma Microsoft 365 (tenant M365) de la Seguridad Social y/o Mutua Intercomarcal deben cumplir con las exigencias de seguridad recogidas en el pliego: nivel de actualizaciones de software equivalente al de la Seguridad Social, EDR certificado para nivel alto del ENS en CPSTIC11, operativo y actualizado, y administración por un gestor como Intune o similar que impida la conexión a la red corporativa en caso de incumplimiento del perfil de seguridad.",
+        "fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 54",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0003",
+        "seccion": "Seguridad / ENS",
+        "detalle": "La empresa contratista se compromete a facilitar a la GISS, en cualquier momento, la posibilidad de revisar los dispositivos para verificar el cumplimiento de las directrices de seguridad; en caso de incumplimiento, la GISS podrá bloquear el acceso al tenant y promover la finalización inmediata del servicio.",
+        "fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 54",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0004",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El uso de los sistemas de información de la Seguridad Social y/o de la Mutua, así como el acceso a Internet, uso del correo electrónico corporativo y de los recursos tecnológicos de la Seguridad Social se limitará exclusivamente a los aspectos directamente relacionados con los servicios contratados.",
+        "fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 51",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0005",
+        "seccion": "Seguridad / ENS",
+        "detalle": "Se prohíbe instalar, modificar, ejecutar o eliminar software o hardware no autorizado, distorsionar, modificar o borrar registros del sistema, intentar acceder a áreas no autorizadas, aumentar privilegios sin autorización, destruir o dañar registros, obstaculizar el acceso de otros usuarios, enviar correos masivos no autorizados, introducir virus o programas no autorizados, y utilizar recursos para fines distintos a los servicios contratados.",
+        "fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, págs. 51-53",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0006",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El contratista y los subcontratistas deben poner en conocimiento del personal los extremos contenidos en la cláusula de seguridad, mediante la suscripción individualizada del correspondiente documento.",
+        "fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 53",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0007",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El contratista responderá ante la Seguridad Social y/o la Mutua, a la que mantendrá indemne de todos los daños, gastos, costes, perjuicios y pérdidas de cualquier tipo en los que pudiera tener o incurrir como consecuencia de las reclamaciones de cualquier tipo que pudieran originarse por el incumplimiento por parte de aquél de las obligaciones asumidas en esta cláusula.",
+        "fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 53",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0008",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El adjudicatario está obligado a cumplir la normativa vigente en materia de prevención de riesgos laborales, conforme a la Ley 31/1995, de 8 de noviembre, y normativa de desarrollo, así como con las obligaciones en materia de coordinación de actividades empresariales (CAE).",
+        "fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 5",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0009",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El adjudicatario será el único responsable del cumplimiento de las obligaciones legales que le sean exigibles en relación con la ejecución del contrato, exonerando a Mutua Intercomarcal de cualquier responsabilidad derivada de su incumplimiento.",
+        "fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 5",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0010",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El adjudicatario deberá garantizar la adopción de todas las medidas necesarias para prevenir la siniestralidad laboral de su personal durante la ejecución de los trabajos de mantenimiento, especialmente aquellas relacionadas con trabajos en altura, manipulación de cargas, riesgo eléctrico y operaciones propias del mantenimiento de equipos elevadores.",
+        "fuente": "MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 8",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0011",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El adjudicatario deberá aportar declaración responsable acreditativa del cumplimiento de las obligaciones en materia de prevención de riesgos laborales de conformidad con la Ley 31/1995, de Prevención de Riesgos Laborales, así como la normativa específica que resulte de aplicación al tipo de trabajos a ejecutar.",
+        "fuente": "MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 8",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0012",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El adjudicatario deberá estar en posesión de una póliza de responsabilidad civil por un importe igual o superior a 200.000,00 euros, por siniestro para responder suficientemente de los posibles daños ocasionados, tanto a las personas como a los bienes, por su personal o a consecuencia de su actividad.",
+        "fuente": "MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 9",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0013",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El contratista deberá aportar un certificado de la póliza de responsabilidad civil, la misma se deberá mantener en vigor durante toda la vigencia del contrato.",
+        "fuente": "MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 9",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0014",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El adjudicatario deberá garantizar la correcta gestión y reciclaje de los residuos derivados de la prestación del servicio de mantenimiento, especialmente aquellos generados en las operaciones de reparación, sustitución de componentes, aceites, elementos eléctricos o electrónicos y demás materiales propios de las plataformas elevadoras.",
+        "fuente": "MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 8",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0015",
+        "seccion": "Seguridad / ENS",
+        "detalle": "Dicha condición de gestión de residuos deberá acreditarse mediante declaración responsable previa a la formalización del contrato, debiendo cumplirse durante toda su vigencia. A instancia de Mutua Intercomarcal, o en caso de indicios de incumplimiento, el responsable del contrato podrá requerir al adjudicatario la aportación de documentación justificativa relativa a la correcta gestión de los residuos generados.",
+        "fuente": "MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 8",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0016",
+        "seccion": "Seguridad / ENS",
+        "detalle": "Las condiciones especiales de ejecución establecidas (gestión de residuos, prevención de riesgos laborales, póliza de responsabilidad civil) tendrán el carácter de obligación contractual esencial, a los efectos señalados en el artículo 211, apartado f) de la LCSP.",
+        "fuente": "MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 9",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0017",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El incumplimiento de las condiciones especiales de ejecución podrá ser causa de resolución del contrato conforme al artículo 211 letra f) de la LCSP, o en los términos que se establezcan reglamentariamente, y tendrá la consideración de infracción grave de conformidad con lo dispuesto en el artículo 71.2.c) de la LCSP, pudiendo determinar la correspondiente prohibición de contratar.",
+        "fuente": "MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 9",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0018",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El adjudicatario deberá disponer de los medios materiales necesarios para la correcta ejecución del servicio, incluyendo herramientas y equipos de diagnóstico específicos para plataformas elevadoras, stock mínimo de repuestos habituales, uso de repuestos originales o equivalentes autorizados, y vehículos de asistencia técnica adecuados para la intervención en los centros.",
+        "fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 4",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0019",
+        "seccion": "Seguridad / ENS",
+        "detalle": "Todo el personal asignado al contrato deberá disponer de la habilitación técnica requerida para trabajos en plataformas elevadoras, estar directamente vinculado al adjudicatario, estar identificado y comunicado previamente a Mutua Intercomarcal, y cualquier modificación del personal deberá ser notificada y autorizada.",
+        "fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 4",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0020",
+        "seccion": "Seguridad / ENS",
+        "detalle": "La empresa adjudicataria está obligada a mantener al día la documentación de CAE (coordinación de Actividades Empresariales) con Mutua Intercomarcal.",
+        "fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 4",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0021",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El adjudicatario deberá disponer de un sistema de gestión que permita registrar todas las actuaciones realizadas (preventivas y correctivas), controlar el estado de las instalaciones, gestionar incidencias y tiempos de respuesta, y facilitar informes periódicos a Mutua Intercomarcal.",
+        "fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 5",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0022",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El adjudicatario vendrá obligado al estricto cumplimiento de toda la normativa vigente que resulte de aplicación a la prestación del servicio de mantenimiento de plataformas elevadoras en las instalaciones de Mutua Intercomarcal, tanto en la sucursal de Vigo como en la de Barcelona.",
+        "fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 5",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0023",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El adjudicatario será responsable de la calidad técnica del servicio o suministro prestado y de las actividades realizadas, así como de las consecuencias que se deduzcan para Mutua Intercomarcal de los errores o conclusiones incorrectas durante la ejecución del contrato.",
+        "fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 5",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0024",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El adjudicatario garantizará la adecuada coordinación entre sus recursos humanos y materiales para asegurar la prestación continua del servicio.",
+        "fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 4",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0025",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El adjudicatario deberá impartir a todas las personas asignadas a las tareas objeto del presente contrato, las instrucciones precisas para el efectivo conocimiento de las obligaciones asumidas por su empresa en virtud del presente contrato, así como las consecuencias en que pudiera incurrir en caso de incumplimiento, evitando el acceso a instalaciones no autorizadas, así como cualquier actuación que pueda ocasionar desperfectos y/o responsabilidades, recabando el correspondiente compromiso de salvaguarda de la confidencialidad de dichos trabajadores.",
+        "fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 47",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0026",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El adjudicatario será responsable de los daños y perjuicios que ocasione a Mutua Intercomarcal con motivo del incumplimiento del compromiso establecido en todos los puntos de este apartado, incluido el importe de cualesquiera sanciones que a la Mutua se le impongan por tal circunstancia.",
+        "fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 47",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0027",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El adjudicatario será responsable de la calidad técnica del servicio prestado y de las actividades realizadas, así como de las consecuencias que se deducen para Mutua Intercomarcal de los errores o conclusiones incorrectas durante la ejecución del contrato.",
+        "fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 59",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0028",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El adjudicatario será responsable de los daños y perjuicios que ocasione a Mutua Intercomarcal con motivo del incumplimiento del compromiso establecido en los distintos puntos de los pliegos, de la oferta presentada o del contrato, incluido el importe de cualesquiera sanciones que a la Mutua se le pudieran imponer por tal circunstancia.",
+        "fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 59",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0029",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El adjudicatario será responsable de indemnizar todos los daños y perjuicios que se causen, por sí o por el personal o medios dependientes del mismo, a terceros como consecuencia de las operaciones que requiera la ejecución del contrato.",
+        "fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 59",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0030",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El adjudicatario será responsable de la organización necesaria de personal para cumplir los trabajos encomendados por la Mutua, siendo ejecutados por trabajadores con la calificación profesional necesaria, así como con la calidad y la diligencia técnicas que precisan las tareas.",
+        "fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 56",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0031",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El adjudicatario cumplirá en todo momento con la legislación vigente; especialmente, en materia laboral, fiscal, de prevención de riesgos laborales y cualquier otra que en el presente o en el futuro fuere de aplicación.",
+        "fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 56",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0032",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El adjudicatario designará a un interlocutor con el que la Mutua llevará a cabo la verificación y aceptación de los partes de trabajo y facturas.",
+        "fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 56",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0033",
+        "seccion": "Seguridad / ENS",
+        "detalle": "En caso de subcontratación parcial del contrato, la empresa subcontratista y el personal a cargo de la misma deberá reunir las condiciones contempladas en la cláusula de personal.",
+        "fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 58",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0034",
+        "seccion": "Seguridad / ENS",
+        "detalle": "Las condiciones especiales de ejecución que formen parte del contrato serán exigidas también a todos los subcontratistas que participen en la ejecución del mismo.",
+        "fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 59",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0035",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El contratista podrá subcontratar con terceros la realización parcial de la prestación con el cumplimiento de los requisitos y obligaciones establecidos en los artículos 215 y 216 de la LCSP. El incumplimiento de estas estipulaciones legales conllevará las consecuencias establecidas en el apartado 3 del artículo 215 de la LCSP.",
+        "fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 60",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0036",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El contratista responderá ante Mutua Intercomarcal de las obligaciones del contrato, no pudiendo liberarse de la misma por la existencia de subcontratación.",
+        "fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 61",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0037",
+        "seccion": "Seguridad / ENS",
+        "detalle": "Los subcontratistas quedarán obligados solo ante el contratista principal que asumirá, por tanto, la responsabilidad de la ejecución del contrato frente a Mutua Intercomarcal, con arreglo estricto a los pliegos que rigen el contrato y documentación complementaria y a los términos del contrato; incluido el cumplimiento de las obligaciones en materia medioambiental, social o laboral a que se refiere el art. 201 de la LCSP así como de la obligación a que hace referencia el último párrafo del apartado 1 del artículo 202 de la LCSP referida al sometimiento a la normativa nacional y de la Unión Europea en materia de protección de datos.",
+        "fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 61",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0038",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El contratista estará obligado a abonar a los subcontratistas o suministradores el precio pactado en los precios y condiciones indicados en el art. 216 de la LCSP.",
+        "fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 61",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0039",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El responsable del contrato en delegación del órgano de contratación podrá comprobar el estricto cumplimiento de los pagos que el contratista haya de ejecutar a los subcontratistas o suministradores que participen en el contrato, ejercitando tal facultad de conformidad con el artículo 217 LCSP.",
+        "fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 61",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0040",
+        "seccion": "Seguridad / ENS",
+        "detalle": "Las actuaciones de comprobación y de imposición de penalidades por el incumplimiento de los pagos a subcontratistas, serán obligatorias para los contratos de obras y servicios cuyo valor estimado supere los 5 millones de euros y en los que el importe de la subcontratación sea igual o superior al 30 por ciento del precio del contrato, en relación a los pagos a subcontratistas que hayan asumido contractualmente con el contratista principal el compromiso de realizar determinadas partes del contrato. El incumplimiento de estas obligaciones dará lugar a la imposición de penalidades de conformidad con lo dispuesto en el art. 192 en relación con el Anexo IX del PCAP.",
+        "fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 62",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0041",
+        "seccion": "Seguridad / ENS",
+        "detalle": "El adjudicatario deberá disponer de un sistema de gestión que permita registrar todas las actuaciones realizadas (preventivas y correctivas), controlar el estado de las instalaciones, gestionar incidencias y tiempos de respuesta, y facilitar informes periódicos a Mutua Intercomarcal.",
+        "fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 5",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0042",
+        "seccion": "Seguridad / ENS",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de certificación ENS, declaración de conformidad, categoría ENS, guías técnicas ENS específicas, ni plazos de acreditación documental de ENS.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0043",
+        "seccion": "Seguridad / ENS",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de medidas técnicas específicas como cifrado, gestión de claves, MFA, RBAC, PAM, VPN, bastionado, segmentación, EDR/XDR, WAF, SIEM, DLP, backups, logs, gestión de identidades, privilegios, altas/bajas, acceso remoto, gestión de vulnerabilidades, parcheado, CVE, pentesting, EOL/EOS, logging, trazabilidad, retención, SOC/SIEM, continuidad, DR, RTO/RPO, pruebas de continuidad, desarrollo seguro, SDLC, DevSecOps, SAST, DAST, SCA, secretos, OWASP, CI/CD, SBOM, auditorías de seguridad, borrado seguro, devolución de información, ni requisitos de confidencialidad adicionales a los ya recogidos.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0044",
+        "seccion": "Seguridad / ENS",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de designación de DPO/DPD, EIPD, ni reglas sobre transferencias internacionales de datos, localización de datos, ni contenido detallado de acuerdos de encargado/subencargado de tratamiento.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0045",
+        "seccion": "Seguridad / ENS",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de roles de tratamiento de datos personales, categorías de datos/interesados, finalidad, accesos, almacenamiento, conservación, ni reglas sobre subencargados cloud, SaaS, CPD, soporte o cadena de suministro.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0046",
+        "seccion": "Seguridad / ENS",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de notificación de incidentes o brechas de seguridad, canales, responsables, plazos expresos, contenido de notificación, escalado, respuesta, recuperación, investigación, informes o colaboración en incidentes de seguridad.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0047",
+        "seccion": "Seguridad / ENS",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de auditorías de seguridad, certificaciones ISO 27001, ni otras certificaciones de seguridad.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "R0048",
+        "seccion": "Seguridad / ENS",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de borrado seguro, devolución de información, ni reglas específicas de confidencialidad más allá de las obligaciones generales de confidencialidad y protección de datos.",
+        "fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "A9-S0049",
+        "seccion": "Seguridad y protección de datos",
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "detalle": "No se han identificado discrepancias en la documentación revisada.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A9",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      }
+    ],
+    "resumen": [
+      "No se han identificado discrepancias en la documentación revisada."
+    ],
+    "secciones": [
+      {
+        "titulo": "Registro documental de preventa",
+        "parrafos": [],
+        "elementos": [],
+        "tablas": [
+          {
+            "columnas": [
+              "Materia",
+              "Requisito completo",
+              "Fuente"
+            ],
+            "filas": [
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El adjudicatario está obligado al cumplimiento de la normativa en materia de la seguridad de la información, de acuerdo con lo establecido en el Esquema Nacional de Seguridad y la ley 3/2018 de protección de datos de carácter personal, específicamente la Disposición adicional primera. Medidas de seguridad en el ámbito del sector público (En los casos en los que un tercero preste un servicio en régimen de concesión, encomienda de gestión o contrato, las medidas de seguridad se corresponderán con las de la Administración pública de origen y se ajustarán al Esquema Nacional de Seguridad).",
+                "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 50"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "Los ordenadores utilizados por el personal de la empresa contratista para acceder a la plataforma Microsoft 365 (tenant M365) de la Seguridad Social y/o Mutua Intercomarcal deben cumplir con las exigencias de seguridad recogidas en el pliego: nivel de actualizaciones de software equivalente al de la Seguridad Social, EDR certificado para nivel alto del ENS en CPSTIC11, operativo y actualizado, y administración por un gestor como Intune o similar que impida la conexión a la red corporativa en caso de incumplimiento del perfil de seguridad.",
+                "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 54"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "La empresa contratista se compromete a facilitar a la GISS, en cualquier momento, la posibilidad de revisar los dispositivos para verificar el cumplimiento de las directrices de seguridad; en caso de incumplimiento, la GISS podrá bloquear el acceso al tenant y promover la finalización inmediata del servicio.",
+                "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 54"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El uso de los sistemas de información de la Seguridad Social y/o de la Mutua, así como el acceso a Internet, uso del correo electrónico corporativo y de los recursos tecnológicos de la Seguridad Social se limitará exclusivamente a los aspectos directamente relacionados con los servicios contratados.",
+                "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 51"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "Se prohíbe instalar, modificar, ejecutar o eliminar software o hardware no autorizado, distorsionar, modificar o borrar registros del sistema, intentar acceder a áreas no autorizadas, aumentar privilegios sin autorización, destruir o dañar registros, obstaculizar el acceso de otros usuarios, enviar correos masivos no autorizados, introducir virus o programas no autorizados, y utilizar recursos para fines distintos a los servicios contratados.",
+                "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, págs. 51-53"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El contratista y los subcontratistas deben poner en conocimiento del personal los extremos contenidos en la cláusula de seguridad, mediante la suscripción individualizada del correspondiente documento.",
+                "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 53"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El contratista responderá ante la Seguridad Social y/o la Mutua, a la que mantendrá indemne de todos los daños, gastos, costes, perjuicios y pérdidas de cualquier tipo en los que pudiera tener o incurrir como consecuencia de las reclamaciones de cualquier tipo que pudieran originarse por el incumplimiento por parte de aquél de las obligaciones asumidas en esta cláusula.",
+                "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 53"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El adjudicatario está obligado a cumplir la normativa vigente en materia de prevención de riesgos laborales, conforme a la Ley 31/1995, de 8 de noviembre, y normativa de desarrollo, así como con las obligaciones en materia de coordinación de actividades empresariales (CAE).",
+                "Fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 5"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El adjudicatario será el único responsable del cumplimiento de las obligaciones legales que le sean exigibles en relación con la ejecución del contrato, exonerando a Mutua Intercomarcal de cualquier responsabilidad derivada de su incumplimiento.",
+                "Fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 5"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El adjudicatario deberá garantizar la adopción de todas las medidas necesarias para prevenir la siniestralidad laboral de su personal durante la ejecución de los trabajos de mantenimiento, especialmente aquellas relacionadas con trabajos en altura, manipulación de cargas, riesgo eléctrico y operaciones propias del mantenimiento de equipos elevadores.",
+                "Fuente": "MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 8"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El adjudicatario deberá aportar declaración responsable acreditativa del cumplimiento de las obligaciones en materia de prevención de riesgos laborales de conformidad con la Ley 31/1995, de Prevención de Riesgos Laborales, así como la normativa específica que resulte de aplicación al tipo de trabajos a ejecutar.",
+                "Fuente": "MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 8"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El adjudicatario deberá estar en posesión de una póliza de responsabilidad civil por un importe igual o superior a 200.000,00 euros, por siniestro para responder suficientemente de los posibles daños ocasionados, tanto a las personas como a los bienes, por su personal o a consecuencia de su actividad.",
+                "Fuente": "MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 9"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El contratista deberá aportar un certificado de la póliza de responsabilidad civil, la misma se deberá mantener en vigor durante toda la vigencia del contrato.",
+                "Fuente": "MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 9"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El adjudicatario deberá garantizar la correcta gestión y reciclaje de los residuos derivados de la prestación del servicio de mantenimiento, especialmente aquellos generados en las operaciones de reparación, sustitución de componentes, aceites, elementos eléctricos o electrónicos y demás materiales propios de las plataformas elevadoras.",
+                "Fuente": "MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 8"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "Dicha condición de gestión de residuos deberá acreditarse mediante declaración responsable previa a la formalización del contrato, debiendo cumplirse durante toda su vigencia. A instancia de Mutua Intercomarcal, o en caso de indicios de incumplimiento, el responsable del contrato podrá requerir al adjudicatario la aportación de documentación justificativa relativa a la correcta gestión de los residuos generados.",
+                "Fuente": "MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 8"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "Las condiciones especiales de ejecución establecidas (gestión de residuos, prevención de riesgos laborales, póliza de responsabilidad civil) tendrán el carácter de obligación contractual esencial, a los efectos señalados en el artículo 211, apartado f) de la LCSP.",
+                "Fuente": "MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 9"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El incumplimiento de las condiciones especiales de ejecución podrá ser causa de resolución del contrato conforme al artículo 211 letra f) de la LCSP, o en los términos que se establezcan reglamentariamente, y tendrá la consideración de infracción grave de conformidad con lo dispuesto en el artículo 71.2.c) de la LCSP, pudiendo determinar la correspondiente prohibición de contratar.",
+                "Fuente": "MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 9"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El adjudicatario deberá disponer de los medios materiales necesarios para la correcta ejecución del servicio, incluyendo herramientas y equipos de diagnóstico específicos para plataformas elevadoras, stock mínimo de repuestos habituales, uso de repuestos originales o equivalentes autorizados, y vehículos de asistencia técnica adecuados para la intervención en los centros.",
+                "Fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 4"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "Todo el personal asignado al contrato deberá disponer de la habilitación técnica requerida para trabajos en plataformas elevadoras, estar directamente vinculado al adjudicatario, estar identificado y comunicado previamente a Mutua Intercomarcal, y cualquier modificación del personal deberá ser notificada y autorizada.",
+                "Fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 4"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "La empresa adjudicataria está obligada a mantener al día la documentación de CAE (coordinación de Actividades Empresariales) con Mutua Intercomarcal.",
+                "Fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 4"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El adjudicatario deberá disponer de un sistema de gestión que permita registrar todas las actuaciones realizadas (preventivas y correctivas), controlar el estado de las instalaciones, gestionar incidencias y tiempos de respuesta, y facilitar informes periódicos a Mutua Intercomarcal.",
+                "Fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 5"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El adjudicatario vendrá obligado al estricto cumplimiento de toda la normativa vigente que resulte de aplicación a la prestación del servicio de mantenimiento de plataformas elevadoras en las instalaciones de Mutua Intercomarcal, tanto en la sucursal de Vigo como en la de Barcelona.",
+                "Fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 5"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El adjudicatario será responsable de la calidad técnica del servicio o suministro prestado y de las actividades realizadas, así como de las consecuencias que se deduzcan para Mutua Intercomarcal de los errores o conclusiones incorrectas durante la ejecución del contrato.",
+                "Fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 5"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El adjudicatario garantizará la adecuada coordinación entre sus recursos humanos y materiales para asegurar la prestación continua del servicio.",
+                "Fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 4"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El adjudicatario deberá impartir a todas las personas asignadas a las tareas objeto del presente contrato, las instrucciones precisas para el efectivo conocimiento de las obligaciones asumidas por su empresa en virtud del presente contrato, así como las consecuencias en que pudiera incurrir en caso de incumplimiento, evitando el acceso a instalaciones no autorizadas, así como cualquier actuación que pueda ocasionar desperfectos y/o responsabilidades, recabando el correspondiente compromiso de salvaguarda de la confidencialidad de dichos trabajadores.",
+                "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 47"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El adjudicatario será responsable de los daños y perjuicios que ocasione a Mutua Intercomarcal con motivo del incumplimiento del compromiso establecido en todos los puntos de este apartado, incluido el importe de cualesquiera sanciones que a la Mutua se le impongan por tal circunstancia.",
+                "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 47"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El adjudicatario será responsable de la calidad técnica del servicio prestado y de las actividades realizadas, así como de las consecuencias que se deducen para Mutua Intercomarcal de los errores o conclusiones incorrectas durante la ejecución del contrato.",
+                "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 59"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El adjudicatario será responsable de los daños y perjuicios que ocasione a Mutua Intercomarcal con motivo del incumplimiento del compromiso establecido en los distintos puntos de los pliegos, de la oferta presentada o del contrato, incluido el importe de cualesquiera sanciones que a la Mutua se le pudieran imponer por tal circunstancia.",
+                "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 59"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El adjudicatario será responsable de indemnizar todos los daños y perjuicios que se causen, por sí o por el personal o medios dependientes del mismo, a terceros como consecuencia de las operaciones que requiera la ejecución del contrato.",
+                "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 59"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El adjudicatario será responsable de la organización necesaria de personal para cumplir los trabajos encomendados por la Mutua, siendo ejecutados por trabajadores con la calificación profesional necesaria, así como con la calidad y la diligencia técnicas que precisan las tareas.",
+                "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 56"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El adjudicatario cumplirá en todo momento con la legislación vigente; especialmente, en materia laboral, fiscal, de prevención de riesgos laborales y cualquier otra que en el presente o en el futuro fuere de aplicación.",
+                "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 56"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El adjudicatario designará a un interlocutor con el que la Mutua llevará a cabo la verificación y aceptación de los partes de trabajo y facturas.",
+                "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 56"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "En caso de subcontratación parcial del contrato, la empresa subcontratista y el personal a cargo de la misma deberá reunir las condiciones contempladas en la cláusula de personal.",
+                "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 58"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "Las condiciones especiales de ejecución que formen parte del contrato serán exigidas también a todos los subcontratistas que participen en la ejecución del mismo.",
+                "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 59"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El contratista podrá subcontratar con terceros la realización parcial de la prestación con el cumplimiento de los requisitos y obligaciones establecidos en los artículos 215 y 216 de la LCSP. El incumplimiento de estas estipulaciones legales conllevará las consecuencias establecidas en el apartado 3 del artículo 215 de la LCSP.",
+                "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 60"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El contratista responderá ante Mutua Intercomarcal de las obligaciones del contrato, no pudiendo liberarse de la misma por la existencia de subcontratación.",
+                "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 61"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "Los subcontratistas quedarán obligados solo ante el contratista principal que asumirá, por tanto, la responsabilidad de la ejecución del contrato frente a Mutua Intercomarcal, con arreglo estricto a los pliegos que rigen el contrato y documentación complementaria y a los términos del contrato; incluido el cumplimiento de las obligaciones en materia medioambiental, social o laboral a que se refiere el art. 201 de la LCSP así como de la obligación a que hace referencia el último párrafo del apartado 1 del artículo 202 de la LCSP referida al sometimiento a la normativa nacional y de la Unión Europea en materia de protección de datos.",
+                "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 61"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El contratista estará obligado a abonar a los subcontratistas o suministradores el precio pactado en los precios y condiciones indicados en el art. 216 de la LCSP.",
+                "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 61"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El responsable del contrato en delegación del órgano de contratación podrá comprobar el estricto cumplimiento de los pagos que el contratista haya de ejecutar a los subcontratistas o suministradores que participen en el contrato, ejercitando tal facultad de conformidad con el artículo 217 LCSP.",
+                "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 61"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "Las actuaciones de comprobación y de imposición de penalidades por el incumplimiento de los pagos a subcontratistas, serán obligatorias para los contratos de obras y servicios cuyo valor estimado supere los 5 millones de euros y en los que el importe de la subcontratación sea igual o superior al 30 por ciento del precio del contrato, en relación a los pagos a subcontratistas que hayan asumido contractualmente con el contratista principal el compromiso de realizar determinadas partes del contrato. El incumplimiento de estas obligaciones dará lugar a la imposición de penalidades de conformidad con lo dispuesto en el art. 192 en relación con el Anexo IX del PCAP.",
+                "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 62"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "El adjudicatario deberá disponer de un sistema de gestión que permita registrar todas las actuaciones realizadas (preventivas y correctivas), controlar el estado de las instalaciones, gestionar incidencias y tiempos de respuesta, y facilitar informes periódicos a Mutua Intercomarcal.",
+                "Fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 5"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de certificación ENS, declaración de conformidad, categoría ENS, guías técnicas ENS específicas, ni plazos de acreditación documental de ENS.",
+                "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de medidas técnicas específicas como cifrado, gestión de claves, MFA, RBAC, PAM, VPN, bastionado, segmentación, EDR/XDR, WAF, SIEM, DLP, backups, logs, gestión de identidades, privilegios, altas/bajas, acceso remoto, gestión de vulnerabilidades, parcheado, CVE, pentesting, EOL/EOS, logging, trazabilidad, retención, SOC/SIEM, continuidad, DR, RTO/RPO, pruebas de continuidad, desarrollo seguro, SDLC, DevSecOps, SAST, DAST, SCA, secretos, OWASP, CI/CD, SBOM, auditorías de seguridad, borrado seguro, devolución de información, ni requisitos de confidencialidad adicionales a los ya recogidos.",
+                "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de designación de DPO/DPD, EIPD, ni reglas sobre transferencias internacionales de datos, localización de datos, ni contenido detallado de acuerdos de encargado/subencargado de tratamiento.",
+                "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de roles de tratamiento de datos personales, categorías de datos/interesados, finalidad, accesos, almacenamiento, conservación, ni reglas sobre subencargados cloud, SaaS, CPD, soporte o cadena de suministro.",
+                "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de notificación de incidentes o brechas de seguridad, canales, responsables, plazos expresos, contenido de notificación, escalado, respuesta, recuperación, investigación, informes o colaboración en incidentes de seguridad.",
+                "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de auditorías de seguridad, certificaciones ISO 27001, ni otras certificaciones de seguridad.",
+                "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+              },
+              {
+                "Materia": "Seguridad / ENS",
+                "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de borrado seguro, devolución de información, ni reglas específicas de confidencialidad más allá de las obligaciones generales de confidencialidad y protección de datos.",
+                "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "parrafos": [
+          "No se han identificado discrepancias en la documentación revisada."
+        ],
+        "elementos": [],
+        "tablas": []
+      }
+    ],
+    "pendientes_y_no_localizados": [
+      {
+        "titulo": "Discrepancias y pendientes de aclaración",
+        "parrafos": [
+          "No se han identificado discrepancias en la documentación revisada."
+        ],
+        "elementos": [],
+        "tablas": []
+      }
+    ],
+    "trazabilidad": [
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El adjudicatario está obligado al cumplimiento de la normativa en materia de la seguridad de la información, de acuerdo con lo establecido en el Esquema Nacional de Seguridad y la ley 3/2018 de protección de datos de carácter personal, específicamente la Disposición adicional primera. Medidas de seguridad en el ámbito del sector público (En los casos en los que un tercero preste un servicio en régimen de concesión, encomienda de gestión o contrato, las medidas de seguridad se corresponderán con las de la Administración pública de origen y se ajustarán al Esquema Nacional de Seguridad).",
+        "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 50"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "Los ordenadores utilizados por el personal de la empresa contratista para acceder a la plataforma Microsoft 365 (tenant M365) de la Seguridad Social y/o Mutua Intercomarcal deben cumplir con las exigencias de seguridad recogidas en el pliego: nivel de actualizaciones de software equivalente al de la Seguridad Social, EDR certificado para nivel alto del ENS en CPSTIC11, operativo y actualizado, y administración por un gestor como Intune o similar que impida la conexión a la red corporativa en caso de incumplimiento del perfil de seguridad.",
+        "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 54"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "La empresa contratista se compromete a facilitar a la GISS, en cualquier momento, la posibilidad de revisar los dispositivos para verificar el cumplimiento de las directrices de seguridad; en caso de incumplimiento, la GISS podrá bloquear el acceso al tenant y promover la finalización inmediata del servicio.",
+        "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 54"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El uso de los sistemas de información de la Seguridad Social y/o de la Mutua, así como el acceso a Internet, uso del correo electrónico corporativo y de los recursos tecnológicos de la Seguridad Social se limitará exclusivamente a los aspectos directamente relacionados con los servicios contratados.",
+        "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 51"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "Se prohíbe instalar, modificar, ejecutar o eliminar software o hardware no autorizado, distorsionar, modificar o borrar registros del sistema, intentar acceder a áreas no autorizadas, aumentar privilegios sin autorización, destruir o dañar registros, obstaculizar el acceso de otros usuarios, enviar correos masivos no autorizados, introducir virus o programas no autorizados, y utilizar recursos para fines distintos a los servicios contratados.",
+        "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, págs. 51-53"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El contratista y los subcontratistas deben poner en conocimiento del personal los extremos contenidos en la cláusula de seguridad, mediante la suscripción individualizada del correspondiente documento.",
+        "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 53"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El contratista responderá ante la Seguridad Social y/o la Mutua, a la que mantendrá indemne de todos los daños, gastos, costes, perjuicios y pérdidas de cualquier tipo en los que pudiera tener o incurrir como consecuencia de las reclamaciones de cualquier tipo que pudieran originarse por el incumplimiento por parte de aquél de las obligaciones asumidas en esta cláusula.",
+        "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 53"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El adjudicatario está obligado a cumplir la normativa vigente en materia de prevención de riesgos laborales, conforme a la Ley 31/1995, de 8 de noviembre, y normativa de desarrollo, así como con las obligaciones en materia de coordinación de actividades empresariales (CAE).",
+        "Fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 5"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El adjudicatario será el único responsable del cumplimiento de las obligaciones legales que le sean exigibles en relación con la ejecución del contrato, exonerando a Mutua Intercomarcal de cualquier responsabilidad derivada de su incumplimiento.",
+        "Fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 5"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El adjudicatario deberá garantizar la adopción de todas las medidas necesarias para prevenir la siniestralidad laboral de su personal durante la ejecución de los trabajos de mantenimiento, especialmente aquellas relacionadas con trabajos en altura, manipulación de cargas, riesgo eléctrico y operaciones propias del mantenimiento de equipos elevadores.",
+        "Fuente": "MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 8"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El adjudicatario deberá aportar declaración responsable acreditativa del cumplimiento de las obligaciones en materia de prevención de riesgos laborales de conformidad con la Ley 31/1995, de Prevención de Riesgos Laborales, así como la normativa específica que resulte de aplicación al tipo de trabajos a ejecutar.",
+        "Fuente": "MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 8"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El adjudicatario deberá estar en posesión de una póliza de responsabilidad civil por un importe igual o superior a 200.000,00 euros, por siniestro para responder suficientemente de los posibles daños ocasionados, tanto a las personas como a los bienes, por su personal o a consecuencia de su actividad.",
+        "Fuente": "MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 9"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El contratista deberá aportar un certificado de la póliza de responsabilidad civil, la misma se deberá mantener en vigor durante toda la vigencia del contrato.",
+        "Fuente": "MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 9"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El adjudicatario deberá garantizar la correcta gestión y reciclaje de los residuos derivados de la prestación del servicio de mantenimiento, especialmente aquellos generados en las operaciones de reparación, sustitución de componentes, aceites, elementos eléctricos o electrónicos y demás materiales propios de las plataformas elevadoras.",
+        "Fuente": "MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 8"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "Dicha condición de gestión de residuos deberá acreditarse mediante declaración responsable previa a la formalización del contrato, debiendo cumplirse durante toda su vigencia. A instancia de Mutua Intercomarcal, o en caso de indicios de incumplimiento, el responsable del contrato podrá requerir al adjudicatario la aportación de documentación justificativa relativa a la correcta gestión de los residuos generados.",
+        "Fuente": "MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 8"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "Las condiciones especiales de ejecución establecidas (gestión de residuos, prevención de riesgos laborales, póliza de responsabilidad civil) tendrán el carácter de obligación contractual esencial, a los efectos señalados en el artículo 211, apartado f) de la LCSP.",
+        "Fuente": "MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 9"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El incumplimiento de las condiciones especiales de ejecución podrá ser causa de resolución del contrato conforme al artículo 211 letra f) de la LCSP, o en los términos que se establezcan reglamentariamente, y tendrá la consideración de infracción grave de conformidad con lo dispuesto en el artículo 71.2.c) de la LCSP, pudiendo determinar la correspondiente prohibición de contratar.",
+        "Fuente": "MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 9"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El adjudicatario deberá disponer de los medios materiales necesarios para la correcta ejecución del servicio, incluyendo herramientas y equipos de diagnóstico específicos para plataformas elevadoras, stock mínimo de repuestos habituales, uso de repuestos originales o equivalentes autorizados, y vehículos de asistencia técnica adecuados para la intervención en los centros.",
+        "Fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 4"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "Todo el personal asignado al contrato deberá disponer de la habilitación técnica requerida para trabajos en plataformas elevadoras, estar directamente vinculado al adjudicatario, estar identificado y comunicado previamente a Mutua Intercomarcal, y cualquier modificación del personal deberá ser notificada y autorizada.",
+        "Fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 4"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "La empresa adjudicataria está obligada a mantener al día la documentación de CAE (coordinación de Actividades Empresariales) con Mutua Intercomarcal.",
+        "Fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 4"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El adjudicatario deberá disponer de un sistema de gestión que permita registrar todas las actuaciones realizadas (preventivas y correctivas), controlar el estado de las instalaciones, gestionar incidencias y tiempos de respuesta, y facilitar informes periódicos a Mutua Intercomarcal.",
+        "Fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 5"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El adjudicatario vendrá obligado al estricto cumplimiento de toda la normativa vigente que resulte de aplicación a la prestación del servicio de mantenimiento de plataformas elevadoras en las instalaciones de Mutua Intercomarcal, tanto en la sucursal de Vigo como en la de Barcelona.",
+        "Fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 5"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El adjudicatario será responsable de la calidad técnica del servicio o suministro prestado y de las actividades realizadas, así como de las consecuencias que se deduzcan para Mutua Intercomarcal de los errores o conclusiones incorrectas durante la ejecución del contrato.",
+        "Fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 5"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El adjudicatario garantizará la adecuada coordinación entre sus recursos humanos y materiales para asegurar la prestación continua del servicio.",
+        "Fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 4"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El adjudicatario deberá impartir a todas las personas asignadas a las tareas objeto del presente contrato, las instrucciones precisas para el efectivo conocimiento de las obligaciones asumidas por su empresa en virtud del presente contrato, así como las consecuencias en que pudiera incurrir en caso de incumplimiento, evitando el acceso a instalaciones no autorizadas, así como cualquier actuación que pueda ocasionar desperfectos y/o responsabilidades, recabando el correspondiente compromiso de salvaguarda de la confidencialidad de dichos trabajadores.",
+        "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 47"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El adjudicatario será responsable de los daños y perjuicios que ocasione a Mutua Intercomarcal con motivo del incumplimiento del compromiso establecido en todos los puntos de este apartado, incluido el importe de cualesquiera sanciones que a la Mutua se le impongan por tal circunstancia.",
+        "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 47"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El adjudicatario será responsable de la calidad técnica del servicio prestado y de las actividades realizadas, así como de las consecuencias que se deducen para Mutua Intercomarcal de los errores o conclusiones incorrectas durante la ejecución del contrato.",
+        "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 59"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El adjudicatario será responsable de los daños y perjuicios que ocasione a Mutua Intercomarcal con motivo del incumplimiento del compromiso establecido en los distintos puntos de los pliegos, de la oferta presentada o del contrato, incluido el importe de cualesquiera sanciones que a la Mutua se le pudieran imponer por tal circunstancia.",
+        "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 59"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El adjudicatario será responsable de indemnizar todos los daños y perjuicios que se causen, por sí o por el personal o medios dependientes del mismo, a terceros como consecuencia de las operaciones que requiera la ejecución del contrato.",
+        "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 59"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El adjudicatario será responsable de la organización necesaria de personal para cumplir los trabajos encomendados por la Mutua, siendo ejecutados por trabajadores con la calificación profesional necesaria, así como con la calidad y la diligencia técnicas que precisan las tareas.",
+        "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 56"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El adjudicatario cumplirá en todo momento con la legislación vigente; especialmente, en materia laboral, fiscal, de prevención de riesgos laborales y cualquier otra que en el presente o en el futuro fuere de aplicación.",
+        "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 56"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El adjudicatario designará a un interlocutor con el que la Mutua llevará a cabo la verificación y aceptación de los partes de trabajo y facturas.",
+        "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 56"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "En caso de subcontratación parcial del contrato, la empresa subcontratista y el personal a cargo de la misma deberá reunir las condiciones contempladas en la cláusula de personal.",
+        "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 58"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "Las condiciones especiales de ejecución que formen parte del contrato serán exigidas también a todos los subcontratistas que participen en la ejecución del mismo.",
+        "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 59"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El contratista podrá subcontratar con terceros la realización parcial de la prestación con el cumplimiento de los requisitos y obligaciones establecidos en los artículos 215 y 216 de la LCSP. El incumplimiento de estas estipulaciones legales conllevará las consecuencias establecidas en el apartado 3 del artículo 215 de la LCSP.",
+        "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 60"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El contratista responderá ante Mutua Intercomarcal de las obligaciones del contrato, no pudiendo liberarse de la misma por la existencia de subcontratación.",
+        "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 61"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "Los subcontratistas quedarán obligados solo ante el contratista principal que asumirá, por tanto, la responsabilidad de la ejecución del contrato frente a Mutua Intercomarcal, con arreglo estricto a los pliegos que rigen el contrato y documentación complementaria y a los términos del contrato; incluido el cumplimiento de las obligaciones en materia medioambiental, social o laboral a que se refiere el art. 201 de la LCSP así como de la obligación a que hace referencia el último párrafo del apartado 1 del artículo 202 de la LCSP referida al sometimiento a la normativa nacional y de la Unión Europea en materia de protección de datos.",
+        "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 61"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El contratista estará obligado a abonar a los subcontratistas o suministradores el precio pactado en los precios y condiciones indicados en el art. 216 de la LCSP.",
+        "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 61"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El responsable del contrato en delegación del órgano de contratación podrá comprobar el estricto cumplimiento de los pagos que el contratista haya de ejecutar a los subcontratistas o suministradores que participen en el contrato, ejercitando tal facultad de conformidad con el artículo 217 LCSP.",
+        "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 61"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "Las actuaciones de comprobación y de imposición de penalidades por el incumplimiento de los pagos a subcontratistas, serán obligatorias para los contratos de obras y servicios cuyo valor estimado supere los 5 millones de euros y en los que el importe de la subcontratación sea igual o superior al 30 por ciento del precio del contrato, en relación a los pagos a subcontratistas que hayan asumido contractualmente con el contratista principal el compromiso de realizar determinadas partes del contrato. El incumplimiento de estas obligaciones dará lugar a la imposición de penalidades de conformidad con lo dispuesto en el art. 192 en relación con el Anexo IX del PCAP.",
+        "Fuente": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 62"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "El adjudicatario deberá disponer de un sistema de gestión que permita registrar todas las actuaciones realizadas (preventivas y correctivas), controlar el estado de las instalaciones, gestionar incidencias y tiempos de respuesta, y facilitar informes periódicos a Mutua Intercomarcal.",
+        "Fuente": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 5"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de certificación ENS, declaración de conformidad, categoría ENS, guías técnicas ENS específicas, ni plazos de acreditación documental de ENS.",
+        "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de medidas técnicas específicas como cifrado, gestión de claves, MFA, RBAC, PAM, VPN, bastionado, segmentación, EDR/XDR, WAF, SIEM, DLP, backups, logs, gestión de identidades, privilegios, altas/bajas, acceso remoto, gestión de vulnerabilidades, parcheado, CVE, pentesting, EOL/EOS, logging, trazabilidad, retención, SOC/SIEM, continuidad, DR, RTO/RPO, pruebas de continuidad, desarrollo seguro, SDLC, DevSecOps, SAST, DAST, SCA, secretos, OWASP, CI/CD, SBOM, auditorías de seguridad, borrado seguro, devolución de información, ni requisitos de confidencialidad adicionales a los ya recogidos.",
+        "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de designación de DPO/DPD, EIPD, ni reglas sobre transferencias internacionales de datos, localización de datos, ni contenido detallado de acuerdos de encargado/subencargado de tratamiento.",
+        "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de roles de tratamiento de datos personales, categorías de datos/interesados, finalidad, accesos, almacenamiento, conservación, ni reglas sobre subencargados cloud, SaaS, CPD, soporte o cadena de suministro.",
+        "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de notificación de incidentes o brechas de seguridad, canales, responsables, plazos expresos, contenido de notificación, escalado, respuesta, recuperación, investigación, informes o colaboración en incidentes de seguridad.",
+        "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de auditorías de seguridad, certificaciones ISO 27001, ni otras certificaciones de seguridad.",
+        "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+      },
+      {
+        "Materia": "Seguridad / ENS",
+        "Requisito completo": "NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de borrado seguro, devolución de información, ni reglas específicas de confidencialidad más allá de las obligaciones generales de confidencialidad y protección de datos.",
+        "Fuente": "NO CONSTA EN LA DOCUMENTACION REVISADA"
+      }
+    ],
+    "salida_original": "# Registro documental de preventa\n\n| Materia | Requisito completo | Fuente |\n|---|---|---|\n| Seguridad / ENS | El adjudicatario está obligado al cumplimiento de la normativa en materia de la seguridad de la información, de acuerdo con lo establecido en el Esquema Nacional de Seguridad y la ley 3/2018 de protección de datos de carácter personal, específicamente la Disposición adicional primera. Medidas de seguridad en el ámbito del sector público (En los casos en los que un tercero preste un servicio en régimen de concesión, encomienda de gestión o contrato, las medidas de seguridad se corresponderán con las de la Administración pública de origen y se ajustarán al Esquema Nacional de Seguridad). | PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 50 |\n| Seguridad / ENS | Los ordenadores utilizados por el personal de la empresa contratista para acceder a la plataforma Microsoft 365 (tenant M365) de la Seguridad Social y/o Mutua Intercomarcal deben cumplir con las exigencias de seguridad recogidas en el pliego: nivel de actualizaciones de software equivalente al de la Seguridad Social, EDR certificado para nivel alto del ENS en CPSTIC11, operativo y actualizado, y administración por un gestor como Intune o similar que impida la conexión a la red corporativa en caso de incumplimiento del perfil de seguridad. | PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 54 |\n| Seguridad / ENS | La empresa contratista se compromete a facilitar a la GISS, en cualquier momento, la posibilidad de revisar los dispositivos para verificar el cumplimiento de las directrices de seguridad; en caso de incumplimiento, la GISS podrá bloquear el acceso al tenant y promover la finalización inmediata del servicio. | PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 54 |\n| Seguridad / ENS | El uso de los sistemas de información de la Seguridad Social y/o de la Mutua, así como el acceso a Internet, uso del correo electrónico corporativo y de los recursos tecnológicos de la Seguridad Social se limitará exclusivamente a los aspectos directamente relacionados con los servicios contratados. | PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 51 |\n| Seguridad / ENS | Se prohíbe instalar, modificar, ejecutar o eliminar software o hardware no autorizado, distorsionar, modificar o borrar registros del sistema, intentar acceder a áreas no autorizadas, aumentar privilegios sin autorización, destruir o dañar registros, obstaculizar el acceso de otros usuarios, enviar correos masivos no autorizados, introducir virus o programas no autorizados, y utilizar recursos para fines distintos a los servicios contratados. | PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, págs. 51-53 |\n| Seguridad / ENS | El contratista y los subcontratistas deben poner en conocimiento del personal los extremos contenidos en la cláusula de seguridad, mediante la suscripción individualizada del correspondiente documento. | PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 53 |\n| Seguridad / ENS | El contratista responderá ante la Seguridad Social y/o la Mutua, a la que mantendrá indemne de todos los daños, gastos, costes, perjuicios y pérdidas de cualquier tipo en los que pudiera tener o incurrir como consecuencia de las reclamaciones de cualquier tipo que pudieran originarse por el incumplimiento por parte de aquél de las obligaciones asumidas en esta cláusula. | PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 53 |\n| Seguridad / ENS | El adjudicatario está obligado a cumplir la normativa vigente en materia de prevención de riesgos laborales, conforme a la Ley 31/1995, de 8 de noviembre, y normativa de desarrollo, así como con las obligaciones en materia de coordinación de actividades empresariales (CAE). | PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 5 |\n| Seguridad / ENS | El adjudicatario será el único responsable del cumplimiento de las obligaciones legales que le sean exigibles en relación con la ejecución del contrato, exonerando a Mutua Intercomarcal de cualquier responsabilidad derivada de su incumplimiento. | PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 5 |\n| Seguridad / ENS | El adjudicatario deberá garantizar la adopción de todas las medidas necesarias para prevenir la siniestralidad laboral de su personal durante la ejecución de los trabajos de mantenimiento, especialmente aquellas relacionadas con trabajos en altura, manipulación de cargas, riesgo eléctrico y operaciones propias del mantenimiento de equipos elevadores. | MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 8 |\n| Seguridad / ENS | El adjudicatario deberá aportar declaración responsable acreditativa del cumplimiento de las obligaciones en materia de prevención de riesgos laborales de conformidad con la Ley 31/1995, de Prevención de Riesgos Laborales, así como la normativa específica que resulte de aplicación al tipo de trabajos a ejecutar. | MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 8 |\n| Seguridad / ENS | El adjudicatario deberá estar en posesión de una póliza de responsabilidad civil por un importe igual o superior a 200.000,00 euros, por siniestro para responder suficientemente de los posibles daños ocasionados, tanto a las personas como a los bienes, por su personal o a consecuencia de su actividad. | MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 9 |\n| Seguridad / ENS | El contratista deberá aportar un certificado de la póliza de responsabilidad civil, la misma se deberá mantener en vigor durante toda la vigencia del contrato. | MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 9 |\n| Seguridad / ENS | El adjudicatario deberá garantizar la correcta gestión y reciclaje de los residuos derivados de la prestación del servicio de mantenimiento, especialmente aquellos generados en las operaciones de reparación, sustitución de componentes, aceites, elementos eléctricos o electrónicos y demás materiales propios de las plataformas elevadoras. | MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 8 |\n| Seguridad / ENS | Dicha condición de gestión de residuos deberá acreditarse mediante declaración responsable previa a la formalización del contrato, debiendo cumplirse durante toda su vigencia. A instancia de Mutua Intercomarcal, o en caso de indicios de incumplimiento, el responsable del contrato podrá requerir al adjudicatario la aportación de documentación justificativa relativa a la correcta gestión de los residuos generados. | MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 8 |\n| Seguridad / ENS | Las condiciones especiales de ejecución establecidas (gestión de residuos, prevención de riesgos laborales, póliza de responsabilidad civil) tendrán el carácter de obligación contractual esencial, a los efectos señalados en el artículo 211, apartado f) de la LCSP. | MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 9 |\n| Seguridad / ENS | El incumplimiento de las condiciones especiales de ejecución podrá ser causa de resolución del contrato conforme al artículo 211 letra f) de la LCSP, o en los términos que se establezcan reglamentariamente, y tendrá la consideración de infracción grave de conformidad con lo dispuesto en el artículo 71.2.c) de la LCSP, pudiendo determinar la correspondiente prohibición de contratar. | MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf, pág. 9 |\n| Seguridad / ENS | El adjudicatario deberá disponer de los medios materiales necesarios para la correcta ejecución del servicio, incluyendo herramientas y equipos de diagnóstico específicos para plataformas elevadoras, stock mínimo de repuestos habituales, uso de repuestos originales o equivalentes autorizados, y vehículos de asistencia técnica adecuados para la intervención en los centros. | PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 4 |\n| Seguridad / ENS | Todo el personal asignado al contrato deberá disponer de la habilitación técnica requerida para trabajos en plataformas elevadoras, estar directamente vinculado al adjudicatario, estar identificado y comunicado previamente a Mutua Intercomarcal, y cualquier modificación del personal deberá ser notificada y autorizada. | PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 4 |\n| Seguridad / ENS | La empresa adjudicataria está obligada a mantener al día la documentación de CAE (coordinación de Actividades Empresariales) con Mutua Intercomarcal. | PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 4 |\n| Seguridad / ENS | El adjudicatario deberá disponer de un sistema de gestión que permita registrar todas las actuaciones realizadas (preventivas y correctivas), controlar el estado de las instalaciones, gestionar incidencias y tiempos de respuesta, y facilitar informes periódicos a Mutua Intercomarcal. | PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 5 |\n| Seguridad / ENS | El adjudicatario vendrá obligado al estricto cumplimiento de toda la normativa vigente que resulte de aplicación a la prestación del servicio de mantenimiento de plataformas elevadoras en las instalaciones de Mutua Intercomarcal, tanto en la sucursal de Vigo como en la de Barcelona. | PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 5 |\n| Seguridad / ENS | El adjudicatario será responsable de la calidad técnica del servicio o suministro prestado y de las actividades realizadas, así como de las consecuencias que se deduzcan para Mutua Intercomarcal de los errores o conclusiones incorrectas durante la ejecución del contrato. | PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 5 |\n| Seguridad / ENS | El adjudicatario garantizará la adecuada coordinación entre sus recursos humanos y materiales para asegurar la prestación continua del servicio. | PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 4 |\n| Seguridad / ENS | El adjudicatario deberá impartir a todas las personas asignadas a las tareas objeto del presente contrato, las instrucciones precisas para el efectivo conocimiento de las obligaciones asumidas por su empresa en virtud del presente contrato, así como las consecuencias en que pudiera incurrir en caso de incumplimiento, evitando el acceso a instalaciones no autorizadas, así como cualquier actuación que pueda ocasionar desperfectos y/o responsabilidades, recabando el correspondiente compromiso de salvaguarda de la confidencialidad de dichos trabajadores. | PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 47 |\n| Seguridad / ENS | El adjudicatario será responsable de los daños y perjuicios que ocasione a Mutua Intercomarcal con motivo del incumplimiento del compromiso establecido en todos los puntos de este apartado, incluido el importe de cualesquiera sanciones que a la Mutua se le impongan por tal circunstancia. | PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 47 |\n| Seguridad / ENS | El adjudicatario será responsable de la calidad técnica del servicio prestado y de las actividades realizadas, así como de las consecuencias que se deducen para Mutua Intercomarcal de los errores o conclusiones incorrectas durante la ejecución del contrato. | PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 59 |\n| Seguridad / ENS | El adjudicatario será responsable de los daños y perjuicios que ocasione a Mutua Intercomarcal con motivo del incumplimiento del compromiso establecido en los distintos puntos de los pliegos, de la oferta presentada o del contrato, incluido el importe de cualesquiera sanciones que a la Mutua se le pudieran imponer por tal circunstancia. | PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 59 |\n| Seguridad / ENS | El adjudicatario será responsable de indemnizar todos los daños y perjuicios que se causen, por sí o por el personal o medios dependientes del mismo, a terceros como consecuencia de las operaciones que requiera la ejecución del contrato. | PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 59 |\n| Seguridad / ENS | El adjudicatario será responsable de la organización necesaria de personal para cumplir los trabajos encomendados por la Mutua, siendo ejecutados por trabajadores con la calificación profesional necesaria, así como con la calidad y la diligencia técnicas que precisan las tareas. | PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 56 |\n| Seguridad / ENS | El adjudicatario cumplirá en todo momento con la legislación vigente; especialmente, en materia laboral, fiscal, de prevención de riesgos laborales y cualquier otra que en el presente o en el futuro fuere de aplicación. | PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 56 |\n| Seguridad / ENS | El adjudicatario designará a un interlocutor con el que la Mutua llevará a cabo la verificación y aceptación de los partes de trabajo y facturas. | PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 56 |\n| Seguridad / ENS | En caso de subcontratación parcial del contrato, la empresa subcontratista y el personal a cargo de la misma deberá reunir las condiciones contempladas en la cláusula de personal. | PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 58 |\n| Seguridad / ENS | Las condiciones especiales de ejecución que formen parte del contrato serán exigidas también a todos los subcontratistas que participen en la ejecución del mismo. | PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 59 |\n| Seguridad / ENS | El contratista podrá subcontratar con terceros la realización parcial de la prestación con el cumplimiento de los requisitos y obligaciones establecidos en los artículos 215 y 216 de la LCSP. El incumplimiento de estas estipulaciones legales conllevará las consecuencias establecidas en el apartado 3 del artículo 215 de la LCSP. | PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 60 |\n| Seguridad / ENS | El contratista responderá ante Mutua Intercomarcal de las obligaciones del contrato, no pudiendo liberarse de la misma por la existencia de subcontratación. | PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 61 |\n| Seguridad / ENS | Los subcontratistas quedarán obligados solo ante el contratista principal que asumirá, por tanto, la responsabilidad de la ejecución del contrato frente a Mutua Intercomarcal, con arreglo estricto a los pliegos que rigen el contrato y documentación complementaria y a los términos del contrato; incluido el cumplimiento de las obligaciones en materia medioambiental, social o laboral a que se refiere el art. 201 de la LCSP así como de la obligación a que hace referencia el último párrafo del apartado 1 del artículo 202 de la LCSP referida al sometimiento a la normativa nacional y de la Unión Europea en materia de protección de datos. | PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 61 |\n| Seguridad / ENS | El contratista estará obligado a abonar a los subcontratistas o suministradores el precio pactado en los precios y condiciones indicados en el art. 216 de la LCSP. | PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 61 |\n| Seguridad / ENS | El responsable del contrato en delegación del órgano de contratación podrá comprobar el estricto cumplimiento de los pagos que el contratista haya de ejecutar a los subcontratistas o suministradores que participen en el contrato, ejercitando tal facultad de conformidad con el artículo 217 LCSP. | PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 61 |\n| Seguridad / ENS | Las actuaciones de comprobación y de imposición de penalidades por el incumplimiento de los pagos a subcontratistas, serán obligatorias para los contratos de obras y servicios cuyo valor estimado supere los 5 millones de euros y en los que el importe de la subcontratación sea igual o superior al 30 por ciento del precio del contrato, en relación a los pagos a subcontratistas que hayan asumido contractualmente con el contratista principal el compromiso de realizar determinadas partes del contrato. El incumplimiento de estas obligaciones dará lugar a la imposición de penalidades de conformidad con lo dispuesto en el art. 192 en relación con el Anexo IX del PCAP. | PCAP Serv mantenimiento ascensores Vigo Bcn.pdf, pág. 62 |\n| Seguridad / ENS | El adjudicatario deberá disponer de un sistema de gestión que permita registrar todas las actuaciones realizadas (preventivas y correctivas), controlar el estado de las instalaciones, gestionar incidencias y tiempos de respuesta, y facilitar informes periódicos a Mutua Intercomarcal. | PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf, pág. 5 |\n| Seguridad / ENS | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de certificación ENS, declaración de conformidad, categoría ENS, guías técnicas ENS específicas, ni plazos de acreditación documental de ENS. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Seguridad / ENS | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de medidas técnicas específicas como cifrado, gestión de claves, MFA, RBAC, PAM, VPN, bastionado, segmentación, EDR/XDR, WAF, SIEM, DLP, backups, logs, gestión de identidades, privilegios, altas/bajas, acceso remoto, gestión de vulnerabilidades, parcheado, CVE, pentesting, EOL/EOS, logging, trazabilidad, retención, SOC/SIEM, continuidad, DR, RTO/RPO, pruebas de continuidad, desarrollo seguro, SDLC, DevSecOps, SAST, DAST, SCA, secretos, OWASP, CI/CD, SBOM, auditorías de seguridad, borrado seguro, devolución de información, ni requisitos de confidencialidad adicionales a los ya recogidos. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Seguridad / ENS | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de designación de DPO/DPD, EIPD, ni reglas sobre transferencias internacionales de datos, localización de datos, ni contenido detallado de acuerdos de encargado/subencargado de tratamiento. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Seguridad / ENS | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de roles de tratamiento de datos personales, categorías de datos/interesados, finalidad, accesos, almacenamiento, conservación, ni reglas sobre subencargados cloud, SaaS, CPD, soporte o cadena de suministro. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Seguridad / ENS | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de notificación de incidentes o brechas de seguridad, canales, responsables, plazos expresos, contenido de notificación, escalado, respuesta, recuperación, investigación, informes o colaboración en incidentes de seguridad. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Seguridad / ENS | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de auditorías de seguridad, certificaciones ISO 27001, ni otras certificaciones de seguridad. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n| Seguridad / ENS | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de borrado seguro, devolución de información, ni reglas específicas de confidencialidad más allá de las obligaciones generales de confidencialidad y protección de datos. | NO CONSTA EN LA DOCUMENTACION REVISADA |\n\n# Discrepancias y pendientes de aclaración\nNo se han identificado discrepancias en la documentación revisada.",
+    "registro_completo_estructura": true
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "PCAP Serv mantenimiento ascensores Vigo Bcn.pdf",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 199272,
+        "caracteres_enviados_al_agente": 199272,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 2,
+        "nombre": "PPT Serv mantenimiento ascensores Vigo y Barcelona.pdf",
+        "tipo": "Pliego tecnico",
+        "fuente": "XML",
+        "caracteres_extraidos": 9752,
+        "caracteres_enviados_al_agente": 9752,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 3,
+        "nombre": "ANEXO I PPT Proposicion economica.xlsx",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 3969,
+        "caracteres_enviados_al_agente": 3969,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 4,
+        "nombre": "ME Serv mantenimiento ascensores Vigo y Barcelona.pdf",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 2981,
+        "caracteres_enviados_al_agente": 2981,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 5,
+        "nombre": "MJ Servei de mtt Plataformes elevadores Vigo Bcn.pdf",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 27752,
+        "caracteres_enviados_al_agente": 27752,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 6,
+        "nombre": "ANEXOS PCAP.docx",
+        "tipo": "Documento adicional / anexo",
+        "fuente": "XML",
+        "caracteres_extraidos": 41956,
+        "caracteres_enviados_al_agente": 41956,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 7,
+        "nombre": "Memoria justificativa",
+        "tipo": "Documento general",
+        "fuente": "XML",
+        "caracteres_extraidos": 27752,
+        "caracteres_enviados_al_agente": 27752,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 8,
+        "nombre": "Acuerdo de iniciación del expediente",
+        "tipo": "Documento general",
+        "fuente": "XML",
+        "caracteres_extraidos": 3814,
+        "caracteres_enviados_al_agente": 3814,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 9,
+        "nombre": "Certificado de existencia de crédito",
+        "tipo": "Documento general",
+        "fuente": "XML",
+        "caracteres_extraidos": 5322,
+        "caracteres_enviados_al_agente": 5322,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 10,
+        "nombre": "Insuficiencia de medios",
+        "tipo": "Documento general",
+        "fuente": "XML",
+        "caracteres_extraidos": 1749,
+        "caracteres_enviados_al_agente": 1749,
+        "texto_compactado": false,
+        "error": ""
+      },
+      {
+        "numero": 11,
+        "nombre": "Inexistencia de conflicto de intereses",
+        "tipo": "Documento general",
+        "fuente": "XML",
+        "caracteres_extraidos": 7188,
+        "caracteres_enviados_al_agente": 7188,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": [
+      "Se omitieron 8 enlaces internos por no parecer PDF/documento descargable ni detalle oficial de licitacion."
+    ]
+  },
+  "puntos_revision": [
+    {
+      "id": "REV-001",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Seguridad, certificaciones y protección de datos",
+      "prioridad": "media",
+      "detalle": "Revisar seguridad, certificaciones y protección de datos: 7 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-001.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Seguridad / ENS; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de certificación ENS, declaración de conformidad, categoría ENS, guías técnicas ENS específicas, ni plazos de acreditación documental de ENS.; Fuente: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| Seguridad / ENS | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de certificación ENS, declaración de conformidad, categoría ENS, guías técnicas ENS específicas, ni plazos de acreditación documental de ENS. | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.02",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Seguridad / ENS; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de medidas técnicas específicas como cifrado, gestión de claves, MFA, RBAC, PAM, VPN, bastionado, segmentación, EDR/XDR, WAF, SIEM, DLP, backups, logs, gestión de identidades, privilegios, altas/bajas, acceso remoto, gestión de vulnerabilidades, parcheado, CVE, pentesting, EOL/EOS, logging, trazabilidad, retención, SOC/SIEM, continuidad, DR, RTO/RPO, pruebas de continuidad, desarrollo seguro, SDLC, DevSecOps, SAST, DAST, SCA, secretos, OWASP, CI/CD, SBOM, auditorías de seguridad, borrado seguro, devolución de información, ni requisitos de confidencialidad adicionales a los ya recogidos.; Fuente: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| Seguridad / ENS | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de medidas técnicas específicas como cifrado, gestión de claves, MFA, RBAC, PAM, VPN, bastionado, segmentación, EDR/XDR, WAF, SIEM, DLP, backups, logs, gestión de identidades, privilegios, altas/bajas, acceso remoto, gestión de vulnerabilidades, parcheado, CVE, pentesting, EOL/EOS, logging, trazabilidad, retención, SOC/SIEM, continuidad, DR, RTO/RPO, pruebas de continuidad, desarrollo seguro, SDLC, DevSecOps, SAST, DAST, SCA, secretos, OWASP, CI/CD, SBOM, auditorías de seguridad, borrado seguro, devolución de información, ni requisitos de confidencialidad adicionales a los ya recogidos. | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.03",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Seguridad / ENS; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de designación de DPO/DPD, EIPD, ni reglas sobre transferencias internacionales de datos, localización de datos, ni contenido detallado de acuerdos de encargado/subencargado de tratamiento.; Fuente: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| Seguridad / ENS | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de designación de DPO/DPD, EIPD, ni reglas sobre transferencias internacionales de datos, localización de datos, ni contenido detallado de acuerdos de encargado/subencargado de tratamiento. | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.04",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Seguridad / ENS; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de roles de tratamiento de datos personales, categorías de datos/interesados, finalidad, accesos, almacenamiento, conservación, ni reglas sobre subencargados cloud, SaaS, CPD, soporte o cadena de suministro.; Fuente: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| Seguridad / ENS | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de roles de tratamiento de datos personales, categorías de datos/interesados, finalidad, accesos, almacenamiento, conservación, ni reglas sobre subencargados cloud, SaaS, CPD, soporte o cadena de suministro. | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.05",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Seguridad / ENS; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de notificación de incidentes o brechas de seguridad, canales, responsables, plazos expresos, contenido de notificación, escalado, respuesta, recuperación, investigación, informes o colaboración en incidentes de seguridad.; Fuente: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| Seguridad / ENS | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de notificación de incidentes o brechas de seguridad, canales, responsables, plazos expresos, contenido de notificación, escalado, respuesta, recuperación, investigación, informes o colaboración en incidentes de seguridad. | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.06",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Seguridad / ENS; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de auditorías de seguridad, certificaciones ISO 27001, ni otras certificaciones de seguridad.; Fuente: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| Seguridad / ENS | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de auditorías de seguridad, certificaciones ISO 27001, ni otras certificaciones de seguridad. | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        },
+        {
+          "id": "REV-001.07",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Registro documental de preventa",
+          "detalle": "Materia: Seguridad / ENS; Requisito completo: NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de borrado seguro, devolución de información, ni reglas específicas de confidencialidad más allá de las obligaciones generales de confidencialidad y protección de datos.; Fuente: NO CONSTA EN LA DOCUMENTACION REVISADA",
+          "evidencia": "| Seguridad / ENS | NO CONSTA EN LA DOCUMENTACION REVISADA la exigencia de borrado seguro, devolución de información, ni reglas específicas de confidencialidad más allá de las obligaciones generales de confidencialidad y protección de datos. | NO CONSTA EN LA DOCUMENTACION REVISADA |",
+          "origen": "salida_del_agente"
+        }
+      ]
+    },
+    {
+      "id": "REV-002",
+      "tipo": "dato_no_concretado",
+      "estado": "pendiente_de_revision",
+      "titulo": "Documentación y otras condiciones pendientes",
+      "prioridad": "media",
+      "detalle": "Revisar documentación y otras condiciones pendientes: 1 aspectos pendientes.",
+      "origen": "salida_del_agente",
+      "subpuntos": [
+        {
+          "id": "REV-002.01",
+          "tipo": "dato_no_concretado",
+          "estado": "pendiente_de_revision",
+          "seccion": "Discrepancias y pendientes de aclaración",
+          "detalle": "No se han identificado discrepancias en la documentación revisada.",
+          "evidencia": "No se han identificado discrepancias en la documentación revisada.",
+          "origen": "salida_del_agente"
+        }
+      ]
+    }
+  ],
+  "recomendaciones": [],
+  "estado_recomendaciones": "no_generadas"
+}

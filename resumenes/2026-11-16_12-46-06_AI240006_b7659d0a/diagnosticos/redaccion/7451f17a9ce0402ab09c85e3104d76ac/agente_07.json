@@ -1,0 +1,110 @@
+{
+  "orden": 7,
+  "id": "A9",
+  "nombre": "Seguridad y protección de datos",
+  "tipo": "extraccion",
+  "ejecucion": "b7659d0a0ad244e3ace3acf26482ebec",
+  "estado": "completado",
+  "contenido": {
+    "salida_original": "Registro documental de preventa\n\n| Materia | Requisito completo | Fuente |\n|---|---|---|\n| Seguridad / ENS / DPO | NO CONSTA EN LA DOCUMENTACION REVISADA | DOC20240806095753Pliegodefinitivofirmado.pdf |\n\nDiscrepancias y pendientes de aclaración:\nNo se han identificado discrepancias en la documentación revisada.\n\nNotas:\n- El único documento extraído (DOC20240806095753Pliegodefinitivofirmado.pdf) no contiene texto legible ni cláusulas accesibles sobre requisitos de seguridad, ENS, protección de datos, DPO, medidas técnicas, roles de tratamiento, subencargados, localización, transferencias, incidentes, logging, continuidad, desarrollo seguro, auditorías, borrado o confidencialidad.\n- No se han localizado referencias a normas, certificaciones, medidas, acuerdos de encargado, subencargados, localización de datos, transferencias internacionales, ni ninguna otra condición específica de seguridad o protección de datos en el texto extraído.\n- Si existen anexos, pliegos técnicos u otros documentos con información relevante, no han sido incluidos ni procesados en esta revisión.",
+    "registro_completo_estructura": true,
+    "requisitos_documentales": [
+      {
+        "id": "R0001",
+        "seccion": "Seguridad / ENS / DPO",
+        "detalle": "NO CONSTA EN LA DOCUMENTACION REVISADA",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "origen": "extraccion_agente",
+        "agente_responsable": "A9"
+      },
+      {
+        "id": "A9-S0002",
+        "seccion": "Seguridad y protección de datos",
+        "titulo": "Contenido inicial",
+        "detalle": "Registro documental de preventa",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A9",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A9-S0003",
+        "seccion": "Seguridad y protección de datos",
+        "titulo": "Contenido inicial",
+        "detalle": "Discrepancias y pendientes de aclaración:",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A9",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A9-S0004",
+        "seccion": "Seguridad y protección de datos",
+        "titulo": "Contenido inicial",
+        "detalle": "No se han identificado discrepancias en la documentación revisada.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A9",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A9-S0005",
+        "seccion": "Seguridad y protección de datos",
+        "titulo": "Contenido inicial",
+        "detalle": "Notas:",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A9",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A9-S0006",
+        "seccion": "Seguridad y protección de datos",
+        "titulo": "Contenido inicial",
+        "detalle": "El único documento extraído (DOC20240806095753Pliegodefinitivofirmado.pdf) no contiene texto legible ni cláusulas accesibles sobre requisitos de seguridad, ENS, protección de datos, DPO, medidas técnicas, roles de tratamiento, subencargados, localización, transferencias, incidentes, logging, continuidad, desarrollo seguro, auditorías, borrado o confidencialidad.",
+        "fuente": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "agente_responsable": "A9",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": true
+      },
+      {
+        "id": "A9-S0007",
+        "seccion": "Seguridad y protección de datos",
+        "titulo": "Contenido inicial",
+        "detalle": "No se han localizado referencias a normas, certificaciones, medidas, acuerdos de encargado, subencargados, localización de datos, transferencias internacionales, ni ninguna otra condición específica de seguridad o protección de datos en el texto extraído.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A9",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      },
+      {
+        "id": "A9-S0008",
+        "seccion": "Seguridad y protección de datos",
+        "titulo": "Contenido inicial",
+        "detalle": "Si existen anexos, pliegos técnicos u otros documentos con información relevante, no han sido incluidos ni procesados en esta revisión.",
+        "fuente": "Fuente no individualizada en la extracción; pendiente de verificación.",
+        "agente_responsable": "A9",
+        "origen": "estructura_extraida_sin_validacion_semantica",
+        "cita_individualizada": false
+      }
+    ]
+  },
+  "registro_procesamiento": {
+    "origen": "registro_local_de_esta_extraccion",
+    "modo": "prompt_unico_documentos_completos",
+    "alcance": "Texto preparado para el agente; no acredita lectura exhaustiva ni valida ejecuciones anteriores.",
+    "documentos": [
+      {
+        "numero": 1,
+        "nombre": "DOC20240806095753Pliegodefinitivofirmado.pdf",
+        "tipo": "Pliego administrativo",
+        "fuente": "XML",
+        "caracteres_extraidos": 118,
+        "caracteres_enviados_al_agente": 118,
+        "texto_compactado": false,
+        "error": ""
+      }
+    ],
+    "avisos": []
+  }
+}
