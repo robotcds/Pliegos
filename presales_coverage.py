@@ -20,12 +20,19 @@ class RegistryFormatError(ValueError):
     """La respuesta está completa pero su registro no puede interpretarse sin adivinar."""
 
 
+ABSENCE_LABEL = r'(?:[^:;\n]{1,150}:\s*)?'
+READING_NOTICE = re.compile(
+    r'^' + ABSENCE_LABEL +
+    r'(?:NO CONSTA EN LA DOCUMENTACI[ÓO]N REVISADA|NO LOCALIZAD[OA] EN ESTA ENTREGA PARCIAL)\b', re.I)
+UNLOCATED_DETAIL = re.compile(r'^' + ABSENCE_LABEL + r'(?:NO CONSTA|NO LOCALIZAD[OA]|PENDIENTE)\b', re.I)
+
+
 def normalize_registry_rows(rows):
     """Recupera materias omitidas en tablas de registro, nunca fuentes ni hechos.
 
-    Solo el orden canónico admite filas abreviadas requisito/fuente. La fuente
-    debe ser reconocible y existir una materia explícita anterior en esa tabla.
-    Una fila vacía es decoración; una fila con contenido ambiguo se rechaza.
+    Las filas requisito/fuente necesitan una materia previa y una fuente reconocible.
+    Un aviso explícito de lectura puede llegar como materia y aviso, con la última
+    celda omitida. La fuente queda vacía para conservarlo como diagnóstico.
     """
     if not rows:
         return rows
@@ -48,13 +55,16 @@ def normalize_registry_rows(rows):
             matter = row[0]
             continue  # Encabezado explícito de grupo, conservado en sus filas.
         if canonical and len(row) == 2:
-            source = row[1]
-            identifiable_source = re.search(
-                r'\.(?:pdf|docx?|txt|html?)\b|https?://|\b(?:PCAP|PPT|pliego|anexo)\b|'
-                r'^(?:NO CONSTA|NO LOCALIZAD[OA]|PENDIENTE)', source, re.I)
-            if not matter or not row[0] or not source or not identifiable_source:
-                raise RegistryFormatError(f'Fila {index} abreviada sin materia previa o fuente inequívoca')
-            row = [matter, row[0], source]
+            if row[0] and READING_NOTICE.match(row[1]):
+                row.append('')
+            else:
+                source = row[1]
+                identifiable_source = re.search(
+                    r'\.(?:pdf|docx?|txt|html?)\b|https?://|\b(?:PCAP|PPT|pliego|anexo)\b|'
+                    r'^(?:NO CONSTA|NO LOCALIZAD[OA]|PENDIENTE)', source, re.I)
+                if not matter or not row[0] or not source or not identifiable_source:
+                    raise RegistryFormatError(f'Fila {index} abreviada sin materia previa o fuente inequívoca')
+                row = [matter, row[0], source]
         if len(row) != 3:
             raise RegistryFormatError(f'Fila {index} del registro con {len(row)} celdas; se requieren 3')
         if not row[mi] and row[di] and matter:
@@ -79,12 +89,12 @@ def records_from_sections(sections):
                                                 r'(?:discrepancias|contradicciones)\b', values[1], re.I))
                 if diagnostic_only and not values[2]:
                     values[2] = 'Declaración no contrastada del extractor; no acredita ausencia de contradicciones en los pliegos.'
-                if (values[0] and values[1] and not values[2]
-                        and re.match(r'^(?:[^:;\n]{1,150}:\s*)?(?:NO CONSTA|NO LOCALIZADO|PENDIENTE)', values[1], re.I)):
+                if values[0] and not values[2] and UNLOCATED_DETAIL.match(values[1]):
                     # Una ausencia declarada no tiene por qué tener una cláusula
                     # localizable. No inventarla ni tratarla como exención.
                     values[0] = 'Datos no localizados y límites de lectura'
                     values[2] = 'Declaración de ausencia del extractor; no acredita una exención contractual.'
+                    diagnostic_only = True
                 if not all(values):
                     raise RegistryFormatError('Registro documental sin materia, requisito o fuente')
                 records.append(dict(id=f'R{len(records)+1:04d}', seccion=values[0],
@@ -131,7 +141,8 @@ def complete_extracted_records(content, agent):
         key = normalized(detail)
         if any(key == old for old in known):
             return
-        refs = re.findall(r'\[[^\[\]\n]*\.pdf[^\[\]\n]*\]|\([^()\n]*\.pdf[^()\n]*\)', detail, re.I)
+        refs = re.findall(r'\[[^\[\]\n]*\.(?:pdf|docx?|xlsx?)\b[^\[\]\n]*\]|'
+                          r'\([^()\n]*\.(?:pdf|docx?|xlsx?)\b[^()\n]*\)', detail, re.I)
         source = str(source or (refs[-1].strip('[]()') if refs else '')).strip()
         records.append(dict(id=f'{agent}-S{len(records)+1:04d}',
             seccion=AGENT_MATTERS[agent], titulo=re.sub(r'^\d+[.)]\s*', '', heading),

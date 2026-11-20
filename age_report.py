@@ -6,11 +6,14 @@ from copy import deepcopy
 from html import escape
 from pathlib import Path
 from uuid import uuid4
+from agent_deliveries import DruidOutputLimitError
 from revision_points import editorial_payload
 from editorial_json import parse_editorial_json
+from editorial_visuals import TEAM_GUIDANCE, VISUAL_GUIDANCE
 from capa1_requirements import editorial_requirements
 from documentary_audit import editorial_record_issues
-from presales_coverage import integrate_requirements, requirement_issues, check_pdf_requirements, ensure_extracted_records
+from presales_coverage import (integrate_requirements, requirement_issues, check_pdf_requirements,
+                               ensure_extracted_records, documentary_requirements)
 
 PROMPT_PATH = Path(__file__).parent / 'docs' / 'prompt_resumen_age.md'
 
@@ -454,14 +457,30 @@ def compose_extraction_report(payload):
 
 
 def generate_age_report(payload, path, config, token, call):
-    """Archiva el JSON íntegro y redacta con toda la extracción, sin copias derivadas."""
-    if (any(a.get('registro_procesamiento', {}).get('modo') == 'entregas_guardadas'
-            for a in payload.get('agentes', []))
-            and len(json.dumps(payload, ensure_ascii=False)) > 50000
-            and not payload.get('revision_preventa')):
-        from editorial_deliveries import generate_editorial_deliveries
+    """Intenta la redacción completa y divide si Druid agota tiempo o salida."""
+    if payload.get('revision_preventa'):
+        return generate_single_age_report(payload, path, config, token, call)
+    from agent_deliveries import subdivision_reason
+    from editorial_deliveries import editorial_inputs, generate_editorial_deliveries
+    consolidated = payload.get('consolidacion_documental', {})
+    facts = consolidated.get('datos_contractuales', {})
+    has_verified_sections = any(facts.get(key) for key in ('lotes', 'regla_sobres', 'organo_pcap', 'seguridad'))
+    if ((has_verified_sections and not payload.get('analisis_capa2'))
+            or sum(len(text) for _, text in editorial_inputs(payload)) > 50000):
         return generate_editorial_deliveries(payload, path, config, token, call)
-    prompt = PROMPT_PATH.read_text(encoding='utf-8') + editorial_requirements()
+    try:
+        return generate_single_age_report(payload, path, {**config, '_delivery_managed': True}, token, call)
+    except Exception as exc:
+        reason = subdivision_reason(exc)
+        if not reason:
+            raise
+        print(f'  Redactor: {reason} en la llamada completa; se activa la redacción por bloques.', flush=True)
+        return generate_editorial_deliveries(payload, path, config, token, call, after_timeout=True)
+
+
+def generate_single_age_report(payload, path, config, token, call):
+    prompt = '\n'.join((PROMPT_PATH.read_text(encoding='utf-8'), editorial_requirements(),
+                        VISUAL_GUIDANCE, TEAM_GUIDANCE))
     full_source = json.dumps(payload, ensure_ascii=False, indent=2)
     payload = editorial_source_payload(payload)
     prompt += ('\nCONTRATO DE COBERTURA PARA ESTA EJECUCIÓN: revisa tanto agentes como analisis_capa2, '
@@ -638,6 +657,8 @@ El primer carácter de la respuesta debe ser { y el último }; devuelve un solo 
             result = render_age_pdf(report, path, payload)
             (archive / 'redaccion.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
             return result
+        except DruidOutputLimitError:
+            raise
         except (ValueError, TypeError, KeyError) as exc:
             error = exc
             print(f'Borrador editorial {attempt + 1}/3 no validado: {str(exc)[:350]}', flush=True)
@@ -761,15 +782,17 @@ def apply_review(report, edits):
     return report
 
 
-def render_age_pdf(report, path, payload):
+def render_age_pdf(report, path, payload, *, summary=False):
     from reportlab.lib import colors
-    from reportlab.lib.pagesizes import letter
+    from reportlab.lib.enums import TA_RIGHT
+    from reportlab.lib.pagesizes import A4, letter
     from reportlab.lib.styles import ParagraphStyle
     from reportlab.lib.units import cm
-    from reportlab.platypus import SimpleDocTemplate, Paragraph, Table, TableStyle, Spacer, KeepTogether
+    from reportlab.platypus import SimpleDocTemplate, Paragraph, Table, TableStyle, Spacer, KeepTogether, PageBreak
     from reportlab.pdfbase import pdfmetrics
     from reportlab.pdfbase.ttfonts import TTFont
-    report = validate_report(report, payload)
+    report = validate_report(report, payload, require_coverage=not summary)
+    page_size = A4 if summary else letter
     regular, bold = 'Times-Roman', 'Times-Bold'
     font_pairs = [(Path(os.environ.get('WINDIR', 'C:/Windows'))/'Fonts/times.ttf',
                    Path(os.environ.get('WINDIR', 'C:/Windows'))/'Fonts/timesbd.ttf'),
@@ -789,7 +812,21 @@ def render_age_pdf(report, path, payload):
     cell = ParagraphStyle('Cell', parent=body, fontSize=10, leading=12, spaceAfter=0)
     bullet = ParagraphStyle('Bullet', parent=body, leftIndent=12, firstLineIndent=-8, spaceAfter=4)
     reference = ParagraphStyle('Reference', parent=body, fontSize=10, leading=12, spaceAfter=8)
-    content_width = letter[0]-6*cm
+    content_width = page_size[0]-6*cm-(12 if summary else 0)
+    if summary:
+        navy = colors.HexColor('#18354E')
+        muted = colors.HexColor('#4C6070')
+        rule = colors.HexColor('#BECBD5')
+        title = ParagraphStyle('Cover title', parent=body, fontName=bold, textColor=navy,
+                               fontSize=22, leading=25, spaceAfter=12)
+        cover_meta = ParagraphStyle('Cover metadata', parent=body, textColor=muted, spaceAfter=16)
+        heading = ParagraphStyle('Section title', parent=heading, textColor=navy,
+                                 fontSize=15, leading=18, spaceBefore=13)
+        reference = ParagraphStyle('Section sources', parent=reference, fontName='Times-Italic',
+                                   textColor=muted, keepWithNext=True)
+        header_cell = ParagraphStyle('Table header', parent=cell, fontName=bold, textColor=colors.white)
+        number_cell = ParagraphStyle('Table number', parent=cell, alignment=TA_RIGHT)
+        number_header = ParagraphStyle('Table number header', parent=header_cell, alignment=TA_RIGHT)
 
     def p(value, style=body):
         value = str(value).replace('\u2011', '-').replace('\u2013', '-').replace('\u2014', '-')
@@ -798,64 +835,136 @@ def render_age_pdf(report, path, payload):
         value = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', escape(value))
         return Paragraph(value.replace('\n', '<br/>'), style)
 
-    story = [p('RESUMEN DE LICITACIÓN · PREVENTA', title)]
+    if summary:
+        stage = {'1': ' · Capa 1', 'todas': ' · Capas 1 y 2'}.get(str(payload.get('capa', '')), '')
+        official_title = payload.get('titulo') or ''
+        cover_title = report.get('titulo_corto') or (official_title if len(official_title) <= 110 else '')
+        story = [p(cover_title or f"Expediente {payload['expediente']}", title),
+                 p(f"Expediente {payload['expediente']} · Resumen documental para preventa{stage}", cover_meta)]
+        if official_title and official_title != cover_title:
+            story.append(p(official_title, cover_meta))
+    else:
+        story = [p('RESUMEN DE LICITACIÓN · PREVENTA', title)]
     story.extend(p(x) for x in report['introduccion'])
+    if summary:
+        story.extend([p('Resumen elaborado a partir de la extracción del expediente. '
+                        'El JSON de extracción conserva el registro documental y sus fuentes.', cover_meta),
+                      PageBreak()])
     for number, section in enumerate(report['secciones'], 1):
         clean_title = re.sub(r'^\d+[.)]\s*', '', section['titulo'])
         story.append(p(f'{number}. {clean_title}', heading))
         for block in section['bloques']:
             if block['tipo'] == 'tabla':
                 cols = block['columnas']
-                data = [[p('**' + x + '**', cell) for x in cols]]
-                data.extend([[p(x, cell) for x in row] for row in block['filas']])
+                rows = block['filas']
+                numeric = {index for index in range(len(cols)) if summary and
+                           all(re.fullmatch(r'\s*[-+−]?\d[\d.,]*(?:\s*(?:€|%|EUR|puntos?|mes(?:es)?|'
+                                            r'd[ií]as?|t[eé]cnicos?|personas?|recursos?))?\s*', row[index], re.I)
+                               for row in rows)}
+                if summary:
+                    data = [[p(x, number_header if i in numeric else header_cell) for i, x in enumerate(cols)]]
+                else:
+                    data = [[p('**' + x + '**', cell) for x in cols]]
+                data.extend([[p(x, number_cell if i in numeric else cell) for i, x in enumerate(row)] for row in rows])
                 # No dedicar el mismo ancho a una cantidad y a una descripción larga.
                 weights = []
                 for index, col in enumerate(cols):
-                    if re.search(r'cantidad|puntos|peso|porcentaje|recursos', col, re.I):
+                    if summary and col.strip().casefold() == 'lote' and max(len(row[index]) for row in rows) <= 10:
+                        weights.append(0.65)
+                    elif summary and index in numeric:
+                        longest = max(len(col), max(len(row[index]) for row in rows))
+                        weights.append(max(0.85, min(1.3, longest / 17)))
+                    elif re.search(r'cantidad|puntos|peso|porcentaje|recursos', col, re.I):
                         weights.append(0.65)
                     else:
-                        lengths = [len(row[index]) for row in block['filas']]
+                        lengths = [len(row[index]) for row in rows]
                         weights.append(max(1.1, min(2.5, (sum(lengths)/len(lengths))**0.5 / 4)))
                 widths = [content_width*w/sum(weights) for w in weights]
-                table = Table(data, colWidths=widths, repeatRows=1, hAlign='LEFT')
-                table.setStyle(TableStyle([
-                    ('VALIGN',(0,0),(-1,-1),'TOP'), ('BACKGROUND',(0,0),(-1,0),colors.HexColor('#eeeeee')),
-                    ('GRID',(0,0),(-1,-1),0.3,colors.HexColor('#bbbbbb')),
+                table = Table(data, colWidths=widths, repeatRows=1, hAlign='LEFT', splitInRow=int(summary),
+                              rowSplitRange=(2, -1) if summary and len(rows) >= 3 else None)
+                vertical_padding = 3 if summary and 'Equipo actual' in cols else 4
+                style = [
+                    ('VALIGN',(0,0),(-1,-1),'TOP'),
                     ('LEFTPADDING',(0,0),(-1,-1),5), ('RIGHTPADDING',(0,0),(-1,-1),5),
-                    ('TOPPADDING',(0,0),(-1,-1),4), ('BOTTOMPADDING',(0,0),(-1,-1),4)]))
+                    ('TOPPADDING',(0,0),(-1,-1),vertical_padding),
+                    ('BOTTOMPADDING',(0,0),(-1,-1),vertical_padding),
+                ]
+                if summary:
+                    style.extend([('BACKGROUND',(0,0),(-1,0),navy),
+                                  ('ROWBACKGROUNDS',(0,1),(-1,-1),[colors.HexColor('#EEF2F5'),colors.white]),
+                                  ('LINEBELOW',(0,0),(-1,-1),0.35,rule)])
+                else:
+                    style.extend([('BACKGROUND',(0,0),(-1,0),colors.HexColor('#eeeeee')),
+                                  ('GRID',(0,0),(-1,-1),0.3,colors.HexColor('#bbbbbb'))])
+                table.setStyle(TableStyle(style))
                 story.extend([table, Spacer(1,6)])
             elif block['tipo'] == 'lista':
                 story.extend(p('- ' + item, bullet) for item in block['elementos'])
             else:
-                style = sub if block['tipo']=='subtitulo' else reference if block['texto'].strip().startswith('[') else body
+                style = body
+                if block['tipo'] == 'subtitulo':
+                    style = sub
+                elif block['texto'].strip().startswith('Fuentes:' if summary else '['):
+                    style = reference
                 story.append(p(block['texto'], style))
-    story.append(p('Conclusión operativa', heading))
+    conclusion = [p('Conclusión operativa', heading)]
     for label, items in group_conclusion(report['conclusion']).items():
-        story.append(KeepTogether([p(label + ':', sub)] + [p('- ' + item, bullet) for item in items]))
+        if summary:
+            conclusion.extend(p(f'**{label}.** {item}' if label != 'Síntesis' else item) for item in items)
+        else:
+            conclusion.append(KeepTogether([p(label + ':', sub)] + [p('- ' + item, bullet) for item in items]))
+    if not summary:
+        story.extend(conclusion)
     warnings = payload.get('avisos_procesamiento', [])
+    link_audit = payload.get('consolidacion_documental', {}).get('auditoria_enlaces_filtrados', {})
+    if summary and link_audit.get('estado') == 'recuento_reproducido':
+        warnings = [warning for warning in warnings if not re.match(r'Se omitieron \d+ enlaces internos', warning)]
+    editorial_warnings = report.get('avisos_editoriales', []) if summary else []
     unread = [f"{d.get('nombre', 'Documento')}: {d.get('estado_lectura', 'sin texto')}"
               for d in payload.get('documentos_fuente', [])
               if d.get('estado_lectura') != 'texto_extraido']
-    if warnings or unread:
+    if warnings or unread or editorial_warnings:
         story.append(p('AVISO DE PROCESAMIENTO:', sub))
-        story.extend(p('- ' + item, bullet) for item in dict.fromkeys(map(str, warnings + unread)))
+        story.extend(p('- ' + item, bullet) for item in editorial_warnings)
+        notices = list(dict.fromkeys(map(str, warnings + unread)))
+        story.extend(p('- ' + item, bullet) for item in (notices[:8] if summary else notices))
+        if summary and len(notices) > 8:
+            story.append(p(f'El JSON de extracción contiene los {len(notices)} avisos de la ejecución.'))
+    if summary:
+        story.append(KeepTogether(conclusion))
 
     def footer(canvas, doc):
         canvas.setFont(regular, 8)
+        if summary:
+            canvas.setFillColor(muted)
+            canvas.setStrokeColor(rule)
+            canvas.setLineWidth(0.4)
+            canvas.line(3*cm, page_size[1]-1.85*cm, page_size[0]-3*cm, page_size[1]-1.85*cm)
+            canvas.drawString(3*cm, page_size[1]-1.6*cm, f"{payload['expediente']} | Resumen documental{stage}")
+            canvas.drawString(3*cm, 1.25*cm, 'Resumen documental para preventa')
         if payload.get('clasificacion') == 'C2 - RESTRINGIDO':
             canvas.drawString(2*cm, cm, 'C2 - RESTRINGIDO')
-        canvas.drawRightString(letter[0]-2*cm, cm, str(doc.page))
+        canvas.drawRightString(page_size[0]-(3 if summary else 2)*cm, 1.25*cm if summary else cm, str(doc.page))
 
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_suffix('.tmp.pdf')
     def build_pdf():
-        SimpleDocTemplate(str(temporary), pagesize=letter, leftMargin=3*cm, rightMargin=3*cm,
+        SimpleDocTemplate(str(temporary), pagesize=page_size, leftMargin=3*cm, rightMargin=3*cm,
                           topMargin=2.3*cm, bottomMargin=2.3*cm, title=f"{payload['expediente']} - Resumen legible").build(
                               deepcopy(story), onFirstPage=footer, onLaterPages=footer)
     try:
         build_pdf()
-        coverage = check_pdf_requirements(report, payload, temporary, allow_pdf_warnings=True)
+        if summary:
+            coverage = {'estado': 'RESUMEN_EDITORIAL', 'avisos': [],
+                        'avisos_editoriales': editorial_warnings,
+                        'registros': len(documentary_requirements(payload)), 'apartados': len(report['secciones']),
+                        'alcance': 'Síntesis temática. El registro documental íntegro está en el JSON de extracción.'}
+            consolidation = payload.get('consolidacion_documental')
+            if consolidation and not payload.get('analisis_capa2'):
+                coverage['recuento_documental'] = consolidation['recuento']
+        else:
+            coverage = check_pdf_requirements(report, payload, temporary, allow_pdf_warnings=True)
         validation_warnings = coverage.get('avisos', []) if coverage else []
         if validation_warnings:
             story.append(p('AVISOS DE VALIDACIÓN DEL PDF', heading))
@@ -879,7 +988,9 @@ def render_age_pdf(report, path, payload):
             coverage['registros_pendientes_revision'] = sum(w['revision_manual_requerida'] for w in validation_warnings)
         if coverage is not None:
             report['validacion_pdf'] = {k: coverage[k] for k in
-                ('estado', 'avisos', 'registros_pendientes_revision', 'registros_completos', 'registros') if k in coverage}
+                ('estado', 'avisos', 'registros_pendientes_revision', 'registros_completos', 'registros', 'alcance',
+                 'recuento_documental')
+                if k in coverage}
         temporary.replace(path)
         if coverage is not None:
             (Path(path).parent/'comprobacion_cobertura.json').write_text(

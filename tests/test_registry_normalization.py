@@ -43,6 +43,23 @@ class RegistryNormalizationTests(unittest.TestCase):
         with self.assertRaises(RegistryFormatError):
             app.markdown_report_to_json(raw)
 
+    def test_reading_notice_with_omitted_source_is_saved_as_diagnostic(self):
+        raw = HEADER + (
+            '| Presentación | Idioma: NO LOCALIZADO EN ESTA ENTREGA PARCIAL (no implica ausencia en el expediente). |\n'
+            '| Firma | NO CONSTA EN LA DOCUMENTACION REVISADA. |\n'
+            '| Se exige identificación del licitador. | PCAP.pdf p. 4 |\n'
+        )
+        content = app.markdown_report_to_json(raw)
+        self.assertEqual(content['salida_original'], raw)
+        first, second, third = content['requisitos_documentales']
+        self.assertIn('Idioma: NO LOCALIZADO', first['detalle'])
+        self.assertFalse(first['es_requisito_contractual'])
+        self.assertFalse(second['es_requisito_contractual'])
+        self.assertEqual(third['seccion'], 'Firma')
+        self.assertEqual(third['fuente'], 'PCAP.pdf p. 4')
+        with self.assertRaises(RegistryFormatError):
+            app.markdown_report_to_json(HEADER + '| Firma | Se exige firma electrónica. |')
+
     def test_complete_records_with_different_column_order_and_generic_tables(self):
         rows = [['Fuente', 'Materia', 'Requisito completo'], ['PPT.pdf p.3', 'Equipo', 'Perfil experto.']]
         self.assertEqual(normalize_registry_rows(rows), rows)

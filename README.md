@@ -2,11 +2,11 @@
 
 ## Entregas guardadas y reanudación
 
-Los 12 especialistas procesan entradas grandes por entregas de hasta 50.000 caracteres
-por documento, con solapamiento y referencias de origen. Cada respuesta completa se
-guarda antes de pasar a la siguiente. Un HTTP 504 o timeout divide solo la entrega
-pendiente, hasta un mínimo de 6.000 caracteres. No se recupera texto de una llamada
-fallida ni se cancela automáticamente el trabajo que pueda seguir activo en Druid.
+Cada especialista recibe primero su entrada completa. Si Druid devuelve un timeout
+o confirma que cortó la respuesta por el límite de salida, solo ese agente pasa a
+bloques de hasta 150.000 caracteres. Los documentos que caben se agrupan y cada
+respuesta completa se guarda antes de avanzar. Si falla otro bloque por alguno
+de esos límites, se divide solo el bloque afectado, hasta un umbral de 6.000 caracteres.
 
 ```powershell
 python oportunidades.py --capa 1
@@ -16,23 +16,29 @@ python oportunidades.py --capa 1 --reanudar "resumenes/CARPETA_DE_LA_EJECUCION"
 
 Para capa 2 usa `--capa todas` también al reanudar. Los checkpoints están en
 `entregas/`; se comprueba que documentos, instrucciones y destino de Druid coincidan.
-Una ejecución anterior a esta función no tiene checkpoints de entregas reutilizables.
-Los JSON y el informe final se vuelven a componer a partir de respuestas guardadas.
+Al reanudar, se reutilizan los planes anteriores de los especialistas que ya habían
+empezado. Los demás agentes prueban con la entrada completa.
 
-Los extractores conservan las entregas completas; las ausencias en un bloque no son
-exenciones del expediente. A1 y los analistas de capa 2 añaden síntesis acotadas.
-Para informes grandes, el redactor redacta y revisa por bloques; integra además los
-registros originales mediante comprobaciones locales de cobertura. Las síntesis no
-certifican exhaustividad semántica ni eliminan los registros completos.
+Cada respuesta parcial queda íntegra en su checkpoint. Al reunirlas, se retiran
+los duplicados exactos conservando las fuentes y condiciones distintas. A1 y los
+analistas de capa 2 añaden síntesis acotadas cuando procesan varios bloques.
+El redactor también recibe primero la entrada completa. Si agota el tiempo o la salida,
+toma notas por bloques de hasta 75.000 caracteres y las consolida por temas.
+El PDF temático presenta portada, referencias por sección, tablas y conclusión.
+Las cifras y condiciones comparables se presentan en tablas; en perfiles se
+agrupan las tecnologías y dotaciones documentadas por lote. El PDF se compone
+así directamente en la ejecución.
+El registro documental completo se conserva en el JSON de extracción. Los
+checkpoints editoriales están en `entregas/redaccion/resumen_tematico/`.
 
 Esta modalidad aumenta el número de llamadas y puede aumentar el coste total.
 Si incluso el bloque mínimo agota el tiempo, se detiene conservando lo terminado.
 No garantiza una duración inferior a 100 segundos. El timeout puede dejar trabajo
 activo en el servidor; no existe una operación de cancelación confirmada.
 
-Configuración opcional: `DRUID_DELIVERY_CHARS=50000` y
-`DRUID_DELIVERY_MIN_CHARS=6000`. Para cambiar esos tamaños después de empezar,
-inicia una ejecución nueva. Los textos pequeños conservan una sola entrega.
+Configuración de los bloques de respaldo:
+`DRUID_DELIVERY_CHARS=150000`, `DRUID_DELIVERY_MIN_CHARS=6000` y
+`DRUID_EDITORIAL_DELIVERY_CHARS=75000`. Cambia esos tamaños al iniciar una ejecución nueva.
 
 
 ## Precisión y cobertura documental de capa 1
@@ -108,26 +114,24 @@ python .\oportunidades.py --capa 1
 ```
 
 Ejecuta los ocho agentes de extracción, guarda `<expediente>_capa1.json` y añade
-un último agente redactor con revisión del borrador contra el JSON íntegro.
+un último agente redactor. Para entradas grandes intenta producir el resumen temático
+en una llamada, y consolida notas por materias si se agota el tiempo.
 Genera **un único PDF**, `<expediente>_resumen_legible.pdf`, dentro de la carpeta de esta ejecución en `resumenes/`.
-Empieza con RESPUESTA, sin PREGUNTA, y termina con Conclusión operativa.
-Usa Letter, márgenes laterales de 3 cm, tipografía serif, tablas de hasta cuatro columnas,
-listas de obligaciones, subapartados explicativos y una conclusión por puntos.
-El prompt editable está en [docs/prompt_resumen_age.md](docs/prompt_resumen_age.md).
-El contenido editorial validado se conserva en `<expediente>_resumen_legible.redaccion.json`.
+El resumen temático usa A4, márgenes laterales de 3 cm, tipografía serif,
+tablas de hasta cuatro columnas y epígrafes temáticos con sus fuentes.
+Su contenido editorial se guarda en `entregas/redaccion/resumen_tematico/informe.json`.
+Las entradas pequeñas y las revisiones contrastadas usan el formato AGE
+de [docs/prompt_resumen_age.md](docs/prompt_resumen_age.md).
 
 Cada extractor guarda también su respuesta completa en `*_respuesta.json` al terminar.
-El redactor recibe todas las respuestas del expediente dentro del JSON consolidado
-`<expediente>_capa1.json`, incluidos sus estados, fuentes y avisos; no selecciona archivos
-por comodines ni mezcla ejecuciones anteriores. En cada ejecución editorial se conserva
-una carpeta independiente bajo `<expediente>_resumen_legible_ejecuciones/` con
-`entrada_completa.json`, un JSON por agente y las respuestas de borrador/revisión.
+El redactor trabaja con las respuestas del mismo expediente, sus fuentes y avisos.
+El archivo `entrada_completa.json` y las respuestas editoriales quedan en la carpeta
+de checkpoints, o bajo `diagnosticos/redaccion/` en el formato AGE.
 Las respuestas mal formadas también se guardan, como texto original dentro de un JSON
 de diagnóstico. Estos diagnósticos no se utilizan como hechos de la licitación.
 
-La revisión editorial contrasta el informe con el JSON completo y destaca estados de
-exigencia, plazos abreviados, reglas de experiencia y alternativas documentales.
-Antes de publicar se comprueban además regresiones concretas: garantía provisional
+En el formato AGE la revisión editorial contrasta el informe con
+el JSON completo. Antes de publicar se comprueban además regresiones concretas: garantía provisional
 expresamente no exigida, plazos de confirmación/acuse, periodos coincidentes y efectos
 documentales de ROLECE. Si persisten, se reintenta solo la revisión (hasta tres veces);
 si no se resuelven, no se publica el nuevo PDF y se conserva la extracción.
@@ -307,12 +311,9 @@ Prueba local: `python comprobar_viabilidad.py`. Prueba real de nueve agentes med
 
 Pruebas de separación, prompts, PDF y regresión: `python -m unittest discover -s tests -v`.
 
-La capa 1 usa un prompt por agente con todos los textos extraídos, sin revisión
-adicional por materias ni selección de fragmentos. Conserva las reglas ampliadas
-dentro de cada prompt. No genera recomendaciones separadas en `--capa 1`.
-Son ocho llamadas de extracción, más el redactor y su revisión editorial; pueden
-existir reintentos técnicos o editoriales. Los nuevos JSON no incluyen una revisión
-documental por fragmentos ni garantizan exhaustividad por superar validaciones formales.
+La capa 1 intenta una llamada por agente con todos los textos extraídos y conserva
+las reglas de cada especialidad. Un timeout activa entregas solo para la llamada
+afectada. `--capa 1` genera la extracción y el resumen, sin llamadas de recomendaciones.
 
 El redactor conserva los detalles extraídos y puede añadir apartados omitidos. Si no
 supera los controles, se conserva el diagnóstico y no se publica el nuevo PDF. Para
@@ -345,13 +346,12 @@ qué información recibió el redactor. No se crean carpetas `temp_render` duran
 
 ### Requisitos documentales y revisiones contrastadas
 
-Los siete especialistas de capa 1 reciben los documentos completos en una única
-llamada cada uno. El registro Markdown con columnas `Materia`, `Requisito completo`
-y `Fuente` se conserva como `contenido.requisitos_documentales` en los JSON
-individuales y consolidado. El redactor integra esos detalles completos en el cuerpo,
-con sus fuentes: una mención en un título o en la conclusión no acredita cobertura.
-Esto impide perder requisitos registrados, pero no prueba que el extractor haya
-encontrado todos los requisitos del pliego ni valida automáticamente su interpretación.
+El registro Markdown con columnas `Materia`, `Requisito completo` y `Fuente` se
+conserva como `contenido.requisitos_documentales` en los JSON individuales y consolidado.
+El resumen temático sintetiza ese contenido y registra el alcance
+`RESUMEN_EDITORIAL` en `comprobacion_cobertura.json`. La comprobación literal
+del registro en el PDF se aplica en el formato AGE y en
+revisiones contrastadas.
 
 Para corregir una extracción con una revisión documental explícita:
 
@@ -430,10 +430,9 @@ Si `ChatResponse` es inválido, se buscan resultados completos en los mensajes y
 argumentos estructurados de esa misma respuesta antes de repetir la llamada.
 Si no existe ninguno válido, se archiva la respuesta API íntegra en
 `diagnosticos/druid/respuesta_rechazada_*.json`. No se completan textos cortados.
-Si Druid indica `finish_reason: length`, se identifica expresamente el límite de
-salida, se conserva la respuesta rechazada y el siguiente intento regenera la
-extracción completa con control de alcance y de repeticiones. No continúa un
-fragmento ni reduce los documentos. A8 se centra en equipo, perfiles, continuidad
+Si Druid indica `finish_reason: length`, se archiva la respuesta rechazada. El
+procesador de entregas subdivide la entrada que produjo el corte y genera nuevas
+respuestas para sus partes. A8 se centra en equipo, perfiles, continuidad
 y su acreditación; el inventario transversal de solvencia se asigna a A3.
 A8 entrega fichas Markdown por perfil y materia con viñetas citadas, evitando la
 tabla larga repetitiva. La normalización conserva el nombre del perfil en cada

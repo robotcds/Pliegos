@@ -617,6 +617,24 @@ documentales identificadas. No reconstruyas hechos ausentes con conocimientos ge
 """
 
 
+VALIDATION_FOCUS = {
+    'admin': 'Agrupa por fase: oferta y sobres, acreditación del propuesto adjudicatario y ejecución. Distingue '
+             'prohibiciones, condiciones y datos informativos. Conserva órgano marcado del PCAP y metadato XML.',
+    'projects': 'Consolida evidencia positiva por lote y subcampo antes de declarar ausencias. Distingue mínimo de '
+                'la alternativa de acreditación (clasificación, medios externos, compromiso de seguro o documento).',
+    'award': 'Agrupa por lote y tipo de criterio. Cita Anexo XI y su apartado localizable. Transcribe la fórmula '
+             'con variables y límites. Suma los subcriterios de primer nivel sin contar dos veces sus desgloses.',
+    'service': 'Organiza por lote y subservicio. Separa inventario actual, volumetría de referencia y requisito '
+               'obligatorio. Conserva versión, cantidad, unidad y fuentes de tablas. Cita la prelación expresa.',
+    'profiles': 'Identifica lote y servicio en cada ficha. Cita también cada cifra de tablas y ficha histórica '
+                'con página o apartado, aunque varias filas compartan origen. Distingue dotación actual de mínimos.',
+    'security': 'Distingue acreditación requerida, control operativo y condición contractual. Identifica qué lote '
+                'y servicio aplica y reúne las fuentes de una misma obligación.',
+    'purchases': 'Distingue productos de referencia y licencias exigidas. Cita anexos técnicos y hojas económicas '
+                 'para cantidades y unidades de recurso, y conserva las condiciones de equivalencia y soporte.',
+}
+
+
 def extraction_requirements(agent):
     scope = ''
     register = PRESALES_REGISTER
@@ -651,7 +669,11 @@ Al completar la revisión del equipo y sus discrepancias, TERMINA la respuesta.
 No reinicies listas ni vuelvas a recorrer documentación administrativa general.
 '''
     return (DOCUMENTARY_PRECISION + AGENT_COVERAGE[agent] + OUTPUT_DETAIL +
-            PRESALES_EXTRACTION + PRESALES_CHECKS[agent] + AUDIT_CHECKS[agent] + register + scope)
+            PRESALES_EXTRACTION + PRESALES_CHECKS[agent] + AUDIT_CHECKS[agent] + register + scope +
+            '\nCONTROL FINAL DE CAPA 1: ' + VALIDATION_FOCUS.get(agent, '') +
+            ' Registra cada hecho una vez con sus fuentes. Deja los avisos de lectura y los datos no localizados '
+            'fuera de la tabla contractual; si la entrega es parcial, limita el aviso a esa entrega. '
+            'La fuente identifica archivo y página, apartado, hoja o celda disponibles, sin inventar localizadores.')
 
 
 def numeric_source_index(documents, agent):

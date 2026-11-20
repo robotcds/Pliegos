@@ -1,8 +1,8 @@
 # Cobertura documental de preventa — 14/10/2026
 
-La capa 1 extrae hechos y reglas de los documentos. Conserva condiciones, excepciones,
-fases, unidades y fuentes en los JSON; el redactor los integra en el formato AGE
-existente, con prosa, subapartados, listas, tablas de 2–4 columnas y conclusión operativa.
+La capa 1 extrae hechos y reglas de los documentos y conserva condiciones, excepciones,
+fases, unidades y fuentes en los JSON. El redactor presenta el resumen para preventa
+con prosa, subapartados, tablas de 2–4 columnas y conclusión operativa.
 
 ## Responsables de los puntos solicitados
 
@@ -47,17 +47,18 @@ especialistas; A1 recibe las reglas transversales. `age_report.py` incorpora la 
 cobertura al borrador, a la revisión y a sus reintentos, junto con el prompt editable
 `docs/prompt_resumen_age.md`.
 
-La capa 1 ejecuta un único prompt por agente con el texto documental completo.
-No llama a la revisión por materias de `documentary_audit.py`, ni selecciona fragmentos
-para los extractores. Los límites `MAX_*_PROMPT_DOCUMENT_CHARS` no compactan capa 1.
+La capa 1 intenta un único prompt por agente con el texto documental completo.
+Si se agota el tiempo o Druid corta su salida, parte la entrada de ese agente en
+entregas con referencias de origen. Los límites `MAX_*_PROMPT_DOCUMENT_CHARS` no compactan capa 1.
 Los requisitos de precisión y cobertura se conservan dentro del prompt de cada agente.
 Las salidas se guardan directamente en los JSON individuales y en el JSON de capa 1,
 con el índice de documentos y avisos reales de lectura. No se añade `revision_documental`
 a las nuevas extracciones ni se presentan como contrastadas por un segundo agente.
 
 En `--capa 1` no se hacen llamadas separadas de recomendaciones. El redactor final
-recibe el JSON completo y mantiene sus controles de formato y cobertura. Los reintentos
-técnicos de Druid permanecen; no son una división del análisis en fragmentos.
+recibe primero la extracción completa y aplica los controles de formato y cobertura
+de la modalidad que corresponde. El timeout o el límite de salida del redactor
+activa el resumen por bloques.
 
 ## Fuera de capa 1
 
@@ -95,12 +96,12 @@ de tablas/desarrollos y separación de ausencia, parámetro no especificado y re
 No se fija un objetivo de brevedad para los especialistas. A1 conserva su función
 orientativa; no sustituye el desarrollo de los otros siete agentes.
 
-El redactor y su revisión reciben `EDITORIAL_PRESALES`: todo hecho relevante debe
-quedar desarrollado en el cuerpo, con tablas de hasta cuatro columnas y sin límite
-objetivo de páginas. No se añaden pasadas de extracción ni se fragmentan documentos.
-El coste de llamadas no se usa como criterio para recortar el detalle solicitado.
-Esto refuerza instrucciones; no convierte la validación formal en verificación
-semántica completa. Las salidas existentes no cambian sin una nueva ejecución.
+El redactor de entradas grandes intenta un resumen temático en una sola llamada.
+Al agotar el tiempo, clasifica notas por entregas y revisa una sección por materia.
+El resumen muestra las condiciones decisivas, las cifras y las
+referencias por sección. El registro íntegro de requisitos queda en el JSON.
+En el formato AGE se sigue aplicando `EDITORIAL_PRESALES` y
+la comprobación literal de requisitos en el cuerpo.
 
 
 ## Recuperación del redactor final
@@ -110,8 +111,10 @@ no pasa a una revisión de cambios puntuales. Si tres revisiones editoriales no 
 un resultado válido, se solicita un nuevo borrador dentro del límite de tres borradores.
 El PDF solo se publica cuando supera los controles.
 
-`entrada_completa.json` conserva el JSON original y `entrada_editorial.json` registra
-exactamente lo enviado al modelo. Cada salida original se envía íntegra una sola vez
-cuando los campos estructurados son una copia que el parser local reconstruye exactamente.
-Si esos campos contienen datos adicionales o provienen de otro esquema, se conservan.
-Esto no divide la extracción en fragmentos ni omite requisitos.
+`entrada_completa.json` conserva el JSON original. En modo temático, las
+anotaciones, las secciones y la apertura/cierre tienen checkpoints propios dentro de
+`entregas/redaccion/resumen_tematico/`. Si Druid agota el tiempo, el procesador
+divide el bloque pendiente y conserva las respuestas completadas.
+Si la revisión de una sección agota sus intentos de formato, el PDF muestra el
+borrador de esa sección con un aviso de revisión editorial pendiente.
+`entrada_editorial.json` registra lo enviado al modelo en el formato AGE.

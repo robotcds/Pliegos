@@ -1,0 +1,49 @@
+# Registro documental de preventa
+
+| Materia | Requisito completo | Fuente |
+|---|---|---|
+| Criterios de adjudicación Lote 1 | Criterios de adjudicación Lote 1: 100 puntos totales. 22 puntos criterios sometidos a juicio de valor (PJV), 78 puntos criterios sometidos a fórmulas automáticas (PF). | ANEXO XI, Lote 1, p.1-2 |
+| Criterios de adjudicación Lote 1 | PJV 1.1 Modelo de prestación del servicio: hasta 5 puntos. Escala de valoración de 0 a 5 puntos según exhaustividad, alineación con ITIL, detalle de flujos y escalado. | ANEXO XI, Lote 1, p.1 |
+| Criterios de adjudicación Lote 1 | PJV 2.1 Plan de transición: hasta 5 puntos. Se valora calidad, viabilidad y robustez del plan, cronograma, metodología de transferencia de conocimiento, identificación de hitos críticos (2, 3, 4), gestión de riesgos. Escala de 0 a 5 puntos. | ANEXO XI, Lote 1, p.1 |
+| Criterios de adjudicación Lote 1 | PJV 2.2 Plan de transición cambio contrato infraestructura: hasta 5 puntos. Mismos criterios y escala que PJV 2.1. | ANEXO XI, Lote 1, p.1 |
+| Criterios de adjudicación Lote 1 | PJV 3.1 Plan de devolución: hasta 3 puntos. Se valora utilidad, aplicabilidad, transferencia de conocimiento, completitud del plan, KPIs, herramientas, recursos y dependencias. Escala de 0 a 3 puntos. | ANEXO XI, Lote 1, p.2 |
+| Criterios de adjudicación Lote 1 | PJV 4.1 Capacidad de automatización de procesos: hasta 4 puntos. Se valora calidad y alcance de soluciones tecnológicas para automatizar operativas del servicio, áreas de evaluación detalladas, escala de 0 a 4 puntos. | ANEXO XI, Lote 1, p.2 |
+| Criterios de adjudicación Lote 1 | PF 1.1 Importe total de L1.S1: hasta 14 puntos. Fórmula: Pmax·(Omin/Oi)^0,5. Omin: oferta mínima, Oi: oferta a valorar. Suma de todas las casillas del servicio. | ANEXO XI, Lote 1, p.2 |
+| Criterios de adjudicación Lote 1 | PF 1.2 Importe total de L1.S2: hasta 14 puntos. Fórmula: Pmax·(Omin/Oi)^0,5. Omin: oferta mínima, Oi: oferta a valorar. Suma de todas las casillas del servicio. | ANEXO XI, Lote 1, p.2 |
+| Criterios de adjudicación Lote 1 | PF 1.3 Importe total de L1.S3: hasta 20 puntos. Fórmula: Pmax·(Omin/Oi)^0,5. Omin: oferta mínima, Oi: oferta a valorar. Suma de todas las casillas del servicio. | ANEXO XI, Lote 1, p.2 |
+| Criterios de adjudicación Lote 1 | PF 1.4 Importe total de L1.S4: hasta 10 puntos. Fórmula: Pmax·(Omin/Oi)^0,5. Omin: oferta mínima, Oi: oferta a valorar. Suma de todas las casillas del servicio. | ANEXO XI, Lote 1, p.2 |
+| Criterios de adjudicación Lote 1 | PF 1.5 Importe total de L1.S0: hasta 10 puntos. Fórmula: Pmax·(Omin/Oi)^0,5. Omin: oferta mínima, Oi: oferta a valorar. Suma de todas las casillas del servicio. | ANEXO XI, Lote 1, p.2 |
+| Criterios de adjudicación Lote 1 | PF 1.6 Importe total de L1.S01: hasta 10 puntos. Fórmula: Pmax·(Omin/Oi)^0,5. Omin: oferta mínima, Oi: oferta a valorar. Suma de todas las casillas del servicio. | ANEXO XI, Lote 1, p.2 |
+| Criterios de adjudicación Lote 2 | Criterios de adjudicación Lote 2: 100 puntos totales. 22 puntos criterios sometidos a juicio de valor (PJV), 78 puntos criterios sometidos a fórmulas automáticas (PF). | ANEXO XI, Lote 2, p.1-2 |
+| Criterios de adjudicación Lote 2 | PJV 1.1 Modelo de prestación del servicio: hasta 5 puntos. Escala de valoración de 0 a 5 puntos según exhaustividad, alineación con ITIL, detalle de flujos y escalado. | ANEXO XI, Lote 2, p.1 |
+| Criterios de adjudicación Lote 2 | PJV 2.1 Plan de transición: hasta 5 puntos. Se valora calidad, viabilidad y robustez del plan, cronograma, metodología de transferencia de conocimiento, identificación de hitos críticos (2, 3, 4), gestión de riesgos. Escala de 0 a 5 puntos. | ANEXO XI, Lote 2, p.1 |
+| Criterios de adjudicación Lote 2 | PJV 2.1 Plan de transición cambio contrato infraestructura: hasta 5 puntos. Mismos criterios y escala que PJV 2.1. | ANEXO XI, Lote 2, p.1 |
+| Criterios de adjudicación Lote 2 | PJV 3.1 Plan de devolución: hasta 3 puntos. Se valora utilidad, aplicabilidad, transferencia de conocimiento, completitud del plan, KPIs, herramientas, recursos y dependencias. Escala de 0 a 3 puntos. | ANEXO XI, Lote 2, p.2 |
+| Criterios de adjudicación Lote 2 | PJV 4.1 Capacidad de automatización de procesos: hasta 4 puntos. Se valora calidad y alcance de soluciones tecnológicas para automatizar operativas del servicio, áreas de evaluación detalladas, escala de 0 a 4 puntos. | ANEXO XI, Lote 2, p.2 |
+| Criterios de adjudicación Lote 2 | PF 1.1 Importe total de L2.S1: hasta 14 puntos. Fórmula: Pmax·(Omin/Oi)^0,5. Omin: oferta mínima, Oi: oferta a valorar. Suma de todas las casillas del servicio. | ANEXO XI, Lote 2, p.2 |
+| Criterios de adjudicación Lote 2 | PF 1.2 Importe total de L2.S2: hasta 15 puntos. Fórmula: Pmax·(Omin/Oi)^0,5. Omin: oferta mínima, Oi: oferta a valorar. Suma de todas las casillas del servicio. | ANEXO XI, Lote 2, p.2 |
+| Criterios de adjudicación Lote 2 | PF 1.3 Importe total de L2.S3: hasta 10 puntos. Fórmula: Pmax·(Omin/Oi)^0,5. Omin: oferta mínima, Oi: oferta a valorar. Suma de todas las casillas del servicio. | ANEXO XI, Lote 2, p.2 |
+| Criterios de adjudicación Lote 2 | PF 1.4 Importe total de L2.S4: hasta 5 puntos. Fórmula: Pmax·(Omin/Oi)^0,5. Omin: oferta mínima, Oi: oferta a valorar. Suma de todas las casillas del servicio. | ANEXO XI, Lote 2, p.2 |
+| Criterios de adjudicación Lote 2 | PF 1.5 Importe total de L2.S5: hasta 10 puntos. Fórmula: Pmax·(Omin/Oi)^0,5. Omin: oferta mínima, Oi: oferta a valorar. Suma de todas las casillas del servicio. | ANEXO XI, Lote 2, p.2 |
+| Criterios de adjudicación Lote 2 | PF 1.6 Importe total de L2.S6: hasta 10 puntos. Fórmula: Pmax·(Omin/Oi)^0,5. Omin: oferta mínima, Oi: oferta a valorar. Suma de todas las casillas del servicio. | ANEXO XI, Lote 2, p.2 |
+| Criterios de adjudicación Lote 2 | PF 1.7 Importe total de L2.S0: hasta 10 puntos. Fórmula: Pmax·(Omin/Oi)^0,5. Omin: oferta mínima, Oi: oferta a valorar. Suma de todas las casillas del servicio. | ANEXO XI, Lote 2, p.2 |
+| Criterios de adjudicación Lote 2 | PF 2.1 Número de implantaciones en plataformas de Virtualización de aplicaciones: hasta 4 puntos. 4 puntos: 7 o más proyectos; 3 puntos: 6 proyectos; 2 puntos: 5 proyectos; 1 punto: 4 proyectos; 0 puntos: no acredita experiencia. | ANEXO XI, Lote 2, p.2 |
+| Criterios de adjudicación Lote 3 | Criterios de adjudicación Lote 3: 100 puntos totales. Todos los criterios son automáticos por fórmula. | ANEXO XI, Lote 3, p.1-2 |
+| Criterios de adjudicación Lote 3 | PF 1.1 Importe total de Virtualización: hasta 30 puntos. Fórmula: Pmax·(Omin/Oi)^0,5. Omin: oferta mínima, Oi: oferta a valorar. Suma de todas las casillas del servicio. | ANEXO XI, Lote 3, p.1 |
+| Criterios de adjudicación Lote 3 | PF 1.2 Importe total de Gestión de datos de prueba: hasta 20 puntos. Fórmula: Pmax·(Omin/Oi)^0,5. Omin: oferta mínima, Oi: oferta a valorar. Suma de todas las casillas del servicio. | ANEXO XI, Lote 3, p.1 |
+| Criterios de adjudicación Lote 3 | PF 1.3 Importe total de Motor de procesos: hasta 20 puntos. Fórmula: Pmax·(Omin/Oi)^0,5. Omin: oferta mínima, Oi: oferta a valorar. Suma de todas las casillas del servicio. | ANEXO XI, Lote 3, p.1 |
+| Criterios de adjudicación Lote 3 | PF 1.4 Importe total de Bases de datos: hasta 25 puntos. Fórmula: Pmax·(Omin/Oi)^0,5. Omin: oferta mínima, Oi: oferta a valorar. Suma de todas las casillas del servicio. | ANEXO XI, Lote 3, p.1 |
+| Criterios de adjudicación Lote 3 | PF 2.1 Reducción de plazos de implantación (Gestión de datos de pruebas): hasta 5 puntos. Por cada fracción de 5 días naturales de reducción sobre el plazo máximo, 1 punto. Máximo 5 puntos (25 días o más). Solo múltiplos de 5 días. | ANEXO XI, Lote 3, p.2 |
+| Criterios de adjudicación Lote 1, 2, 3 | Fórmulas de valoración económica: Pmax·(Omin/Oi)^0,5. Pmax: puntuación máxima del criterio, Omin: oferta mínima, Oi: oferta a valorar. Suma de todas las casillas del servicio. | ANEXO XI, Lote 1, 2, 3, p.2 |
+| Criterios de adjudicación Lote 1, 2, 3 | Reglas de desempate: 1) Mayor porcentaje de trabajadores fijos con discapacidad; 2) Medidas de igualdad de oportunidades entre hombres y mujeres. Documentación acreditativa a aportar solo en caso de empate. | PCAP CP001522024.pdf, p.28 |
+| Criterios de adjudicación Lote 1, 2, 3 | No se admiten variantes ni mejoras fuera de las expresamente previstas en los criterios de adjudicación. | PCAP CP001522024.pdf, p.13 |
+| Criterios de adjudicación Lote 1, 2, 3 | Criterios de anormalidad: Se considerarán anormales las ofertas inferiores al presupuesto base de licitación en más de 20 unidades porcentuales. En tal caso, audiencia al licitador para justificación. | PCAP CP001522024.pdf, p.8 |
+| Criterios de adjudicación Lote 1, 2, 3 | Penalizaciones por incumplimiento de ANS: Incumplimiento leve, grave y muy grave, con penalizaciones del 2%, 5% y 20% de la media de facturación mensual de los últimos seis meses, respectivamente. Límite: 10% del precio del contrato por penalización, 50% total. | ANEXO VIII, p.2 |
+| Criterios de adjudicación Lote 1, 2, 3 | Penalizaciones específicas por incumplimiento de hitos de transición: 30% del importe de la fase de transición. | ANEXO VIII, p.2 |
+| Criterios de adjudicación Lote 1, 2, 3 | Penalizaciones por incumplimiento de ANS: Porcentaje máximo por ANS leve: 2%; por ANS muy grave: 20%. | ANEXO C, p.30 |
+| Criterios de adjudicación Lote 1, 2, 3 | Criterios de anormalidad: Si la oferta económica no se acepta tras justificación, el licitador queda excluido. | PCAP CP001522024.pdf, p.9 |
+| Criterios de adjudicación Lote 1, 2, 3 | No se han identificado criterios de adjudicación adicionales fuera de los recogidos en Anexo XI. | ANEXO XI, Lote 1, 2, 3, p.1-2 |
+
+# Discrepancias y pendientes de aclaración
+
+No se han identificado discrepancias en la documentación revisada.

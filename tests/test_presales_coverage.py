@@ -87,6 +87,23 @@ class PresalesCoverageTests(unittest.TestCase):
             self.assertEqual(payload['Payload']['Messages']['items'][1]['Content'], 'DOCUMENTOS COMPLETOS SIN RECORTAR')
         self.assertIn('CONTROL DE REGENERACIÓN', sent[1]['Payload']['Messages']['items'][0]['Content'])
 
+    def test_managed_output_limit_archives_one_response_and_defers_to_subdivision(self):
+        data = {'DataSource': {'finish_reason': 'length', 'ChatResponse': 'Salida incompleta.'}}
+        response = Mock(ok=True, status_code=200)
+        response.json.return_value = data
+        cfg = {'timeout_seconds': '10', 'max_retries': '3', 'gpt_url': 'https://druid.invalid',
+               'tenant_id': '1', 'bot_id': 'test', 'operation_id': 'test', '_delivery_managed': True}
+        with tempfile.TemporaryDirectory() as folder, \
+                patch.object(app, 'output_directory', return_value=Path(folder)), \
+                patch.object(app.requests, 'post', return_value=response) as post:
+            with self.assertRaisesRegex(app.DruidOutputLimitError, 'límite de salida'):
+                app._call_druid_gpt_once('Sistema', 'Bloque', cfg, 'test-token')
+            post.assert_called_once()
+            path, = Path(folder).glob('druid/respuesta_rechazada_*.json')
+            saved = json.loads(path.read_text(encoding='utf-8'))
+            self.assertEqual(saved['respuesta_api'], data)
+            self.assertEqual(saved['intento'], 1)
+
     def test_profiles_scope_does_not_require_transversal_company_inventory(self):
         prompt = app.build_profiles_system_prompt()
         self.assertNotIn('REQUISITOS OBLIGATORIOS DEL DOCUMENTO IA - FUENTES', prompt)
@@ -185,6 +202,22 @@ class PresalesCoverageTests(unittest.TestCase):
         self.assertEqual([p['TimeoutInSeconds'] for p, _ in sent], [180, 360])
         self.assertEqual([t for _, t in sent], [210, 390])
         self.assertEqual([p['full'] for p, _ in sent], ['documentos íntegros'] * 2)
+
+    def test_managed_timeout_returns_control_after_the_first_request(self):
+        cfg = {'timeout_seconds': '180', 'max_retries': '3', 'gpt_url': 'https://druid.invalid',
+               '_delivery_managed': True}
+        for status, message in ((504, ''), (408, ''), (500, 'The operation timed out.')):
+            with self.subTest(status=status), \
+                    patch.object(app, 'build_druid_gpt_payload', return_value={}), \
+                    patch.object(app, 'save_druid_error_debug', return_value='diagnostico.json'), \
+                    patch.object(app.requests, 'post', return_value=Mock(
+                        ok=False, status_code=status, text=message)) as post, \
+                    patch.object(app.time, 'sleep') as sleep:
+                with self.assertRaises(app.DruidCallError) as error:
+                    app._call_druid_gpt_once('sistema', 'entrada completa', cfg, 'test-token')
+                self.assertTrue(error.exception.timed_out)
+                post.assert_called_once()
+                sleep.assert_not_called()
 
     def test_numeric_index_does_not_duplicate_full_pages_or_remove_original_documents(self):
         from capa1_requirements import numeric_source_index

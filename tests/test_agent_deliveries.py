@@ -3,7 +3,7 @@ import unittest
 from unittest.mock import patch
 from pathlib import Path
 
-from agent_deliveries import run_deliveries, slices, merge_outputs
+from agent_deliveries import DruidOutputLimitError, run_deliveries, slices, merge_outputs
 from oportunidades import DocumentRef, ExtractedDocument, DruidCallError
 
 
@@ -68,6 +68,61 @@ class DeliveriesTests(unittest.TestCase):
             self.assertEqual(calls[0], 3900)
             self.assertTrue(all(n <= 2100 for n in calls[1:]))
 
+    def test_full_first_timeout_packs_documents_and_resumes_without_probing_again(self):
+        calls = []
+        docs = [self.doc('A' * 2200), self.doc('B' * 2600), self.doc('C' * 1100)]
+
+        def invoke(batch, partial, previous):
+            names = ''.join(doc.text[0] for doc in batch)
+            calls.append((names, partial, previous))
+            if not partial:
+                raise DruidCallError('timeout', status_code=504)
+            return f'Hechos de {names}'
+
+        with tempfile.TemporaryDirectory() as folder:
+            result = run_deliveries(docs, invoke, folder, {'agent': 'A2'},
+                                    size=4000, minimum=1000, full_first=True)
+            self.assertEqual(calls, [('ABC', False, ''), ('A', True, ''), ('BC', True, 'Hechos de A')])
+            self.assertIn('Hechos de BC', result)
+            self.assertEqual(run_deliveries(docs, invoke, folder, {'agent': 'A2'},
+                                            size=4000, minimum=1000, full_first=True), result)
+            self.assertEqual(len(calls), 3)
+
+    def test_compact_merge_keeps_sources_without_empty_duplicate_registry(self):
+        header = '# Registro documental\n| Materia | Requisito completo | Fuente |\n|---|---|---|\n'
+        first = header + '| Plazo | Diez días | PCAP p. 3 |'
+        duplicate = header + '| Vencimiento | Diez  días | PCAP p. 3 |'
+        other_source = header + '| Plazo | Diez días | PPT p. 4 |'
+        result, count = merge_outputs([first, duplicate, other_source, 'Resumen.', 'Resumen.'], compact=True)
+        self.assertEqual(count, 1)
+        self.assertEqual(result.count('Requisito completo'), 2)
+        self.assertEqual(result.count('Resumen.'), 1)
+        self.assertIn('PCAP p. 3', result)
+        self.assertIn('PPT p. 4', result)
+
+    def test_output_limit_splits_only_the_failed_block_and_resumes(self):
+        docs = [self.doc('A' * 2200), self.doc('B' * 2600), self.doc('C' * 1100)]
+        calls = []
+
+        def invoke(batch, partial, previous):
+            names = ''.join(doc.text[0] for doc in batch)
+            calls.append(names)
+            if not partial:
+                raise DruidCallError('gateway', status_code=504)
+            if names == 'BC':
+                raise DruidOutputLimitError('Respuesta truncada')
+            return f'Hechos de {names}'
+
+        with tempfile.TemporaryDirectory() as folder:
+            result = run_deliveries(docs, invoke, folder, {'agent': 'A9'},
+                                    size=4000, minimum=1000, full_first=True)
+            self.assertEqual(calls, ['ABC', 'A', 'BC', 'B', 'B', 'C'])
+            self.assertNotIn('Respuesta truncada', result)
+            self.assertEqual(result.count('Hechos de A'), 1)
+            self.assertEqual(run_deliveries(docs, invoke, folder, {'agent': 'A9'},
+                                            size=4000, minimum=1000, full_first=True), result)
+            self.assertEqual(len(calls), 6)
+
     def test_changed_sources_are_rejected(self):
         with tempfile.TemporaryDirectory() as folder:
             run_deliveries([self.doc('antes')], lambda *a: 'ok', folder, {'agent': 'A2'}, size=4000, minimum=1000)
@@ -79,7 +134,8 @@ class DeliveriesTests(unittest.TestCase):
             def fail(*args):
                 raise DruidCallError('forbidden', status_code=403)
             with self.assertRaises(DruidCallError):
-                run_deliveries([self.doc('X' * 3900)], fail, folder, {'agent': 'A2'}, size=4000, minimum=1000)
+                run_deliveries([self.doc('X' * 3900)], fail, folder, {'agent': 'A2'}, size=4000, minimum=1000,
+                               full_first=True)
             self.assertEqual(len(list(Path(folder).glob('entrega_*.json'))), 1)
 
     @patch('agent_deliveries.time.sleep')

@@ -3,10 +3,12 @@ import io
 import json
 import tempfile
 import unittest
+from dataclasses import asdict
 from pathlib import Path
 from unittest.mock import patch
 
 import oportunidades as app
+from agent_deliveries import LEGACY_DELIVERY_CODE, run_deliveries
 from capas import LAYER_ONE, LAYER_TWO_CONTEXT
 from pypdf import PdfReader
 
@@ -148,7 +150,7 @@ class LayerTests(unittest.TestCase):
             self.assertEqual(app.parse_args().capa, "1")
 
     def test_one_call_per_extractor_with_full_documents_and_no_fragment_review(self):
-        full_text = 'INICIO ' + ('contenido documental ' * 2000) + ' FIN_DOCUMENTO'
+        full_text = 'INICIO ' + ('contenido documental ' * 8000) + ' FIN_DOCUMENTO'
         self.documents[0].text = full_text
         with tempfile.TemporaryDirectory() as folder, contextlib.ExitStack() as stack:
             stack.enter_context(patch.object(app, 'ROOT', Path(folder)))
@@ -167,6 +169,46 @@ class LayerTests(unittest.TestCase):
             for record in sections.processing_records.values():
                 self.assertEqual(record['modo'], 'entregas_guardadas')
                 self.assertFalse(record['documentos'][0]['texto_compactado'])
+
+    def test_resume_reuses_preexisting_specialist_plan(self):
+        directory = app.ROOT / 'resumenes' / 'A2' / 'old-run'
+        signature = {'agent': 'A2', 'tender': asdict(self.tender),
+                     'target': dict.fromkeys(('gpt_url', 'bot_id', 'operation_id', 'tenant_id')),
+                     'code': LEGACY_DELIVERY_CODE}
+        run_deliveries(self.documents, lambda *args: 'Respuesta guardada', directory, signature)
+
+        with patch.dict('os.environ', {'DRUID_DELIVERY_CHARS': '50000', 'DRUID_DELIVERY_MIN_CHARS': '6000'}):
+            result = app.execute_agent_deliveries('A2', 'Administrativo', self.tender, self.documents, [],
+                                                   {'_delivery_run_id': 'old-run'}, '',
+                                                   lambda *args: self.fail('El resultado ya estaba guardado'))
+        self.assertEqual(result, 'Respuesta guardada')
+
+    def test_timeout_partitions_only_the_affected_specialist(self):
+        self.documents[0].text = 'Datos íntegros. ' * 500
+        calls = {}
+
+        def specialist(aid):
+            def invoke(tender, batch, warnings, *args):
+                config = args[-2]
+                partial = config['_delivery_partial']
+                calls.setdefault(aid, []).append(partial)
+                if aid == 'A2' and not partial:
+                    raise app.DruidCallError('timeout', status_code=504)
+                return 'Resultado de ' + aid
+            return invoke
+
+        with contextlib.ExitStack() as stack:
+            stack.enter_context(patch.dict('os.environ', {
+                'DRUID_DELIVERY_CHARS': '4000', 'DRUID_DELIVERY_MIN_CHARS': '1000',
+            }))
+            stack.enter_context(contextlib.redirect_stdout(io.StringIO()))
+            for aid, _, _, method in LAYER_ONE:
+                stack.enter_context(patch.object(app, method, side_effect=specialist(aid)))
+            app.run_agent_layers(self.tender, self.documents, [], {}, 'token', '1')
+        self.assertGreater(len(calls['A2']), 2)
+        self.assertFalse(calls['A2'][0])
+        self.assertTrue(all(calls['A2'][1:]))
+        self.assertTrue(all(attempts == [False] for aid, attempts in calls.items() if aid != 'A2'))
 
     def test_exact_capa1_command_saves_all_agents_and_generates_legible_pdf(self):
         config = {key: 'configured' for key in ('auth_url', 'gpt_url', 'username', 'password', 'tenant')}

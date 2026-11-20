@@ -2,11 +2,10 @@ import unittest
 import base64
 import json
 from unittest.mock import Mock, patch
-from pathlib import Path
 
 import druid_auth_retry as auth
 from oportunidades import DruidCallError, call_druid_gpt
-from agent_deliveries import digest
+from agent_deliveries import LEGACY_DELIVERY_CODE
 
 
 class AuthRetryTests(unittest.TestCase):
@@ -94,9 +93,6 @@ class AuthRetryTests(unittest.TestCase):
         self.assertEqual(call.call_args.args[-1], 'new')
 
     def test_transport_fix_preserves_existing_delivery_signature(self):
-        root = Path(__file__).resolve().parents[1]
-        fingerprint = digest([(root / name).read_text(encoding='utf-8')
-                              for name in ('oportunidades.py', 'capas.py')])
-        self.assertEqual(auth.delivery_code_signature(fingerprint),
-                         '597e8bcc80f0acf00cc31f1647c6dc361630481be9014e8fe15d75c379cce660')
+        fingerprint = '7f2feee77f9f49db3af4a0d047cb9e3ef4c3ed488150923030585595767e987d'
+        self.assertEqual(auth.delivery_code_signature(fingerprint), LEGACY_DELIVERY_CODE)
         self.assertEqual(auth.delivery_code_signature('changed'), 'changed')

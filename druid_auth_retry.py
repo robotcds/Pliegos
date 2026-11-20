@@ -36,9 +36,16 @@ def register_token(token, metadata=None):
         interval = min(interval, max(0, lifetime - min(120, max(0, lifetime) * .2)))
     _token_deadlines[token] = now + interval
 
-# Exact code fingerprints only: this transport fix does not change prompts.
+# Exact code fingerprints for transport and recovery changes that preserve checkpoints.
 # Any later code change must still invalidate incompatible delivery checkpoints.
-COMPATIBLE_DELIVERY_CODE = {'6f95c72dbe6b7495fff9ff880194eb4121f1a388f64c0b8a70e3fdd23a053bb6': '597e8bcc80f0acf00cc31f1647c6dc361630481be9014e8fe15d75c379cce660', '7f2feee77f9f49db3af4a0d047cb9e3ef4c3ed488150923030585595767e987d': '597e8bcc80f0acf00cc31f1647c6dc361630481be9014e8fe15d75c379cce660'}
+COMPATIBLE_DELIVERY_CODE = {
+    '6f95c72dbe6b7495fff9ff880194eb4121f1a388f64c0b8a70e3fdd23a053bb6':
+        '597e8bcc80f0acf00cc31f1647c6dc361630481be9014e8fe15d75c379cce660',
+    '7f2feee77f9f49db3af4a0d047cb9e3ef4c3ed488150923030585595767e987d':
+        '597e8bcc80f0acf00cc31f1647c6dc361630481be9014e8fe15d75c379cce660',
+    'eba7d7f1aeebf9f4d214f2673ffbdd24de38e0f49727cb4c8ae598d5cc399461':
+        '1ce089cc0adce0cc728faf42d99ed920f643e67f77e6bf49419e5a342a3d4655',
+}
 
 
 def delivery_code_signature(fingerprint):

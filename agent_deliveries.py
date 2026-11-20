@@ -8,6 +8,14 @@ import time
 
 
 VERSION = 1
+SPECIALIST_DELIVERY_CHARS = 150000
+EDITORIAL_DELIVERY_CHARS = 75000
+LEGACY_DELIVERY_CHARS = 50000
+LEGACY_DELIVERY_CODE = '597e8bcc80f0acf00cc31f1647c6dc361630481be9014e8fe15d75c379cce660'
+
+
+class DruidOutputLimitError(ValueError):
+    """Druid confirmó que agotó el límite de generación."""
 
 
 def digest(value):
@@ -25,7 +33,15 @@ def save(path, value):
 
 def retryable(exc):
     # Do not split authentication, permission, configuration or arbitrary failures.
-    return getattr(exc, 'status_code', None) in (504,) or getattr(exc, 'timed_out', False)
+    return getattr(exc, 'status_code', None) in (408, 504) or getattr(exc, 'timed_out', False)
+
+
+def subdivision_reason(exc):
+    if isinstance(exc, DruidOutputLimitError):
+        return 'límite de salida'
+    if retryable(exc):
+        return 'timeout'
+    return None
 
 
 def slices(text, size, overlap=500):
@@ -60,9 +76,26 @@ def split_documents(documents, size):
     return result
 
 
-def merge_outputs(outputs):
-    """Only identical registry rows (including their source) can be deduplicated."""
+def pack_documents(documents, size):
+    """Llena entregas en orden, conservando íntegros los documentos que caben."""
+    batch, length = [], 0
+    for doc in documents:
+        parts = ([piece[0] for piece in split_documents([doc], size)]
+                 if len(doc.text) > size else [doc])
+        for part in parts:
+            if batch and length + len(part.text) > size:
+                yield batch
+                batch, length = [], 0
+            batch.append(part)
+            length += len(part.text)
+    if batch:
+        yield batch
+
+
+def merge_outputs(outputs, *, compact=False):
+    """Elimina duplicados sin confundir requisitos o referencias diferentes."""
     seen = set()
+    seen_outputs = set()
     removed = 0
     blocks = []
     for index, output in enumerate(outputs, 1):
@@ -75,18 +108,38 @@ def merge_outputs(outputs):
             elif registry and not line.lstrip().startswith('|'):
                 registry = False
             elif registry and len(cells) == 3 and all(cells) and not all(re.fullmatch(r'[: -]+', s) for s in cells):
-                key = tuple(cells)
+                key = tuple(' '.join(cell.split()) for cell in cells[1:]) if compact else tuple(cells)
                 if key in seen:
                     removed += 1
                     continue
                 seen.add(key)
             lines.append(line)
+        if compact:
+            # Elimina las cabeceras de registros que ya no tienen filas.
+            cleaned = []
+            empty_registry = False
+            for number, line in enumerate(lines):
+                if re.fullmatch(r'\s*\|\s*Materia\s*\|\s*Requisito completo\s*\|\s*Fuente\s*\|\s*', line, re.I):
+                    if (number + 1 < len(lines) and re.fullmatch(r'[|:\s-]+', lines[number + 1])
+                            and (number + 2 == len(lines) or not lines[number + 2].lstrip().startswith('|'))):
+                        empty_registry = True
+                        continue
+                if re.fullmatch(r'\s*\|[|:\s-]+', line) and (not cleaned or not cleaned[-1].lstrip().startswith('|')):
+                    continue
+                cleaned.append(line)
+            lines = cleaned
+            if empty_registry and not any(line.strip() and not line.lstrip().startswith('#') for line in lines):
+                continue
+            output_key = tuple(' '.join(line.split()) for line in lines if line.strip())
+            if output_key in seen_outputs:
+                continue
+            seen_outputs.add(output_key)
         blocks.append(f'## Entrega {index}\n\n' + '\n'.join(lines))
     return '\n\n'.join(blocks), removed
 
 
 def run_deliveries(documents, invoke, directory, signature, *, size=50000,
-                   minimum=6000, validate=None, consolidate=None):
+                   minimum=6000, validate=None, consolidate=None, full_first=False, pack=False):
     """invoke(batch, partial, previous) must return a complete response or raise.
 
     Successful leaves are preserved verbatim. Consolidation is an additional view,
@@ -96,6 +149,9 @@ def run_deliveries(documents, invoke, directory, signature, *, size=50000,
         raise ValueError('DELIVERY_CHARS debe ser >= 2 * DELIVERY_MIN_CHARS (mínimo 1000)')
     directory = Path(directory)
     directory.mkdir(parents=True, exist_ok=True)
+    strategy = 'completo_primero' if full_first else 'lotes_agrupados' if pack else ''
+    if strategy:
+        signature = {**signature, 'estrategia': strategy}
     identity = digest({'version': VERSION, 'signature': signature, 'size': size,
                        'minimum': minimum, 'documents': [asdict(d) for d in documents]})
     manifest = directory / 'plan.json'
@@ -108,6 +164,8 @@ def run_deliveries(documents, invoke, directory, signature, *, size=50000,
         state = {'identity': identity, 'estado': 'pendiente', 'version': VERSION,
                  'documentos': [{'nombre': d.ref.name, 'caracteres': len(d.text),
                                  'sha256': digest(d.text)} for d in documents]}
+        if strategy:
+            state.update(estrategia=strategy, caracteres_por_entrega=size)
         save(manifest, state)
 
     def work(batch, key, partial, previous='', depth=0):
@@ -127,11 +185,14 @@ def run_deliveries(documents, invoke, directory, signature, *, size=50000,
         record = {'request_hash': request_hash, 'estado': 'pendiente',
                   'fuentes': [{'nombre': d.ref.name, 'origen': d.ref.source,
                                'caracteres': len(d.text)} for d in batch]}
-        length = max((len(d.text) for d in batch), default=0)
-        terminal = depth >= 8 or (len(batch) == 1 and length <= minimum)
+        length = (sum(len(d.text) for d in batch) if strategy
+                  else max((len(d.text) for d in batch), default=0))
+        terminal = depth >= 8 or ((strategy or len(batch) == 1) and length <= minimum)
+        reason = None
         if not split:
             save(target, record)
-            print(f'  Entrega {key}: {sum(len(d.text) for d in batch)} caracteres', flush=True)
+            label = f" (entrada completa de {signature['agent']})" if full_first and not partial and 'agent' in signature else ''
+            print(f'  Entrega {key}: {sum(len(d.text) for d in batch)} caracteres{label}', flush=True)
             try:
                 # At the smallest leaf a transient gateway timeout must not
                 # immediately discard the run. Keep retries bounded and retain
@@ -160,13 +221,19 @@ def run_deliveries(documents, invoke, directory, signature, *, size=50000,
             except Exception as exc:
                 record.update(estado='fallida', error_tipo=type(exc).__name__)
                 save(target, record)
-                if not retryable(exc):
+                reason = subdivision_reason(exc)
+                if not reason:
                     raise
         if terminal:
-            raise RuntimeError(f'La entrega {key} sigue agotando el tiempo con el tamaño mínimo. '
+            explanation = ('sigue alcanzando el límite de salida' if reason == 'límite de salida'
+                           else 'sigue agotando el tiempo')
+            raise RuntimeError(f'La entrega {key} {explanation} con el tamaño mínimo. '
                                f'Progreso conservado en {directory}; revisa Druid y usa --reanudar.')
-        new_size = max(minimum, min(size, length // 2))
-        children = split_documents(batch, new_size)
+        new_size = size if full_first and not partial and length > size else max(minimum, min(size, length // 2))
+        children = list(pack_documents(batch, new_size)) if strategy else split_documents(batch, new_size)
+        if not split and (strategy or reason == 'límite de salida'):
+            print(f'  Entrega {key}: {reason}; se divide en {len(children)} bloques de hasta {new_size} caracteres.',
+                  flush=True)
         record.update(estado='dividida', partes=len(children))
         save(target, record)
         outputs = []
@@ -176,14 +243,16 @@ def run_deliveries(documents, invoke, directory, signature, *, size=50000,
         return outputs
 
     total = sum(len(d.text) for d in documents)
-    batches = split_documents(documents, size) if total > size else [documents]
+    batches = [documents]
+    if not full_first and total > size:
+        batches = list(pack_documents(documents, size)) if pack else split_documents(documents, size)
     outputs = []
     for index, batch in enumerate(batches, 1):
         previous = outputs[-1][-2500:] if outputs else ''
         outputs.extend(work(batch, f'entrega_{index:04d}', len(batches) > 1, previous))
     if not outputs:
         raise ValueError('No hay texto para procesar')
-    combined, duplicates = (outputs[0], 0) if len(outputs) == 1 else merge_outputs(outputs)
+    combined, duplicates = (outputs[0], 0) if len(outputs) == 1 else merge_outputs(outputs, compact=full_first)
     if consolidate and len(outputs) > 1:
         def synthesize(group, final, depth=0):
             key = digest({'identity': identity, 'group': group, 'final': final})
@@ -197,13 +266,14 @@ def run_deliveries(documents, invoke, directory, signature, *, size=50000,
                     raise ValueError('Síntesis vacía')
             except Exception as exc:
                 save(path, {'key': key, 'estado': 'fallida', 'error_tipo': type(exc).__name__})
-                if not retryable(exc) or depth >= 8 or len(group) <= minimum:
+                reason = subdivision_reason(exc)
+                if not reason or depth >= 8 or len(group) <= minimum:
                     raise
                 halves = [group[a:b] for a, b in slices(group, max(1000, len(group) // 2), overlap=0)]
                 partials = [synthesize(part, False, depth + 1) for part in halves]
                 merged = '\n\n'.join(partials)
                 if len(merged) >= len(group):
-                    raise RuntimeError('La síntesis no reduce el contexto tras timeout; progreso guardado') from exc
+                    raise RuntimeError(f'La síntesis no reduce el contexto tras {reason}; progreso guardado') from exc
                 value = synthesize(merged, final, depth + 1)
             save(path, {'key': key, 'estado': 'completada', 'respuesta': value})
             return value
